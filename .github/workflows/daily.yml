@@ -1,0 +1,35 @@
+name: Daily Reads
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # 7am ET (noon UTC)
+  workflow_dispatch:  # manual trigger
+
+jobs:
+  daily-reads:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Daily Reads
+        run: python main.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push Pages update
+        run: |
+          git config user.name "daily-reads-bot"
+          git config user.email "bot@daily-reads"
+          git add docs/ feedback_log.json selection_criteria.md
+          git diff --staged --quiet || git commit -m "Daily reads $(date -u +%Y-%m-%d)"
+          git push
