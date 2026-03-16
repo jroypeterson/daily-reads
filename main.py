@@ -5,6 +5,7 @@ import os
 import re
 import sys
 from datetime import datetime, timezone
+from urllib.parse import urlencode
 
 import anthropic
 import requests
@@ -33,6 +34,15 @@ def section(title: str):
     print(f"\n{'='*60}")
     print(f"  {title}")
     print(f"{'='*60}\n")
+
+
+def feedback_url(date: str, slot: int, score: int, headline: str) -> str:
+    """Generate a pre-filled GitHub Issue URL for one-tap feedback."""
+    truncated = headline[:80]
+    title = f"Feedback: {date} slot{slot} score{score}"
+    body = f"Article: {truncated}\n\nOptional note: "
+    params = urlencode({"labels": "feedback", "title": title, "body": body})
+    return f"https://github.com/jroypeterson/daily-reads/issues/new?{params}"
 
 
 # ---------------------------------------------------------------------------
@@ -268,12 +278,16 @@ def deliver_gmail(articles: list[dict]):
   <p style="margin: 8px 0;">{a.get('summary', '')}</p>
   <p style="color: #e94560; font-style: italic; margin: 8px 0;">💡 {a.get('why_it_matters', '')}</p>
   <p style="margin: 8px 0;"><a href="{a.get('url', '#')}" style="color: #0fbcf9;">Read article →</a></p>
+  <p style="margin: 8px 0;">
+    <a href="{feedback_url(today, slot, 5, a.get('headline', ''))}" style="text-decoration: none; background: #1a1a40; border: 1px solid #333; border-radius: 4px; padding: 4px 10px; color: #eee; font-size: 13px; margin-right: 6px;">👍 Good pick</a>
+    <a href="{feedback_url(today, slot, 1, a.get('headline', ''))}" style="text-decoration: none; background: #1a1a40; border: 1px solid #333; border-radius: 4px; padding: 4px 10px; color: #eee; font-size: 13px;">👎 Not useful</a>
+  </p>
   <p style="color: #666; font-size: 11px;">Signals: {', '.join(a.get('signal_tags', []))}</p>
 </div>
 """
         html += """
 <hr style="border-color: #333; margin: 24px 0;">
-<p style="color: #666; font-size: 12px;">Rate these articles at
+<p style="color: #666; font-size: 12px;">Or rate at
 <a href="https://jroypeterson.github.io/daily-reads" style="color: #0fbcf9;">jroypeterson.github.io/daily-reads</a></p>
 </body></html>"""
 
@@ -312,6 +326,8 @@ def deliver_slack(articles: list[dict]):
     for a in articles:
         slot = a.get("slot", 0)
         emoji = slot_emojis.get(slot, ":pushpin:")
+        up_url = feedback_url(today, slot, 5, a.get("headline", ""))
+        down_url = feedback_url(today, slot, 1, a.get("headline", ""))
         blocks.append({
             "type": "section",
             "text": {
@@ -320,7 +336,8 @@ def deliver_slack(articles: list[dict]):
                     f"{emoji} *<{a.get('url', '#')}|{a.get('headline', 'Untitled')}>*\n"
                     f"_{a.get('source', '')} · Slot {slot}_\n\n"
                     f"{a.get('summary', '')}\n\n"
-                    f"💡 _{a.get('why_it_matters', '')}_"
+                    f"💡 _{a.get('why_it_matters', '')}_\n\n"
+                    f"<{up_url}|:thumbsup: Good pick>  <{down_url}|:thumbsdown: Not useful>"
                 ),
             },
         })
