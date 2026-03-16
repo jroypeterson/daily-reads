@@ -278,7 +278,7 @@ def deliver_gmail(articles: list[dict]):
 </body></html>"""
 
         msg = MIMEText(html, "html")
-        msg["to"] = "jasonrpeterson@gmail.com"
+        msg["to"] = "jroypeterson@gmail.com"
         msg["subject"] = f"📰 Daily Reads — {today}"
         raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
