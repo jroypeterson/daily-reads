@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Reads</title>
+  <title>Daily Reads — 2026-03-16</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -12,16 +12,211 @@
       max-width: 800px; margin: 0 auto;
     }
     h1 { color: #e94560; margin-bottom: 8px; font-size: 28px; }
+    .updated { color: #666; font-size: 13px; margin-bottom: 24px; }
+    .card {
+      background: #16213e; border-radius: 12px; padding: 20px;
+      margin-bottom: 20px; border-left: 4px solid #e94560;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-2px); }
+    .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .slot-emoji { font-size: 24px; }
+    .slot-label { color: #a8a8b3; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
+    .card h2 { font-size: 18px; margin-bottom: 8px; }
+    .card h2 a { color: #0fbcf9; text-decoration: none; }
+    .card h2 a:hover { text-decoration: underline; }
+    .meta { color: #a8a8b3; font-size: 13px; margin-bottom: 12px; }
+    .summary { line-height: 1.6; margin-bottom: 10px; }
+    .why { color: #e94560; font-style: italic; margin-bottom: 10px; }
+    .tags { color: #666; font-size: 12px; margin-bottom: 12px; }
+    .feedback { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .fb-btn {
+      background: #1a1a40; border: 1px solid #333; border-radius: 6px;
+      padding: 6px 12px; cursor: pointer; font-size: 18px;
+      transition: background 0.2s;
+    }
+    .fb-btn:hover { background: #2a2a50; }
+    .fb-btn.selected { background: #e94560; border-color: #e94560; }
+    .fb-note {
+      background: #1a1a40; border: 1px solid #333; border-radius: 6px;
+      padding: 6px 10px; color: #eee; flex: 1; min-width: 120px;
+    }
+    .fb-submit {
+      background: #e94560; color: white; border: none; border-radius: 6px;
+      padding: 6px 14px; cursor: pointer; font-size: 13px;
+    }
+    .fb-submit:hover { background: #c7385a; }
+    .fb-status { color: #4caf50; font-size: 12px; margin-left: 8px; }
     .empty { text-align: center; padding: 60px 20px; color: #666; }
   </style>
 </head>
 <body>
   <h1>📰 Daily Reads</h1>
-  <div class="empty">
-    <p>No articles yet. The first daily run will populate this page.</p>
-    <p style="margin-top: 12px; font-size: 13px; color: #444;">
-      Runs daily at 7am ET via GitHub Actions.
-    </p>
+  <p class="updated">Last updated: 2026-03-16 20:13 UTC</p>
+
+  <div id="cards">
+
+      <div class="card" data-slot="1" data-date="2026-03-16">
+        <div class="card-header">
+          <span class="slot-emoji">🧬</span>
+          <span class="slot-label">Slot 1</span>
+        </div>
+        <h2><a href="https://www.statnews.com/2026/03/16/structure-therapeutics-obesity-pill-aleniglipron-weight-loss/" target="_blank">Structure's Obesity Pill Shows 15% Weight Loss, Challenging Novo and Lilly</a></h2>
+        <p class="meta">STAT News/Bloomberg · 2026-03-16</p>
+        <p class="summary"><cite index="7-1,7-4">Structure Therapeutics reported its daily obesity pill aleniglipron led patients to lose about 16% of their body weight relative to placebo after 44 weeks in Phase 2 results.</cite> <cite index="7-6,7-7">This compares favorably to Eli Lilly's orforglipron, which achieved only 11% weight loss in a 72-week trial, with Lilly's pill expected to win FDA approval in coming weeks.</cite> <cite index="4-1">Structure's shares rose on the news as the data shows it's shaping up to rival new oral treatments from market leaders Novo Nordisk and Eli Lilly.</cite></p>
+        <p class="why">💡 Oral GLP-1s could democratize obesity treatment by being cheaper and easier to take than injections, with Structure potentially disrupting the duopoly of Novo/Lilly in this massive market.</p>
+        <p class="tags">healthcare_primary, ticker_match:LLY, catalyst_proximity, high_novelty</p>
+        <div class="feedback">
+          <button class="fb-btn" onclick="rate(this, 1, 5)">👍</button>
+          <button class="fb-btn" onclick="rate(this, 1, 1)">👎</button>
+          <input type="text" class="fb-note" placeholder="Optional note..." id="note-1">
+          <button class="fb-submit" onclick="submitFeedback(1)">Send</button>
+        </div>
+      </div>
+
+      <div class="card" data-slot="1" data-date="2026-03-16">
+        <div class="card-header">
+          <span class="slot-emoji">🧬</span>
+          <span class="slot-label">Slot 1</span>
+        </div>
+        <h2><a href="https://www.biospace.com/drug-development/denalis-hunter-syndrome-candidate-in-the-spotlight-after-regenxbio-rejection" target="_blank">REGENXBIO Rejection Puts Spotlight on Denali's Hunter Syndrome Drug Decision</a></h2>
+        <p class="meta">BioSpace · 2026-03-16</p>
+        <p class="summary"><cite index="11-1,11-3">The FDA's rejection of REGENXBIO's Hunter syndrome gene therapy in February has raised urgent questions about whether Denali Therapeutics can clear the agency's bar with its decision expected next month.</cite> <cite index="12-4,12-12">The FDA rejected REGENXBIO's therapy due to issues with study population, controls, and surrogate endpoints, saying there was insufficient evidence the biomarker was reasonably likely to predict clinical benefit.</cite> <cite index="13-7,13-8">Analysts remain 70-80% confident in Denali's approval as its trial enrolled 47 patients versus REGENXBIO's 13, with better-defined patient criteria.</cite></p>
+        <p class="why">💡 Hunter syndrome affects 500 boys in the U.S. with no approved treatments for neurological symptoms, making Denali potentially first-to-market in April despite the FDA's increasingly strict rare disease stance.</p>
+        <p class="tags">ticker_match:DNLI, catalyst_proximity, FDA_decision_April_5, rare_disease_regulatory_risk</p>
+        <div class="feedback">
+          <button class="fb-btn" onclick="rate(this, 1, 5)">👍</button>
+          <button class="fb-btn" onclick="rate(this, 1, 1)">👎</button>
+          <input type="text" class="fb-note" placeholder="Optional note..." id="note-1">
+          <button class="fb-submit" onclick="submitFeedback(1)">Send</button>
+        </div>
+      </div>
+
+      <div class="card" data-slot="3" data-date="2026-03-16">
+        <div class="card-header">
+          <span class="slot-emoji">🤖</span>
+          <span class="slot-label">Slot 3</span>
+        </div>
+        <h2><a href="https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai" target="_blank">Nvidia Launches Vera CPU Purpose-Built for Agentic AI</a></h2>
+        <p class="meta">NVIDIA · 2026-03-16</p>
+        <p class="summary"><cite index="24-1">NVIDIA launched the Vera CPU, the world's first processor purpose-built for agentic AI and reinforcement learning, delivering results with twice the efficiency and 50% faster than traditional rack-scale CPUs.</cite> <cite index="21-2,21-8">The Vera CPU is purpose-built for agentic reasoning, coordinating data movement and workflows across AI systems, serving as both GPU host and compute backbone for real-time agentic processing and orchestration.</cite> <cite index="24-4">Leading hyperscalers including Alibaba, CoreWeave, Meta and Oracle are collaborating to deploy Vera.</cite></p>
+        <p class="why">💡 As AI shifts from simple chatbots to multi-agent reasoning systems, specialized CPU infrastructure becomes critical, potentially opening a new revenue stream for NVIDIA beyond its GPU dominance.</p>
+        <p class="tags">ticker_match:NVDA, AI_infrastructure, agentic_AI_trend, hyperscaler_adoption</p>
+        <div class="feedback">
+          <button class="fb-btn" onclick="rate(this, 3, 5)">👍</button>
+          <button class="fb-btn" onclick="rate(this, 3, 1)">👎</button>
+          <input type="text" class="fb-note" placeholder="Optional note..." id="note-3">
+          <button class="fb-submit" onclick="submitFeedback(3)">Send</button>
+        </div>
+      </div>
+
+      <div class="card" data-slot="4" data-date="2026-03-16">
+        <div class="card-header">
+          <span class="slot-emoji">🌀</span>
+          <span class="slot-label">Slot 4</span>
+        </div>
+        <h2><a href="https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/" target="_blank">Polymarket Gamblers Threaten Journalist Over Iran Story That Could Affect Bets</a></h2>
+        <p class="meta">Times of Israel · 2026-03-16</p>
+        <p class="summary">A journalist reports receiving death threats from Polymarket gamblers who want him to rewrite coverage of Iran missile developments that could affect their prediction market bets. The incident highlights how financial incentives in prediction markets can create perverse pressures on information providers and journalists. This represents a concerning intersection of financial speculation and information integrity in decentralized betting platforms.</p>
+        <p class="why">💡 Shows how prediction markets can create dangerous incentives that compromise journalistic independence and information quality, with implications for market manipulation and platform governance.</p>
+        <p class="tags">prediction_markets, information_integrity, platform_governance, wildcard_curiosity</p>
+        <div class="feedback">
+          <button class="fb-btn" onclick="rate(this, 4, 5)">👍</button>
+          <button class="fb-btn" onclick="rate(this, 4, 1)">👎</button>
+          <input type="text" class="fb-note" placeholder="Optional note..." id="note-4">
+          <button class="fb-submit" onclick="submitFeedback(4)">Send</button>
+        </div>
+      </div>
+
   </div>
+
+  <script>
+    const REPO = 'jroypeterson/daily-reads';
+    const today = '2026-03-16';
+    let ratings = {};
+
+    function rate(btn, slot, score) {
+      // Toggle selection
+      const card = btn.closest('.card');
+      card.querySelectorAll('.fb-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      ratings[slot] = score;
+    }
+
+    async function submitFeedback(slot) {
+      const note = document.getElementById('note-' + slot)?.value || '';
+      const score = ratings[slot];
+      if (!score) { alert('Click 👍 or 👎 first'); return; }
+
+      const entry = {
+        date: today,
+        slot: slot,
+        score: score,
+        note: note,
+        source: 'github_pages'
+      };
+
+      // Try to update feedback_log.json via GitHub API
+      const token = new URLSearchParams(window.location.search).get('token');
+      if (!token) {
+        // Fallback: show the JSON for manual submission
+        const card = document.querySelector(`[data-slot="${slot}"]`);
+        let status = card.querySelector('.fb-status');
+        if (!status) {
+          status = document.createElement('span');
+          status.className = 'fb-status';
+          card.querySelector('.feedback').appendChild(status);
+        }
+        status.textContent = '✓ Feedback recorded locally';
+        console.log('Feedback:', JSON.stringify(entry));
+
+        // Store in localStorage as backup
+        let stored = JSON.parse(localStorage.getItem('daily-reads-feedback') || '[]');
+        stored.push(entry);
+        localStorage.setItem('daily-reads-feedback', JSON.stringify(stored));
+        return;
+      }
+
+      try {
+        // Fetch current file
+        const fileResp = await fetch(
+          `https://api.github.com/repos/${REPO}/contents/feedback_log.json`,
+          { headers: { 'Authorization': `token ${token}` } }
+        );
+        const fileData = await fileResp.json();
+        const content = JSON.parse(atob(fileData.content));
+        content.push(entry);
+
+        // Update file
+        await fetch(
+          `https://api.github.com/repos/${REPO}/contents/feedback_log.json`,
+          {
+            method: 'PUT',
+            headers: {
+              'Authorization': `token ${token}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              message: `Feedback: slot ${slot} rated ${score}`,
+              content: btoa(JSON.stringify(content, null, 2)),
+              sha: fileData.sha
+            })
+          }
+        );
+
+        const card = document.querySelector(`[data-slot="${slot}"]`);
+        let status = card.querySelector('.fb-status');
+        if (!status) {
+          status = document.createElement('span');
+          status.className = 'fb-status';
+          card.querySelector('.feedback').appendChild(status);
+        }
+        status.textContent = '✓ Saved!';
+      } catch (e) {
+        console.error('Feedback submit failed:', e);
+        alert('Failed to save feedback. Check console.');
+      }
+    }
+  </script>
 </body>
 </html>
