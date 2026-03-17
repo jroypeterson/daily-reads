@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "date": "2026-03-16",
+    "slot": 1,
+    "score": 5,
+    "note": "",
+    "source": "github_issue"
+  }
+]
