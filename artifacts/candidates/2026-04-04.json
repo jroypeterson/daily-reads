@@ -1,10 +1,10 @@
 {
   "run_date": "2026-04-04",
-  "generated_at": "2026-04-04T12:37:55Z",
+  "generated_at": "2026-04-04T21:37:55Z",
   "counts": {
     "gmail_candidates": 1,
-    "tier2_candidates": 89,
-    "total_candidates": 90
+    "tier2_candidates": 88,
+    "total_candidates": 89
   },
   "gmail_candidates": [
     {
@@ -41,12 +41,61 @@
   ],
   "tier2_candidates": [
     {
+      "candidate_id": "b1332c8e2fc92d78",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Show HN: A game where you build a GPU",
+      "snippet": "Show HN: A game where you build a GPU",
+      "primary_url": "https://jaso1024.com/mvidia/",
+      "urls": [
+        "https://jaso1024.com/mvidia/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 345,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:345",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "4894c51fb1ccbe57",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "How many products does Microsoft have named 'Copilot'?",
+      "snippet": "How many products does Microsoft have named 'Copilot'?",
+      "primary_url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "urls": [
+        "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 166,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:166",
+        "category:tech_ai",
+        "ticker:MSFT"
+      ]
+    },
+    {
       "candidate_id": "646309421160928b",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
-      "snippet": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "headline": "Embarrassingly simple self-distillation improves code generation",
+      "snippet": "Embarrassingly simple self-distillation improves code generation",
       "primary_url": "https://arxiv.org/abs/2604.01193",
       "urls": [
         "https://arxiv.org/abs/2604.01193"
@@ -54,40 +103,90 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 111,
+      "score": 466,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:111",
+        "hn_score:466",
         "category:tech_ai",
-        "ticker:AAPL",
         "ticker:GBIO"
       ]
     },
     {
-      "candidate_id": "ccf0b5b315efe199",
+      "candidate_id": "8751b9775762344f",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "The CMS is dead. Long live the CMS",
-      "snippet": "The CMS is dead. Long live the CMS",
-      "primary_url": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "headline": "Show HN: TurboQuant-WASM \u2013 Google's vector quantization in the browser",
+      "snippet": "Show HN: TurboQuant-WASM \u2013 Google's vector quantization in the browser",
+      "primary_url": "https://github.com/teamchong/turboquant-wasm",
       "urls": [
-        "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms"
+        "https://github.com/teamchong/turboquant-wasm"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 14,
+      "score": 105,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:14",
+        "hn_score:105",
         "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "e376c314a36136bc",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "snippet": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "primary_url": "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs",
+      "urls": [
+        "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 256,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:256",
+        "category:tech_ai",
+        "ticker:AAPL",
+        "ticker:NVDA"
+      ]
+    },
+    {
+      "candidate_id": "99bfe3cdfb5b0a5c",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Author of \"Careless People\" banned from saying anything negative about Meta",
+      "snippet": "Author of \"Careless People\" banned from saying anything negative about Meta",
+      "primary_url": "https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf",
+      "urls": [
+        "https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 613,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:613",
+        "category:tech_ai",
+        "ticker:META"
       ]
     },
     {
@@ -104,62 +203,377 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 64,
+      "score": 218,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:64",
+        "hn_score:218",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "01263c67ff6bd7d1",
+      "candidate_id": "940209765638cb51",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Artemis II crew take \u201cspectacular\u201d image of Earth",
-      "snippet": "Artemis II crew take \u201cspectacular\u201d image of Earth",
-      "primary_url": "https://www.bbc.com/news/articles/ce8jzr423p9o",
+      "headline": "Components of a Coding Agent",
+      "snippet": "Components of a Coding Agent",
+      "primary_url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
       "urls": [
-        "https://www.bbc.com/news/articles/ce8jzr423p9o"
+        "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 822,
+      "score": 111,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:822",
+        "hn_score:111",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "6e9655216ad74473",
+      "candidate_id": "2679ae35cd52974d",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "iNaturalist",
-      "snippet": "iNaturalist",
-      "primary_url": "https://www.inaturalist.org/",
+      "headline": "The Indie Internet Index \u2013 submit your favorite sites",
+      "snippet": "The Indie Internet Index \u2013 submit your favorite sites",
+      "primary_url": "https://iii.social",
       "urls": [
-        "https://www.inaturalist.org/"
+        "https://iii.social"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 452,
+      "score": 49,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:452",
+        "hn_score:49",
         "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "eb18965cc4a5e266",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Emotion concepts and their function in a large language model",
+      "snippet": "Emotion concepts and their function in a large language model",
+      "primary_url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "urls": [
+        "https://www.anthropic.com/research/emotion-concepts-function"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 109,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:109",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "19a6f37d74649a69",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
+      "snippet": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
+      "primary_url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 63,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:63",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "69e1d776e984fdf1",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Scientists observe an immune signaling complex forming inside cells",
+      "snippet": "Scientists observe an immune signaling complex forming inside cells",
+      "primary_url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
+      "urls": [
+        "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 75,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:75",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "ccf0b5b315efe199",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The CMS is dead, long live the CMS",
+      "snippet": "The CMS is dead, long live the CMS",
+      "primary_url": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "urls": [
+        "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 93,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:93",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "dc2f81a6274dc610",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
+      "snippet": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
+      "primary_url": "https://www.bloomberg.com/features/2025-bottlenecks-transformers/",
+      "urls": [
+        "https://www.bloomberg.com/features/2025-bottlenecks-transformers/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 42,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:42",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "e170f3975d49f330",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Ruckus: Racket for iOS",
+      "snippet": "Ruckus: Racket for iOS",
+      "primary_url": "https://ruckus.defn.io/",
+      "urls": [
+        "https://ruckus.defn.io/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 8,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:8",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "6ca250951118e9d6",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Plague Ships (2020)",
+      "snippet": "Plague Ships (2020)",
+      "primary_url": "https://www.afloat.com.au/feature/plague-ships/",
+      "urls": [
+        "https://www.afloat.com.au/feature/plague-ships/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 27,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:27",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "d35ca5bd2674c0af",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Sopwith \u2013 1984 Game (2000)",
+      "snippet": "Sopwith \u2013 1984 Game (2000)",
+      "primary_url": "http://www.sopwith.org/",
+      "urls": [
+        "http://www.sopwith.org/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 56,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:56",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "d67546db141f7fb9",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Show HN: sllm \u2013 Split a GPU node with other developers, unlimited tokens",
+      "snippet": "Show HN: sllm \u2013 Split a GPU node with other developers, unlimited tokens",
+      "primary_url": "https://sllm.cloud",
+      "urls": [
+        "https://sllm.cloud"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 84,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:84",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "7e6de0e4a5946bb9",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "snippet": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "primary_url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "urls": [
+        "https://mtlynch.io/claude-code-found-linux-vulnerability/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 317,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:317",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "fa9820b0dccc08ba",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The Cathedral, the Bazaar, and the Winchester Mystery House",
+      "snippet": "The Cathedral, the Bazaar, and the Winchester Mystery House",
+      "primary_url": "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html",
+      "urls": [
+        "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 132,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:132",
+        "category:tech_ai",
+        "ticker:HESTERBIO"
+      ]
+    },
+    {
+      "candidate_id": "4cd9dc675ac15ee6",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
+      "snippet": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
+      "primary_url": "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf",
+      "urls": [
+        "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 16,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:16",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "436579303e078163",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "When legal sports betting surges, so do Americans' financial problems",
+      "snippet": "When legal sports betting surges, so do Americans' financial problems",
+      "primary_url": "https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy",
+      "urls": [
+        "https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 104,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:104",
+        "category:tech_ai",
+        "ticker:AMWL",
+        "subsector:HIT"
       ]
     },
     {
@@ -187,77 +601,27 @@
       ]
     },
     {
-      "candidate_id": "3ac7a486d3bfd00c",
+      "candidate_id": "8e342b25fe2d6a9f",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "OpenClaw privilege escalation vulnerability",
-      "snippet": "OpenClaw privilege escalation vulnerability",
-      "primary_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+      "headline": "Notes from from Butterick's Practical Typography",
+      "snippet": "Notes from from Butterick's Practical Typography",
+      "primary_url": "https://adamadam.blog/2026/04/01/my-notes-from-buttericks-practical-typography/",
       "urls": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-33579"
+        "https://adamadam.blog/2026/04/01/my-notes-from-buttericks-practical-typography/"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 417,
+      "score": 19,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:417",
+        "hn_score:19",
         "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "fa9820b0dccc08ba",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The Cathedral, the Bazaar, and the Winchester Mystery House",
-      "snippet": "The Cathedral, the Bazaar, and the Winchester Mystery House",
-      "primary_url": "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html",
-      "urls": [
-        "https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 7,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:7",
-        "category:tech_ai",
-        "ticker:HESTERBIO"
-      ]
-    },
-    {
-      "candidate_id": "33d3b54978862f6b",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Herbie: Automatically improve imprecise floating point formulas",
-      "snippet": "Herbie: Automatically improve imprecise floating point formulas",
-      "primary_url": "https://herbie.uwplse.org/doc/latest/tutorial.html",
-      "urls": [
-        "https://herbie.uwplse.org/doc/latest/tutorial.html"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 142,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:142",
-        "category:tech_ai",
-        "ticker:ADAP"
       ]
     },
     {
@@ -274,502 +638,87 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 17,
+      "score": 82,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:17",
+        "hn_score:82",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "1df4bbde2db6ce71",
+      "candidate_id": "835a586e728ea4df",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Delve removed from Y Combinator",
-      "snippet": "Delve removed from Y Combinator",
-      "primary_url": "https://www.ycombinator.com/companies/delve",
+      "headline": "Why the most valuable things you know are things you cannot say",
+      "snippet": "Why the most valuable things you know are things you cannot say",
+      "primary_url": "https://deadneurons.substack.com/p/why-the-most-valuable-things-you",
       "urls": [
-        "https://www.ycombinator.com/companies/delve"
+        "https://deadneurons.substack.com/p/why-the-most-valuable-things-you"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 362,
+      "score": 83,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:362",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "c6f4fbabcc5083ce",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Run Linux containers on Android, no root required",
-      "snippet": "Run Linux containers on Android, no root required",
-      "primary_url": "https://github.com/ExTV/Podroid",
-      "urls": [
-        "https://github.com/ExTV/Podroid"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 150,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:150",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "f3cdab73a221d910",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Improving my focus by giving up my big monitor",
-      "snippet": "Improving my focus by giving up my big monitor",
-      "primary_url": "https://ounapuu.ee/posts/2026/04/01/focus/",
-      "urls": [
-        "https://ounapuu.ee/posts/2026/04/01/focus/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 110,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:110",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "c790a14ceadfad3c",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
-      "snippet": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
-      "primary_url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
-      "urls": [
-        "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 331,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:331",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "5e2effa229605617",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "What changes when you turn a Linux box into a router",
-      "snippet": "What changes when you turn a Linux box into a router",
-      "primary_url": "https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/",
-      "urls": [
-        "https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 185,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:185",
-        "category:tech_ai",
-        "ticker:BOX"
-      ]
-    },
-    {
-      "candidate_id": "6886c59d167f4053",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The Technocracy Movement of the 1930s",
-      "snippet": "The Technocracy Movement of the 1930s",
-      "primary_url": "https://donotresearch.substack.com/p/welcome-to-the-technocracy",
-      "urls": [
-        "https://donotresearch.substack.com/p/welcome-to-the-technocracy"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 120,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:120",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "7e6de0e4a5946bb9",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
-      "snippet": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
-      "primary_url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-      "urls": [
-        "https://mtlynch.io/claude-code-found-linux-vulnerability/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 78,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:78",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "e7b42599ea742e64",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Go on Embedded Systems and WebAssembly",
-      "snippet": "Go on Embedded Systems and WebAssembly",
-      "primary_url": "https://tinygo.org/",
-      "urls": [
-        "https://tinygo.org/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 170,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:170",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "a2702a111aaf8220",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Build your own Dial-up ISP with a Raspberry Pi",
-      "snippet": "Build your own Dial-up ISP with a Raspberry Pi",
-      "primary_url": "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/",
-      "urls": [
-        "https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 173,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:173",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "2ff367dcdb71c3cc",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Big-Endian Testing with QEMU",
-      "snippet": "Big-Endian Testing with QEMU",
-      "primary_url": "https://www.hanshq.net/big-endian-qemu.html",
-      "urls": [
-        "https://www.hanshq.net/big-endian-qemu.html"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 99,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:99",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "d8b99ff973c25c87",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "F-15E jet shot down over Iran",
-      "snippet": "F-15E jet shot down over Iran",
-      "primary_url": "https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran",
-      "urls": [
-        "https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 513,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:513",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "bae61dd96b7e030a",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "How to make a sliding, self-locking, and predator-proof chicken coop door (2020)",
-      "snippet": "How to make a sliding, self-locking, and predator-proof chicken coop door (2020)",
-      "primary_url": "https://www.backyardchickens.com/articles/how-to-make-a-sliding-self-locking-and-predator-proof-chicken-coop-door.75906/",
-      "urls": [
-        "https://www.backyardchickens.com/articles/how-to-make-a-sliding-self-locking-and-predator-proof-chicken-coop-door.75906/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 111,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:111",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "3b6c539cc015cde3",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Sequential Optimal Packing for PCB Placement",
-      "snippet": "Sequential Optimal Packing for PCB Placement",
-      "primary_url": "https://blog.autorouting.com/p/sequential-optimal-packing-for-pcb",
-      "urls": [
-        "https://blog.autorouting.com/p/sequential-optimal-packing-for-pcb"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 13,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:13",
-        "category:tech_ai",
-        "ticker:OPT"
-      ]
-    },
-    {
-      "candidate_id": "b98d3d3450325c3f",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Scientists are working on \"everything vaccines\"",
-      "snippet": "Scientists are working on \"everything vaccines\"",
-      "primary_url": "https://economist.com/science-and-technology/2026/04/01/scientists-are-working-on-everything-vaccines",
-      "urls": [
-        "https://economist.com/science-and-technology/2026/04/01/scientists-are-working-on-everything-vaccines"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 40,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:40",
+        "hn_score:83",
         "category:tech_ai",
         "ticker:ARE"
       ]
     },
     {
-      "candidate_id": "65a7faaded7d9669",
+      "candidate_id": "7a18f59bc29f529c",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Tesla Is Sitting on a Record 50k Unsold EVs",
-      "snippet": "Tesla Is Sitting on a Record 50k Unsold EVs",
-      "primary_url": "https://insideevs.com/news/791999/tesla-unsold-inventory-record-q1-2026/",
+      "headline": "German men 18-45 need military permit for extended stays abroad",
+      "snippet": "German men 18-45 need military permit for extended stays abroad",
+      "primary_url": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
       "urls": [
-        "https://insideevs.com/news/791999/tesla-unsold-inventory-record-q1-2026/"
+        "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 41,
+      "score": 308,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:41",
+        "hn_score:308",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "fc90f85830c867dc",
+      "candidate_id": "01263c67ff6bd7d1",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Fake Fans",
-      "snippet": "Fake Fans",
-      "primary_url": "https://www.wordsfromeliza.com/p/fake-fans",
+      "headline": "Artemis II crew take \u201cspectacular\u201d image of Earth",
+      "snippet": "Artemis II crew take \u201cspectacular\u201d image of Earth",
+      "primary_url": "https://www.bbc.com/news/articles/ce8jzr423p9o",
       "urls": [
-        "https://www.wordsfromeliza.com/p/fake-fans"
+        "https://www.bbc.com/news/articles/ce8jzr423p9o"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 123,
+      "score": 1001,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:123",
+        "hn_score:1001",
         "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "9421931dddcc47bd",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The house is a work of art: Frank Lloyd Wright",
-      "snippet": "The house is a work of art: Frank Lloyd Wright",
-      "primary_url": "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition",
-      "urls": [
-        "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 90,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:90",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "4f3e4143ab1193d2",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Why are we still using Markdown?",
-      "snippet": "Why are we still using Markdown?",
-      "primary_url": "https://bgslabs.org/blog/why-are-we-using-markdown/",
-      "urls": [
-        "https://bgslabs.org/blog/why-are-we-using-markdown/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 147,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:147",
-        "category:tech_ai",
-        "ticker:ARE"
-      ]
-    },
-    {
-      "candidate_id": "03ce1e60c1cf7030",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset",
-      "snippet": "Gold overtakes U.S. Treasuries as the largest foreign reserve asset",
-      "primary_url": "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr",
-      "urls": [
-        "https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 219,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:219",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "c2c5a31d8e4c9221",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "BioPharma Dive",
-      "headline": "Trump revives pharma tariffs with 100% charges, but leaves loopholes",
-      "snippet": "&quot;Section 232&quot; national security levies won't apply to a wide array of drugs, meaning the &quot;overall threat to the sector should be low,&quot; according to one analyst.",
-      "primary_url": "https://www.biopharmadive.com/news/trump-revives-pharma-tariffs-100-percent-levies/816584/",
-      "urls": [
-        "https://www.biopharmadive.com/news/trump-revives-pharma-tariffs-100-percent-levies/816584/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:NHI",
-        "ticker:PSG",
-        "subsector:HIT"
       ]
     },
     {
@@ -797,173 +746,6 @@
         "ticker:HCAT",
         "ticker:HR",
         "ticker:PSG",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "af869141a428f047",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: NIH would get $5 billion cut under Trump\u2019s 2027 budget, but Congress unlikely to go along",
-      "snippet": "The White House is asking Congress to cut $5 billion from the National Institutes of Health and downsize the number of institutes and centers from 27 to 22",
-      "primary_url": "https://www.statnews.com/2026/04/03/trump-budget-nih-5-billion-cut-in-2027/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/2026/04/03/trump-budget-nih-5-billion-cut-in-2027/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:NHI",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "adda895678252995",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: White House proposes 12% cut to federal health agencies in 2027 budget request",
-      "snippet": "Congress largely ignored President Trump's previous budget proposal, instead boosting federal health spending.",
-      "primary_url": "https://www.statnews.com/2026/04/03/trump-budget-health-care-12-percent-cut-hhs/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/2026/04/03/trump-budget-health-care-12-percent-cut-hhs/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:DGX",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Labs",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "aae47fa0a482cf9b",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: Up and down the ladder: The latest comings and goings",
-      "snippet": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "primary_url": "https://www.statnews.com/pharmalot/2026/04/03/pharma-biotech-jobs-gilead-astrazeneca-bayer-novavax/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/pharmalot/2026/04/03/pharma-biotech-jobs-gilead-astrazeneca-bayer-novavax/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ARE",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:PSG",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "8b9c6a1ff3c486c7",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: Biotech investors\u2019 plea to Trump, and a busy M&A week",
-      "snippet": "Smaller biotechs move to negotiate with White House, medicine's trust gap, and other biotech news from The Readout",
-      "primary_url": "https://www.statnews.com/2026/04/03/biotech-news-smaller-investors-plea-with-trump-drug-tariffs/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/2026/04/03/biotech-news-smaller-investors-plea-with-trump-drug-tariffs/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:MOVE",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Spine/Ortho",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "2a20a67f70dd25db",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: Pharmalittle: We\u2019re reading about Trump\u2019s drug tariffs, a U.S.-U.K. pharma trade deal, and more",
-      "snippet": "The Trump administration announced 100% tariffs on imported brand-name drugs, but with significant caveats",
-      "primary_url": "https://www.statnews.com/pharmalot/2026/04/03/trump-pharma-tariffs-uk-trade-deal/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/pharmalot/2026/04/03/trump-pharma-tariffs-uk-trade-deal/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:DRUG",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:PSG",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "49336c8fed7a8a8d",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "Thursday was World Autism Awareness Day. HHS celebrated with\u2026a workout?",
-      "snippet": "Implications of SCOTUS' conversion therapy ruling, Trump hikes drug tariffs, and more Morning Rounds updates",
-      "primary_url": "https://www.statnews.com/2026/04/03/health-news-hhs-works-it-for-autism-awareness-day/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/2026/04/03/health-news-hhs-works-it-for-autism-awareness-day/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:DAY",
-        "ticker:DRUG",
-        "ticker:HCAT",
-        "ticker:HR",
         "subsector:HIT"
       ]
     },
@@ -1305,120 +1087,6 @@
       ]
     },
     {
-      "candidate_id": "4291844c65b5fa9b",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "CommonSpirit, Cigna reach agreement for Tennessee, Georgia",
-      "snippet": "CommonSpirit Health\u2019s Tennessee and Georgia facilities (formerly CHI Memorial), is back in network with Cigna Healthcare, according to an insurer statement shared with Becker&#8217;s April 3. &#8220;We have reached an agreement that will keep CommonSpirit in our network. We look forward to continuin",
-      "primary_url": "https://www.beckerspayer.com/contracting/commonspirit-cigna-go-out-of-network-in-tennessee-georgia/",
-      "urls": [
-        "https://www.beckerspayer.com/contracting/commonspirit-cigna-go-out-of-network-in-tennessee-georgia/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:CI",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Mgd Care",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "f2ef0a4f7fe97b27",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "CMS Innovation Center spent $7.9B in 1 decade: 7 notes",
-      "snippet": "The Congressional Budget Office estimated the CMS Innovation Center spent $7.9 billion from 2011 through 2020, a March 27 report from the Government Accountability Office said. While some models have been expanded beyond testing, the Innovation Center has seen mixed results since it kicked off in fi",
-      "primary_url": "https://www.beckerspayer.com/policy-updates/cms-innovation-center-spent-7-9b-in-1-decade-6-notes/",
-      "urls": [
-        "https://www.beckerspayer.com/policy-updates/cms-innovation-center-spent-7-9b-in-1-decade-6-notes/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "5d445deb362ad63f",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "7 payer M&A updates",
-      "snippet": "From several mergers in the managed care space to Kaiser&#8217;s entry into Nevada, these are seven payer industry M&#38;A updates previously reported by Becker&#8217;s. 1. Carolina Complete Health and WellCare of North Carolina, both Centene subsidiaries, secured regulatory approval in April to mov",
-      "primary_url": "https://www.beckerspayer.com/m-and-a/7-payer-ma-updates/",
-      "urls": [
-        "https://www.beckerspayer.com/m-and-a/7-payer-ma-updates/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ARE",
-        "ticker:CNC",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Mgd Care",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "d69dec42a104fbc1",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "Medicare Advantage growth tied to $111B in program-wide savings: Elevance",
-      "snippet": "From 2012 to 2021, savings across Medicare are estimated to have been $111 billion compared to if Medicare Advantage penetration held at 2011 levels, according to an Elevance Public Policy Institute study published March 23 in INQUIRY: The Journal of Health Care Organization, Provision, and Financin",
-      "primary_url": "https://www.beckerspayer.com/research-analysis/medicare-advantage-growth-tied-to-111b-program-wide-savings-elevance/",
-      "urls": [
-        "https://www.beckerspayer.com/research-analysis/medicare-advantage-growth-tied-to-111b-program-wide-savings-elevance/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ARE",
-        "ticker:ELV",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:CCRN",
-        "subsector:Mgd Care",
-        "subsector:HIT",
-        "subsector:Nurse staffing"
-      ]
-    },
-    {
       "candidate_id": "44951336ca958f15",
       "run_date": "2026-04-04",
       "source_type": "tier2",
@@ -1668,41 +1336,15 @@
       ]
     },
     {
-      "candidate_id": "62d7170a649c0d5e",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "KFF Health News",
-      "headline": "How Medicaid Contractors Stand To Gain From Trump\u2019s Policy",
-      "snippet": "Get our weekly newsletter, The Week in Brief, featuring a roundup of our original coverage, Fridays at 2 p.m. ET.",
-      "primary_url": "https://kffhealthnews.org/news/article/the-week-in-brief-deloitte-medicaid-contractors-trump-big-beautiful-bill/",
-      "urls": [
-        "https://kffhealthnews.org/news/article/the-week-in-brief-deloitte-medicaid-contractors-trump-big-beautiful-bill/"
-      ],
-      "category": "healthcare_policy",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_policy",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "2d69deb4fdecbfb5",
+      "candidate_id": "4441991969178337",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "MarketWatch",
-      "headline": "Palantir pioneered the hottest job in tech. Its legions of copycats may not succeed.",
-      "snippet": "The forward-deployed engineer is the big hope of software companies and job seekers. The role\u2019s inventors say many of them are missing the point.",
-      "primary_url": "https://www.marketwatch.com/story/palantir-pioneered-the-hottest-job-in-tech-its-legions-of-copycats-may-not-succeed-bdd581e3?mod=mw_rss_topstories",
+      "headline": "The 5 highest-paid college basketball players this year: No. 1 is making $4.2 million from NIL",
+      "snippet": "As the Final Four of March Madness tips off, multiple athletes are now earning over $1 million from NIL deals",
+      "primary_url": "https://www.marketwatch.com/story/the-5-highest-paid-college-basketball-players-this-year-no-1-is-making-4-2-million-from-nil-963cbc7a?mod=mw_rss_topstories",
       "urls": [
-        "https://www.marketwatch.com/story/palantir-pioneered-the-hottest-job-in-tech-its-legions-of-copycats-may-not-succeed-bdd581e3?mod=mw_rss_topstories"
+        "https://www.marketwatch.com/story/the-5-highest-paid-college-basketball-players-this-year-no-1-is-making-4-2-million-from-nil-963cbc7a?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -1715,89 +1357,19 @@
         "source_type:tier2",
         "category:finance_macro",
         "ticker:ARE",
-        "ticker:TECH",
-        "subsector:Tools"
+        "ticker:NOW"
       ]
     },
     {
-      "candidate_id": "6a007e87e4d13ca4",
+      "candidate_id": "78ad201e65614370",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "MarketWatch",
-      "headline": "There\u2019s a new ETF for memory stocks. History suggests that might be an ominous sign.",
-      "snippet": "\u201cIf history is a guide, this is precisely the time you want to be selling memory-exposed names,\u201d market technician says.",
-      "primary_url": "https://www.marketwatch.com/story/theres-a-new-etf-for-memory-stocks-history-suggests-that-might-be-an-ominous-sign-44573f52?mod=mw_rss_topstories",
+      "headline": "What\u2019s an \u2018E-shaped\u2019 economy \u2014 and where do you fit in it?",
+      "snippet": "The middle class is at the center of the changing shape of the economy. Here\u2019s what you need to know.",
+      "primary_url": "https://www.marketwatch.com/story/whats-an-e-shaped-economy-and-where-do-you-fit-in-it-a1192908?mod=mw_rss_topstories",
       "urls": [
-        "https://www.marketwatch.com/story/theres-a-new-etf-for-memory-stocks-history-suggests-that-might-be-an-ominous-sign-44573f52?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "80fe933a3e02be2a",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "\u2018I\u2019d like to be a superhost\u2019: Is it unethical to use AI in my Airbnb photos to market my property?",
-      "snippet": "\u201cNo matter what I do, the beds still look a bit creased and worn, even grubby, in pictures.\u201d",
-      "primary_url": "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/id-like-to-be-a-superhost-is-it-unethical-to-use-ai-in-my-airbnb-photos-to-market-my-property-67c0db11?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "14e3e5db987d7a7a",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "\u2018I feel overwhelmed\u2019: I\u2019m 56 and have a $60,000 SEP IRA. Is it too late for me?",
-      "snippet": "\u201cMy husband has a pension, but I worry that if he passes before me, I could be left with nothing.\u201d",
-      "primary_url": "https://www.marketwatch.com/story/i-feel-overwhelmed-im-56-and-have-a-60-000-sep-ira-is-it-too-late-for-me-3671eba9?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/i-feel-overwhelmed-im-56-and-have-a-60-000-sep-ira-is-it-too-late-for-me-3671eba9?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "8f3d8edf28348763",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition",
-      "snippet": "The less \u201cantagonistic\u201d tone of TBPN resonated with a Silicon Valley audience. Now the show is going mainstream.",
-      "primary_url": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories"
+        "https://www.marketwatch.com/story/whats-an-e-shaped-economy-and-where-do-you-fit-in-it-a1192908?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -1809,21 +1381,140 @@
       "derived_signals": [
         "source_type:tier2",
         "category:finance_macro",
-        "ticker:NOW",
-        "ticker:TALK",
+        "ticker:4016"
+      ]
+    },
+    {
+      "candidate_id": "f24ab166eb34fd6d",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "In today\u2019s job market, it\u2019s more \u2018show me a desk\u2019 than \u2018show me the money\u2019",
+      "snippet": "Job security is a growing priority for workers. Here\u2019s where they can find it.",
+      "primary_url": "https://www.marketwatch.com/story/in-todays-job-market-its-more-show-me-a-desk-than-show-me-the-money-3b66754e?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/in-todays-job-market-its-more-show-me-a-desk-than-show-me-the-money-3b66754e?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "b4ad8dd2a4d396c3",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Buyers finally have leverage in the housing market. Here are 3 smart ways to use it.",
+      "snippet": "Though house hunters face challenges from rising mortgage rates and climbing home prices, the power is now in their hands.",
+      "primary_url": "https://www.marketwatch.com/story/buyers-finally-have-leverage-in-the-housing-market-here-are-3-smart-ways-to-use-it-49abcfa3?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/buyers-finally-have-leverage-in-the-housing-market-here-are-3-smart-ways-to-use-it-49abcfa3?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:NOW"
+      ]
+    },
+    {
+      "candidate_id": "2393dcb0560f304d",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Private-credit crisis or growing pains? Why the \u2018Big Six\u2019 banks are a safer bet.",
+      "snippet": "Stress in private credit makes the relative stability of major U.S. banks look increasingly attractive.",
+      "primary_url": "https://www.marketwatch.com/story/private-credit-crisis-or-growing-pains-why-the-big-six-banks-are-a-safer-bet-ab4f5145?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/private-credit-crisis-or-growing-pains-why-the-big-six-banks-are-a-safer-bet-ab4f5145?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "8f0300a2ff0b24f3",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Gas-tax breaks sound tempting at $4 a gallon. Too bad they don\u2019t actually work.",
+      "snippet": "Suspending taxes may win votes \u2014 but the math doesn\u2019t add up for drivers.",
+      "primary_url": "https://www.marketwatch.com/story/gas-tax-holidays-sound-tempting-at-4-a-gallon-too-bad-they-dont-actually-work-b20e2441?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/gas-tax-holidays-sound-tempting-at-4-a-gallon-too-bad-they-dont-actually-work-b20e2441?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "630ba430f11a150c",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "\u2018Mass layoffs by email might be the new norm\u2019 as Oracle lays off thousands that way",
+      "snippet": "The cloud-computing and database company began cutting jobs on Tuesday, with many workers being alerted over email.",
+      "primary_url": "https://www.marketwatch.com/story/fired-via-email-some-of-the-30-000-workers-cut-by-oracle-woke-up-to-a-morning-message-saying-they-were-laid-off-89a7af94?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/fired-via-email-some-of-the-30-000-workers-cut-by-oracle-woke-up-to-a-morning-message-saying-they-were-laid-off-89a7af94?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:WAY",
+        "ticker:ORCL",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "ad73e74272eb8e7a",
+      "candidate_id": "90af6f7e8a18ad8b",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "MarketWatch",
-      "headline": "My wife and I buy promotional CDs with our tax-refund check. Is now a bad time to switch to Treasurys?",
-      "snippet": "\u201cWe have no experience with Treasurys .\u201d",
-      "primary_url": "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories",
+      "headline": "Want to watch every Yankees game on TV this year? It\u2019ll cost you over $1,200.",
+      "snippet": "To show how expensive and complicated it can be to watch all of an MLB team\u2019s games, we looked at the Yankees, who will appear on 10 different networks or streaming platforms this season.",
+      "primary_url": "https://www.marketwatch.com/story/want-to-watch-all-of-the-yankees-games-on-tv-this-season-itll-cost-you-over-1-200-1bdc9ac5?mod=mw_rss_topstories",
       "urls": [
-        "https://www.marketwatch.com/story/my-wife-and-i-buy-promotional-cds-with-our-tax-refund-check-is-now-a-bad-time-to-switch-to-treasurys-e19841aa?mod=mw_rss_topstories"
+        "https://www.marketwatch.com/story/want-to-watch-all-of-the-yankees-games-on-tv-this-season-itll-cost-you-over-1-200-1bdc9ac5?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -1835,20 +1526,19 @@
       "derived_signals": [
         "source_type:tier2",
         "category:finance_macro",
-        "ticker:NOW",
-        "ticker:CHKP"
+        "ticker:TEAM"
       ]
     },
     {
-      "candidate_id": "1bf61f1679507652",
+      "candidate_id": "b3bab742a7e9c449",
       "run_date": "2026-04-04",
       "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "\u2018This is an overlooked catastrophe\u2019: Why do so many hospitals not accept Medicare Advantage for cancer patients?",
-      "snippet": "\u201cInsurers have pushed certain cancer-care centers out of network before the end of the calendar or policy year.\u201d",
-      "primary_url": "https://www.marketwatch.com/story/this-is-an-overlooked-catastrophe-why-do-so-many-hospitals-not-accept-medicare-advantage-for-cancer-patients-130c1a13?mod=mw_rss_topstories",
+      "source_name": "NYT Business",
+      "headline": "Orion Samuelson, the Elvis Presley of Agricultural Radio, Dies at 91",
+      "snippet": "As a host at WGN in Chicago for 60 years, he shared news that was essential to farmers in a homespun style that appealed to listeners from the city.",
+      "primary_url": "https://www.nytimes.com/2026/04/04/business/media/orion-samuelson-dead.html",
       "urls": [
-        "https://www.marketwatch.com/story/this-is-an-overlooked-catastrophe-why-do-so-many-hospitals-not-accept-medicare-advantage-for-cancer-patients-130c1a13?mod=mw_rss_topstories"
+        "https://www.nytimes.com/2026/04/04/business/media/orion-samuelson-dead.html"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -1859,30 +1549,9 @@
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "42ae46f8f322d7f6",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "\u2018I plan to take out a mortgage\u2019: My father died. Should I buy the family home from my mom at a 40% discount?",
-      "snippet": "\u201cI\u2019ve been caring for my mother, and we each currently occupy a unit in the house.\u201d",
-      "primary_url": "https://www.marketwatch.com/story/i-plan-to-take-out-a-mortgage-my-father-died-should-i-buy-the-family-home-from-my-mom-at-a-40-discount-b6a3ac7b?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/i-plan-to-take-out-a-mortgage-my-father-died-should-i-buy-the-family-home-from-my-mom-at-a-40-discount-b6a3ac7b?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
+        "category:finance_macro",
+        "ticker:ORNAV",
+        "ticker:SNTI"
       ]
     },
     {
@@ -1890,7 +1559,7 @@
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "NYT Business",
-      "headline": "Trump Slashed Funding for Science. Now the U.S. Faces a Costly Brain Drain.",
+      "headline": "Trump Slashed Science Funding. Now the U.S. Could Face a Costly Brain Drain.",
       "snippet": "The White House\u2019s attacks on academia and budget cuts for research have provided an opening for other countries to poach leading scientists.",
       "primary_url": "https://www.nytimes.com/2026/04/04/business/dealbook/trump-brain-drain-academia.html",
       "urls": [
@@ -2053,15 +1722,15 @@
       ]
     },
     {
-      "candidate_id": "ee12e364b6cde31a",
+      "candidate_id": "d284376587fb614e",
       "run_date": "2026-04-04",
       "source_type": "tier2",
-      "source_name": "NYT Business",
-      "headline": "\u2018Under Protest,\u2019 Raw Dairy Farm Recalls Cheddar Linked to 9 E. Coli Cases",
-      "snippet": "Raw Farm, a dairy producer in California, denies that its products have caused the outbreak, which has sickened people in three states.",
-      "primary_url": "https://www.nytimes.com/2026/04/03/business/fda-raw-farm-cheese-recall-e-coli.html",
+      "source_name": "DealBook",
+      "headline": "Sign Up for DealBook",
+      "snippet": "Make sense of the latest business and policy headlines with our daily newsletter.",
+      "primary_url": "https://www.nytimes.com/newsletters/signup/DK",
       "urls": [
-        "https://www.nytimes.com/2026/04/03/business/fda-raw-farm-cheese-recall-e-coli.html"
+        "https://www.nytimes.com/newsletters/signup/DK"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -2076,15 +1745,15 @@
       ]
     },
     {
-      "candidate_id": "8475aabc6d458192",
+      "candidate_id": "1ad0a27ea41c1769",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Abnormal Returns",
-      "headline": "Friday links: the standards of previous generations",
-      "snippet": "",
-      "primary_url": "https://abnormalreturns.com/2026/04/03/friday-links-the-standards-of-previous-generations/",
+      "headline": "Saturday links: pursuing dreams and goals",
+      "snippet": "Saturdays we catch up with the non-finance related items that we didn\u2019t get to earlier in the week. You can check out...",
+      "primary_url": "https://abnormalreturns.com/2026/04/04/saturday-links-pursuing-dreams-and-goals/",
       "urls": [
-        "https://abnormalreturns.com/2026/04/03/friday-links-the-standards-of-previous-generations/"
+        "https://abnormalreturns.com/2026/04/04/saturday-links-pursuing-dreams-and-goals/"
       ],
       "category": "finance_macro",
       "priority": "high",
@@ -2097,7 +1766,30 @@
         "priority:high",
         "source_type:tier2",
         "category:finance_macro",
-        "ticker:GBIO"
+        "ticker:CHKP"
+      ]
+    },
+    {
+      "candidate_id": "dfabe95a2d84971f",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "The Big Picture",
+      "headline": "MiB: Songyee Yoon, Principal Venture Partners",
+      "snippet": "&#160; This week, I speak with Songyee Yoon, founder and managing partner of Principal Venture Partners. Her AI-focused investment firm established in 2024, and since 2025, she has beem a member of the board of directors of HP. We discuss her venture firm&#8217;s focus on AI-native companies, and un",
+      "primary_url": "https://ritholtz.com/2026/04/mib-songyee-yoon/",
+      "urls": [
+        "https://ritholtz.com/2026/04/mib-songyee-yoon/"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
       ]
     },
     {
@@ -2126,15 +1818,15 @@
       ]
     },
     {
-      "candidate_id": "696d3ad9a09541b5",
+      "candidate_id": "57333c121e1a9131",
       "run_date": "2026-04-04",
       "source_type": "tier2",
-      "source_name": "The Big Picture",
-      "headline": "The Evolution of Alpha",
-      "snippet": "&#160; &#160; The world of investing has changed over the first 30 years of my career. Perhaps the biggest surprise has been the gradual shift from traditional market-based pursuit of alpha to what can be best described as \u201cOrganizational Alpha.\u201d Today, I want to share key examples how this evolutio",
-      "primary_url": "https://ritholtz.com/2026/04/evolution-of-alpha/",
+      "source_name": "Marginal Revolution",
+      "headline": "Economic growth and the rise of large firms",
+      "snippet": "Rich and poor countries differ in the size distribution of business firms. This paper shows that the right tail of the firm size distribution systematically grows thicker with economic development, both within countries over time and across countries. The author develops a simple idea search model w",
+      "primary_url": "https://feeds.feedblitz.com/~/953266298/0/marginalrevolution~Economic-growth-and-the-rise-of-large-firms.html",
       "urls": [
-        "https://ritholtz.com/2026/04/evolution-of-alpha/"
+        "https://feeds.feedblitz.com/~/953266298/0/marginalrevolution~Economic-growth-and-the-rise-of-large-firms.html"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -2145,7 +1837,37 @@
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "category:finance_macro"
+        "category:finance_macro",
+        "ticker:RVMD",
+        "ticker:CCRN",
+        "subsector:Nurse staffing"
+      ]
+    },
+    {
+      "candidate_id": "80efa3040785f7db",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Saturday assorted links",
+      "snippet": "1. Nyege Nyege Tapes. 2. Does it help poets to be religious? 3. Martin Jay on Habermas. 4. U.S. prime age employment rate is near an all-time high. For a different perspective, here is NYT on AI and the job market. And new measures of AI task performance from MIT. 5. China&#8217;s AI education exper",
+      "primary_url": "https://feeds.feedblitz.com/~/953259419/0/marginalrevolution~Saturday-assorted-links.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953259419/0/marginalrevolution~Saturday-assorted-links.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:3320",
+        "ticker:CATX",
+        "ticker:PRME",
+        "ticker:RVMD"
       ]
     },
     {
@@ -2225,17 +1947,17 @@
       ]
     },
     {
-      "candidate_id": "947d39e79fe4391f",
+      "candidate_id": "112f7cd77c02a859",
       "run_date": "2026-04-04",
       "source_type": "tier2",
-      "source_name": "Marginal Revolution",
-      "headline": "My email on NBA anti-tanking rules",
-      "snippet": "I fear that bad management is a recurring problem with those teams. So perhaps no system of incentives can fix that. I am not sure that bidding and superstar teams are so unpopular with the fans, especially as the NBA has become more international. Maybe ten superstars sell the league in any case, a",
-      "primary_url": "https://feeds.feedblitz.com/~/953191388/0/marginalrevolution~My-email-on-NBA-antitanking-rules.html",
+      "source_name": "VentureBeat",
+      "headline": "OCSF explained: The shared data language security teams have been missing",
+      "snippet": "The security industry has spent the last year talking about models, copilots, and agents, but a quieter shift is happening one layer below all of that: Vendors are lining up around a shared way to describe security data. The Open Cybersecurity Schema Framework (OCSF), is emerging as one of the stron",
+      "primary_url": "https://venturebeat.com/security/ocsf-explained-the-shared-data-language-security-teams-have-been-missing",
       "urls": [
-        "https://feeds.feedblitz.com/~/953191388/0/marginalrevolution~My-email-on-NBA-antitanking-rules.html"
+        "https://venturebeat.com/security/ocsf-explained-the-shared-data-language-security-teams-have-been-missing"
       ],
-      "category": "finance_macro",
+      "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
       "score": null,
@@ -2244,34 +1966,10 @@
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "category:finance_macro",
+        "category:tech_ai",
         "ticker:ARE",
-        "ticker:NHI",
-        "ticker:RVMD"
-      ]
-    },
-    {
-      "candidate_id": "d603bf54fafba36c",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Marginal Revolution",
-      "headline": "Friday assorted links",
-      "snippet": "1. Ben Yeoh on Measure for Measure. 2. How much is a badly damaged Gentileschi worth? 3. Sabine Hossenfelder on UAP evidence. And a bit more. 4. New record as Indian painting auctions for $17.9 million. 5. On African urbanization. 6. South Africa banned TV until 1976. 7. Ping Pong Park, in France. 8",
-      "primary_url": "https://feeds.feedblitz.com/~/953181995/0/marginalrevolution~Friday-assorted-links.html",
-      "urls": [
-        "https://feeds.feedblitz.com/~/953181995/0/marginalrevolution~Friday-assorted-links.html"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:RVMD"
+        "ticker:WAY",
+        "subsector:HIT"
       ]
     },
     {
@@ -2320,6 +2018,246 @@
         "source_type:tier2",
         "category:tech_ai",
         "ticker:NOW"
+      ]
+    },
+    {
+      "candidate_id": "f25a61ea0e1d4894",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "VentureBeat",
+      "headline": "Nvidia launches enterprise AI agent platform with Adobe, Salesforce, SAP among 17 adopters at GTC 2026",
+      "snippet": "Jensen Huang walked onto the GTC stage Monday wearing his trademark leather jacket and carrying, as it turned out, the blueprints for a new kind of industry dominance.The Nvidia CEO unveiled the Agent Toolkit, an open-source platform for building autonomous AI agents, and then rattled off the names ",
+      "primary_url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+      "urls": [
+        "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:SAP",
+        "ticker:ADBE",
+        "ticker:CRM",
+        "ticker:NVDA"
+      ]
+    },
+    {
+      "candidate_id": "afdbeff415167e27",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Ars Technica AI",
+      "headline": "\"Cognitive surrender\" leads AI users to abandon logical thinking, research finds",
+      "snippet": "Experiments show large majorities uncritically accepting \"faulty\" AI answers.",
+      "primary_url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
+      "urls": [
+        "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "3cc2840f96b0172b",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Ars Technica AI",
+      "headline": "Trump ignores biggest reasons his AI data center buildout is failing",
+      "snippet": "Nearly 50% of data center projects delayed as China holds key to power infrastructure.",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/04/sad-trumps-ai-data-center-push-is-failing-blame-his-own-tariffs/",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/04/sad-trumps-ai-data-center-push-is-failing-blame-his-own-tariffs/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:3320",
+        "ticker:GPCR"
+      ]
+    },
+    {
+      "candidate_id": "4e232db69fa08585",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Ars Technica AI",
+      "headline": "OpenClaw gives users yet another reason to be freaked out about security",
+      "snippet": "The viral AI agentic tool let attackers silently gain admin unauthenticated access.",
+      "primary_url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+      "urls": [
+        "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "29362b4768dda50e",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "A folk musician became a target for AI fakes and a copyright troll",
+      "snippet": "In January, folk artist Murphy Campbell discovered several songs on her Spotify profile that did not belong there. They were songs that she had recorded, but she'd never uploaded them to Spotify, and something was off about the vocals. She quickly surmised that someone had pulled performances of the",
+      "primary_url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+      "urls": [
+        "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:SPOT"
+      ]
+    },
+    {
+      "candidate_id": "afc1f3217c1a11be",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "Really, you made this without AI? Prove it",
+      "snippet": "\"This looks like AI.\" It's a phrase I dread seeing as a writer who dabbles in illustration and amateur photography. In a world where generative AI technology is increasingly adept at mimicking the work of humans, people are naturally skeptical when online platforms refuse to label even obvious AI co",
+      "primary_url": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+      "urls": [
+        "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "0d304fe1e00aff3a",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
+      "snippet": "Using OpenClaw with Claude AI is about to get a lot more expensive, thanks to Anthropic's new policy changes. Beginning April 4th at 3PM ET, users will \"no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw,\" according to an email sent to users on Frid",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:SNTI"
+      ]
+    },
+    {
+      "candidate_id": "df4e53b58c972084",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "OpenAI\u2019s AGI boss is taking a leave of absence",
+      "snippet": "OpenAI is undergoing another round of C-suite changes, according to an internal memo viewed by The Verge. Fidji Simo, OpenAI's CEO of AGI deployment - who was until recently the company's CEO of applications - says in the memo that she will be stepping away on medical leave \"for the next several wee",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:MPW"
+      ]
+    },
+    {
+      "candidate_id": "ddf20163448653a3",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "Unpacking Peter Thiel\u2019s big bet on solar-powered cow collars",
+      "snippet": "Why did Founders Fund invest $220 million in cattle management startup Halter?",
+      "primary_url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/",
+      "urls": [
+        "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "f02ff7717b7b8f61",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "Embattled startup Delve has \u2018parted ways\u2019 with Y Combinator",
+      "snippet": "The controversy around Delve appears to have cost the compliance startup its relationship with accelerator Y Combinator.",
+      "primary_url": "https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/",
+      "urls": [
+        "https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
       ]
     }
   ]

@@ -1,93 +1,7 @@
 {
   "run_date": "2026-04-04",
-  "generated_at": "2026-04-04T12:37:55Z",
+  "generated_at": "2026-04-04T21:37:55Z",
   "triage_queue": [
-    {
-      "candidate_id": "8b6e02e5959b6b23",
-      "run_date": "2026-04-04",
-      "source_type": "gmail",
-      "source_name": "BioSpace",
-      "headline": "Trump declares 100% pharma tariffs\u2014with exemptions",
-      "snippet": "Plus, biopharma M&amp;A full speed ahead after busy Q1 \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
-      "primary_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6XM5nR3bW7Y9pgv6lZ3lTW1PRm1782448qVlyWdf2vyFvQN68Kb8D3lDHDW2YClKl5Gpj5GW9f2YMR3Nnzy3W4_DrJG8Ll3xJW41DtGf35W61xW3SV-xJ4pkV1zN1PRCnwCBp5LW6sPT657D31bYW8Bk1106RHc4QW3jbkZM34jQM-W7CwqCb89hqnfW1b-BFh8zCFsVVLyGQM48XnZZW2_Mb_c8fg4yPW7qRrYr8Y0_Y4W8XB46T6fHSxPTvn11963gMjW2jddXN8BvnSZW3cDYl65D6JgrW2mvWfT4VzTWjW45FHkR1mndMJW4GQP5W34vgklW3JMQLL5-J4VfW1kJWt83fh0_jW411-Bm7jqkC8W6Z2bdf6qYW2FW41FpFF8v4LCYW3zLB6z3hJbvgW1NnDDq8KXtrmW2p3zZ98vL1HLW6G0yNz6GWV2GW322s9_3vKr5-W3T6CvZ81Sf-YW2-6K6C953MpfW2YG83y4HM1qcW92-60T3ty22kW7q1Lbs9gtfBfW4CFnk_1kfXB8W3_QdgP8NxKJfW9bLrqZ5g_Pb7f70dsZz04",
-      "urls": [
-        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6XM5nR3bW7Y9pgv6lZ3lTW1PRm1782448qVlyWdf2vyFvQN68Kb8D3lDHDW2YClKl5Gpj5GW9f2YMR3Nnzy3W4_DrJG8Ll3xJW41DtGf35W61xW3SV-xJ4pkV1zN1PRCnwCBp5LW6sPT657D31bYW8Bk1106RHc4QW3jbkZM34jQM-W7CwqCb89hqnfW1b-BFh8zCFsVVLyGQM48XnZZW2_Mb_c8fg4yPW7qRrYr8Y0_Y4W8XB46T6fHSxPTvn11963gMjW2jddXN8BvnSZW3cDYl65D6JgrW2mvWfT4VzTWjW45FHkR1mndMJW4GQP5W34vgklW3JMQLL5-J4VfW1kJWt83fh0_jW411-Bm7jqkC8W6Z2bdf6qYW2FW41FpFF8v4LCYW3zLB6z3hJbvgW1NnDDq8KXtrmW2p3zZ98vL1HLW6G0yNz6GWV2GW322s9_3vKr5-W3T6CvZ81Sf-YW2-6K6C953MpfW2YG83y4HM1qcW92-60T3ty22kW7q1Lbs9gtfBfW4CFnk_1kfXB8W3_QdgP8NxKJfW9bLrqZ5g_Pb7f70dsZz04",
-        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6Wz5nR3bW5BWr2F6lZ3ncW1G8NCk3nyWRKW647YCv8GfhL5W5pfszR79rWnTW2hFl4y2-4P4nW1MzCGV6q7ypcW1TJDNw70mlwvN72g_Q1px7KWW6WtLf67hrkR1W63qxyc49B9WpW3KVQm23X32d8W5VYRy_3TRlM7W3cWnhg5n-lbJW3NtCTF8jnX0TW55_YD28rCWy1W1b784Z7P1rRnW4NDvHt4dRHdqW3FKz8d6TFyy1W8NDWZd4vFhQ5W1WLCGB4h29plW28CxMs4fFJxlW3Rygyy7NbJqrN87zXvbkGlrcW7_kMVf15jV48W6vVG0w1BmlCJW3L1sYG3J-C-nW7vyNk33WmvjfW5T0ckG4XL8W9W4DxRSY3zXwGWV-JtG62y4lWcW84byLk86gfbvW99w6vf8bzp5kW4Khmgv7NS37jW8f0k8h914h-2W1P3nHK3gYmbYdnyJGY04",
-        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6WT5nR3bW69t95C6lZ3mvW9jhp1p1NV_9xW10ljS_6RNyrsW2D0p3S52C3kwW79CH4S3PNDhXW2gXpkw7hyYjPW8YJVGM3bnH6yW4hmnzG8HCxyyM1p-hJ_fwDBVK7cbj2-p3xDW74BRjr1WNbFrW59TGv74n8NdpN8n3rkf_YQG0W6mK-S45tMXqvW1CN_Mj1h1ZjDW299MVC3n1b4wW4JC_dX2F4hShW32PS_N4lt9zkW5bw1pv59hpKmW426khW2Zw83pW6_6_vm5nbHkFW1y66bR5bcV9LW5yFLT25BC_b_W4B0PRk7ZFTKjW54smg39cnv2nW2NgJtG1SkYcLW2B1qkL70K63TW6PWTbj8HGqxtW2z22Hf458wx-W4r1TjF6qbs7FF5cW3gYg46WVrmnV78fxGc-W8nJ1QT8s-mHfW9clsgs4fNHCcW19_qmM8JLqz9W864_dg7Nwp0jW1m-tW26B9bYBf8XPND604",
-        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6Y23qgz0W8wLKSR6lZ3nBW1G6ypg6y7Tg5W5Q5Tgl6vhCDmVPy14X1PCrS_W6N5zk59fwYw4W8szbTH305fqTW3Kspt_4NkpBNW70M_9l4bszgLW7Vvg2M212bfJW7Vpm3H2jVrjnW6MNq5C3vYzRMW9cHc2M3mx0njN7zxR71QGR5hW72yvGb3KVWJZW3Yg7bM3DDTfYW1bDZ5041G1JhW1mcmg06cfh9kW6HYyhY62tqXyW26Pf0H91yVn1W4j23L-42np7ZN6XjDXZBPygzW5tXBBl7GLv_sW1xPt_x1N3k50W734z9257J3HMW6gRGwb3z3ffQW3RZg1s16Xk5_VfrsFz7tq3WLW39QfnC40gqZhN4DTrpttSthbf5xKn9v04",
-        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6WT5nR3bW69t95C6lZ3pGW91ByxJ1b7_-MW8P_8dk1K6ZMjW57KtJm8tKyylW2Gz7y822S0RKN2srgfDjJXLmW2ycjc_8Thr7DN7VlnkMB-WFzW9j-SqD8B40KLW9fx5tJ3F8TdvW6xrZG155X_XlW2NP2QY7wDFLRW7Jnwm31LdmcQW6RKd5F4sjpw-W5dbx5Y1_3xSVW6363r05Gbn31W2sx4nL8_S_hHW73CHN83Cyn6rW57jrNY6vFswYN86jfNkLxv1RW964fL05DfYFSW7Bvhsl9fqyxJW4JjQq129cQr3N64JSBst1nZ5W1zmC4x2c6VvRW2kThKW6YFrwyW1J4vLT6dQXbMN5cg5JYvB1txW1Zqvw72GxjfDVgkpcG9h-1hXW58H8YY8JdZGYVpsgYC6T1ybBW4pbsqB93SGhRW1mVyv01WlC8sW5rsdJ08HwfztW1h3zVb4mS-ckW7kM-FL6194mKf847zzd04"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 1,
-      "score": null,
-      "sender_email": "newsletters@biospace.com",
-      "sender": "\"GenePool | BioSpace\" <newsletters@biospace.com>",
-      "published_at": "Fri, 3 Apr 2026 09:29:32 -0500",
-      "derived_signals": [
-        "source_type:gmail",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:PSG",
-        "subsector:HIT"
-      ],
-      "triage_score": 11
-    },
-    {
-      "candidate_id": "3fc1872a96f7358d",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Marginal Revolution",
-      "headline": "How should you change your life decisions if we are being watched by alien drone probes?",
-      "snippet": "I&#8217;ve asked a few people that question lately, and get either no answer or very exaggerated answers. Rep. Burchett recently raised the possibility of being terrified and not sleeping at night if UAPs are aliens. But even if that is your immediate response, you need a more constructive medium-te",
-      "primary_url": "https://feeds.feedblitz.com/~/953224091/0/marginalrevolution~How-should-you-change-your-life-decisions-if-we-are-being-watched-by-alien-drone-probes.html",
-      "urls": [
-        "https://feeds.feedblitz.com/~/953224091/0/marginalrevolution~How-should-you-change-your-life-decisions-if-we-are-being-watched-by-alien-drone-probes.html"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:ARE",
-        "ticker:DGX",
-        "ticker:RVMD",
-        "subsector:Labs"
-      ],
-      "triage_score": 6
-    },
-    {
-      "candidate_id": "5e2effa229605617",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "What changes when you turn a Linux box into a router",
-      "snippet": "What changes when you turn a Linux box into a router",
-      "primary_url": "https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/",
-      "urls": [
-        "https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 185,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:185",
-        "category:tech_ai",
-        "ticker:BOX"
-      ],
-      "triage_score": 5
-    },
     {
       "candidate_id": "08a32ca7fedc8bb8",
       "run_date": "2026-04-04",
@@ -122,6 +36,62 @@
       "triage_score": 10
     },
     {
+      "candidate_id": "80efa3040785f7db",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Saturday assorted links",
+      "snippet": "1. Nyege Nyege Tapes. 2. Does it help poets to be religious? 3. Martin Jay on Habermas. 4. U.S. prime age employment rate is near an all-time high. For a different perspective, here is NYT on AI and the job market. And new measures of AI task performance from MIT. 5. China&#8217;s AI education exper",
+      "primary_url": "https://feeds.feedblitz.com/~/953259419/0/marginalrevolution~Saturday-assorted-links.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953259419/0/marginalrevolution~Saturday-assorted-links.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:3320",
+        "ticker:CATX",
+        "ticker:PRME",
+        "ticker:RVMD"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "f25a61ea0e1d4894",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "VentureBeat",
+      "headline": "Nvidia launches enterprise AI agent platform with Adobe, Salesforce, SAP among 17 adopters at GTC 2026",
+      "snippet": "Jensen Huang walked onto the GTC stage Monday wearing his trademark leather jacket and carrying, as it turned out, the blueprints for a new kind of industry dominance.The Nvidia CEO unveiled the Agent Toolkit, an open-source platform for building autonomous AI agents, and then rattled off the names ",
+      "primary_url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+      "urls": [
+        "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:SAP",
+        "ticker:ADBE",
+        "ticker:CRM",
+        "ticker:NVDA"
+      ],
+      "triage_score": 8
+    },
+    {
       "candidate_id": "33ed5b7acbe33178",
       "run_date": "2026-04-04",
       "source_type": "tier2",
@@ -147,38 +117,6 @@
         "ticker:HR",
         "ticker:MPW",
         "ticker:CCRN",
-        "subsector:HIT",
-        "subsector:Nurse staffing"
-      ],
-      "triage_score": 10
-    },
-    {
-      "candidate_id": "d69dec42a104fbc1",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "Medicare Advantage growth tied to $111B in program-wide savings: Elevance",
-      "snippet": "From 2012 to 2021, savings across Medicare are estimated to have been $111 billion compared to if Medicare Advantage penetration held at 2011 levels, according to an Elevance Public Policy Institute study published March 23 in INQUIRY: The Journal of Health Care Organization, Provision, and Financin",
-      "primary_url": "https://www.beckerspayer.com/research-analysis/medicare-advantage-growth-tied-to-111b-program-wide-savings-elevance/",
-      "urls": [
-        "https://www.beckerspayer.com/research-analysis/medicare-advantage-growth-tied-to-111b-program-wide-savings-elevance/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ARE",
-        "ticker:ELV",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:CCRN",
-        "subsector:Mgd Care",
         "subsector:HIT",
         "subsector:Nurse staffing"
       ],
@@ -245,36 +183,6 @@
       "triage_score": 8
     },
     {
-      "candidate_id": "5d445deb362ad63f",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "7 payer M&A updates",
-      "snippet": "From several mergers in the managed care space to Kaiser&#8217;s entry into Nevada, these are seven payer industry M&#38;A updates previously reported by Becker&#8217;s. 1. Carolina Complete Health and WellCare of North Carolina, both Centene subsidiaries, secured regulatory approval in April to mov",
-      "primary_url": "https://www.beckerspayer.com/m-and-a/7-payer-ma-updates/",
-      "urls": [
-        "https://www.beckerspayer.com/m-and-a/7-payer-ma-updates/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ARE",
-        "ticker:CNC",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Mgd Care",
-        "subsector:HIT"
-      ],
-      "triage_score": 8
-    },
-    {
       "candidate_id": "2985b0053a6f0b4c",
       "run_date": "2026-04-04",
       "source_type": "tier2",
@@ -304,6 +212,91 @@
         "subsector:Nurse staffing"
       ],
       "triage_score": 8
+    },
+    {
+      "candidate_id": "ab040ff76f9bc7ca",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Becker's Payer Issues",
+      "headline": "NewYork-Presbyterian, EmblemHealth extend negotiations",
+      "snippet": "EmblemHealth will continue negotiations with New York City-based NewYork-Presbyterian until April 10, according to an April 2 social media post from the United Federation of Teachers, the city&#8217;s union for public school teachers. The union issued a news release earlier that day, saying 40,000 N",
+      "primary_url": "https://www.beckerspayer.com/contracting/newyork-presbyterian-emblemhealth-extend-negotiations/",
+      "urls": [
+        "https://www.beckerspayer.com/contracting/newyork-presbyterian-emblemhealth-extend-negotiations/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:DAY",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:UTHR",
+        "subsector:HIT"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "1390600996c02d4f",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Pharma\u2019s dealmaking tear; Blackstone raises record fund; Xolair energizes allergy research; and more",
+      "snippet": "Welcome back to Endpoints Weekly! They say March comes in like a lion and out like a lamb, but two pharma giants made a roar this week with megadeals worth more than $5 billion upfront ...",
+      "primary_url": "https://endpoints.news/pharmas-dealmaking-tear-blackstone-raises-record-fund-xolair-energizes-allergy-research-and-more/",
+      "urls": [
+        "https://endpoints.news/pharmas-dealmaking-tear-blackstone-raises-record-fund-xolair-energizes-allergy-research-and-more/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:AGY",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "e376c314a36136bc",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "snippet": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
+      "primary_url": "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs",
+      "urls": [
+        "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 256,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:256",
+        "category:tech_ai",
+        "ticker:AAPL",
+        "ticker:NVDA"
+      ],
+      "triage_score": 7
     }
   ]
 }
