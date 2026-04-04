@@ -1133,6 +1133,58 @@ def deliver_log(articles: list[dict]):
         print(f"   Signals: {', '.join(a.get('signal_tags', []))}")
 
 
+def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None):
+    section("DELIVERY: TICKTICK")
+    access_token = os.environ.get("TICKTICK_ACCESS_TOKEN")
+    list_id = os.environ.get("TICKTICK_LIST_DAILY_READS")
+    if not access_token or not list_id:
+        print("TickTick credentials not configured — skipping.")
+        return
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json",
+    }
+
+    tasks = []
+    for a in articles:
+        slot = a.get("slot", "?")
+        tasks.append({
+            "title": f"[{today} #{slot}] {a.get('headline', 'Untitled')}",
+            "content": a.get("url", ""),
+            "desc": a.get("summary", ""),
+            "projectId": list_id,
+        })
+
+    for item in (always_read or []):
+        headline = item.get("headline") or item.get("subject", "Untitled")
+        url = item.get("primary_url", "")
+        source = item.get("source_name", "")
+        tasks.append({
+            "title": f"[{today} Always] {headline}",
+            "content": url,
+            "desc": f"Source: {source}",
+            "projectId": list_id,
+        })
+
+    created = 0
+    for task in tasks:
+        resp = requests.post(
+            "https://api.ticktick.com/open/v1/task",
+            headers=headers,
+            json=task,
+        )
+        if resp.status_code == 200:
+            created += 1
+            print(f"  ✓ {task['title']}")
+        else:
+            print(f"  ✗ Failed ({resp.status_code}): {task['title']}")
+            print(f"    {resp.text}")
+
+    print(f"\nCreated {created}/{len(tasks)} tasks in TickTick.")
+
+
 def deliver_triage_log(triage_queue: list[dict]):
     section("TRIAGE QUEUE")
     if not triage_queue:
@@ -1395,6 +1447,7 @@ def main():
     deliver_gmail(articles, triage_queue, always_read)
     deliver_slack(articles, triage_queue, always_read)
     deliver_pages(articles, triage_queue, always_read)
+    deliver_ticktick(articles, always_read)
     deliver_log(articles)
     deliver_triage_log(triage_queue)
 

@@ -64,6 +64,8 @@ jobs:
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TICKTICK_ACCESS_TOKEN: ${{ secrets.TICKTICK_ACCESS_TOKEN }}
+          TICKTICK_LIST_DAILY_READS: ${{ secrets.TICKTICK_LIST_DAILY_READS }}
 
       - name: Commit and push Pages update
         run: |
