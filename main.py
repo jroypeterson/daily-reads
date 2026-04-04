@@ -1182,6 +1182,7 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         })
 
     created = 0
+    token_expired = False
     for task in tasks:
         resp = requests.post(
             "https://api.ticktick.com/open/v1/task",
@@ -1191,9 +1192,23 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         if resp.status_code == 200:
             created += 1
             print(f"  ✓ {task['title']}")
+        elif resp.status_code == 401:
+            token_expired = True
+            print(f"  ✗ 401 Unauthorized — TickTick token has expired.")
+            break
         else:
             print(f"  ✗ Failed ({resp.status_code}): {task['title']}")
             print(f"    {resp.text}")
+
+    if token_expired:
+        print("\n⚠️ TickTick access token expired. Re-run the OAuth flow to get a new token.")
+        slack_url = os.environ.get("SLACK_WEBHOOK_URL")
+        if slack_url:
+            requests.post(slack_url, json={
+                "text": "⚠️ *TickTick token expired* — Daily Reads can't push to TickTick. "
+                        "Re-run the OAuth flow at developer.ticktick.com to get a new access token, "
+                        "then update the `TICKTICK_ACCESS_TOKEN` GitHub secret."
+            })
 
     print(f"\nCreated {created}/{len(tasks)} tasks in TickTick.")
 
