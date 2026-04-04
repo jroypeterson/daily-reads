@@ -793,7 +793,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None):
             html += """
 <div style="background: #1a1a2e; border-top: 2px solid #333; margin-top: 24px; padding-top: 16px;">
   <h3 style="color: #a8a8b3; margin: 0 0 4px 0;">Also considered</h3>
-  <p style="color: #666; font-size: 11px; margin: 0 0 12px 0;">Rate with slot number, e.g. <span style="color: #0fbcf9;">5 3</span> or <span style="color: #0fbcf9;">7 1 not relevant</span></p>
+  <p style="color: #666; font-size: 11px; margin: 0 0 12px 0;">Reply to rate: <span style="color: #0fbcf9;">[slot#] [score 1-3]</span> — e.g. <span style="color: #0fbcf9;">5 3</span> = slot 5, strong pick; <span style="color: #0fbcf9;">7 1 not relevant</span> = slot 7, miss</p>
 """
             for i, candidate in enumerate(triage_queue[:10]):
                 slot_num = i + 5
@@ -805,7 +805,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None):
 
         html += """
 <hr style="border-color: #333; margin: 24px 0;">
-<p style="color: #a8a8b3; font-size: 12px;">💬 Reply to this email with feedback, e.g. <span style="color: #0fbcf9;">1 3</span> or <span style="color: #0fbcf9;">3 1 too generic</span></p>
+<p style="color: #a8a8b3; font-size: 12px;">💬 Reply to rate: <span style="color: #0fbcf9;">[slot#] [score 1-3]</span> — 3 = strong pick, 2 = fine, 1 = miss. e.g. <span style="color: #0fbcf9;">1 3</span> or <span style="color: #0fbcf9;">3 1 too generic</span></p>
 <p style="color: #666; font-size: 12px;">Or rate at
 <a href="https://jroypeterson.github.io/daily-reads" style="color: #0fbcf9;">jroypeterson.github.io/daily-reads</a>
 &nbsp;·&nbsp;
@@ -876,7 +876,7 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None):
             "type": "section",
             "text": {
                 "type": "mrkdwn",
-                "text": f"*Also considered*\n_Rate with slot number, e.g. `5 3` or `7 1 not relevant`_\n{triage_lines}",
+                "text": f"*Also considered*\n_Reply to rate: `[slot#] [score 1-3]` — 3 = strong pick, 2 = fine, 1 = miss. e.g. `5 3` or `7 1 not relevant`_\n{triage_lines}",
             },
         })
 
@@ -904,7 +904,7 @@ def _pages_triage_html(triage_queue: list[dict] | None) -> str:
     )
     return f"""  <div style="border-top: 2px solid #2a2a50; margin-top: 24px; padding-top: 16px;">
     <h3 style="color: #a8a8b3; margin-bottom: 4px;">Also considered</h3>
-    <p style="color: #666; font-size: 12px; margin-bottom: 12px;">Rate with slot number, e.g. <span style="color: #0fbcf9;">5 3</span> or <span style="color: #0fbcf9;">7 1 not relevant</span></p>
+    <p style="color: #666; font-size: 12px; margin-bottom: 12px;">Reply to rate: <span style="color: #0fbcf9;">[slot#] [score 1-3]</span> — 3 = strong pick, 2 = fine, 1 = miss. e.g. <span style="color: #0fbcf9;">5 3</span> or <span style="color: #0fbcf9;">7 1 not relevant</span></p>
 {items}
   </div>"""
 
