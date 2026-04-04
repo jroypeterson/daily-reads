@@ -663,15 +663,16 @@ def select_articles(
         for f in feedback_info["low_scores"]:
             feedback_context += f"- Slot {f.get('slot')}: score {f.get('score')}, note: {f.get('note', 'N/A')}\n"
 
+    taste_section = ""
+    if taste_summary:
+        taste_section = f"\nREADER TASTE PROFILE:\n{taste_summary}\n"
+
     system_prompt = f"""You are a daily article curator for an investor focused on healthcare/biotech,
 with secondary interest in tech/AI and macro markets.
 
 SELECTION CRITERIA:
 {criteria}
-{"" if not taste_summary else f"""
-READER TASTE PROFILE:
-{taste_summary}
-"""}
+{taste_section}
 TICKER UNIVERSE ({len(tickers.get('healthcare', []))} healthcare, {len(tickers.get('tech', []))} tech, {len(tickers.get('other', []))} other):
 Healthcare subsectors: {', '.join(sorted(s for s, t in (tickers.get('subsectors') or {}).items() if any(((tickers.get('details') or {}).get(tk) or {}).get('bucket') == 'healthcare' for tk in t))[:20])}
 Company name matching enabled ({len(tickers.get('company_lookup', {}))} names).
@@ -1277,7 +1278,10 @@ def main():
 
     articles = select_articles(gmail_items, tier2_items, feedback_info)
     if not articles:
-        print("\nNo valid articles selected. Exiting.")
+        print("\nFirst selection attempt failed validation — retrying...")
+        articles = select_articles(gmail_items, tier2_items, feedback_info)
+    if not articles:
+        print("\nNo valid articles selected after 2 attempts. Exiting.")
         sys.exit(1)
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
