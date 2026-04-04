@@ -1,6 +1,6 @@
 {
   "run_date": "2026-04-04",
-  "generated_at": "2026-04-04T21:37:55Z",
+  "generated_at": "2026-04-04T22:04:47Z",
   "triage_queue": [
     {
       "candidate_id": "08a32ca7fedc8bb8",
@@ -272,31 +272,34 @@
       "triage_score": 8
     },
     {
-      "candidate_id": "e376c314a36136bc",
+      "candidate_id": "91f057ee6b5db8ae",
       "run_date": "2026-04-04",
       "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
-      "snippet": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs",
-      "primary_url": "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece\" hreflang=\"en\">Industry Voices\u2014Hospitals are fueling AI innovation, should they own a piece of it?</a>",
+      "snippet": "As hospital workflows, clinician expertise and rich clinical data increasingly fuel the performance and market value of vendors\u2019 AI tools, providers face a critical question: how can they share in that upside while protecting patients, preserving trust, and avoiding new forms of liability?",
+      "primary_url": "https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece",
       "urls": [
-        "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs"
+        "https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece"
       ],
-      "category": "tech_ai",
+      "category": "healthcare_daily",
       "priority": "normal",
       "tier": 2,
-      "score": 256,
+      "score": null,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:256",
-        "category:tech_ai",
-        "ticker:AAPL",
-        "ticker:NVDA"
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Labs",
+        "subsector:HIT"
       ],
-      "triage_score": 7
+      "triage_score": 8
     }
   ]
 }

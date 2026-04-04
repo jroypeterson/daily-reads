@@ -1,10 +1,10 @@
 {
   "run_date": "2026-04-04",
-  "generated_at": "2026-04-04T21:37:55Z",
+  "generated_at": "2026-04-04T22:04:47Z",
   "counts": {
     "gmail_items": 1,
     "tier2_items": 88,
-    "selected_articles": 4
+    "selected_articles": 3
   },
   "feedback_summary": {
     "low_score_count": 0,
@@ -17,63 +17,46 @@
       "source": "BioSpace",
       "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVBt1C7hfFn6W68ydYq7y9nyyW7TctdS5MqFfTN6tf6XM5nR3bW7Y9pgv6lZ3lTW1PRm1782448qVlyWdf2vyFvQN68Kb8D3lDHDW2YClKl5Gpj5GW9f2YMR3Nnzy3W4_DrJG8Ll3xJW41DtGf35W61xW3SV-xJ4pkV1zN1PRCnwCBp5LW6sPT657D31bYW8Bk1106RHc4QW3jbkZM34jQM-W7CwqCb89hqnfW1b-BFh8zCFsVVLyGQM48XnZZW2_Mb_c8fg4yPW7qRrYr8Y0_Y4W8XB46T6fHSxPTvn11963gMjW2jddXN8BvnSZW3cDYl65D6JgrW2mvWfT4VzTWjW45FHkR1mndMJW4GQP5W34vgklW3JMQLL5-J4VfW1kJWt83fh0_jW411-Bm7jqkC8W6Z2bdf6qYW2FW41FpFF8v4LCYW3zLB6z3hJbvgW1NnDDq8KXtrmW2p3zZ98vL1HLW6G0yNz6GWV2GW322s9_3vKr5-W3T6CvZ81Sf-YW2-6K6C953MpfW2YG83y4HM1qcW92-60T3ty22kW7q1Lbs9gtfBfW4CFnk_1kfXB8W3_QdgP8NxKJfW9bLrqZ5g_Pb7f70dsZz04",
       "slot": 1,
-      "summary": "Trump imposed 100% tariffs on imported patented drugs under Section 232 authority, but with significant exemptions for companies that have struck pricing deals or committed to U.S. manufacturing. Major drugmakers like Eli Lilly, Pfizer, and Novo Nordisk have already negotiated exemptions through Most Favored Nation agreements.",
-      "why_it_matters": "This major policy shift could reshape pharma supply chains and pricing strategies, with significant implications for drug access and investor positioning across the sector.",
+      "summary": "Trump announced 100% tariffs on imported patented pharmaceuticals, but with significant exemptions for companies that have signed Most Favored Nation pricing deals or committed to domestic manufacturing. Generic drugs and orphan medications are also exempt from the new levies.",
+      "why_it_matters": "This policy represents a major shift in pharmaceutical pricing strategy that could significantly impact drug costs and supply chains for healthcare investors.",
       "signal_tags": [
-        "healthcare_daily",
-        "policy_impact",
-        "major_pharma_names",
-        "supply_chain_disruption"
+        "ticker_match:HCAT",
+        "ticker_match:HR",
+        "ticker_match:PSG",
+        "policy_catalyst",
+        "healthcare_policy"
       ],
       "reading_time": "5 min"
     },
     {
       "article_id": "630ba430f11a150c",
-      "headline": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
+      "headline": "Oracle lays off thousands via email as 'mass layoffs by email might be the new norm'",
       "source": "MarketWatch",
       "url": "https://www.marketwatch.com/story/fired-via-email-some-of-the-30-000-workers-cut-by-oracle-woke-up-to-a-morning-message-saying-they-were-laid-off-89a7af94?mod=mw_rss_topstories",
       "slot": 2,
-      "summary": "Oracle laid off thousands of employees via email while simultaneously filing H-1B visa petitions, highlighting the contradiction in corporate workforce strategies. The cloud computing and database company began cutting jobs Tuesday with workers receiving termination notices by email.",
-      "why_it_matters": "This reflects broader tech sector labor dynamics and potential regulatory scrutiny of visa programs amid domestic layoffs, with implications for tech workforce costs.",
+      "summary": "Oracle began cutting thousands of jobs on Tuesday, with many workers being alerted over email. The cloud-computing and database company's approach reflects a potential shift toward mass layoffs conducted digitally rather than through traditional methods.",
+      "why_it_matters": "This signals a broader trend in corporate cost-cutting methods and highlights ongoing pressure in the tech sector that could impact enterprise software investments.",
       "signal_tags": [
-        "finance_macro",
         "ticker_match:ORCL",
-        "workforce_disruption",
-        "regulatory_risk"
+        "corporate_restructuring",
+        "tech_layoffs"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "15a33f532e10da31",
+      "headline": "Anthropic cuts off the ability to use Claude subscriptions with OpenClaw and third-party AI agents",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-cuts-off-the-ability-to-use-claude-subscriptions-with-openclaw-and",
+      "slot": 3,
+      "summary": "Starting April 4th, Anthropic subscribers can no longer use their Claude Pro or Max plans to power third-party AI agents like OpenClaw. Users must now switch to API credits for these integrations, significantly increasing costs for some use cases.",
+      "why_it_matters": "This policy change reflects the growing tension between AI model providers and third-party tool developers, potentially reshaping the AI automation landscape.",
+      "signal_tags": [
+        "ai_policy_change",
+        "subscription_model",
+        "third_party_restrictions"
       ],
       "reading_time": "4 min"
-    },
-    {
-      "article_id": "7e6de0e4a5946bb9",
-      "headline": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
-      "source": "Hacker News",
-      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-      "slot": 3,
-      "summary": "Anthropic's Claude AI discovered a critical Linux vulnerability that had remained undetected for over two decades, demonstrating AI's capability in automated security analysis. The discovery highlights both the potential and risks of AI-powered code review systems.",
-      "why_it_matters": "This showcases AI's emerging role in cybersecurity and software analysis, potentially creating new market opportunities in AI-powered security tools and services.",
-      "signal_tags": [
-        "tech_ai",
-        "ai_breakthrough",
-        "cybersecurity",
-        "enterprise_application"
-      ],
-      "reading_time": "6 min"
-    },
-    {
-      "article_id": "91f057ee6b5db8ae",
-      "headline": "Industry Voices\u2014Hospitals are fueling AI innovation, should they own a piece of it?",
-      "source": "Fierce Healthcare",
-      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece",
-      "slot": 4,
-      "summary": "Healthcare providers question how to share in the value created by AI tools built on their clinical data and workflows. The article explores hospitals' role in AI development and potential revenue-sharing models with vendors.",
-      "why_it_matters": "This emerging issue could reshape healthcare AI partnerships and create new business models between providers and technology companies, with significant financial implications.",
-      "signal_tags": [
-        "healthcare_ai_convergence",
-        "business_model_innovation",
-        "data_monetization",
-        "provider_strategy"
-      ],
-      "reading_time": "5 min"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "run_date": "2026-04-04",
-  "generated_at": "2026-04-04T21:37:55Z",
+  "generated_at": "2026-04-04T22:04:47Z",
   "counts": {
     "gmail_candidates": 1,
     "tier2_candidates": 88,
@@ -54,13 +54,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 345,
+      "score": 368,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:345",
+        "hn_score:368",
         "category:tech_ai"
       ]
     },
@@ -78,13 +78,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 166,
+      "score": 203,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:166",
+        "hn_score:203",
         "category:tech_ai",
         "ticker:MSFT"
       ]
@@ -103,13 +103,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 466,
+      "score": 478,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:466",
+        "hn_score:478",
         "category:tech_ai",
         "ticker:GBIO"
       ]
@@ -128,13 +128,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 105,
+      "score": 112,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:105",
+        "hn_score:112",
         "category:tech_ai"
       ]
     },
@@ -152,13 +152,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 256,
+      "score": 275,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:256",
+        "hn_score:275",
         "category:tech_ai",
         "ticker:AAPL",
         "ticker:NVDA"
@@ -178,38 +178,38 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 613,
+      "score": 634,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:613",
+        "hn_score:634",
         "category:tech_ai",
         "ticker:META"
       ]
     },
     {
-      "candidate_id": "df50414c0cbc0386",
+      "candidate_id": "2679ae35cd52974d",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Some Unusual Trees",
-      "snippet": "Some Unusual Trees",
-      "primary_url": "https://thoughts.wyounas.com/p/some-unusual-trees",
+      "headline": "The Indie Internet Index \u2013 submit your favorite sites",
+      "snippet": "The Indie Internet Index \u2013 submit your favorite sites",
+      "primary_url": "https://iii.social",
       "urls": [
-        "https://thoughts.wyounas.com/p/some-unusual-trees"
+        "https://iii.social"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 218,
+      "score": 59,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:218",
+        "hn_score:59",
         "category:tech_ai"
       ]
     },
@@ -227,37 +227,37 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 111,
+      "score": 120,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:111",
+        "hn_score:120",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "2679ae35cd52974d",
+      "candidate_id": "df50414c0cbc0386",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "The Indie Internet Index \u2013 submit your favorite sites",
-      "snippet": "The Indie Internet Index \u2013 submit your favorite sites",
-      "primary_url": "https://iii.social",
+      "headline": "Some Unusual Trees",
+      "snippet": "Some Unusual Trees",
+      "primary_url": "https://thoughts.wyounas.com/p/some-unusual-trees",
       "urls": [
-        "https://iii.social"
+        "https://thoughts.wyounas.com/p/some-unusual-trees"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 49,
+      "score": 220,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:49",
+        "hn_score:220",
         "category:tech_ai"
       ]
     },
@@ -275,181 +275,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 109,
+      "score": 113,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:109",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "19a6f37d74649a69",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
-      "snippet": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
-      "primary_url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
-      "urls": [
-        "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 63,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:63",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "69e1d776e984fdf1",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Scientists observe an immune signaling complex forming inside cells",
-      "snippet": "Scientists observe an immune signaling complex forming inside cells",
-      "primary_url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
-      "urls": [
-        "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 75,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:75",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "ccf0b5b315efe199",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The CMS is dead, long live the CMS",
-      "snippet": "The CMS is dead, long live the CMS",
-      "primary_url": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
-      "urls": [
-        "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 93,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:93",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "dc2f81a6274dc610",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
-      "snippet": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
-      "primary_url": "https://www.bloomberg.com/features/2025-bottlenecks-transformers/",
-      "urls": [
-        "https://www.bloomberg.com/features/2025-bottlenecks-transformers/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 42,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:42",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "e170f3975d49f330",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Ruckus: Racket for iOS",
-      "snippet": "Ruckus: Racket for iOS",
-      "primary_url": "https://ruckus.defn.io/",
-      "urls": [
-        "https://ruckus.defn.io/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 8,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:8",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "6ca250951118e9d6",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Plague Ships (2020)",
-      "snippet": "Plague Ships (2020)",
-      "primary_url": "https://www.afloat.com.au/feature/plague-ships/",
-      "urls": [
-        "https://www.afloat.com.au/feature/plague-ships/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 27,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:27",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "d35ca5bd2674c0af",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Sopwith \u2013 1984 Game (2000)",
-      "snippet": "Sopwith \u2013 1984 Game (2000)",
-      "primary_url": "http://www.sopwith.org/",
-      "urls": [
-        "http://www.sopwith.org/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 56,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:56",
+        "hn_score:113",
         "category:tech_ai"
       ]
     },
@@ -467,13 +299,157 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 84,
+      "score": 89,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:84",
+        "hn_score:89",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "ccf0b5b315efe199",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The CMS is dead, long live the CMS",
+      "snippet": "The CMS is dead, long live the CMS",
+      "primary_url": "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms",
+      "urls": [
+        "https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 98,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:98",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "6ca250951118e9d6",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Plague Ships (2020)",
+      "snippet": "Plague Ships (2020)",
+      "primary_url": "https://www.afloat.com.au/feature/plague-ships/",
+      "urls": [
+        "https://www.afloat.com.au/feature/plague-ships/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 28,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:28",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "69e1d776e984fdf1",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Scientists observe an immune signaling complex forming inside cells",
+      "snippet": "Scientists observe an immune signaling complex forming inside cells",
+      "primary_url": "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research",
+      "urls": [
+        "https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 77,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:77",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "4cd9dc675ac15ee6",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
+      "snippet": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
+      "primary_url": "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf",
+      "urls": [
+        "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 20,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:20",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "d35ca5bd2674c0af",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Sopwith \u2013 1984 Game (2000)",
+      "snippet": "Sopwith \u2013 1984 Game (2000)",
+      "primary_url": "http://www.sopwith.org/",
+      "urls": [
+        "http://www.sopwith.org/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 59,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:59",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "e170f3975d49f330",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Ruckus: Racket for iOS",
+      "snippet": "Ruckus: Racket for iOS",
+      "primary_url": "https://ruckus.defn.io/",
+      "urls": [
+        "https://ruckus.defn.io/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 18,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:18",
         "category:tech_ai"
       ]
     },
@@ -491,13 +467,37 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 317,
+      "score": 328,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:317",
+        "hn_score:328",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "19a6f37d74649a69",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
+      "snippet": "Iranian missile blitz takes down AWS data centers in Bahrain and Dubai",
+      "primary_url": "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones",
+      "urls": [
+        "https://www.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bahrain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 73,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:73",
         "category:tech_ai"
       ]
     },
@@ -515,39 +515,15 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 132,
+      "score": 136,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:132",
+        "hn_score:136",
         "category:tech_ai",
         "ticker:HESTERBIO"
-      ]
-    },
-    {
-      "candidate_id": "4cd9dc675ac15ee6",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
-      "snippet": "IBM 3270 Information Display System: Color and Programmed Symbols (1979) [pdf]",
-      "primary_url": "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf",
-      "urls": [
-        "https://bitsavers.org/pdf/ibm/3278/GA33-3056-0_3270_Information_Display_System_Color_and_Programmed_Symbols_3278_3279_3287_Sep1979.pdf"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 16,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:16",
-        "category:tech_ai"
       ]
     },
     {
@@ -564,13 +540,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 104,
+      "score": 118,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:104",
+        "hn_score:118",
         "category:tech_ai",
         "ticker:AMWL",
         "subsector:HIT"
@@ -601,6 +577,56 @@
       ]
     },
     {
+      "candidate_id": "dc2f81a6274dc610",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
+      "snippet": "Electrical Transformer Manufacturing Is Throttling the Electrified Future",
+      "primary_url": "https://www.bloomberg.com/features/2025-bottlenecks-transformers/",
+      "urls": [
+        "https://www.bloomberg.com/features/2025-bottlenecks-transformers/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 46,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:46",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "0f3051377472e12f",
+      "run_date": "2026-04-04",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Microsoft to force updates to Windows 11 25H2 for PCs with older OS versions",
+      "snippet": "Microsoft to force updates to Windows 11 25H2 for PCs with older OS versions",
+      "primary_url": "https://www.tomshardware.com/software/windows/microsoft-forces-updates-to-windows-11-25h2-update-for-pcs-running-on-24h2",
+      "urls": [
+        "https://www.tomshardware.com/software/windows/microsoft-forces-updates-to-windows-11-25h2-update-for-pcs-running-on-24h2"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 12,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:12",
+        "category:tech_ai",
+        "ticker:OS",
+        "ticker:MSFT"
+      ]
+    },
+    {
       "candidate_id": "8e342b25fe2d6a9f",
       "run_date": "2026-04-04",
       "source_type": "tier2",
@@ -614,37 +640,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 19,
+      "score": 23,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:19",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "23987a021743e05d",
-      "run_date": "2026-04-04",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The most-disliked people in the publishing industry",
-      "snippet": "The most-disliked people in the publishing industry",
-      "primary_url": "https://www.woman-of-letters.com/p/the-most-disliked-people-in-the-publishing",
-      "urls": [
-        "https://www.woman-of-letters.com/p/the-most-disliked-people-in-the-publishing"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 82,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:82",
+        "hn_score:23",
         "category:tech_ai"
       ]
     },
@@ -662,38 +664,38 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 83,
+      "score": 87,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:83",
+        "hn_score:87",
         "category:tech_ai",
         "ticker:ARE"
       ]
     },
     {
-      "candidate_id": "7a18f59bc29f529c",
+      "candidate_id": "23987a021743e05d",
       "run_date": "2026-04-04",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "German men 18-45 need military permit for extended stays abroad",
-      "snippet": "German men 18-45 need military permit for extended stays abroad",
-      "primary_url": "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677",
+      "headline": "The most-disliked people in the publishing industry",
+      "snippet": "The most-disliked people in the publishing industry",
+      "primary_url": "https://www.woman-of-letters.com/p/the-most-disliked-people-in-the-publishing",
       "urls": [
-        "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677"
+        "https://www.woman-of-letters.com/p/the-most-disliked-people-in-the-publishing"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 308,
+      "score": 85,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:308",
+        "hn_score:85",
         "category:tech_ai"
       ]
     },
@@ -711,13 +713,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 1001,
+      "score": 1002,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:1001",
+        "hn_score:1002",
         "category:tech_ai"
       ]
     },
