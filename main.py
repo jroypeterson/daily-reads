@@ -1154,9 +1154,12 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         url = a.get("url", "")
         headline = a.get("headline", "Untitled")
         title = f"[{headline}]({url})" if url else headline
+        summary = a.get("summary", "")
+        why = a.get("why_it_matters", "")
+        desc = f"{summary}\n\nWhy it matters: {why}" if why else summary
         tasks.append({
             "title": title,
-            "content": a.get("summary", ""),
+            "content": desc,
             "dueDate": due_date,
             "projectId": list_id,
         })
