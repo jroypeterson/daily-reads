@@ -406,6 +406,21 @@ def score_candidate_for_triage(candidate: dict) -> int:
     return score
 
 
+INTEREST_BUCKETS = {
+    "healthcare": {"healthcare_daily", "healthcare_weekly", "healthcare_policy"},
+    "finance_macro": {"finance_macro"},
+    "tech_ai": {"tech_ai"},
+    "broad_curious": {"broad_curious"},
+}
+
+
+def _category_to_bucket(category: str) -> str:
+    for bucket, categories in INTEREST_BUCKETS.items():
+        if category in categories:
+            return bucket
+    return "other"
+
+
 def build_triage_queue(
     structured_gmail: list[dict],
     structured_tier2: list[dict],
@@ -413,22 +428,39 @@ def build_triage_queue(
     limit: int = 10,
 ) -> list[dict]:
     selected_urls = {article.get("url") for article in selected_articles}
-    queue = []
+    scored = []
     for candidate in structured_gmail + structured_tier2:
         if candidate.get("primary_url") in selected_urls:
             continue
-        queue.append({
+        scored.append({
             **candidate,
             "triage_score": score_candidate_for_triage(candidate),
         })
 
-    queue.sort(
+    scored.sort(
         key=lambda candidate: (
             -candidate.get("triage_score", 0),
             candidate.get("source_name", ""),
             candidate.get("headline", ""),
         )
     )
+
+    # Ensure at least one candidate from each major interest bucket
+    queue = []
+    buckets_covered = set()
+    # First pass: pick the top candidate per bucket
+    for candidate in scored:
+        bucket = _category_to_bucket(candidate.get("category", "unknown"))
+        if bucket not in buckets_covered:
+            queue.append(candidate)
+            buckets_covered.add(bucket)
+    # Second pass: fill remaining slots by score
+    for candidate in scored:
+        if len(queue) >= limit:
+            break
+        if candidate not in queue:
+            queue.append(candidate)
+
     return queue[:limit]
 
 
