@@ -1147,13 +1147,17 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         "Content-Type": "application/json",
     }
 
+    due_date = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000+0000")
+
     tasks = []
     for a in articles:
-        slot = a.get("slot", "?")
+        url = a.get("url", "")
+        headline = a.get("headline", "Untitled")
+        title = f"[{headline}]({url})" if url else headline
         tasks.append({
-            "title": f"[{today} #{slot}] {a.get('headline', 'Untitled')}",
-            "content": a.get("url", ""),
-            "desc": a.get("summary", ""),
+            "title": title,
+            "content": a.get("summary", ""),
+            "dueDate": due_date,
             "projectId": list_id,
         })
 
@@ -1161,10 +1165,11 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         headline = item.get("headline") or item.get("subject", "Untitled")
         url = item.get("primary_url", "")
         source = item.get("source_name", "")
+        title = f"[{headline}]({url})" if url else headline
         tasks.append({
-            "title": f"[{today} Always] {headline}",
-            "content": url,
-            "desc": f"Source: {source}",
+            "title": title,
+            "content": f"Source: {source}",
+            "dueDate": due_date,
             "projectId": list_id,
         })
 
