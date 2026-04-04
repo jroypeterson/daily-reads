@@ -213,9 +213,9 @@ SOURCES = {
         "priority": "high",
         "always_read": True,
     },
-    "noreply@valueinvestorsinsight.substack.com": {
+    "customerservice@valueinvestorinsight.com": {
         "name": "Value Investors Insight",
-        "email": "noreply@valueinvestorsinsight.substack.com",
+        "email": "customerservice@valueinvestorinsight.com",
         "tier": 1,
         "category": "finance_macro",
         "frequency": "monthly",
