@@ -1,0 +1,75 @@
+{
+  "run_date": "2026-04-04",
+  "generated_at": "2026-04-04T01:51:20Z",
+  "counts": {
+    "gmail_items": 3,
+    "tier2_items": 89,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": false
+  },
+  "articles": [
+    {
+      "article_id": "0bf53c6026903e5a",
+      "headline": "Lilly wins obesity pill approval, setting up Novo battle",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/04/01/eli-lilly-obesity-pill-approved-orforglipron-foundayo/",
+      "slot": 1,
+      "summary": "<cite index=\"1-1,2-5\">Eli Lilly's obesity pill Foundayo (orforglipron) received FDA approval on Wednesday, creating intense competition with Novo Nordisk's oral Wegovy pill as patients seek alternatives to GLP-1 injections.</cite> <cite index=\"2-9,1-18\">The drug was approved under FDA's new commissioner's voucher program for national health priorities, taking just 100 days to review versus the typical 6-10 months.</cite> <cite index=\"1-15,5-14\">Clinical trials showed Foundayo achieved 12.4% weight loss on average (about 25 pounds) compared to 2.1% with placebo.</cite>",
+      "why_it_matters": "Major catalyst for diabetes/obesity space with immediate market impact - sets up direct competition between pharma giants and expands oral GLP-1 market accessibility.",
+      "signal_tags": [
+        "ticker_match:LLY",
+        "catalyst_proximity",
+        "high_priority_source"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "c2c5a31d8e4c9221",
+      "headline": "Trump declares 100% pharma tariffs\u2014with exemptions",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/trump-revives-pharma-tariffs-100-percent-levies/816584/",
+      "slot": 2,
+      "summary": "<cite index=\"13-1,13-4,13-5\">President Trump imposed 100% tariffs on patented pharmaceutical products and ingredients under Section 232, taking effect in 120 days for large companies and 180 days for smaller ones.</cite> <cite index=\"16-4,12-10\">However, companies with Most Favored Nation pricing deals and onshoring agreements are exempt, while generic drugs and biosimilars avoid tariffs entirely.</cite> <cite index=\"16-5,16-7\">Analysts view this as removing policy overhang since most major drugmakers already cooperated, making the \"overall threat to the sector low.\"</cite>",
+      "why_it_matters": "Policy creates winners/losers across biotech sector based on manufacturing location and pricing deals - potential to reshape global pharma supply chains and M&A strategy.",
+      "signal_tags": [
+        "policy_impact",
+        "sector_rotation",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "28debc3c834073b2",
+      "headline": "We replaced RAG with a virtual filesystem for our AI documentation assistant",
+      "source": "Mintlify Blog",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+      "slot": 3,
+      "summary": "Mintlify built a novel virtual filesystem approach to replace traditional RAG (Retrieval-Augmented Generation) for their AI documentation assistant. The system treats documentation as files in a virtual filesystem, allowing for more intuitive navigation and context management. This architectural innovation addresses common RAG limitations like context fragmentation and improves AI assistant accuracy for complex documentation queries.",
+      "why_it_matters": "Represents innovative AI infrastructure approach that could influence enterprise AI deployment patterns and documentation tooling market evolution.",
+      "signal_tags": [
+        "ai_breakthrough",
+        "enterprise_adoption",
+        "novelty"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "22f1b94d8afd58a1",
+      "headline": "Oracle Files H-1B Visa Petitions Amid Mass Layoffs",
+      "source": "National Today",
+      "url": "https://nationaltoday.com/us/tx/austin/news/2026/04/03/oracle-files-thousands-of-h-1b-visa-petitions-amid-mass-layoffs/",
+      "slot": 4,
+      "summary": "Oracle filed thousands of H-1B visa petitions for foreign workers while simultaneously conducting mass layoffs of existing employees. The apparent contradiction highlights tech industry labor practices where companies seek specialized overseas talent even as they reduce domestic workforce. This strategy reflects ongoing skills gaps in specific technical areas despite broader cost-cutting measures.",
+      "why_it_matters": "Illustrates complex tech labor market dynamics and potential policy tensions around immigration reform - signals where true talent scarcity exists versus general cost optimization.",
+      "signal_tags": [
+        "ticker_match:ORCL",
+        "workforce_insight",
+        "policy_implications"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

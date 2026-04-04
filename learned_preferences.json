@@ -1,18 +1,32 @@
 {
   "version": 2,
-  "updated_at": "2026-04-03T16:56:20Z",
-  "topic_preferences": [],
+  "updated_at": "2026-04-04T01:49:40Z",
+  "topic_preferences": [
+    {
+      "name": "self-improvement",
+      "strength": "weak",
+      "direction": "positive",
+      "evidence_ids": [
+        "ev_email_1"
+      ]
+    }
+  ],
   "source_preferences": [],
   "style_preferences": [],
   "avoid_patterns": [],
   "evidence_summary": {
-    "total": 0,
-    "by_kind": {},
-    "by_channel": {}
+    "total": 1,
+    "by_kind": {
+      "positive_exemplar": 1
+    },
+    "by_channel": {
+      "email": 1
+    }
   },
   "score_scale": {
     "1": "Miss",
     "2": "Fine",
     "3": "Strong pick"
-  }
+  },
+  "last_synthesis": "2026-04-04T01:49:40Z"
 }

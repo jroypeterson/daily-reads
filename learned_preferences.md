@@ -1,15 +1,15 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-04-03T16:56:20Z
+> Structured preference model. Last updated: 2026-04-04T01:49:40Z
 
 ## Evidence Snapshot
-- Total evidence records: 0
-- By kind: none
+- Total evidence records: 1
+- By kind: positive_exemplar=1
 
 ### Evidence Channels
-_No evidence channels recorded yet._
+- email: 1
 
 ## Topic Preferences
-_Topics: No data yet._
+- **self-improvement** [weak, positive] (1 evidence points)
 
 ## Source Preferences
 _Sources: No data yet._

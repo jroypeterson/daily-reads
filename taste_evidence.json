@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "ev_c1f79a0309332bde",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "",
+    "url": "https://bigthink.com/smart-skills/star-performers-david-epstein",
+    "local_path": "",
+    "note": "Why I like: Interested in self-improvement and development -- Jason Peterson m: 813-924-3544",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d361575c02be7a",
+      "subject": "",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-04T01:49:39Z"
+  }
+]
