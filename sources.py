@@ -185,6 +185,52 @@ SOURCES = {
         "frequency": "daily",
         "priority": "normal",
     },
+    # === Always Read (paid subscriptions) ===
+    "noreply@maboroshi.substack.com": {
+        "name": "MBI",
+        "email": "noreply@maboroshi.substack.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "weekly",
+        "priority": "high",
+        "always_read": True,
+    },
+    "noreply@scuttleblurb.substack.com": {
+        "name": "Scuttleblurb",
+        "email": "noreply@scuttleblurb.substack.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "weekly",
+        "priority": "high",
+        "always_read": True,
+    },
+    "noreply@thetranscript.substack.com": {
+        "name": "The Transcript",
+        "email": "noreply@thetranscript.substack.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "weekly",
+        "priority": "high",
+        "always_read": True,
+    },
+    "noreply@valueinvestorsinsight.substack.com": {
+        "name": "Value Investors Insight",
+        "email": "noreply@valueinvestorsinsight.substack.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "monthly",
+        "priority": "high",
+        "always_read": True,
+    },
+    "noreply@letteraday.substack.com": {
+        "name": "A Letter a Day",
+        "email": "noreply@letteraday.substack.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "daily",
+        "priority": "high",
+        "always_read": True,
+    },
 }
 
 
@@ -196,3 +242,8 @@ def get_source(email_address: str) -> dict | None:
 def get_all_sender_emails() -> list[str]:
     """Return all tracked sender email addresses."""
     return list(SOURCES.keys())
+
+
+def get_always_read_names() -> set[str]:
+    """Return source names marked as always_read."""
+    return {s["name"] for s in SOURCES.values() if s.get("always_read")}

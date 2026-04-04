@@ -20,7 +20,7 @@ from project_data import (
     save_json,
     triage_artifact_path,
 )
-from sources import SOURCES
+from sources import SOURCES, get_always_read_names
 
 REPO = "jroypeterson/daily-reads"
 CRITERIA_STATE_PATH = "criteria_update_state.json"
@@ -428,9 +428,12 @@ def build_triage_queue(
     limit: int = 10,
 ) -> list[dict]:
     selected_urls = {article.get("url") for article in selected_articles}
+    always_read_names = get_always_read_names()
     scored = []
     for candidate in structured_gmail + structured_tier2:
         if candidate.get("primary_url") in selected_urls:
+            continue
+        if candidate.get("source_name", "") in always_read_names:
             continue
         scored.append({
             **candidate,
@@ -462,6 +465,23 @@ def build_triage_queue(
             queue.append(candidate)
 
     return queue[:limit]
+
+
+def build_always_read(
+    structured_gmail: list[dict],
+    selected_articles: list[dict],
+) -> list[dict]:
+    """Extract candidates from always-read paid sources."""
+    always_read_names = get_always_read_names()
+    if not always_read_names:
+        return []
+    selected_urls = {a.get("url") for a in selected_articles}
+    results = []
+    for candidate in structured_gmail:
+        source_name = candidate.get("source_name", "")
+        if source_name in always_read_names and candidate.get("primary_url") not in selected_urls:
+            results.append(candidate)
+    return results
 
 
 def validate_selected_articles(articles: list[dict]) -> list[dict]:
@@ -779,7 +799,7 @@ Select the best 4 (or 3) articles for today's digest. Return JSON only."""
 # [DELIVERY: GMAIL]
 # ---------------------------------------------------------------------------
 
-def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None):
+def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None):
     section("DELIVERY: GMAIL")
     try:
         import base64
@@ -835,6 +855,18 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None):
                 html += f'  <p style="margin: 6px 0; font-size: 13px;"><span style="color: #a8a8b3; font-size: 11px; margin-right: 6px;">#{slot_num}</span><a href="{url}" style="color: #0fbcf9; text-decoration: none;">{headline}</a> <span style="color: #666;">— {source}</span></p>\n'
             html += "</div>\n"
 
+        if always_read:
+            html += """
+<div style="background: #1a1a2e; border-top: 2px solid #e94560; margin-top: 24px; padding-top: 16px;">
+  <h3 style="color: #e94560; margin: 0 0 8px 0;">📖 Always read</h3>
+"""
+            for item in always_read:
+                headline = item.get("headline", "Untitled")
+                url = item.get("primary_url", "#")
+                source = item.get("source_name", "")
+                html += f'  <p style="margin: 6px 0; font-size: 13px;"><a href="{url}" style="color: #0fbcf9; text-decoration: none;">{headline}</a> <span style="color: #666;">— {source}</span></p>\n'
+            html += "</div>\n"
+
         html += """
 <hr style="border-color: #333; margin: 24px 0;">
 <p style="color: #a8a8b3; font-size: 12px;">💬 Reply to rate: <span style="color: #0fbcf9;">[slot#] [score 1-3]</span> — 3 = strong pick, 2 = fine, 1 = miss. e.g. <span style="color: #0fbcf9;">1 3</span> or <span style="color: #0fbcf9;">3 1 too generic</span></p>
@@ -861,7 +893,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None):
 # [DELIVERY: SLACK]
 # ---------------------------------------------------------------------------
 
-def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None):
+def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None):
     section("DELIVERY: SLACK")
     webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
     if not webhook_url:
@@ -912,6 +944,19 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None):
             },
         })
 
+    if always_read:
+        always_lines = "\n".join(
+            f"<{c.get('primary_url', '#')}|{c.get('headline', 'Untitled')}> — {c.get('source_name', '')}"
+            for c in always_read
+        )
+        blocks.append({
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": f":book: *Always read*\n{always_lines}",
+            },
+        })
+
     try:
         resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
         resp.raise_for_status()
@@ -941,7 +986,22 @@ def _pages_triage_html(triage_queue: list[dict] | None) -> str:
   </div>"""
 
 
-def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None):
+def _pages_always_read_html(always_read: list[dict] | None) -> str:
+    if not always_read:
+        return ""
+    items = "\n".join(
+        f'    <p style="margin: 6px 0; font-size: 14px;">'
+        f'<a href="{c.get("primary_url", "#")}" target="_blank" style="color: #0fbcf9; text-decoration: none;">{c.get("headline", "Untitled")}</a>'
+        f' <span style="color: #666;">— {c.get("source_name", "")}</span></p>'
+        for c in always_read
+    )
+    return f"""  <div style="border-top: 2px solid #e94560; margin-top: 24px; padding-top: 16px;">
+    <h3 style="color: #e94560; margin-bottom: 8px;">📖 Always read</h3>
+{items}
+  </div>"""
+
+
+def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None):
     section("DELIVERY: PAGES")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slot_emojis = {1: "🧬", 2: "📊", 3: "🤖", 4: "🌀"}
@@ -1040,6 +1100,7 @@ def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None):
 {cards_html if cards_html else '    <div class="empty"><p>No articles selected today. Check back tomorrow!</p></div>'}
   </div>
 {_pages_triage_html(triage_queue)}
+{_pages_always_read_html(always_read)}
 </body>
 </html>"""
 
@@ -1325,14 +1386,15 @@ def main():
         tickers,
     )
     triage_queue = build_triage_queue(structured_gmail, structured_tier2, articles)
+    always_read = build_always_read(structured_gmail, articles)
     save_candidate_artifact(today, gmail_items, tier2_items, tickers)
     save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
     save_triage_artifact(today, triage_queue)
 
     # Step 5: Deliver to all channels
-    deliver_gmail(articles, triage_queue)
-    deliver_slack(articles, triage_queue)
-    deliver_pages(articles, triage_queue)
+    deliver_gmail(articles, triage_queue, always_read)
+    deliver_slack(articles, triage_queue, always_read)
+    deliver_pages(articles, triage_queue, always_read)
     deliver_log(articles)
     deliver_triage_log(triage_queue)
 
