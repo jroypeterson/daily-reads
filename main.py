@@ -1153,10 +1153,15 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
     for a in articles:
         url = a.get("url", "")
         headline = a.get("headline", "Untitled")
+        slot = a.get("slot", "?")
         title = f"[{headline}]({url})" if url else headline
         summary = a.get("summary", "")
         why = a.get("why_it_matters", "")
+        strong = slack_mailto_feedback_url(today, slot, 3)
+        fine = slack_mailto_feedback_url(today, slot, 2)
+        miss = slack_mailto_feedback_url(today, slot, 1)
         desc = f"{summary}\n\nWhy it matters: {why}" if why else summary
+        desc += f"\n\nRate this pick: [Strong]({strong}) · [Fine]({fine}) · [Miss]({miss})"
         tasks.append({
             "title": title,
             "content": desc,
