@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ex_2d3ea43802b87d71",
+    "date_added": "2026-03-28T20:40:18Z",
+    "source_channel": "dropbox",
+    "type": "url",
+    "title": "sample-exemplar",
+    "url": "https://example.com/investor-report",
+    "local_path": "/mnt/c/Users/jroyp/Dropbox/Claude Folder/daily-reads-taste-samples/Incorporated into taste preferences/sample-exemplar.txt",
+    "note": "Good market structure analysis and specificity",
+    "status": "new",
+    "content_status": "unfetched",
+    "metadata": {
+      "dropbox_relpath": "Incorporated into taste preferences/sample-exemplar.txt",
+      "file_hash": "7518acfe7b05f0fd578347c8b38519bda5724df7",
+      "mime_type": "text/plain"
+    }
+  },
+  {
+    "id": "ex_93cb609e900b1d39",
+    "date_added": "2026-03-28T20:40:18Z",
+    "source_channel": "dropbox",
+    "type": "file",
+    "title": "the-cognitive-style-of-powerpoint-pitching-out-corrupts-within-ebook-6528-jasonrpeterson-1761509732",
+    "url": "",
+    "local_path": "/mnt/c/Users/jroyp/Dropbox/Claude Folder/daily-reads-taste-samples/Incorporated into taste preferences/the-cognitive-style-of-powerpoint-pitching-out-corrupts-within-ebook-6528-jasonrpeterson-1761509732.pdf",
+    "note": "",
+    "status": "new",
+    "content_status": "extracted",
+    "metadata": {
+      "dropbox_relpath": "Incorporated into taste preferences/the-cognitive-style-of-powerpoint-pitching-out-corrupts-within-ebook-6528-jasonrpeterson-1761509732.pdf",
+      "file_hash": "e7d4d0f62d4a5c9bf09eb4e2bbe2190180db9e68",
+      "mime_type": "",
+      "extraction_error": "No module named 'pypdf'",
+      "extracted_text_preview": "Military parade, Stalin Square, Budapest, April 4, 1956. Edward R.Tufte The Cognitive Style of PowerPoint: Pitching Out Corrupts Within Copyright \u00a9 2006 by Edward R. Tufte. Second edition. All rights reserved. Published by Graphics Press LLC P.O . Box 430 Cheshire, Connecticut 06410 www.tufte.com \u00a9Associated Press [ next slide, please ] Comrade, why are we having this meeting? the rate of information transfer is asymptotically approaching zero ! no every there\u2019sno bullet list like Stalin\u2019s bullet list ! zero ! no every but why read aloud every slide ? zero ! no every AN integrated application solution for show trials ! hierarchical order ! isn\u2019t it great ? For re-education campaigns, nothing is better than the Auto Content Wizard ! ISBN 978 -1-930824-17-1 Order #6528 Purchased by Jason R Peterson (JRoyPeterson@gmail.com) This copyrighted work is intended only for the person or entity to which it is addressed. This work is not to be transferred, shared, copied, reproduced or translated without written permission from the publisher. Recipients are responsible for maintaining the security and privacy of this work. And not waving but drowning. Stevie Smith, poem, \u201cNot Waving But Drowni",
+      "extracted_text_chars": 1200,
+      "page_count": 32,
+      "extracted_at": "2026-03-28T20:45:14Z"
+    }
+  }
+]

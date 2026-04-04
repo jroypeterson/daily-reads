@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run:*)",
+      "Bash(gh workflow:*)",
+      "Bash(where python:*)",
+      "Bash(python -c \"from project_data import migrate_to_taste_evidence; migrate_to_taste_evidence\\(\\)\")",
+      "Bash(python -c \"from preference_learning import fast_update_preferences; import json; print\\(json.dumps\\(fast_update_preferences\\(\\), indent=2\\)\\)\")",
+      "Bash(python preference_learning.py)",
+      "Bash(python -c \"from main import load_learned_preferences_summary; s = load_learned_preferences_summary\\(\\); print\\(repr\\(s\\) if not s else s\\)\")",
+      "Bash(python -m pytest test_daily_reads.py -v)",
+      "Bash(python -m pytest test_daily_reads.py::DailyReadsTests::test_analyze_history_summarizes_artifacts test_daily_reads.py::DailyReadsTests::test_candidate_artifact_path -v)",
+      "Bash(python -m pytest test_daily_reads.py::DailyReadsTests::test_candidate_artifact_path -v)",
+      "Bash(python -c \"from preference_learning import _summarize_changes; print\\(_summarize_changes\\({}, {''topic_preferences'': [{''name'': ''biotech catalysts'', ''strength'': ''strong''}], ''avoid_patterns'': [{''name'': ''generic roundups''}]}\\)\\)\")",
+      "Bash(ls -la /c/Users/jroyp/Dropbox/Claude Folder/daily-reads/*.json)",
+      "WebSearch",
+      "Bash(python -c \":*)",
+      "Bash(python sync_tickers.py)"
+    ]
+  }
+}

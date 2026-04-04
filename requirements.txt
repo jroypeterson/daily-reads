@@ -1,5 +1,7 @@
 anthropic
+feedparser
 google-auth-oauthlib
 google-api-python-client
 requests
 beautifulsoup4
+pypdf

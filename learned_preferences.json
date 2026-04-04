@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "updated_at": "2026-04-03T16:56:20Z",
+  "topic_preferences": [],
+  "source_preferences": [],
+  "style_preferences": [],
+  "avoid_patterns": [],
+  "evidence_summary": {
+    "total": 0,
+    "by_kind": {},
+    "by_channel": {}
+  },
+  "score_scale": {
+    "1": "Miss",
+    "2": "Fine",
+    "3": "Strong pick"
+  }
+}

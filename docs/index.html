@@ -3,16 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Reads — 2026-04-03</title>
+  <title>Daily Reads — 2026-03-16</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: #0f0f23; color: #e0e0e0; padding: 24px;
       max-width: 800px; margin: 0 auto;
     }
     h1 { color: #e94560; margin-bottom: 8px; font-size: 28px; }
     .updated { color: #666; font-size: 13px; margin-bottom: 24px; }
+    .intro {
+      background: #151530; border: 1px solid #2a2a50; border-radius: 12px;
+      padding: 16px; margin-bottom: 24px; line-height: 1.6;
+    }
+    .intro p { margin-bottom: 10px; }
+    .intro a { color: #0fbcf9; text-decoration: none; }
+    .intro a:hover { text-decoration: underline; }
     .card {
       background: #16213e; border-radius: 12px; padding: 20px;
       margin-bottom: 20px; border-left: 4px solid #e94560;
@@ -30,193 +37,88 @@
     .why { color: #e94560; font-style: italic; margin-bottom: 10px; }
     .tags { color: #666; font-size: 12px; margin-bottom: 12px; }
     .feedback { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-    .fb-btn {
+    .fb-link {
       background: #1a1a40; border: 1px solid #333; border-radius: 6px;
-      padding: 6px 12px; cursor: pointer; font-size: 18px;
+      padding: 7px 12px; color: #eee; text-decoration: none; font-size: 13px;
       transition: background 0.2s;
     }
-    .fb-btn:hover { background: #2a2a50; }
-    .fb-btn.selected { background: #e94560; border-color: #e94560; }
-    .fb-note {
-      background: #1a1a40; border: 1px solid #333; border-radius: 6px;
-      padding: 6px 10px; color: #eee; flex: 1; min-width: 120px;
-    }
-    .fb-submit {
-      background: #e94560; color: white; border: none; border-radius: 6px;
-      padding: 6px 14px; cursor: pointer; font-size: 13px;
-    }
-    .fb-submit:hover { background: #c7385a; }
-    .fb-status { color: #4caf50; font-size: 12px; margin-left: 8px; }
-    .empty { text-align: center; padding: 60px 20px; color: #666; }
+    .fb-link:hover { background: #2a2a50; }
   </style>
 </head>
 <body>
   <h1>📰 Daily Reads</h1>
-  <p class="updated">Last updated: 2026-04-03 12:42 UTC</p>
-
-  <div id="cards">
-
-      <div class="card" data-slot="1" data-date="2026-04-03">
-        <div class="card-header">
-          <span class="slot-emoji">🧬</span>
-          <span class="slot-label">Slot 1</span>
-        </div>
-        <h2><a href="https://www.statnews.com/2026/04/01/eli-lilly-obesity-pill-approved-orforglipron-foundayo/" target="_blank">Lilly wins FDA approval for obesity pill Foundayo, setting up Novo Nordisk battle</a></h2>
-        <p class="meta">Multiple Healthcare Sources · 2026-04-03</p>
-        <p class="summary">The FDA approved Eli Lilly's once-daily obesity pill Foundayo (orforglipron) in just 50 days under a new expedited review program. The drug, which achieved 11% average weight loss in trials, competes directly with Novo Nordisk's oral Wegovy and can be taken anytime without food restrictions, unlike its competitor.</p>
-        <p class="why">💡 Creates immediate competition in the massive GLP-1 pill market and validates Lilly's non-peptide approach, potentially impacting both LLY and NVO stock performance and market share dynamics.</p>
-        <p class="tags">ticker_match:LLY, high_priority_source, catalyst_proximity, actionability</p>
-        <div class="feedback">
-          <button class="fb-btn" onclick="rate(this, 1, 5)">👍</button>
-          <button class="fb-btn" onclick="rate(this, 1, 1)">👎</button>
-          <input type="text" class="fb-note" placeholder="Optional note..." id="note-1">
-          <button class="fb-submit" onclick="submitFeedback(1)">Send</button>
-        </div>
-      </div>
-
-      <div class="card" data-slot="3" data-date="2026-04-03">
-        <div class="card-header">
-          <span class="slot-emoji">🤖</span>
-          <span class="slot-label">Slot 3</span>
-        </div>
-        <h2><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/" target="_blank">Google releases Gemma 4 open models with Apache 2.0 license, targeting enterprise adoption</a></h2>
-        <p class="meta">Google DeepMind · 2026-04-03</p>
-        <p class="summary">Google launched Gemma 4, its most capable open-weight AI models, under a permissive Apache 2.0 license. The family includes four variants from 2B to 31B parameters, featuring multimodal capabilities, 256K context windows, and advanced reasoning designed for edge devices to enterprise workstations.</p>
-        <p class="why">💡 Represents Google's strategic pivot to compete with Chinese open models and offers enterprises a domestic alternative with better licensing terms, potentially impacting GOOGL's competitive position in open-source AI.</p>
-        <p class="tags">ticker_match:GOOGL, novelty, actionability</p>
-        <div class="feedback">
-          <button class="fb-btn" onclick="rate(this, 3, 5)">👍</button>
-          <button class="fb-btn" onclick="rate(this, 3, 1)">👎</button>
-          <input type="text" class="fb-note" placeholder="Optional note..." id="note-3">
-          <button class="fb-submit" onclick="submitFeedback(3)">Send</button>
-        </div>
-      </div>
-
-      <div class="card" data-slot="2" data-date="2026-04-03">
-        <div class="card-header">
-          <span class="slot-emoji">📊</span>
-          <span class="slot-label">Slot 2</span>
-        </div>
-        <h2><a href="https://browsergate.eu/" target="_blank">LinkedIn allegedly scanning browser extensions and sharing data with third parties</a></h2>
-        <p class="meta">BrowserGate Investigation · 2026-04-03</p>
-        <p class="summary">An investigation claims LinkedIn secretly scans nearly 3,000 browser extensions on every visit, collecting data on job search tools, competitor software, and personal indicators like religious or political affiliations. The data is reportedly shared with third-party firms including HUMAN Security without user consent.</p>
-        <p class="why">💡 Exposes potential GDPR violations and privacy risks that could trigger regulatory action against Microsoft, while highlighting broader concerns about enterprise surveillance and data collection practices.</p>
-        <p class="tags">ticker_match:MSFT, novelty, actionability</p>
-        <div class="feedback">
-          <button class="fb-btn" onclick="rate(this, 2, 5)">👍</button>
-          <button class="fb-btn" onclick="rate(this, 2, 1)">👎</button>
-          <input type="text" class="fb-note" placeholder="Optional note..." id="note-2">
-          <button class="fb-submit" onclick="submitFeedback(2)">Send</button>
-        </div>
-      </div>
-
-      <div class="card" data-slot="4" data-date="2026-04-03">
-        <div class="card-header">
-          <span class="slot-emoji">🌀</span>
-          <span class="slot-label">Slot 4</span>
-        </div>
-        <h2><a href="https://cursor.com/blog/cursor-3" target="_blank">Cursor 3 launches with advanced AI coding capabilities</a></h2>
-        <p class="meta">Hacker News · 2026-04-03</p>
-        <p class="summary">AI-powered code editor Cursor released version 3 with enhanced AI pair programming features and improved code generation capabilities. The release garnered significant developer attention with 451 points on Hacker News, indicating strong community interest in AI-assisted development tools.</p>
-        <p class="why">💡 Signals continued momentum in AI-powered developer tools market and potential competitive pressure on traditional IDEs, relevant for understanding enterprise software adoption trends.</p>
-        <p class="tags">novelty, high_hacker_news_score</p>
-        <div class="feedback">
-          <button class="fb-btn" onclick="rate(this, 4, 5)">👍</button>
-          <button class="fb-btn" onclick="rate(this, 4, 1)">👎</button>
-          <input type="text" class="fb-note" placeholder="Optional note..." id="note-4">
-          <button class="fb-submit" onclick="submitFeedback(4)">Send</button>
-        </div>
-      </div>
-
+  <p class="updated">Last updated: 2026-03-16 20:57 UTC</p>
+  <div class="intro">
+    <p>Score from this page by opening a prefilled email draft. Use <strong>3 = Strong pick</strong>, <strong>2 = Fine</strong>, and <strong>1 = Miss</strong>. You can add a note before sending.</p>
+    <p>For broader preference training, <a href="https://github.com/jroypeterson/daily-reads/issues/new?labels=taste&title=Taste%3A+&body=Paste+URL+here%0A%0AWhy+I+liked+it%3A+">submit an article you liked</a>.</p>
   </div>
 
-  <script>
-    const REPO = 'jroypeterson/daily-reads';
-    const today = '2026-04-03';
-    let ratings = {};
+  <div class="card">
+    <div class="card-header">
+      <span class="slot-emoji">🧬</span>
+      <span class="slot-label">Slot 1</span>
+    </div>
+    <h2><a href="https://www.biospace.com/drug-development/structure-climbs-on-highly-competitive-profile-for-weight-loss-pill" target="_blank">Structure's obesity pill shows impressive weight loss that could rival Novo and Lilly</a></h2>
+    <p class="meta">BioSpace · 2026-03-16</p>
+    <p class="summary">Structure Therapeutics reported that its oral GLP-1 pill aleniglipron achieved 15% weight loss after 44 weeks in Phase 2 trials, potentially positioning it to compete with Novo Nordisk's oral Wegovy and Eli Lilly's orforglipron. The company plans to start Phase 3 trials mid-2026, as the oral obesity market heats up.</p>
+    <p class="why">💡 This could shake up the massive GLP-1 obesity market with a third significant oral player, potentially impacting the competitive dynamics between established giants Novo and Lilly.</p>
+    <p class="tags">healthcare_primary, catalyst_proximity, actionability</p>
+    <div class="feedback">
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=1+3">👍 Strong</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=1+2">👌 Fine</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=1+1">👎 Miss</a>
+    </div>
+  </div>
 
-    function rate(btn, slot, score) {
-      // Toggle selection
-      const card = btn.closest('.card');
-      card.querySelectorAll('.fb-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      ratings[slot] = score;
-    }
+  <div class="card">
+    <div class="card-header">
+      <span class="slot-emoji">🧬</span>
+      <span class="slot-label">Slot 1</span>
+    </div>
+    <h2><a href="https://www.biospace.com/drug-development/denalis-hunter-syndrome-candidate-in-the-spotlight-after-regenxbio-rejection" target="_blank">REGENXBIO rejection puts Denali's Hunter syndrome drug in pole position</a></h2>
+    <p class="meta">BioSpace · 2026-03-16</p>
+    <p class="summary">The FDA's rejection of REGENXBIO's Hunter syndrome gene therapy RGX-121 shifts focus to Denali Therapeutics' competing enzyme replacement therapy tividenofusp, which has an April 5 PDUFA date. Analysts see 70-80% approval odds for Denali despite concerns about FDA's rare disease stance.</p>
+    <p class="why">💡 This regulatory reshuffling could hand Denali first-to-market advantage in a rare disease with significant unmet need, while highlighting broader FDA scrutiny under controversial biologics chief Vinay Prasad.</p>
+    <p class="tags">healthcare_primary, catalyst_proximity, fda_decision</p>
+    <div class="feedback">
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=1+3">👍 Strong</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=1+2">👌 Fine</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=1+1">👎 Miss</a>
+    </div>
+  </div>
 
-    async function submitFeedback(slot) {
-      const note = document.getElementById('note-' + slot)?.value || '';
-      const score = ratings[slot];
-      if (!score) { alert('Click 👍 or 👎 first'); return; }
+  <div class="card">
+    <div class="card-header">
+      <span class="slot-emoji">🤖</span>
+      <span class="slot-label">Slot 3</span>
+    </div>
+    <h2><a href="https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai" target="_blank">Nvidia launches Vera CPU purpose-built for agentic AI workloads</a></h2>
+    <p class="meta">NVIDIA Newsroom · 2026-03-16</p>
+    <p class="summary">Nvidia unveiled its Vera CPU designed specifically for agentic AI and reinforcement learning, claiming 2x efficiency and 50% faster performance than traditional CPUs. The chip integrates with Nvidia's full Rubin platform and is being adopted by major hyperscalers including Meta, ByteDance, and Oracle.</p>
+    <p class="why">💡 This marks Nvidia's expansion beyond GPUs into the CPU market, directly competing with Intel and AMD while capitalizing on the emerging agentic AI trend that requires significant CPU compute for tool execution.</p>
+    <p class="tags">tech_primary, ai_breakthrough, infrastructure_play</p>
+    <div class="feedback">
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=3+3">👍 Strong</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=3+2">👌 Fine</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=3+1">👎 Miss</a>
+    </div>
+  </div>
 
-      const entry = {
-        date: today,
-        slot: slot,
-        score: score,
-        note: note,
-        source: 'github_pages'
-      };
-
-      // Try to update feedback_log.json via GitHub API
-      const token = new URLSearchParams(window.location.search).get('token');
-      if (!token) {
-        // Fallback: show the JSON for manual submission
-        const card = document.querySelector(`[data-slot="${slot}"]`);
-        let status = card.querySelector('.fb-status');
-        if (!status) {
-          status = document.createElement('span');
-          status.className = 'fb-status';
-          card.querySelector('.feedback').appendChild(status);
-        }
-        status.textContent = '✓ Feedback recorded locally';
-        console.log('Feedback:', JSON.stringify(entry));
-
-        // Store in localStorage as backup
-        let stored = JSON.parse(localStorage.getItem('daily-reads-feedback') || '[]');
-        stored.push(entry);
-        localStorage.setItem('daily-reads-feedback', JSON.stringify(stored));
-        return;
-      }
-
-      try {
-        // Fetch current file
-        const fileResp = await fetch(
-          `https://api.github.com/repos/${REPO}/contents/feedback_log.json`,
-          { headers: { 'Authorization': `token ${token}` } }
-        );
-        const fileData = await fileResp.json();
-        const content = JSON.parse(atob(fileData.content));
-        content.push(entry);
-
-        // Update file
-        await fetch(
-          `https://api.github.com/repos/${REPO}/contents/feedback_log.json`,
-          {
-            method: 'PUT',
-            headers: {
-              'Authorization': `token ${token}`,
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-              message: `Feedback: slot ${slot} rated ${score}`,
-              content: btoa(JSON.stringify(content, null, 2)),
-              sha: fileData.sha
-            })
-          }
-        );
-
-        const card = document.querySelector(`[data-slot="${slot}"]`);
-        let status = card.querySelector('.fb-status');
-        if (!status) {
-          status = document.createElement('span');
-          status.className = 'fb-status';
-          card.querySelector('.feedback').appendChild(status);
-        }
-        status.textContent = '✓ Saved!';
-      } catch (e) {
-        console.error('Feedback submit failed:', e);
-        alert('Failed to save feedback. Check console.');
-      }
-    }
-  </script>
+  <div class="card">
+    <div class="card-header">
+      <span class="slot-emoji">🌀</span>
+      <span class="slot-label">Slot 4</span>
+    </div>
+    <h2><a href="https://www.writingruxandrabio.com/p/the-bureaucracy-blocking-the-chance" target="_blank">The bureaucracy blocking the chance at a cure: FDA rare disease controversies intensify</a></h2>
+    <p class="meta">Multiple Sources · 2026-03-16</p>
+    <p class="summary">Mounting criticism of FDA's handling of rare disease drugs has centered on departing biologics chief Vinay Prasad, whose restrictive policies led to multiple drug rejections. Senate investigations are launching as patient advocates argue the agency is abandoning promised regulatory flexibility for life-threatening conditions.</p>
+    <p class="why">💡 This regulatory tension could reshape how rare disease drugs are developed and approved, with significant implications for biotech investment and patient access to experimental treatments.</p>
+    <p class="tags">wildcard, policy_impact, regulatory_uncertainty</p>
+    <div class="feedback">
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=4+3">👍 Strong</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=4+2">👌 Fine</a>
+      <a class="fb-link" href="mailto:jroypeterson@gmail.com?subject=Daily+Reads+feedback+2026-03-16&body=4+1">👎 Miss</a>
+    </div>
+  </div>
 </body>
 </html>

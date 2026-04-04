@@ -6,20 +6,77 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parseaddr
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
 
 from sources import get_source, get_all_sender_emails
+
+TRACKING_QUERY_PREFIXES = (
+    "utm_",
+    "fbclid",
+    "gclid",
+    "mc_",
+    "mkt_",
+    "oly_",
+    "_hs",
+    "vero_",
+    "mbid",
+    "cmpid",
+)
+NON_ARTICLE_PATH_PATTERNS = re.compile(
+    r"/(unsubscribe|account|profile|preferences|settings|subscribe|login|signup|share|podcast|events?|jobs?|careers?|advertis|privacy|terms)(/|$)",
+    re.IGNORECASE,
+)
+NON_ARTICLE_HOST_PATTERNS = re.compile(
+    r"(mailchi\.mp|substack\.com/api/|lnkd\.in|twitter\.com/share|facebook\.com/sharer)",
+    re.IGNORECASE,
+)
 
 
 def get_gmail_service():
     """Build Gmail API service from GMAIL_OAUTH_JSON env var."""
+    from google.auth.transport.requests import Request
+    from google.oauth2.credentials import Credentials
+    from googleapiclient.discovery import build
+
     token_json = os.environ["GMAIL_OAUTH_JSON"]
     token_data = json.loads(token_json)
     creds = Credentials.from_authorized_user_info(token_data)
+    if creds.expired and creds.refresh_token:
+        creds.refresh(Request())
     return build("gmail", "v1", credentials=creds)
+
+
+def clean_url(url: str) -> str:
+    """Strip fragments and common tracking params while preserving core article identity."""
+    parsed = urlsplit((url or "").strip())
+    query_items = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if not key.lower().startswith(TRACKING_QUERY_PREFIXES)
+    ]
+    path = parsed.path.rstrip("/") or "/"
+    return urlunsplit((
+        parsed.scheme.lower(),
+        parsed.netloc.lower(),
+        path,
+        urlencode(query_items, doseq=True),
+        "",
+    ))
+
+
+def is_probable_article_url(url: str) -> bool:
+    parsed = urlsplit(url)
+    if parsed.scheme not in {"http", "https"}:
+        return False
+    if NON_ARTICLE_HOST_PATTERNS.search(url):
+        return False
+    if NON_ARTICLE_PATH_PATTERNS.search(parsed.path):
+        return False
+    if parsed.path in {"", "/"}:
+        return False
+    return True
 
 
 def extract_urls_from_html(html: str) -> list[str]:
@@ -33,9 +90,11 @@ def extract_urls_from_html(html: str) -> list[str]:
     )
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
-        if href.startswith("http") and not skip_patterns.search(href):
-            if href not in urls:
-                urls.append(href)
+        if not href.startswith("http") or skip_patterns.search(href):
+            continue
+        cleaned = clean_url(href)
+        if is_probable_article_url(cleaned) and cleaned not in urls:
+            urls.append(cleaned)
     return urls
 
 

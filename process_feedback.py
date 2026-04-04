@@ -6,6 +6,8 @@ import re
 import sys
 
 import requests
+from datetime import datetime, timezone
+from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for
 
 REPO = "jroypeterson/daily-reads"
 API = "https://api.github.com"
@@ -75,13 +77,8 @@ def main():
         if key in existing:
             print(f"  Duplicate: {date} slot{slot} — skipping")
         else:
-            entry = {
-                "date": date,
-                "slot": slot,
-                "score": score,
-                "note": note,
-                "source": "github_issue",
-            }
+            entry = enrich_feedback_entry(date, slot, "github_issue", score, note)
+            entry["source"] = "github_issue"
             feedback.append(entry)
             existing.add(key)
             processed += 1
@@ -96,6 +93,36 @@ def main():
         )
 
     save_json("feedback_log.json", feedback)
+
+    # Bridge score-1 and score-3 entries into taste evidence
+    taste_records = []
+    for entry in feedback:
+        score = entry.get("score")
+        if score not in (1, 3):
+            continue
+        taste_records.append({
+            "id": evidence_id_for(f"feedback|{entry.get('date')}|{entry.get('slot')}|{entry.get('channel', '')}"),
+            "kind": f"daily_rating_{score}",
+            "source_channel": "daily_scoring",
+            "title": entry.get("headline", ""),
+            "url": entry.get("url", ""),
+            "local_path": "",
+            "note": entry.get("note", ""),
+            "score": score,
+            "content_status": "not_applicable",
+            "metadata": {
+                "article_id": entry.get("article_id"),
+                "article_source": entry.get("article_source"),
+                "slot": entry.get("slot"),
+                "digest_date": entry.get("date"),
+            },
+            "created_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        })
+    if taste_records:
+        bridged = append_taste_evidence(taste_records)
+        if bridged:
+            print(f"Bridged {bridged} feedback entries to taste evidence.")
+
     print(f"Processed {processed} new feedback entries from {len(issues)} issue(s).")
 
 

@@ -27,6 +27,36 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Process taste submissions
+        run: python process_taste.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Process email feedback
+        run: python process_email_feedback.py
+        env:
+          GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
+
+      - name: Process email exemplars
+        run: python process_email_exemplars.py
+        env:
+          GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
+          TASTE_EMAIL_ALIAS: ${{ secrets.TASTE_EMAIL_ALIAS }}
+          TASTE_GMAIL_LABEL: ${{ secrets.TASTE_GMAIL_LABEL }}
+
+      - name: Process criteria decisions
+        run: python process_criteria_feedback.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update learned preferences
+        run: python preference_learning.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
       - name: Run Daily Reads
         run: python main.py
         env:
@@ -39,6 +69,6 @@ jobs:
         run: |
           git config user.name "daily-reads-bot"
           git config user.email "bot@daily-reads"
-          git add docs/ feedback_log.json selection_criteria.md
+          git add docs/ feedback_log.json selection_criteria.md selection_criteria_proposed.md criteria_update_state.json taste_profile.md taste_evidence.json learned_preferences.json learned_preferences.md artifacts/
           git diff --staged --quiet || git commit -m "Daily reads $(date -u +%Y-%m-%d)"
           git push

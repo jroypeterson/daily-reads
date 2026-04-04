@@ -4,31 +4,34 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from difflib import ndiff
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlencode
 
 import anthropic
 import requests
 
 from gmail_reader import fetch_newsletters
+from project_data import (
+    article_id_for,
+    candidate_artifact_path,
+    load_json,
+    run_artifact_path,
+    save_json,
+    triage_artifact_path,
+)
 from sources import SOURCES
+
+REPO = "jroypeterson/daily-reads"
+CRITERIA_STATE_PATH = "criteria_update_state.json"
+PROPOSED_CRITERIA_PATH = "selection_criteria_proposed.md"
+CRITERIA_WEB_URL = f"https://github.com/{REPO}/blob/main/{PROPOSED_CRITERIA_PATH}"
+LEARNED_PREFERENCES_JSON_PATH = "learned_preferences.json"
+LEARNED_PREFERENCES_MD_PATH = "learned_preferences.md"
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def load_json(path: str, default=None):
-    try:
-        with open(path, "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default if default is not None else []
-
-
-def save_json(path: str, data):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
-
 
 def section(title: str):
     print(f"\n{'='*60}")
@@ -42,7 +45,469 @@ def feedback_url(date: str, slot: int, score: int, headline: str) -> str:
     title = f"Feedback: {date} slot{slot} score{score}"
     body = f"Article: {truncated}\n\nOptional note: "
     params = urlencode({"labels": "feedback", "title": title, "body": body})
-    return f"https://github.com/jroypeterson/daily-reads/issues/new?{params}"
+    return f"https://github.com/{REPO}/issues/new?{params}"
+
+
+def slack_mailto_feedback_url(date: str, slot: int, score: int) -> str:
+    """Generate a mailto link that opens a prefilled feedback draft."""
+    params = urlencode(
+        {
+            "subject": f"Daily Reads feedback {date}",
+            "body": f"{slot} {score}",
+        }
+    )
+    return f"mailto:jroypeterson@gmail.com?{params}"
+
+
+def load_criteria_state() -> dict:
+    state = load_json(CRITERIA_STATE_PATH, None)
+    if not isinstance(state, dict):
+        return {"pending": None, "history": []}
+    state.setdefault("pending", None)
+    state.setdefault("history", [])
+    return state
+
+
+def save_criteria_state(state: dict):
+    save_json(CRITERIA_STATE_PATH, state)
+
+
+def criteria_issue_url(action: str, proposal_id: str) -> str:
+    title = f"Criteria Update: {action} {proposal_id}"
+    if action == "modify":
+        body = (
+            f"Proposal ID: {proposal_id}\n\n"
+            "Requested changes:\n"
+        )
+    else:
+        body = (
+            f"Proposal ID: {proposal_id}\n\n"
+            f"Action: {action}\n"
+        )
+    params = urlencode({"labels": "criteria-update", "title": title, "body": body})
+    return f"https://github.com/{REPO}/issues/new?{params}"
+
+
+def send_gmail_html(subject: str, html: str):
+    import base64
+    from email.mime.text import MIMEText
+    from gmail_reader import get_gmail_service
+
+    service = get_gmail_service()
+    msg = MIMEText(html, "html")
+    msg["to"] = "jroypeterson@gmail.com"
+    msg["subject"] = subject
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    service.users().messages().send(userId="me", body={"raw": raw}).execute()
+
+
+def notify_criteria_update(proposal: dict):
+    summary_items = proposal.get("summary", [])
+    summary_html = "".join(f"<li>{item}</li>" for item in summary_items)
+    summary_text = "\n".join(f"• {item}" for item in summary_items)
+    diff_lines = proposal.get("diff_lines", [])
+    diff_html = "".join(
+        f"<li><code>{line}</code></li>"
+        for line in diff_lines
+    ) or "<li><code>No concrete line-level diff available.</code></li>"
+    diff_text = "\n".join(f"• {line}" for line in diff_lines) or "• No concrete line-level diff available."
+    accept_url = criteria_issue_url("accept", proposal["proposal_id"])
+    reject_url = criteria_issue_url("reject", proposal["proposal_id"])
+    modify_url = criteria_issue_url("modify", proposal["proposal_id"])
+
+    subject = f"Criteria Update Proposed — {proposal['proposal_id']}"
+    html = f"""<html><body style="font-family: -apple-system, sans-serif; max-width: 640px; margin: 0 auto; color: #222; padding: 20px;">
+<h1>Criteria Update Proposed</h1>
+<p><strong>Proposal ID:</strong> {proposal['proposal_id']}</p>
+<p><strong>Trigger:</strong> {proposal.get('trigger', 'feedback threshold reached')}</p>
+<p><strong>Summary of changes:</strong></p>
+<ul>{summary_html}</ul>
+<p><strong>Concrete diff highlights:</strong></p>
+<ul>{diff_html}</ul>
+<p><a href="{CRITERIA_WEB_URL}">Review proposed criteria file</a></p>
+<p>
+  <a href="{accept_url}">Accept</a>
+  &nbsp;|&nbsp;
+  <a href="{reject_url}">Reject</a>
+  &nbsp;|&nbsp;
+  <a href="{modify_url}">Request modifications</a>
+</p>
+</body></html>"""
+
+    try:
+        send_gmail_html(subject, html)
+        print("Criteria update email notification sent")
+    except Exception as e:
+        print(f"Criteria update email notification failed: {e}")
+
+    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    if not webhook_url:
+        print("No SLACK_WEBHOOK_URL set — skipping criteria Slack notification")
+        return
+
+    blocks = [
+        {"type": "header", "text": {"type": "plain_text", "text": "Criteria Update Proposed"}},
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": (
+                    f"*Proposal ID:* {proposal['proposal_id']}\n"
+                    f"*Trigger:* {proposal.get('trigger', 'feedback threshold reached')}\n\n"
+                    f"{summary_text or 'No summary generated.'}\n\n"
+                    f"*Diff highlights:*\n{diff_text}"
+                ),
+            },
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": (
+                    f"<{CRITERIA_WEB_URL}|Review proposed criteria>  "
+                    f"<{accept_url}|Accept>  "
+                    f"<{reject_url}|Reject>  "
+                    f"<{modify_url}|Request modifications>"
+                ),
+            },
+        },
+    ]
+
+    try:
+        resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
+        resp.raise_for_status()
+        print("Criteria update Slack notification sent")
+    except Exception as e:
+        print(f"Criteria update Slack notification failed: {e}")
+
+
+def load_learned_preferences_summary() -> str:
+    prefs = load_json(LEARNED_PREFERENCES_JSON_PATH, {})
+    if not isinstance(prefs, dict):
+        return ""
+
+    # v2 structured preferences
+    if prefs.get("version") == 2:
+        parts = []
+
+        def render_section(prefs_list, label, direction_filter=None):
+            items = prefs_list or []
+            if direction_filter:
+                items = [p for p in items if p.get("direction") == direction_filter]
+            if not items:
+                return
+            by_strength = {}
+            for p in items:
+                strength = p.get("strength", "weak")
+                by_strength.setdefault(strength, []).append(p)
+            for strength in ("strong", "moderate", "weak"):
+                group = by_strength.get(strength, [])
+                if not group:
+                    continue
+                parts.append(f"{strength.upper()} {label}:")
+                for p in group:
+                    evidence_count = len(p.get("evidence_ids", []))
+                    parts.append(f"- {p.get('name', '?')} ({evidence_count} evidence points)")
+
+        render_section(prefs.get("topic_preferences"), "topic preferences", "positive")
+        render_section(prefs.get("source_preferences"), "source preferences", "positive")
+        render_section(prefs.get("style_preferences"), "style preferences", "positive")
+
+        avoid = prefs.get("avoid_patterns", [])
+        if avoid:
+            parts.append("AVOID patterns:")
+            for p in avoid:
+                parts.append(f"- {p.get('name', '?')}")
+
+        # Add recent exemplars from taste evidence for concrete examples
+        from project_data import load_taste_evidence
+        evidence = load_taste_evidence()
+        positive = [e for e in evidence if e.get("kind") in ("positive_exemplar", "daily_rating_3")]
+        positive.sort(key=lambda e: e.get("created_at", ""))
+        for entry in positive[-3:]:
+            line = f"Exemplar ({entry.get('source_channel', '?')}): \"{entry.get('title', 'Untitled')}\""
+            if entry.get("note"):
+                line += f" — {entry['note']}"
+            elif entry.get("metadata", {}).get("extracted_text_preview"):
+                line += f" — {entry['metadata']['extracted_text_preview'][:180]}"
+            parts.append(line)
+
+        misses = [e for e in evidence if e.get("kind") == "daily_rating_1"]
+        misses.sort(key=lambda e: e.get("created_at", ""))
+        for entry in misses[-2:]:
+            line = f"Recent miss ({entry.get('source_channel', '?')}): \"{entry.get('title', 'Untitled')}\""
+            if entry.get("note"):
+                line += f" — {entry['note']}"
+            parts.append(line)
+
+        return "\n".join(parts)
+
+    # v1 fallback
+    narrative = prefs.get("narrative_summary", {})
+    parts = []
+    for key in ("topics", "qualities", "avoid", "sources"):
+        value = str(narrative.get(key, "")).strip()
+        if value and "Not enough data yet" not in value:
+            parts.append(value)
+    recent_examples = prefs.get("recent_examples", [])
+    example_lines = []
+    for example in recent_examples[:3]:
+        headline = str(example.get("headline", "")).strip()
+        source_channel = str(example.get("source_channel", "")).strip()
+        note = str(example.get("note", "")).strip()
+        excerpt = str(example.get("excerpt", "")).strip()
+        if headline:
+            line = f"Exemplar ({source_channel or 'unknown'}): {headline}"
+            if note:
+                line += f" — {note}"
+            elif excerpt:
+                line += f" — {excerpt[:180]}"
+            example_lines.append(line)
+    if example_lines:
+        parts.append("Recent positive exemplars:\n" + "\n".join(example_lines))
+    return "\n".join(parts)
+
+
+def build_criteria_diff_lines(current: str, proposed: str, limit: int = 8) -> list[str]:
+    """Summarize concrete added/removed lines between active and proposed criteria."""
+    diff_lines = []
+    for line in ndiff(current.splitlines(), proposed.splitlines()):
+        if line.startswith("? "):
+            continue
+        if line.startswith("- ") or line.startswith("+ "):
+            text = line[2:].strip()
+            if not text:
+                continue
+            prefix = "Removed" if line.startswith("- ") else "Added"
+            diff_lines.append(f"{prefix}: {text}")
+        if len(diff_lines) >= limit:
+            break
+    return diff_lines
+
+
+def normalize_candidate(candidate: dict, source_type: str, run_date: str, ordinal: int) -> dict:
+    urls = candidate.get("urls") or []
+    primary_url = urls[0] if urls else ""
+    source_name = candidate.get("source_name", "Unknown")
+    headline = candidate.get("subject") or candidate.get("snippet") or "(untitled)"
+    candidate_id = article_id_for(
+        primary_url or f"{source_type}:{source_name}:{headline}:{ordinal}",
+        source_name,
+    )
+    return {
+        "candidate_id": candidate_id,
+        "run_date": run_date,
+        "source_type": source_type,
+        "source_name": source_name,
+        "headline": headline,
+        "snippet": candidate.get("snippet", ""),
+        "primary_url": primary_url,
+        "urls": urls[:5],
+        "category": candidate.get("category", "unknown"),
+        "priority": candidate.get("priority", "normal"),
+        "tier": candidate.get("tier", 0),
+        "score": candidate.get("score"),
+        "sender_email": candidate.get("sender_email"),
+        "sender": candidate.get("sender"),
+        "published_at": candidate.get("date"),
+    }
+
+
+def extract_candidate_signals(candidate: dict, ticker_lookup: set[str],
+                              company_lookup: dict[str, str] | None = None,
+                              ticker_details: dict[str, dict] | None = None) -> list[str]:
+    text = " ".join(
+        str(candidate.get(field, ""))
+        for field in ("headline", "snippet", "source_name", "category")
+    )
+    # Match ticker symbols
+    tokens = set(re.findall(r"\b[A-Z]{2,6}\b", text.upper()))
+    ticker_hits = sorted(token for token in tokens if token in ticker_lookup)[:3]
+
+    # Match company names in headlines
+    if company_lookup:
+        text_lower = text.lower()
+        for name, ticker in company_lookup.items():
+            if len(name) >= 5 and name in text_lower:
+                base = ticker.split(".")[0].upper()
+                if base not in ticker_hits:
+                    ticker_hits.append(base)
+                    if len(ticker_hits) >= 5:
+                        break
+
+    signals = []
+    if candidate.get("priority") == "high":
+        signals.append("priority:high")
+    if candidate.get("source_type") == "gmail":
+        signals.append("source_type:gmail")
+    if candidate.get("source_type") == "tier2":
+        signals.append("source_type:tier2")
+    if candidate.get("score"):
+        signals.append(f"hn_score:{candidate['score']}")
+    if candidate.get("category"):
+        signals.append(f"category:{candidate['category']}")
+    signals.extend(f"ticker:{ticker}" for ticker in ticker_hits)
+
+    # Add subsector tags from matched tickers
+    if ticker_details and ticker_hits:
+        subsectors_seen = set()
+        for ticker in ticker_hits:
+            detail = ticker_details.get(ticker) or ticker_details.get(ticker.upper())
+            if detail and detail.get("subsector") and detail["subsector"] not in subsectors_seen:
+                signals.append(f"subsector:{detail['subsector']}")
+                subsectors_seen.add(detail["subsector"])
+
+    return signals
+
+
+def build_structured_candidates(
+    gmail_items: list[dict],
+    tier2_items: list[dict],
+    run_date: str,
+    tickers: dict,
+) -> tuple[list[dict], list[dict]]:
+    ticker_lookup = {
+        str(ticker).upper()
+        for bucket in ("healthcare", "tech", "other")
+        for ticker in tickers.get(bucket, [])
+        if isinstance(ticker, str)
+    }
+    company_lookup = tickers.get("company_lookup") or {}
+    ticker_details = tickers.get("details") or {}
+
+    normalized_gmail = [
+        normalize_candidate(item, "gmail", run_date, index)
+        for index, item in enumerate(gmail_items, 1)
+    ]
+    normalized_tier2 = [
+        normalize_candidate(item, "tier2", run_date, index)
+        for index, item in enumerate(tier2_items, 1)
+    ]
+
+    for candidate in normalized_gmail + normalized_tier2:
+        candidate["derived_signals"] = extract_candidate_signals(
+            candidate, ticker_lookup, company_lookup, ticker_details,
+        )
+
+    return normalized_gmail, normalized_tier2
+
+
+def score_candidate_for_triage(candidate: dict) -> int:
+    score = 0
+    if candidate.get("source_type") == "gmail":
+        score += 3
+    if candidate.get("priority") == "high":
+        score += 2
+    if candidate.get("tier") == 1:
+        score += 2
+    score += len([signal for signal in candidate.get("derived_signals", []) if signal.startswith("ticker:")]) * 2
+    if candidate.get("score"):
+        score += min(int(candidate["score"]) // 50, 3)
+    return score
+
+
+def build_triage_queue(
+    structured_gmail: list[dict],
+    structured_tier2: list[dict],
+    selected_articles: list[dict],
+    limit: int = 10,
+) -> list[dict]:
+    selected_urls = {article.get("url") for article in selected_articles}
+    queue = []
+    for candidate in structured_gmail + structured_tier2:
+        if candidate.get("primary_url") in selected_urls:
+            continue
+        queue.append({
+            **candidate,
+            "triage_score": score_candidate_for_triage(candidate),
+        })
+
+    queue.sort(
+        key=lambda candidate: (
+            -candidate.get("triage_score", 0),
+            candidate.get("source_name", ""),
+            candidate.get("headline", ""),
+        )
+    )
+    return queue[:limit]
+
+
+def validate_selected_articles(articles: list[dict]) -> list[dict]:
+    """Enforce structural rules before delivering a digest."""
+    required_slots = {1, 2, 3}
+    allowed_slots = {1, 2, 3, 4}
+    required_fields = ("headline", "source", "url", "slot", "summary", "why_it_matters")
+
+    validated = []
+    seen_slots = set()
+    seen_sources = set()
+
+    for index, raw_article in enumerate(articles, 1):
+        if not isinstance(raw_article, dict):
+            print(f"  Rejecting article #{index}: not an object")
+            continue
+
+        article = {key: raw_article.get(key) for key in required_fields}
+        missing = [field for field, value in article.items() if value in (None, "", [])]
+        if missing:
+            print(f"  Rejecting article #{index}: missing {', '.join(missing)}")
+            continue
+
+        try:
+            slot = int(article["slot"])
+        except (TypeError, ValueError):
+            print(f"  Rejecting article #{index}: invalid slot {article['slot']!r}")
+            continue
+
+        if slot not in allowed_slots:
+            print(f"  Rejecting article #{index}: slot {slot} is out of range")
+            continue
+        if slot in seen_slots:
+            print(f"  Rejecting article #{index}: duplicate slot {slot}")
+            continue
+
+        source = str(article["source"]).strip()
+        normalized_source = source.casefold()
+        if normalized_source in seen_sources:
+            print(f"  Rejecting article #{index}: duplicate source {source}")
+            continue
+
+        url = str(article["url"]).strip()
+        if not re.match(r"^https?://", url):
+            print(f"  Rejecting article #{index}: invalid URL {url!r}")
+            continue
+
+        signal_tags = raw_article.get("signal_tags", [])
+        if not isinstance(signal_tags, list):
+            signal_tags = [str(signal_tags)]
+
+        validated.append({
+            "article_id": article_id_for(url, source),
+            "headline": str(article["headline"]).strip(),
+            "source": source,
+            "url": url,
+            "slot": slot,
+            "summary": str(article["summary"]).strip(),
+            "why_it_matters": str(article["why_it_matters"]).strip(),
+            "signal_tags": [str(tag).strip() for tag in signal_tags if str(tag).strip()],
+            "reading_time": str(raw_article.get("reading_time", "N/A")).strip() or "N/A",
+        })
+        seen_slots.add(slot)
+        seen_sources.add(normalized_source)
+
+        if len(validated) == 4:
+            break
+
+    present_slots = {article["slot"] for article in validated}
+    missing_required_slots = sorted(required_slots - present_slots)
+    if missing_required_slots:
+        print(
+            "Validation failed: missing required slot(s): "
+            + ", ".join(str(slot) for slot in missing_required_slots)
+        )
+        return []
+
+    return sorted(validated, key=lambda article: article["slot"])
 
 
 # ---------------------------------------------------------------------------
@@ -103,6 +568,18 @@ def tier2_scan() -> list[dict]:
     return items
 
 
+def rss_scan() -> list[dict]:
+    section("RSS SCAN")
+    try:
+        from rss_feeds import fetch_rss_feeds
+        items = fetch_rss_feeds()
+        print(f"  Got {len(items)} RSS items")
+        return items
+    except Exception as e:
+        print(f"  RSS scan failed: {e}")
+        return []
+
+
 # ---------------------------------------------------------------------------
 # [FEEDBACK CHECK]
 # ---------------------------------------------------------------------------
@@ -118,11 +595,12 @@ def feedback_check() -> dict:
 
     # Check yesterday's ratings
     today = datetime.now(timezone.utc).date()
+    yesterday = today - timedelta(days=1)
     yesterday_entries = [
         f for f in feedback
-        if f.get("date", "")[:10] == str(today.replace(day=today.day - 1))
+        if f.get("date", "")[:10] == str(yesterday)
     ]
-    low = [f for f in yesterday_entries if f.get("score", 5) <= 3]
+    low = [f for f in yesterday_entries if f.get("score", 2) == 1]
     if low:
         result["low_scores"] = low
         print(f"Found {len(low)} low-rated articles from yesterday")
@@ -153,25 +631,31 @@ def select_articles(
     with open("selection_criteria.md", "r") as f:
         criteria = f.read()
     tickers = load_json("tickers.json", {})
+    run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    structured_gmail, structured_tier2 = build_structured_candidates(
+        gmail_items,
+        tier2_items,
+        run_date,
+        tickers,
+    )
 
-    # Build content for Claude
-    newsletter_text = ""
-    for i, item in enumerate(gmail_items, 1):
-        newsletter_text += f"\n--- Newsletter {i} ---\n"
-        newsletter_text += f"Source: {item['source_name']} ({item['category']})\n"
-        newsletter_text += f"Priority: {item['priority']}\n"
-        newsletter_text += f"Subject: {item['subject']}\n"
-        newsletter_text += f"Snippet: {item['snippet']}\n"
-        newsletter_text += f"URLs: {', '.join(item['urls'][:5])}\n"
+    taste_summary = load_learned_preferences_summary()
 
-    tier2_text = ""
-    for i, item in enumerate(tier2_items, 1):
-        tier2_text += f"\n--- Tier2 {i} ---\n"
-        tier2_text += f"Source: {item['source_name']}\n"
-        tier2_text += f"Title: {item['subject']}\n"
-        tier2_text += f"URL: {item['urls'][0] if item['urls'] else 'N/A'}\n"
-        if item.get("score"):
-            tier2_text += f"HN Score: {item['score']}\n"
+    def candidate_block(label: str, candidates: list[dict]) -> str:
+        text = ""
+        for index, item in enumerate(candidates, 1):
+            text += f"\n--- {label} {index} ---\n"
+            text += f"Candidate ID: {item['candidate_id']}\n"
+            text += f"Source: {item['source_name']} ({item['category']})\n"
+            text += f"Priority: {item['priority']}\n"
+            text += f"Headline: {item['headline']}\n"
+            text += f"Snippet: {item['snippet']}\n"
+            text += f"Primary URL: {item['primary_url'] or 'N/A'}\n"
+            text += f"Derived signals: {', '.join(item.get('derived_signals', [])) or 'none'}\n"
+        return text
+
+    newsletter_text = candidate_block("Gmail Candidate", structured_gmail)
+    tier2_text = candidate_block("Tier2 Candidate", structured_tier2)
 
     feedback_context = ""
     if feedback_info.get("low_scores"):
@@ -184,18 +668,21 @@ with secondary interest in tech/AI and macro markets.
 
 SELECTION CRITERIA:
 {criteria}
-
-TICKER UNIVERSE (abbreviated — {len(tickers.get('healthcare', []))} healthcare,
-{len(tickers.get('tech', []))} tech, {len(tickers.get('other', []))} other):
-Healthcare sample: {', '.join(tickers.get('healthcare', [])[:50])}
-Tech sample: {', '.join(tickers.get('tech', [])[:30])}
+{"" if not taste_summary else f"""
+READER TASTE PROFILE:
+{taste_summary}
+"""}
+TICKER UNIVERSE ({len(tickers.get('healthcare', []))} healthcare, {len(tickers.get('tech', []))} tech, {len(tickers.get('other', []))} other):
+Healthcare subsectors: {', '.join(sorted(s for s, t in (tickers.get('subsectors') or {}).items() if any(((tickers.get('details') or {}).get(tk) or {}).get('bucket') == 'healthcare' for tk in t))[:20])}
+Company name matching enabled ({len(tickers.get('company_lookup', {}))} names).
+Articles mentioning coverage universe tickers or companies get a signal boost.
 {feedback_context}
 
 Select exactly 4 articles (or 3 if no good wildcard candidate).
-Use the web_search tool if you need to verify or supplement any article.
+Use the structured candidate metadata first. Use the web_search tool only if you need to verify or supplement a candidate.
 
 Return ONLY valid JSON — an array of objects with these keys:
-headline, source, url, slot (1-4), summary, why_it_matters, signal_tags
+headline, source, url, slot (1-4), summary, why_it_matters, signal_tags, reading_time (estimated minutes to read, e.g. "4 min")
 """
 
     user_content = f"""Today's date: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
@@ -242,7 +729,12 @@ Select the best 4 (or 3) articles for today's digest. Return JSON only."""
                 print(block.text[:500])
         return []
 
-    print(f"Selected {len(articles)} articles:")
+    articles = validate_selected_articles(articles)
+    if not articles:
+        print("WARNING: Claude returned no valid article set after validation")
+        return []
+
+    print(f"Selected {len(articles)} validated articles:")
     for a in articles:
         print(f"  Slot {a.get('slot')}: {a.get('headline', '?')[:60]}")
         print(f"    Source: {a.get('source')} | Signals: {a.get('signal_tags', [])}")
@@ -254,7 +746,7 @@ Select the best 4 (or 3) articles for today's digest. Return JSON only."""
 # [DELIVERY: GMAIL]
 # ---------------------------------------------------------------------------
 
-def deliver_gmail(articles: list[dict]):
+def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None):
     section("DELIVERY: GMAIL")
     try:
         import base64
@@ -271,24 +763,52 @@ def deliver_gmail(articles: list[dict]):
         for a in articles:
             slot = a.get("slot", 0)
             emoji = slot_emojis.get(slot, "📌")
+            feedback_links = [
+                ("👍", "Strong pick", 3),
+                ("👌", "Fine", 2),
+                ("👎", "Miss", 1),
+            ]
+            feedback_html = " ".join(
+                (
+                    f'<a href="{feedback_url(today, slot, score, a.get("headline", ""))}" '
+                    'style="text-decoration: none; background: #1a1a40; border: 1px solid #333; '
+                    'border-radius: 4px; padding: 4px 10px; color: #eee; font-size: 13px; '
+                    'margin-right: 6px;">'
+                    f"{icon} {label}</a>"
+                )
+                for icon, label, score in feedback_links
+            )
             html += f"""
 <div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid #e94560;">
-  <h2 style="margin: 0 0 8px 0;">{emoji} {a.get('headline', 'Untitled')}</h2>
+  <h2 style="margin: 0 0 8px 0;">{emoji} <a href="{a.get('url', '#')}" style="color: #0fbcf9; text-decoration: none;">{a.get('headline', 'Untitled')}</a></h2>
   <p style="color: #a8a8b3; margin: 4px 0; font-size: 13px;">{a.get('source', '')} · Slot {slot}</p>
   <p style="margin: 8px 0;">{a.get('summary', '')}</p>
   <p style="color: #e94560; font-style: italic; margin: 8px 0;">💡 {a.get('why_it_matters', '')}</p>
-  <p style="margin: 8px 0;"><a href="{a.get('url', '#')}" style="color: #0fbcf9;">Read article →</a></p>
-  <p style="margin: 8px 0;">
-    <a href="{feedback_url(today, slot, 5, a.get('headline', ''))}" style="text-decoration: none; background: #1a1a40; border: 1px solid #333; border-radius: 4px; padding: 4px 10px; color: #eee; font-size: 13px; margin-right: 6px;">👍 Good pick</a>
-    <a href="{feedback_url(today, slot, 1, a.get('headline', ''))}" style="text-decoration: none; background: #1a1a40; border: 1px solid #333; border-radius: 4px; padding: 4px 10px; color: #eee; font-size: 13px;">👎 Not useful</a>
-  </p>
-  <p style="color: #666; font-size: 11px;">Signals: {', '.join(a.get('signal_tags', []))}</p>
+  <p style="margin: 8px 0;">{feedback_html}</p>
+  <p style="color: #666; font-size: 11px;">Signals: {', '.join(a.get('signal_tags', []))} · ⏱ {a.get('reading_time', 'N/A')} read</p>
 </div>
 """
+        if triage_queue:
+            html += """
+<div style="background: #1a1a2e; border-top: 2px solid #333; margin-top: 24px; padding-top: 16px;">
+  <h3 style="color: #a8a8b3; margin: 0 0 4px 0;">Also considered</h3>
+  <p style="color: #666; font-size: 11px; margin: 0 0 12px 0;">Rate with slot number, e.g. <span style="color: #0fbcf9;">5 3</span> or <span style="color: #0fbcf9;">7 1 not relevant</span></p>
+"""
+            for i, candidate in enumerate(triage_queue[:10]):
+                slot_num = i + 5
+                headline = candidate.get("headline", "Untitled")
+                url = candidate.get("primary_url", "#")
+                source = candidate.get("source_name", "")
+                html += f'  <p style="margin: 6px 0; font-size: 13px;"><span style="color: #a8a8b3; font-size: 11px; margin-right: 6px;">#{slot_num}</span><a href="{url}" style="color: #0fbcf9; text-decoration: none;">{headline}</a> <span style="color: #666;">— {source}</span></p>\n'
+            html += "</div>\n"
+
         html += """
 <hr style="border-color: #333; margin: 24px 0;">
+<p style="color: #a8a8b3; font-size: 12px;">💬 Reply to this email with feedback, e.g. <span style="color: #0fbcf9;">1 3</span> or <span style="color: #0fbcf9;">3 1 too generic</span></p>
 <p style="color: #666; font-size: 12px;">Or rate at
-<a href="https://jroypeterson.github.io/daily-reads" style="color: #0fbcf9;">jroypeterson.github.io/daily-reads</a></p>
+<a href="https://jroypeterson.github.io/daily-reads" style="color: #0fbcf9;">jroypeterson.github.io/daily-reads</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/jroypeterson/daily-reads/issues/new?labels=taste&title=Taste%3A+&body=Paste+URL+here%0A%0AWhy+I+liked+it%3A+" style="color: #0fbcf9;">📎 Submit an article</a></p>
 </body></html>"""
 
         msg = MIMEText(html, "html")
@@ -308,7 +828,7 @@ def deliver_gmail(articles: list[dict]):
 # [DELIVERY: SLACK]
 # ---------------------------------------------------------------------------
 
-def deliver_slack(articles: list[dict]):
+def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None):
     section("DELIVERY: SLACK")
     webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
     if not webhook_url:
@@ -326,8 +846,9 @@ def deliver_slack(articles: list[dict]):
     for a in articles:
         slot = a.get("slot", 0)
         emoji = slot_emojis.get(slot, ":pushpin:")
-        up_url = feedback_url(today, slot, 5, a.get("headline", ""))
-        down_url = feedback_url(today, slot, 1, a.get("headline", ""))
+        strong_url = slack_mailto_feedback_url(today, slot, 3)
+        fine_url = slack_mailto_feedback_url(today, slot, 2)
+        miss_url = slack_mailto_feedback_url(today, slot, 1)
         blocks.append({
             "type": "section",
             "text": {
@@ -337,11 +858,26 @@ def deliver_slack(articles: list[dict]):
                     f"_{a.get('source', '')} · Slot {slot}_\n\n"
                     f"{a.get('summary', '')}\n\n"
                     f"💡 _{a.get('why_it_matters', '')}_\n\n"
-                    f"<{up_url}|:thumbsup: Good pick>  <{down_url}|:thumbsdown: Not useful>"
+                    f"<{strong_url}|:thumbsup: Strong pick>  "
+                    f"<{fine_url}|:ok_hand: Fine>  "
+                    f"<{miss_url}|:thumbsdown: Miss>"
                 ),
             },
         })
         blocks.append({"type": "divider"})
+
+    if triage_queue:
+        triage_lines = "\n".join(
+            f"`#{i + 5}` <{c.get('primary_url', '#')}|{c.get('headline', 'Untitled')}> — {c.get('source_name', '')}"
+            for i, c in enumerate(triage_queue[:10])
+        )
+        blocks.append({
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": f"*Also considered*\n_Rate with slot number, e.g. `5 3` or `7 1 not relevant`_\n{triage_lines}",
+            },
+        })
 
     try:
         resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
@@ -355,7 +891,24 @@ def deliver_slack(articles: list[dict]):
 # [DELIVERY: PAGES]
 # ---------------------------------------------------------------------------
 
-def deliver_pages(articles: list[dict]):
+def _pages_triage_html(triage_queue: list[dict] | None) -> str:
+    if not triage_queue:
+        return ""
+    items = "\n".join(
+        f'    <p style="margin: 6px 0; font-size: 14px;">'
+        f'<span style="color: #a8a8b3; font-size: 12px; margin-right: 6px;">#{i + 5}</span>'
+        f'<a href="{c.get("primary_url", "#")}" target="_blank" style="color: #0fbcf9; text-decoration: none;">{c.get("headline", "Untitled")}</a>'
+        f' <span style="color: #666;">— {c.get("source_name", "")}</span></p>'
+        for i, c in enumerate(triage_queue[:10])
+    )
+    return f"""  <div style="border-top: 2px solid #2a2a50; margin-top: 24px; padding-top: 16px;">
+    <h3 style="color: #a8a8b3; margin-bottom: 4px;">Also considered</h3>
+    <p style="color: #666; font-size: 12px; margin-bottom: 12px;">Rate with slot number, e.g. <span style="color: #0fbcf9;">5 3</span> or <span style="color: #0fbcf9;">7 1 not relevant</span></p>
+{items}
+  </div>"""
+
+
+def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None):
     section("DELIVERY: PAGES")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slot_emojis = {1: "🧬", 2: "📊", 3: "🤖", 4: "🌀"}
@@ -365,8 +918,20 @@ def deliver_pages(articles: list[dict]):
         slot = a.get("slot", 0)
         emoji = slot_emojis.get(slot, "📌")
         tags = ", ".join(a.get("signal_tags", []))
+        feedback_links = [
+            ("👍 Strong", 3),
+            ("👌 Fine", 2),
+            ("👎 Miss", 1),
+        ]
+        feedback_html = " ".join(
+            (
+                f'<a class="fb-link" href="{slack_mailto_feedback_url(today, slot, score)}">'
+                f"{label}</a>"
+            )
+            for label, score in feedback_links
+        )
         cards_html += f"""
-      <div class="card" data-slot="{slot}" data-date="{today}">
+      <div class="card">
         <div class="card-header">
           <span class="slot-emoji">{emoji}</span>
           <span class="slot-label">Slot {slot}</span>
@@ -377,10 +942,7 @@ def deliver_pages(articles: list[dict]):
         <p class="why">💡 {a.get('why_it_matters', '')}</p>
         <p class="tags">{tags}</p>
         <div class="feedback">
-          <button class="fb-btn" onclick="rate(this, {slot}, 5)">👍</button>
-          <button class="fb-btn" onclick="rate(this, {slot}, 1)">👎</button>
-          <input type="text" class="fb-note" placeholder="Optional note..." id="note-{slot}">
-          <button class="fb-submit" onclick="submitFeedback({slot})">Send</button>
+          {feedback_html}
         </div>
       </div>
 """
@@ -416,123 +978,35 @@ def deliver_pages(articles: list[dict]):
     .summary {{ line-height: 1.6; margin-bottom: 10px; }}
     .why {{ color: #e94560; font-style: italic; margin-bottom: 10px; }}
     .tags {{ color: #666; font-size: 12px; margin-bottom: 12px; }}
+    .intro {{
+      background: #151530; border: 1px solid #2a2a50; border-radius: 12px;
+      padding: 16px; margin-bottom: 24px; line-height: 1.6;
+    }}
+    .intro p {{ margin-bottom: 10px; }}
+    .intro a {{ color: #0fbcf9; text-decoration: none; }}
+    .intro a:hover {{ text-decoration: underline; }}
     .feedback {{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }}
-    .fb-btn {{
+    .fb-link {{
       background: #1a1a40; border: 1px solid #333; border-radius: 6px;
-      padding: 6px 12px; cursor: pointer; font-size: 18px;
+      padding: 7px 12px; color: #eee; text-decoration: none; font-size: 13px;
       transition: background 0.2s;
     }}
-    .fb-btn:hover {{ background: #2a2a50; }}
-    .fb-btn.selected {{ background: #e94560; border-color: #e94560; }}
-    .fb-note {{
-      background: #1a1a40; border: 1px solid #333; border-radius: 6px;
-      padding: 6px 10px; color: #eee; flex: 1; min-width: 120px;
-    }}
-    .fb-submit {{
-      background: #e94560; color: white; border: none; border-radius: 6px;
-      padding: 6px 14px; cursor: pointer; font-size: 13px;
-    }}
-    .fb-submit:hover {{ background: #c7385a; }}
-    .fb-status {{ color: #4caf50; font-size: 12px; margin-left: 8px; }}
+    .fb-link:hover {{ background: #2a2a50; }}
     .empty {{ text-align: center; padding: 60px 20px; color: #666; }}
   </style>
 </head>
 <body>
   <h1>📰 Daily Reads</h1>
   <p class="updated">Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
+  <div class="intro">
+    <p>Score from this page by opening a prefilled email draft. Use <strong>3 = Strong pick</strong>, <strong>2 = Fine</strong>, and <strong>1 = Miss</strong>. You can add a note before sending.</p>
+    <p>For broader preference training, <a href="https://github.com/{REPO}/issues/new?labels=taste&title=Taste%3A+&body=Paste+URL+here%0A%0AWhy+I+liked+it%3A+">submit an article you liked</a>.</p>
+  </div>
 
   <div id="cards">
 {cards_html if cards_html else '    <div class="empty"><p>No articles selected today. Check back tomorrow!</p></div>'}
   </div>
-
-  <script>
-    const REPO = 'jroypeterson/daily-reads';
-    const today = '{today}';
-    let ratings = {{}};
-
-    function rate(btn, slot, score) {{
-      // Toggle selection
-      const card = btn.closest('.card');
-      card.querySelectorAll('.fb-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      ratings[slot] = score;
-    }}
-
-    async function submitFeedback(slot) {{
-      const note = document.getElementById('note-' + slot)?.value || '';
-      const score = ratings[slot];
-      if (!score) {{ alert('Click 👍 or 👎 first'); return; }}
-
-      const entry = {{
-        date: today,
-        slot: slot,
-        score: score,
-        note: note,
-        source: 'github_pages'
-      }};
-
-      // Try to update feedback_log.json via GitHub API
-      const token = new URLSearchParams(window.location.search).get('token');
-      if (!token) {{
-        // Fallback: show the JSON for manual submission
-        const card = document.querySelector(`[data-slot="${{slot}}"]`);
-        let status = card.querySelector('.fb-status');
-        if (!status) {{
-          status = document.createElement('span');
-          status.className = 'fb-status';
-          card.querySelector('.feedback').appendChild(status);
-        }}
-        status.textContent = '✓ Feedback recorded locally';
-        console.log('Feedback:', JSON.stringify(entry));
-
-        // Store in localStorage as backup
-        let stored = JSON.parse(localStorage.getItem('daily-reads-feedback') || '[]');
-        stored.push(entry);
-        localStorage.setItem('daily-reads-feedback', JSON.stringify(stored));
-        return;
-      }}
-
-      try {{
-        // Fetch current file
-        const fileResp = await fetch(
-          `https://api.github.com/repos/${{REPO}}/contents/feedback_log.json`,
-          {{ headers: {{ 'Authorization': `token ${{token}}` }} }}
-        );
-        const fileData = await fileResp.json();
-        const content = JSON.parse(atob(fileData.content));
-        content.push(entry);
-
-        // Update file
-        await fetch(
-          `https://api.github.com/repos/${{REPO}}/contents/feedback_log.json`,
-          {{
-            method: 'PUT',
-            headers: {{
-              'Authorization': `token ${{token}}`,
-              'Content-Type': 'application/json'
-            }},
-            body: JSON.stringify({{
-              message: `Feedback: slot ${{slot}} rated ${{score}}`,
-              content: btoa(JSON.stringify(content, null, 2)),
-              sha: fileData.sha
-            }})
-          }}
-        );
-
-        const card = document.querySelector(`[data-slot="${{slot}}"]`);
-        let status = card.querySelector('.fb-status');
-        if (!status) {{
-          status = document.createElement('span');
-          status.className = 'fb-status';
-          card.querySelector('.feedback').appendChild(status);
-        }}
-        status.textContent = '✓ Saved!';
-      }} catch (e) {{
-        console.error('Feedback submit failed:', e);
-        alert('Failed to save feedback. Check console.');
-      }}
-    }}
-  </script>
+{_pages_triage_html(triage_queue)}
 </body>
 </html>"""
 
@@ -558,10 +1032,27 @@ def deliver_log(articles: list[dict]):
         emoji = slot_emojis.get(slot, "📌")
         print(f"\n{emoji} Slot {slot}: {a.get('headline', 'Untitled')}")
         print(f"   Source: {a.get('source', '')}")
+        print(f"   Article ID: {a.get('article_id', '')}")
         print(f"   URL: {a.get('url', '')}")
         print(f"   {a.get('summary', '')}")
         print(f"   💡 {a.get('why_it_matters', '')}")
         print(f"   Signals: {', '.join(a.get('signal_tags', []))}")
+
+
+def deliver_triage_log(triage_queue: list[dict]):
+    section("TRIAGE QUEUE")
+    if not triage_queue:
+        print("No extra candidates ranked today.")
+        return
+
+    for index, candidate in enumerate(triage_queue[:5], 1):
+        print(
+            f"{index}. [{candidate.get('triage_score', 0)}] "
+            f"{candidate.get('headline', 'Untitled')} "
+            f"({candidate.get('source_name', 'Unknown')})"
+        )
+        print(f"   URL: {candidate.get('primary_url', '')}")
+        print(f"   Signals: {', '.join(candidate.get('derived_signals', []))}")
 
 
 # ---------------------------------------------------------------------------
@@ -569,12 +1060,32 @@ def deliver_log(articles: list[dict]):
 # ---------------------------------------------------------------------------
 
 def rewrite_criteria(feedback: list[dict]):
-    """Use Claude to rewrite selection_criteria.md based on accumulated feedback."""
+    """Generate a proposed criteria update and notify for review."""
     section("CRITERIA REWRITE")
-    print("Rewriting selection criteria based on 7+ days of feedback...")
+    state = load_criteria_state()
+    pending = state.get("pending")
+    if pending and pending.get("status") == "pending":
+        print(f"Pending criteria proposal already exists: {pending.get('proposal_id')}")
+        return
+
+    print("Generating proposed criteria update based on feedback...")
 
     with open("selection_criteria.md", "r") as f:
         current = f.read()
+
+    prior_proposal = ""
+    modification_note = ""
+    revision = 1
+    trigger = "7+ days of feedback accumulated"
+    if pending and pending.get("status") == "modification_requested":
+        revision = int(pending.get("revision", 1)) + 1
+        modification_note = pending.get("modification_note", "").strip()
+        trigger = "user requested modifications to prior proposal"
+        try:
+            with open(PROPOSED_CRITERIA_PATH, "r") as f:
+                prior_proposal = f.read()
+        except FileNotFoundError:
+            prior_proposal = ""
 
     client = anthropic.Anthropic()
     response = client.messages.create(
@@ -587,22 +1098,151 @@ def rewrite_criteria(feedback: list[dict]):
 Current criteria:
 {current}
 
-Accumulated feedback (each entry has date, slot, score 1-5, and optional note):
+Accumulated feedback (each entry has date, slot, score 1-3, and optional note):
 {json.dumps(feedback, indent=2)}
 
-Analyze the feedback patterns:
-- High scores (4-5): What patterns should be reinforced?
-- Low scores (1-3): What patterns should be reduced?
+Current proposed criteria (if revising an earlier proposal):
+{prior_proposal or "(none)"}
 
-Rewrite the selection criteria document with updated weights and preferences.
-Keep the same markdown structure. Output ONLY the new document content."""
+Requested modifications from the user:
+{modification_note or "(none)"}
+
+Analyze the feedback patterns:
+- High scores (3): What patterns should be reinforced?
+- Neutral scores (2): What patterns are acceptable but not distinctive?
+- Low scores (1): What patterns should be reduced?
+
+Return ONLY valid JSON with this schema:
+{{
+  "summary": ["short bullet 1", "short bullet 2", "short bullet 3"],
+  "proposed_markdown": "# Article Selection Criteria\\n..."
+}}
+
+The markdown should keep the same general structure as the current criteria file.
+The summary should be concise and describe the highest-impact changes."""
         }],
     )
 
-    new_criteria = response.content[0].text
-    with open("selection_criteria.md", "w") as f:
-        f.write(new_criteria)
-    print("selection_criteria.md updated with learned preferences")
+    payload = None
+    for block in response.content:
+        if block.type != "text":
+            continue
+        text = block.text.strip()
+        json_match = re.search(r"\{.*\}", text, re.DOTALL)
+        if not json_match:
+            continue
+        try:
+            payload = json.loads(json_match.group())
+            break
+        except json.JSONDecodeError:
+            continue
+
+    if not payload:
+        print("WARNING: could not parse criteria proposal response")
+        return
+
+    proposed_markdown = str(payload.get("proposed_markdown", "")).strip()
+    summary = payload.get("summary", [])
+    if not proposed_markdown or not isinstance(summary, list):
+        print("WARNING: criteria proposal response missing required fields")
+        return
+    diff_lines = build_criteria_diff_lines(current, proposed_markdown)
+
+    with open(PROPOSED_CRITERIA_PATH, "w") as f:
+        f.write(proposed_markdown + "\n")
+
+    proposal_id = datetime.now(timezone.utc).strftime("%Y-%m-%d") + f"-r{revision}"
+    if pending:
+        state["history"].append({
+            **pending,
+            "resolved_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "resolution": "superseded" if pending.get("status") == "modification_requested" else pending.get("status"),
+        })
+
+    state["pending"] = {
+        "proposal_id": proposal_id,
+        "created_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "status": "pending",
+        "revision": revision,
+        "trigger": trigger,
+        "summary": [str(item).strip() for item in summary if str(item).strip()],
+        "diff_lines": diff_lines,
+        "modification_note": "",
+    }
+    save_criteria_state(state)
+    print(f"Proposed criteria update saved to {PROPOSED_CRITERIA_PATH}")
+    notify_criteria_update(state["pending"])
+
+
+def save_run_artifact(
+    run_date: str,
+    gmail_items: list[dict],
+    tier2_items: list[dict],
+    articles: list[dict],
+    feedback_info: dict,
+):
+    section("SAVE RUN ARTIFACT")
+    artifact = {
+        "run_date": run_date,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "counts": {
+            "gmail_items": len(gmail_items),
+            "tier2_items": len(tier2_items),
+            "selected_articles": len(articles),
+        },
+        "feedback_summary": {
+            "low_score_count": len(feedback_info.get("low_scores", [])),
+            "should_rewrite": bool(feedback_info.get("should_rewrite")),
+        },
+        "articles": articles,
+    }
+    path = run_artifact_path(run_date)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    save_json(path, artifact)
+    print(f"Saved run artifact to {path}")
+
+
+def save_candidate_artifact(
+    run_date: str,
+    gmail_items: list[dict],
+    tier2_items: list[dict],
+    tickers: dict,
+):
+    section("SAVE CANDIDATE ARTIFACT")
+    normalized_gmail, normalized_tier2 = build_structured_candidates(
+        gmail_items,
+        tier2_items,
+        run_date,
+        tickers,
+    )
+    artifact = {
+        "run_date": run_date,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "counts": {
+            "gmail_candidates": len(normalized_gmail),
+            "tier2_candidates": len(normalized_tier2),
+            "total_candidates": len(normalized_gmail) + len(normalized_tier2),
+        },
+        "gmail_candidates": normalized_gmail,
+        "tier2_candidates": normalized_tier2,
+    }
+    path = candidate_artifact_path(run_date)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    save_json(path, artifact)
+    print(f"Saved candidate artifact to {path}")
+
+
+def save_triage_artifact(run_date: str, triage_queue: list[dict]):
+    section("SAVE TRIAGE ARTIFACT")
+    artifact = {
+        "run_date": run_date,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "triage_queue": triage_queue,
+    }
+    path = triage_artifact_path(run_date)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    save_json(path, artifact)
+    print(f"Saved triage artifact to {path}")
 
 
 # ---------------------------------------------------------------------------
@@ -620,6 +1260,7 @@ def main():
 
     # Step 2: Tier 2 sources
     tier2_items = tier2_scan()
+    tier2_items.extend(rss_scan())
 
     # Step 3: Feedback check
     feedback_info = feedback_check()
@@ -636,14 +1277,28 @@ def main():
 
     articles = select_articles(gmail_items, tier2_items, feedback_info)
     if not articles:
-        print("\nNo articles selected. Exiting.")
+        print("\nNo valid articles selected. Exiting.")
         sys.exit(1)
 
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    tickers = load_json("tickers.json", {})
+    structured_gmail, structured_tier2 = build_structured_candidates(
+        gmail_items,
+        tier2_items,
+        today,
+        tickers,
+    )
+    triage_queue = build_triage_queue(structured_gmail, structured_tier2, articles)
+    save_candidate_artifact(today, gmail_items, tier2_items, tickers)
+    save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
+    save_triage_artifact(today, triage_queue)
+
     # Step 5: Deliver to all channels
-    deliver_gmail(articles)
-    deliver_slack(articles)
-    deliver_pages(articles)
+    deliver_gmail(articles, triage_queue)
+    deliver_slack(articles, triage_queue)
+    deliver_pages(articles, triage_queue)
     deliver_log(articles)
+    deliver_triage_log(triage_queue)
 
     print(f"\n{'='*60}")
     print(f"  ✅ Daily Reads complete — {len(articles)} articles delivered")
