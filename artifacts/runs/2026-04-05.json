@@ -1,0 +1,57 @@
+{
+  "run_date": "2026-04-05",
+  "generated_at": "2026-04-05T12:38:51Z",
+  "counts": {
+    "gmail_items": 0,
+    "tier2_items": 76,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": false
+  },
+  "articles": [
+    {
+      "article_id": "44951336ca958f15",
+      "headline": "White House floats 12.5% budget cut for HHS in FY2027, reiterates reorganization plan",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/providers/white-house-floats-125-budget-cut-hhs-fy2027-reiterates-reorganization-plan",
+      "slot": 1,
+      "summary": "The White House is requesting a $15.8 billion cut to HHS discretionary funding for fiscal 2027, representing a 12.5% reduction. The proposal includes eliminating programs deemed ideologically opposed to Trump administration policies, cutting $5 billion from NIH, and establishing the Administration for a Healthy America to consolidate multiple agencies.",
+      "why_it_matters": "Major regulatory and funding changes could significantly impact biotech R&D, public health programs, and the broader healthcare sector through reduced federal support and agency restructuring.",
+      "signal_tags": [
+        "healthcare_daily",
+        "policy_impact"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "1bf61f1679507652",
+      "headline": "'This is an overlooked catastrophe': Why do so many hospitals not accept Medicare Advantage for cancer patients?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/this-is-an-overlooked-catastrophe-why-do-so-many-hospitals-not-accept-medicare-advantage-for-cancer-patients-130c1a13?mod=mw_rss_topstories",
+      "slot": 2,
+      "summary": "Many hospitals are dropping out of Medicare Advantage networks before policy years end, creating access problems for cancer patients. Research shows 60% of Medicare Advantage plans don't include NCI-designated cancer centers, and patients are less likely to receive care at academic medical centers compared to traditional Medicare.",
+      "why_it_matters": "Network restrictions in Medicare Advantage plans could drive consolidation in oncology care and impact volumes at major cancer centers, affecting both payer dynamics and hospital revenues.",
+      "signal_tags": [
+        "finance_macro",
+        "healthcare_adjacent_finance"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "4894c51fb1ccbe57",
+      "headline": "How many products does Microsoft have named 'Copilot'?",
+      "source": "Hacker News",
+      "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+      "slot": 3,
+      "summary": "An analysis reveals Microsoft's confusing proliferation of Copilot-branded products across different business units, highlighting challenges in AI product strategy and brand management. The piece examines how the company's rush to integrate AI has created naming inconsistencies and user confusion.",
+      "why_it_matters": "Enterprise AI adoption patterns and branding strategies at major tech companies provide insights into how AI tools will be packaged and sold to healthcare organizations.",
+      "signal_tags": [
+        "tech_ai",
+        "ticker_match:MSFT"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}

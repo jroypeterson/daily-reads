@@ -1,0 +1,292 @@
+{
+  "run_date": "2026-04-05",
+  "generated_at": "2026-04-05T12:38:51Z",
+  "triage_queue": [
+    {
+      "candidate_id": "930e1def86a93654",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/payers/cms-locks-ma-star-ratings-overhaul-bumps-proposed-special-enrollment-window-provider\" hreflang=\"en\">CMS locks in MA star ratings overhaul, bumps proposed special enrollment window for provider terminations</a>",
+      "snippet": "CMS said the changes to star ratings will encourage high performance across all enrollees while removing \"duplicative and burdensome\" requirements for plans and providers.",
+      "primary_url": "https://www.fiercehealthcare.com/payers/cms-locks-ma-star-ratings-overhaul-bumps-proposed-special-enrollment-window-provider",
+      "urls": [
+        "https://www.fiercehealthcare.com/payers/cms-locks-ma-star-ratings-overhaul-bumps-proposed-special-enrollment-window-provider"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:MA",
+        "ticker:STAR",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "80efa3040785f7db",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Saturday assorted links",
+      "snippet": "1. Nyege Nyege Tapes. 2. Does it help poets to be religious? 3. Martin Jay on Habermas. 4. U.S. prime age employment rate is near an all-time high. For a different perspective, here is NYT on AI and the job market. And new measures of AI task performance from MIT. 5. China&#8217;s AI education exper",
+      "primary_url": "https://feeds.feedblitz.com/~/953259419/0/marginalrevolution~Saturday-assorted-links.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953259419/0/marginalrevolution~Saturday-assorted-links.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:3320",
+        "ticker:CATX",
+        "ticker:PRME",
+        "ticker:RVMD"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "750ff13ec9e513ab",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "Grammarly\u2019s sloppelganger saga",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the ups and downs of AI, follow Stevie Bonifield. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Most people probably know Grammarly ",
+      "primary_url": "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga",
+      "urls": [
+        "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:OPT",
+        "ticker:TECH",
+        "ticker:UPS",
+        "ticker:SNTI",
+        "subsector:Tools"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "9edb36d272efc58b",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "Cheaper/faster/easier makes for step changes (and that's why even current-level LLMs are transformative)",
+      "snippet": "We already knew there's nothing new under the sun. Thanks to advances in telescopes, orbital launch, satellites, and space vehicles we now know there's nothing new above the sun either, but there is rather a lot of energy!For many phenomena, I think it's a matter of convenience and utility where you",
+      "primary_url": "https://www.lesswrong.com/posts/287GeTncxLJNYpsbX/cheaper-faster-easier-makes-for-step-changes-and-that-s-why",
+      "urls": [
+        "https://www.lesswrong.com/posts/287GeTncxLJNYpsbX/cheaper-faster-easier-makes-for-step-changes-and-that-s-why"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious",
+        "ticker:ARE",
+        "ticker:NOW"
+      ],
+      "triage_score": 4
+    },
+    {
+      "candidate_id": "91f057ee6b5db8ae",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece\" hreflang=\"en\">Industry Voices\u2014Hospitals are fueling AI innovation, should they own a piece of it?</a>",
+      "snippet": "As hospital workflows, clinician expertise and rich clinical data increasingly fuel the performance and market value of vendors\u2019 AI tools, providers face a critical question: how can they share in that upside while protecting patients, preserving trust, and avoiding new forms of liability?",
+      "primary_url": "https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece",
+      "urls": [
+        "https://www.fiercehealthcare.com/ai-and-machine-learning/industry-voices-hospitals-are-fueling-ai-innovation-should-they-own-piece"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Labs",
+        "subsector:HIT"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "f73b24d05f504be5",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26\" hreflang=\"en\">Fierce Healthcare Fundraising Tracker '26: Autism VC AIF closes second fund; Doctronic picks up $40M</a>",
+      "snippet": "Keep up with all the venture capital&nbsp;dollars being funneled into the health tech and digital health industries.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:TECH",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Tools",
+        "subsector:HIT"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "16b596de6afeeb3e",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/payers/gao-audit-outlining-cmmis-limited-model-scale-ups-draws-more-republican-scrutiny\" hreflang=\"en\">GAO audit outlining CMMI's limited model scale-ups draws more Republican scrutiny </a>",
+      "snippet": "Between 2011 and 2024, the Centers for Medicare and Medicaid Innovation Center had scaled just four of the 70 models it tested. Combined with a prior account of billions in additional spending due to its pilots, the Republican head of the House Budget Committee said the center's output has been a fa",
+      "primary_url": "https://www.fiercehealthcare.com/payers/gao-audit-outlining-cmmis-limited-model-scale-ups-draws-more-republican-scrutiny",
+      "urls": [
+        "https://www.fiercehealthcare.com/payers/gao-audit-outlining-cmmis-limited-model-scale-ups-draws-more-republican-scrutiny"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:UPS",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "f01c9055c765e7c9",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/telehealth/novo-nordisk-launches-first-and-only-wegovy-subscription-program\" hreflang=\"en\">Novo Nordisk launches discounted subscription program for Wegovy through telehealth providers</a>",
+      "snippet": "The GLP-1 subscription program is available to eligible self-pay patients through select telehealth providers, including Ro, WeightWatchers and Him &amp; Hers.",
+      "primary_url": "https://www.fiercehealthcare.com/telehealth/novo-nordisk-launches-first-and-only-wegovy-subscription-program",
+      "urls": [
+        "https://www.fiercehealthcare.com/telehealth/novo-nordisk-launches-first-and-only-wegovy-subscription-program"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:SEM",
+        "subsector:HIT",
+        "subsector:Post-acute"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "8c8bec43a065ac72",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Emergent Ventures winners, 53rd cohort",
+      "snippet": "Elif Ozdemir, Ankara, align satellites. Lily Zuckerman, University of Austin (and NYC), painting and general career support. Benjamin Unger, NYC, AI to measure the performance of New York governments. Maarten Boudry, Brussels, to write a book on who is really for progress, or not. Allan Wandia, San ",
+      "primary_url": "https://feeds.feedblitz.com/~/953290448/0/marginalrevolution~Emergent-Ventures-winners-rd-cohort.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953290448/0/marginalrevolution~Emergent-Ventures-winners-rd-cohort.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ALGN",
+        "ticker:EBS",
+        "ticker:RVMD",
+        "subsector:Dental"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "14e96dfdc7be9171",
+      "run_date": "2026-04-05",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "Despite Poor Reviews, \u2018The Super Mario Galaxy Movie\u2019 Is a Megahit",
+      "snippet": "The animated sequel was expected to collect about $371 million worldwide over its first five days in theaters. \u201cKids love the movie,\u201d a box office analyst said.",
+      "primary_url": "https://www.nytimes.com/2026/04/05/business/box-office-super-mario-galaxy-movie.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/05/business/box-office-super-mario-galaxy-movie.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:BOX",
+        "ticker:FIVE",
+        "ticker:KIDS",
+        "subsector:Spine/Ortho"
+      ],
+      "triage_score": 6
+    }
+  ]
+}
