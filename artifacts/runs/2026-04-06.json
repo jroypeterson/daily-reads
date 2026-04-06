@@ -1,0 +1,77 @@
+{
+  "run_date": "2026-04-06",
+  "generated_at": "2026-04-06T12:53:16Z",
+  "counts": {
+    "gmail_items": 1,
+    "tier2_items": 89,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": false
+  },
+  "articles": [
+    {
+      "article_id": "1331dba43bf10d7f",
+      "headline": "Neurocrine will pay $2.9B for Soleno and its Prader-Willi medicine",
+      "source": "Endpoints News",
+      "url": "https://endpoints.news/neurocrine-pays-2-9b-for-soleno-and-its-prader-willi-medicine/",
+      "slot": 1,
+      "summary": "Neurocrine Biosciences is acquiring rare disease drugmaker Soleno Therapeutics for $2.9 billion in cash, paying $53 per share (34% premium). The deal gives Neurocrine access to Vykat XR, the first approved treatment for hyperphagia in Prader-Willi syndrome, which generated $190 million in 2025 revenue.",
+      "why_it_matters": "This significant biotech M&A deal shows Neurocrine's strategic expansion into metabolic disorders and rare diseases, with immediate revenue accretion from an already-approved drug in a high unmet need area.",
+      "signal_tags": [
+        "ticker_match:NBIX",
+        "ticker_match:SLNO",
+        "catalyst_proximity",
+        "source_type:tier2"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "c1fbc1e726d4b958",
+      "headline": "FDA's recent rejections expose inconsistent flexibility",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW3hx82f-rwTW70ksfz2LPzcCW7zr5cm5MxpzwN179mr05nR3bW8wM7ks6lZ3lYVD0NjV2C0JvPW2NXDBy3g1kgCW8-4vLp5ccDwlW317t4W8frXwFW42KxYv70wkQ6W56DsFT1RmKvGW1MZcv-6JY6YxN1lbd8Wd07qVW2gF2TF1qGSSxW7ngVW13K7FPWW6_z9qR3hdx1BW80gj7c8dl5T_W3FGgXP42zvJtW2l7jhL6F6W_RW3CjBdN6DC01RW7jW3YJ72hs_nW5Ks-gz2gjw2XW8PP5151RxksBW60r1r884xLHxW5hSkF628m0f2W94HpPC4R2RX7Vj5mn_7MsktwN1YcmM1DWP8TW6JT6Q87PBzFPW5ysV0z5J_q5xW1HzV1j745KzrW558NpS6VBMFrN2GZn8_f4hLtN5nTD63zB_DCVcbx4m2PFF-cW1VyPD07xylcgW9k9jKz25YCp5W1Tw-wt5ZZd-2Vkl1pd1SNNzVVpP8r28nWfV6W34DvdD6-6ZPTW1QcDzR7t1W47N9gRyDSH-s23W75DsSF41zvKKW5xHnBC7WXzdPW3hyLr48wnSV8VPJ3jf7kLftjW2XvLgd6rJzR1W6lld3V4GqdbBf7DZlXP04",
+      "slot": 2,
+      "summary": "BioSpace analyzes recent FDA rejections including Replimune's RP1 melanoma treatment, highlighting inconsistent regulatory flexibility and potential changes in agency leadership attitudes. The piece examines how companies like Replimune faced surprise rejections despite apparent prior alignment with FDA guidance.",
+      "why_it_matters": "Regulatory uncertainty creates significant investment risk for biotech companies and their investors, with FDA policy shifts potentially impacting the entire sector's approach to drug development and approval strategies.",
+      "signal_tags": [
+        "ticker_match:REPL",
+        "source_type:gmail",
+        "priority:high",
+        "catalyst_proximity"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "56a14529ec45907a",
+      "headline": "Eight years of wanting, three months of building with AI",
+      "source": "Hacker News",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "slot": 3,
+      "summary": "A developer shares their experience building SyntaQLite, a tool they had wanted for eight years but only managed to create in three months using modern AI coding assistants. The post details how AI dramatically accelerated the development process from concept to working product.",
+      "why_it_matters": "Demonstrates the practical productivity gains from AI coding tools, showing how individual developers can now build complex software much faster than previously possible.",
+      "signal_tags": [
+        "hn_score:826",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "d9dd3c18674a263b",
+      "headline": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
+      "slot": 4,
+      "summary": "JPMorgan CEO Jamie Dimon's annual shareholder letter highlights key risks facing the economy including geopolitical tensions, AI disruption, and private market vulnerabilities. Dimon calls for renewed commitment to American ideals as the country approaches its 250th anniversary.",
+      "why_it_matters": "Dimon's annual letters are closely watched for macro insights that could impact investment strategy across sectors, particularly given JPMorgan's central role in global finance.",
+      "signal_tags": [
+        "ticker_match:JPM",
+        "high_priority_source",
+        "actionability"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

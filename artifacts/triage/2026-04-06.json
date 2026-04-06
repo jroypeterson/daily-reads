@@ -1,0 +1,312 @@
+{
+  "run_date": "2026-04-06",
+  "generated_at": "2026-04-06T12:53:16Z",
+  "triage_queue": [
+    {
+      "candidate_id": "b0f65059d80f1a33",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "340B is not a problem to be solved, but a promise to be kept and secured",
+      "snippet": "Catholic healthcare was not started nor inspired from profit and loss statements or a desire to drive more shareholder value. Instead, through acts of mercy, women religious crossed oceans on rudimentary vessels and traveled along dirt roads by horse-drawn carriage, overcoming religious discriminati",
+      "primary_url": "https://www.beckershospitalreview.com/hospital-management-administration/340b-is-not-a-problem-to-be-solved-but-a-promise-to-be-kept-and-secured/",
+      "urls": [
+        "https://www.beckershospitalreview.com/hospital-management-administration/340b-is-not-a-problem-to-be-solved-but-a-promise-to-be-kept-and-secured/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:INSP",
+        "ticker:OCEA",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Sleep",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "92445afb576fec3b",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Does this have implications for higher ed in particular?",
+      "snippet": "Declining fertility and population loss pose significant challenges for state and federal local governments responsible for providing a range of services to citizens, including education, health care, and infrastructure. Indeed, many areas are already experiencing outright population decline, with r",
+      "primary_url": "https://feeds.feedblitz.com/~/953351780/0/marginalrevolution~Does-this-have-implications-for-higher-ed-in-particular.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953351780/0/marginalrevolution~Does-this-have-implications-for-higher-ed-in-particular.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:GPCR",
+        "ticker:HCAT",
+        "ticker:RVMD",
+        "ticker:SCI",
+        "subsector:HIT",
+        "subsector:Deathcare"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "08a83e28fd5a9033",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "I let Gemini in Google Maps plan my day and it went surprisingly well",
+      "snippet": "You may be familiar with Gemini as the thing that's in every Google service you use - whether you want it or not. While it's been a constant, sometimes unwelcome presence in Gmail for at least the past year, it's a relatively new addition to Maps. And you know what? It's kind of great. To [&#8230;]",
+      "primary_url": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
+      "urls": [
+        "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:DAY",
+        "ticker:WELL",
+        "ticker:SCI",
+        "subsector:Deathcare"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "f564b700842f4d1a",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "China's Syneron raises $150M for peptides, adding to last year's $100M",
+      "snippet": "Syneron Bio said it raised a Series B round worth $150 million, which it will use to back the development of a drug class that's attracted growing interest because of its potential to borrow some ...",
+      "primary_url": "https://endpoints.news/chinas-syneron-raises-150m-for-peptides-adding-to-last-years-100m/",
+      "urls": [
+        "https://endpoints.news/chinas-syneron-raises-150m-for-peptides-adding-to-last-years-100m/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:BIO",
+        "ticker:DRUG",
+        "ticker:3320",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Tools",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "f68d9dce14281b01",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Stipple Bio launches with $100M to find more precise targets on cancer proteins",
+      "snippet": "It\u2019s no secret that cancer drug development is full of bandwagons. Companies see a promising target, and crowd around it (see PD-1xVEGF or HER2 for recent examples). But two cancer biologists \u2014 Aaron Ring at the ...",
+      "primary_url": "https://endpoints.news/stipple-bio-launches-with-100m-to-find-more-precise-targets-on-cancer-proteins/",
+      "urls": [
+        "https://endpoints.news/stipple-bio-launches-with-100m-to-find-more-precise-targets-on-cancer-proteins/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:BIO",
+        "ticker:DRUG",
+        "ticker:PD",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Tools",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "930e1def86a93654",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/payers/cms-locks-ma-star-ratings-overhaul-bumps-proposed-special-enrollment-window-provider\" hreflang=\"en\">CMS locks in MA star ratings overhaul, bumps proposed special enrollment window for provider terminations</a>",
+      "snippet": "CMS said the changes to star ratings will encourage high performance across all enrollees while removing \"duplicative and burdensome\" requirements for plans and providers.",
+      "primary_url": "https://www.fiercehealthcare.com/payers/cms-locks-ma-star-ratings-overhaul-bumps-proposed-special-enrollment-window-provider",
+      "urls": [
+        "https://www.fiercehealthcare.com/payers/cms-locks-ma-star-ratings-overhaul-bumps-proposed-special-enrollment-window-provider"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:MA",
+        "ticker:STAR",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "89b805338998a83b",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "KFF Health News",
+      "headline": "Immigrant Seniors Lose Medicare Coverage Despite Paying for It",
+      "snippet": "Rosa Mar\u00eda Carranza has worked and paid taxes for more than two decades, but a provision in the GOP's One Big Beautiful Bill Act will make her and an estimated 100,000 other lawfully present immigrant seniors ineligible for Medicare. Now Carranza\u2019s once secure retirement is in question.",
+      "primary_url": "https://kffhealthnews.org/news/article/immigrant-seniors-medicare-california-big-beautiful-bill-eligibility-taxes/",
+      "urls": [
+        "https://kffhealthnews.org/news/article/immigrant-seniors-medicare-california-big-beautiful-bill-eligibility-taxes/"
+      ],
+      "category": "healthcare_policy",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_policy",
+        "ticker:BILL",
+        "ticker:NOW",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Labs",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "42f4702d04806fe4",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Migrant Income and Long-Run Economic Development",
+      "snippet": "We study how international migrant income prospects affect long-run development in origin areas. We leverage the 1997 Asian Financial Crisis exchange rate shocks in a shift-share identification strategy across Philippine provinces. Initial migrant income shocks are magnified six-fold over time, incr",
+      "primary_url": "https://feeds.feedblitz.com/~/953355131/0/marginalrevolution~Migrant-Income-and-LongRun-Economic-Development.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953355131/0/marginalrevolution~Migrant-Income-and-LongRun-Economic-Development.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:FOLD",
+        "ticker:INCR",
+        "ticker:NHI",
+        "ticker:RVMD"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "1860871a9794eb9c",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "STAT News",
+      "headline": "STAT+: Neurocrine Biosciences to buy Soleno Therapeutics in $2.9B deal",
+      "snippet": "Neurocrine Biosciences is buying Soleno Therapeutics for $2.9 billion, picking up an approved medicine for a rare disease that causes insatiable hunger.",
+      "primary_url": "https://www.statnews.com/2026/04/06/neurocrine-biosciences-soleno-therapeutics-acquisition-prader-willi-vykat/?utm_campaign=rss",
+      "urls": [
+        "https://www.statnews.com/2026/04/06/neurocrine-biosciences-soleno-therapeutics-acquisition-prader-willi-vykat/?utm_campaign=rss"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:RARE",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:NBIX",
+        "ticker:SLNO",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "cacd1a6357e084f7",
+      "run_date": "2026-04-06",
+      "source_type": "tier2",
+      "source_name": "STAT News",
+      "headline": "STAT+: UnitedHealth Group is making a $3 billion bet on AI. What does it mean for patients?",
+      "snippet": "UnitedHealth Group is rapidly deploying artificial intelligence tools across its operations. What does it mean for patients?",
+      "primary_url": "https://www.statnews.com/2026/04/06/unitedhealth-group-massive-artificial-intelligence-push-patient-implications/?utm_campaign=rss",
+      "urls": [
+        "https://www.statnews.com/2026/04/06/unitedhealth-group-massive-artificial-intelligence-push-patient-implications/?utm_campaign=rss"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:UNH",
+        "ticker:UTHR",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Mgd Care",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 10
+    }
+  ]
+}
