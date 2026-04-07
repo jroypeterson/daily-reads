@@ -1,0 +1,74 @@
+{
+  "run_date": "2026-04-07",
+  "generated_at": "2026-04-07T13:01:46Z",
+  "counts": {
+    "gmail_items": 3,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": false
+  },
+  "articles": [
+    {
+      "article_id": "6973bf667e9ad933",
+      "headline": "Neurocrine to acquire Soleno for $2.9B, expanding rare disease portfolio",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/neurocrine-soleno-acquire-vykat-prader-willi-drug/816686/",
+      "slot": 1,
+      "summary": "<cite index=\"1-1,1-4\">Neurocrine Biosciences agreed to acquire Soleno Therapeutics for $2.9 billion, paying $53 per share in cash, representing a 34% premium.</cite> <cite index=\"1-7,2-3\">The deal secures Vykat XR, the first and only FDA-approved treatment for hyperphagia in Prader-Willi syndrome.</cite> <cite index=\"3-13,6-12\">The drug generated $190 million in revenue for 2025, including $92 million in Q4 alone.</cite>",
+      "why_it_matters": "Major M&A move by Neurocrine (ticker NBIX) adds a potential blockbuster rare disease asset with strong commercial momentum to complement its neurological franchise.",
+      "signal_tags": [
+        "ticker_match:NBIX",
+        "ticker_match:SLNO",
+        "high_priority_source",
+        "catalyst_proximity"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "8ffc63abcc782cc0",
+      "headline": "Healthcare stocks are on fire, and these offer value and rapid profit growth",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/healthcare-stocks-are-on-fire-and-these-offer-value-and-rapid-profit-growth-237f3052?mod=mw_rss_topstories",
+      "slot": 2,
+      "summary": "Analysis of the healthcare sector's strong performance, with particular focus on value opportunities and companies showing rapid profit growth. The piece highlights how increased Medicare Advantage payment rates for 2027 could serve as a catalyst for the broader industry.",
+      "why_it_matters": "Identifies specific investment opportunities in healthcare during a period of sector outperformance, particularly relevant given Medicare rate increases.",
+      "signal_tags": [
+        "ticker_match:multiple",
+        "catalyst_proximity",
+        "actionability"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "b7c087e6e646c193",
+      "headline": "Sam Altman may control our future \u2013 can he be trusted?",
+      "source": "The New Yorker",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "slot": 3,
+      "summary": "A deep investigation into OpenAI CEO Sam Altman's leadership and decision-making as artificial intelligence becomes increasingly central to business and society. The piece examines questions of governance, safety, and the concentration of AI power in the hands of a few tech leaders.",
+      "why_it_matters": "Critical examination of AI leadership at a pivotal moment for the industry, with implications for regulation and investment in AI companies.",
+      "signal_tags": [
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "12 min"
+    },
+    {
+      "article_id": "563f8fb0a52291c3",
+      "headline": "Do One Thing Every Day That Scares You",
+      "source": "LifeSciVC",
+      "url": "https://lifescivc.com/2026/04/do-one-thing-every-day-that-scares-you/?utm_source=rss&utm_medium=rss&utm_campaign=do-one-thing-every-day-that-scares-you",
+      "slot": 4,
+      "summary": "A venture partner at Atlas Venture reflects on career development and risk-taking in the life sciences industry. The piece offers insights into building a successful career in biotech investing and the importance of stepping outside one's comfort zone.",
+      "why_it_matters": "Strategic career advice from an experienced life sciences investor, offering perspective on professional development in the healthcare/biotech space.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}
