@@ -959,8 +959,12 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
 
     try:
         resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
-        resp.raise_for_status()
-        print("Slack message sent")
+        if not resp.ok:
+            # Slack returns useful detail in the body (e.g. invalid_blocks, no_text)
+            print(f"Slack delivery failed (non-blocking): HTTP {resp.status_code} — body: {resp.text[:500]}")
+            print(f"Payload had {len(blocks)} blocks")
+        else:
+            print("Slack message sent")
     except Exception as e:
         print(f"Slack delivery failed (non-blocking): {e}")
 

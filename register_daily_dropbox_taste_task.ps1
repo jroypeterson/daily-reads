@@ -9,6 +9,16 @@ $RepoPath = "C:\Users\jroyp\Dropbox\Claude Folder\daily-reads"
 $Python = "C:\Users\jroyp\AppData\Local\Programs\Python\Python314\python.exe"
 $Script = @"
 import subprocess, sys
+# Sync with remote first so local taste ingestion stacks on top of the latest
+# GitHub Actions workflow output instead of forking history. Without this the
+# local 'taste ingestion' commits and the remote 'Daily reads' commits diverge
+# every day because they touch the same learned_preferences files.
+subprocess.run(['git', 'fetch', 'origin'], check=False)
+r = subprocess.run(['git', 'pull', '--rebase', '--autostash', '-X', 'ours', 'origin', 'main'])
+if r.returncode != 0:
+    print('git pull --rebase failed; aborting taste ingestion to avoid divergence')
+    subprocess.run(['git', 'rebase', '--abort'], check=False)
+    sys.exit(r.returncode)
 for s in ['process_dropbox_exemplars.py', 'process_exemplar_content.py', 'preference_learning.py']:
     r = subprocess.run([sys.executable, s])
     if r.returncode != 0:
