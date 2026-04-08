@@ -932,17 +932,31 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
         blocks.append({"type": "divider"})
 
     if triage_queue:
-        triage_lines = "\n".join(
+        # Slack section text is capped at 3000 chars. Tracking-redirect URLs
+        # (e.g. BioSpace marketing links) can be 600+ chars each, so chunk
+        # the list across multiple section blocks to stay under the limit.
+        triage_lines = [
             f"`#{i + 5}` <{c.get('primary_url', '#')}|{c.get('headline', 'Untitled')}> — {c.get('source_name', '')}"
             for i, c in enumerate(triage_queue[:10])
-        )
-        blocks.append({
-            "type": "section",
-            "text": {
-                "type": "mrkdwn",
-                "text": f"*Also considered*\n_Reply to rate: `[slot#] [score 1-3]` — 3 = strong pick, 2 = fine, 1 = miss. e.g. `5 3` or `7 1 not relevant`_\n{triage_lines}",
-            },
-        })
+        ]
+        header = "*Also considered*\n_Reply to rate: `[slot#] [score 1-3]` — 3 = strong pick, 2 = fine, 1 = miss. e.g. `5 3` or `7 1 not relevant`_"
+        SLACK_SECTION_LIMIT = 2800  # leave headroom under the 3000 cap
+        chunks: list[str] = []
+        current = header
+        for line in triage_lines:
+            candidate = current + "\n" + line
+            if len(candidate) > SLACK_SECTION_LIMIT and current:
+                chunks.append(current)
+                current = line
+            else:
+                current = candidate
+        if current:
+            chunks.append(current)
+        for chunk in chunks:
+            blocks.append({
+                "type": "section",
+                "text": {"type": "mrkdwn", "text": chunk},
+            })
 
     if always_read:
         always_lines = "\n".join(
