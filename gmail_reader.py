@@ -140,6 +140,12 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
             # Extract HTML body for URL parsing
             html_body = _extract_body(msg["payload"])
             urls = extract_urls_from_html(html_body) if html_body else []
+            # Resolve newsletter click-tracking redirector URLs (BioSpace,
+            # SendGrid, etc.) to their canonical destinations. No-op for
+            # URLs that aren't on known redirector hosts.
+            if urls:
+                from url_resolver import resolve_urls
+                urls = resolve_urls(urls)
 
             # Match against sources
             source = get_source(sender_email)

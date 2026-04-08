@@ -71,6 +71,6 @@ jobs:
         run: |
           git config user.name "daily-reads-bot"
           git config user.email "bot@daily-reads"
-          git add docs/ feedback_log.json selection_criteria.md selection_criteria_proposed.md criteria_update_state.json taste_profile.md taste_evidence.json learned_preferences.json learned_preferences.md artifacts/
+          git add docs/ feedback_log.json selection_criteria.md selection_criteria_proposed.md criteria_update_state.json taste_profile.md taste_evidence.json learned_preferences.json learned_preferences.md url_resolution_cache.json artifacts/
           git diff --staged --quiet || git commit -m "Daily reads $(date -u +%Y-%m-%d)"
           git push
