@@ -93,10 +93,14 @@ def main():
         print(f"Gmail auth failed: {e}")
         return
 
-    # Search for replies to Daily Reads emails in the last 48 hours
+    # Search for feedback messages in the last 48 hours. This covers two flows:
+    #   1. Manual replies to the digest email (subject "Re: 📰 Daily Reads — DATE")
+    #   2. Slack feedback buttons, which open a fresh mailto: composition with
+    #      subject "Daily Reads feedback DATE" — NOT a threaded reply, so we
+    #      cannot use `is:reply` here or those messages get filtered out.
     cutoff = datetime.now(timezone.utc) - timedelta(hours=48)
     date_query = cutoff.strftime("%Y/%m/%d")
-    query = f'after:{date_query} subject:"Daily Reads" in:inbox is:reply'
+    query = f'after:{date_query} subject:"Daily Reads" in:inbox'
 
     try:
         resp = service.users().messages().list(
