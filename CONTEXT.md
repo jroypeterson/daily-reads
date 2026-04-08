@@ -86,6 +86,7 @@ Current Dropbox operating assumption:
 - after ingestion, processed files are moved to the subfolder `Incorporated into taste preferences`
 - intended cadence: once daily via a local scheduled task, not via GitHub Actions
 - the task helper runs native Windows Python (not WSL), registers a daily time trigger plus an at-logon fallback, with catch-up-after-missed-run behavior enabled
+- the task does `git fetch` + `git pull --rebase --autostash -X ours origin main` BEFORE running any ingestion scripts. This is critical: both the local task and the GitHub Actions workflow touch `learned_preferences.json`/`learned_preferences.md`, and without an upfront rebase the two histories diverge daily and the local Dropbox copy stops seeing remote daily-reads commits
 - after ingestion, the task commits and pushes `taste_evidence.json` so the next GitHub Actions run can see new evidence
 - after ingestion, `process_exemplar_content.py` extracts text previews from local archived files so preference learning can use more than filenames and free-text notes
 

@@ -112,6 +112,7 @@ That helper now registers:
 - `WakeToRun`, so Windows is allowed to wake the machine if supported/configured
 - an additional at-logon trigger as a fallback when the laptop was asleep at the scheduled time
 - local content extraction for archived Dropbox files before learned preferences are refreshed
+- a `git fetch` + `git pull --rebase --autostash -X ours origin main` before any ingestion runs, so the local task stacks cleanly on top of the latest GitHub Actions output instead of forking history (without this, the local task and the workflow both touch `learned_preferences.*` and diverge daily)
 
 ## Feedback Loop
 
