@@ -1,0 +1,78 @@
+{
+  "run_date": "2026-04-08",
+  "generated_at": "2026-04-08T13:05:02Z",
+  "counts": {
+    "gmail_items": 6,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 2,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "231ce304ef1ce33e",
+      "headline": "Gilead continues M&A surge with $3.1B deal for ADC specialist Tubulis",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/gilead-tubulis-acquire-deal-adc-cancer/816823/",
+      "slot": 1,
+      "summary": "Gilead Sciences agreed to acquire German biotech Tubulis for $3.15 billion upfront plus up to $1.85 billion in milestones, adding next-generation antibody-drug conjugate technology to its oncology pipeline. The deal includes TUB-040, a promising ADC in Phase 1b/2 trials for platinum-resistant ovarian cancer, and represents Gilead's third major acquisition this year following Arcellx ($7.8B) and Ouro Medicines ($2.18B).",
+      "why_it_matters": "This signals major pharma's aggressive M&A strategy in oncology, particularly around ADC technology which is becoming increasingly valuable as a targeted cancer therapy platform.",
+      "signal_tags": [
+        "ticker_match:GILD",
+        "high_priority_source",
+        "catalyst_proximity",
+        "analytical_depth"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "e4f157e1692d502a",
+      "headline": "Oil prices plunge below $94 a barrel, on pace for biggest drop since 2020, after U.S. and Iran agree to two-week cease-fire",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-prices-drop-sharply-after-two-week-cease-fire-reached-c0bc90ed?mod=mw_rss_topstories",
+      "slot": 2,
+      "summary": "Oil prices dropped sharply after President Trump announced Iran agreed to a two-week cease-fire, marking the biggest decline since 2020. Markets are showing relief over the de-escalation of Middle East tensions, though questions remain about longer-term negotiations between Washington and Tehran.",
+      "why_it_matters": "Geopolitical risk reduction affects macro positioning across energy and healthcare sectors, potentially impacting drug supply chains and manufacturing costs.",
+      "signal_tags": [
+        "geopolitical_risks",
+        "macro_impact",
+        "novelty"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "article_id": "bf2a443d75ccf54a",
+      "headline": "Project Glasswing: Anthropic launches AI cybersecurity initiative with tech giants",
+      "source": "CyberScoop",
+      "url": "https://cyberscoop.com/project-glasswing-anthropic-ai-open-source-software-vulnerabilities/",
+      "slot": 3,
+      "summary": "Anthropic unveiled Project Glasswing, bringing together Amazon, Apple, Microsoft, and other tech giants to use its unreleased Claude Mythos Preview AI model for defensive cybersecurity. The AI has already identified thousands of zero-day vulnerabilities in major operating systems and browsers, with Anthropic committing $100M in usage credits and $4M in donations to open-source security organizations.",
+      "why_it_matters": "This represents a significant shift toward AI-powered cybersecurity defense, with potential implications for how healthcare organizations protect critical patient data and systems.",
+      "signal_tags": [
+        "AI_impact",
+        "corporate_governance",
+        "tech_infrastructure",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "03218671280d2ca1",
+      "headline": "Everyone agrees AI scribes are increasing health care costs. No one agrees what to do about it",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/04/08/insurers-providers-agree-ai-scribes-raise-health-care-costs/?utm_campaign=rss",
+      "slot": 4,
+      "summary": "Behind closed doors, health insurers and hospitals agree that AI scribes are bumping up healthcare costs, but they disagree on solutions. Nearly a third of medical practices are using AI assistants for note-taking to reduce administrative work, yet the technology's cost impact is creating tension between payers and providers.",
+      "why_it_matters": "This highlights unintended consequences of healthcare AI adoption and regulatory challenges that could affect reimbursement policies and healthcare AI investment strategies.",
+      "signal_tags": [
+        "AI_impact",
+        "regulatory_affairs",
+        "healthcare_economics",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

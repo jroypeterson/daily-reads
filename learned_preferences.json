@@ -8,22 +8,115 @@
       "direction": "positive",
       "evidence_ids": [
         "ev_c1f79a0309332bde"
-      ],
-      "last_updated": "2026-04-08T19:08:59Z"
+      ]
+    },
+    {
+      "name": "corporate governance",
+      "strength": "strong",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_oracle_h1b",
+        "daily_scoring_jpmorgan_dimon"
+      ]
+    },
+    {
+      "name": "regulatory affairs",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_fda_rejections"
+      ]
+    },
+    {
+      "name": "geopolitical risks",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_jpmorgan_dimon"
+      ]
+    },
+    {
+      "name": "AI impact",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_jpmorgan_dimon"
+      ]
+    },
+    {
+      "name": "labor market dynamics",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_oracle_h1b"
+      ]
     }
   ],
-  "source_preferences": [],
-  "style_preferences": [],
-  "avoid_patterns": [],
+  "source_preferences": [
+    {
+      "name": "financial news",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_jpmorgan_dimon"
+      ]
+    },
+    {
+      "name": "regulatory reporting",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_fda_rejections"
+      ]
+    }
+  ],
+  "style_preferences": [
+    {
+      "name": "analytical depth",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_jpmorgan_dimon",
+        "daily_scoring_fda_rejections"
+      ]
+    }
+  ],
+  "avoid_patterns": [
+    {
+      "name": "niche therapeutics",
+      "strength": "moderate",
+      "direction": "negative",
+      "evidence_ids": [
+        "daily_scoring_neurocrine_miss"
+      ]
+    },
+    {
+      "name": "paywalled content",
+      "strength": "moderate",
+      "direction": "negative",
+      "evidence_ids": [
+        "daily_scoring_healthcare_stocks_miss"
+      ]
+    },
+    {
+      "name": "short-term trading focus",
+      "strength": "moderate",
+      "direction": "negative",
+      "evidence_ids": [
+        "daily_scoring_healthcare_stocks_miss"
+      ]
+    }
+  ],
   "evidence_summary": {
-    "total": 2,
+    "total": 6,
     "by_kind": {
       "positive_exemplar": 1,
-      "daily_rating_3": 1
+      "daily_rating_3": 3,
+      "daily_rating_1": 2
     },
     "by_channel": {
       "email": 1,
-      "daily_scoring": 1
+      "daily_scoring": 5
     }
   },
   "score_scale": {
@@ -31,5 +124,5 @@
     "2": "Fine",
     "3": "Strong pick"
   },
-  "last_synthesis": "2026-04-04T01:49:40Z"
+  "last_synthesis": "2026-04-08T13:02:27Z"
 }

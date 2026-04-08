@@ -1,22 +1,30 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-04-08T19:08:59Z
+> Structured preference model. Last updated: 2026-04-08T13:02:27Z
 
 ## Evidence Snapshot
-- Total evidence records: 2
-- By kind: daily_rating_3=1, positive_exemplar=1
+- Total evidence records: 6
+- By kind: daily_rating_1=2, daily_rating_3=3, positive_exemplar=1
 
 ### Evidence Channels
-- daily_scoring: 1
+- daily_scoring: 5
 - email: 1
 
 ## Topic Preferences
 - **self-improvement** [weak, positive] (1 evidence points)
+- **corporate governance** [strong, positive] (2 evidence points)
+- **regulatory affairs** [moderate, positive] (1 evidence points)
+- **geopolitical risks** [moderate, positive] (1 evidence points)
+- **AI impact** [moderate, positive] (1 evidence points)
+- **labor market dynamics** [moderate, positive] (1 evidence points)
 
 ## Source Preferences
-_Sources: No data yet._
+- **financial news** [moderate, positive] (1 evidence points)
+- **regulatory reporting** [moderate, positive] (1 evidence points)
 
 ## Style Preferences
-_Styles: No data yet._
+- **analytical depth** [moderate, positive] (2 evidence points)
 
 ## Avoid Patterns
-_Avoid: No data yet._
+- **niche therapeutics** [moderate, negative] (1 evidence points)
+- **paywalled content** [moderate, negative] (1 evidence points)
+- **short-term trading focus** [moderate, negative] (1 evidence points)
