@@ -1,0 +1,61 @@
+{
+  "run_date": "2026-04-09",
+  "generated_at": "2026-04-09T13:04:36Z",
+  "counts": {
+    "gmail_items": 4,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "eb2f9ddc2174879e",
+      "headline": "Gilead's M&A pace to slow after $15B deal trio",
+      "source": "Gilead Sciences",
+      "url": "https://www.biospace.com/business/gilead-less-m-a-happy-now-but-door-still-open-for-compelling-opportunities",
+      "slot": 1,
+      "summary": "<cite index=\"11-1,11-3\">Gilead completed three major acquisitions totaling $14.77 billion in 2026: Tubulis for $5B, Arcellx for $7.59B, and Ouro Medicines for $2.18B</cite>. <cite index=\"14-3,14-16\">CFO Andrew Dickinson signaled a shift toward integration activities and more routine business development transactions after this acquisition spree</cite>. <cite index=\"13-4\">CEO Daniel O'Day highlighted 2026 as having five Phase 3 updates and up to 10 potential new launches through 2027</cite>.",
+      "why_it_matters": "<cite index=\"15-10,15-11\">The deals expand Gilead's oncology portfolio with differentiated next-generation ADC platform capabilities and promising cancer programs beyond HIV</cite>.",
+      "signal_tags": [
+        "ticker_match:GILD",
+        "catalyst_proximity",
+        "corporate_governance"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "6e3c55f422882e1d",
+      "headline": "Value Investors Insight: Energy & Financials \u2013 Opportunity in Uncertainty",
+      "source": "Value Investors Insight",
+      "url": "https://valueinvestorinsight.com/IssueView.aspx?source=VI_v2026_i898_20260331.aspx",
+      "slot": 2,
+      "summary": "<cite index=\"1-5,7-4,7-7,9-2\">Energy emerged as the standout performer in Q1 2026 amid geopolitical tensions and supply disruptions, with the sector surging 36% and reaching a 33.6% return</cite>. <cite index=\"1-1,1-5\">Cambridge Associates advises investors to rebalance portfolios with greater diversification and prioritize electricity transmission value chain investments in 2026</cite>. <cite index=\"7-30,7-36\">Valuations in Latin America trade at a 51% discount to emerging markets peers, presenting opportunities amid global uncertainty</cite>.",
+      "why_it_matters": "<cite index=\"1-20,1-22,1-23\">The US dollar's multi-year bear market creates strategic currency positioning opportunities for global portfolio allocation</cite>.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:SGHT",
+        "ticker_match:SNTI",
+        "ticker_match:U",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min"
+    },
+    {
+      "article_id": "3d22ef968acd848b",
+      "headline": "AI scaling towards personal superintelligence: Meta's Muse Spark",
+      "source": "Hacker News",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1",
+      "slot": 3,
+      "summary": "<cite index=\"3d22ef968acd848b\">Meta announced Muse Spark, described as 'scaling towards personal superintelligence'</cite>. <cite index=\"1-10,1-11\">Large AI companies are consuming increasing portions of cash flow through capex, with capex now accounting for 75% of operating cash flows (up from 45% in 2024)</cite>. <cite index=\"1-12,1-13\">Beyond mega-cap tech firms, AI offers cost reduction and margin expansion opportunities for companies that can leverage the technology effectively</cite>.",
+      "why_it_matters": "<cite index=\"1-9,1-10\">The AI ecosystem's 'circularity' where companies are simultaneously customers, suppliers, and investors could mask underlying demand and profitability issues</cite>.",
+      "signal_tags": [
+        "hn_score:362",
+        "AI_impact"
+      ],
+      "reading_time": "4 min"
+    }
+  ]
+}

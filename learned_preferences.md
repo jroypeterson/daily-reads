@@ -1,5 +1,5 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-04-08T13:02:27Z
+> Structured preference model. Last updated: 2026-04-09T13:03:22Z
 
 ## Evidence Snapshot
 - Total evidence records: 6
