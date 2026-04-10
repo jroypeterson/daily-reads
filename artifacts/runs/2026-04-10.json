@@ -1,0 +1,75 @@
+{
+  "run_date": "2026-04-10",
+  "generated_at": "2026-04-10T12:51:45Z",
+  "counts": {
+    "gmail_items": 4,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "523fe1c6c5a578b3",
+      "headline": "Long-time PhRMA CEO Steve Ubl to step down",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVyBkJ2CQGCsV58F4H35ktJCW69sl4k5MGt8qN5g75jl5nR3bW7lCGcx6lZ3kQVJw-HF3lkPSHW632p107n1KdcW2pVHDy68xvKjW1LHyC17mRPr9W28gC_x1McMvVW7_vZxZ71VNbVW3lBWP85lFD6bN7PwFgB_hrg1W52xpj36FvtfnW8BygRp4L2FyWW41mzJF1-mfNWW2Lp5pZ6j75BDW32tHYm73JPGKW8drsp96f9BB_N31nqXZMfp6SW7qYSVg3z7h0jVl6rS87bxw4LW1m14fX99TcTXW3mh7Xh34q4ZLW3j1Z4c8vSYVzW5kPQSB5WKKZZW7BsWS97BGbHtW3l7Bl35vj3FMW8Md0Vs3bcqtGN9fHwWG1hy7mW4hhMCV2hTkH3N1hGnpb6KwNkW45v1zs17Rq81V8tD59383H7WW8YY03s44ysP1W61Fcx88DWV6mW1RdyzX1p9ZvbN1G9b83yMK64W46pNZV70BLR1VxhW0X8WDsPbW4xLRDk7L_qmkW40rvb09gCm13V9dSbK90jp31W3XXKZw65y7HqW7j2Qh-5TMwDZf1dNqXv04",
+      "slot": 1,
+      "summary": "Steve Ubl will step down as CEO of PhRMA at the end of 2026 after more than a decade leading the pharmaceutical industry's most powerful lobbying group. Ubl guided the organization through the COVID-19 pandemic, Medicare drug price negotiations, and ongoing battles with the Trump administration over drug pricing.",
+      "why_it_matters": "This leadership transition comes at a critical time as the industry faces continued pressure on drug pricing, 340B program disputes, and Trump administration policies affecting pharmaceutical trade.",
+      "signal_tags": [
+        "corporate_governance",
+        "regulatory_affairs",
+        "priority_source"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "780d5c5f2b67c66c",
+      "headline": "AI will boost productivity. But first it will drag the economy down.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/ai-will-boost-productivity-but-first-it-will-drag-the-economy-down-283e3c16?mod=mw_rss_topstories",
+      "slot": 2,
+      "summary": "Companies and investors should expect a painful transformation period where AI implementation makes even efficient firms appear less productive before eventual gains materialize. The economic disruption from AI adoption may create months of apparent inefficiency as businesses adapt to new technologies.",
+      "why_it_matters": "This analysis provides crucial context for investors evaluating AI-focused companies and understanding why productivity metrics may temporarily decline during AI integration phases.",
+      "signal_tags": [
+        "ai_impact",
+        "analytical_depth",
+        "financial_markets"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "180a9f16c904523d",
+      "headline": "ETH Zurich demonstrates 17,000 qubit array with 99.91% fidelity",
+      "source": "Hacker News",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
+      "slot": 3,
+      "summary": "Researchers at ETH Zurich have achieved a breakthrough in quantum computing stability with a 17,000 qubit array operating at 99.91% fidelity. This represents a significant advancement in quantum error correction and system stability for practical quantum applications.",
+      "why_it_matters": "This quantum computing milestone could accelerate drug discovery and molecular simulation capabilities, directly impacting pharmaceutical R&D timelines and computational biology applications.",
+      "signal_tags": [
+        "tech_breakthrough",
+        "healthcare_applications",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "04bb6e783e1ab6d3",
+      "headline": "AbbVie challenges 'outdated' 340B drug discount program guidance in new lawsuit",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/pharma/abbvie-challenges-outdated-340b-drug-discount-program-guidance-new-suit",
+      "slot": 4,
+      "summary": "AbbVie has filed a lawsuit against the federal government challenging the interpretation of 'patient' definitions under the 340B drug discount program. This represents the latest escalation in pharma's ongoing battle to reform the federal drug discount program.",
+      "why_it_matters": "The 340B program dispute affects billions in drug discounts and hospital revenues, with potential implications for drug pricing policies and healthcare system financing.",
+      "signal_tags": [
+        "ticker_match:ABBV",
+        "regulatory_affairs",
+        "corporate_governance"
+      ],
+      "reading_time": "4 min"
+    }
+  ]
+}

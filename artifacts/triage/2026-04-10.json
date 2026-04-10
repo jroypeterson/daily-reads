@@ -1,0 +1,309 @@
+{
+  "run_date": "2026-04-10",
+  "generated_at": "2026-04-10T12:51:45Z",
+  "triage_queue": [
+    {
+      "candidate_id": "d115afd8f637fa84",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "The Health Care Blog",
+      "headline": "7th and possibly final update on the $39.94 lab test bill",
+      "snippet": "By MATTHEW HOLT I know you all care, so I am giving a 7th update on the telenovela about my&#160;Labcorp&#160;bill for $34.95. The very TL:DR summary of where we are so farContinue reading...",
+      "primary_url": "https://thehealthcareblog.com/blog/2026/04/09/7th-and-possibly-final-update-on-the-39-94-lab-test-bill/",
+      "urls": [
+        "https://thehealthcareblog.com/blog/2026/04/09/7th-and-possibly-final-update-on-the-39-94-lab-test-bill/"
+      ],
+      "category": "healthcare_weekly",
+      "priority": "high",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "priority:high",
+        "source_type:tier2",
+        "category:healthcare_weekly",
+        "ticker:ARE",
+        "ticker:BILL",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:LH",
+        "subsector:HIT",
+        "subsector:Labs"
+      ],
+      "triage_score": 12
+    },
+    {
+      "candidate_id": "e348041c8330e6af",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Global chaos is now a permanent guest in your portfolio. Why big tech and emerging markets are essential, says this strategist",
+      "snippet": "The Strait of Hormuz crisis is not an aberration from the new geopolitical order \u2014 it is an expression of it and investors need to adjust to this fast, says a Nuveen strategist.",
+      "primary_url": "https://www.marketwatch.com/story/global-chaos-is-now-a-permanent-guest-in-your-portfolio-why-big-tech-and-emerging-markets-are-essential-says-this-strategist-2eff3878?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/global-chaos-is-now-a-permanent-guest-in-your-portfolio-why-big-tech-and-emerging-markets-are-essential-says-this-strategist-2eff3878?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:NOW",
+        "ticker:TECH",
+        "ticker:GMRE",
+        "ticker:SNTI",
+        "subsector:Tools"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "a5f1c43de20d6344",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Microsoft suspends dev accounts for high-profile open source projects",
+      "snippet": "Microsoft suspends dev accounts for high-profile open source projects",
+      "primary_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
+      "urls": [
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 182,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:182",
+        "category:tech_ai",
+        "ticker:MSFT"
+      ],
+      "triage_score": 5
+    },
+    {
+      "candidate_id": "9bc015ba624da7ba",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "FDA unveils home care innovation challenge",
+      "snippet": "The FDA is challenging health tech innovators to design medical devices that can support patients in the home after a hospital stay to prevent readmissions. The READI-Home (aka Reducing Readmissions through Device Innovation for the Home) Innovation Challenge launched April 7, opening up application",
+      "primary_url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/fda-unveils-home-care-innovation-challenge/",
+      "urls": [
+        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/fda-unveils-home-care-innovation-challenge/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:TECH",
+        "ticker:DSGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:MPW",
+        "subsector:Tools",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "a1b8212478cafb3b",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "Becker's Payer Issues",
+      "headline": "7 Blue Cross Blue Shield updates",
+      "snippet": "Blue Cross Blue Shield plans faced widespread financial pressure in 2025, with several major insurers posting operating losses as medical and pharmacy costs continue to climb. The struggles played out across several leadership moves, an evolving reimbursement policy landscape and notable state and f",
+      "primary_url": "https://www.beckerspayer.com/payer/7-blue-cross-blue-shield-updates/",
+      "urls": [
+        "https://www.beckerspayer.com/payer/7-blue-cross-blue-shield-updates/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:MPW",
+        "ticker:PSG",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "2603d6db0819d183",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "Becker's Payer Issues",
+      "headline": "Nebraska to kickstart Medicaid work requirements in May: 4 notes",
+      "snippet": "Nebraska will roll out Medicaid work requirements in May, making it the first expansion state to implement these provisions under HR 1.&#160; Here are four notes leading up to Nebraska&#8217;s launch: 1. Medicaid expansion states must implement community engagement requirements by the start of 2027.",
+      "primary_url": "https://www.beckerspayer.com/payer/medicaid/nebraska-to-kickstart-medicaid-work-requirements-in-may-4-notes/",
+      "urls": [
+        "https://www.beckerspayer.com/payer/medicaid/nebraska-to-kickstart-medicaid-work-requirements-in-may-4-notes/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:HR",
+        "ticker:CYH",
+        "ticker:HCAT",
+        "ticker:U",
+        "subsector:Hospitals",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "d4d4af8a6a5c436b",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "BioPharma Dive",
+      "headline": "Invivyd reveals plans to test an antibody drug against measles",
+      "snippet": "The drug, which Invivyd sees as a potential treatment and &ldquo;targeted alternative&rdquo; for the vaccine-hesitant, comes as measles cases in the U.S. are reaching levels not seen in decades.&nbsp;",
+      "primary_url": "https://www.biopharmadive.com/news/invivyd-measles-antibody-drug-vaccines/817086/",
+      "urls": [
+        "https://www.biopharmadive.com/news/invivyd-measles-antibody-drug-vaccines/817086/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:DRUG",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:IVVD",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "1dc365d0bdecea32",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "BioPharma Dive",
+      "headline": "Women have awaited a revolution in menopause. It hasn\u2019t arrived.",
+      "snippet": "Persistent barriers are still hindering drug development for a host of menopause symptoms.",
+      "primary_url": "https://www.biopharmadive.com/news/women-revolution-menopause-pharma-drug-bayer-astellas/817046/",
+      "urls": [
+        "https://www.biopharmadive.com/news/women-revolution-menopause-pharma-drug-bayer-astellas/817046/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:DRUG",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "a482b47f5049bef7",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "AbbVie suggests new interpretation of 'patient' is necessary in 340B lawsuit",
+      "snippet": "AbbVie filed suit against the federal government on Wednesday over its interpretation of the word \u201cpatient\u201d under the 340B federal drug discount program. The lawsuit is the latest twist in the ...",
+      "primary_url": "https://endpoints.news/abbvie-suggests-new-interpretation-of-patient-is-necessary-in-340b-lawsuit/",
+      "urls": [
+        "https://endpoints.news/abbvie-suggests-new-interpretation-of-patient-is-necessary-in-340b-lawsuit/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:DRUG",
+        "ticker:ABBV",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:TWST",
+        "subsector:HIT",
+        "subsector:Life Sci Tools"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "352c559ce4d7b67e",
+      "run_date": "2026-04-10",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Everyone has a mental health chatbot. Now what?",
+      "snippet": "AI chatbots are no longer enough to stand out in mental health. Plenty of companies have been building them for therapy, adding them as part of the virtual services they ...",
+      "primary_url": "https://endpoints.news/everyone-has-a-mental-health-chatbot-now-what/",
+      "urls": [
+        "https://endpoints.news/everyone-has-a-mental-health-chatbot-now-what/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:NOW",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:SCI",
+        "subsector:HIT",
+        "subsector:Deathcare"
+      ],
+      "triage_score": 10
+    }
+  ]
+}
