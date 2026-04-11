@@ -1,0 +1,58 @@
+{
+  "run_date": "2026-04-11",
+  "generated_at": "2026-04-11T12:38:39Z",
+  "counts": {
+    "gmail_items": 1,
+    "tier2_items": 88,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "60d663052c48eea7",
+      "headline": "GSK pulls leucovorin from FDA review for autism",
+      "source": "BioSpace",
+      "url": "https://www.biospace.com/business/gsk-again-pulls-application-for-leucovorin-touted-by-fda-as-potential-autism-treatment",
+      "slot": 1,
+      "summary": "GSK withdrew its FDA application for Wellcovorin (leucovorin), a decades-old drug that Trump administration officials promoted as a potential autism treatment. The FDA had approved the drug only for a rare genetic condition affecting 46 patients, not autism broadly, after finding insufficient evidence for broader use.",
+      "why_it_matters": "Highlights regulatory inconsistency and political pressure on FDA decision-making, with implications for evidence standards in drug approvals.",
+      "signal_tags": [
+        "ticker_match:GSK",
+        "regulatory_affairs",
+        "corporate_governance"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "7e661fd459fd5731",
+      "headline": "CMS proposes 2.4% hospital pay increase, nationwide mandatory model rollout",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/providers/cms-proposes-24-hospital-pay-increase-nationwide-mandatory-model-rollout",
+      "slot": 2,
+      "summary": "CMS proposed a 2.4% payment increase for hospitals in fiscal year 2027, alongside the first mandatory nationwide episode-based payment model for joint replacements (CJR-X). The model would hold hospitals accountable for costs during surgery and 90 days of recovery starting October 2027.",
+      "why_it_matters": "Represents significant shift toward value-based care with mandatory participation, affecting hospital margins and investment in orthopedic services.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "corporate_governance"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "eb4caa1ba811034f",
+      "headline": "AI assistance when contributing to the Linux kernel",
+      "source": "Hacker News",
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "slot": 3,
+      "summary": "Linux kernel maintainers published official guidelines for using AI coding assistants in kernel development. The documentation addresses legal, technical, and quality considerations for AI-generated code contributions to one of the world's most critical software projects.",
+      "why_it_matters": "Signals mainstream acceptance of AI tools in enterprise software development, with potential implications for productivity and code quality standards.",
+      "signal_tags": [
+        "AI_impact",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}
