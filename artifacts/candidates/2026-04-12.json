@@ -1,0 +1,2101 @@
+{
+  "run_date": "2026-04-12",
+  "generated_at": "2026-04-12T12:42:22Z",
+  "counts": {
+    "gmail_candidates": 0,
+    "tier2_candidates": 84,
+    "total_candidates": 84
+  },
+  "gmail_candidates": [],
+  "tier2_candidates": [
+    {
+      "candidate_id": "42ca5bb1701e214e",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "JVM Options Explorer",
+      "snippet": "JVM Options Explorer",
+      "primary_url": "https://chriswhocodes.com/vm-options-explorer.html",
+      "urls": [
+        "https://chriswhocodes.com/vm-options-explorer.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 44,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:44",
+        "category:tech_ai",
+        "ticker:OPCH",
+        "subsector:Post-Acute"
+      ]
+    },
+    {
+      "candidate_id": "615e4a0fc089cd47",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Phyphox \u2013 Physical Experiments Using a Smartphone",
+      "snippet": "Phyphox \u2013 Physical Experiments Using a Smartphone",
+      "primary_url": "https://phyphox.org/",
+      "urls": [
+        "https://phyphox.org/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 48,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:48",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "72c28241756b19b3",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "An Interview with Pat Gelsinger",
+      "snippet": "An Interview with Pat Gelsinger",
+      "primary_url": "https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026",
+      "urls": [
+        "https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 60,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:60",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "f1c1da2918cc32db",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Happy Map",
+      "snippet": "Happy Map",
+      "primary_url": "https://pudding.cool/2026/02/happy-map/",
+      "urls": [
+        "https://pudding.cool/2026/02/happy-map/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 25,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:25",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "eebc5332f5fe8de5",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The Miller Principle (2007)",
+      "snippet": "The Miller Principle (2007)",
+      "primary_url": "https://puredanger.github.io/tech.puredanger.com/2007/07/11/miller-principle/",
+      "urls": [
+        "https://puredanger.github.io/tech.puredanger.com/2007/07/11/miller-principle/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 46,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:46",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "3b2e2b2575908286",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Tofolli gates are all you need",
+      "snippet": "Tofolli gates are all you need",
+      "primary_url": "https://www.johndcook.com/blog/2026/04/06/tofolli-gates/",
+      "urls": [
+        "https://www.johndcook.com/blog/2026/04/06/tofolli-gates/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 82,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:82",
+        "category:tech_ai",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "41a0c6873cbe440b",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "What have been the greatest intellectual achievements? (2017)",
+      "snippet": "What have been the greatest intellectual achievements? (2017)",
+      "primary_url": "https://www.thinkingcomplete.com/2017/09/what-have-been-greatest-intellectual.html",
+      "urls": [
+        "https://www.thinkingcomplete.com/2017/09/what-have-been-greatest-intellectual.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 26,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:26",
+        "category:tech_ai",
+        "ticker:ACHV"
+      ]
+    },
+    {
+      "candidate_id": "d78297e734f53d2f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Apple update looks like Czech mate for locked-out iPhone user",
+      "snippet": "Apple update looks like Czech mate for locked-out iPhone user",
+      "primary_url": "https://www.theregister.com/2026/04/12/ios_passcode_bug/",
+      "urls": [
+        "https://www.theregister.com/2026/04/12/ios_passcode_bug/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 225,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:225",
+        "category:tech_ai",
+        "ticker:AAPL"
+      ]
+    },
+    {
+      "candidate_id": "0258ef5b0fe0c64e",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "I run multiple $10K MRR companies on a $20/month tech stack",
+      "snippet": "I run multiple $10K MRR companies on a $20/month tech stack",
+      "primary_url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+      "urls": [
+        "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 355,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:355",
+        "category:tech_ai",
+        "ticker:TECH",
+        "subsector:Tools"
+      ]
+    },
+    {
+      "candidate_id": "da0d0524b7360055",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Anthropic downgraded cache TTL on March 6th",
+      "snippet": "Anthropic downgraded cache TTL on March 6th",
+      "primary_url": "https://github.com/anthropics/claude-code/issues/46829",
+      "urls": [
+        "https://github.com/anthropics/claude-code/issues/46829"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 127,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:127",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "f1169ce336c3262b",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
+      "snippet": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
+      "primary_url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "urls": [
+        "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 410,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:410",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "a2d352b2a492212a",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Stewart Brand on how progress happens",
+      "snippet": "Stewart Brand on how progress happens",
+      "primary_url": "https://www.newyorker.com/books/book-currents/stewart-brand-on-how-progress-happens",
+      "urls": [
+        "https://www.newyorker.com/books/book-currents/stewart-brand-on-how-progress-happens"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 17,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:17",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "d97f86bff4e7501c",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "AI Will Be Met with Violence, and Nothing Good Will Come of It",
+      "snippet": "AI Will Be Met with Violence, and Nothing Good Will Come of It",
+      "primary_url": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
+      "urls": [
+        "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 78,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:78",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "ccc4d6961be8cdbf",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Small models also found the vulnerabilities that Mythos found",
+      "snippet": "Small models also found the vulnerabilities that Mythos found",
+      "primary_url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+      "urls": [
+        "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 1139,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:1139",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "e790630bb5843aa0",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "How Complex is my Code?",
+      "snippet": "How Complex is my Code?",
+      "primary_url": "https://philodev.one/posts/2026-04-code-complexity/",
+      "urls": [
+        "https://philodev.one/posts/2026-04-code-complexity/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 136,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:136",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "fa68db8f9725d2c8",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "447 TB/cm\u00b2 at zero retention energy \u2013 atomic-scale memory on fluorographane",
+      "snippet": "447 TB/cm\u00b2 at zero retention energy \u2013 atomic-scale memory on fluorographane",
+      "primary_url": "https://zenodo.org/records/19513269",
+      "urls": [
+        "https://zenodo.org/records/19513269"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 230,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:230",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "9d8f7ddea9366633",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "No one owes you supply-chain security",
+      "snippet": "No one owes you supply-chain security",
+      "primary_url": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/",
+      "urls": [
+        "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 7,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:7",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "885a8b0a8cae6669",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Dark Castle",
+      "snippet": "Dark Castle",
+      "primary_url": "https://darkcastle.co.uk/",
+      "urls": [
+        "https://darkcastle.co.uk/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 199,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:199",
+        "category:tech_ai",
+        "ticker:CSTL",
+        "subsector:Diagnostics"
+      ]
+    },
+    {
+      "candidate_id": "15fae8c608305abd",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Pijul a FOSS distributed version control system",
+      "snippet": "Pijul a FOSS distributed version control system",
+      "primary_url": "https://pijul.org/",
+      "urls": [
+        "https://pijul.org/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 168,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:168",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "7f0f7a8e7a8e0736",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The End of Eleventy",
+      "snippet": "The End of Eleventy",
+      "primary_url": "https://brennan.day/the-end-of-eleventy/",
+      "urls": [
+        "https://brennan.day/the-end-of-eleventy/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 180,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:180",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "29a117e13a60f779",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
+      "snippet": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
+      "primary_url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
+      "urls": [
+        "https://khronokernel.com/macos/2023/08/08/AS-VM.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 207,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:207",
+        "category:tech_ai",
+        "ticker:AAPL"
+      ]
+    },
+    {
+      "candidate_id": "c31c08fee6f9a038",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Network Flow Algorithms",
+      "snippet": "Network Flow Algorithms",
+      "primary_url": "https://www.networkflowalgs.com/",
+      "urls": [
+        "https://www.networkflowalgs.com/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 30,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:30",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "a52a05ae73db0449",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Cirrus Labs to join OpenAI",
+      "snippet": "Cirrus Labs to join OpenAI",
+      "primary_url": "https://cirruslabs.org/",
+      "urls": [
+        "https://cirruslabs.org/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 270,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:270",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "2ecbd5260d7b9599",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+      "snippet": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+      "primary_url": "https://www.v68k.org/advanced-mac-substitute/",
+      "urls": [
+        "https://www.v68k.org/advanced-mac-substitute/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 251,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:251",
+        "category:tech_ai",
+        "ticker:OS"
+      ]
+    },
+    {
+      "candidate_id": "959a01273d6d24dd",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Internet outage in Iran reaches 1,008 hours",
+      "snippet": "Internet outage in Iran reaches 1,008 hours",
+      "primary_url": "https://mastodon.social/@netblocks/116384935123261912",
+      "urls": [
+        "https://mastodon.social/@netblocks/116384935123261912"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 6,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:6",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "0514dd15f8d56edf",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Surelock: Deadlock-Free Mutexes for Rust",
+      "snippet": "Surelock: Deadlock-Free Mutexes for Rust",
+      "primary_url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+      "urls": [
+        "https://notes.brooklynzelenka.com/Blog/Surelock"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 224,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:224",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "1e5e3028c4745bec",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "How to build a `Git diff` driver",
+      "snippet": "How to build a `Git diff` driver",
+      "primary_url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
+      "urls": [
+        "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 121,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:121",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "f9e89dc6528e31df",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "snippet": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "primary_url": "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional",
+      "urls": [
+        "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 193,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:193",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "2f67f8deb8f5059d",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Software Preservation Group: C++ History Collection",
+      "snippet": "Software Preservation Group: C++ History Collection",
+      "primary_url": "https://softwarepreservation.computerhistory.org/c_plus_plus/",
+      "urls": [
+        "https://softwarepreservation.computerhistory.org/c_plus_plus/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 33,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:33",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "7b9be840e40b773b",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "STAT News",
+      "headline": "Opinion: What STAT readers think about nutrition education in med school",
+      "snippet": "\u201cIs \u2018lack of education\u2019 really what we think the problem is in prevention care?\u201d a STAT reader asks.",
+      "primary_url": "https://www.statnews.com/2026/04/11/stat-letters-to-editor-medical-school-nutrition-340b/?utm_campaign=rss",
+      "urls": [
+        "https://www.statnews.com/2026/04/11/stat-letters-to-editor-medical-school-nutrition-340b/?utm_campaign=rss"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:MED",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Spine/Ortho",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "08d817b63dcd8667",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "STAT News",
+      "headline": "Opinion: Sports betting is creating a twofold public health crisis for some young men",
+      "snippet": "\u201cEven if not everybody is losing a ton of money right now, you're creating this culture of large numbers of gamblers,\u201d Isaac Rose-Berman says on the First Opinion Podcast.",
+      "primary_url": "https://www.statnews.com/2026/04/11/sports-betting-addiction-compulsive-behavior-mental-health-men/?utm_campaign=rss",
+      "urls": [
+        "https://www.statnews.com/2026/04/11/sports-betting-addiction-compulsive-behavior-mental-health-men/?utm_campaign=rss"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:NOW",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "7e661fd459fd5731",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/cms-proposes-24-hospital-pay-increase-nationwide-mandatory-model-rollout\" hreflang=\"en\">CMS proposes 2.4% hospital pay increase, nationwide mandatory model rollout</a>",
+      "snippet": "The IPPS and LTCH Prospective Payment System proposed rule for FY2027 floats a roughly $1.4 billion annual rise in hospital payments, plus the first mandatory, nationwide test of an episode-based payment model\u2014the Comprehensive Care for Joint Replacement Model.",
+      "primary_url": "https://www.fiercehealthcare.com/providers/cms-proposes-24-hospital-pay-increase-nationwide-mandatory-model-rollout",
+      "urls": [
+        "https://www.fiercehealthcare.com/providers/cms-proposes-24-hospital-pay-increase-nationwide-mandatory-model-rollout"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "156db0dada8cf329",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/regulatory/proposed-cms-rule-would-set-prior-auth-deadlines-drugs\" hreflang=\"en\">Proposed CMS rule would set prior auth deadlines for drugs</a>",
+      "snippet": "The Trump administration has issued a proposed rule that aims to significantly overhaul prior authorization for pharmaceuticals.",
+      "primary_url": "https://www.fiercehealthcare.com/regulatory/proposed-cms-rule-would-set-prior-auth-deadlines-drugs",
+      "urls": [
+        "https://www.fiercehealthcare.com/regulatory/proposed-cms-rule-would-set-prior-auth-deadlines-drugs"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "2db2a20f32906025",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety\" hreflang=\"en\">HHS, after legal setback, updates ACIP charter to put more emphasis on vaccine safety</a>",
+      "snippet": "HHS Secretary Robert F. Kennedy Jr. is continuing to reshape the CDC\u2019s Advisory Committee on Immunization Practices in a way that\u2019s setting off alarm bells for some experts.",
+      "primary_url": "https://www.fiercehealthcare.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety",
+      "urls": [
+        "https://www.fiercehealthcare.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:WAY",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "e5584689c7384fac",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/epic-rolls-out-health-alerts-flag-rising-rates-illness-county-level\" hreflang=\"en\">Epic rolls out health alerts to flag rising rates of illness at the county level</a>",
+      "snippet": "Electronic health record giant Epic debuted a new feature that monitors county-level health trends and issues alerts when elevated rates of illness are detected.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/epic-rolls-out-health-alerts-flag-rising-rates-illness-county-level",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/epic-rolls-out-health-alerts-flag-rising-rates-illness-county-level"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:TECH",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Tools",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "140f9500103ecec7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/digital-health/benefits-leaders-report-increased-operational-financial-costs-amid-digital-health\" hreflang=\"en\">Benefits leaders report increased operational, financial costs amid 'digital health vendor sprawl': Solera survey</a>",
+      "snippet": "Forty-two percent of benefits leaders say they are managing eight or more digital health vendors, with 90% reporting spending more than $1 million annually on costs.",
+      "primary_url": "https://www.fiercehealthcare.com/digital-health/benefits-leaders-report-increased-operational-financial-costs-amid-digital-health",
+      "urls": [
+        "https://www.fiercehealthcare.com/digital-health/benefits-leaders-report-increased-operational-financial-costs-amid-digital-health"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "584f82103e6ee3f9",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/hospital-ma-roars-back-life-q1-2026-operating-performances-fray-february\" hreflang=\"en\">Hospital M&amp;A roars back to life in Q1 2026; Operating performances fray in February</a>",
+      "snippet": "The first quarter of 2026 extended a recovery from last year's dealmaking slowdown with 22 newly announced transactions, largely fueled by divestitures. Meanwhile, February benchmarking data outlined persistent operating pressures and soft volumes.",
+      "primary_url": "https://www.fiercehealthcare.com/providers/hospital-ma-roars-back-life-q1-2026-operating-performances-fray-february",
+      "urls": [
+        "https://www.fiercehealthcare.com/providers/hospital-ma-roars-back-life-q1-2026-operating-performances-fray-february"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:MA",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "3eec98ee109fae0f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think\" hreflang=\"en\">Op-ed: Administrative fragility is costing healthcare more than we think</a>",
+      "snippet": "The industry has already proven automation works. The question now is whether organizations are prepared to operationalize it at scale, writes Zelis' Yusuf Qasim.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:NOW",
+        "ticker:TECH",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "subsector:Tools",
+        "subsector:Labs",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "b31c555356b81231",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/function-health-acquires-mobile-healthcare-platform-getlabs-provide-members-home-lab\" hreflang=\"en\">Function Health acquires mobile healthcare platform Getlabs to provide members with at-home lab tests</a>",
+      "snippet": "Function\u2019s testing platform is available at all Quest Diagnostics locations across the U.S. Members will soon be able to choose whether to visit a location or schedule an at-home or in-office test with Getlabs.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/function-health-acquires-mobile-healthcare-platform-getlabs-provide-members-home-lab",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/function-health-acquires-mobile-healthcare-platform-getlabs-provide-members-home-lab"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:SOON",
+        "ticker:TECH",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Hearing Aid",
+        "subsector:Tools",
+        "subsector:Labs",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "a1b5dbf581411a19",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "Morgan Stanley predicts these beaten-down Chinese stocks can rebound on easing Middle East tensions",
+      "snippet": "The strategists looked at Chinese companies with significant revenue exposure to the region.",
+      "primary_url": "https://www.cnbc.com/2026/04/12/morgan-stanley-chinese-stocks-that-can-recover-on-iran-ceasefire.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/12/morgan-stanley-chinese-stocks-that-can-recover-on-iran-ceasefire.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:4016"
+      ]
+    },
+    {
+      "candidate_id": "0d2258d63e531ad3",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "How bond market's private credit crisis fears are playing out in fixed-income ETFs",
+      "snippet": "Fears of a private credit crisis arrived just as the growing and less transparent bond market was being included in more fixed-income ETFs.",
+      "primary_url": "https://www.cnbc.com/2026/04/11/bond-market-private-credit-crisis-fixed-income-etfs.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/11/bond-market-private-credit-crisis-fixed-income-etfs.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "b36114286effa68e",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Vance leaves Pakistan talks with no deal. How financial markets are reacting.",
+      "snippet": "As U.S.-Iran talks in Pakistan ended without a deal, U.S. stock futures were sliding and oil was climbing, based on trading via a crypto-based trading platform.",
+      "primary_url": "https://www.marketwatch.com/story/vance-leaves-pakistan-talks-with-no-deal-how-financial-markets-are-reacting-ef6916b3?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/vance-leaves-pakistan-talks-with-no-deal-how-financial-markets-are-reacting-ef6916b3?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "fd10fdf86c6fb881",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Here are some bargain bank stocks heading into earnings season",
+      "snippet": "A close look at valuations for the largest U.S. banks highlights opportunities for long-term investors.",
+      "primary_url": "https://www.marketwatch.com/story/here-are-some-bargain-bank-stocks-heading-into-earnings-season-d0e6b3da?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/here-are-some-bargain-bank-stocks-heading-into-earnings-season-d0e6b3da?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "1de2f567a65eb7d7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "There are years-long waiting lists to retire on college campuses. 6 steps to take before enrolling.",
+      "snippet": "Retiring to a college community can be great \u2014 if you can afford it.",
+      "primary_url": "https://www.marketwatch.com/story/there-are-years-long-waiting-lists-to-retire-on-college-campuses-6-steps-to-take-before-enrolling-d7bd2d2d?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/there-are-years-long-waiting-lists-to-retire-on-college-campuses-6-steps-to-take-before-enrolling-d7bd2d2d?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:CYH",
+        "ticker:U",
+        "subsector:Hospitals"
+      ]
+    },
+    {
+      "candidate_id": "91a337b287636633",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "United Airlines wants even higher ticket prices. It\u2019ll get them \u2014 with or without the Iran war.",
+      "snippet": "United\u2019s new \u2018luxury\u2019 strategy is a risky bet for investors when fares and complaints are sky-high.",
+      "primary_url": "https://www.marketwatch.com/story/united-airlines-wants-even-higher-ticket-prices-itll-get-them-with-or-without-the-iran-war-4833e1d1?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/united-airlines-wants-even-higher-ticket-prices-itll-get-them-with-or-without-the-iran-war-4833e1d1?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:UTHR"
+      ]
+    },
+    {
+      "candidate_id": "497c7456700c62c7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Mortgage rates dip following Iran cease-fire. Why that\u2019s great timing for people selling a home.",
+      "snippet": "The spring home-buying season may have just gotten a boost of confidence.",
+      "primary_url": "https://www.marketwatch.com/story/mortgage-rates-dip-following-iran-cease-fire-why-thats-great-timing-for-people-selling-a-home-be81ad97?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/mortgage-rates-dip-following-iran-cease-fire-why-thats-great-timing-for-people-selling-a-home-be81ad97?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "9e6ba9b091a0a172",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "My wife and I want to move to Malaysia. Will we receive Social Security benefits there?",
+      "snippet": "\u2018Would we have to forget about those benefits and live off of other income?\u2019",
+      "primary_url": "https://www.marketwatch.com/story/my-wife-and-i-want-to-move-to-malaysia-will-we-receive-social-security-benefits-there-cb38f98e?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/my-wife-and-i-want-to-move-to-malaysia-will-we-receive-social-security-benefits-there-cb38f98e?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:MOVE",
+        "subsector:Spine/Ortho"
+      ]
+    },
+    {
+      "candidate_id": "0864a20361fe233f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Corporate tax cuts from the \u2018Big Beautiful Bill\u2019 aren\u2019t giveaways \u2014 the new law actually fuels investment",
+      "snippet": "By restoring 100% bonus depreciation, the OBBBA is providing liquidity needed for economic growth.",
+      "primary_url": "https://www.marketwatch.com/story/corporate-tax-cuts-from-the-big-beautiful-bill-arent-giveaways-the-new-laws-actually-fuel-investment-b998da78?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/corporate-tax-cuts-from-the-big-beautiful-bill-arent-giveaways-the-new-laws-actually-fuel-investment-b998da78?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:BILL",
+        "ticker:LAW"
+      ]
+    },
+    {
+      "candidate_id": "5db0149463c5a6ec",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "Here\u2019s when gas prices and airfares could go down if the Iran cease-fire holds",
+      "snippet": "Stock markets were rallying on Wednesday, but drivers shouldn\u2019t hold their breath waiting for a return to prewar gas prices.",
+      "primary_url": "https://www.marketwatch.com/story/heres-when-gas-prices-and-airfares-could-go-down-if-the-iran-cease-fire-holds-4b0f775b?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/heres-when-gas-prices-and-airfares-could-go-down-if-the-iran-cease-fire-holds-4b0f775b?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "bf9d316e4fc1b5c7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "The \u2018Annoyance Economy\u2019 Is More Than Just Annoying",
+      "snippet": "A new estimate puts the cost of dealing with robocalls, hidden fees and customer service chatbots that can\u2019t solve most problems at $165 billion.",
+      "primary_url": "https://www.nytimes.com/2026/04/12/business/annoyance-economy-costs.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/12/business/annoyance-economy-costs.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:SCI",
+        "subsector:Deathcare"
+      ]
+    },
+    {
+      "candidate_id": "7eb919fd301adf61",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "Peloton\u2019s Latest Leader Thinks He Can Coach It Back to Health",
+      "snippet": "The fitness company has fallen to a small fraction of its value at its pandemic peak, but Peter Stern says Peloton is headed in the right direction.",
+      "primary_url": "https://www.nytimes.com/2026/04/12/business/peloton-peter-stern.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/12/business/peloton-peter-stern.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:HCAT",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "57d657078737ec70",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "The Escalating Global A.I. Arms Race",
+      "snippet": "China, the U.S., Russia and others have ramped up their contest over artificial-intelligence-backed weapons and military systems. The buildup has been compared to the dawn of the nuclear weapons age.",
+      "primary_url": "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:DAWN",
+        "ticker:3320",
+        "ticker:GMRE"
+      ]
+    },
+    {
+      "candidate_id": "afc9e337fa2af107",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "Southwest Airlines Imposes Further Limits on Portable Chargers on Flights",
+      "snippet": "Starting on April 20, the airline will limit passengers to one lithium battery-powered portable charger per person.",
+      "primary_url": "https://www.nytimes.com/2026/04/11/travel/southwest-airlines-portable-chargers.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/11/travel/southwest-airlines-portable-chargers.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "e22fc24eb98fb70a",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "Someone Has to Be Happy. Why Not Lauren S\u00e1nchez Bezos?",
+      "snippet": "As half of an unfathomably powerful couple, Mrs. S\u00e1nchez Bezos seems to have influenced the uber-rich to stop apologizing, and start enjoying themselves.",
+      "primary_url": "https://www.nytimes.com/2026/04/11/business/lauren-sanchez-bezos-jeff-bezos.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/11/business/lauren-sanchez-bezos-jeff-bezos.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "866c81a9e55aa57f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "3 California Men Are Arrested in $1 Million Lego Heist",
+      "snippet": "Sheriff\u2019s deputies spotted the men fleeing in two box trucks on Wednesday. Deputies searching the cargo discovered a large amount of Lego products, the authorities said.",
+      "primary_url": "https://www.nytimes.com/2026/04/11/us/california-lego-heist-arrest.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/11/us/california-lego-heist-arrest.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:BOX"
+      ]
+    },
+    {
+      "candidate_id": "d1655ff5660efd67",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "The Athletic Investigates Conduct of Reporter Photographed With N.F.L. Coach",
+      "snippet": "Photographs of the reporter, Dianna Russini, and Mike Vrabel of the New England Patriots appeared in The New York Post.",
+      "primary_url": "https://www.nytimes.com/2026/04/11/business/media/the-athletic-reporter-dianna-russini-nfl-coach-mike-vrabel.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/11/business/media/the-athletic-reporter-dianna-russini-nfl-coach-mike-vrabel.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:GLAND"
+      ]
+    },
+    {
+      "candidate_id": "d302d48515eb557d",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "NYT Business",
+      "headline": "Pentagon Asks Court to Keep Its Restrictions on Journalists",
+      "snippet": "The Defense Department wants to keep in place a policy requiring escorts for journalists in the building while it appeals a court decision that tossed out broader restrictions on the media.",
+      "primary_url": "https://www.nytimes.com/2026/04/11/business/media/pentagon-escorts-reporter-restrictions.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/11/business/media/pentagon-escorts-reporter-restrictions.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "8216cf5cdcab3ce8",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "DealBook",
+      "headline": "Why Employers May Be Wary of Adding Crypto or Private Equity to 401(k)s",
+      "snippet": "A proposed federal rule aims to clear the way for retirement savings plans to include alternative assets. But it may not be enough to protect employers from lawsuits.",
+      "primary_url": "https://www.nytimes.com/2026/04/11/business/dealbook/crypto-private-equity-401ks.html",
+      "urls": [
+        "https://www.nytimes.com/2026/04/11/business/dealbook/crypto-private-equity-401ks.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:WAY",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "c846a0fb6649435b",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Abnormal Returns",
+      "headline": "Saturday links: denying scientific consensus",
+      "snippet": "Saturdays we catch up with the non-finance related items that we didn\u2019t get to earlier in the week. You can check out...",
+      "primary_url": "https://abnormalreturns.com/2026/04/11/saturday-links-denying-scientific-consensus/",
+      "urls": [
+        "https://abnormalreturns.com/2026/04/11/saturday-links-denying-scientific-consensus/"
+      ],
+      "category": "finance_macro",
+      "priority": "high",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "priority:high",
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:CHKP"
+      ]
+    },
+    {
+      "candidate_id": "b69ed9006d2f0a5a",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "The Big Picture",
+      "headline": "MiB: Mike Pyle, BlackRock\u2019s Portfolio Management Group",
+      "snippet": "\ufeff &#160; &#160; This week, I speak with Mike Pyle, Deputy Head of BlackRock\u2019s Portfolio Management Group (PMG) and a member of BlackRock\u2019s Global Executive Committee. We discuss the durable economic shocks that could result from the war with Iran, including energy security. We also discuss his time ",
+      "primary_url": "https://ritholtz.com/2026/04/mib-mike-pyle/",
+      "urls": [
+        "https://ritholtz.com/2026/04/mib-mike-pyle/"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:GMRE"
+      ]
+    },
+    {
+      "candidate_id": "6d4e73c937ef97e2",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Staged homes sell for more than empty homes",
+      "snippet": "We examine the economic impact of non-consumable visual cues through home staging on high-stakes housing transactions. Using hand-collected listing photos for 15,777 transactions and a machine-learning algorithm to detect furniture, we provide the first large-scale evidence that staged homes sell fo",
+      "primary_url": "https://feeds.feedblitz.com/~/953677208/0/marginalrevolution~Staged-homes-sell-for-more-than-empty-homes.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953677208/0/marginalrevolution~Staged-homes-sell-for-more-than-empty-homes.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:RVMD"
+      ]
+    },
+    {
+      "candidate_id": "e6b31647394686f8",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Another possible cyberequilibrium? (from my email)",
+      "snippet": "I would not wish to bet on this, but it is an interesting idea: I wonder if the cyber capabilities of Mythos and future models ultimately lower the returns to \u2018hacking,\u2019 perhaps below the point where such efforts are worth investing in. Say you\u2019re a nefarious actor and uncover a critical, zero-day e",
+      "primary_url": "https://feeds.feedblitz.com/~/953674061/0/marginalrevolution~Another-possible-cyberequilibrium-from-my-email.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953674061/0/marginalrevolution~Another-possible-cyberequilibrium-from-my-email.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:DAY",
+        "ticker:RVMD"
+      ]
+    },
+    {
+      "candidate_id": "f72e1a87181bbb56",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "The wisdom of Roon",
+      "snippet": "renaissance rationalization is a process that commodified itself rapidly: despite the europeans discovering most technology during the early modern period it spread everywhere within a few centuries, and the rate of spread has been increasing dramatically knowledge of the scientific frontier dissipa",
+      "primary_url": "https://feeds.feedblitz.com/~/953664170/0/marginalrevolution~The-wisdom-of-Roon.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953664170/0/marginalrevolution~The-wisdom-of-Roon.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:RVMD"
+      ]
+    },
+    {
+      "candidate_id": "3393a09f2b9421e1",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Saturday assorted links",
+      "snippet": "1. What is the chance we live inside a black hole? 2. Observations on ambition, though it is sad he does not grasp the value of Jiro. 3. A brief history of lab notebooks. 4. &#8220;Hero rat who sniffed out over 100 land mines is honored with giant statue.&#8221; 5. The new LACMA (NYT). And [&#8230;]",
+      "primary_url": "https://feeds.feedblitz.com/~/953660417/0/marginalrevolution~Saturday-assorted-links.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953660417/0/marginalrevolution~Saturday-assorted-links.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:RVMD"
+      ]
+    },
+    {
+      "candidate_id": "34688858c3214704",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Ars Technica AI",
+      "headline": "AI models are terrible at betting on soccer\u2014especially xAI Grok",
+      "snippet": "Systems from Google, OpenAI, Anthropic, and xAI struggle with the Premier League.",
+      "primary_url": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
+      "urls": [
+        "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "0086b0ca41e01f40",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "The AI code wars are heating up",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the AI coding and vibe-coding booms, follow David Pierce. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Writing code was a killer ap",
+      "primary_url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+      "urls": [
+        "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:OPT",
+        "ticker:TECH",
+        "ticker:SNTI",
+        "subsector:Tools"
+      ]
+    },
+    {
+      "candidate_id": "c8c11d36f0cd6b9d",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "Your article about AI doesn\u2019t need AI art",
+      "snippet": "The illustration for The New Yorker's profile of OpenAI CEO Sam Altman is a jump scare. Altman stands in a blue sweater with a blank expression. Around his head hovers a cluster of disembodied faces - creepy alt-Altmans, their expressions ranging from anger to open-mouthed woe. Some barely look like",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ALT"
+      ]
+    },
+    {
+      "candidate_id": "5c5b85c0826eafc4",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "My baby deer plushie told me that Mitski&#8217;s dad was a CIA operative",
+      "snippet": "Two weeks ago, I was getting ready to log off work when I got a text message. \"Oh wow, I was checking out Mitski. did you know people are saying her Dad was a CIA operative?\" Normally, that kind of out-of-the-blue text from a friend wouldn't faze me. This time, my eyes bugged. The unprompted [&#8230",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:CHKP"
+      ]
+    },
+    {
+      "candidate_id": "e9df2ec700a99384",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "How Iran out-shitposted the White House",
+      "snippet": "In the early days of the war on Iran, while the White House was busy posting Call of Duty memes and AI slop of dancing bowling pins, the Iranian regime's state media was flooding the zone with video after video of what was happening on the ground: Explosions over Tehran. Smoke billowing in the sky. ",
+      "primary_url": "https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop",
+      "urls": [
+        "https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "58f6a35f2611c357",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "Walmart-owned Flipkart, Amazon are squeezing India\u2019s quick commerce startups",
+      "snippet": "Flipkart's ongoing expansion beyond major cities and heavy discounting is raising risks for India's quick commerce startups, analysts say.",
+      "primary_url": "https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/",
+      "urls": [
+        "https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:WMT"
+      ]
+    },
+    {
+      "candidate_id": "898277877d86e126",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "Kalshi wins temporary pause in Arizona criminal case",
+      "snippet": "The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining order preventing Arizona from pursuing its criminal case against Kalshi.",
+      "primary_url": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/",
+      "urls": [
+        "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "49130ad88d56bcf7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "AMC will stream \u2018The Audacity\u2019 premiere in 21 parts on TikTok",
+      "snippet": "Is this a smart way to build buzz, or just an odd attempt to recreate Quibi?",
+      "primary_url": "https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/",
+      "urls": [
+        "https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:WAY",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "c904289f69c204e7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home",
+      "snippet": "The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.",
+      "primary_url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "urls": [
+        "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:DGX",
+        "subsector:Labs"
+      ]
+    },
+    {
+      "candidate_id": "092a589191901d27",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "TechCrunch",
+      "headline": "Nvidia-backed SiFive hits $3.65 billion valuation for open AI chips",
+      "snippet": "The deal is interesting for a number of reasons, including that SiFive's chip designs are based on RISC-V, not x86 or ARM.",
+      "primary_url": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/",
+      "urls": [
+        "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:DSGN",
+        "ticker:NVDA"
+      ]
+    },
+    {
+      "candidate_id": "9adb865dc203bddb",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Wired",
+      "headline": "\u2018The Audacity\u2019 Is the Broligarchy Takedown You Were Waiting For",
+      "snippet": "AMC\u2019s new black comedy about a manchild tech titan spinning out of control is a skewering Silicon Valley\u2019s billionaire class deserves.",
+      "primary_url": "https://www.wired.com/story/the-audacity-is-the-broligarchy-takedown-you-were-waiting-for/",
+      "urls": [
+        "https://www.wired.com/story/the-audacity-is-the-broligarchy-takedown-you-were-waiting-for/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:TECH",
+        "subsector:Tools"
+      ]
+    },
+    {
+      "candidate_id": "6bb694450bd0193c",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Wired",
+      "headline": "Why Is It So Hard to Fix an Electric Bike? (2026)",
+      "snippet": "Bike shop mechanics have lost fingers and their shirts while repairing ebikes of dubious origins. Make sure yours is repairable and third-party certified.",
+      "primary_url": "https://www.wired.com/story/why-is-it-so-hard-to-fix-an-electric-bike/",
+      "urls": [
+        "https://www.wired.com/story/why-is-it-so-hard-to-fix-an-electric-bike/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:SHOP"
+      ]
+    },
+    {
+      "candidate_id": "7bc02013ac488019",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Wired",
+      "headline": "Best 2-in-1 Laptops (2026): Microsoft, Lenovo, and the iPad",
+      "snippet": "Whether you want a detachable tablet or a laptop screen that spins, these 2-in-1 devices manage to balance being both a tablet and a laptop.",
+      "primary_url": "https://www.wired.com/story/best-2-in-1-laptops/",
+      "urls": [
+        "https://www.wired.com/story/best-2-in-1-laptops/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:MSFT"
+      ]
+    },
+    {
+      "candidate_id": "68a4e15c969c2658",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Wired",
+      "headline": "There\u2019s a Secret Ingredient to Making Luxury Ice at Home",
+      "snippet": "Nice ice is big business, but you can get perfectly clear cubes at home without freezing your assets.",
+      "primary_url": "https://www.wired.com/story/secret-ingredient-to-making-luxury-ice-at-home/",
+      "urls": [
+        "https://www.wired.com/story/secret-ingredient-to-making-luxury-ice-at-home/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "773de98924d51966",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Wired",
+      "headline": "The Screen Time Maximalists Who Spend an Ungodly Amount of Time on Their Phones",
+      "snippet": "As debates over social media addiction rage, people with extreme screen times tell WIRED they have no plans to cut back.",
+      "primary_url": "https://www.wired.com/story/the-screenmaxxers-who-spend-every-waking-hour-on-their-phones/",
+      "urls": [
+        "https://www.wired.com/story/the-screenmaxxers-who-spend-every-waking-hour-on-their-phones/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "c80867e0c49eba6b",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "You can\u2019t trust violence",
+      "snippet": "(Recommended listening: Low - Violence)Last year, I personally called AI companies to warn their security teams about Sam Kirchner (former leader of Stop AI) when he disappeared after indicating potential violent intentions against OpenAI.For several years, people online have been calling for violen",
+      "primary_url": "https://www.lesswrong.com/posts/Sih2sFHEgusDEuxtZ/you-can-t-trust-violence",
+      "urls": [
+        "https://www.lesswrong.com/posts/Sih2sFHEgusDEuxtZ/you-can-t-trust-violence"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious"
+      ]
+    },
+    {
+      "candidate_id": "57b12e2fd83bbfe9",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "The Blast Radius Principle",
+      "snippet": "Decentralize or Die.In April 2024, a salvo of cruise missiles destroyed the Trypilska thermal power plant, the largest in the Kyiv region, in under an hour. In June 2023, the destruction of the Kakhovka dam left a million people without drinking water and wiped out an entire irrigation system downst",
+      "primary_url": "https://www.lesswrong.com/posts/rDzMraAEkBBewn7vy/the-blast-radius-principle",
+      "urls": [
+        "https://www.lesswrong.com/posts/rDzMraAEkBBewn7vy/the-blast-radius-principle"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious"
+      ]
+    },
+    {
+      "candidate_id": "736d735d94759722",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "On not being scared of math",
+      "snippet": "Written quickly for the Inkhaven Residency.[1]There\u2019s a phenomenon I often see amongst more junior researchers that I call being scared of math.[2] That is, when they try to read a machine learning paper and run into a section with mathematical notation, their minds seem to immediately bounce off th",
+      "primary_url": "https://www.lesswrong.com/posts/4dmLQvKTJenSXmHzn/on-not-being-scared-of-math",
+      "urls": [
+        "https://www.lesswrong.com/posts/4dmLQvKTJenSXmHzn/on-not-being-scared-of-math"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious"
+      ]
+    },
+    {
+      "candidate_id": "9bb5da5f3c032c9f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "Why I'm excited about meta-models for interpretability",
+      "snippet": "I'm pretty excited about training models to interpret aspects of other models. Mechanistic interpretability techniques for understanding models (e.g. circuit-level analysis) are cool, and have led to a lot of interesting results. But I think non-mechanistic interpretability schemes that involve usin",
+      "primary_url": "https://www.lesswrong.com/posts/bkPLnkG5Lnh7G97LP/why-i-m-excited-about-meta-models-for-interpretability",
+      "urls": [
+        "https://www.lesswrong.com/posts/bkPLnkG5Lnh7G97LP/why-i-m-excited-about-meta-models-for-interpretability"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious",
+        "ticker:ARE",
+        "ticker:META"
+      ]
+    },
+    {
+      "candidate_id": "f9cf275f69bfc92f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "The Ethics of AI-Assisted Creative Work",
+      "snippet": "with AI assistance [1] Crossposted from drmeta.substack.com. Scope note for LW readers: this essay is about the ethics of AI-assisted creative work \u2014 what the human producing an AI-assisted artifact owes the audience, and when. It is deliberately not about x-risk, alignment, training data provenance",
+      "primary_url": "https://www.lesswrong.com/posts/AHePC2ncvJgvgzdCf/the-ethics-of-ai-assisted-creative-work-1",
+      "urls": [
+        "https://www.lesswrong.com/posts/AHePC2ncvJgvgzdCf/the-ethics-of-ai-assisted-creative-work-1"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious",
+        "ticker:ALGN",
+        "ticker:ALHC",
+        "ticker:CCRN",
+        "subsector:Dental",
+        "subsector:Value-Based Care",
+        "subsector:Nurse staffing"
+      ]
+    }
+  ]
+}

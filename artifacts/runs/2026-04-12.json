@@ -1,0 +1,61 @@
+{
+  "run_date": "2026-04-12",
+  "generated_at": "2026-04-12T12:42:22Z",
+  "counts": {
+    "gmail_items": 0,
+    "tier2_items": 84,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e5584689c7384fac",
+      "headline": "Epic rolls out health alerts to flag rising rates of illness at the county level",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/epic-rolls-out-health-alerts-flag-rising-rates-illness-county-level",
+      "slot": 1,
+      "summary": "Epic Systems launched Health Alerts, a new feature that monitors county-level health trends and issues alerts when elevated rates of illness are detected. The system uses statistical models applied to Epic's Cosmos database of 300+ million patient records to detect when health conditions in a county exceed expected levels.",
+      "why_it_matters": "This represents a significant advancement in population health monitoring and early disease outbreak detection capabilities, potentially improving public health response times and coordination.",
+      "signal_tags": [
+        "category:healthcare_daily",
+        "ticker_match:TECH",
+        "ticker_match:HCAT",
+        "analytical_depth"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "1a44be60c37aec38",
+      "headline": "Dow jumps 1,300 points for best day since April 2025 as U.S.-Iran ceasefire pushes oil lower",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
+      "slot": 2,
+      "summary": "Global markets surged following announcement of a two-week U.S.-Iran ceasefire, with <cite index=\"21-14,21-15\">the Dow Jones Industrial Average jumping over 1,300 points for its best day since April 2025, while oil prices plummeted as the 'war premium' evaporated. Delta Air Lines shares traded 12% higher, boosted by steep declines in oil prices.</cite>",
+      "why_it_matters": "The dramatic market response highlights how geopolitical risks have been weighing on investor sentiment, with the ceasefire providing relief across risk assets while demonstrating market fragility to headline-driven volatility.",
+      "signal_tags": [
+        "category:finance_macro",
+        "geopolitical_risks",
+        "ticker_match:ARE"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "ccc4d6961be8cdbf",
+      "headline": "Small models also found the vulnerabilities that Mythos found",
+      "source": "Hacker News",
+      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+      "slot": 3,
+      "summary": "Analysis reveals that smaller AI models were also capable of identifying the same cybersecurity vulnerabilities discovered by the more advanced Mythos system, challenging assumptions about the relationship between model size and security research capabilities. The finding suggests a 'jagged frontier' in AI cybersecurity applications.",
+      "why_it_matters": "This has significant implications for AI security research and defense strategies, suggesting that sophisticated threat detection capabilities may be more accessible than previously thought, potentially democratizing both offensive and defensive cybersecurity tools.",
+      "signal_tags": [
+        "category:tech_ai",
+        "AI_impact",
+        "hn_score:1139"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

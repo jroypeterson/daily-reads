@@ -100,5 +100,29 @@
     "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW3hx82f-rwTW70ksfz2LPzcCW7zr5cm5MxpzwN179mr05nR3bW8wM7ks6lZ3lYVD0NjV2C0JvPW2NXDBy3g1kgCW8-4vLp5ccDwlW317t4W8frXwFW42KxYv70wkQ6W56DsFT1RmKvGW1MZcv-6JY6YxN1lbd8Wd07qVW2gF2TF1qGSSxW7ngVW13K7FPWW6_z9qR3hdx1BW80gj7c8dl5T_W3FGgXP42zvJtW2l7jhL6F6W_RW3CjBdN6DC01RW7jW3YJ72hs_nW5Ks-gz2gjw2XW8PP5151RxksBW60r1r884xLHxW5hSkF628m0f2W94HpPC4R2RX7Vj5mn_7MsktwN1YcmM1DWP8TW6JT6Q87PBzFPW5ysV0z5J_q5xW1HzV1j745KzrW558NpS6VBMFrN2GZn8_f4hLtN5nTD63zB_DCVcbx4m2PFF-cW1VyPD07xylcgW9k9jKz25YCp5W1Tw-wt5ZZd-2Vkl1pd1SNNzVVpP8r28nWfV6W34DvdD6-6ZPTW1QcDzR7t1W47N9gRyDSH-s23W75DsSF41zvKKW5xHnBC7WXzdPW3hyLr48wnSV8VPJ3jf7kLftjW2XvLgd6rJzR1W6lld3V4GqdbBf7DZlXP04",
     "article_source": "BioSpace",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-04-11",
+    "slot": 3,
+    "score": 2,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "eb4caa1ba811034f",
+    "headline": "AI assistance when contributing to the Linux kernel",
+    "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+    "article_source": "Hacker News",
+    "source": "email_reply"
+  },
+  {
+    "date": "2026-04-11",
+    "slot": 1,
+    "score": 2,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "60d663052c48eea7",
+    "headline": "GSK pulls leucovorin from FDA review for autism",
+    "url": "https://www.biospace.com/business/gsk-again-pulls-application-for-leucovorin-touted-by-fda-as-potential-autism-treatment",
+    "article_source": "BioSpace",
+    "source": "email_reply"
   }
 ]

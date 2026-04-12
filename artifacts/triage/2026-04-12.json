@@ -1,0 +1,298 @@
+{
+  "run_date": "2026-04-12",
+  "generated_at": "2026-04-12T12:42:22Z",
+  "triage_queue": [
+    {
+      "candidate_id": "b31c555356b81231",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/function-health-acquires-mobile-healthcare-platform-getlabs-provide-members-home-lab\" hreflang=\"en\">Function Health acquires mobile healthcare platform Getlabs to provide members with at-home lab tests</a>",
+      "snippet": "Function\u2019s testing platform is available at all Quest Diagnostics locations across the U.S. Members will soon be able to choose whether to visit a location or schedule an at-home or in-office test with Getlabs.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/function-health-acquires-mobile-healthcare-platform-getlabs-provide-members-home-lab",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/function-health-acquires-mobile-healthcare-platform-getlabs-provide-members-home-lab"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:SOON",
+        "ticker:TECH",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Hearing Aid",
+        "subsector:Tools",
+        "subsector:Labs",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "0086b0ca41e01f40",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "The Verge AI",
+      "headline": "The AI code wars are heating up",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the AI coding and vibe-coding booms, follow David Pierce. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Writing code was a killer ap",
+      "primary_url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+      "urls": [
+        "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:OPT",
+        "ticker:TECH",
+        "ticker:SNTI",
+        "subsector:Tools"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "f9cf275f69bfc92f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Less Wrong",
+      "headline": "The Ethics of AI-Assisted Creative Work",
+      "snippet": "with AI assistance [1] Crossposted from drmeta.substack.com. Scope note for LW readers: this essay is about the ethics of AI-assisted creative work \u2014 what the human producing an AI-assisted artifact owes the audience, and when. It is deliberately not about x-risk, alignment, training data provenance",
+      "primary_url": "https://www.lesswrong.com/posts/AHePC2ncvJgvgzdCf/the-ethics-of-ai-assisted-creative-work-1",
+      "urls": [
+        "https://www.lesswrong.com/posts/AHePC2ncvJgvgzdCf/the-ethics-of-ai-assisted-creative-work-1"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:broad_curious",
+        "ticker:ALGN",
+        "ticker:ALHC",
+        "ticker:CCRN",
+        "subsector:Dental",
+        "subsector:Value-Based Care",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "e6b31647394686f8",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Marginal Revolution",
+      "headline": "Another possible cyberequilibrium? (from my email)",
+      "snippet": "I would not wish to bet on this, but it is an interesting idea: I wonder if the cyber capabilities of Mythos and future models ultimately lower the returns to \u2018hacking,\u2019 perhaps below the point where such efforts are worth investing in. Say you\u2019re a nefarious actor and uncover a critical, zero-day e",
+      "primary_url": "https://feeds.feedblitz.com/~/953674061/0/marginalrevolution~Another-possible-cyberequilibrium-from-my-email.html",
+      "urls": [
+        "https://feeds.feedblitz.com/~/953674061/0/marginalrevolution~Another-possible-cyberequilibrium-from-my-email.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:DAY",
+        "ticker:RVMD"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "3eec98ee109fae0f",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think\" hreflang=\"en\">Op-ed: Administrative fragility is costing healthcare more than we think</a>",
+      "snippet": "The industry has already proven automation works. The question now is whether organizations are prepared to operationalize it at scale, writes Zelis' Yusuf Qasim.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/op-ed-administrative-fragility-costing-healthcare-more-we-think"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:NOW",
+        "ticker:TECH",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "subsector:Tools",
+        "subsector:Labs",
+        "subsector:HIT"
+      ],
+      "triage_score": 10
+    },
+    {
+      "candidate_id": "2db2a20f32906025",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety\" hreflang=\"en\">HHS, after legal setback, updates ACIP charter to put more emphasis on vaccine safety</a>",
+      "snippet": "HHS Secretary Robert F. Kennedy Jr. is continuing to reshape the CDC\u2019s Advisory Committee on Immunization Practices in a way that\u2019s setting off alarm bells for some experts.",
+      "primary_url": "https://www.fiercehealthcare.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety",
+      "urls": [
+        "https://www.fiercehealthcare.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:WAY",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ],
+      "triage_score": 8
+    },
+    {
+      "candidate_id": "140f9500103ecec7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/digital-health/benefits-leaders-report-increased-operational-financial-costs-amid-digital-health\" hreflang=\"en\">Benefits leaders report increased operational, financial costs amid 'digital health vendor sprawl': Solera survey</a>",
+      "snippet": "Forty-two percent of benefits leaders say they are managing eight or more digital health vendors, with 90% reporting spending more than $1 million annually on costs.",
+      "primary_url": "https://www.fiercehealthcare.com/digital-health/benefits-leaders-report-increased-operational-financial-costs-amid-digital-health",
+      "urls": [
+        "https://www.fiercehealthcare.com/digital-health/benefits-leaders-report-increased-operational-financial-costs-amid-digital-health"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "584f82103e6ee3f9",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/hospital-ma-roars-back-life-q1-2026-operating-performances-fray-february\" hreflang=\"en\">Hospital M&amp;A roars back to life in Q1 2026; Operating performances fray in February</a>",
+      "snippet": "The first quarter of 2026 extended a recovery from last year's dealmaking slowdown with 22 newly announced transactions, largely fueled by divestitures. Meanwhile, February benchmarking data outlined persistent operating pressures and soft volumes.",
+      "primary_url": "https://www.fiercehealthcare.com/providers/hospital-ma-roars-back-life-q1-2026-operating-performances-fray-february",
+      "urls": [
+        "https://www.fiercehealthcare.com/providers/hospital-ma-roars-back-life-q1-2026-operating-performances-fray-february"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:MA",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "156db0dada8cf329",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/regulatory/proposed-cms-rule-would-set-prior-auth-deadlines-drugs\" hreflang=\"en\">Proposed CMS rule would set prior auth deadlines for drugs</a>",
+      "snippet": "The Trump administration has issued a proposed rule that aims to significantly overhaul prior authorization for pharmaceuticals.",
+      "primary_url": "https://www.fiercehealthcare.com/regulatory/proposed-cms-rule-would-set-prior-auth-deadlines-drugs",
+      "urls": [
+        "https://www.fiercehealthcare.com/regulatory/proposed-cms-rule-would-set-prior-auth-deadlines-drugs"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ],
+      "triage_score": 6
+    },
+    {
+      "candidate_id": "1de2f567a65eb7d7",
+      "run_date": "2026-04-12",
+      "source_type": "tier2",
+      "source_name": "MarketWatch",
+      "headline": "There are years-long waiting lists to retire on college campuses. 6 steps to take before enrolling.",
+      "snippet": "Retiring to a college community can be great \u2014 if you can afford it.",
+      "primary_url": "https://www.marketwatch.com/story/there-are-years-long-waiting-lists-to-retire-on-college-campuses-6-steps-to-take-before-enrolling-d7bd2d2d?mod=mw_rss_topstories",
+      "urls": [
+        "https://www.marketwatch.com/story/there-are-years-long-waiting-lists-to-retire-on-college-campuses-6-steps-to-take-before-enrolling-d7bd2d2d?mod=mw_rss_topstories"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE",
+        "ticker:CYH",
+        "ticker:U",
+        "subsector:Hospitals"
+      ],
+      "triage_score": 6
+    }
+  ]
+}
