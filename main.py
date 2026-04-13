@@ -864,6 +864,21 @@ def _fetch_with_tavily(url: str) -> str | None:
     return None
 
 
+_PAYWALL_PATTERNS = re.compile(
+    r"(are you a robot|captcha|subscribe to continue|sign in to read|"
+    r"create a free account|this content is for subscribers|"
+    r"please log in|paywall|access denied|unusual activity)",
+    re.IGNORECASE,
+)
+
+
+def _is_paywall_stub(text: str) -> bool:
+    """Detect paywall, captcha, or bot-wall pages masquerading as article text."""
+    if len(text) < 1500 and _PAYWALL_PATTERNS.search(text):
+        return True
+    return False
+
+
 def fetch_article_text(url: str, timeout: int = 15) -> str | None:
     """Fetch article text with 3-tier fallback: trafilatura -> Jina -> Tavily."""
     text = _fetch_with_trafilatura(url, timeout)
@@ -875,6 +890,10 @@ def fetch_article_text(url: str, timeout: int = 15) -> str | None:
         text = _fetch_with_tavily(url)
 
     if not text:
+        return None
+
+    if _is_paywall_stub(text):
+        print(f"    Detected paywall/bot-wall stub — discarding")
         return None
 
     # Truncate to ~6000 chars to keep the verification prompt reasonable
@@ -925,14 +944,33 @@ def verify_shortlist(
         print(f"    URL: {url}")
 
         article_text = fetch_article_text(url)
+        snippet_only = False
         if not article_text:
-            print(f"    Could not extract article text — skipping")
-            continue
+            # Fall back to newsletter snippet for paywalled/unfetchable articles
+            snippet = candidate.get("summary", "")
+            why = candidate.get("why_it_matters", "")
+            fallback = f"Headline: {headline}\nSource: {source}\nSummary: {snippet}\nWhy it matters: {why}"
+            if len(snippet) > 50:
+                print(f"    Could not fetch article — using newsletter snippet for lighter verification")
+                article_text = fallback
+                snippet_only = True
+            else:
+                print(f"    Could not extract article text and no snippet — skipping")
+                continue
 
-        print(f"    Fetched {len(article_text)} chars of article text")
+        if not snippet_only:
+            print(f"    Fetched {len(article_text)} chars of article text")
 
         # Ask Claude to verify this article
-        verify_prompt = f"""You are verifying whether an article meets selection criteria for a daily digest.
+        snippet_caveat = ""
+        if snippet_only:
+            snippet_caveat = """
+NOTE: The full article could not be fetched (likely paywalled). You are evaluating based on
+the headline and newsletter summary only. Apply a lighter bar — accept if the topic and source
+are strong and the summary suggests substantive content. Reject only if the topic clearly
+doesn't fit the criteria or seems thin/generic based on what's available."""
+
+        verify_prompt = f"""You are verifying whether an article meets selection criteria for a daily digest.{snippet_caveat}
 
 SELECTION CRITERIA:
 {criteria}
