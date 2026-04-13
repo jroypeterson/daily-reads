@@ -104,6 +104,22 @@ def discover(keyword: str):
         print("All discovered addresses are already in sources.py.")
 
 
+def _send_slack_alert(message: str):
+    """Send a warning to Slack if webhook is configured."""
+    import requests
+    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    if not webhook_url:
+        return
+    blocks = [
+        {"type": "header", "text": {"type": "plain_text", "text": "Source Audit Alert"}},
+        {"type": "section", "text": {"type": "mrkdwn", "text": message}},
+    ]
+    try:
+        requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
+    except Exception as e:
+        print(f"  Slack alert failed: {e}")
+
+
 def audit(ci_mode: bool = False):
     """Check every source in sources.py against recent Gmail activity."""
     service = get_gmail_service()
@@ -149,6 +165,20 @@ def audit(ci_mode: bool = False):
         for name, addr in dead:
             print(f"  {name:30s} {addr}")
         print("\n  These may have wrong addresses or you may not be subscribed.")
+
+    # Slack alert for problems
+    if dead or stale:
+        lines = []
+        if dead:
+            lines.append(f"*{len(dead)} dead source(s)* (no email in 30 days):")
+            for name, addr in dead:
+                lines.append(f"  {name} — `{addr}`")
+        if stale:
+            lines.append(f"*{len(stale)} stale source(s)* (no email in 7 days):")
+            for name, addr, _ in stale:
+                lines.append(f"  {name} — `{addr}`")
+        lines.append("\nRun `python validate_source.py \"name\"` to find the correct address.")
+        _send_slack_alert("\n".join(lines))
 
     if ci_mode and (stale or dead):
         sys.exit(1)

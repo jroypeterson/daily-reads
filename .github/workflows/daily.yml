@@ -62,6 +62,7 @@ jobs:
         continue-on-error: true
         env:
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: Run Daily Reads
         run: python main.py
