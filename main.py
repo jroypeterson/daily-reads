@@ -809,7 +809,7 @@ def _fetch_with_trafilatura(url: str, timeout: int = 15) -> str | None:
             print(f"    Trafilatura: fetch returned nothing")
             return None
         text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
-        if text and len(text) > 200:
+        if text and len(text) > 500:
             print(f"    Trafilatura: extracted {len(text)} chars")
             return text
         print(f"    Trafilatura: too little text ({len(text) if text else 0} chars)")
@@ -829,7 +829,7 @@ def _fetch_with_jina(url: str) -> str | None:
         )
         resp.raise_for_status()
         text = resp.text.strip()
-        if text and len(text) > 200:
+        if text and len(text) > 500:
             print(f"    Jina Reader: extracted {len(text)} chars")
             return text
         print(f"    Jina Reader: too little text ({len(text)} chars)")
