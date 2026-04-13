@@ -10,7 +10,6 @@ from urllib.parse import urlencode
 
 import anthropic
 import requests
-from bs4 import BeautifulSoup
 
 from gmail_reader import fetch_newsletters
 from project_data import (
@@ -800,34 +799,47 @@ Select your top 8 articles ranked by quality. Return JSON only."""
     return articles
 
 
-def _fetch_with_requests(url: str, timeout: int = 15) -> str | None:
-    """Try to extract article text using requests + BeautifulSoup."""
+def _fetch_with_trafilatura(url: str, timeout: int = 15) -> str | None:
+    """Try to extract article text using trafilatura (local, free)."""
+    import trafilatura
+
     try:
-        resp = requests.get(url, timeout=timeout, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DailyReads/1.0)",
-        })
-        resp.raise_for_status()
+        downloaded = trafilatura.fetch_url(url)
+        if not downloaded:
+            print(f"    Trafilatura: fetch returned nothing")
+            return None
+        text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
+        if text and len(text) > 200:
+            print(f"    Trafilatura: extracted {len(text)} chars")
+            return text
+        print(f"    Trafilatura: too little text ({len(text) if text else 0} chars)")
     except Exception as e:
-        print(f"    Direct fetch failed: {e}")
-        return None
+        print(f"    Trafilatura failed: {e}")
+    return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
 
-    for tag in soup.find_all(["script", "style", "nav", "footer", "header", "aside", "iframe"]):
-        tag.decompose()
-
-    article = soup.find("article") or soup.find("main") or soup.find("div", class_=re.compile(r"(article|post|entry|content)"))
-    target = article if article else soup.body
-
-    if not target:
-        return None
-
-    text = target.get_text(separator="\n", strip=True)
-    return text if len(text) > 200 else None
+def _fetch_with_jina(url: str) -> str | None:
+    """Fall back to Jina Reader API (free, handles JS rendering)."""
+    print(f"    Falling back to Jina Reader...")
+    try:
+        resp = requests.get(
+            f"https://r.jina.ai/{url}",
+            headers={"Accept": "text/plain"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        text = resp.text.strip()
+        if text and len(text) > 200:
+            print(f"    Jina Reader: extracted {len(text)} chars")
+            return text
+        print(f"    Jina Reader: too little text ({len(text)} chars)")
+    except Exception as e:
+        print(f"    Jina Reader failed: {e}")
+    return None
 
 
 def _fetch_with_tavily(url: str) -> str | None:
-    """Fall back to Tavily extract API for JS-heavy or bot-walled pages."""
+    """Last resort: Tavily extract API for the hardest pages."""
     api_key = os.environ.get("TAVILY_API_KEY")
     if not api_key:
         return None
@@ -845,7 +857,7 @@ def _fetch_with_tavily(url: str) -> str | None:
         results = data.get("results", [])
         if results and results[0].get("raw_content"):
             text = results[0]["raw_content"]
-            print(f"    Tavily returned {len(text)} chars")
+            print(f"    Tavily: extracted {len(text)} chars")
             return text
     except Exception as e:
         print(f"    Tavily extract failed: {e}")
@@ -853,8 +865,11 @@ def _fetch_with_tavily(url: str) -> str | None:
 
 
 def fetch_article_text(url: str, timeout: int = 15) -> str | None:
-    """Fetch article text — tries direct fetch first, falls back to Tavily."""
-    text = _fetch_with_requests(url, timeout)
+    """Fetch article text with 3-tier fallback: trafilatura -> Jina -> Tavily."""
+    text = _fetch_with_trafilatura(url, timeout)
+
+    if not text:
+        text = _fetch_with_jina(url)
 
     if not text:
         text = _fetch_with_tavily(url)
