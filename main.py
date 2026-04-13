@@ -995,7 +995,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
             html += f"""
 <div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid #e94560;">
   <h2 style="margin: 0 0 8px 0;">{emoji} <a href="{a.get('url', '#')}" style="color: #0fbcf9; text-decoration: none;">{a.get('headline', 'Untitled')}</a></h2>
-  <p style="color: #a8a8b3; margin: 4px 0; font-size: 13px;">{a.get('source', '')} · Slot {slot}</p>
+  <p style="color: #a8a8b3; margin: 4px 0; font-size: 13px;">{a.get('source', '')} · Slot {slot} · ⏱ {a.get('reading_time', 'N/A')} read</p>
   <p style="margin: 8px 0;">{a.get('summary', '')}</p>
   <p style="color: #e94560; font-style: italic; margin: 8px 0;">💡 {a.get('why_it_matters', '')}</p>
   <p style="margin: 8px 0;">{feedback_html}</p>
@@ -1082,7 +1082,7 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
                 "type": "mrkdwn",
                 "text": (
                     f"{emoji} *<{a.get('url', '#')}|{a.get('headline', 'Untitled')}>*\n"
-                    f"_{a.get('source', '')} · Slot {slot}_\n\n"
+                    f"_{a.get('source', '')} · Slot {slot} · :timer_clock: {a.get('reading_time', 'N/A')} read_\n\n"
                     f"{a.get('summary', '')}\n\n"
                     f"💡 _{a.get('why_it_matters', '')}_\n\n"
                     f"<{strong_url}|:thumbsup: Strong pick>  "
@@ -1218,7 +1218,7 @@ def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, 
           <span class="slot-label">Slot {slot}</span>
         </div>
         <h2><a href="{a.get('url', '#')}" target="_blank">{a.get('headline', 'Untitled')}</a></h2>
-        <p class="meta">{a.get('source', '')} · {today}</p>
+        <p class="meta">{a.get('source', '')} · {today} · ⏱ {a.get('reading_time', 'N/A')} read</p>
         <p class="summary">{a.get('summary', '')}</p>
         <p class="why">💡 {a.get('why_it_matters', '')}</p>
         <p class="tags">{tags}</p>
@@ -1348,7 +1348,8 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         strong = slack_mailto_feedback_url(today, slot, 3)
         fine = slack_mailto_feedback_url(today, slot, 2)
         miss = slack_mailto_feedback_url(today, slot, 1)
-        desc = f"{summary}\n\nWhy it matters: {why}" if why else summary
+        reading_time = a.get("reading_time", "N/A")
+        desc = f"⏱ {reading_time} read · {a.get('source', '')}\n\n{summary}\n\nWhy it matters: {why}" if why else f"⏱ {reading_time} read · {a.get('source', '')}\n\n{summary}"
         desc += f"\n\nRate this pick: [Strong]({strong}) · [Fine]({fine}) · [Miss]({miss})"
         desc += "\n\n---\nFound something great? Forward it to jroypeterson+taste@gmail.com to train my taste."
         tasks.append({
