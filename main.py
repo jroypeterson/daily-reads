@@ -874,6 +874,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
 <a href="https://jroypeterson.github.io/daily-reads" style="color: #0fbcf9;">jroypeterson.github.io/daily-reads</a>
 &nbsp;·&nbsp;
 <a href="https://github.com/jroypeterson/daily-reads/issues/new?labels=taste&title=Taste%3A+&body=Paste+URL+here%0A%0AWhy+I+liked+it%3A+" style="color: #0fbcf9;">📎 Submit an article</a></p>
+<p style="color: #666; font-size: 12px;">📬 Found something great? Forward it to <a href="mailto:jroypeterson+taste@gmail.com" style="color: #0fbcf9;">jroypeterson+taste@gmail.com</a> to train my taste. Add "Why I liked it:" in the body for extra signal.</p>
 </body></html>"""
 
         msg = MIMEText(html, "html")
@@ -970,6 +971,14 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
                 "text": f":book: *Always read*\n{always_lines}",
             },
         })
+
+    blocks.append({
+        "type": "context",
+        "elements": [{
+            "type": "mrkdwn",
+            "text": ":mailbox_with_mail: Found something great? Forward it to `jroypeterson+taste@gmail.com` to train my taste. Add \"Why I liked it:\" for extra signal.",
+        }],
+    })
 
     try:
         resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
@@ -1111,7 +1120,7 @@ def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, 
   <p class="updated">Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
   <div class="intro">
     <p>Score from this page by opening a prefilled email draft. Use <strong>3 = Strong pick</strong>, <strong>2 = Fine</strong>, and <strong>1 = Miss</strong>. You can add a note before sending.</p>
-    <p>For broader preference training, <a href="https://github.com/{REPO}/issues/new?labels=taste&title=Taste%3A+&body=Paste+URL+here%0A%0AWhy+I+liked+it%3A+">submit an article you liked</a>.</p>
+    <p>For broader preference training, <a href="https://github.com/{REPO}/issues/new?labels=taste&title=Taste%3A+&body=Paste+URL+here%0A%0AWhy+I+liked+it%3A+">submit an article you liked</a> or forward it to <a href="mailto:jroypeterson+taste@gmail.com">jroypeterson+taste@gmail.com</a>. Add "Why I liked it:" for extra signal.</p>
   </div>
 
   <div id="cards">
@@ -1180,6 +1189,7 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         miss = slack_mailto_feedback_url(today, slot, 1)
         desc = f"{summary}\n\nWhy it matters: {why}" if why else summary
         desc += f"\n\nRate this pick: [Strong]({strong}) · [Fine]({fine}) · [Miss]({miss})"
+        desc += "\n\n---\nFound something great? Forward it to jroypeterson+taste@gmail.com to train my taste."
         tasks.append({
             "title": title,
             "content": desc,
