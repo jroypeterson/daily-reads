@@ -10,6 +10,7 @@ from urllib.parse import urlencode
 
 import anthropic
 import requests
+from bs4 import BeautifulSoup
 
 from gmail_reader import fetch_newsletters
 from project_data import (
@@ -731,11 +732,11 @@ Company name matching enabled ({len(tickers.get('company_lookup', {}))} names).
 Articles mentioning coverage universe tickers or companies get a signal boost.
 {feedback_context}
 
-Select exactly 4 articles (or 3 if no good wildcard candidate).
+Select your top 8 articles ranked by quality, so we have backups if some don't hold up on closer reading.
 Use the structured candidate metadata first. Use the web_search tool only if you need to verify or supplement a candidate.
 
-Return ONLY valid JSON — an array of objects with these keys:
-headline, source, url, slot (1-4), summary, why_it_matters, signal_tags, reading_time (estimated minutes to read, e.g. "4 min")
+Return ONLY valid JSON — an array of 8 objects ranked best-first, with these keys:
+headline, source, url, rank (1-8), summary, why_it_matters, signal_tags, reading_time (estimated minutes to read, e.g. "4 min")
 """
 
     user_content = f"""Today's date: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
@@ -746,12 +747,11 @@ headline, source, url, slot (1-4), summary, why_it_matters, signal_tags, reading
 === TIER 2 SOURCES ===
 {tier2_text if tier2_text else "(No Tier 2 items found)"}
 
-Select the best 4 (or 3) articles for today's digest. Return JSON only."""
+Select your top 8 articles ranked by quality. Return JSON only."""
 
-    print("Calling Claude for article selection...")
+    print("Calling Claude for article shortlist (top 8)...")
     client = anthropic.Anthropic()
 
-    # Use tool for web search capability
     response = client.messages.create(
         model="claude-sonnet-4-20250514",
         max_tokens=4096,
@@ -761,38 +761,199 @@ Select the best 4 (or 3) articles for today's digest. Return JSON only."""
     )
 
     # Extract JSON from response
-    articles = []
+    shortlist = []
     for block in response.content:
         if block.type == "text":
             text = block.text.strip()
-            # Try to parse JSON from the response
             json_match = re.search(r'\[.*\]', text, re.DOTALL)
             if json_match:
                 try:
-                    articles = json.loads(json_match.group())
+                    shortlist = json.loads(json_match.group())
                     break
                 except json.JSONDecodeError:
                     pass
 
-    if not articles:
-        print("WARNING: Could not parse article selection from Claude response")
+    if not shortlist:
+        print("WARNING: Could not parse article shortlist from Claude response")
         print("Raw response blocks:")
         for block in response.content:
             if block.type == "text":
                 print(block.text[:500])
         return []
 
-    articles = validate_selected_articles(articles)
+    print(f"Shortlisted {len(shortlist)} candidates:")
+    for a in shortlist:
+        print(f"  #{a.get('rank', '?')}: {a.get('headline', '?')[:60]} ({a.get('source', '?')})")
+
+    # --- VERIFICATION PASS: read each article and confirm it meets criteria ---
+    articles = verify_shortlist(shortlist, criteria, taste_section, feedback_context, client)
+
     if not articles:
-        print("WARNING: Claude returned no valid article set after validation")
+        print("WARNING: No articles passed verification")
         return []
 
-    print(f"Selected {len(articles)} validated articles:")
+    print(f"\nFinal {len(articles)} verified articles:")
     for a in articles:
         print(f"  Slot {a.get('slot')}: {a.get('headline', '?')[:60]}")
         print(f"    Source: {a.get('source')} | Signals: {a.get('signal_tags', [])}")
 
     return articles
+
+
+def fetch_article_text(url: str, timeout: int = 15) -> str | None:
+    """Fetch a URL and extract readable article text."""
+    try:
+        resp = requests.get(url, timeout=timeout, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; DailyReads/1.0)",
+        })
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"    Fetch failed for {url}: {e}")
+        return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    # Remove non-content elements
+    for tag in soup.find_all(["script", "style", "nav", "footer", "header", "aside", "iframe"]):
+        tag.decompose()
+
+    # Try to find the article body
+    article = soup.find("article") or soup.find("main") or soup.find("div", class_=re.compile(r"(article|post|entry|content)"))
+    target = article if article else soup.body
+
+    if not target:
+        return None
+
+    text = target.get_text(separator="\n", strip=True)
+
+    # Truncate to ~6000 chars to keep the verification prompt reasonable
+    if len(text) > 6000:
+        text = text[:6000] + "\n[...truncated]"
+
+    return text if len(text) > 200 else None
+
+
+def verify_shortlist(
+    shortlist: list[dict],
+    criteria: str,
+    taste_section: str,
+    feedback_context: str,
+    client,
+) -> list[dict]:
+    """Read each shortlisted article and verify it meets selection criteria.
+
+    Walks through the shortlist in rank order, fetches article content,
+    and asks Claude to verify. Stops once 4 articles pass (or 3 if slot 4
+    wildcard has no good candidate).
+    """
+    section("ARTICLE VERIFICATION")
+    slot_labels = {1: "Healthcare/Biotech", 2: "Finance/Macro", 3: "Tech/AI", 4: "Wildcard"}
+
+    verified = []
+    seen_sources = set()
+    next_slot = 1
+
+    for candidate in shortlist:
+        if next_slot > 4:
+            break
+
+        url = (candidate.get("url") or "").strip()
+        headline = candidate.get("headline", "Untitled")
+        source = candidate.get("source", "Unknown")
+
+        # Skip duplicate sources
+        if source.casefold() in seen_sources:
+            print(f"  Skipping {headline[:50]} — duplicate source {source}")
+            continue
+
+        if not url or not re.match(r"^https?://", url):
+            print(f"  Skipping {headline[:50]} — invalid URL")
+            continue
+
+        print(f"\n  Reading #{candidate.get('rank', '?')}: {headline[:60]}")
+        print(f"    URL: {url}")
+
+        article_text = fetch_article_text(url)
+        if not article_text:
+            print(f"    Could not extract article text — skipping")
+            continue
+
+        print(f"    Fetched {len(article_text)} chars of article text")
+
+        # Ask Claude to verify this article
+        verify_prompt = f"""You are verifying whether an article meets selection criteria for a daily digest.
+
+SELECTION CRITERIA:
+{criteria}
+{taste_section}
+{feedback_context}
+
+TARGET SLOT: Slot {next_slot} — {slot_labels.get(next_slot, 'General')}
+
+ARTICLE HEADLINE: {headline}
+ARTICLE SOURCE: {source}
+SHORTLIST SUMMARY: {candidate.get('summary', '')}
+SHORTLIST WHY IT MATTERS: {candidate.get('why_it_matters', '')}
+
+FULL ARTICLE TEXT:
+{article_text}
+
+Based on the actual article content (not just the headline), evaluate:
+1. Does this article have real substance and depth, or is it thin/generic?
+2. Does it match the selection criteria and the target slot theme?
+3. Is the shortlist summary accurate to what the article actually says?
+
+Return ONLY valid JSON with these keys:
+- "pass": true or false
+- "reason": one sentence explaining your verdict
+- "summary": an accurate 2-3 sentence summary based on the actual content (rewrite if the original was inaccurate)
+- "why_it_matters": why this matters for the reader, based on actual content
+- "reading_time": estimated minutes to read (e.g. "4 min")
+"""
+
+        try:
+            verify_resp = client.messages.create(
+                model="claude-sonnet-4-20250514",
+                max_tokens=1024,
+                messages=[{"role": "user", "content": verify_prompt}],
+            )
+            verify_text = ""
+            for block in verify_resp.content:
+                if block.type == "text":
+                    verify_text += block.text
+
+            json_match = re.search(r'\{.*\}', verify_text, re.DOTALL)
+            if not json_match:
+                print(f"    Could not parse verification response — skipping")
+                continue
+
+            verdict = json.loads(json_match.group())
+        except Exception as e:
+            print(f"    Verification call failed: {e} — skipping")
+            continue
+
+        if verdict.get("pass"):
+            print(f"    PASS: {verdict.get('reason', '')}")
+            verified.append({
+                "article_id": article_id_for(url, source),
+                "headline": headline.strip(),
+                "source": source.strip(),
+                "url": url,
+                "slot": next_slot,
+                "summary": verdict.get("summary", candidate.get("summary", "")).strip(),
+                "why_it_matters": verdict.get("why_it_matters", candidate.get("why_it_matters", "")).strip(),
+                "signal_tags": [str(t).strip() for t in candidate.get("signal_tags", []) if str(t).strip()],
+                "reading_time": verdict.get("reading_time", candidate.get("reading_time", "N/A")),
+            })
+            seen_sources.add(source.casefold())
+            next_slot += 1
+        else:
+            print(f"    FAIL: {verdict.get('reason', '')}")
+
+    # Accept 3 articles if we couldn't fill the wildcard slot
+    if len(verified) >= 3:
+        return verified
+    return verified
 
 
 # ---------------------------------------------------------------------------
