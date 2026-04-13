@@ -73,6 +73,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TICKTICK_ACCESS_TOKEN: ${{ secrets.TICKTICK_ACCESS_TOKEN }}
           TICKTICK_LIST_DAILY_READS: ${{ secrets.TICKTICK_LIST_DAILY_READS }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
 
       - name: Commit and push Pages update
         run: |
