@@ -1,0 +1,59 @@
+{
+  "run_date": "2026-04-13",
+  "generated_at": "2026-04-13T13:06:21Z",
+  "counts": {
+    "gmail_items": 1,
+    "tier2_items": 88,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "3e719cba5d9227de",
+      "headline": "Revolution Medicines' pancreatic cancer drug doubles survival time in Phase 3",
+      "source": "Endpoints News",
+      "url": "https://endpoints.news/revolution-medicines-pancreatic-cancer-drug-doubles-survival-time-in-phase-3/",
+      "slot": 1,
+      "summary": "Revolution Medicines reported Monday that its experimental KRAS inhibitor daraxonrasib succeeded in a registrational trial for pancreatic cancer, with patients living nearly twice as long as those on chemotherapy. The company plans to ask the FDA to approve the therapy under the agency's accelerated approval pathway.",
+      "why_it_matters": "This represents a potential breakthrough in treating one of the most lethal cancers, with significant implications for RVMD shareholders and the broader oncology market.",
+      "signal_tags": [
+        "ticker_match:RVMD",
+        "catalyst_proximity",
+        "regulatory_affairs"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "9edcd3be5048e93b",
+      "headline": "Goldman Sachs tops estimates on record equities trading \u2014 here's why the stock is falling",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/goldman-sachs-gs-earnings-1q-2026.html",
+      "slot": 2,
+      "summary": "Goldman Sachs posted record equities trading revenue for the first quarter, helping propel the overall firm to its second-highest quarterly revenue. Despite beating estimates, the stock is declining as results didn't exceed expectations by as much as investors hoped.",
+      "why_it_matters": "Early indicator of how financial services are navigating current market volatility and geopolitical tensions, with implications for broader market sentiment.",
+      "signal_tags": [
+        "analytical_depth",
+        "financial_news"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "9549575e38269af4",
+      "headline": "Apple's accidental moat: How the 'AI Loser' may end up winning",
+      "source": "Hacker News",
+      "url": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
+      "slot": 3,
+      "summary": "Analysis argues that Apple's perceived lag in AI development may actually position it strategically better than competitors who are rushing to market with AI features. The piece examines how Apple's ecosystem approach could create sustainable advantages.",
+      "why_it_matters": "Contrarian investment thesis on Apple's AI strategy that could reshape how investors view the company's competitive position in the AI race.",
+      "signal_tags": [
+        "ticker_match:AAPL",
+        "AI_impact",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}
