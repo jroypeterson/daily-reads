@@ -800,24 +800,22 @@ Select your top 8 articles ranked by quality. Return JSON only."""
     return articles
 
 
-def fetch_article_text(url: str, timeout: int = 15) -> str | None:
-    """Fetch a URL and extract readable article text."""
+def _fetch_with_requests(url: str, timeout: int = 15) -> str | None:
+    """Try to extract article text using requests + BeautifulSoup."""
     try:
         resp = requests.get(url, timeout=timeout, headers={
             "User-Agent": "Mozilla/5.0 (compatible; DailyReads/1.0)",
         })
         resp.raise_for_status()
     except Exception as e:
-        print(f"    Fetch failed for {url}: {e}")
+        print(f"    Direct fetch failed: {e}")
         return None
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Remove non-content elements
     for tag in soup.find_all(["script", "style", "nav", "footer", "header", "aside", "iframe"]):
         tag.decompose()
 
-    # Try to find the article body
     article = soup.find("article") or soup.find("main") or soup.find("div", class_=re.compile(r"(article|post|entry|content)"))
     target = article if article else soup.body
 
@@ -825,12 +823,50 @@ def fetch_article_text(url: str, timeout: int = 15) -> str | None:
         return None
 
     text = target.get_text(separator="\n", strip=True)
+    return text if len(text) > 200 else None
+
+
+def _fetch_with_tavily(url: str) -> str | None:
+    """Fall back to Tavily extract API for JS-heavy or bot-walled pages."""
+    api_key = os.environ.get("TAVILY_API_KEY")
+    if not api_key:
+        return None
+
+    print(f"    Falling back to Tavily extract...")
+    try:
+        resp = requests.post(
+            "https://api.tavily.com/extract",
+            json={"urls": [url]},
+            headers={"Authorization": f"Bearer {api_key}"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        results = data.get("results", [])
+        if results and results[0].get("raw_content"):
+            text = results[0]["raw_content"]
+            print(f"    Tavily returned {len(text)} chars")
+            return text
+    except Exception as e:
+        print(f"    Tavily extract failed: {e}")
+    return None
+
+
+def fetch_article_text(url: str, timeout: int = 15) -> str | None:
+    """Fetch article text — tries direct fetch first, falls back to Tavily."""
+    text = _fetch_with_requests(url, timeout)
+
+    if not text:
+        text = _fetch_with_tavily(url)
+
+    if not text:
+        return None
 
     # Truncate to ~6000 chars to keep the verification prompt reasonable
     if len(text) > 6000:
         text = text[:6000] + "\n[...truncated]"
 
-    return text if len(text) > 200 else None
+    return text
 
 
 def verify_shortlist(
