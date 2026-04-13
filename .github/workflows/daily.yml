@@ -75,6 +75,18 @@ jobs:
           TICKTICK_LIST_DAILY_READS: ${{ secrets.TICKTICK_LIST_DAILY_READS }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
 
+      - name: Weekly health report (Fridays only)
+        run: |
+          if [ "$(date -u +%u)" = "5" ]; then
+            python weekly_report.py
+          else
+            echo "Not Friday — skipping weekly report"
+          fi
+        continue-on-error: true
+        env:
+          GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
       - name: Commit and push Pages update
         run: |
           git config user.name "daily-reads-bot"

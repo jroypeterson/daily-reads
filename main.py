@@ -6,6 +6,7 @@ import re
 import sys
 from difflib import ndiff
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.parse import urlencode
 
 import anthropic
@@ -879,28 +880,34 @@ def _is_paywall_stub(text: str) -> bool:
     return False
 
 
-def fetch_article_text(url: str, timeout: int = 15) -> str | None:
-    """Fetch article text with 3-tier fallback: trafilatura -> Jina -> Tavily."""
+def fetch_article_text(url: str, timeout: int = 15) -> tuple[str | None, str]:
+    """Fetch article text with 3-tier fallback: trafilatura -> Jina -> Tavily.
+
+    Returns (text, extraction_tier) where tier is one of:
+    'trafilatura', 'jina', 'tavily', or 'none'.
+    """
     text = _fetch_with_trafilatura(url, timeout)
+    if text and not _is_paywall_stub(text):
+        if len(text) > 6000:
+            text = text[:6000] + "\n[...truncated]"
+        return text, "trafilatura"
 
-    if not text:
-        text = _fetch_with_jina(url)
+    text = _fetch_with_jina(url)
+    if text and not _is_paywall_stub(text):
+        if len(text) > 6000:
+            text = text[:6000] + "\n[...truncated]"
+        return text, "jina"
 
-    if not text:
-        text = _fetch_with_tavily(url)
+    text = _fetch_with_tavily(url)
+    if text and not _is_paywall_stub(text):
+        if len(text) > 6000:
+            text = text[:6000] + "\n[...truncated]"
+        return text, "tavily"
 
-    if not text:
-        return None
-
-    if _is_paywall_stub(text):
+    if text and _is_paywall_stub(text):
         print(f"    Detected paywall/bot-wall stub — discarding")
-        return None
 
-    # Truncate to ~6000 chars to keep the verification prompt reasonable
-    if len(text) > 6000:
-        text = text[:6000] + "\n[...truncated]"
-
-    return text
+    return None, "none"
 
 
 def verify_shortlist(
@@ -918,8 +925,10 @@ def verify_shortlist(
     """
     section("ARTICLE VERIFICATION")
     slot_labels = {1: "Healthcare/Biotech", 2: "Finance/Macro", 3: "Tech/AI", 4: "Wildcard"}
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     verified = []
+    verification_log = []
     seen_sources = set()
     next_slot = 1
 
@@ -943,7 +952,7 @@ def verify_shortlist(
         print(f"\n  Reading #{candidate.get('rank', '?')}: {headline[:60]}")
         print(f"    URL: {url}")
 
-        article_text = fetch_article_text(url)
+        article_text, extraction_tier = fetch_article_text(url)
         snippet_only = False
         if not article_text:
             # Fall back to newsletter snippet for paywalled/unfetchable articles
@@ -954,12 +963,18 @@ def verify_shortlist(
                 print(f"    Could not fetch article — using newsletter snippet for lighter verification")
                 article_text = fallback
                 snippet_only = True
+                extraction_tier = "snippet_fallback"
             else:
                 print(f"    Could not extract article text and no snippet — skipping")
+                verification_log.append({
+                    "date": today, "headline": headline, "source": source,
+                    "url": url, "extraction_tier": "none",
+                    "passed": False, "reason": "Could not fetch and no snippet",
+                })
                 continue
 
         if not snippet_only:
-            print(f"    Fetched {len(article_text)} chars of article text")
+            print(f"    Fetched {len(article_text)} chars via {extraction_tier}")
 
         # Ask Claude to verify this article
         snippet_caveat = ""
@@ -1021,8 +1036,16 @@ Return ONLY valid JSON with these keys:
             print(f"    Verification call failed: {e} — skipping")
             continue
 
-        if verdict.get("pass"):
-            print(f"    PASS: {verdict.get('reason', '')}")
+        passed = bool(verdict.get("pass"))
+        reason = verdict.get("reason", "")
+        verification_log.append({
+            "date": today, "headline": headline, "source": source,
+            "url": url, "extraction_tier": extraction_tier,
+            "passed": passed, "reason": reason,
+        })
+
+        if passed:
+            print(f"    PASS: {reason}")
             verified.append({
                 "article_id": article_id_for(url, source),
                 "headline": headline.strip(),
@@ -1037,7 +1060,19 @@ Return ONLY valid JSON with these keys:
             seen_sources.add(source.casefold())
             next_slot += 1
         else:
-            print(f"    FAIL: {verdict.get('reason', '')}")
+            print(f"    FAIL: {reason}")
+
+    # Persist verification log for weekly reporting
+    log_path = Path("artifacts/verification_log.json")
+    existing_log = []
+    if log_path.exists():
+        try:
+            existing_log = json.loads(log_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            pass
+    existing_log.extend(verification_log)
+    os.makedirs("artifacts", exist_ok=True)
+    log_path.write_text(json.dumps(existing_log, indent=2), encoding="utf-8")
 
     # Accept 3 articles if we couldn't fill the wildcard slot
     if len(verified) >= 3:
