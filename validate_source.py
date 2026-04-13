@@ -10,11 +10,16 @@ Usage:
 
     # Audit mode used by CI (outputs warnings, non-zero exit on stale sources)
     python validate_source.py --audit --ci
+
+    # Check only new/changed addresses in staged git diff (used by pre-commit hook)
+    python validate_source.py --check-staged
 """
 
 import argparse
 import json
 import os
+import re
+import subprocess
 import sys
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -149,6 +154,67 @@ def audit(ci_mode: bool = False):
         sys.exit(1)
 
 
+def check_staged():
+    """Validate only new/changed email addresses from the staged diff of sources.py."""
+    # Extract added lines from staged diff
+    try:
+        diff = subprocess.check_output(
+            ["git", "diff", "--cached", "-U0", "sources.py"],
+            text=True,
+        )
+    except subprocess.CalledProcessError:
+        print("No staged changes to sources.py")
+        return True
+
+    if not diff.strip():
+        print("No staged changes to sources.py")
+        return True
+
+    # Find new email addresses in added lines (lines starting with +, not ++)
+    # Match quoted email keys like:  "email@example.com": {
+    new_addrs = set()
+    for line in diff.splitlines():
+        if line.startswith("+") and not line.startswith("++"):
+            # Match dict keys that look like email addresses
+            match = re.search(r'"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)"', line)
+            if match:
+                addr = match.group(1).lower()
+                # Only check addresses that are active in SOURCES (not commented out)
+                if addr in SOURCES:
+                    new_addrs.add(addr)
+
+    if not new_addrs:
+        print("No new email addresses detected in staged sources.py changes")
+        return True
+
+    print(f"Validating {len(new_addrs)} new/changed address(es) against Gmail...\n")
+
+    service = get_gmail_service()
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y/%m/%d")
+
+    failures = []
+    for addr in sorted(new_addrs):
+        name = SOURCES[addr]["name"]
+        query = f"after:{cutoff} from:{addr}"
+        msgs = gmail_search(service, query, max_results=1)
+        if msgs:
+            print(f"  OK  {name:30s} {addr}")
+            print(f"       Last: {msgs[0]['subject'][:60]}")
+        else:
+            print(f"  FAIL {name:30s} {addr}")
+            print(f"       No emails from this address in the last 30 days.")
+            failures.append((name, addr))
+
+    if failures:
+        print(f"\n{len(failures)} address(es) had no Gmail activity.")
+        print("Use 'python validate_source.py \"newsletter name\"' to discover the correct address.")
+        print("\nTo commit anyway, use: git commit --no-verify")
+        return False
+
+    print("\nAll new addresses validated.")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Validate newsletter sources against Gmail"
@@ -165,9 +231,16 @@ def main():
         "--ci", action="store_true",
         help="CI mode: exit non-zero if stale/dead sources found"
     )
+    parser.add_argument(
+        "--check-staged", action="store_true",
+        help="Validate new addresses in staged sources.py diff (for pre-commit hook)"
+    )
     args = parser.parse_args()
 
-    if args.audit:
+    if args.check_staged:
+        ok = check_staged()
+        sys.exit(0 if ok else 1)
+    elif args.audit:
         audit(ci_mode=args.ci)
     elif args.keyword:
         discover(args.keyword)
