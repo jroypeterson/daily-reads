@@ -1,26 +1,394 @@
 {
   "run_date": "2026-04-14",
-  "generated_at": "2026-04-14T13:11:06Z",
+  "generated_at": "2026-04-14T22:37:15Z",
   "counts": {
-    "gmail_candidates": 27,
+    "gmail_candidates": 39,
     "tier2_candidates": 89,
-    "total_candidates": 116
+    "total_candidates": 128
   },
   "gmail_candidates": [
     {
-      "candidate_id": "fd694438cb66e2be",
+      "candidate_id": "36ccf479df833a20",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "STAT News",
+      "headline": "Former Sen. Ben Sasse on his pancreatic cancer trial",
+      "snippet": "Also: HaloMD wins dismissal of No Surprises Act case brought by insurer \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "primary_url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX187m8PdPgKW2Nfpn56wNbLTW2lg-cV5MTMLZN9h9bHK3qgz0W7lCdLW6lZ3k-MxP2dbTmPYbW8ZpC8v1Wxm_KW47lX-F2Lm8X9W20kKDY8BgL97W5MxFMm84Y5YhW4XQsFK77RGP1W8qjk_P443jW7W4-ZsXr4tkg0XW6CvZKL8mf395W7XhWG69jxv3cW8s27DY7j4QzXW1BCMs03sTnc6W8HgRbB509nzqW2HxDBL7rXJ66W35Jv8L6SZ7KhW2X1qdq2h4BkVW23sSVb617Kb6VNJhYg6PbnWdW1FZv2g5b-jzVW4k6Y1G2nSbYMW6S2sVy3QcRJ0W85J_Ks1ntW9JW3fdjR48g6ZmBN2wtShPvCT-bd56DQP04",
+      "urls": [
+        "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX187m8PdPgKW2Nfpn56wNbLTW2lg-cV5MTMLZN9h9bHK3qgz0W7lCdLW6lZ3k-MxP2dbTmPYbW8ZpC8v1Wxm_KW47lX-F2Lm8X9W20kKDY8BgL97W5MxFMm84Y5YhW4XQsFK77RGP1W8qjk_P443jW7W4-ZsXr4tkg0XW6CvZKL8mf395W7XhWG69jxv3cW8s27DY7j4QzXW1BCMs03sTnc6W8HgRbB509nzqW2HxDBL7rXJ66W35Jv8L6SZ7KhW2X1qdq2h4BkVW23sSVb617Kb6VNJhYg6PbnWdW1FZv2g5b-jzVW4k6Y1G2nSbYMW6S2sVy3QcRJ0W85J_Ks1ntW9JW3fdjR48g6ZmBN2wtShPvCT-bd56DQP04",
+        "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX187m8PdPgKW2Nfpn56wNbLTW2lg-cV5MTMLZN9h9bGx5nR3bW50kH_H6lZ3mmW3k5w3D6c0fd3W3mG9v91v5fYhVY1dn23Lt5qdW15TgT_7YL3MLN3NMcn0vzZ3JW8GYykP48-qqgW8cRYgk9lpPCkVv2S0q6N3LwmW505ZVt1j0XKlW23HG8c2K8c07W96gKYq6ZBLhPW3-KYZM2tPmc8W94gBB275bsL9N4LX1ZyWsdl4W3LG6h65N7QshN75kkHR_tv_YVymWJm6RbkGhW3ys6tN1WKVl1N986xXshRm9fN1NXcxMtQTzrN2qCgTkYpL0WW2vY6Wg7DqW-8N6dw-DFZtn9QW6PxJY955-hQjW45fJMb5H-xxwVjS-1C1vx2m9W6rdnF68MwkhzVKHQQg8fLbWyW2tHrNN72HR0kN1CwG6Y41n9mW37WLw27ftGPKVHfpMM1xrN5-f9kH7jn04",
+        "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX187m8PdPgKW2Nfpn56wNbLTW2lg-cV5MTMLZN9h9bJ03qgz0W7Y8-PT6lZ3pkVxs9cT2460dfW1lQmFG2TcwWYW1t0Xfs4GyZr7W5YNZYw7m67s7W3Lhy8-517_jRW1C01H_32X5J6W4Q6lj_15FtHKW7kBJmQ4CMgHzW9cyDv93GY4wlW3t82wx6TcZB3VvJ-tK54j6WyW99NKGF35dVdyW6KWf504Bj-xwN3kl19VZJpKcW2FG2c635r9tWW1Fx5s46pn26NW2JVHF58bt6G7W5k-FdH73zyPhW1WDgJp2C1PctW70lNp747Ky7DW3Mt36j4lhWXfN29rs9Vn3drVW9jmLQT8w9nbQW92pNvL8HDN9rN6K6tvNN6G4tW5jdN__5FjsTwf3lvl6404",
+        "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX187m8PdPgKW2Nfpn56wNbLTW2lg-cV5MTMLZN9h9bJ03qgz0W7Y8-PT6lZ3lkW2bdZxw2443-wW8PLh8s6W2krJW3dVxSF7MMXYqW1kNhKp4trY_bW5DGXzd6G-JsJW6Z_N_F4DMHPnW2BFTQk1YtfqvW7XRS-V61GNySW5vcVm96xxfDcW5RBY-22-djmBN1g8t368XwtfVTDr0F2Yn1ZWW2MYK7p7kzd0hW1D0-RY3-dZX9W10kzz03pKs9vW2WJmDC2MmQXHVDtCn17JyJgbW5-0y_s8DqMNxW8YwR6q8r_sxzW3PL0ST77cgdXVD-zQ71lX1hhW1Z33Br7jJ3gzW3X3F-w3ry1xxW8dTlWJ5DvwLlW50zZcb5MyswLW4MfwmR7clyhGf5lJXtz04",
+        "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX187m8PdPgKW2Nfpn56wNbLTW2lg-cV5MTMLZN9h9bGR5nR3bW5BWr2F6lZ3pBW1sXwKM8Hwh2bW5Y0DqQ1Wmt0_W6n9TDN7jkVwrW1D9d5L7zbDSJW2K5_6m5qTMGRW90Zr9h2W1Lc8W5FZ0lZ7ZvYThW8MS-7Z2_dvSPW602cvT4W9cK-McpxXbjgr7kVmbMJp8q3cY8W5KQTJg3gzJjLW2ZDNGv30h9p5W2dxfFf4S0B8FW5gXqCv47G37SW3yvLXg96-GLGW2C7d581rDgVmW3CJ04b25JGH2N6KmMBxxFbQzW1Xh4-734DkQLW93ftgY616yLwN1WdNfRlC_89W56qV4x4Qfw20W2GG_w86lxfbSW7jTqJh4vxs4FW7-FCz96vb_HDVV_0HD5J1bGWW4PPc0s6XwZtMW8gBrhg3jK8hHW3rN5Tb17PSjkW7MDw6P1l4b_3VnNTPs6bwX27W37BNV35JsXtYW1JL8gL83mrd8f8q7wGb04"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "newsletter@statnews.com",
+      "sender": "\"Alexa | STAT+ Today\" <newsletter@statnews.com>",
+      "published_at": "Tue, 14 Apr 2026 16:34:31 -0400",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "e437b6adf4149de4",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | J&J\u2019s immunology \u2018dual powerhouse\u2019; Lilly lands preclinical ADC biotech in $300M buyout",
+      "snippet": "FDA chastises Pfizer for misleading Facebook ads Fierce Biotech PM Tracker A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday, April",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+      "urls": [
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Biotech PM Tracker <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 14:11:31 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DHR",
+        "ticker:DSGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PFE",
+        "subsector:Tools",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "b601d099de676ea1",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "McKinsey",
+      "headline": "The AI revolution in software development",
+      "snippet": "Unlock next-level productivity \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
+      "primary_url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pGDMlZTW8aMe3bwnVZdg-4LuQsOW6Kpmx2v5Zk4wPqb0WfrBhss7WJIku-X8Mf0Jg%3D",
+      "urls": [
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pGDMlZTW8aMe3bwnVZdg-4LuQsOW6Kpmx2v5Zk4wPqb0WfrBhss7WJIku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc3/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oJ0YKeOu_trCNHwGTgMPtGQqL_jTzdH42TJw_Mt0QvRoy1F7gaW_--Iku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc4/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rx3qH8--Mll1scm5B_y5kKg4WSuhTGyTQCd8iWpfxFHt-x33LlE7OQIku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc5/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8olrPP9Tb2fkkilSg5vRRUwrPOb_o9NLVlLpw2d_AT7zpNEh1EJtGb4Iku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc6/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qbzdAncN81kCixXlMndLiCXFEY1V2XZjvmEZWKa_LAJvZORGTdEb9HIku-X8Mf0Jg%3D"
+      ],
+      "category": "consulting",
+      "priority": "high",
+      "tier": 1,
+      "score": null,
+      "sender_email": "publishing@email.mckinsey.com",
+      "sender": "\"McKinsey & Company\" <publishing@email.mckinsey.com>",
+      "published_at": "Tue, 14 Apr 2026 18:14:00 +0000",
+      "derived_signals": [
+        "priority:high",
+        "source_type:gmail",
+        "category:consulting",
+        "ticker:RVMD"
+      ]
+    },
+    {
+      "candidate_id": "6a99d6b2a0406d43",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Bloomberg",
+      "headline": "Money Stuff: Banks Aren\u2019t Worried About Private Credit",
+      "snippet": "Tranching, BDCs, carbon, mentions. View in browser Bloomberg Banks and private credit It is bank earnings week, and people are worried about private credit. You could imagine banks gloating. \u201cPeople",
+      "primary_url": "https://www.bloomberg.com/opinion/newsletters/2026-04-14/banks-aren-t-worried-about-private-credit",
+      "urls": [
+        "https://www.bloomberg.com/opinion/newsletters/2026-04-14/banks-aren-t-worried-about-private-credit",
+        "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
+        "https://www.bloomberg.com/news/articles/2026-04-14/wells-fargo-reports-36-2-billion-of-private-credit-exposure",
+        "https://www.bloomberg.com/news/articles/2026-04-14/wells-fargo-reports-36-2-billion-of-private-credit-exposure",
+        "https://www.bloomberg.com/opinion/newsletters/2025-06-09/the-banks-are-re-tranching"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "noreply@news.bloomberg.com",
+      "sender": "Matt Levine <noreply@news.bloomberg.com>",
+      "published_at": "Tue, 14 Apr 2026 18:13:31 +0000",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:finance_macro",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "20902d16af8be0f6",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Fierce Pharma",
+      "headline": "| 04.14.26 | J&J sees \u2018dual powerhouse\u2019 helping it achieve $100B year; Travere breaks new ground in rare kidney disease",
+      "snippet": "Novo, OpenAI link up on broad AI collab Fierce Pharma A message from ZS Today&#39;s Big News Apr 14, 2026 J&amp;J, chasing $100B year, sports immunology &#39;dual powerhouse&#39; of Tremfya and new",
+      "primary_url": "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+      "urls": [
+        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+        "https://www.fiercepharma.com/pharma/jj-chasing-100b-year-shapes-immunology-dual-powerhouse-tremfya-and-newly-launched-icotyde",
+        "https://www.fiercepharma.com/pharma/ashes-trial-setback-travere-filspari-first-fda-approval-fsgs-treatment",
+        "https://www.fiercepharma.com/pharma/novo-taps-openai-deploy-ai-across-rd-manufacturing-and-corporate-functions"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercepharma.com",
+      "sender": "Fierce Pharma <editors@go.fiercepharma.com>",
+      "published_at": "Tue, 14 Apr 2026 12:12:20 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:RARE",
+        "ticker:ZS",
+        "ticker:ACHV",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "cd7412cee1322a30",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Morning Brew",
+      "headline": "\u2615 Brand discovery via resale",
+      "snippet": "Insights from the ReCon resale conference. April 14, 2026 View Online | Sign Up | Shop Retail Brew Presented By Sponsor Logo: IBM It&#39;s Tuesday. Retail labor is unpredictable. Your staffing strategy",
+      "primary_url": "https://www.retailbrew.com/issues/pre-love-story?mbcid=45203697.23927&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+      "urls": [
+        "https://www.retailbrew.com/issues/pre-love-story?mbcid=45203697.23927&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.retailbrew.com/subscribe?kid=357c21&mbcid=45203697.23927&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.ibm.com/account/reg/us-en/signup?formid=urx-54194",
+        "https://www.retailbrew.com/events/staffing-smarter-automation-revenue-gains?mbcid=45203697.23927&mblid=6d5fab9e9255&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.retailbrew.com/stories/2026/04/14/more-than-8-in-10-shop-resale-to-discover-new-brands?mbcid=45203697.23927&mblid=ef01c2235c0c&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "retailbrew@morningbrew.com",
+      "sender": "Retail Brew <retailbrew@morningbrew.com>",
+      "published_at": "Tue, 14 Apr 2026 12:35:09 -0400 (EDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:finance_macro",
+        "ticker:SHOP",
+        "ticker:SGHT",
+        "subsector:Opthomalogy"
+      ]
+    },
+    {
+      "candidate_id": "237285a6c0dab577",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | Ravenous Lilly absorbs ADC specialist in $300M deal; BI, Amgen scrap early immunology assets",
+      "snippet": "Astellas to lay off staffers with Seattle site closure Fierce Biotech A message from JobsOhio Today&#39;s Big News Apr 14, 2026 Lilly makes preclinical ADC specialist CrossBridge its latest acquisition",
+      "primary_url": "https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m",
+      "urls": [
+        "https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m",
+        "https://www.fiercebiotech.com/biotech/boehringer-amgen-discard-early-immunology-candidates-due-lack-clinical-potential",
+        "https://www.fiercebiotech.com/biotech/astellas-close-stem-cell-units-seattle-site-layoffs-incoming",
+        "https://www.fiercebiotech.com/biotech/cell-therapy-biotech-obsidian-leverages-galera-reverse-merger-go-public",
+        "https://www.fiercebiotech.com/biotech/takeda-terminates-mrna-research-pact-japanese-drug-discovery-specialist"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Biotech <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 11:14:55 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:4503",
+        "ticker:AMGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ]
+    },
+    {
+      "candidate_id": "db8d872bb97b6716",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "BioSpace",
+      "headline": "J&J leads off Q1 earnings touting $100B 2026 revenue goal",
+      "snippet": "Plus, Kailera seeks record IPO of $533M+ \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "primary_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBnvP5nR3bW7Y9pgv6lZ3kvW4hQGFD7B1X_-W8LPK9M47JTpJW32WcNc4TpMTjW4HyLmj2T6cqcW9fR6bX8yD5HGW41Gt968pKBHXW5ZL-2k9bhSgPW17M1Sn2LcZr0W7cytHs8-vlBwW81ZRD06tsmgdVvSnPT73XktCW3JGcMb3Hx3-wVrpn7j1h2_pnVMpxdl1bfFJ2W8ZMylR15J2NrW7sfCK13tGnzmW1qLJB02g7DlqW2ny8H-2m1LYvVFDfSd2-PHnWW2QwdpH5s81gNW3mLqlw7YWBgMW5kTq914rpmRtW1Y29Cf4JFFRDW7k_v9V8mFBHHN3hsFGXrXrsKW4_8cwk97JtDXW5GZc1R8Cd4k9W4B-rdt7x6-WhW4vj69Z3DS0yZVTLL8V6gF2n9W5X6PrY9klNKqW1kPsGp3Qz0mkW6z7hxz84hbbjW44GswZ8cykqnW33hH1_5J_sqRW7G7QvX8hQ7v0W9kLg6j4dpm4GW71rV8Q6SMjZCW7pngzd2QFdgMW209QY37VhDDFN7cdwGsqRsC6W79gQhS43ZhFVf1ZFw3l04",
+      "urls": [
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBnvP5nR3bW7Y9pgv6lZ3kvW4hQGFD7B1X_-W8LPK9M47JTpJW32WcNc4TpMTjW4HyLmj2T6cqcW9fR6bX8yD5HGW41Gt968pKBHXW5ZL-2k9bhSgPW17M1Sn2LcZr0W7cytHs8-vlBwW81ZRD06tsmgdVvSnPT73XktCW3JGcMb3Hx3-wVrpn7j1h2_pnVMpxdl1bfFJ2W8ZMylR15J2NrW7sfCK13tGnzmW1qLJB02g7DlqW2ny8H-2m1LYvVFDfSd2-PHnWW2QwdpH5s81gNW3mLqlw7YWBgMW5kTq914rpmRtW1Y29Cf4JFFRDW7k_v9V8mFBHHN3hsFGXrXrsKW4_8cwk97JtDXW5GZc1R8Cd4k9W4B-rdt7x6-WhW4vj69Z3DS0yZVTLL8V6gF2n9W5X6PrY9klNKqW1kPsGp3Qz0mkW6z7hxz84hbbjW44GswZ8cykqnW33hH1_5J_sqRW7G7QvX8hQ7v0W9kLg6j4dpm4GW71rV8Q6SMjZCW7pngzd2QFdgMW209QY37VhDDFN7cdwGsqRsC6W79gQhS43ZhFVf1ZFw3l04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBntC5nR3bW5BWr2F6lZ3lXMjN489b1pgnW8ZJ0JM8737cjW9bd7_r7McptwW2nQgwY8mFSV4VVj2-k3WGTBHW7wfbgZ8yDCnBW8908Y54fnbj2W6pTff-44RFCXW7pm9Hw445sptN8g3H-LXbx0NMPF5tmDn_s8W3cHlRy4vFmPrW3R0Knr4gTJLbW1MJQQl5WXX49W2bhK6N66nsJcW2t4cFv4dg9nLW2dvK7m82YR35W8gzbDS4Yh0krW3ZYSWN2NKjlvW5j0v3R6988QyW2t6nHg160pglVx_WD58wDBYcW4503309gzBy6W5lFDq083sS21W137Kgt3cHhshW78cpGc5BG5CkW7-SP2L1x9vrgW90nkGV3KM9YQW40qF1N5bZYl6VLSYFl1jV0C-W6MmKpp1bhSJgN247C1yvxSF1W5jdY9S4_qRJZW4bHRZ36WlGPnf2gflgR04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBntC5nR3bW5BWr2F6lZ3psW3mQyR11Tf-gjW6SWLVh8l_rnCW35yR641VhsqqW68SRcC34-3j8W4sH7qw8m9j6HW3VD-Z36hV4CkN41wRw1lBRdqW43RhXS5xtJdbW8XGmdW5QRl7ZW7_HKNW3lwBzVW87Z-1F2pQzmPW97_ZQh7mGxZMW30zvpT1xfWybN7TjDXjyR8MNVH7jDx124H5zW87Cq_S3bTPFxW2nXP0m90D3y_W3dRHPf5JmcN4W4KD9sl4R4tm8W8Qm9ZC8_lStQW4Vzc-b3RjxXkW81VBKQ8K9McNV4KQFs3c4bmKW4s2PHJ8kb-W3MBTMLVJkDzNW2hX9nx4zWLgTW4FRWQs23tHTLVYSjjC58sSMdW4v67mF43gmZQMRlh0H9Jk94W8XLlC789yn7nVlb5Bf3tM93HW2_tSSj1N6tbMV-tRft25bBl9f3fYTG604",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBntC5nR3bW5BWr2F6lZ3kRW2vhRcR3TgXGTW25Qhqx6glCdYW8J4K8Y7STmDYVz1bH13G33lcW6bPTcX6gTwHSW1BzXbQ6VHFzNW41W1Ms7QW33lW1Tp-N48h6tHkW7zFr-Z4LBrMCW40yVwC94-4DbN5z4pp71m9BFW46pJFl6-yH_RW2l5kKh5SbcmlW6Ktcpr4K_rNKW84FhPM2LrzXjW8sQsMk6qcjjsVZC7Vn311RBQW5KWVyp3VVrHZN8_rHlr4Hyl1W7_17-D1Ph7t9W3QcCG98vyJgZW6_d0Fr77Yz2PW4KfCXt1y6ygpW1RDXfw3HBV6jW2R9f1V4q3mMCN8pW2C4dtdcgW5dPnRN2_BYFGW67VBFd3Ybv-9W7jVMh85msZlTW3n5KnH8nrnNrW4B951D3cK93TW2wVLc03gStRhVdrJYD8hSJNzW7J-tPw7scNmjf6VV_YM04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBntW5nR3bW69t95C6lZ3mDW210RxY1VrLd4VnTjpz4q8D2wV3Dg765w17WqW600KXJ4HmbPBW74lHWx6mw8YYW8-jNtP2hW2rxW2K6LzX8rWfS-W20F2b_3t9wTdW14f66S6p5MtZW6QCsh873TdnCW5f07r47_w6Y_W7H_6kz67wmpXW3FypgZ5c35s4W711vm36nCSP1W1Wm9Qn6f8Q-QW7NNk8z4w_-XQW1mJbfQ2rjTNZW755cLj8ChN3YW4HCHK13WqqW-VWx0jS3b_RsfW8wJ72n1qjS8jW4M1mj07yhgZrVsktPr8Jj6xwW8HG5903LXYBbW3_B3WT1SnpZ1N5gV4j6Lxg4KN2LByx13qLmTW95nyPh4pVc4wW8JYyTK6HXgyVW8jwb9v2XLyP9N6WrZd1gH0l0W31VyNL8YnwzWN54kPKGgWz4XN5z3K3RyQ-BjW1ftDJg2tWcYHVMX6bz8P6LL1dgv29204"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "newsletters@biospace.com",
+      "sender": "\"GenePool | BioSpace\" <newsletters@biospace.com>",
+      "published_at": "Tue, 14 Apr 2026 10:25:55 -0500",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "0b168f826843d5e3",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "MBI",
+      "headline": "Frontier AI's Economic Engine",
+      "snippet": "It should not surprise anyone that coding has found the most product market fit in AI, but it is notable that how much it surpasses everything else in enterprise segment so far which explains so much",
+      "primary_url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+      "urls": [
+        "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+        "https://substack.com/app-link/post?publication_id=1444178&post_id=194117632&isFreemail=false&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
+        "https://substack.com/@mbideepdives",
+        "https://substack.com/app-link/post?publication_id=1444178&post_id=194117632&isFreemail=false&submitLike=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjE3Nzg3NjkxMjEsImlzcyI6InB1Yi0xNDQ0MTc4Iiwic3ViIjoicmVhY3Rpb24ifQ.doCyiD-G01PguqtOayW4YjzIUSXhkaN3C-3aVGImfs0&r=w2qs",
+        "https://substack.com/app-link/post?publication_id=1444178&post_id=194117632&isFreemail=false&comments=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4&r=w2qs&action=post-comment"
+      ],
+      "category": "finance_macro",
+      "priority": "high",
+      "tier": 1,
+      "score": null,
+      "sender_email": "mbideepdives@substack.com",
+      "sender": "MBI Deep Dives <mbideepdives@substack.com>",
+      "published_at": "Tue, 14 Apr 2026 14:31:39 +0000",
+      "derived_signals": [
+        "priority:high",
+        "source_type:gmail",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "7bd6a31b9b429cfa",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Biotech Primer",
+      "headline": "See It, Understand It, and Respond: WHO Explained",
+      "snippet": "The World Health Organization (WHO) exists for one reason: Biotech Primer Logo The Primer Science Made Simple See It, Understand It, and Respond: WHO Explained by Biotech Primer | April 14, 2026 https:",
+      "primary_url": "",
+      "urls": [],
+      "category": "healthcare_weekly",
+      "priority": "high",
+      "tier": 1,
+      "score": null,
+      "sender_email": "theprimer@biotechprimer.com",
+      "sender": "Biotech Primer <theprimer@biotechprimer.com>",
+      "published_at": "Tue, 14 Apr 2026 07:30:06 -0700 (PDT)",
+      "derived_signals": [
+        "priority:high",
+        "source_type:gmail",
+        "category:healthcare_weekly",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PRME",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "3e70ca9a0e5a65a5",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | A \u2018diabolical\u2019 molecule with monstrous potential; CAR-T treats 3 autoimmune diseases in single patient",
+      "snippet": "Big Pharma&#39;s journey to the quantum realm Fierce Biotech Biotech Research A message from Epicypher Uncover the \u201cWhy?\u201d Behind Gene Regulation with EpiCypher&#39;s Genomic Services Advance your drug",
+      "primary_url": "https://www.epicypher.com/services/cutana-genomic-services",
+      "urls": [
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.fiercebiotech.com/biotech/its-going-be-huge-diabolical-molecule-poised-become-biotechs-next-gold-rush"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "\"Fierce Biotech: Research\" <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 08:32:40 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DRUG",
+        "ticker:DERM",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "3e70ca9a0e5a65a5",
+      "run_date": "2026-04-14",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | A \u2018diabolical\u2019 molecule with monstrous potential; CAR-T treats 3 autoimmune diseases in single patient",
+      "snippet": "Big Pharma&#39;s journey to the quantum realm Fierce Biotech Biotech Research A message from Epicypher Uncover the \u201cWhy?\u201d Behind Gene Regulation with EpiCypher&#39;s Genomic Services Advance your drug",
+      "primary_url": "https://www.epicypher.com/services/cutana-genomic-services",
+      "urls": [
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.fiercebiotech.com/biotech/its-going-be-huge-diabolical-molecule-poised-become-biotechs-next-gold-rush"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "\"Fierce Biotech: Research\" <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 08:30:52 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DRUG",
+        "ticker:DERM",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "b9b7f0a64aa9945b",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Pharma",
       "headline": "| 04.14.26 | Telix's radiopharma chops attract $2.1B Regeneron deal; Replimune plans production job cuts after FDA snub",
       "snippet": "Starting material bottlenecks linger amid reshoring push Fierce Pharma Pharma Manufacturing A message from Mettler-Toledo Today&#39;s Big News Apr 14, 2026 Regeneron rides into radiopharma via $2.1B",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4smbcD-vaSwDzL%5Erf8zRmkE8PS-S69PPSd",
+      "primary_url": "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0a%5Erf8zRd",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4smbcD-vaSwDzL%5Erf8zRmkE8PS-S69PPSd",
         "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0a%5Erf8zRd",
         "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0q%5Erf8zRd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4smbcD-vaSwD06%5Erf8zRmkE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4smbcD-vaSwD2q%5Erf8zRmkE8PS-S69PPSd"
+        "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix",
+        "https://www.fiercebiotech.com/biotech/fda-refuses-replimunes-melanoma-prospect-second-time",
+        "https://www.fiercepharma.com/manufacturing/usp-flags-hamstrung-starting-material-sourcing-latest-us-vulnerable-medicines-update"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -42,19 +410,19 @@
       ]
     },
     {
-      "candidate_id": "2e965614f7cabafa",
+      "candidate_id": "4dad77212a536851",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "The Atlantic",
       "headline": "Today's stories: Hegseth\u2019s Unholy War",
       "snippet": "Five of our new and most read stories for today. Apr 14, 2026 A selection of recent and most read stories from The Atlantic to start your day Support fearless independent journalism and give unlimited",
-      "primary_url": "https://link.theatlantic.com/click/45198124.222864/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTk4MTI0JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljLWFt/653d3623bf1c79ace209d577B74b309a6",
+      "primary_url": "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3Dc981f505-dca6-3177-bb7f-47cb2757b58c",
       "urls": [
-        "https://link.theatlantic.com/click/45198124.222864/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTk4MTI0JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljLWFt/653d3623bf1c79ace209d577B74b309a6",
-        "https://link.theatlantic.com/click/45198124.222864/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTk4MTI0JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljLWFt/653d3623bf1c79ace209d577C74b309a6",
-        "https://link.theatlantic.com/click/45198124.222864/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk5JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTk4MTI0JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9c3RhdGljJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj10aGUtYXRsYW50aWMtYW0/653d3623bf1c79ace209d577D9e8ea578",
-        "https://link.theatlantic.com/click/45198124.222864/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NTAxJmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTk4MTI0JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9c3RhdGljJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj10aGUtYXRsYW50aWMtYW0/653d3623bf1c79ace209d577Eccaa1d57",
-        "https://link.theatlantic.com/click/45198124.222864/aHR0cHM6Ly9hY2NvdW50cy50aGVhdGxhbnRpYy5jb20vcHJvZHVjdHMvZ2lmdD91dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1jciZ1dG1fY2FtcGFpZ249ZXZlcmdyZWVuX2FkJnV0bV9jb250ZW50PWF0bGFudGljQU0/653d3623bf1c79ace209d577B8dbc34ec"
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3Dc981f505-dca6-3177-bb7f-47cb2757b58c",
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3Dc981f505-dca6-3177-bb7f-47cb2757b58c",
+        "https://accounts.theatlantic.com/products/gift",
+        "https://www.theatlantic.com/ideas/2026/04/pete-hegseth-unholy-war-iran/686789",
+        "https://www.theatlantic.com/ideas/2026/04/pete-hegseth-unholy-war-iran/686789"
       ],
       "category": "broad_curious",
       "priority": "normal",
@@ -102,19 +470,19 @@
       ]
     },
     {
-      "candidate_id": "a620f79b4eeb3851",
+      "candidate_id": "fd5a0c160b6be545",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "WSJ Newsletters",
       "headline": "\ud83c\udf89 Markets A.M.: Two Cheers for Earnings Season",
       "snippet": "First, the good news Is this email difficult to read? View in browser The Wall Street Journal The Wall Street Journal Markets AM Sponsored by Sponsored Logo Two Cheers for Earnings Season Plus, what",
-      "primary_url": "https://trk.wsj.com/view/69651b3835d2bc3467bd2e0fqwmk8.6x3s/f4f61594",
+      "primary_url": "https://www.wsj.com/finance/stocks/two-cheers-for-earnings-season-75d10523?mod=djemMarketsAM",
       "urls": [
-        "https://trk.wsj.com/view/69651b3835d2bc3467bd2e0fqwmk8.6x3s/f4f61594",
-        "https://trk.wsj.com/click/45192248.322840/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3N0b2Nrcy90d28tY2hlZXJzLWZvci1lYXJuaW5ncy1zZWFzb24tNzVkMTA1MjM_bW9kPWRqZW1NYXJrZXRzQU0/69651b3835d2bc3467bd2e0fB6574901f",
-        "https://trk.wsj.com/click/45192248.322840/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3N0b2Nrcy90d28tY2hlZXJzLWZvci1lYXJuaW5ncy1zZWFzb24tNzVkMTA1MjM_bW9kPWRqZW1NYXJrZXRzQU0/69651b3835d2bc3467bd2e0fC6574901f",
-        "https://trk.wsj.com/click/45192248.322840/aHR0cDovL3B1YmFkcy5nLmRvdWJsZWNsaWNrLm5ldC9nYW1wYWQvY2xrP2lkPTcyNzc5ODU1MTImaXU9LzI/69651b3835d2bc3467bd2e0fBa4f47c8d",
-        "https://trk.wsj.com/click/45192248.322840/aHR0cDovL3B1YmFkcy5nLmRvdWJsZWNsaWNrLm5ldC9nYW1wYWQvY2xrP2lkPTcyNzc5ODU1MTImaXU9LzI/69651b3835d2bc3467bd2e0fCa4f47c8d"
+        "https://www.wsj.com/finance/stocks/two-cheers-for-earnings-season-75d10523?mod=djemMarketsAM",
+        "https://www.wsj.com/finance/stocks/two-cheers-for-earnings-season-75d10523?mod=djemMarketsAM",
+        "https://www.apollo.com/strategies/asset-management/credit/investment-grade-private-credit",
+        "https://www.apollo.com/strategies/asset-management/credit/investment-grade-private-credit",
+        "https://www.wsj.com/finance/stocks/two-cheers-for-earnings-season-75d10523?mod=djemMarketsAM"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -129,20 +497,14 @@
       ]
     },
     {
-      "candidate_id": "ecee72190e880396",
+      "candidate_id": "88d071affdb6f95f",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "WSJ Newsletters",
       "headline": "The 10-Point: Trump\u2019s Post Sparks Religious Right Backlash",
       "snippet": "Your guide to the WSJ&#39;s exclusive reporting and analysis. \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
-      "primary_url": "https://urldefense.com/v3/__https://10point.cmail20.com/t/d-e-gkthyht-dhhicodi-r/__;!!IBzWLUs!SPCstgc3ATGkQivCr6Qpnsdqf954_P9mfA2ZG_nHSVSC0xuN0anu2N1gb097eegyE4k1q2SKj3DPcTOnDUtIr8UJx5acarf5xduiBss7$",
-      "urls": [
-        "https://urldefense.com/v3/__https://10point.cmail20.com/t/d-e-gkthyht-dhhicodi-r/__;!!IBzWLUs!SPCstgc3ATGkQivCr6Qpnsdqf954_P9mfA2ZG_nHSVSC0xuN0anu2N1gb097eegyE4k1q2SKj3DPcTOnDUtIr8UJx5acarf5xduiBss7$",
-        "https://urldefense.com/v3/__https://10point.cmail20.com/t/d-l-gkthyht-dhhicodi-j/__;!!IBzWLUs!SPCstgc3ATGkQivCr6Qpnsdqf954_P9mfA2ZG_nHSVSC0xuN0anu2N1gb097eegyE4k1q2SKj3DPcTOnDUtIr8UJx5acarf5xYI8kRTT$",
-        "https://urldefense.com/v3/__https://10point.cmail20.com/t/d-l-gkthyht-dhhicodi-t/__;!!IBzWLUs!SPCstgc3ATGkQivCr6Qpnsdqf954_P9mfA2ZG_nHSVSC0xuN0anu2N1gb097eegyE4k1q2SKj3DPcTOnDUtIr8UJx5acarf5xf05hdWN$",
-        "https://urldefense.com/v3/__https://10point.cmail20.com/t/d-l-gkthyht-dhhicodi-i/__;!!IBzWLUs!SPCstgc3ATGkQivCr6Qpnsdqf954_P9mfA2ZG_nHSVSC0xuN0anu2N1gb097eegyE4k1q2SKj3DPcTOnDUtIr8UJx5acarf5xQ26VhVz$",
-        "https://urldefense.com/v3/__https://10point.cmail20.com/t/d-l-gkthyht-dhhicodi-h/__;!!IBzWLUs!SPCstgc3ATGkQivCr6Qpnsdqf954_P9mfA2ZG_nHSVSC0xuN0anu2N1gb097eegyE4k1q2SKj3DPcTOnDUtIr8UJx5acarf5xU94fhSC$"
-      ],
+      "primary_url": "",
+      "urls": [],
       "category": "finance_macro",
       "priority": "normal",
       "tier": 1,
@@ -277,19 +639,19 @@
       ]
     },
     {
-      "candidate_id": "4291339109b68d27",
+      "candidate_id": "8c86c6d4713d0931",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "The Atlantic",
       "headline": "The parable of the president",
       "snippet": "Plus: Viktor Orb\u00e1n&#39;s loss was also a defeat for MAGA. Monday, April 13, 2026 David A. Graham Staff writer Trump&#39;s criticism of Pope Leo XIV and his sharing of a now-deleted Christlike image of",
-      "primary_url": "https://link.theatlantic.com/click/45181245.528627/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE1OTg3JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTgxMjQ1JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fY2FtcGFpZ249YXRsYW50aWMtZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD0yMDI2MDQxMyZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbA/653d3623bf1c79ace209d577B714ec328",
+      "primary_url": "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D70ea647c-58fa-33b5-a334-12a400052dd8",
       "urls": [
-        "https://link.theatlantic.com/click/45181245.528627/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE1OTg3JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTgxMjQ1JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fY2FtcGFpZ249YXRsYW50aWMtZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD0yMDI2MDQxMyZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbA/653d3623bf1c79ace209d577B714ec328",
-        "https://link.theatlantic.com/click/45181245.528627/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE1OTg3JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTgxMjQ1JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fY2FtcGFpZ249YXRsYW50aWMtZGFpbHktbmV3c2xldHRlciZ1dG1fY29udGVudD0yMDI2MDQxMyZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbA/653d3623bf1c79ace209d577C714ec328",
-        "https://link.theatlantic.com/click/45181245.528627/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE1OTg4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTgxMjQ1JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9c3RhdGljJnV0bV9jYW1wYWlnbj1hdGxhbnRpYy1kYWlseS1uZXdzbGV0dGVyJnV0bV9jb250ZW50PTIwMjYwNDEzJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWls/653d3623bf1c79ace209d577Dfbb8a238",
-        "https://link.theatlantic.com/click/45181245.528627/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE1OTkwJmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTgxMjQ1JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9c3RhdGljJnV0bV9jYW1wYWlnbj1hdGxhbnRpYy1kYWlseS1uZXdzbGV0dGVyJnV0bV9jb250ZW50PTIwMjYwNDEzJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWls/653d3623bf1c79ace209d577E55967076",
-        "https://link.theatlantic.com/click/45181245.528627/aHR0cHM6Ly93d3cudGhlYXRsYW50aWMuY29tL2F1dGhvci9kYXZpZC1hLWdyYWhhbS8_dXRtX2NhbXBhaWduPWF0bGFudGljLWRhaWx5LW5ld3NsZXR0ZXImdXRtX2NvbnRlbnQ9MjAyNjA0MTMmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmbGN0Zz02NTNkMzYyM2JmMWM3OWFjZTIwOWQ1Nzc/653d3623bf1c79ace209d577B83b2cf13"
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D70ea647c-58fa-33b5-a334-12a400052dd8",
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D70ea647c-58fa-33b5-a334-12a400052dd8",
+        "https://www.theatlantic.com/author/david-a-graham?lctg=653d3623bf1c79ace209d577",
+        "https://www.theatlantic.com/author/david-a-graham?lctg=653d3623bf1c79ace209d577",
+        "https://www.theatlantic.com/national-security/2026/04/viktor-orbans-loss-was-also-a-defeat-for-maga/686781?lctg=653d3623bf1c79ace209d577"
       ],
       "category": "broad_curious",
       "priority": "normal",
@@ -305,19 +667,19 @@
       ]
     },
     {
-      "candidate_id": "bf8f127908ebcdfe",
+      "candidate_id": "e437b6adf4149de4",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Biotech",
       "headline": "| 04.13.26 | Regeneron secures radiopharma entry with $2.1B deal; FDA scolds companies for withholding trial results",
       "snippet": "Seaport, Hemab join IPO parade Fierce Biotech PM Tracker A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday, April 21, 2026 | 11am ET",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4b2bcD4CaSwz7LsFD%5Bne%5EkDyPzwf8jONOb",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4b2bcD4CaSwz7LsFD%5Bne%5EkDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4b2bcD4CaSwz8asFD%5Bne%5EkDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4b2bcD4CaSwz8qsFD%5Bne%5EkDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4b2bcD4CaSwz86sFD%5Bne%5EkDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4b2bcD4CaSwz-qsFD%5Bne%5EkDyPzwf8jONOb"
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -339,19 +701,19 @@
       ]
     },
     {
-      "candidate_id": "3f7b5447440d3742",
+      "candidate_id": "ea395ac03d71ef7a",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Bloomberg",
       "headline": "Money Stuff: Prediction Market Making Is Hard",
       "snippet": "Liquidity, resolution, Mythos, concierge. View in browser Bloomberg Prediction market microstructure I write about sports gambling around here more than I used to, because sports gambling has become",
-      "primary_url": "https://links.message.bloomberg.com/s/c/C5c8GLT_-oaoVBu95uZ5Orm_648rKjXCk-HBK0NCbSA86vjE_uR3-7Gc4pRdgxzkOe4MXb91y_zpLAQz8ua6BE4X8SQF7yfWPwOH11-gVbR5sdYMnPz0IsoKIQdF2xnGsdpHS1iyfrVzJoiKl16z_giq5mSPlylND1mOJoKyl-GTuwGCM-KSqe5b6_wrO4RjJm6hToAwPlbkwlRad638iL0nDHe4ssHIZ1VKYdidUGXY-ULcXJqoDK6_QPGRQHVI23ENVtXXHmMBC7TGGZB5fvZmtWIwia-bsdlr8Qt-E_psQ11cHjIZJ0A6E8GtvO_7Kk8jK-k_CVEGYGd0BNnBLy-nJiLBifVzxUSxdym7y0_5JrcCOdlov9ExXw/2iRKRhj_c1Y_2qwVHNWs_NfxPhpQYgoD/19",
+      "primary_url": "https://www.bloomberg.com/opinion/newsletters/2026-04-13/prediction-market-making-is-hard",
       "urls": [
-        "https://links.message.bloomberg.com/s/c/C5c8GLT_-oaoVBu95uZ5Orm_648rKjXCk-HBK0NCbSA86vjE_uR3-7Gc4pRdgxzkOe4MXb91y_zpLAQz8ua6BE4X8SQF7yfWPwOH11-gVbR5sdYMnPz0IsoKIQdF2xnGsdpHS1iyfrVzJoiKl16z_giq5mSPlylND1mOJoKyl-GTuwGCM-KSqe5b6_wrO4RjJm6hToAwPlbkwlRad638iL0nDHe4ssHIZ1VKYdidUGXY-ULcXJqoDK6_QPGRQHVI23ENVtXXHmMBC7TGGZB5fvZmtWIwia-bsdlr8Qt-E_psQ11cHjIZJ0A6E8GtvO_7Kk8jK-k_CVEGYGd0BNnBLy-nJiLBifVzxUSxdym7y0_5JrcCOdlov9ExXw/2iRKRhj_c1Y_2qwVHNWs_NfxPhpQYgoD/19",
-        "https://links.message.bloomberg.com/s/c/bCl7Q5aZccwheesQlB2RYfdNw4WpTerdOVQLkpT8FXM7ZMRXp3BlndE24HmgndS0hsrXnsgA8xOj2_2Dq-apEg-MUYa64fk-uumM7_I4ZDewbN68oLJW7v51PnOCTCuPIHOouSB-itnrSCWNFGLXSR7VKkxUFwjHCMlMIigPuGxLUpHt6yqDYO3G3qORHqoz05QX_kEeFJfIRNIjd_eGOswT7ZgqwGHFpxAElz1IIp2IBttdVC1TqfNg7yYagfda6_OrjJmGDIMyvH3ZWh0FQSkhWUtoXbH4bCcuvrTuyJbvzsF2dYwMZXDRyihgJHds5B15k-_oSmjKsvtbSDgZJNBIIopLWdeujtxF0C9ymBu32Ygfs4SOVGPfgQ/vv2tgTLWpokAN5sDmxI-Jt2U1nfXeMxe/19",
-        "https://links.message.bloomberg.com/s/c/nD3sg0-JVEJZyBdOTCuLSjv_nMaBfH5avyq1UPVX-0PrZP3nyfzmOPa6HJZ-wlorO1CSY3Vxy7VdOg4ZszoYUbeDTyJ8XV6Tn1rEc5RCuFb7pfeBSTtKaMqw2REHqVGr-QQXKb40dm-XRAgnvlXSE0YdE7Ul1TsmhFTJabJQV3TYOcVk7erszzKVZRsJJ2V_mROg8zmdXEHfzbkACjqWks8P85jhI1LRR558J0u5_F-gPgwsu2RcpWM37ZRd1ucJhZPbuCmeEb5PLGNOISSGSGC-SKxCPkGQpKQlBaxTMF7fuxdUlwi43GdHtsZYjYOTj9v-0K32QKL08pGQTabunq6pqrYflb_vzXlo4BFyZO-QOWFkVU_XU67orSrgoe-Pev_PpBHKi9KS01VFkZiejVWSTW7C_rIFvVKvz-XpvDDPS0lpCyAbFg8j2LPDo82mqzjyylx8Xy0ubM8MXwudxFvfFsmseLXfZ9knW0D9Y6wUvklzL8i4Kma63FQuq3dHzDMqGrVHLH-fvzv2pD1aBOeI3W9aochSHeHhsH0SZP3oco-CepxHRBwAGFV9sWtFnDAX1trsVvPaT5469YSYZ6kHsYSTkIwf5QEOtW82yHoEZty7j-y-NwUMl0Cm2n7hWfwVST1hgp2D0_1IeOdx4eB7eMfG-vWBXxicO6k3fJDpUSw6Z4bWrm3lnVUQ6l4/ZR3dzBLwVp-qmv5zslUWMT-V0zvVPG4n/19",
-        "https://links.message.bloomberg.com/s/c/aVH2J_v5sieANTgPtjROgnhK1kRqTq5WoIiQwyi0Q1HMr-lvFWr4eU1_68P5qe6x5IGx8W3hE9jtpFZke6lJ_mc9vQhTelR8ft1H5EYQJSFuq_w998zFA7oaiyDQ715qpLPyhWPTB551RpGoc6a33MaPmdDzY9aCZUdy99htwYavxVvu0Ol6ip73eF8GlHK-ISdd4jYtUSc5bKWZaVe-K6tVNqEK8xZ3WXZZ1fwHTEuzZ8DrEhSSIgmVWPOghMDv2mBuexUvMGkJYQQxonwDwGQvrx0FpDiHw6FCVup9WpBN8sSoQan7bazUxVmyKo-sPue1nzBKklKYIOl6_ul1VO_DrhX_f36umRkQi44INHKWf_NdJX_ZgzS5DbeXauQv_pqVi3ZWW6jngvvsTOWka1SNIMO3K-ehLroettLN8SBoGTvnEm91LSdNZY2as85KxzuNyRlxPUlGhP5LkIc49gYYeDUdVIfk5B0AXbNzoAzwA6scOm-shWiu4Xc_j8FLKgiSIAArnPwLZBvqQXLSNR2e0xlahasL0Wdr-0JhO8gL9FCjn5SqjHKdg3nraSVW8GzsTl5890VL3hHzhC9LbIZX0ddPl_vHbAqqwYRjIXATakppgywDgkoI59d5UMRvfLcwuSWJYsRI_eNjLyQNGSXAaGJ6EDjXhZBOZKq15utC7TmG4pdKIHBndfrSZYo/08UAxNx8b-HGr-lrE4rCCEd8nFH3T94_/19",
-        "https://links.message.bloomberg.com/s/c/LioiCK4vvnWdp7r0SDk25hnv3bzmGJF7VnqIaGrvoIPTWnD9rF5qirpNjo4n-OWx_dpV0XbzALtjN65OusOoAbuZ5sRFFWCd7MefmOjAccTFl3ZVXxk_9cht8_39MAEmQzI9s3iSvm1Nv-Fsc8RVwR03CJEvLhpYqP2EBxBpxMQ8BSe_sJyMSrAE8dgJGrS8KRrOricwX4kE96lDkUswSs3XpTgqASzPeZBGbkYFnQ8PVKEkisp7x3L2aSnLQnzSaE-AbFohCDc1052fRD3LKJW57sjKGE0V0qvoUf4eaVShind2CLSf_BL6UQTQUKI-OYThqiQgjFFIej52tQwK6BIdabVU8ItxexqE7bCefQnZad_GfCfv50k4kA/XdhbaNFCsEcSvSLSdlFXanXGFToX3VPV/19"
+        "https://www.bloomberg.com/opinion/newsletters/2026-04-13/prediction-market-making-is-hard",
+        "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
+        "https://www.bloomberg.com/opinion/articles/2021-02-05/robinhood-gamestop-saga-pressures-payment-for-order-flow",
+        "https://www.bloomberg.com/opinion/articles/2024-02-20/bill-ackman-s-stocks-went-up",
+        "https://www.bloomberg.com/opinion/articles/2025-01-29/openai-doesn-t-want-ai-cheaters"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -367,19 +729,19 @@
       ]
     },
     {
-      "candidate_id": "8a55dfdc3cb4ff56",
+      "candidate_id": "ae185be9a33c882d",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Biotech",
       "headline": "| 04.13.26 | Regeneron enters radiopharma with $2.1B Telix deal; Seaport, Hemab eye IPOs",
       "snippet": "GSK CEO&#39;s &#39;courage&#39; fuels bold ADC strategy Fierce Biotech A message from JobsOhio Today&#39;s Big News Apr 13, 2026 Regeneron rides into radiopharma via $2.1B biobucks pact with",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c-bcD6zaSwjw6sF-QoEmkE8PS-S69PPSd",
+      "primary_url": "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c-bcD6zaSwjw6sF-QoEmkE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c-bcD6zaSwjyqsF-QoEd",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c-bcD6zaSwjy6sF-QoEd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c-bcD6zaSwjyLsF-QoEmkE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c-bcD6zaSwjzasF-QoEmkE8PS-S69PPSd"
+        "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix",
+        "https://www.fiercebiotech.com/biotech/seaport-prepares-ipo-voyage-fund-depression-drugs-journey-phase-3",
+        "https://www.fiercebiotech.com/biotech/gsk-ceos-scientific-courage-propels-plans-medley-phase-3-trials-adc",
+        "https://www.fiercebiotech.com/biotech/allogenes-shelf-car-t-erases-lingering-lymphoma-cells-key-early-win",
+        "https://www.fiercebiotech.com/biotech/ideaya-sees-clear-path-fda-servier-partnered-eye-cancer-drug-hits-goal"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -400,19 +762,19 @@
       ]
     },
     {
-      "candidate_id": "2c0c827848dbbb06",
+      "candidate_id": "25c6c08346e60255",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Morning Brew",
       "headline": "\u2615 Local focals",
       "snippet": "Why marketing localization matters for brands. April 13, 2026 View Online | Sign Up | Shop Retail Brew Presented By Sponsor Logo: Impact.com It&#39;s a warm Monday in Gotham, and we bring news that",
-      "primary_url": "https://links.morningbrew.com/c/O0B?mbcid=45177067.25775&mid=3af1b8d55084da630b7f4a7b9a9edf17&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8",
+      "primary_url": "https://www.retailbrew.com/issues/local-focals?mbcid=45177067.25775&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
       "urls": [
-        "https://links.morningbrew.com/c/O0B?mbcid=45177067.25775&mid=3af1b8d55084da630b7f4a7b9a9edf17&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8",
-        "https://links.morningbrew.com/c/BK9?kid=357c21&mbcid=45177067.25775&mid=3af1b8d55084da630b7f4a7b9a9edf17&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8",
-        "https://links.morningbrew.com/c/EtL?mbcid=45177067.25775&mid=3af1b8d55084da630b7f4a7b9a9edf17&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8",
-        "https://links.morningbrew.com/c/ic?mbcid=45177067.25775&mid=3af1b8d55084da630b7f4a7b9a9edf17&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8",
-        "https://links.morningbrew.com/c/NUq?lp=logo&mbadid=a31645da489cae39f1df4e02604e1a3c&mbadv=a&mbcid=45177067.25775&mid=3af1b8d55084da630b7f4a7b9a9edf17&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8"
+        "https://www.retailbrew.com/issues/local-focals?mbcid=45177067.25775&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.retailbrew.com/subscribe?kid=357c21&mbcid=45177067.25775&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://impact.com/case-studies/yamazaki-home-affa-csb-imp-ev-nam",
+        "https://www.retailbrew.com/stories/how-marketing-localization-wins-customers-avoids-gaffes?mbcid=45177067.25775&mblid=322e28ed2339&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.retailbrew.com/stories/2026/04/13/consumer-sentiment-plunges-as-prices-spike?mbcid=45177067.25775&mblid=71c3a2ea1ded&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -428,19 +790,19 @@
       ]
     },
     {
-      "candidate_id": "11c680da456a2b6b",
+      "candidate_id": "20902d16af8be0f6",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Pharma",
       "headline": "| 04.13.26 | Lilly's Jaypirca shows out in 'ambitious' CLL study; CDC vaccine group amps up safety scrutiny",
       "snippet": "Regeneron taps Telix in vast radiopharma collab Fierce Pharma A message from ZS Today&#39;s Big News Apr 13, 2026 Lilly&#39;s Jaypirca shows fixed-duration power in &#39;ambitious&#39; phase 3 CLL",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c6bcD6yaSw%7CBqsF8h%5EO2kE8PS-S69PPSd",
+      "primary_url": "https://www.zs.com/about/innovation-that-matters?adposition=x30",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c6bcD6yaSw%7CBqsF8h%5EO2kE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c6bcD6yaSw%7CB6sF8h%5EOh",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c6bcD6yaSw%7CDqsF8h%5EOh",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c6bcD6yaSw%7CD6sF8h%5EO2kE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c6bcD6yaSw%7CDLsF8h%5EO2kE8PS-S69PPSd"
+        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+        "https://www.fiercepharma.com/pharma/lillys-jaypirca-shows-fixed-duration-power-ambitious-phase-3-cll-trial-win",
+        "https://www.fiercepharma.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety",
+        "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -550,19 +912,19 @@
       ]
     },
     {
-      "candidate_id": "dd9cca9ec3953f78",
+      "candidate_id": "7b7ff1cca334dae3",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Biotech",
       "headline": "| 04.13.26 | Medline hit with FDA warning over heart syringe defects ; Philips recalls Trilogy Evo ventilator software",
       "snippet": "Boehringer, Click rejig digital therapeutic sales pact Fierce Biotech MedTech A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday,",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwboasF2PAz2kDyPzwf8jONOb",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwboasF2PAz2kDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwboqsF2PAz2kDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwbo6sF2PAz2kDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwbqqsF2PAz2kDyPzwf8jONOb",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwbq6sF2PAz2kDyPzwf8jONOb"
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -584,19 +946,19 @@
       ]
     },
     {
-      "candidate_id": "fa4064070ee6a5f0",
+      "candidate_id": "7b7ff1cca334dae3",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Biotech",
       "headline": "| 04.13.26 | Medline hit with FDA warning over heart syringe defects ; Philips recalls Trilogy Evo ventilator software",
       "snippet": "Boehringer, Click rejig digital therapeutic sales pact Fierce Biotech MedTech A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday,",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwboasF2MwvekE8PS-S69PPSd",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwboasF2MwvekE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwboqsF2MwvekE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwbo6sF2MwvekE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwbqqsF2MwvekE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c2bcD6xaSwbq6sF2MwvekE8PS-S69PPSd"
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -618,19 +980,19 @@
       ]
     },
     {
-      "candidate_id": "e394751ea316bdfe",
+      "candidate_id": "f3767da615359235",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "Fierce Pharma",
       "headline": "| 04.13.26 | Amneal, BioCorRx hit with FDA drug promotion warnings; Novartis boosts community health footprint",
       "snippet": "Bial launches &#39;Dialogues with Parkinson&#39;s&#39; campaign Fierce Pharma Pharma Marketing A message from PharmaForceIQ No overpromising or endless analysis Orchestrate digital + field in one",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c%7CbcD6saSvV3LsF3b7S%5EkE8PS-S69PPSd",
+      "primary_url": "https://pharmaforceiq.com/platform?adposition=x30",
       "urls": [
-        "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4c%7CbcD6saSvV3LsF3b7S%5EkE8PS-S69PPSd",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c%7CbcD6saSvV4asF3b7Sf",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c%7CbcD6saSvV4qsF3b7Sf",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c%7CbcD6saSvV46sF3b7Sf",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4c%7CbcD6saSvV6qsF3b7Sf"
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://www.fiercepharma.com/marketing/fda-accuses-amneal-biocorrx-false-and-misleading-promotions"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -652,19 +1014,19 @@
       ]
     },
     {
-      "candidate_id": "395512a2876dc486",
+      "candidate_id": "59bbdbb7da55a406",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "The Atlantic",
       "headline": "Today's stories: Illiberalism Is Not Inevitable",
       "snippet": "Five of our new and most read stories for today. Apr 13, 2026 A selection of recent and most read stories from The Atlantic to start your day Support fearless independent journalism and give unlimited",
-      "primary_url": "https://link.theatlantic.com/click/45174468.217870/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTc0NDY4JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljLWFt/653d3623bf1c79ace209d577Bc1ddc6f7",
+      "primary_url": "https://us.macmillan.com/books/9780374618599/transcription?li_did=60c98c8a-8e40-36b8-81d0-739710b46a40",
       "urls": [
-        "https://link.theatlantic.com/click/45174468.217870/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTc0NDY4JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljLWFt/653d3623bf1c79ace209d577Bc1ddc6f7",
-        "https://link.theatlantic.com/click/45174468.217870/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk4JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTc0NDY4JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9ZGVmYXVsdCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljLWFt/653d3623bf1c79ace209d577Cc1ddc6f7",
-        "https://link.theatlantic.com/click/45174468.217870/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NDk5JmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTc0NDY4JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9c3RhdGljJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj10aGUtYXRsYW50aWMtYW0/653d3623bf1c79ace209d577D0699ef0c",
-        "https://link.theatlantic.com/click/45174468.217870/aHR0cHM6Ly9zbGkudGhlYXRsYW50aWMuY29tL2NsaWNrP3M9OTE2NTAxJmxpPSZlPWpyb3lwZXRlcnNvbiU0MGdtYWlsLmNvbSZwPTQ1MTc0NDY4JmxjdGc9NjUzZDM2MjNiZjFjNzlhY2UyMDlkNTc3JnN0cGU9c3RhdGljJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj10aGUtYXRsYW50aWMtYW0/653d3623bf1c79ace209d577E70873309",
-        "https://link.theatlantic.com/click/45174468.217870/aHR0cHM6Ly9hY2NvdW50cy50aGVhdGxhbnRpYy5jb20vcHJvZHVjdHMvZ2lmdD91dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX21lZGl1bT1jciZ1dG1fY2FtcGFpZ249ZXZlcmdyZWVuX2FkJnV0bV9jb250ZW50PWF0bGFudGljQU0/653d3623bf1c79ace209d577B2878921a"
+        "https://us.macmillan.com/books/9780374618599/transcription?li_did=60c98c8a-8e40-36b8-81d0-739710b46a40",
+        "https://us.macmillan.com/books/9780374618599/transcription?li_did=60c98c8a-8e40-36b8-81d0-739710b46a40",
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D60c98c8a-8e40-36b8-81d0-739710b46a40",
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D60c98c8a-8e40-36b8-81d0-739710b46a40",
+        "https://accounts.theatlantic.com/products/gift"
       ],
       "category": "broad_curious",
       "priority": "normal",
@@ -711,19 +1073,19 @@
       ]
     },
     {
-      "candidate_id": "30187016d08d5c0e",
+      "candidate_id": "2c49f0f888178eda",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "WSJ Newsletters",
       "headline": "\u26be Markets A.M.: Fund Managers Tell Tall Tales",
       "snippet": "On their tippy toes Is this email difficult to read? View in browser The Wall Street Journal The Wall Street Journal Markets AM Sponsored by Sponsored Logo Fund Managers Tell Tall Tales Plus, Hormuz",
-      "primary_url": "https://trk.wsj.com/view/69651b3835d2bc3467bd2e0fqw7tp.7brq/5fde2754",
+      "primary_url": "https://www.wsj.com/finance/investing/fund-managers-tell-tall-tales-9aebff32?mod=djemMarketsAM",
       "urls": [
-        "https://trk.wsj.com/view/69651b3835d2bc3467bd2e0fqw7tp.7brq/5fde2754",
-        "https://trk.wsj.com/click/45173149.341846/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9mdW5kLW1hbmFnZXJzLXRlbGwtdGFsbC10YWxlcy05YWViZmYzMj9tb2Q9ZGplbU1hcmtldHNBTQ/69651b3835d2bc3467bd2e0fB9632df2b",
-        "https://trk.wsj.com/click/45173149.341846/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy9mdW5kLW1hbmFnZXJzLXRlbGwtdGFsbC10YWxlcy05YWViZmYzMj9tb2Q9ZGplbU1hcmtldHNBTQ/69651b3835d2bc3467bd2e0fC9632df2b",
-        "https://trk.wsj.com/click/45173149.341846/aHR0cDovL3B1YmFkcy5nLmRvdWJsZWNsaWNrLm5ldC9nYW1wYWQvY2xrP2lkPTcyNzc5ODU1MTImaXU9LzI/69651b3835d2bc3467bd2e0fBfc65dd65",
-        "https://trk.wsj.com/click/45173149.341846/aHR0cDovL3B1YmFkcy5nLmRvdWJsZWNsaWNrLm5ldC9nYW1wYWQvY2xrP2lkPTcyNzc5ODU1MTImaXU9LzI/69651b3835d2bc3467bd2e0fCfc65dd65"
+        "https://www.wsj.com/finance/investing/fund-managers-tell-tall-tales-9aebff32?mod=djemMarketsAM",
+        "https://www.wsj.com/finance/investing/fund-managers-tell-tall-tales-9aebff32?mod=djemMarketsAM",
+        "https://www.apollo.com/strategies/asset-management/credit/investment-grade-private-credit",
+        "https://www.apollo.com/strategies/asset-management/credit/investment-grade-private-credit",
+        "https://www.wsj.com/finance/investing/fund-managers-tell-tall-tales-9aebff32?mod=djemMarketsAM"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -738,20 +1100,14 @@
       ]
     },
     {
-      "candidate_id": "3358c217a659e087",
+      "candidate_id": "4b892125ef7f68b5",
       "run_date": "2026-04-14",
       "source_type": "gmail",
       "source_name": "WSJ Newsletters",
       "headline": "The 10-Point: America\u2019s Risky New Tax Mantra",
       "snippet": "Your guide to the WSJ&#39;s exclusive reporting and analysis. \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
-      "primary_url": "https://urldefense.com/v3/__https://10point.cmail19.com/t/d-e-gktzkk-dhhicodi-r/__;!!IBzWLUs!UQjDvVsoGLufziun02ELmndB2C4m-ePctDwENz5pxothHa0Ds5KO2t1bmxe5NnlA4xfKWS0EMxHks2qegdZxKUNaBDPBypBObhMawlkZ$",
-      "urls": [
-        "https://urldefense.com/v3/__https://10point.cmail19.com/t/d-e-gktzkk-dhhicodi-r/__;!!IBzWLUs!UQjDvVsoGLufziun02ELmndB2C4m-ePctDwENz5pxothHa0Ds5KO2t1bmxe5NnlA4xfKWS0EMxHks2qegdZxKUNaBDPBypBObhMawlkZ$",
-        "https://urldefense.com/v3/__https://10point.cmail19.com/t/d-l-gktzkk-dhhicodi-j/__;!!IBzWLUs!UQjDvVsoGLufziun02ELmndB2C4m-ePctDwENz5pxothHa0Ds5KO2t1bmxe5NnlA4xfKWS0EMxHks2qegdZxKUNaBDPBypBObgINnPHA$",
-        "https://urldefense.com/v3/__https://10point.cmail19.com/t/d-l-gktzkk-dhhicodi-t/__;!!IBzWLUs!UQjDvVsoGLufziun02ELmndB2C4m-ePctDwENz5pxothHa0Ds5KO2t1bmxe5NnlA4xfKWS0EMxHks2qegdZxKUNaBDPBypBObpJ6U66Y$",
-        "https://urldefense.com/v3/__https://10point.cmail19.com/t/d-l-gktzkk-dhhicodi-i/__;!!IBzWLUs!UQjDvVsoGLufziun02ELmndB2C4m-ePctDwENz5pxothHa0Ds5KO2t1bmxe5NnlA4xfKWS0EMxHks2qegdZxKUNaBDPBypBObpSxqOMZ$",
-        "https://urldefense.com/v3/__https://10point.cmail19.com/t/d-l-gktzkk-dhhicodi-h/__;!!IBzWLUs!UQjDvVsoGLufziun02ELmndB2C4m-ePctDwENz5pxothHa0Ds5KO2t1bmxe5NnlA4xfKWS0EMxHks2qegdZxKUNaBDPBypBObgPbmn_R$"
-      ],
+      "primary_url": "",
+      "urls": [],
       "category": "finance_macro",
       "priority": "normal",
       "tier": 1,
@@ -828,12 +1184,404 @@
   ],
   "tier2_candidates": [
     {
+      "candidate_id": "02defde7c33a8ff0",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Claude Code Routines",
+      "snippet": "Claude Code Routines",
+      "primary_url": "https://code.claude.com/docs/en/routines",
+      "urls": [
+        "https://code.claude.com/docs/en/routines"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 293,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:293",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "7407da2c97c347fc",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Rare concert recordings are landing on the Internet Archive",
+      "snippet": "Rare concert recordings are landing on the Internet Archive",
+      "primary_url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+      "urls": [
+        "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 449,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:449",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:RARE"
+      ]
+    },
+    {
+      "candidate_id": "60b45753a663d2b0",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Trusted access for the next era of cyber defense",
+      "snippet": "Trusted access for the next era of cyber defense",
+      "primary_url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "urls": [
+        "https://openai.com/index/scaling-trusted-access-for-cyber-defense/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 37,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:37",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "919d9c970860c733",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The Orange Pi 6 Plus",
+      "snippet": "The Orange Pi 6 Plus",
+      "primary_url": "https://taoofmac.com/space/reviews/2026/04/11/1900",
+      "urls": [
+        "https://taoofmac.com/space/reviews/2026/04/11/1900"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 73,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:73",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "3ce58b63359f3d35",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "5NF and Database Design",
+      "snippet": "5NF and Database Design",
+      "primary_url": "https://kb.databasedesignbook.com/posts/5nf/",
+      "urls": [
+        "https://kb.databasedesignbook.com/posts/5nf/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 106,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:106",
+        "category:tech_ai",
+        "ticker:DSGN"
+      ]
+    },
+    {
+      "candidate_id": "68388f68d7a534db",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Turn your best AI prompts into one-click tools in Chrome",
+      "snippet": "Turn your best AI prompts into one-click tools in Chrome",
+      "primary_url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "urls": [
+        "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 68,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:68",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "28d0f698d27682f2",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+      "snippet": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+      "primary_url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
+      "urls": [
+        "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 416,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:416",
+        "category:tech_ai",
+        "ticker:OPT"
+      ]
+    },
+    {
+      "candidate_id": "1c5e399737a45700",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Let's talk space toilets",
+      "snippet": "Let's talk space toilets",
+      "primary_url": "https://mceglowski.substack.com/p/lets-talk-space-toilets",
+      "urls": [
+        "https://mceglowski.substack.com/p/lets-talk-space-toilets"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 106,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:106",
+        "category:tech_ai",
+        "ticker:TALK",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "97a4291b00fc1457",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "guide.world: A compendium of travel guides",
+      "snippet": "guide.world: A compendium of travel guides",
+      "primary_url": "https://guide.world/",
+      "urls": [
+        "https://guide.world/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 47,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:47",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "eb9bf343cf6fb09b",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "The dangers of California's legislation to censor 3D printing",
+      "snippet": "The dangers of California's legislation to censor 3D printing",
+      "primary_url": "https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing",
+      "urls": [
+        "https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 90,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:90",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "f565715ac548299e",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Show HN: Plain \u2013 The full-stack Python framework designed for humans and agents",
+      "snippet": "Show HN: Plain \u2013 The full-stack Python framework designed for humans and agents",
+      "primary_url": "https://github.com/dropseed/plain",
+      "urls": [
+        "https://github.com/dropseed/plain"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 42,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:42",
+        "category:tech_ai",
+        "ticker:DSGN"
+      ]
+    },
+    {
+      "candidate_id": "58fce153690203af",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "OpenSSL 4.0.0",
+      "snippet": "OpenSSL 4.0.0",
+      "primary_url": "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0",
+      "urls": [
+        "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 155,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:155",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "855626c75adb611c",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Troubleshooting Email Delivery to Microsoft Users",
+      "snippet": "Troubleshooting Email Delivery to Microsoft Users",
+      "primary_url": "https://rozumem.xyz/posts/14",
+      "urls": [
+        "https://rozumem.xyz/posts/14"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 18,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:18",
+        "category:tech_ai",
+        "ticker:MSFT"
+      ]
+    },
+    {
+      "candidate_id": "31e4ab25b72a6d36",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Show HN: LangAlpha \u2013 what if Claude Code was built for Wall Street?",
+      "snippet": "Show HN: LangAlpha \u2013 what if Claude Code was built for Wall Street?",
+      "primary_url": "https://github.com/ginlix-ai/langalpha",
+      "urls": [
+        "https://github.com/ginlix-ai/langalpha"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 84,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:84",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "5782826693207b33",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Backblaze has stopped backing up OneDrive and Dropbox folders and maybe others",
+      "snippet": "Backblaze has stopped backing up OneDrive and Dropbox folders and maybe others",
+      "primary_url": "https://rareese.com/posts/backblaze/",
+      "urls": [
+        "https://rareese.com/posts/backblaze/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 884,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:884",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "4e4df1036acb0f04",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Responsive images in Hugo using Render Hooks",
+      "snippet": "Responsive images in Hugo using Render Hooks",
+      "primary_url": "https://mijndertstuij.nl/posts/hugo-responsive-images-using-render-hooks/",
+      "urls": [
+        "https://mijndertstuij.nl/posts/hugo-responsive-images-using-render-hooks/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 5,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:5",
+        "category:tech_ai"
+      ]
+    },
+    {
       "candidate_id": "93ba7bb6cf518d8d",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "What is jj and why should I care?",
-      "snippet": "What is jj and why should I care?",
+      "headline": "jj \u2013 the CLI for Jujutsu",
+      "snippet": "jj \u2013 the CLI for Jujutsu",
       "primary_url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
       "urls": [
         "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html"
@@ -841,14 +1589,136 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 103,
+      "score": 463,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:103",
+        "hn_score:463",
         "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "3f724a4d9e4ea6ad",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Gas Town: From Clown Show to v1.0",
+      "snippet": "Gas Town: From Clown Show to v1.0",
+      "primary_url": "https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec",
+      "urls": [
+        "https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 56,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:56",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "5148cfacec74789c",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Show HN: A memory database that forgets, consolidates, and detects contradiction",
+      "snippet": "Show HN: A memory database that forgets, consolidates, and detects contradiction",
+      "primary_url": "https://github.com/yantrikos/yantrikdb-server",
+      "urls": [
+        "https://github.com/yantrikos/yantrikdb-server"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 43,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:43",
+        "category:tech_ai",
+        "ticker:SLDB"
+      ]
+    },
+    {
+      "candidate_id": "d7eab2ded714839c",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Introspective Diffusion Language Models",
+      "snippet": "Introspective Diffusion Language Models",
+      "primary_url": "https://introspective-diffusion.github.io/",
+      "urls": [
+        "https://introspective-diffusion.github.io/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 213,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:213",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "37225639b523f19f",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Carol's Causal Conundrum: a zine intro to causally ordered message delivery",
+      "snippet": "Carol's Causal Conundrum: a zine intro to causally ordered message delivery",
+      "primary_url": "https://decomposition.al/zines/",
+      "urls": [
+        "https://decomposition.al/zines/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 38,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:38",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "bdaaac8794af5b0a",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "YouTube now world's largest media company, topping Disney",
+      "snippet": "YouTube now world's largest media company, topping Disney",
+      "primary_url": "https://www.hollywoodreporter.com/business/digital/youtube-worlds-largest-media-company-2025-tops-disney-1236525130/",
+      "urls": [
+        "https://www.hollywoodreporter.com/business/digital/youtube-worlds-largest-media-company-2025-tops-disney-1236525130/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 232,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:232",
+        "category:tech_ai",
+        "ticker:NOW"
       ]
     },
     {
@@ -865,37 +1735,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 723,
+      "score": 1027,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:723",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "11f78a57e172ced9",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "NimConf 2026: Dates Announced, Registrations Open",
-      "snippet": "NimConf 2026: Dates Announced, Registrations Open",
-      "primary_url": "https://nim-lang.org/blog/2026/04/07/nimconf-2026.html",
-      "urls": [
-        "https://nim-lang.org/blog/2026/04/07/nimconf-2026.html"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 34,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:34",
+        "hn_score:1027",
         "category:tech_ai"
       ]
     },
@@ -913,182 +1759,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 495,
+      "score": 806,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:495",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "5782826693207b33",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Backblaze has stopped backing up your data",
-      "snippet": "Backblaze has stopped backing up your data",
-      "primary_url": "https://rareese.com/posts/backblaze/",
-      "urls": [
-        "https://rareese.com/posts/backblaze/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 346,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:346",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "30da7cd0a0d9d6c3",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Someone bought 30 WordPress plugins and planted a backdoor in all of them",
-      "snippet": "Someone bought 30 WordPress plugins and planted a backdoor in all of them",
-      "primary_url": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
-      "urls": [
-        "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 1029,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:1029",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "d7eab2ded714839c",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Introspective Diffusion Language Models",
-      "snippet": "Introspective Diffusion Language Models",
-      "primary_url": "https://introspective-diffusion.github.io/",
-      "urls": [
-        "https://introspective-diffusion.github.io/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 98,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:98",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "6bd6f7079e75adf8",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "GitHub Stacked PRs",
-      "snippet": "GitHub Stacked PRs",
-      "primary_url": "https://github.github.com/gh-stack/",
-      "urls": [
-        "https://github.github.com/gh-stack/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 768,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:768",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "5c824f940677c697",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Franklin's bad ads for Apple ][ clones and the beloved impersonator they depict",
-      "snippet": "Franklin's bad ads for Apple ][ clones and the beloved impersonator they depict",
-      "primary_url": "https://buttondown.com/suchbadtechads/archive/franklin-ace-1000/",
-      "urls": [
-        "https://buttondown.com/suchbadtechads/archive/franklin-ace-1000/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 49,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:49",
-        "category:tech_ai",
-        "ticker:AAPL"
-      ]
-    },
-    {
-      "candidate_id": "f6c8a142e238d582",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Distributed DuckDB Instance",
-      "snippet": "Distributed DuckDB Instance",
-      "primary_url": "https://github.com/citguru/openduck",
-      "urls": [
-        "https://github.com/citguru/openduck"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 91,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:91",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "e4567b28757566ba",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Ransomware Is Growing Three Times Faster Than the Spending Meant to Stop It",
-      "snippet": "Ransomware Is Growing Three Times Faster Than the Spending Meant to Stop It",
-      "primary_url": "https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025",
-      "urls": [
-        "https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 37,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:37",
+        "hn_score:806",
         "category:tech_ai"
       ]
     },
@@ -1106,13 +1783,37 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 28,
+      "score": 120,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:28",
+        "hn_score:120",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "cae3a5df0b06f744",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Free, fast diagnostic tools for DNS, email authentication, and network security",
+      "snippet": "Free, fast diagnostic tools for DNS, email authentication, and network security",
+      "primary_url": "https://mrdns.com/",
+      "urls": [
+        "https://mrdns.com/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 3,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:3",
         "category:tech_ai"
       ]
     },
@@ -1130,74 +1831,50 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 295,
+      "score": 373,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:295",
+        "hn_score:373",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "222c8ffbbde30140",
+      "candidate_id": "f47bb46db40a67b9",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "The Great Majority: Body Snatching and Burial Reform in 19th-Century Britain",
-      "snippet": "The Great Majority: Body Snatching and Burial Reform in 19th-Century Britain",
-      "primary_url": "https://publicdomainreview.org/essay/the-great-majority/",
+      "headline": "Nucleus Nouns",
+      "snippet": "Nucleus Nouns",
+      "primary_url": "https://ben-mini.com/2026/nucleus-nouns",
       "urls": [
-        "https://publicdomainreview.org/essay/the-great-majority/"
+        "https://ben-mini.com/2026/nucleus-nouns"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 8,
+      "score": 54,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:8",
+        "hn_score:54",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "046755c7d47358ef",
+      "candidate_id": "419b88afda81e782",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "WiiFin \u2013 Jellyfin Client for Nintendo Wii",
-      "snippet": "WiiFin \u2013 Jellyfin Client for Nintendo Wii",
-      "primary_url": "https://github.com/fabienmillet/WiiFin",
+      "headline": "The Mouse Programming Language on CP/M (2020)",
+      "snippet": "The Mouse Programming Language on CP/M (2020)",
+      "primary_url": "https://techtinkering.com/articles/the-mouse-programming-language-on-cpm/",
       "urls": [
-        "https://github.com/fabienmillet/WiiFin"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 186,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:186",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "39fd31ac7f86f00d",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
-      "snippet": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
-      "primary_url": "https://github.com/lasect/pg_6502",
-      "urls": [
-        "https://github.com/lasect/pg_6502"
+        "https://techtinkering.com/articles/the-mouse-programming-language-on-cpm/"
       ],
       "category": "tech_ai",
       "priority": "normal",
@@ -1210,324 +1887,7 @@
         "source_type:tier2",
         "hn_score:42",
         "category:tech_ai",
-        "ticker:TECH",
-        "subsector:Tools"
-      ]
-    },
-    {
-      "candidate_id": "185c696be5cb249c",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Multi-Agentic Software Development Is a Distributed Systems Problem",
-      "snippet": "Multi-Agentic Software Development Is a Distributed Systems Problem",
-      "primary_url": "https://kirancodes.me/posts/log-distributed-llms.html",
-      "urls": [
-        "https://kirancodes.me/posts/log-distributed-llms.html"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 57,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:57",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "f2dedd075503876d",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "A soft robot has no problem moving with no motor and no gears",
-      "snippet": "A soft robot has no problem moving with no motor and no gears",
-      "primary_url": "https://engineering.princeton.edu/news/2026/04/08/soft-robot-has-no-problem-moving-no-motor-and-no-gears",
-      "urls": [
-        "https://engineering.princeton.edu/news/2026/04/08/soft-robot-has-no-problem-moving-no-motor-and-no-gears"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 45,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:45",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "5cf82c2888e71393",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
-      "snippet": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
-      "primary_url": "https://github.com/sterlingcrispin/nothing-ever-happens",
-      "urls": [
-        "https://github.com/sterlingcrispin/nothing-ever-happens"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 443,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:443",
-        "category:tech_ai",
-        "ticker:BOT"
-      ]
-    },
-    {
-      "candidate_id": "bcc5216cd8eb5abd",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "US appeals court declares 158-year-old home distilling ban unconstitutional",
-      "snippet": "US appeals court declares 158-year-old home distilling ban unconstitutional",
-      "primary_url": "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/",
-      "urls": [
-        "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 408,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:408",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "a24eb3b73336ea77",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Design and implementation of DuckDB internals",
-      "snippet": "Design and implementation of DuckDB internals",
-      "primary_url": "https://duckdb.org/library/design-and-implementation-of-duckdb-internals/",
-      "urls": [
-        "https://duckdb.org/library/design-and-implementation-of-duckdb-internals/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 145,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:145",
-        "category:tech_ai",
-        "ticker:DSGN"
-      ]
-    },
-    {
-      "candidate_id": "806b53aaafefccec",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Lumina \u2013 a statically typed web-native language for JavaScript and WASM",
-      "snippet": "Lumina \u2013 a statically typed web-native language for JavaScript and WASM",
-      "primary_url": "https://github.com/nyigoro/lumina-lang",
-      "urls": [
-        "https://github.com/nyigoro/lumina-lang"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 25,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:25",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "f9712b5e02c98932",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The Case Against Gameplay Loops",
-      "snippet": "The Case Against Gameplay Loops",
-      "primary_url": "https://blog.joeyschutz.com/the-case-against-gameplay-loops/",
-      "urls": [
-        "https://blog.joeyschutz.com/the-case-against-gameplay-loops/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 4,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:4",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "36914354893ffe1b",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Rust Threads on the GPU",
-      "snippet": "Rust Threads on the GPU",
-      "primary_url": "https://www.vectorware.com/blog/threads-on-gpu/",
-      "urls": [
-        "https://www.vectorware.com/blog/threads-on-gpu/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 91,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:91",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "9f6fb59393fd6360",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "The secrets of the Shinkansen",
-      "snippet": "The secrets of the Shinkansen",
-      "primary_url": "https://www.worksinprogress.news/p/the-secret-behind-japans-railways",
-      "urls": [
-        "https://www.worksinprogress.news/p/the-secret-behind-japans-railways"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 122,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:122",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "e412e0c66bc59d2c",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Write less code, be more responsible",
-      "snippet": "Write less code, be more responsible",
-      "primary_url": "https://blog.orhun.dev/code-responsibly/",
-      "urls": [
-        "https://blog.orhun.dev/code-responsibly/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 118,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:118",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "85d07d15379929b7",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Make tmux pretty and usable (2024)",
-      "snippet": "Make tmux pretty and usable (2024)",
-      "primary_url": "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/",
-      "urls": [
-        "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 402,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:402",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "c57806e2b7a094eb",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "N-Day-Bench \u2013 Can LLMs find real vulnerabilities in real codebases?",
-      "snippet": "N-Day-Bench \u2013 Can LLMs find real vulnerabilities in real codebases?",
-      "primary_url": "https://ndaybench.winfunc.com",
-      "urls": [
-        "https://ndaybench.winfunc.com"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 80,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:80",
-        "category:tech_ai",
-        "ticker:DAY"
-      ]
-    },
-    {
-      "candidate_id": "4e42bedc23562d6c",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Android now stops you sharing your location in photos",
-      "snippet": "Android now stops you sharing your location in photos",
-      "primary_url": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
-      "urls": [
-        "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 392,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:392",
-        "category:tech_ai",
-        "ticker:NOW"
+        "ticker:CP"
       ]
     },
     {
@@ -1559,44 +1919,44 @@
       ]
     },
     {
-      "candidate_id": "ceaf451fe541c59c",
+      "candidate_id": "a9c99ecd1fb1ef1d",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "FDA Press Releases",
-      "headline": "FDA Reminds More Than 2,200 Sponsors and Researchers to Disclose Trial Results",
-      "snippet": "The U.S. Food and Drug Administration has reminded more than 2,200 medical product companies and researchers of the requirements to submit certain clinical trial results information to ClinicalTrials.gov.",
-      "primary_url": "http://www.fda.gov/news-events/press-announcements/fda-reminds-more-2200-sponsors-and-researchers-disclose-trial-results",
+      "source_name": "BioPharma Dive",
+      "headline": "Travere wins long-awaited approval for kidney disease drug",
+      "snippet": "The clearance of Filspari in a condition known as FSGS ends a winding regulatory journey and unlocks a revenue opportunity believed to be worth more than $1 billion annually.&nbsp;",
+      "primary_url": "https://www.biopharmadive.com/news/travere-fda-approve-flispari-fsgs-kidney-disease/817415/",
       "urls": [
-        "http://www.fda.gov/news-events/press-announcements/fda-reminds-more-2200-sponsors-and-researchers-disclose-trial-results"
+        "https://www.biopharmadive.com/news/travere-fda-approve-flispari-fsgs-kidney-disease/817415/"
       ],
       "category": "healthcare_daily",
-      "priority": "high",
+      "priority": "normal",
       "tier": 2,
       "score": null,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
-        "priority:high",
         "source_type:tier2",
         "category:healthcare_daily",
         "ticker:DRUG",
+        "ticker:DERM",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:MPW",
+        "ticker:PSG",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "20d2efa48f1a1d43",
+      "candidate_id": "638b8602afda0036",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "BioPharma Dive",
-      "headline": "Spyre drug for inflammatory bowel disease shows promise in early study",
-      "snippet": "The therapy, which works similarly to Takeda&rsquo;s blockbuster Entyvio, showed remission rates that suggest a &ldquo;best-in-class&rdquo; profile, the company said.&nbsp;",
-      "primary_url": "https://www.biopharmadive.com/news/spyre-inflammatory-bowel-disease-drug-results-a4b7/817298/",
+      "headline": "J&J leans on Tremfya, cancer drugs to overcome Stelara losses",
+      "snippet": "A growing multiple myeloma franchise helped the pharmaceutical giant top Wall Street&rsquo;s expectations and surpass $15 billion in first-quarter drug sales.",
+      "primary_url": "https://www.biopharmadive.com/news/johnson-johnson-2026-q1-earnings-stelara-tremfya-myeloma/817422/",
       "urls": [
-        "https://www.biopharmadive.com/news/spyre-inflammatory-bowel-disease-drug-results-a4b7/817298/"
+        "https://www.biopharmadive.com/news/johnson-johnson-2026-q1-earnings-stelara-tremfya-myeloma/817422/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -1612,20 +1972,137 @@
         "ticker:HCAT",
         "ticker:HR",
         "ticker:PSG",
-        "ticker:SYRE",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "a6a5265e7f541777",
+      "candidate_id": "8c800ecae862794b",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "BioPharma Dive",
-      "headline": "Allogene data suggest \u2018off-the-shelf\u2019 CAR-T could delay relapse in lymphoma",
-      "snippet": "Initial results from a high-stakes trial indicate the biotech may have finally found a niche in lymphoma care for a donor-derived cell therapy.&nbsp;",
-      "primary_url": "https://www.biopharmadive.com/news/allogene-cema-cel-allogeneic-lymphoma-data/817316/",
+      "headline": "Lilly boosts ADC portfolio with CrossBridge Bio deal",
+      "snippet": "Worth up to $300 million, the buyout is Lilly&rsquo;s latest of an ADC maker and adds technology for making &ldquo;dual-payload&rdquo; therapies.",
+      "primary_url": "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/",
       "urls": [
-        "https://www.biopharmadive.com/news/allogene-cema-cel-allogeneic-lymphoma-data/817316/"
+        "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:BIO",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "ticker:CCRN",
+        "subsector:Tools",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ]
+    },
+    {
+      "candidate_id": "bc8945c8a44bdd95",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "BioPharma Dive",
+      "headline": "Novo teams with OpenAI; Ideaya gets muted response to eye drug data",
+      "snippet": "Novo intends to &ldquo;fully integrate&rdquo; AI capabilities across its operations. Elsewhere, Regeneron made its first foray into radiopharmaceuticals and a GSK cancer drug showed early promise.",
+      "primary_url": "https://www.biopharmadive.com/news/novo-openai-regeneron-radiopharmaceuticals-ideaya-neomorph-gsk/817278/",
+      "urls": [
+        "https://www.biopharmadive.com/news/novo-openai-regeneron-radiopharmaceuticals-ideaya-neomorph-gsk/817278/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:DRUG",
+        "ticker:GSK",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:IART",
+        "subsector:HIT",
+        "subsector:Spine/Ortho"
+      ]
+    },
+    {
+      "candidate_id": "d48c13edabac20fc",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Updated: FDA asks for data on Lilly\u2019s Foundayo to assess heart, liver risks",
+      "snippet": "The FDA wants more safety information on Eli Lilly's newly approved obesity pill Foundayo, saying it's looking for any cardiovascular event or liver damage risks. It has asked the company to provide ...",
+      "primary_url": "https://endpoints.news/fda-asks-for-more-data-on-lillys-foundayo-to-assess-heart-liver-risks/",
+      "urls": [
+        "https://endpoints.news/fda-asks-for-more-data-on-lillys-foundayo-to-assess-heart-liver-risks/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "123b3f40143cc20b",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Replimune looks ahead as repeat CRL speeds the company's decline",
+      "snippet": "Replimune's second complete response letter for its cancer therapy last week is already leading to multiple rounds of layoffs and existential questions about the company's future unless it can figure out a path forward with ...",
+      "primary_url": "https://endpoints.news/replimune-looks-ahead-as-repeat-crl-speeds-the-companys-decline/",
+      "urls": [
+        "https://endpoints.news/replimune-looks-ahead-as-repeat-crl-speeds-the-companys-decline/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:CRL",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:REPL",
+        "subsector:CRO",
+        "subsector:Labs",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "2c919d3ab24c13e4",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Revolution Medicines leads latest wave of stock offerings, totaling $1.5B",
+      "snippet": "Another stock offering blitz is adding more fuel to biotech investors' belief in the sector. Revolution Medicines anchored Monday's offering surge, while Spyre Therapeutics and Allogene Therapeutics also joined in. The trio is planning to ...",
+      "primary_url": "https://endpoints.news/revolution-medicines-leads-latest-wave-of-stock-offerings-totaling-1-5b/",
+      "urls": [
+        "https://endpoints.news/revolution-medicines-leads-latest-wave-of-stock-offerings-totaling-1-5b/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -1640,20 +2117,21 @@
         "ticker:ALLO",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:PSG",
+        "ticker:RVMD",
+        "ticker:SYRE",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "f3710aa68a8a620b",
+      "candidate_id": "00daba60e3553f2d",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "BioPharma Dive",
-      "headline": "Revolution pancreatic cancer drug nearly doubles survival in key trial",
-      "snippet": "The subject of buyout rumors this year, Revolution posted Phase 3 results one analyst called a &ldquo;game changer&rdquo; in a tough-to-treat tumor.&nbsp;",
-      "primary_url": "https://www.biopharmadive.com/news/revolution-pancreatic-cancer-ras-drug-results/817300/",
+      "source_name": "Endpoints News",
+      "headline": "Endpoints biopharma sentiment survey for Q2 2026",
+      "snippet": "We're conducting a 3-minute survey that tracks the mood across the industry \u2014 science, finance, hiring and regulation",
+      "primary_url": "https://endpoints.news/endpoints-biopharma-sentiment-survey-for-q2-2026/",
       "urls": [
-        "https://www.biopharmadive.com/news/revolution-pancreatic-cancer-ras-drug-results/817300/"
+        "https://endpoints.news/endpoints-biopharma-sentiment-survey-for-q2-2026/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -1665,12 +2143,68 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
-        "ticker:DRUG",
         "ticker:HCAT",
         "ticker:HR",
         "ticker:PSG",
-        "ticker:RVMD",
+        "ticker:SNTI",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ]
+    },
+    {
+      "candidate_id": "6b121e1b2257effc",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Harbinger raises $100M; Astellas to close Seattle site",
+      "snippet": "Plus, news about Novo Nordisk and OpenAI, and Adcendo's Series C: \ud83e\uddea Flagship\u2019s Harbinger Health raises $100 million for cancer test: The startup said it closed the Series B extension last ...",
+      "primary_url": "https://endpoints.news/harbinger-raises-100m-astellas-to-close-seattle-site/",
+      "urls": [
+        "https://endpoints.news/harbinger-raises-100m-astellas-to-close-seattle-site/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:4503",
+        "ticker:HCAT",
+        "ticker:HR",
         "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "24799824672c7bfe",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "J&J increasingly confident it can manage Stelara cliff, but work remains",
+      "snippet": "Johnson &amp; Johnson executives believe the worst of the biosimilar pressure facing Stelara is behind them, and feel confident enough to predict significant growth through the end of the 2020s. But Wall Street may need ...",
+      "primary_url": "https://endpoints.news/jj-increasingly-confident-it-can-manage-stelara-cliff-but-work-remains/",
+      "urls": [
+        "https://endpoints.news/jj-increasingly-confident-it-can-manage-stelara-cliff-but-work-remains/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:JNJ",
+        "subsector:HIT",
+        "subsector:LC MedTech"
       ]
     },
     {
@@ -1734,15 +2268,41 @@
       ]
     },
     {
-      "candidate_id": "502439ba08aa4d6c",
+      "candidate_id": "83fc28852cea0181",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "FDA approves Travere's Filspari as first drug for the kidney disease FSGS",
-      "snippet": "The FDA expanded the label for Filspari on Monday to add another kidney condition. The drug is now the first therapy approved in the US for focal segmental glomerulosclerosis (FSGS). The pill may be taken ...",
-      "primary_url": "https://endpoints.news/fda-approves-traveres-filspari-as-first-drug-for-the-kidney-disease-called-fsgs/",
+      "source_name": "STAT News",
+      "headline": "STAT+: Congress returns to a packed health care agenda",
+      "snippet": "The key health care issues we're watching as Congress returns from recess.",
+      "primary_url": "https://www.statnews.com/2026/04/14/congress-health-care-agenda-drug-prices-reconciliation-dc-diagnosis/?utm_campaign=rss",
       "urls": [
-        "https://endpoints.news/fda-approves-traveres-filspari-as-first-drug-for-the-kidney-disease-called-fsgs/"
+        "https://www.statnews.com/2026/04/14/congress-health-care-agenda-drug-prices-reconciliation-dc-diagnosis/?utm_campaign=rss"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "e8b903b1d6c2aa32",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "STAT News",
+      "headline": "STAT+: FDA pressures drugmakers to report trial results",
+      "snippet": "Ben Sasse on enrolling in Rev Med's drug trial, more ADC investment, and other biotech news from The Readout",
+      "primary_url": "https://www.statnews.com/2026/04/14/biotech-news-fda-pressures-drugmakers-to-report-trial-results/?utm_campaign=rss",
+      "urls": [
+        "https://www.statnews.com/2026/04/14/biotech-news-fda-pressures-drugmakers-to-report-trial-results/?utm_campaign=rss"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -1755,23 +2315,23 @@
         "source_type:tier2",
         "category:healthcare_daily",
         "ticker:DRUG",
-        "ticker:NOW",
+        "ticker:MED",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:TVTX",
+        "subsector:Spine/Ortho",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "3acd0bfcdfb2ccec",
+      "candidate_id": "f2e546a9361eb8da",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "Click Therapeutics cuts 27% of workforce after $50M raise",
-      "snippet": "Click Therapeutics cut more than a quarter of its workforce shortly after raising Series D funding, Endpoints News has learned. The digital therapeutics startup, which on Thursday raised $50 million from pharmaceutical giant Boehringer Ingelheim ...",
-      "primary_url": "https://endpoints.news/click-therapeutics-cuts-27-of-workforce-after-50m-raise/",
+      "source_name": "STAT News",
+      "headline": "STAT+: Hospitals offer chatbots to fight off ChatGPT",
+      "snippet": "In this edition of STAT Health Tech: Hospitals offer their own chatbots, Medicare's ACCESS pilot, and an update Utah's 'AI doctor' experiment.",
+      "primary_url": "https://www.statnews.com/2026/04/14/hospitals-offer-chatbots-chatgpt-health-tech/?utm_campaign=rss",
       "urls": [
-        "https://endpoints.news/click-therapeutics-cuts-27-of-workforce-after-50m-raise/"
+        "https://www.statnews.com/2026/04/14/hospitals-offer-chatbots-chatgpt-health-tech/?utm_campaign=rss"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -1783,22 +2343,23 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
+        "ticker:TECH",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:PSG",
+        "subsector:Tools",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "e80374f88fcb99f4",
+      "candidate_id": "69dce078af73e5ab",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "White House policies are \u2018incredibly worrisome\u2019 for small biotechs, Rhythm CEO says",
-      "snippet": "Biotechs with single products in the market are likely on edge about how President Donald Trump\u2019s pharma tariffs and \u201cmost favored nation\u201d pricing will play out, Rhythm Pharmaceuticals CEO David Meeker told Endpoints News in ...",
-      "primary_url": "https://endpoints.news/white-house-policies-are-incredibly-worrisome-for-small-biotechs-rhythm-ceo-says/",
+      "source_name": "STAT News",
+      "headline": "STAT+: Pharmalittle: We\u2019re reading about an FDA push for trial transparency, a Novo-OpenAI deal, and more",
+      "snippet": "The FDA told more than 2,200 companies and researchers that they are required to report clinical trial results, or they may face fines",
+      "primary_url": "https://www.statnews.com/pharmalot/2026/04/14/fda-push-clinical-trial-transparency-novo-nordisk-openai-deal/?utm_campaign=rss",
       "urls": [
-        "https://endpoints.news/white-house-policies-are-incredibly-worrisome-for-small-biotechs-rhythm-ceo-says/"
+        "https://www.statnews.com/pharmalot/2026/04/14/fda-push-clinical-trial-transparency-novo-nordisk-openai-deal/?utm_campaign=rss"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -1814,89 +2375,6 @@
         "ticker:HCAT",
         "ticker:HR",
         "ticker:PSG",
-        "ticker:RYTM",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "cdae2735d3e86bd7",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "FDA narrows in on search for new biologics and vaccines leader",
-      "snippet": "The FDA is getting closer to announcing a director of the Center for Biologics Evaluation and Research, sources told Endpoints News, following the controversial tenure of outgoing leader Vinay Prasad. A leading candidate for the ...",
-      "primary_url": "https://endpoints.news/fda-narrows-in-on-search-for-new-biologics-and-vaccines-leader/",
-      "urls": [
-        "https://endpoints.news/fda-narrows-in-on-search-for-new-biologics-and-vaccines-leader/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "f0473415ad63d01f",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "Allogene\u2019s first cut of data on \u2018off-the-shelf\u2019 CAR-T shows promise",
-      "snippet": "Allogene Therapeutics\u2019 CAR-T therapy removed all remaining detectable lymphoma cells in just over half of treated patients, according to an early look at the Phase 2 data. The Bay Area biotech ...",
-      "primary_url": "https://endpoints.news/allogenes-first-cut-of-data-on-off-the-shelf-car-t-shows-promise/",
-      "urls": [
-        "https://endpoints.news/allogenes-first-cut-of-data-on-off-the-shelf-car-t-shows-promise/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ALLO",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "38586391bd1d4b9f",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "Neomorph raises $100M for molecular glues; Spyre's ulcerative colitis data",
-      "snippet": "Plus, news about AbbVie, SynOx, Eli Lilly's Jaypirca, ImageneBio, Nxera Pharma, Neurocrine and Novartis: Neomorph raises $100M more for molecular glues: San Diego-based Neomorph has raised a $100 million Series B round led by its ...",
-      "primary_url": "https://endpoints.news/neomorph-raises-100m-for-molecular-glues-spyres-ulcerative-colitis-data/",
-      "urls": [
-        "https://endpoints.news/neomorph-raises-100m-for-molecular-glues-spyres-ulcerative-colitis-data/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:4565",
-        "ticker:ABBV",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:IMA",
         "subsector:HIT"
       ]
     },
@@ -2009,15 +2487,15 @@
       ]
     },
     {
-      "candidate_id": "bddf0147b4477cf2",
+      "candidate_id": "4d44f2658952ffa0",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "Opinion: My brother can\u2019t access a just-approved breakthrough drug for his rare disease",
-      "snippet": "Rare disease clinical trials, policy discussions, and advocacy initiatives often leave adults behind.",
-      "primary_url": "https://www.statnews.com/2026/04/14/hunter-syndrome-avlayah-age-based-approvals/?utm_campaign=rss",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Prime gets approval to acquire 9th Illinois hospital",
+      "snippet": "The Illinois Health Facilities and Services Review Board approved Ontario, Calif.-based Prime Healthcare&#8217;s acquisition of Franciscan Health Olympia Fields (Ill.). The 214-bed hospital is expected to transition to Prime on May 1, according to an April 14 news release shared with Becker&#8217;s.",
+      "primary_url": "https://www.beckershospitalreview.com/m-and-a/prime-gets-state-approval-to-acquire-9th-illinois-hospital/",
       "urls": [
-        "https://www.statnews.com/2026/04/14/hunter-syndrome-avlayah-age-based-approvals/?utm_campaign=rss"
+        "https://www.beckershospitalreview.com/m-and-a/prime-gets-state-approval-to-acquire-9th-illinois-hospital/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2029,104 +2507,82 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PRME",
+        "ticker:SCI",
+        "subsector:HIT",
+        "subsector:Deathcare"
+      ]
+    },
+    {
+      "candidate_id": "fc63ec047d5b1927",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Nursing home quality jumps: 5 notable improvements",
+      "snippet": "Nursing homes across the nation are seeing a meaningful gain in quality improvement, an American Health Care Association report published April 14 found. These improvements, measured between 2023 and 2025, show progress beyond where measures stood before the pandemic, the report said. \u201cThe progress ",
+      "primary_url": "https://www.beckershospitalreview.com/post-acute/nursing-home-quality-jumps-5-notable-improvements/",
+      "urls": [
+        "https://www.beckershospitalreview.com/post-acute/nursing-home-quality-jumps-5-notable-improvements/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:AMWL",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ]
+    },
+    {
+      "candidate_id": "bee024939ed30a25",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Rates of drug-resistant shigellosis on rise: CDC",
+      "snippet": "Cases of extensively drug-resistant shigella infections rose from 0% in 2011 to 8.5% in 2023, according to an April 9 CDC brief. Shigellosis is a diarrheal illness caused by bacteria that is spread through fecal-oral transmission and sexual contact. Antibiotics are indicated for severe illness or to",
+      "primary_url": "https://www.beckershospitalreview.com/quality/infection-control/rates-of-drug-resistant-shigellosis-on-rise-cdc/",
+      "urls": [
+        "https://www.beckershospitalreview.com/quality/infection-control/rates-of-drug-resistant-shigellosis-on-rise-cdc/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
         "ticker:DRUG",
-        "ticker:RARE",
         "ticker:HCAT",
         "ticker:HR",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "3e7a4ae86444a1b6",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: Maryland state affordability board sets its first price cap for a medicine",
-      "snippet": "The board will now oversee a process to lower the cost of the type 2 diabetes medicine Jardiance by January 2027.",
-      "primary_url": "https://www.statnews.com/pharmalot/2026/04/13/maryland-affordability-board-sets-first-price-cap-diabetes-medicine/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/pharmalot/2026/04/13/maryland-affordability-board-sets-first-price-cap-diabetes-medicine/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:NOW",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "354e5b671798444b",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: FDA pushes drugmakers to report missing clinical trial results",
-      "snippet": "FDA officials said an internal analysis found results were not submitted for nearly 30% of studies \u201chighly likely\u201d to fall under mandatory reporting requirements.",
-      "primary_url": "https://www.statnews.com/pharmalot/2026/04/13/fda-nudges-drugmakers-report-missing-clinical-trial-data/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/pharmalot/2026/04/13/fda-nudges-drugmakers-report-missing-clinical-trial-data/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "31661b320e1cdc82",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "STAT News",
-      "headline": "STAT+: Federal judge tosses California No Surprises Act lawsuit against HaloMD",
-      "snippet": "HaloMD is a middleman that became the top filer of out-of-network billing disputes on behalf of medical providers.",
-      "primary_url": "https://www.statnews.com/2026/04/13/halo-md-no-surprises-act-lawsuit-blue-cross-california/?utm_campaign=rss",
-      "urls": [
-        "https://www.statnews.com/2026/04/13/halo-md-no-surprises-act-lawsuit-blue-cross-california/?utm_campaign=rss"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:4016",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:MPW",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "64819ecee7f8a6a3",
+      "candidate_id": "4b82db29b07e65c4",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Becker's Hospital Review",
-      "headline": "The best states for senior living: US News",
-      "snippet": "Florida has the highest number of &#8220;best&#8221; senior living communities, while three states \u2014 Alaska, Montana and North Dakota \u2014 have no top-ranked communities, according to an April 14 U.S News &#38; World Report ranking.&#160; In its 5th annual Best Senior Living ratings, U.S. News honored ",
-      "primary_url": "https://www.beckershospitalreview.com/post-acute/the-best-states-for-senior-living-us-news/",
+      "headline": "ECRI urges leaders to take different approach to fall prevention tools",
+      "snippet": "ECRI is urging hospital and health system leaders to take a balanced approach to fall prevention technology. Patient falls \u2014 a persistent healthcare safety issue \u2014 can cost an average of $14,000 per fall with injury. Each year, between 700,000 and 1 million U.S. patients fall in hospitals. Such a pr",
+      "primary_url": "https://www.beckershospitalreview.com/quality/patient-safety-outcomes/ecir-urges-leaders-to-take-different-approach-to-fall-prevention-tools/",
       "urls": [
-        "https://www.beckershospitalreview.com/post-acute/the-best-states-for-senior-living-us-news/"
+        "https://www.beckershospitalreview.com/quality/patient-safety-outcomes/ecir-urges-leaders-to-take-different-approach-to-fall-prevention-tools/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2144,15 +2600,42 @@
       ]
     },
     {
-      "candidate_id": "303c3cec73abf74c",
+      "candidate_id": "832e59f365ecb572",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Becker's Hospital Review",
-      "headline": "CEOs sharpen discipline on capital investments",
-      "snippet": "As health systems face persistent margin pressure, CEOs are taking a more deliberate approach to capital deployment \u2014 not pulling back altogether, but scrutinizing more than ever how and when investments are made. According to Kaufman Hall&#8217;s &#8220;National Hospital Flash Report,&#8221; releas",
-      "primary_url": "https://www.beckershospitalreview.com/capital/ceos-sharpen-discipline-on-capital-investments/",
+      "headline": "UPMC Enterprises names chief venture officer",
+      "snippet": "Fabian Tenenbaum was named executive vice president and chief venture officer of UPMC Enterprises, the venture capital arm of Pittsburgh-based UPMC. Mr. Tenenbaum announced the appointment in an April 14 LinkedIn post. &#8220;Stepping into this new role represents an opportunity to scale that impact",
+      "primary_url": "https://www.beckershospitalreview.com/hospital-executive-moves/upmc-enterprises-names-chief-venture-officer/",
       "urls": [
-        "https://www.beckershospitalreview.com/capital/ceos-sharpen-discipline-on-capital-investments/"
+        "https://www.beckershospitalreview.com/hospital-executive-moves/upmc-enterprises-names-chief-venture-officer/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:U",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "e0ca127757061770",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Health systems are leaving EHR value on the table",
+      "snippet": "Health systems spend years and hundreds of millions of dollars implementing EHRs, yet two healthcare CIOs say a significant share of that investment remains untapped. More pressing, they argue, the gap between what EHRs can do and what organizations actually do with them may be the single most impor",
+      "primary_url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/health-systems-are-leaving-ehr-value-on-the-table/",
+      "urls": [
+        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/health-systems-are-leaving-ehr-value-on-the-table/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2167,20 +2650,19 @@
         "ticker:ARE",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:NHI",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "e3d35ea3cb78048c",
+      "candidate_id": "414a7ab5bc5c9f48",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Becker's Hospital Review",
-      "headline": "hellocare.ai partners with UCHealth to Standardize Virtual Care Delivery",
-      "snippet": "Clearwater, FL \u2013 April 14, 2026 &#8211; hellocare.ai, a leading provider of AI assisted virtual care solutions, today announced the expansion of its enterprise partnership with UCHealth, a nationally recognized, non-profit health system serving patients across Colorado, Wyoming, and western Nebraska",
-      "primary_url": "https://www.beckershospitalreview.com/strategy/hellocare-ai-partners-with-uchealth-to-standardize-virtual-care-delivery/",
+      "headline": "6 pharmacy-led projects with meaningful clinical outcomes",
+      "snippet": "Health systems are seeing measurable returns from pharmacy-led initiatives, including a more than 2% reduction in A1C levels and hundreds of incident fixes and system enhancements, according to executives across the U.S. Pharmacy leaders told Becker&#8217;s these gains are being driven by expanded p",
+      "primary_url": "https://www.beckershospitalreview.com/pharmacy/6-pharmacy-led-projects-with-meaningful-clinical-outcomes/",
       "urls": [
-        "https://www.beckershospitalreview.com/strategy/hellocare-ai-partners-with-uchealth-to-standardize-virtual-care-delivery/"
+        "https://www.beckershospitalreview.com/pharmacy/6-pharmacy-led-projects-with-meaningful-clinical-outcomes/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2192,24 +2674,25 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
+        "ticker:ARE",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:NHI",
+        "ticker:PSG",
         "ticker:CCRN",
         "subsector:HIT",
         "subsector:Nurse staffing"
       ]
     },
     {
-      "candidate_id": "99535461a04f7db4",
+      "candidate_id": "4bc98a2d5bb49848",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Becker's Hospital Review",
-      "headline": "California judge dismisses Elevance\u2019s No Surprises Act lawsuit against HaloMD",
-      "snippet": "A California federal judge dismissed an Elevance Health subsidiary&#8217;s lawsuit that alleged that HaloMD and several providers conspired to exploit the No Surprises Act\u2019s Independent Dispute Resolution process for financial gain. Anthem Blue Cross alleged that HaloMD and affiliated providers subm",
-      "primary_url": "https://www.beckershospitalreview.com/legal-regulatory-issues/california-judge-dismisses-elevances-no-surprises-act-lawsuit-against-halomd/",
+      "headline": "Froedtert Thedacare taps CFO",
+      "snippet": "Menomonee Falls, Wis.-based Froedtert ThedaCare has named Harold Berfiend CFO, effective May 11.&#160; Mr. Berfiend joins the system from Indianapolis-based Indiana University Health, where he held several leadership roles, most recently serving as vice president and controller, according to an Apri",
+      "primary_url": "https://www.beckershospitalreview.com/hospital-executive-moves/froedtert-thedacare-taps-cfo/",
       "urls": [
-        "https://www.beckershospitalreview.com/legal-regulatory-issues/california-judge-dismisses-elevances-no-surprises-act-lawsuit-against-halomd/"
+        "https://www.beckershospitalreview.com/hospital-executive-moves/froedtert-thedacare-taps-cfo/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2221,119 +2704,96 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
-        "ticker:ELV",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:CCRN",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "9738bcc02291c0e3",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Becker's Payer Issues",
+      "headline": "Humana in the headlines: 8 updates",
+      "snippet": "From hiring a chief technology officer to completing its acquisition of MaxHealth, here are eight updates on Humana that Becker&#8217;s has reported since Feb. 17:&#160; 1. Humana named Bobby Mukundan senior vice president and chief technology officer.&#160; 2. Robert Field, principal and managing m",
+      "primary_url": "https://www.beckerspayer.com/payer/humana-in-the-headlines-8-updates-3/",
+      "urls": [
+        "https://www.beckerspayer.com/payer/humana-in-the-headlines-8-updates-3/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:HUM",
+        "subsector:HIT",
+        "subsector:Mgd Care"
+      ]
+    },
+    {
+      "candidate_id": "cfeb5994835a528b",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Becker's Payer Issues",
+      "headline": "Humana names chief technology officer",
+      "snippet": "Humana has named Bobby Mukundan senior vice president and chief technology officer, according to a post on its LinkedIn page.&#160; Mr. Mukundan most recently served as managing director of technology for Accenture, an IT services and consulting firm. He has previously held senior technology leaders",
+      "primary_url": "https://www.beckerspayer.com/executive-moves/humana-names-chief-technology-officer/",
+      "urls": [
+        "https://www.beckerspayer.com/executive-moves/humana-names-chief-technology-officer/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:HUM",
+        "ticker:SCI",
+        "subsector:HIT",
         "subsector:Mgd Care",
+        "subsector:Deathcare"
+      ]
+    },
+    {
+      "candidate_id": "b57f3c9645a016af",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Becker's Payer Issues",
+      "headline": "Mount Sinai, Anthem reach 3-year agreement",
+      "snippet": "Anthem Blue Cross Blue Shield in New York and New York City-based Mount Sinai Health System have established a three-year agreement, both organizations confirmed to Becker&#8217;s. The agreement includes hospitals, physicians and other providers. Mount Sinai said this applies to commercial, Medicaid",
+      "primary_url": "https://www.beckerspayer.com/contracting/mount-sinai-anthem-reach-3-year-agreement/",
+      "urls": [
+        "https://www.beckerspayer.com/contracting/mount-sinai-anthem-reach-3-year-agreement/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:CCRN",
         "subsector:HIT",
         "subsector:Nurse staffing"
-      ]
-    },
-    {
-      "candidate_id": "1a759613018c633f",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "AI chatbots miss initial diagnoses 80% of the time: Mass General Brigham study",
-      "snippet": "Artificial intelligence chatbots failed to accurately generate a list of possible diagnoses based on initial patient symptoms more than 80% of the time, but improved considerably when given more information, according to a recent study conducted by researchers at Somerville, Mass.-based Mass General",
-      "primary_url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ai-chatbots-miss-initial-diagnosis-80-of-the-time-mass-general-brigham-study/",
-      "urls": [
-        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ai-chatbots-miss-initial-diagnosis-80-of-the-time-mass-general-brigham-study/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:GENB",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "aa852cc78c4bed6d",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "NewYork-Presbyterian to pay $500K, enact behavioral health reforms in wake of investigation",
-      "snippet": "New York City-based NewYork-Presbyterian has been ordered to pay $500,000 and make &#8220;sweeping&#8221; reforms as part of a settlement over its treatment of patients experiencing behavioral health emergencies. Six things to know: 1. Following a yearslong investigation, the Office of the New York ",
-      "primary_url": "https://www.beckershospitalreview.com/legal-regulatory-issues/newyork-presbyterian-to-pay-500k-enact-behavioral-health-reforms-in-wake-of-investigation/",
-      "urls": [
-        "https://www.beckershospitalreview.com/legal-regulatory-issues/newyork-presbyterian-to-pay-500k-enact-behavioral-health-reforms-in-wake-of-investigation/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "3b24a1b076adfafa",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "A new chapter at symplr: Venkat Kavarthapu named CEO to accelerate AI-powered growth",
-      "snippet": "Houston-based symplr, a leader in enterprise healthcare operations software trusted in 9 of 10 U.S. hospitals and more than 400 U.S. health plans, has appointed Venkat Kavarthapu CEO, effective immediately. Mr. Kavarthapu brings more than 25 years of healthcare technology experience to the role. Mos",
-      "primary_url": "https://www.beckershospitalreview.com/news/a-new-chapter-at-symplr-venkat-kavarthapu-named-ceo-to-accelerate-ai-powered-growth/",
-      "urls": [
-        "https://www.beckershospitalreview.com/news/a-new-chapter-at-symplr-venkat-kavarthapu-named-ceo-to-accelerate-ai-powered-growth/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "5419af9302ba3b84",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "150+ healthcare organizations accepted into CMS\u2019 ACCESS Model",
-      "snippet": "More than 150 healthcare organizations have been accepted to participate in the initial rollout of CMS\u2019 ACCESS Model. Five things to know: 1. CMS has also extended the application deadline for the model to May 15 ahead of its July 5 launch, according to an April 13 news release. 2. Applications for ",
-      "primary_url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/150-healthcare-organizations-accepted-into-cms-access-model/",
-      "urls": [
-        "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/150-healthcare-organizations-accepted-into-cms-access-model/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:FIVE",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
       ]
     },
     {
@@ -2395,15 +2855,15 @@
       ]
     },
     {
-      "candidate_id": "1b7bd9c7b53adb71",
+      "candidate_id": "34d9174d5818f330",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "Big payer CEOs ranked by tenure",
-      "snippet": "Molina Healthcare CEO Joseph Zubretsky will become the longest-tenured chief executive among big payers when Cigna&#8217;s David Cordani retires on July 1.&#160; Mr. Zubretsky narrowly edges out Elevance&#8217;s Gail Boudreaux for the distinction. Mr. Zubretsky assumed his role on Nov. 6, 2017 \u2014 jus",
-      "primary_url": "https://www.beckerspayer.com/leadership/big-payer-ceos-ranked-by-tenure/",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/regulatory/bill-seeks-force-payers-apply-dtc-drug-purchases-patient-deductibles\" hreflang=\"en\">Bill would force payers to apply DTC drug purchases to patient deductibles</a>",
+      "snippet": "A prominent physician voice in the House of Representatives has introduced a new bill that would compel insurers to apply the cost for drugs purchased from direct-to-consumer platforms to deductibles and out-of-pocket maximums.",
+      "primary_url": "https://www.fiercehealthcare.com/regulatory/bill-seeks-force-payers-apply-dtc-drug-purchases-patient-deductibles",
       "urls": [
-        "https://www.beckerspayer.com/leadership/big-payer-ceos-ranked-by-tenure/"
+        "https://www.fiercehealthcare.com/regulatory/bill-seeks-force-payers-apply-dtc-drug-purchases-patient-deductibles"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2415,25 +2875,23 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
-        "ticker:CI",
-        "ticker:ELV",
+        "ticker:BILL",
+        "ticker:DRUG",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:MOH",
-        "subsector:Mgd Care",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "95098836d64129bc",
+      "candidate_id": "ca2ec31ae37d72bc",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "Humana adds healthcare investor to board of directors",
-      "snippet": "\u201cHumana has elected Robert Field to its board of directors.&#160; Mr. Field is the principal and managing member of \u03b7Med Capital Management, an investment firm focused on U.S. healthcare services, primarily in the managed care industry, according to an April 10 news release.&#160; He previously serv",
-      "primary_url": "https://www.beckerspayer.com/executive-moves/humana-adds-healthcare-investor-to-board-of-directors/",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/hospitals/stanford-health-care-alameda-health-system-partner-support-st-rose-hospital\" hreflang=\"en\">Stanford Health Care, Alameda Health System partner to support St. Rose Hospital</a>",
+      "snippet": "The newly announced collaboration will focus on expanding access to specialized care at the independent, non-profit Hayward, Calif.-based hospital.",
+      "primary_url": "https://www.fiercehealthcare.com/hospitals/stanford-health-care-alameda-health-system-partner-support-st-rose-hospital",
       "urls": [
-        "https://www.beckerspayer.com/executive-moves/humana-adds-healthcare-investor-to-board-of-directors/"
+        "https://www.fiercehealthcare.com/hospitals/stanford-health-care-alameda-health-system-partner-support-st-rose-hospital"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2447,50 +2905,19 @@
         "category:healthcare_daily",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:HUM",
-        "ticker:SCI",
-        "subsector:HIT",
-        "subsector:Mgd Care",
-        "subsector:Deathcare"
-      ]
-    },
-    {
-      "candidate_id": "88a90de608e52012",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "Memorial Hermann, BCBS Texas agree on contract",
-      "snippet": "Houston-based Memorial Hermann Health System and BCBS Texas agreed on a contract April 11, bringing the health system back in network. The agreement ensures &#8220;access to quality care at cost-effective prices,&#8221; BCBS Texas said in an April 13 statement shared with Becker&#8217;s. It covers b",
-      "primary_url": "https://www.beckerspayer.com/contracting/bcbs-texas-memorial-hermann-near-contract-deadline/",
-      "urls": [
-        "https://www.beckerspayer.com/contracting/bcbs-texas-memorial-hermann-near-contract-deadline/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:TPL",
         "subsector:HIT"
       ]
     },
     {
-      "candidate_id": "9baad1287d24253e",
+      "candidate_id": "553a8535178697ff",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "Becker's Payer Issues",
-      "headline": "Pensions faded when costs surged. Are employers ready for another reset?",
-      "snippet": "As healthcare costs rise, employers are at a crossroads \u2014 deciding whether to stick out a traditional insurance model or explore alternatives \u2014 according to Sidecar Health Chief Marketing Officer Kevin Knight. Sidecar Health is an insurer that works with employers and covers the average local cost f",
-      "primary_url": "https://www.beckerspayer.com/leadership/pensions-faded-when-costs-surged-are-employers-ready-for-another-reset/",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/payers/anthem-mount-sinai-reach-contract-agreement-restore-network-coverage\" hreflang=\"en\">Anthem, Mount Sinai reach contract agreement, restore in-network coverage</a>",
+      "snippet": "Anthem and Mount Sinai have reached a new multi-year contract agreement, restoring coverage for thousands after the system went out-of-network last month.",
+      "primary_url": "https://www.fiercehealthcare.com/payers/anthem-mount-sinai-reach-contract-agreement-restore-network-coverage",
       "urls": [
-        "https://www.beckerspayer.com/leadership/pensions-faded-when-costs-surged-are-employers-ready-for-another-reset/"
+        "https://www.fiercehealthcare.com/payers/anthem-mount-sinai-reach-contract-agreement-restore-network-coverage"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2502,12 +2929,64 @@
       "derived_signals": [
         "source_type:tier2",
         "category:healthcare_daily",
-        "ticker:ARE",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:CCRN",
-        "subsector:HIT",
-        "subsector:Nurse staffing"
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "e952be1ba9c4ec16",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare\" hreflang=\"en\">Chutes &amp; Ladders\u2014ChristianaCare CEO to retire, successor announced; Maui Health CEO steps down</a>",
+      "snippet": "Welcome to this week's Chutes &amp; Ladders, our roundup of hirings, firings and retirings throughout the industry. Please submit the good news\u2014or the bad\u2014from your shop, and we will feature it here at the end of each week.",
+      "primary_url": "https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare",
+      "urls": [
+        "https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:SHOP",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "15a2d40804eadbae",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "Fierce Healthcare",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/webmd-ignite-rolls-out-program-help-providers-get-rural-health-transformation-efforts\" hreflang=\"en\">WebMD Ignite rolls out program to help providers get Rural Health Transformation efforts off the ground</a>",
+      "snippet": "WebMD Ignite launched a new program that provides a \"shovel-ready\" platform to help states, health systems and rural networks stand up patient engagement, prevention and access programs in just weeks.",
+      "primary_url": "https://www.fiercehealthcare.com/health-tech/webmd-ignite-rolls-out-program-help-providers-get-rural-health-transformation-efforts",
+      "urls": [
+        "https://www.fiercehealthcare.com/health-tech/webmd-ignite-rolls-out-program-help-providers-get-rural-health-transformation-efforts"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:TECH",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Tools",
+        "subsector:HIT"
       ]
     },
     {
@@ -2515,7 +2994,7 @@
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "Fierce Healthcare",
-      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/next-opioid-epidemic-gambling-addiction-grows-legalization-outpaces-public-health\" hreflang=\"en\">\u2018The next opioid epidemic\u2019: Gambling legalization outpaces public health response </a>",
+      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/next-opioid-epidemic-gambling-addiction-grows-legalization-outpaces-public-health\" hreflang=\"en\">\u2018The next opioid epidemic\u2019: Gambling legalization outpaces public health response to addiction </a>",
       "snippet": "Seven in 10 U.S. adults gamble. Commercial gaming revenue&nbsp;broke records in 2025, and all gaming segments are growing. This menu of options is creating an addiction crisis yet to be widely recognized. To understand problem gambling, what\u2019s driving it and efforts underway to address it, Fierce He",
       "primary_url": "https://www.fiercehealthcare.com/providers/next-opioid-epidemic-gambling-addiction-grows-legalization-outpaces-public-health",
       "urls": [
@@ -2593,146 +3072,6 @@
       ]
     },
     {
-      "candidate_id": "844f8f771c2b031c",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Fierce Healthcare",
-      "headline": "<a href=\"https://www.fiercehealthcare.com/digital-health/cms-taps-150-digital-health-companies-providers-access-model\" hreflang=\"en\">CMS taps 150 digital health companies, providers for ACCESS Model</a>",
-      "snippet": "CMS picked 150 digital health companies and healthcare providers to participate in the launch of its tech-enabled chronic care model.",
-      "primary_url": "https://www.fiercehealthcare.com/digital-health/cms-taps-150-digital-health-companies-providers-access-model",
-      "urls": [
-        "https://www.fiercehealthcare.com/digital-health/cms-taps-150-digital-health-companies-providers-access-model"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:TECH",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Tools",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "4f011755f2c9658c",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Fierce Healthcare",
-      "headline": "<a href=\"https://www.fiercehealthcare.com/finance/healthcare-spending-varies-widely-between-metropolitan-areas-hcci\" hreflang=\"en\">Healthcare spending varies widely between metropolitan areas: HCCI</a>",
-      "snippet": "Healthcare spending varies widely between metropolitan areas, according to new data from the Health Care Cost Institute.",
-      "primary_url": "https://www.fiercehealthcare.com/finance/healthcare-spending-varies-widely-between-metropolitan-areas-hcci",
-      "urls": [
-        "https://www.fiercehealthcare.com/finance/healthcare-spending-varies-widely-between-metropolitan-areas-hcci"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "28f9b237e530dba1",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Fierce Healthcare",
-      "headline": "<a href=\"https://www.fiercehealthcare.com/ai-and-machine-learning/ai-speeding-prior-authorizations-while-driving-higher-costs-health-systems\" hreflang=\"en\">AI speeds up prior auth, coding while driving higher costs for health systems: PHTI report</a>",
-      "snippet": "AI can allow organizations to execute expedited prior authorizations at reduced costs, but there is no existing evidence that it \u201ctranslates to lower average cost per claim factoring in the cost of the AI solution,\" according to a Peterson Health Technology Institute analysis.",
-      "primary_url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-speeding-prior-authorizations-while-driving-higher-costs-health-systems",
-      "urls": [
-        "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-speeding-prior-authorizations-while-driving-higher-costs-health-systems"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "e952be1ba9c4ec16",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Fierce Healthcare",
-      "headline": "<a href=\"https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare\" hreflang=\"en\">Chutes &amp; Ladders\u2014Maui Health CEO steps down, Tenet  Healthcare CIO to retire</a>",
-      "snippet": "Welcome to this week's Chutes &amp; Ladders, our roundup of hirings, firings and retirings throughout the industry. Please submit the good news\u2014or the bad\u2014from your shop, and we will feature it here at the end of each week.",
-      "primary_url": "https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare",
-      "urls": [
-        "https://www.fiercehealthcare.com/providers/chutes-ladders-2026-hires-departures-firings-retirements-ceo-executives-healthcare"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:SHOP",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:THC",
-        "subsector:HIT",
-        "subsector:Hospitals"
-      ]
-    },
-    {
-      "candidate_id": "d1b3cf03811c09f3",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "Fierce Healthcare",
-      "headline": "<a href=\"https://www.fiercehealthcare.com/health-tech/cms-showcases-first-wave-digital-health-tools-questions-about-last-mile-adoption-remain\" hreflang=\"en\">CMS showcases first wave of digital health tools as questions about 'last mile' of adoption remain</a>",
-      "snippet": "On Thursday, Trump administration officials unveiled the first wave of health tech tools as part of a push to make medical records more accessible to Medicare patients.",
-      "primary_url": "https://www.fiercehealthcare.com/health-tech/cms-showcases-first-wave-digital-health-tools-questions-about-last-mile-adoption-remain",
-      "urls": [
-        "https://www.fiercehealthcare.com/health-tech/cms-showcases-first-wave-digital-health-tools-questions-about-last-mile-adoption-remain"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:TECH",
-        "ticker:DGX",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:MPW",
-        "subsector:Tools",
-        "subsector:Labs",
-        "subsector:HIT"
-      ]
-    },
-    {
       "candidate_id": "f61f380b6af02699",
       "run_date": "2026-04-14",
       "source_type": "tier2",
@@ -2761,6 +3100,60 @@
       ]
     },
     {
+      "candidate_id": "5795702719171bd3",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "KFF Health News",
+      "headline": "Listen to the Latest \u2018KFF Health News Minute\u2019",
+      "snippet": "The \"KFF Health News Minute\u201d brings original health care and health policy reporting from our newsroom to the airwaves each week.",
+      "primary_url": "https://kffhealthnews.org/news/article/listen-to-the-latest-kff-health-news-minute-2026/",
+      "urls": [
+        "https://kffhealthnews.org/news/article/listen-to-the-latest-kff-health-news-minute-2026/"
+      ],
+      "category": "healthcare_policy",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_policy",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "75967aacaf2a4145",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "KFF Health News",
+      "headline": "Estados cambian leyes para evitar que hijos de inmigrantes detenidos entren al sistema de cuidado temporal",
+      "snippet": "El gobierno federal no lleva un registro de cu\u00e1ntos ni\u00f1os han ingresado a este sistema como consecuencia de operativos de control migratorio, lo que dificulta saber con qu\u00e9 frecuencia ocurre.",
+      "primary_url": "https://kffhealthnews.org/news/article/estados-cambian-leyes-para-evitar-que-hijos-de-inmigrantes-detenidos-entren-al-sistema-de-cuidado-temporal/",
+      "urls": [
+        "https://kffhealthnews.org/news/article/estados-cambian-leyes-para-evitar-que-hijos-de-inmigrantes-detenidos-entren-al-sistema-de-cuidado-temporal/"
+      ],
+      "category": "healthcare_policy",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_policy",
+        "ticker:CON",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Post-Acute",
+        "subsector:HIT"
+      ]
+    },
+    {
       "candidate_id": "2daae83d6e1169ac",
       "run_date": "2026-04-14",
       "source_type": "tier2",
@@ -2783,6 +3176,60 @@
         "category:healthcare_policy",
         "ticker:CON",
         "ticker:SER",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Post-Acute",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "d0b8199d8ab4008f",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "KFF Health News",
+      "headline": "Para muchos pacientes que salen de terapia intensiva, la lucha apenas comienza",
+      "snippet": "M\u00e1s de 5 millones de personas son admitidas cada a\u00f1o en terapias intensivas en unos 5.000 hospitales en Estados Unidos, y las investigaciones muestran que m\u00e1s de la mitad experimenta estos efectos secundarios. La edad avanzada aumenta las probabilidades.",
+      "primary_url": "https://kffhealthnews.org/news/article/para-muchos-pacientes-que-salen-de-terapia-intensiva-la-lucha-apenas-comienza/",
+      "urls": [
+        "https://kffhealthnews.org/news/article/para-muchos-pacientes-que-salen-de-terapia-intensiva-la-lucha-apenas-comienza/"
+      ],
+      "category": "healthcare_policy",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_policy",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "68dabcd60b851678",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "KFF Health News",
+      "headline": "Los estados se enfrentan a otro reto con las nuevas reglas laborales de Medicaid: la falta de personal",
+      "snippet": "Las agencias estatales de Medicaid pueden tener dificultades para mantener suficiente personal que ayude a las personas a inscribirse en los beneficios. La salud puede estar en peligro.",
+      "primary_url": "https://kffhealthnews.org/news/article/los-estados-se-enfrentan-a-otro-reto-con-las-nuevas-reglas-laborales-de-medicaid-la-falta-de-personal/",
+      "urls": [
+        "https://kffhealthnews.org/news/article/los-estados-se-enfrentan-a-otro-reto-con-las-nuevas-reglas-laborales-de-medicaid-la-falta-de-personal/"
+      ],
+      "category": "healthcare_policy",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_policy",
+        "ticker:CON",
         "ticker:HCAT",
         "ticker:HR",
         "subsector:Post-Acute",
@@ -2847,11 +3294,130 @@
       ]
     },
     {
+      "candidate_id": "e4e4150e6dd76d23",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
+      "snippet": "The investment bank said volumes will reach an estimated $240 billion in 2026 and grow at a 80% compound annual rate between 2025 and 2030.",
+      "primary_url": "https://www.cnbc.com/2026/04/14/prediction-markets-will-grow-to-1-trillion-by-2030-bernstein-says.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/14/prediction-markets-will-grow-to-1-trillion-by-2030-bernstein-says.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "264ea23a95035b89",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "Jamie Dimon says Anthropic's Mythos reveals 'a lot more vulnerabilities' for cyberattacks",
+      "snippet": "The remarks show how a technology welcomed by corporations as a productivity boon can also pose serious threats, like uncovering new ways to hack into systems.",
+      "primary_url": "https://www.cnbc.com/2026/04/14/jamie-dimon-anthropic-mythos-vulnerabilities-cyber-attacks.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/14/jamie-dimon-anthropic-mythos-vulnerabilities-cyber-attacks.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro"
+      ]
+    },
+    {
+      "candidate_id": "d64cb4b86dfd947d",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "David Einhorn signals caution as his hedge fund Greenlight prioritizes capital protection",
+      "snippet": "\"It probably won't surprise anyone that we are again putting capital preservation at the top of our priorities,\" Einhorn said in his latest investor letter.",
+      "primary_url": "https://www.cnbc.com/2026/04/14/david-einhorn-signals-caution-as-his-hedge-fund-greenlight-prioritizes-capital-protection.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/14/david-einhorn-signals-caution-as-his-hedge-fund-greenlight-prioritizes-capital-protection.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:ARE"
+      ]
+    },
+    {
+      "candidate_id": "4701571894cb73d5",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
+      "snippet": "A prolonged blockage of the Strait of Hormuz for the next six to 12 months will mean an unavoidable recession, the billionaire investor said.",
+      "primary_url": "https://www.cnbc.com/2026/04/14/citadels-ken-griffin-global-recession-inevitable-if-strait-of-hormuz-stays-shut.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/14/citadels-ken-griffin-global-recession-inevitable-if-strait-of-hormuz-stays-shut.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:GMRE"
+      ]
+    },
+    {
+      "candidate_id": "5e207ad9ca7d7fc9",
+      "run_date": "2026-04-14",
+      "source_type": "tier2",
+      "source_name": "CNBC Finance",
+      "headline": "Investor survey shows most bearishness in 11 months. So the contrarian call is to buy",
+      "snippet": "The latest Global Fund Manager Survey from Bank of America shows sentiment fell to its most bearish reading since June 2025.",
+      "primary_url": "https://www.cnbc.com/2026/04/14/investor-survey-shows-most-bearishness-in-11-months-so-the-contrarian-call-is-to-buy.html",
+      "urls": [
+        "https://www.cnbc.com/2026/04/14/investor-survey-shows-most-bearishness-in-11-months-so-the-contrarian-call-is-to-buy.html"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:finance_macro",
+        "ticker:GMRE",
+        "ticker:SNTI"
+      ]
+    },
+    {
       "candidate_id": "e9f4e11fef2e3799",
       "run_date": "2026-04-14",
       "source_type": "tier2",
       "source_name": "CNBC Finance",
-      "headline": "Treasury Secretary Bessent now says it's OK for the Fed to wait to lower rates amid oil surge",
+      "headline": "Treasury Secretary Bessent backs rate cuts but says he understands if the Fed wants to wait",
       "snippet": "Bessent has previously said the Fed should hasten cutting interest rates, calling reductions \"the only ingredient missing\" for stronger economic growth.",
       "primary_url": "https://www.cnbc.com/2026/04/14/treasury-secretary-bessent-now-says-its-ok-for-the-fed-to-wait-to-lower-rates-amid-oil-surge.html",
       "urls": [
@@ -2866,8 +3432,7 @@
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "category:finance_macro",
-        "ticker:NOW"
+        "category:finance_macro"
       ]
     },
     {
@@ -2920,15 +3485,15 @@
       ]
     },
     {
-      "candidate_id": "83f714a7711567de",
+      "candidate_id": "8ef33b4def7481f9",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "CNBC Finance",
-      "headline": "JPMorgan tops estimates on Wall Street results, Dimon flags 'increasingly complex' economic risks",
-      "snippet": "JPMorgan CEO Jamie Dimon called the economy resilient, but pointed to an \"increasingly complex set of risks\" across global markets.",
-      "primary_url": "https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html",
+      "source_name": "MarketWatch",
+      "headline": "Why one analyst believes Microsoft\u2019s stock may be bottoming out",
+      "snippet": "Bernstein\u2019s Mark Moerdler sees a good entry point for new investors in the stock, as Microsoft should start reaping the benefits of capex.",
+      "primary_url": "https://www.marketwatch.com/story/why-one-analyst-believes-microsofts-stock-may-be-bottoming-out-560a3478?mod=mw_rss_topstories",
       "urls": [
-        "https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html"
+        "https://www.marketwatch.com/story/why-one-analyst-believes-microsofts-stock-may-be-bottoming-out-560a3478?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -2940,47 +3505,19 @@
       "derived_signals": [
         "source_type:tier2",
         "category:finance_macro",
-        "ticker:GMRE",
-        "ticker:JPM",
-        "ticker:CCRN",
-        "subsector:Nurse staffing"
+        "ticker:MSFT"
       ]
     },
     {
-      "candidate_id": "75c353519f1cd3a7",
+      "candidate_id": "d5f52756dcc6c991",
       "run_date": "2026-04-14",
       "source_type": "tier2",
-      "source_name": "CNBC Finance",
-      "headline": "China exports growth in March misses estimates, imports surge most in over four years",
-      "snippet": "China's export growth slowed in March as manufacturers grappled with surging energy costs, with the Iran war disrupting supplies, while imports jumped more than expected.",
-      "primary_url": "https://www.cnbc.com/2026/04/14/china-trade-data-march-exports-imports-march.html",
+      "source_name": "MarketWatch",
+      "headline": "Nvidia\u2019s stock is on a 10-day winning streak. Here\u2019s why investors are getting back on board with AI.",
+      "snippet": "The AI trade has been full of uncertainty, but investors seem to be getting excited again",
+      "primary_url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-10-day-winning-streak-heres-why-investors-are-getting-back-on-board-with-ai-bf0bb59e?mod=mw_rss_topstories",
       "urls": [
-        "https://www.cnbc.com/2026/04/14/china-trade-data-march-exports-imports-march.html"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:3320",
-        "ticker:AAPL"
-      ]
-    },
-    {
-      "candidate_id": "248a55f485b64c66",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "CNBC Finance",
-      "headline": "Stocks making the biggest moves premarket: Goldman Sachs, Revolution Medicines, Fastenal & more",
-      "snippet": "These are the stocks posting the largest moves premarket.",
-      "primary_url": "https://www.cnbc.com/2026/04/13/stocks-making-the-biggest-moves-premarket-bby-wsm-fast-more.html",
-      "urls": [
-        "https://www.cnbc.com/2026/04/13/stocks-making-the-biggest-moves-premarket-bby-wsm-fast-more.html"
+        "https://www.marketwatch.com/story/nvidias-stock-is-on-a-10-day-winning-streak-heres-why-investors-are-getting-back-on-board-with-ai-bf0bb59e?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -2993,180 +3530,8 @@
         "source_type:tier2",
         "category:finance_macro",
         "ticker:ARE",
-        "ticker:RVMD"
-      ]
-    },
-    {
-      "candidate_id": "37800d56dbe4161a",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "CNBC Finance",
-      "headline": "Goldman Sachs tops estimates on record equities trading",
-      "snippet": "Goldman Sachs posted record equities trading revenue for the first quarter, helping propel the overall firm to its second-highest quarterly revenue.",
-      "primary_url": "https://www.cnbc.com/2026/04/13/goldman-sachs-gs-earnings-1q-2026.html",
-      "urls": [
-        "https://www.cnbc.com/2026/04/13/goldman-sachs-gs-earnings-1q-2026.html"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "0d2258d63e531ad3",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "CNBC Finance",
-      "headline": "How bond market's private credit crisis fears are playing out in fixed-income ETFs",
-      "snippet": "Fears of a private credit crisis arrived just as the growing and less transparent bond market was being included in more fixed-income ETFs.",
-      "primary_url": "https://www.cnbc.com/2026/04/11/bond-market-private-credit-crisis-fixed-income-etfs.html",
-      "urls": [
-        "https://www.cnbc.com/2026/04/11/bond-market-private-credit-crisis-fixed-income-etfs.html"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:ARE"
-      ]
-    },
-    {
-      "candidate_id": "e86eb5e2b805a9fa",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "Cheap, underweighted, and ready to move. Why this dormant emerging market is about to stage a comeback.",
-      "snippet": "For many years China was out of favor among global asset allocators after its big tech crackdown, the trade war with America and a burst real-estate bubble",
-      "primary_url": "https://www.marketwatch.com/story/cheap-underweighted-and-ready-to-move-why-this-dormant-emerging-market-is-about-to-stage-a-comeback-e3b7639c?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/cheap-underweighted-and-ready-to-move-why-this-dormant-emerging-market-is-about-to-stage-a-comeback-e3b7639c?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:MOVE",
-        "ticker:TECH",
-        "ticker:3320",
-        "ticker:GMRE",
-        "subsector:Spine/Ortho",
-        "subsector:Tools"
-      ]
-    },
-    {
-      "candidate_id": "70211d2de1939ae1",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "Citigroup\u2019s stock jumps toward an 18-year high after earnings, boosted by record M&A fees",
-      "snippet": "Citigroup\u2019s stock was rallying, bucking the postearnings weakness seen in shares of its big-bank peers.",
-      "primary_url": "https://www.marketwatch.com/story/citigroups-stock-jumps-toward-an-18-year-high-after-earnings-boosted-by-record-m-a-fees-e8e27555?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/citigroups-stock-jumps-toward-an-18-year-high-after-earnings-boosted-by-record-m-a-fees-e8e27555?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "2d9d4be74ecdf52a",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "United Airlines reportedly pitched government on American Airlines deal. Its CEO wants to take advantage of high oil prices.",
-      "snippet": "A published report says that United Airlines has pitched senior government officials on whether it could get permission to merge with American Airlines, a transaction that if completed would lead to carrier controlling a third of the market.",
-      "primary_url": "https://www.marketwatch.com/story/united-airlines-reportedly-pitched-government-on-american-airlines-deal-what-the-deal-would-look-like-b745939a?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/united-airlines-reportedly-pitched-government-on-american-airlines-deal-what-the-deal-would-look-like-b745939a?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:AMWL",
-        "ticker:UTHR",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "563f5361cc36318b",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "BP sees \u2018exceptional\u2019 oil-trading result as prices spike",
-      "snippet": "The British oil company expects significantly better performance in oil trading this quarter compared with the previous one.",
-      "primary_url": "https://www.marketwatch.com/story/bp-sees-exceptional-oil-trading-result-as-prices-spike-1744c34c?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/bp-sees-exceptional-oil-trading-result-as-prices-spike-1744c34c?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "a4176f3b956fedc6",
-      "run_date": "2026-04-14",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "Why two Wall Street titans just turned bullish on U.S. stocks",
-      "snippet": "Citigroup and BlackRock Investment Institute have both turned bullish on U.S. stocks. They say tech dominance is a part of that.",
-      "primary_url": "https://www.marketwatch.com/story/why-two-wall-street-titans-have-turned-bullish-on-u-s-stocks-afd0924a?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/why-two-wall-street-titans-have-turned-bullish-on-u-s-stocks-afd0924a?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro",
-        "ticker:TECH",
-        "subsector:Tools"
+        "ticker:DAY",
+        "ticker:NVDA"
       ]
     }
   ]

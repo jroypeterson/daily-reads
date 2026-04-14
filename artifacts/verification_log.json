@@ -70,5 +70,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a standard earnings report that doesn't fit Slot 3 (Tech/AI) and lacks the analytical depth or investment insights the reader prefers."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "The AI revolution in software development",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is targeting Slot 1 (Healthcare/Biotech) but is purely about general software development AI, with no healthcare, biotech, or life sciences connection."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Frontier AI's Economic Engine",
+    "source": "MBI Deep Dives",
+    "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is inaccessible due to a technical error (400 Bad Request) and shows only a Substack error page with no actual content."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Regeneron rides into radiopharma via $2.1B biobucks pact with Australia's Telix",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare M&A story with substantial financial details, strategic implications for radiopharmaceuticals sector, and depth beyond a simple deal announcement."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Eli Lilly to pay up to $300M for cancer biotech CrossBridge Bio",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/eli-lilly-to-pay-up-to-300m-for-cancer-biotech-crossbridge/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is severely truncated and consists mostly of cookie consent notices and website navigation elements, making it impossible to assess substance or provide accurate analysis."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "J&J leans on Tremfya, cancer drugs to overcome Stelara losses",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/johnson-johnson-2026-q1-earnings-stelara-tremfya-myeloma/817422/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong earnings analysis with specific financial details, portfolio diversification strategy, and forward-looking guidance that fits Slot 2's finance/markets focus with healthcare adjacency."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Revolution Medicines leads latest wave of stock offerings, totaling $1.5B",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/revolution-medicines-leads-latest-wave-of-stock-offerings-totaling-1-5b/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/Biopharma) financing article that doesn't match Slot 3 (Tech/AI) criteria and lacks the technical depth or AI intersection needed for the target slot."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Recalibrating technology budgets for the AI era",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8736aaed8568a3f4bbc780a0/b771f974727f42410000021ef3a0bcc2/b771f974-727f-4241-9c21-908f8646e6ca",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content wasn't provided - only the headline and summary were repeated, making it impossible to verify substance or accuracy against actual content."
   }
 ]
