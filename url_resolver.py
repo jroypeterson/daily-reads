@@ -39,51 +39,37 @@ CACHE_PATH = "url_resolution_cache.json"
 # on the publisher homepage or an ad-tracker. We still try to resolve them
 # here, but the dead-end check below drops the URL so a broken link never
 # ships in the digest.
+# Explicit hosts we've confirmed are click-tracking redirectors. Kept for
+# readability / debugging; the shape-based pattern below catches most new
+# tracker subdomains automatically.
 KNOWN_REDIRECTORS = re.compile(
     r"^("
     r"[a-z0-9]+\.ct\.sendgrid\.net"
-    # McKinsey and Atlantic: tokens typically resolve to a dead end (publisher
-    # homepage or ad-tracker). The dead-end detector drops those.
     r"|email\.mckinsey\.com"
     r"|link\.theatlantic\.com"
-    # Fierce Pharma/Biotech (Omeda): same single-use-token pattern as McKinsey
-    # — resolves to the bare fiercepharma.com/fiercebiotech.com homepage.
-    # Dead-end detector drops those.
     r"|qtx\.omeclk\.com"
-    # Morning Brew: clean 302 to retailbrew.com/morningbrew.com article path.
     r"|links\.morningbrew\.com"
-    # Bloomberg: clean 302 to bloomberg.com article path (paywalled 403 is fine,
-    # the URL itself is valid for subscribers).
     r"|links\.message\.bloomberg\.com"
-    # Proofpoint URL Defense wraps URLs WSJ and other enterprise mailers for
-    # security scanning. Unwraps cleanly to the underlying URL (often still
-    # a tracker — separate resolution pass may follow).
     r"|urldefense\.com"
     r")$",
     re.IGNORECASE,
 )
 
-# If a redirector resolves to a URL on one of these hosts, the resolution
-# is considered a dead end and the URL is dropped. These are ad-tech
-# trackers that never lead to a readable article.
+# Shape-based tracker detection. Any URL whose subdomain looks like a
+# click/email tracker gets resolution + dead-end checking, regardless of
+# whether we've seen the host before. This is what makes the system
+# self-healing for new newsletter platforms.
+LIKELY_TRACKER_PATTERN = re.compile(
+    r"^(links?|email|mail|trk|click|go|m|r|cl|e)\d*\.[a-z0-9-]+\.[a-z]{2,}$",
+    re.IGNORECASE,
+)
+
+# Ad-tech tracker hosts — if a redirector resolves to one of these, the
+# URL never leads to a readable article. Dropped.
 DEAD_END_HOSTS = re.compile(
     r"^(www\.)?(p\.)?liadm\.com$|\.liadm\.com$",
     re.IGNORECASE,
 )
-
-# Publisher homepages that signal "token already consumed / bot blocked".
-# If a redirector resolves to the bare root of one of these, the article
-# itself was stripped out, so the URL is dropped.
-HOMEPAGE_DEAD_ENDS = {
-    "www.mckinsey.com": "/",
-    "mckinsey.com": "/",
-    "www.theatlantic.com": "/",
-    "theatlantic.com": "/",
-    "www.fiercepharma.com": "/",
-    "fiercepharma.com": "/",
-    "www.fiercebiotech.com": "/",
-    "fiercebiotech.com": "/",
-}
 
 REQUEST_TIMEOUT = 6
 # Use a realistic browser UA — some tracking redirectors bot-sniff and
@@ -120,12 +106,18 @@ def is_redirector(url: str) -> bool:
         host = urlsplit(url).netloc
     except Exception:
         return False
-    return bool(KNOWN_REDIRECTORS.match(host))
+    return bool(KNOWN_REDIRECTORS.match(host) or LIKELY_TRACKER_PATTERN.match(host))
 
 
 def _is_dead_end(final_url: str) -> bool:
-    """Return True if a resolved URL is a known dead end (ad-tracker, bare
-    publisher homepage). These URLs should never ship in the digest."""
+    """Return True if a resolved URL is a dead end. Two rules:
+      1. Final host is a known ad-tracker (liadm.com family, etc.).
+      2. Final path is empty or `/` — a redirector that lands on the bare
+         publisher homepage has lost the article reference by definition.
+
+    Rule 2 is intentionally generic: it catches McKinsey, Fierce, and any
+    future publisher whose tokens get consumed/expire — no per-host config.
+    """
     try:
         parsed = urlsplit(final_url)
     except Exception:
@@ -134,9 +126,58 @@ def _is_dead_end(final_url: str) -> bool:
     path = parsed.path or "/"
     if DEAD_END_HOSTS.search(host):
         return True
-    if host in HOMEPAGE_DEAD_ENDS and path in ("", HOMEPAGE_DEAD_ENDS[host]):
+    if path in ("", "/"):
         return True
     return False
+
+
+# Status codes that mean "URL is definitely broken". 401/403 are treated as
+# OK because they're paywalls (Bloomberg, WSJ, FT) — the URL itself is valid
+# and the user can access it with their subscription.
+HARD_FAILURE_CODES = {404, 410}
+
+
+def check_url_live(url: str, timeout: int = 3) -> bool:
+    """Quick liveness probe used right before delivery.
+
+    Returns False only for confident failures (404/410, DNS/connection
+    errors). Timeouts, 5xx, and other ambiguous responses return True so
+    bot-walled sites (STAT, BioSpace) aren't accidentally dropped — the
+    user can still click through in their browser.
+    """
+    if not url or not url.startswith(("http://", "https://")):
+        return False
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        resp = requests.head(url, allow_redirects=True, timeout=timeout, headers=headers)
+        if resp.status_code == 405:  # Method Not Allowed — retry with GET
+            resp = requests.get(
+                url, allow_redirects=True, timeout=timeout, headers=headers, stream=True
+            )
+            resp.close()
+        return resp.status_code not in HARD_FAILURE_CODES
+    except requests.exceptions.Timeout:
+        return True  # unknown — don't drop on bot-walled sites
+    except requests.exceptions.ConnectionError:
+        return False  # DNS fail / connection refused = broken
+    except Exception:
+        return True  # unknown error — conservative: keep the URL
+
+
+def check_urls_live(urls: list[str], timeout: int = 3) -> dict[str, bool]:
+    """Parallel liveness probe. Returns {url: is_live} for each input URL."""
+    if not urls:
+        return {}
+    results: dict[str, bool] = {}
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        futures = {pool.submit(check_url_live, u, timeout): u for u in urls}
+        for fut in as_completed(futures):
+            url = futures[fut]
+            try:
+                results[url] = fut.result()
+            except Exception:
+                results[url] = True
+    return results
 
 
 def _resolve_one(url: str) -> str:

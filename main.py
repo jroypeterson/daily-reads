@@ -13,6 +13,7 @@ import anthropic
 import requests
 
 from gmail_reader import fetch_newsletters, fetch_substack_emails
+from url_resolver import check_urls_live
 from project_data import (
     article_id_for,
     candidate_artifact_path,
@@ -495,6 +496,106 @@ def build_always_read(
             continue
         results.append(candidate)
     return results
+
+
+def validate_delivery_urls(
+    articles: list[dict],
+    triage_queue: list[dict],
+    always_read: list[dict],
+    substack_items: list[dict],
+) -> tuple[list[dict], list[dict], list[dict], list[dict]]:
+    """Probe every URL that is about to ship. Drops broken URLs from
+    triage/always_read/substack lists. For main-slot articles (which are
+    load-bearing — dropping one would leave an empty slot), logs a loud
+    warning but keeps the article so the digest still goes out.
+
+    Uses `url_resolver.check_urls_live` which treats 404/410 and
+    connection errors as broken but keeps 401/403/timeouts (paywalled or
+    bot-walled sites that work fine in the user's browser).
+    """
+    section("DELIVERY URL VALIDATION")
+
+    # Gather every URL we're about to ship, with its source surface.
+    # (surface, index, url)
+    urls_to_check: list[tuple[str, int, str]] = []
+    for i, a in enumerate(articles):
+        url = (a.get("url") or "").strip()
+        if url:
+            urls_to_check.append(("article", i, url))
+    for i, c in enumerate(triage_queue):
+        url = (c.get("primary_url") or "").strip()
+        if url:
+            urls_to_check.append(("triage", i, url))
+    for i, c in enumerate(always_read):
+        url = (c.get("primary_url") or "").strip()
+        if url:
+            urls_to_check.append(("always_read", i, url))
+    for i, item in enumerate(substack_items):
+        url = (item.get("url") or "").strip()
+        if url:
+            urls_to_check.append(("substack", i, url))
+
+    unique_urls = list({url for _, _, url in urls_to_check})
+    if not unique_urls:
+        print("No URLs to validate.")
+        return articles, triage_queue, always_read, substack_items
+
+    print(f"Probing {len(unique_urls)} unique URLs across {len(urls_to_check)} slots...")
+    liveness = check_urls_live(unique_urls, timeout=3)
+
+    broken_articles: list[int] = []
+    broken_triage: set[int] = set()
+    broken_always_read: set[int] = set()
+    broken_substack: set[int] = set()
+    for surface, idx, url in urls_to_check:
+        if liveness.get(url, True):
+            continue
+        if surface == "article":
+            broken_articles.append(idx)
+        elif surface == "triage":
+            broken_triage.add(idx)
+        elif surface == "always_read":
+            broken_always_read.add(idx)
+        elif surface == "substack":
+            broken_substack.add(idx)
+
+    for idx in broken_articles:
+        a = articles[idx]
+        print(
+            f"  WARNING: main slot {a.get('slot', '?')} URL is broken — "
+            f"shipping anyway to preserve slot. Headline: {a.get('headline', '')[:60]}"
+        )
+        print(f"    URL: {a.get('url', '')}")
+
+    def _filter(items: list[dict], dropped: set[int], label: str) -> list[dict]:
+        if not dropped:
+            return items
+        for idx in sorted(dropped):
+            c = items[idx]
+            headline = c.get("headline") or c.get("subject", "Untitled")
+            print(f"  Dropping {label}: {headline[:60]} — URL failed liveness probe")
+        return [c for i, c in enumerate(items) if i not in dropped]
+
+    triage_queue = _filter(triage_queue, broken_triage, "triage")
+    always_read = _filter(always_read, broken_always_read, "always-read")
+    substack_items = _filter(substack_items, broken_substack, "substack")
+
+    total_broken = (
+        len(broken_articles) + len(broken_triage)
+        + len(broken_always_read) + len(broken_substack)
+    )
+    if total_broken == 0:
+        print("All URLs passed liveness check.")
+    else:
+        print(
+            f"Summary: {total_broken} broken URL(s) detected "
+            f"({len(broken_articles)} main warnings, "
+            f"{len(broken_triage)} triage dropped, "
+            f"{len(broken_always_read)} always-read dropped, "
+            f"{len(broken_substack)} substack dropped)."
+        )
+
+    return articles, triage_queue, always_read, substack_items
 
 
 def validate_selected_articles(articles: list[dict]) -> list[dict]:
@@ -1875,6 +1976,13 @@ def main():
     save_candidate_artifact(today, gmail_items, tier2_items, tickers)
     save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
     save_triage_artifact(today, triage_queue)
+
+    # Step 4c: Pre-delivery URL liveness check — catch broken links before
+    # they ship. Drops broken URLs from triage/always_read/substack and logs
+    # warnings for main-slot articles (dropping those would leave empty slots).
+    articles, triage_queue, always_read, substack_items = validate_delivery_urls(
+        articles, triage_queue, always_read, substack_items
+    )
 
     # Step 5: Deliver to all channels
     deliver_gmail(articles, triage_queue, always_read, substack_items)
