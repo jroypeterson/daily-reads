@@ -42,8 +42,23 @@ CACHE_PATH = "url_resolution_cache.json"
 KNOWN_REDIRECTORS = re.compile(
     r"^("
     r"[a-z0-9]+\.ct\.sendgrid\.net"
+    # McKinsey and Atlantic: tokens typically resolve to a dead end (publisher
+    # homepage or ad-tracker). The dead-end detector drops those.
     r"|email\.mckinsey\.com"
     r"|link\.theatlantic\.com"
+    # Fierce Pharma/Biotech (Omeda): same single-use-token pattern as McKinsey
+    # — resolves to the bare fiercepharma.com/fiercebiotech.com homepage.
+    # Dead-end detector drops those.
+    r"|qtx\.omeclk\.com"
+    # Morning Brew: clean 302 to retailbrew.com/morningbrew.com article path.
+    r"|links\.morningbrew\.com"
+    # Bloomberg: clean 302 to bloomberg.com article path (paywalled 403 is fine,
+    # the URL itself is valid for subscribers).
+    r"|links\.message\.bloomberg\.com"
+    # Proofpoint URL Defense wraps URLs WSJ and other enterprise mailers for
+    # security scanning. Unwraps cleanly to the underlying URL (often still
+    # a tracker — separate resolution pass may follow).
+    r"|urldefense\.com"
     r")$",
     re.IGNORECASE,
 )
@@ -64,6 +79,10 @@ HOMEPAGE_DEAD_ENDS = {
     "mckinsey.com": "/",
     "www.theatlantic.com": "/",
     "theatlantic.com": "/",
+    "www.fiercepharma.com": "/",
+    "fiercepharma.com": "/",
+    "www.fiercebiotech.com": "/",
+    "fiercebiotech.com": "/",
 }
 
 REQUEST_TIMEOUT = 6

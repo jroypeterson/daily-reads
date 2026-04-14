@@ -85,7 +85,16 @@ def extract_urls_from_html(html: str) -> list[str]:
     urls = []
     skip_patterns = re.compile(
         r"(unsubscribe|manage.preferences|email-preferences|list-manage|mailchimp"
-        r"|click\.\w+\.com/unsub|view\.in\.browser|mailto:)",
+        r"|click\.\w+\.com/unsub|view\.in\.browser|mailto:"
+        # WSJ newsletter "view in browser" wrapper — returns the full email
+        # HTML rather than an article. Not a skip by URL pattern elsewhere
+        # because the host isn't obviously a view-in-browser host.
+        r"|trk\.wsj\.com/view/"
+        # Generic CampaignMonitor web-view URLs (WSJ's Ten Point uses these
+        # inside Proofpoint). Path shape `/t/<token>/` at a *.cmail20.com or
+        # *.createsend.com host is always the email's web copy, not an article.
+        r"|cmail\d+\.com/t/"
+        r"|createsend\d*\.com/t/)",
         re.IGNORECASE,
     )
     for a in soup.find_all("a", href=True):
