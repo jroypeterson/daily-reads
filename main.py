@@ -12,7 +12,7 @@ from urllib.parse import urlencode
 import anthropic
 import requests
 
-from gmail_reader import fetch_newsletters
+from gmail_reader import fetch_newsletters, fetch_substack_emails
 from project_data import (
     article_id_for,
     candidate_artifact_path,
@@ -583,6 +583,30 @@ def gmail_scan() -> list[dict]:
         return []
 
 
+def substack_scan() -> list[dict]:
+    section("SUBSTACK SCAN")
+    try:
+        items = fetch_substack_emails(hours_back=26)
+        # Deduplicate by (sender_email, subject) — Substack occasionally
+        # resends; keep the first we saw.
+        seen: set[tuple[str, str]] = set()
+        unique: list[dict] = []
+        for item in items:
+            key = (item.get("sender_email", ""), item.get("subject", ""))
+            if key in seen:
+                continue
+            seen.add(key)
+            unique.append(item)
+        unique.sort(key=lambda i: i.get("sender_name", "").lower())
+        print(f"Found {len(unique)} Substack email(s) in last 26h")
+        for item in unique:
+            print(f"  - {item.get('sender_name', '')}: {item.get('subject', '')}")
+        return unique
+    except Exception as e:
+        print(f"Substack scan failed: {e}")
+        return []
+
+
 # ---------------------------------------------------------------------------
 # [TIER2 SCAN]
 # ---------------------------------------------------------------------------
@@ -1084,7 +1108,7 @@ Return ONLY valid JSON with these keys:
 # [DELIVERY: GMAIL]
 # ---------------------------------------------------------------------------
 
-def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None):
+def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
     section("DELIVERY: GMAIL")
     try:
         import base64
@@ -1152,6 +1176,19 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
                 html += f'  <p style="margin: 6px 0; font-size: 13px;"><a href="{url}" style="color: #0fbcf9; text-decoration: none;">{headline}</a> <span style="color: #666;">— {source}</span></p>\n'
             html += "</div>\n"
 
+        if substack_items:
+            html += """
+<div style="background: #1a1a2e; border-top: 2px solid #7c3aed; margin-top: 24px; padding-top: 16px;">
+  <h3 style="color: #7c3aed; margin: 0 0 4px 0;">📨 Substack — today's inbox</h3>
+  <p style="color: #666; font-size: 11px; margin: 0 0 12px 0;">All @substack.com emails from the last 26h. Use this to decide which to promote to always-read.</p>
+"""
+            for item in substack_items:
+                subject = item.get("subject", "(no subject)")
+                url = item.get("url") or "#"
+                sender = item.get("sender_name", "")
+                html += f'  <p style="margin: 6px 0; font-size: 13px;"><a href="{url}" style="color: #0fbcf9; text-decoration: none;">{subject}</a> <span style="color: #666;">— {sender}</span></p>\n'
+            html += "</div>\n"
+
         html += """
 <hr style="border-color: #333; margin: 24px 0;">
 <p style="color: #a8a8b3; font-size: 12px;">💬 Reply to rate: <span style="color: #0fbcf9;">[slot#] [score 1-3]</span> — 3 = strong pick, 2 = fine, 1 = miss. e.g. <span style="color: #0fbcf9;">1 3</span> or <span style="color: #0fbcf9;">3 1 too generic</span></p>
@@ -1179,7 +1216,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
 # [DELIVERY: SLACK]
 # ---------------------------------------------------------------------------
 
-def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None):
+def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
     section("DELIVERY: SLACK")
     webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
     if not webhook_url:
@@ -1257,6 +1294,30 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
             },
         })
 
+    if substack_items:
+        sub_lines = [
+            f"<{item.get('url') or '#'}|{item.get('subject', '(no subject)')}> — {item.get('sender_name', '')}"
+            for item in substack_items
+        ]
+        header = ":incoming_envelope: *Substack — today's inbox*\n_All @substack.com emails from the last 26h. Flag which to promote to always-read._"
+        SLACK_SECTION_LIMIT = 2800
+        chunks: list[str] = []
+        current = header
+        for line in sub_lines:
+            candidate = current + "\n" + line
+            if len(candidate) > SLACK_SECTION_LIMIT and current:
+                chunks.append(current)
+                current = line
+            else:
+                current = candidate
+        if current:
+            chunks.append(current)
+        for chunk in chunks:
+            blocks.append({
+                "type": "section",
+                "text": {"type": "mrkdwn", "text": chunk},
+            })
+
     blocks.append({
         "type": "context",
         "elements": [{
@@ -1298,6 +1359,22 @@ def _pages_triage_html(triage_queue: list[dict] | None) -> str:
   </div>"""
 
 
+def _pages_substack_html(substack_items: list[dict] | None) -> str:
+    if not substack_items:
+        return ""
+    items = "\n".join(
+        f'    <p style="margin: 6px 0; font-size: 14px;">'
+        f'<a href="{item.get("url") or "#"}" target="_blank" style="color: #0fbcf9; text-decoration: none;">{item.get("subject", "(no subject)")}</a>'
+        f' <span style="color: #666;">— {item.get("sender_name", "")}</span></p>'
+        for item in substack_items
+    )
+    return f"""  <div style="border-top: 2px solid #7c3aed; margin-top: 24px; padding-top: 16px;">
+    <h3 style="color: #7c3aed; margin-bottom: 4px;">📨 Substack — today's inbox</h3>
+    <p style="color: #666; font-size: 12px; margin-bottom: 12px;">All @substack.com emails from the last 26h. Use this to decide which to promote to always-read.</p>
+{items}
+  </div>"""
+
+
 def _pages_always_read_html(always_read: list[dict] | None) -> str:
     if not always_read:
         return ""
@@ -1313,7 +1390,7 @@ def _pages_always_read_html(always_read: list[dict] | None) -> str:
   </div>"""
 
 
-def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None):
+def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
     section("DELIVERY: PAGES")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slot_emojis = {1: "🧬", 2: "📊", 3: "🤖", 4: "🌀"}
@@ -1413,6 +1490,7 @@ def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, 
   </div>
 {_pages_triage_html(triage_queue)}
 {_pages_always_read_html(always_read)}
+{_pages_substack_html(substack_items)}
 </body>
 </html>"""
 
@@ -1781,14 +1859,15 @@ def main():
     )
     triage_queue = build_triage_queue(structured_gmail, structured_tier2, articles)
     always_read = build_always_read(structured_gmail, articles)
+    substack_items = substack_scan()
     save_candidate_artifact(today, gmail_items, tier2_items, tickers)
     save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
     save_triage_artifact(today, triage_queue)
 
     # Step 5: Deliver to all channels
-    deliver_gmail(articles, triage_queue, always_read)
-    deliver_slack(articles, triage_queue, always_read)
-    deliver_pages(articles, triage_queue, always_read)
+    deliver_gmail(articles, triage_queue, always_read, substack_items)
+    deliver_slack(articles, triage_queue, always_read, substack_items)
+    deliver_pages(articles, triage_queue, always_read, substack_items)
     deliver_ticktick(articles, always_read)
     deliver_log(articles)
     deliver_triage_log(triage_queue)

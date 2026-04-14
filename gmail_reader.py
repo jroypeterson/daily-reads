@@ -169,6 +169,91 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
     return results
 
 
+def _pick_substack_post_url(urls: list[str]) -> str | None:
+    """Pick the canonical post URL from a Substack email's link list.
+
+    Substack emails contain many wrapper/app-link/reaction URLs. The real post
+    URL typically lives on the publication's domain and has a `/p/<slug>` path
+    (or a custom-domain equivalent). Fall back to the first http(s) link that
+    isn't an app-link/share URL.
+    """
+    fallback = None
+    for url in urls:
+        try:
+            parsed = urlsplit(url)
+        except ValueError:
+            continue
+        if parsed.scheme not in {"http", "https"}:
+            continue
+        host = parsed.netloc.lower()
+        path = parsed.path
+        if "app-link" in path or path.startswith("/api/") or "/action/" in path:
+            continue
+        if host.endswith("substack.com") and "/p/" in path:
+            return url
+        if host.endswith("substack.com") and path.startswith("/p/"):
+            return url
+        if not host.endswith("substack.com") and "/p/" in path:
+            # custom-domain Substack post
+            return url
+        if fallback is None:
+            fallback = url
+    return fallback
+
+
+def fetch_substack_emails(hours_back: int = 26) -> list[dict]:
+    """Fetch all @substack.com emails in the window, regardless of sources.py.
+
+    Used to render the daily digest's Substack section so the user can spot
+    newsletters worth promoting to always_read.
+
+    Returns list of dicts with keys: sender_name, sender_email, subject, url, date.
+    """
+    service = get_gmail_service()
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
+    date_query = cutoff.strftime("%Y/%m/%d")
+    query = f"after:{date_query} from:substack.com"
+
+    results: list[dict] = []
+    page_token = None
+    while True:
+        resp = service.users().messages().list(
+            userId="me", q=query, maxResults=100, pageToken=page_token
+        ).execute()
+
+        for msg_stub in resp.get("messages", []):
+            msg = service.users().messages().get(
+                userId="me", id=msg_stub["id"], format="full"
+            ).execute()
+            headers = {h["name"].lower(): h["value"] for h in msg["payload"]["headers"]}
+            sender_raw = headers.get("from", "")
+            sender_name, sender_email = parseaddr(sender_raw)
+            sender_email = sender_email.lower()
+            if not sender_email.endswith("@substack.com"):
+                continue
+
+            subject = headers.get("subject", "(no subject)")
+            date_str = headers.get("date", "")
+
+            html_body = _extract_body(msg["payload"])
+            urls = extract_urls_from_html(html_body) if html_body else []
+            post_url = _pick_substack_post_url(urls) if urls else None
+
+            results.append({
+                "sender_name": sender_name or sender_email,
+                "sender_email": sender_email,
+                "subject": subject,
+                "url": post_url or "",
+                "date": date_str,
+            })
+
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+
+    return results
+
+
 def _extract_body(payload: dict) -> str | None:
     """Recursively extract HTML body from Gmail payload."""
     if payload.get("mimeType") == "text/html":
