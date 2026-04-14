@@ -1,5 +1,5 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-04-14T13:05:43Z
+> Structured preference model. Last updated: 2026-04-14T13:53:53Z
 
 ## Evidence Snapshot
 - Total evidence records: 19
@@ -13,7 +13,7 @@
 - **self-improvement** [weak, positive] (1 evidence points)
 - **AI and biology intersection** [strong, positive] (1 evidence points)
 - **venture capital insights** [strong, positive] (1 evidence points)
-- **data infrastructure** [moderate, positive] (2 evidence points)
+- **data infrastructure** [strong, positive] (11 evidence points)
 - **corporate governance** [strong, positive] (2 evidence points)
 - **regulatory affairs** [moderate, positive] (1 evidence points)
 - **geopolitical risks** [moderate, positive] (1 evidence points)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-04-14T13:05:43Z",
+  "updated_at": "2026-04-14T13:53:53Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -8,7 +8,8 @@
       "direction": "positive",
       "evidence_ids": [
         "ev_c1f79a0309332bde"
-      ]
+      ],
+      "last_updated": "2026-04-14T13:53:53Z"
     },
     {
       "name": "AI and biology intersection",
@@ -28,12 +29,22 @@
     },
     {
       "name": "data infrastructure",
-      "strength": "moderate",
+      "strength": "strong",
       "direction": "positive",
       "evidence_ids": [
-        "email_biology_ai_fwd",
-        "daily_scoring_epic_alerts"
-      ]
+        "ev_1c5b19ebfec24761",
+        "ev_56803f05c5e654bb",
+        "ev_6d37adc4bd621d89",
+        "ev_6dd74c973cd8f92b",
+        "ev_70b4fcbb831bf558",
+        "ev_d1975c1383c0be5a",
+        "ev_a166d2ca77b6c071",
+        "ev_8dcdc821aa61a19a",
+        "ev_f166034e1940a765",
+        "ev_2e87e7ed94e83b6c",
+        "ev_2388bc9a1c26358d"
+      ],
+      "last_updated": "2026-04-14T13:53:53Z"
     },
     {
       "name": "corporate governance",
