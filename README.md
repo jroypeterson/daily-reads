@@ -43,7 +43,8 @@ Web search ─────────┘                                → Git
 |--------|-------------|
 | `ANTHROPIC_API_KEY` | Claude API key |
 | `GMAIL_OAUTH_JSON` | Gmail OAuth token JSON (see setup below) |
-| `SLACK_WEBHOOK_URL` | Slack incoming webhook URL |
+| `SLACK_WEBHOOK_URL` | Slack incoming webhook for operator alerts (weekly report, source audit, criteria proposals, TickTick-expired warnings, taste synthesis) |
+| `SLACK_WEBHOOK_URL_DAILY_READS` | Optional — Slack webhook for the daily digest itself (e.g. `#daily-reads`). Falls back to `SLACK_WEBHOOK_URL` when unset. |
 | `GITHUB_TOKEN` | Auto-provided by GitHub Actions |
 | `TASTE_EMAIL_ALIAS` | Optional override for exemplar intake alias, defaults to `jroypeterson+taste@gmail.com` |
 | `TASTE_GMAIL_LABEL` | Optional Gmail label used as a backup exemplar intake path, defaults to `taste` |

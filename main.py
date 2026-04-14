@@ -1360,9 +1360,15 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
 
 def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
     section("DELIVERY: SLACK")
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    # The daily digest posts to its own #daily-reads channel when its
+    # dedicated webhook is configured. Fall back to the general
+    # SLACK_WEBHOOK_URL so a missing secret doesn't break delivery.
+    webhook_url = (
+        os.environ.get("SLACK_WEBHOOK_URL_DAILY_READS")
+        or os.environ.get("SLACK_WEBHOOK_URL")
+    )
     if not webhook_url:
-        print("No SLACK_WEBHOOK_URL set — skipping Slack delivery")
+        print("No Slack webhook set (checked SLACK_WEBHOOK_URL_DAILY_READS, SLACK_WEBHOOK_URL) — skipping Slack delivery")
         return
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")

@@ -70,6 +70,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL_DAILY_READS: ${{ secrets.SLACK_WEBHOOK_URL_DAILY_READS }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TICKTICK_ACCESS_TOKEN: ${{ secrets.TICKTICK_ACCESS_TOKEN }}
           TICKTICK_LIST_DAILY_READS: ${{ secrets.TICKTICK_LIST_DAILY_READS }}
