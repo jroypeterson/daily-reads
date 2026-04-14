@@ -257,28 +257,9 @@ SOURCES = {
         "priority": "high",
         "always_read": True,
     },
-    # === Always Read: Biotech notes (research-style, not marketing) ===
-    "mattbiotech@substack.com": {
-        "name": "Matt Gamber's Biotech Newsletter",
-        "email": "mattbiotech@substack.com",
-        "tier": 1,
-        "category": "healthcare_weekly",
-        "frequency": "weekly",
-        "priority": "high",
-        "always_read": True,
-    },
-    "decodingbio@substack.com": {
-        "name": "Decoding Bio",
-        "email": "decodingbio@substack.com",
-        "tier": 1,
-        "category": "healthcare_weekly",
-        "frequency": "weekly",
-        "priority": "high",
-        "always_read": True,
-    },
-    "ideapharma@substack.com": {
-        "name": "Asymmetric Learning (IdeaPharma)",
-        "email": "ideapharma@substack.com",
+    "theprimer@biotechprimer.com": {
+        "name": "Biotech Primer",
+        "email": "theprimer@biotechprimer.com",
         "tier": 1,
         "category": "healthcare_weekly",
         "frequency": "weekly",
