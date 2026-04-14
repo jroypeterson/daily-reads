@@ -1,0 +1,79 @@
+{
+  "period_start": "2026-04-07",
+  "period_end": "2026-04-13",
+  "generated_at": "2026-04-13T23:53:38.861727+00:00",
+  "source_health": {
+    "active_sources": 13,
+    "total_configured": 17,
+    "missing_sources": [
+      "A Letter a Day",
+      "BCG",
+      "Bloomberg",
+      "Fierce Biotech",
+      "Fierce Pharma",
+      "KFF Health News",
+      "MBI",
+      "McKinsey",
+      "Morning Brew",
+      "Scuttleblurb",
+      "Stratechery",
+      "The Atlantic",
+      "The Transcript",
+      "WSJ Newsletters"
+    ],
+    "missing_always_read": [
+      "A Letter a Day",
+      "MBI",
+      "Scuttleblurb",
+      "The Transcript"
+    ],
+    "total_gmail_items": 19,
+    "total_tier2_items": 620,
+    "days_with_runs": 7
+  },
+  "selection_quality": {
+    "total_selected": 24,
+    "articles_per_day": [
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4
+    ],
+    "avg_articles_per_day": 3.4,
+    "verified_pass": 0,
+    "verified_fail": 0,
+    "fail_reasons": [],
+    "extraction_tiers": {
+      "trafilatura": 0,
+      "jina": 0,
+      "tavily": 0,
+      "snippet_fallback": 0
+    }
+  },
+  "feedback": {
+    "total_ratings": 4,
+    "score_counts": {
+      "1": 2,
+      "2": 2,
+      "3": 0
+    },
+    "avg_score": 1.5,
+    "prior_week_avg": 3.5,
+    "score_trend": "down 2.0",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Value Investors Insight": 1
+    },
+    "missing": [
+      "A Letter a Day",
+      "MBI",
+      "Scuttleblurb",
+      "The Transcript"
+    ]
+  }
+}

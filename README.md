@@ -29,10 +29,13 @@ Web search ─────────┘                                → Git
 1. **Gmail Scan**: Fetches newsletters from tracked sources (last 24h)
 2. **Tier 2 Scan**: Pulls Hacker News top stories + web search
 3. **Feedback Check**: Reviews yesterday's ratings, triggers criteria evolution after 7 days
-4. **Article Selection**: Claude selects 4 articles using `selection_criteria.md` + ticker signals
-5. **Delivery**: Sends to Gmail, Slack, GitHub Pages, and Actions log
-6. **Criteria Review**: When enough feedback accumulates, Claude proposes a criteria update and notifies via Gmail + Slack for accept/reject/modify review
-7. **Taste Intake**: Positive exemplars can come from a dedicated Gmail alias/label or a local Dropbox watch folder and feed learned preferences
+4. **Article Shortlist**: Claude ranks top 8 candidates from headlines/snippets
+5. **Article Verification**: For each shortlisted candidate, fetch the actual article text (trafilatura → Jina Reader → Tavily fallback chain), then Claude verifies it has real substance and matches criteria. Skipped candidates are replaced with the next-ranked one. Paywalled articles fall back to verifying against the newsletter summary.
+6. **Delivery**: Sends 4 verified articles to Gmail, Slack, TickTick, GitHub Pages, and Actions log
+7. **Criteria Review**: When enough feedback accumulates, Claude proposes a criteria update and notifies via Gmail + Slack for accept/reject/modify review
+8. **Taste Intake**: Positive exemplars can come from a dedicated Gmail alias/label or a local Dropbox watch folder and feed learned preferences
+9. **Source Audit**: Daily check that every newsletter source in `sources.py` has produced emails recently; Slack alert if any go stale/dead
+10. **Weekly Report**: Every Friday, a health report is sent via Gmail + Slack covering source health, selection quality, feedback trends, and always-read coverage
 
 ## GitHub Secrets Required
 
@@ -44,6 +47,9 @@ Web search ─────────┘                                → Git
 | `GITHUB_TOKEN` | Auto-provided by GitHub Actions |
 | `TASTE_EMAIL_ALIAS` | Optional override for exemplar intake alias, defaults to `jroypeterson+taste@gmail.com` |
 | `TASTE_GMAIL_LABEL` | Optional Gmail label used as a backup exemplar intake path, defaults to `taste` |
+| `TAVILY_API_KEY` | Optional — enables Tavily extract as last-resort fallback for paywalled/JS-heavy articles that trafilatura and Jina can't extract |
+| `TICKTICK_ACCESS_TOKEN` | Optional — enables TickTick delivery |
+| `TICKTICK_LIST_DAILY_READS` | Optional — TickTick list ID for daily digest |
 
 ## Gmail OAuth Setup
 
@@ -139,4 +145,24 @@ That helper now registers:
 
 ## Schedule
 
-Runs daily at 7am ET (noon UTC) via GitHub Actions. Manual trigger available via `workflow_dispatch`.
+Runs daily at 7am ET (noon UTC) via GitHub Actions. Manual trigger available via `workflow_dispatch`. Weekly health report fires automatically on Fridays after the daily run.
+
+## Adding a Newsletter Source
+
+Sender addresses in `sources.py` must match the actual `From:` header, which often differs from what you'd guess (Substack newsletters don't use `noreply@slug.substack.com` — they use `slug@substack.com`; newsletter platforms often send from `@go.domain.com` or `@email.domain.com`).
+
+To find the real sender address before adding a source:
+
+```bash
+python validate_source.py "stratechery"
+```
+
+This searches Gmail for the keyword and prints every `From:` address it finds, so you can add the correct one.
+
+To audit all current sources against recent Gmail activity:
+
+```bash
+python validate_source.py --audit
+```
+
+The daily workflow runs this audit automatically and sends a Slack alert if any source goes stale (no emails in 7 days) or dead (no emails in 30 days).
