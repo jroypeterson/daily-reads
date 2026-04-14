@@ -22,6 +22,7 @@ ARTIFACTS_CANDIDATES = Path("artifacts/candidates")
 FEEDBACK_LOG = Path("feedback_log.json")
 TASTE_EVIDENCE = Path("taste_evidence.json")
 VERIFICATION_LOG = Path("artifacts/verification_log.json")
+URL_VALIDATION_LOG = Path("artifacts/url_validation_log.json")
 
 
 def _load_json(path: Path, default=None):
@@ -165,6 +166,37 @@ def build_report() -> dict:
         "missing": sorted(always_read_names - set(always_read_delivered.keys())),
     }
 
+    # --- URL Validation ---
+    url_log = _load_json(URL_VALIDATION_LOG, [])
+    week_url = [entry for entry in url_log if entry.get("date") in dates]
+    total_checked = sum(e.get("checked_slots", 0) for e in week_url)
+    surface_totals = {
+        "article_warnings": 0,
+        "triage_dropped": 0,
+        "always_read_dropped": 0,
+        "substack_dropped": 0,
+    }
+    warned_by_source: dict[str, int] = {}
+    for entry in week_url:
+        broken = entry.get("broken", {})
+        for key in surface_totals:
+            surface_totals[key] += broken.get(key, 0)
+        for warned in entry.get("warned_articles", []):
+            src = warned.get("source", "") or "Unknown"
+            warned_by_source[src] = warned_by_source.get(src, 0) + 1
+
+    total_broken = sum(surface_totals.values())
+    top_warned_sources = sorted(
+        warned_by_source.items(), key=lambda kv: -kv[1]
+    )[:5]
+    report["url_validation"] = {
+        "days_logged": len(week_url),
+        "checked_slots": total_checked,
+        "total_broken": total_broken,
+        "surfaces": surface_totals,
+        "top_warned_sources": top_warned_sources,
+    }
+
     return report
 
 
@@ -232,6 +264,27 @@ def format_report_text(report: dict) -> str:
         lines.append("  No always-read articles delivered this week")
     lines.append("")
 
+    # URL Validation
+    uv = report.get("url_validation", {})
+    lines.append("URL VALIDATION")
+    lines.append(
+        f"  Probed: {uv.get('checked_slots', 0)} slots across "
+        f"{uv.get('days_logged', 0)}/7 days"
+    )
+    surf = uv.get("surfaces", {})
+    lines.append(
+        f"  Broken: {uv.get('total_broken', 0)} "
+        f"(main warnings={surf.get('article_warnings', 0)}, "
+        f"triage={surf.get('triage_dropped', 0)}, "
+        f"always-read={surf.get('always_read_dropped', 0)}, "
+        f"substack={surf.get('substack_dropped', 0)})"
+    )
+    if uv.get("top_warned_sources"):
+        lines.append("  Sources shipping broken main-slot URLs:")
+        for src, n in uv["top_warned_sources"]:
+            lines.append(f"    - {src}: {n} day(s)")
+    lines.append("")
+
     return "\n".join(lines)
 
 
@@ -268,6 +321,19 @@ def format_report_html(report: dict) -> str:
         trend_color = "#4caf50" if "up" in fb["score_trend"] else "#e94560" if "down" in fb["score_trend"] else "#a8a8b3"
         score_trend = f'<p>Avg score: <strong>{fb["avg_score"]}</strong> <span style="color: {trend_color};">({fb["score_trend"]})</span></p>'
 
+    uv = report.get("url_validation", {})
+    surf = uv.get("surfaces", {})
+    uv_color = "#4caf50" if uv.get("total_broken", 0) == 0 else "#ff9800"
+    uv_warned_html = ""
+    if uv.get("top_warned_sources"):
+        items = "".join(
+            f"<li>{src}: {n} day(s)</li>" for src, n in uv["top_warned_sources"]
+        )
+        uv_warned_html = (
+            '<p style="margin-top: 8px;">Sources shipping broken main-slot URLs:</p>'
+            f'<ul style="color: #a8a8b3; font-size: 13px;">{items}</ul>'
+        )
+
     return f"""<html><body style="background: #0f0f23; color: #e0e0e0; font-family: -apple-system, sans-serif; padding: 24px; max-width: 700px; margin: 0 auto;">
 <h1 style="color: #e94560;">Weekly Health Report</h1>
 <p style="color: #666;">{report["period_start"]} to {report["period_end"]}</p>
@@ -298,6 +364,17 @@ def format_report_html(report: dict) -> str:
 <div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid #e94560;">
   <h3 style="color: #e94560; margin-top: 0;">Always-Read Coverage</h3>
   {ar_html}
+</div>
+
+<div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid {uv_color};">
+  <h3 style="color: {uv_color}; margin-top: 0;">URL Validation</h3>
+  <p>Probed: <strong>{uv.get("checked_slots", 0)}</strong> slots across {uv.get("days_logged", 0)}/7 days</p>
+  <p>Broken: <strong>{uv.get("total_broken", 0)}</strong>
+     (main warnings={surf.get("article_warnings", 0)},
+      triage dropped={surf.get("triage_dropped", 0)},
+      always-read dropped={surf.get("always_read_dropped", 0)},
+      substack dropped={surf.get("substack_dropped", 0)})</p>
+  {uv_warned_html}
 </div>
 
 </body></html>"""
@@ -354,6 +431,26 @@ def format_report_slack(report: dict) -> list[dict]:
     if ar["missing"]:
         ar_text += f"\n:rotating_light: Not delivered: {', '.join(ar['missing'])}"
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": ar_text}})
+
+    # URL Validation
+    uv = report.get("url_validation", {})
+    surf = uv.get("surfaces", {})
+    uv_lines = [
+        "*URL Validation*",
+        f"Probed: *{uv.get('checked_slots', 0)}* slots across {uv.get('days_logged', 0)}/7 days",
+        (
+            f"Broken: *{uv.get('total_broken', 0)}* "
+            f"(main warnings={surf.get('article_warnings', 0)}, "
+            f"triage={surf.get('triage_dropped', 0)}, "
+            f"always-read={surf.get('always_read_dropped', 0)}, "
+            f"substack={surf.get('substack_dropped', 0)})"
+        ),
+    ]
+    if uv.get("top_warned_sources"):
+        uv_lines.append(":warning: Sources shipping broken main-slot URLs:")
+        for src, n in uv["top_warned_sources"]:
+            uv_lines.append(f"  • {src}: {n} day(s)")
+    blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "\n".join(uv_lines)}})
 
     return blocks
 

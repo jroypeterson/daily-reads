@@ -595,6 +595,35 @@ def validate_delivery_urls(
             f"{len(broken_substack)} substack dropped)."
         )
 
+    # Append this run's validation counts to the log so the Friday weekly
+    # report can surface URL-health trends.
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    log_path = "artifacts/url_validation_log.json"
+    log = load_json(log_path, [])
+    log.append({
+        "date": today,
+        "checked_unique": len(unique_urls),
+        "checked_slots": len(urls_to_check),
+        "broken": {
+            "article_warnings": len(broken_articles),
+            "triage_dropped": len(broken_triage),
+            "always_read_dropped": len(broken_always_read),
+            "substack_dropped": len(broken_substack),
+        },
+        # Main-slot warnings keep their slot in the digest but we log detail
+        # so the weekly report can name which sources are shipping broken URLs.
+        "warned_articles": [
+            {
+                "source": articles[i].get("source", ""),
+                "headline": (articles[i].get("headline") or "")[:120],
+                "url": articles[i].get("url", ""),
+            }
+            for i in broken_articles
+        ],
+    })
+    save_json(log_path, log)
+    print(f"Logged validation stats to {log_path}")
+
     return articles, triage_queue, always_read, substack_items
 
 
