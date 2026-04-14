@@ -436,6 +436,12 @@ def build_triage_queue(
             continue
         if candidate.get("source_name", "") in always_read_names:
             continue
+        # Skip candidates whose links were dropped as dead-end redirectors
+        # (e.g. McKinsey/Atlantic tokens that resolve to publisher homepage
+        # or ad-tracker). A "# → nowhere" link in the digest is worse than
+        # omitting the candidate.
+        if not candidate.get("primary_url"):
+            continue
         scored.append({
             **candidate,
             "triage_score": score_candidate_for_triage(candidate),
@@ -480,8 +486,14 @@ def build_always_read(
     results = []
     for candidate in structured_gmail:
         source_name = candidate.get("source_name", "")
-        if source_name in always_read_names and candidate.get("primary_url") not in selected_urls:
-            results.append(candidate)
+        if source_name not in always_read_names:
+            continue
+        if candidate.get("primary_url") in selected_urls:
+            continue
+        # Drop URL-less candidates (dead-end redirector) — see build_triage_queue.
+        if not candidate.get("primary_url"):
+            continue
+        results.append(candidate)
     return results
 
 
