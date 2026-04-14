@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-04-14",
+  "generated_at": "2026-04-14T13:11:06Z",
+  "counts": {
+    "gmail_items": 27,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f3710aa68a8a620b",
+      "headline": "Revolution pancreatic cancer drug nearly doubles survival in key trial",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/revolution-pancreatic-cancer-ras-drug-results/817300/",
+      "slot": 1,
+      "summary": "Revolution Medicines reported striking Phase 3 results for daraxonrasib in pancreatic cancer, showing patients lived a median 13.2 months versus 6.7 months on standard chemo - a 60% reduction in death risk that led to early trial termination. The FDA has already awarded the drug a 'national priority' voucher for expedited review, and shares jumped 40% adding $7B in market cap.",
+      "why_it_matters": "This represents a potential breakthrough in one of oncology's most challenging indications, with clear regulatory acceleration and significant M&A implications given Revolution's rumored acquisition interest from major pharma.",
+      "signal_tags": [
+        "ticker_match:RVMD",
+        "catalyst_proximity",
+        "breakthrough_therapy",
+        "ma_potential"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "e4c1b0e615f09dce",
+      "headline": "The Transcript: Catalyst Watch",
+      "source": "The Transcript",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGV0cmFuc2NyaXB0LnN1YnN0YWNrLmNvbS9wLzA0LTE0LTIwMjYtY2F0YWx5c3Qtd2F0Y2g_dXRtX2NhbXBhaWduPWVtYWlsLXBvc3Qmcj13MnFzJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hORGsyTlRRNExDSndiM04wWDJsa0lqb3hPVFF4TnpJME1EZ3NJbWxoZENJNk1UYzNOakUyTmpRek5Td2laWGh3SWpveE56YzROelU0TkRNMUxDSnBjM01pT2lKd2RXSXRNekkwTlRFaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuNlowZGVsYVE2VGpKU1I4V3pFbVpoNFNTMVNaY1pndHd5Tnh4OVh6RkZ5VSIsInAiOjE5NDE3MjQwOCwicyI6MzI0NTEsImYiOmZhbHNlLCJ1IjoxNDk2NTQ4LCJpYXQiOjE3NzYxNjY0MzUsImV4cCI6MjA5MTc0MjQzNSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.bqL9xjj1xIr7lj-HZaKhPD2dciwvYJGmsuIIy1YEshM",
+      "slot": 2,
+      "summary": "Weekly investment catalyst report analyzing three major market themes: ongoing Iran conflict's potential market impact through Strait of Hormuz disruption, resilient consumer spending evidenced by Costco's 11% comp growth and Delta's premium customer immunity to headlines, and Anthropic's explosive revenue growth from $9B to $30B run rate with 1,000+ enterprise customers spending $1M+ annually.",
+      "why_it_matters": "Provides actionable investment insights on geopolitical market risks, consumer resilience indicators, and AI enterprise adoption metrics that directly impact portfolio positioning decisions.",
+      "signal_tags": [
+        "high_priority_source",
+        "catalyst_proximity",
+        "investment_relevant",
+        "weekly_insights"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

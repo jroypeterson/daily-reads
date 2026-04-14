@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-04-13T13:04:49Z",
+  "updated_at": "2026-04-14T13:05:43Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -8,8 +8,32 @@
       "direction": "positive",
       "evidence_ids": [
         "ev_c1f79a0309332bde"
-      ],
-      "last_updated": "2026-04-13T13:04:49Z"
+      ]
+    },
+    {
+      "name": "AI and biology intersection",
+      "strength": "strong",
+      "direction": "positive",
+      "evidence_ids": [
+        "email_biology_ai_fwd"
+      ]
+    },
+    {
+      "name": "venture capital insights",
+      "strength": "strong",
+      "direction": "positive",
+      "evidence_ids": [
+        "email_biology_ai_fwd"
+      ]
+    },
+    {
+      "name": "data infrastructure",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "email_biology_ai_fwd",
+        "daily_scoring_epic_alerts"
+      ]
     },
     {
       "name": "corporate governance",
@@ -51,9 +75,25 @@
       "evidence_ids": [
         "daily_scoring_oracle_h1b"
       ]
+    },
+    {
+      "name": "health technology datasets",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_epic_alerts"
+      ]
     }
   ],
   "source_preferences": [
+    {
+      "name": "top tier VC firms",
+      "strength": "strong",
+      "direction": "positive",
+      "evidence_ids": [
+        "email_biology_ai_fwd"
+      ]
+    },
     {
       "name": "financial news",
       "strength": "moderate",
@@ -79,6 +119,15 @@
       "evidence_ids": [
         "daily_scoring_jpmorgan_dimon",
         "daily_scoring_fda_rejections"
+      ]
+    },
+    {
+      "name": "investment-relevant insights",
+      "strength": "strong",
+      "direction": "positive",
+      "evidence_ids": [
+        "email_biology_ai_fwd",
+        "daily_scoring_epic_alerts"
       ]
     }
   ],
@@ -106,18 +155,26 @@
       "evidence_ids": [
         "daily_scoring_healthcare_stocks_miss"
       ]
+    },
+    {
+      "name": "generic market indices",
+      "strength": "moderate",
+      "direction": "negative",
+      "evidence_ids": [
+        "daily_scoring_dow_miss"
+      ]
     }
   ],
   "evidence_summary": {
-    "total": 6,
+    "total": 19,
     "by_kind": {
-      "positive_exemplar": 1,
-      "daily_rating_3": 3,
-      "daily_rating_1": 2
+      "positive_exemplar": 12,
+      "daily_rating_3": 4,
+      "daily_rating_1": 3
     },
     "by_channel": {
-      "email": 1,
-      "daily_scoring": 5
+      "email": 12,
+      "daily_scoring": 7
     }
   },
   "score_scale": {
@@ -125,5 +182,5 @@
     "2": "Fine",
     "3": "Strong pick"
   },
-  "last_synthesis": "2026-04-08T13:02:27Z"
+  "last_synthesis": "2026-04-14T13:05:43Z"
 }

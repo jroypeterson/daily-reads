@@ -124,5 +124,41 @@
     "url": "https://www.biospace.com/business/gsk-again-pulls-application-for-leucovorin-touted-by-fda-as-potential-autism-treatment",
     "article_source": "BioSpace",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-04-12",
+    "slot": 1,
+    "score": 3,
+    "note": "Flags unique dataset that I might be able to use in investment process",
+    "channel": "email_reply",
+    "article_id": "e5584689c7384fac",
+    "headline": "Epic rolls out health alerts to flag rising rates of illness at the county level",
+    "url": "https://www.fiercehealthcare.com/health-tech/epic-rolls-out-health-alerts-flag-rising-rates-illness-county-level",
+    "article_source": "Fierce Healthcare",
+    "source": "email_reply"
+  },
+  {
+    "date": "2026-04-13",
+    "slot": 1,
+    "score": 2,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "3e719cba5d9227de",
+    "headline": "Revolution Medicines' pancreatic cancer drug doubles survival time in Phase 3",
+    "url": "https://endpoints.news/revolution-medicines-pancreatic-cancer-drug-doubles-survival-time-in-phase-3/",
+    "article_source": "Endpoints News",
+    "source": "email_reply"
+  },
+  {
+    "date": "2026-04-12",
+    "slot": 2,
+    "score": 1,
+    "note": "Avoid generic index articles unless they have significant forward",
+    "channel": "email_reply",
+    "article_id": "1a44be60c37aec38",
+    "headline": "Dow jumps 1,300 points for best day since April 2025 as U.S.-Iran ceasefire pushes oil lower",
+    "url": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
+    "article_source": "CNBC",
+    "source": "email_reply"
   }
 ]

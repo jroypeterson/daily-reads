@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-04-14",
+    "headline": "Regeneron secures radiopharma entry with $2.1B Telix deal; FDA scolds companies for withholding trial results",
+    "source": "Fierce Pharma",
+    "url": "https://qtx.omeclk.com/portal/wts/ue%5EcmQ6k4smbcD-vaSwDzL%5Erf8zRmkE8PS-S69PPSd",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content provided is just website navigation and headlines without the actual Regeneron-Telix deal article text, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "McKinsey: Recalibrating technology budgets for the AI era",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8736aaed8568a3f4bbc780a0/b771f974727f42410000021ef3a0bcc2/b771f974-727f-4241-9c21-908f8646e6ca?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pFqaQdWfxUghHMurHXj8zQqWh4xeC5f5HBwgIP6apfc1CXI7LE0tEEIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is about general technology budget allocation rather than healthcare/biotech content, making it a poor fit for Slot 1 despite being from a high-priority consulting source."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Hospitals roll out chatbots to reclaim patients from ChatGPT, Claude",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VX6rmm32JyyBN8TJR7cGnJ6FW7gFL9V5MRHKBN8Zqh823qgz0W7lCdLW6lZ3m6W44_4g-2VZXCMVZ1TWW5YGhCFW1VhnW37NXZrjVs7Xdm18xrSmW8bbQf11GrZLxW7p8lqq8Y1p3KW9j0Q_K4FmfVXW75WdWG1sxyBbW5nZK_Q17tW_-W87bCHC5sWhJpN57KVYbyPF85W49Wr4h9hfWYmW46xt2M6v13vwMPjCRwW6HQfW5Ys8zR8lSjV_N6rQN64l6KFwW73Gt9K1fs66LW24RxRp29ZccDW8DF5Vt4QBxlRW46Gqdx9f8dLYW3PQcqJ3Rj8kVN6NMxF7WvqjfW14pV4S2qPx5dW58sq-_4HfKk0f429TpF04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is behind a paywall with no accessible content beyond subscription marketing materials."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "MBI: AI Economics in the East",
+    "source": "MBI",
+    "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvYWktZWNvbm9taWNzLWluLXRoZS1lYXN0P3V0bV9jYW1wYWlnbj1lbWFpbC1wb3N0JnI9dzJxcyZ0b2tlbj1leUoxYzJWeVgybGtJam94TkRrMk5UUTRMQ0p3YjNOMFgybGtJam94T1RRd01Ea3dOVGdzSW1saGRDSTZNVGMzTmpBNU16QTVOU3dpWlhod0lqb3hOemM0TmpnMU1EazFMQ0pwYzNNaU9pSndkV0l0TVRRME5ERTNPQ0lzSW5OMVlpSTZJbkJ2YzNRdGNtVmhZM1JwYjI0aWZRLkNUX1dqQnFLNy00bWM3V2pveWJvUDBOdVhNZk53VkI0WjMyazNJNm1hM1kiLCJwIjoxOTQwMDkwNTgsInMiOjE0NDQxNzgsImYiOmZhbHNlLCJ1IjoxNDk2NTQ4LCJpYXQiOjE3NzYwOTMwOTUsImV4cCI6MjA5MTY2OTA5NSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.RlqqnlE1KG4bnghG7jOm2FV-9sc8I2ucySjdbupedAM",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI slot article misclassified as Healthcare/Biotech - it focuses on AI economics and Chinese AI company Zhipu AI with no healthcare or biopharma content."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "Revolution pancreatic cancer drug nearly doubles survival in key trial",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/revolution-pancreatic-cancer-ras-drug-results/817300/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial healthcare/biotech article with major clinical trial results, clear investment implications, M&A potential, and strong analytical depth that perfectly fits Slot 1 criteria."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "The Transcript: Catalyst Watch",
+    "source": "The Transcript",
+    "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGV0cmFuc2NyaXB0LnN1YnN0YWNrLmNvbS9wLzA0LTE0LTIwMjYtY2F0YWx5c3Qtd2F0Y2g_dXRtX2NhbXBhaWduPWVtYWlsLXBvc3Qmcj13MnFzJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hORGsyTlRRNExDSndiM04wWDJsa0lqb3hPVFF4TnpJME1EZ3NJbWxoZENJNk1UYzNOakUyTmpRek5Td2laWGh3SWpveE56YzROelU0TkRNMUxDSnBjM01pT2lKd2RXSXRNekkwTlRFaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuNlowZGVsYVE2VGpKU1I4V3pFbVpoNFNTMVNaY1pndHd5Tnh4OVh6RkZ5VSIsInAiOjE5NDE3MjQwOCwicyI6MzI0NTEsImYiOmZhbHNlLCJ1IjoxNDk2NTQ4LCJpYXQiOjE3NzYxNjY0MzUsImV4cCI6MjA5MTc0MjQzNSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.bqL9xjj1xIr7lj-HZaKhPD2dciwvYJGmsuIIy1YEshM",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong weekly catalyst report with substantial market analysis covering geopolitical risks, consumer data, and AI growth metrics that align perfectly with finance/macro slot requirements."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "FDA approves Travere's Filspari as first drug for kidney disease FSGS",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/fda-approves-traveres-filspari-as-first-drug-for-the-kidney-disease-called-fsgs/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma FDA approval story that belongs in Slot 1, not Slot 3 (Tech/AI), and lacks any AI or technology focus."
+  },
+  {
+    "date": "2026-04-14",
+    "headline": "JPMorgan tops estimates on Wall Street results, Dimon flags 'increasingly complex' economic risks",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a standard earnings report that doesn't fit Slot 3 (Tech/AI) and lacks the analytical depth or investment insights the reader prefers."
+  }
+]

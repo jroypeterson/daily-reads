@@ -111,5 +111,294 @@
       "digest_date": "2026-04-06"
     },
     "created_at": "2026-04-08T13:02:25Z"
+  },
+  {
+    "id": "ev_001f0ee17364bf8d",
+    "kind": "daily_rating_3",
+    "source_channel": "daily_scoring",
+    "title": "Epic rolls out health alerts to flag rising rates of illness at the county level",
+    "url": "https://www.fiercehealthcare.com/health-tech/epic-rolls-out-health-alerts-flag-rising-rates-illness-county-level",
+    "local_path": "",
+    "note": "Flags unique dataset that I might be able to use in investment process",
+    "score": 3,
+    "content_status": "not_applicable",
+    "metadata": {
+      "article_id": "e5584689c7384fac",
+      "article_source": "Fierce Healthcare",
+      "slot": 1,
+      "digest_date": "2026-04-12"
+    },
+    "created_at": "2026-04-14T13:05:41Z"
+  },
+  {
+    "id": "ev_c685bfd0fb2b6f9c",
+    "kind": "daily_rating_1",
+    "source_channel": "daily_scoring",
+    "title": "Dow jumps 1,300 points for best day since April 2025 as U.S.-Iran ceasefire pushes oil lower",
+    "url": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
+    "local_path": "",
+    "note": "Avoid generic index articles unless they have significant forward",
+    "score": 1,
+    "content_status": "not_applicable",
+    "metadata": {
+      "article_id": "1a44be60c37aec38",
+      "article_source": "CNBC",
+      "slot": 2,
+      "digest_date": "2026-04-12"
+    },
+    "created_at": "2026-04-14T13:05:41Z"
+  },
+  {
+    "id": "ev_1c5b19ebfec24761",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=ccafdcfb2e&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_56803f05c5e654bb",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=e595e4db66&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_6d37adc4bd621d89",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=60b3f56600&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_6dd74c973cd8f92b",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=33189a3e3f&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_70b4fcbb831bf558",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=139779237f&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_d1975c1383c0be5a",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=d910e18d98&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_a166d2ca77b6c071",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=72b925aeb0&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_8dcdc821aa61a19a",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=843b0f1a13&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_f166034e1940a765",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=e8fcaa0b17&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_2e87e7ed94e83b6c",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=dabafa51ab&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_2388bc9a1c26358d",
+    "kind": "positive_exemplar",
+    "source_channel": "email",
+    "title": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+    "url": "https://bvp.us20.list-manage.com/track/click?u=7e65566045b7fe0c37c9793af&id=39108f55d5&e=126ce26aab",
+    "local_path": "",
+    "note": "computing + biology is generally interesting to me and this is from a top tier VC ---------- Forwarded message --------- From: Bessemer Venture Partners <atlas@bvp.com> Date: Mon, Apr 13, 2026 at 2:01 PM Subject: Biology-native data infrastructure for the AI era \ud83e\uddec To: <jroypeterson+vc@gmail.com> Venture insights that matter to founders. < < < *Biology-native data infrastructure for the AI era* < Over 380 biology AI models launched in 2025 alone. Model architectures are converging and commoditizi",
+    "score": null,
+    "content_status": "unfetched",
+    "metadata": {
+      "message_id": "19d8852a20de43e8",
+      "subject": "Fwd: Biology-native data infrastructure for the AI era \ud83e\uddec",
+      "sender": "Jason Peterson <jroypeterson@gmail.com>",
+      "sender_email": "jroypeterson@gmail.com",
+      "label_ids": [
+        "Label_8053525265837212501",
+        "SENT",
+        "INBOX"
+      ]
+    },
+    "created_at": "2026-04-14T13:05:42Z"
   }
 ]
