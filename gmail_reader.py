@@ -137,6 +137,18 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
             date_str = headers.get("date", "")
             snippet = msg.get("snippet", "")
 
+            # Match against sources
+            source = get_source(sender_email)
+
+            # Per-source subject whitelist: if a source specifies `subject_allow`,
+            # drop any email whose subject doesn't match one of the patterns.
+            # Used to filter marketing/promo emails from paid newsletters whose
+            # real-content subjects follow a known shape (e.g. VII).
+            if source and source.get("subject_allow"):
+                patterns = source["subject_allow"]
+                if not any(re.search(p, subject) for p in patterns):
+                    continue
+
             # Extract HTML body for URL parsing
             html_body = _extract_body(msg["payload"])
             urls = extract_urls_from_html(html_body) if html_body else []
@@ -146,9 +158,6 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
             if urls:
                 from url_resolver import resolve_urls
                 urls = resolve_urls(urls)
-
-            # Match against sources
-            source = get_source(sender_email)
             results.append({
                 "sender": sender_raw,
                 "sender_email": sender_email,

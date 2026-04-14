@@ -247,6 +247,15 @@ SOURCES = {
         "frequency": "monthly",
         "priority": "high",
         "always_read": True,
+        # VII sends ~2x more marketing (partner promos, event upsells, podcast
+        # cross-promos) than actual content. Whitelist the subject patterns
+        # that correspond to real issues/bonuses so promos never reach the
+        # digest. Update this list if VII introduces a new issue format.
+        "subject_allow": [
+            r"^Value Investor Insight New Issue",
+            r"^Value Investor Insight Bonus",
+            r"^New VII(\s|:)",
+        ],
     },
     "aletteraday@substack.com": {
         "name": "A Letter a Day",
