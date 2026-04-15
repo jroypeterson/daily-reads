@@ -79,6 +79,46 @@ def is_probable_article_url(url: str) -> bool:
     return True
 
 
+_SUBSTACK_REDIRECT_PATTERN = re.compile(
+    r"^https?://substack\.com/redirect/2/([A-Za-z0-9_\-\.]+)/?(\?.*)?$",
+    re.IGNORECASE,
+)
+
+
+def _unwrap_substack_redirect(url: str) -> str | None:
+    """Decode a substack.com/redirect/2/<token> wrapper into the canonical post URL.
+
+    The wrapper is shaped like a JWT (`header.payload.signature` or
+    `payload.signature`). The payload segment is URL-safe base64 of a
+    JSON blob `{"e": "<real-url>", ...}`. The inner URL is the
+    publication's canonical post URL (e.g.
+    `mbideepdives.substack.com/p/<slug>`) with tracking query params.
+
+    Returns the cleaned canonical URL, or None if the input isn't a
+    substack redirect wrapper or the payload can't be decoded.
+    """
+    match = _SUBSTACK_REDIRECT_PATTERN.match(url)
+    if not match:
+        return None
+    token = match.group(1)
+    # Try each dot-separated segment as the JSON payload. Substack's
+    # wrapper uses `<payload>.<signature>` (2 segments), but fall back
+    # to trying each segment to be safe against format drift.
+    for segment in token.split("."):
+        if not segment:
+            continue
+        padded = segment + "=" * (-len(segment) % 4)
+        try:
+            decoded = base64.urlsafe_b64decode(padded)
+            payload = json.loads(decoded)
+        except Exception:
+            continue
+        inner = payload.get("e") if isinstance(payload, dict) else None
+        if isinstance(inner, str) and inner.startswith(("http://", "https://")):
+            return clean_url(inner)
+    return None
+
+
 def extract_urls_from_html(html: str) -> list[str]:
     """Extract article URLs from HTML email body."""
     soup = BeautifulSoup(html, "html.parser")
@@ -94,12 +134,26 @@ def extract_urls_from_html(html: str) -> list[str]:
         # inside Proofpoint). Path shape `/t/<token>/` at a *.cmail20.com or
         # *.createsend.com host is always the email's web copy, not an article.
         r"|cmail\d+\.com/t/"
-        r"|createsend\d*\.com/t/)",
+        r"|createsend\d*\.com/t/"
+        # Substack app-link URLs are explicit mobile-app deep links. They
+        # land on a generic Substack "open in app" page on desktop. The
+        # redirect/2 wrappers in the same email carry the real post URL
+        # and get unwrapped below, so we prefer those and drop app-link.
+        r"|substack\.com/app-link/)",
         re.IGNORECASE,
     )
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         if not href.startswith("http") or skip_patterns.search(href):
+            continue
+        # Substack redirect wrappers are single-use click tokens — Gmail's
+        # link-scanner consumes them before the user clicks, leaving
+        # desktop clicks landing on substack.com/app. Decode to the real
+        # canonical post URL so the digest works on desktop and mobile.
+        unwrapped = _unwrap_substack_redirect(href)
+        if unwrapped:
+            if unwrapped not in urls:
+                urls.append(unwrapped)
             continue
         cleaned = clean_url(href)
         if is_probable_article_url(cleaned) and cleaned not in urls:
