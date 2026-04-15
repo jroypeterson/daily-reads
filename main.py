@@ -386,6 +386,32 @@ def build_structured_candidates(
         for index, item in enumerate(tier2_items, 1)
     ]
 
+    # Dedupe by candidate_id. Gmail delivers copies of the same newsletter
+    # to multiple plus-aliases (e.g. +finance) as separate messages, so a
+    # single article can produce two normalized candidates with identical
+    # IDs but different Gmail-message metadata (date, message_id). Keep
+    # the first occurrence — Gmail returns most-recent first.
+    def _dedupe(candidates: list[dict]) -> list[dict]:
+        seen: set[str] = set()
+        out: list[dict] = []
+        for c in candidates:
+            cid = c.get("candidate_id")
+            if not cid:
+                out.append(c)
+                continue
+            if cid in seen:
+                continue
+            seen.add(cid)
+            out.append(c)
+        return out
+
+    before = len(normalized_gmail) + len(normalized_tier2)
+    normalized_gmail = _dedupe(normalized_gmail)
+    normalized_tier2 = _dedupe(normalized_tier2)
+    dropped = before - len(normalized_gmail) - len(normalized_tier2)
+    if dropped:
+        print(f"  Deduped {dropped} duplicate candidate(s) by candidate_id")
+
     for candidate in normalized_gmail + normalized_tier2:
         candidate["derived_signals"] = extract_candidate_signals(
             candidate, ticker_lookup, company_lookup, ticker_details,
