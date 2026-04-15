@@ -57,9 +57,14 @@ jobs:
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
+      # Source audit runs early so a stale/dead address gets a Slack alert
+      # even if the main digest later fails. Not marked continue-on-error
+      # anymore: a silent audit failure was how the Scuttleblurb miss went
+      # unnoticed for days. A hard fail forces visibility. If the audit
+      # itself breaks (OAuth expiry, Gmail outage), the digest is the
+      # canary — we'd rather catch that than silently drop monitoring.
       - name: Audit newsletter sources
         run: python validate_source.py --audit
-        continue-on-error: true
         env:
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

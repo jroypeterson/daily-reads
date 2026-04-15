@@ -735,6 +735,15 @@ def validate_selected_articles(articles: list[dict]) -> list[dict]:
 # [GMAIL SCAN]
 # ---------------------------------------------------------------------------
 
+# Canary sources: senders that reliably email every weekday. If a 7-day
+# gmail scan returns zero from any of these, something is broken —
+# pipeline bug, OAuth expiry, Gmail query malformed, or unchecked
+# address drift. Fail loudly rather than silently proceed.
+# Kept deliberately small; expanding this list means more false-positive
+# risk from legitimate publishing gaps (holidays, sender outages).
+CANARY_SOURCES = ("Fierce Biotech", "Fierce Pharma", "BioSpace")
+
+
 def gmail_scan() -> list[dict]:
     section("GMAIL SCAN")
     try:
@@ -748,7 +757,29 @@ def gmail_scan() -> list[dict]:
         for s in sorted(sources_found):
             count = sum(1 for i in items if i["source_name"] == s)
             print(f"  - {s}: {count} email(s)")
+
+        # Canary check — if every canary is silent across a 7-day window,
+        # something is systematically wrong (Apr 12's all-zero gmail scan
+        # would have been caught here). Raises to trigger Slack alert from
+        # the workflow's failure path + stops the digest before it ships
+        # noise.
+        silent = [c for c in CANARY_SOURCES if c not in sources_found]
+        if len(silent) == len(CANARY_SOURCES):
+            raise RuntimeError(
+                f"Canary failure: zero emails from any of {CANARY_SOURCES} "
+                f"in the 7-day window. Likely pipeline bug, OAuth expiry, "
+                f"or all-sources address drift."
+            )
+        if silent:
+            print(
+                f"  WARNING: canary source(s) silent this week: {silent}. "
+                f"Check if sender address changed or subscription lapsed."
+            )
+
         return items
+    except RuntimeError:
+        # Canary failure — let it propagate so the workflow fails visibly.
+        raise
     except Exception as e:
         print(f"Gmail scan failed: {e}")
         print("Continuing with Tier 2 sources only...")
