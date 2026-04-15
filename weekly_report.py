@@ -82,6 +82,11 @@ def build_report() -> dict:
 
     all_source_names = {s["name"] for s in SOURCES.values()}
     always_read_names = get_always_read_names()
+    # sources_seen is populated from both gmail candidates and tier2/RSS
+    # items (FDA Press Releases, Hacker News, etc.), so the raw count
+    # can exceed the configured total. Only count configured sources
+    # against the total.
+    active_configured = sources_seen & all_source_names
     missing_sources = sorted(all_source_names - sources_seen)
     missing_always_read = sorted(always_read_names - sources_seen)
 
@@ -121,7 +126,7 @@ def build_report() -> dict:
         ordered_roster.append((cat, roster_by_category[cat]))
 
     report["source_health"] = {
-        "active_sources": len(sources_seen),
+        "active_sources": len(active_configured),
         "total_configured": len(all_source_names),
         "missing_sources": missing_sources,
         "missing_always_read": missing_always_read,
