@@ -26,16 +26,28 @@ Web search ─────────┘                                → Git
 
 ## How It Works
 
-1. **Gmail Scan**: Fetches newsletters from tracked sources (last 24h)
-2. **Tier 2 Scan**: Pulls Hacker News top stories + web search
-3. **Feedback Check**: Reviews yesterday's ratings, triggers criteria evolution after 7 days
-4. **Article Shortlist**: Claude ranks top 8 candidates from headlines/snippets
-5. **Article Verification**: For each shortlisted candidate, fetch the actual article text (trafilatura → Jina Reader → Tavily fallback chain), then Claude verifies it has real substance and matches criteria. Skipped candidates are replaced with the next-ranked one. Paywalled articles fall back to verifying against the newsletter summary.
-6. **Delivery**: Sends 4 verified articles to Gmail, Slack, TickTick, GitHub Pages, and Actions log
-7. **Criteria Review**: When enough feedback accumulates, Claude proposes a criteria update and notifies via Gmail + Slack for accept/reject/modify review
-8. **Taste Intake**: Positive exemplars can come from a dedicated Gmail alias/label or a local Dropbox watch folder and feed learned preferences
-9. **Source Audit**: Daily check that every newsletter source in `sources.py` has produced emails recently; Slack alert if any go stale/dead
-10. **Weekly Report**: Every Friday, a health report is sent via Gmail + Slack covering source health, selection quality, feedback trends, and always-read coverage
+1. **Gmail Scan**: Fetches newsletters from tracked sources over a 7-day rolling window (self-healing — see resilience section). Dedupes by `candidate_id` in `build_structured_candidates` so repeat ingestion across days is harmless.
+2. **Canary assertion**: If none of Fierce Biotech / Fierce Pharma / BioSpace produced any email in the 7-day window, `gmail_scan` raises and fails the workflow rather than silently proceeding — catches the "everything broken" case loudly.
+3. **Tier 2 Scan**: Pulls Hacker News top stories + web search
+4. **Feedback Check**: Reviews yesterday's ratings, triggers criteria evolution after 7 days
+5. **Article Shortlist**: Claude ranks top 8 candidates from headlines/snippets
+6. **Article Verification**: For each shortlisted candidate, fetch the actual article text (trafilatura → Jina Reader → Tavily fallback chain), then Claude verifies it has real substance and matches criteria. Skipped candidates are replaced with the next-ranked one. Paywalled articles fall back to verifying against the newsletter summary.
+7. **URL validation**: Pre-delivery `validate_delivery_urls` probes every URL about to ship. Broken URLs (404/410, DNS failures, dead-end trackers) are dropped from triage/always-read/substack; main-slot breakages log a loud warning. `url_resolver.py` unwraps tracker redirects generically (shape-based, not per-host) and drops ones that resolve to publisher homepages. Substack `redirect/2/<token>` URLs are decoded to canonical publication URLs so desktop clicks work.
+8. **Delivery**: Sends 4 verified articles to Gmail, Slack (dedicated `#daily-reads` channel via `SLACK_WEBHOOK_URL_DAILY_READS`), TickTick, GitHub Pages, and Actions log. Digest includes an "Always read" section for paid subscriptions and a "Substack — today's inbox" section listing every `@substack.com` email in the last 26h.
+9. **Criteria Review**: When enough feedback accumulates, Claude proposes a criteria update and notifies via Gmail + Slack for accept/reject/modify review
+10. **Taste Intake**: Positive exemplars can come from a dedicated Gmail alias/label or a local Dropbox watch folder and feed learned preferences
+11. **Source Audit**: Daily check that every newsletter source in `sources.py` has produced emails recently; Slack alert if any go stale/dead. Not `continue-on-error` — a broken audit fails the workflow visibly.
+12. **Weekly Report**: Every Friday, a health report is sent via Gmail + Slack covering source health (with full configured-source roster by category), selection quality, feedback trends, always-read coverage, and URL validation stats.
+
+## Resilience model
+
+Five layers guard against silent newsletter misses (see `memory/project_resilience.md` for detail):
+
+1. **Pre-commit hook** — `.githooks/pre-commit` blocks bad addresses in `sources.py` before commit
+2. **Daily audit** — flags stale/dead addresses within 7 days via Slack
+3. **Canary assertion** — fails loudly if zero emails from high-frequency senders
+4. **7-day self-healing window** — fixed addresses backfill the previous week automatically
+5. **Weekly roster** — full source status list in Friday's report
 
 ## GitHub Secrets Required
 
