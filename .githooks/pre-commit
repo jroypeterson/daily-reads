@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Pre-commit hook: validate new/changed newsletter sender addresses in
+# sources.py against Gmail before they land in main. Prevents the
+# "typed the wrong address, silent miss for days" failure mode.
+#
+# Install (one-time, per clone):
+#   git config core.hooksPath .githooks
+#
+# Requires GMAIL_OAUTH_JSON_PATH (or GMAIL_OAUTH_JSON) in the environment.
+# If OAuth isn't configured, the hook prints a note and skips — allowing
+# CI's equivalent check to catch anything missed locally.
+
+set -eu
+
+# Only fire when sources.py is part of the staged changes.
+if ! git diff --cached --name-only | grep -qx "sources.py"; then
+  exit 0
+fi
+
+if [ -z "${GMAIL_OAUTH_JSON:-}" ] && [ -z "${GMAIL_OAUTH_JSON_PATH:-}" ]; then
+  echo "pre-commit: Gmail OAuth not configured locally; skipping sources.py validation."
+  echo "            Set GMAIL_OAUTH_JSON_PATH to enable. CI will still check."
+  exit 0
+fi
+
+echo "pre-commit: validating sources.py against Gmail..."
+python validate_source.py --check-staged

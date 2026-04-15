@@ -35,12 +35,29 @@ NON_ARTICLE_HOST_PATTERNS = re.compile(
 
 
 def get_gmail_service():
-    """Build Gmail API service from GMAIL_OAUTH_JSON env var."""
+    """Build Gmail API service from Gmail OAuth credentials.
+
+    CI path: reads the full JSON from GMAIL_OAUTH_JSON (how the GitHub
+    secret is delivered).
+
+    Local path: reads a file path from GMAIL_OAUTH_JSON_PATH so the user
+    doesn't have to paste a 1000+ char JSON into a shell profile.
+    """
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
 
-    token_json = os.environ["GMAIL_OAUTH_JSON"]
+    token_json = os.environ.get("GMAIL_OAUTH_JSON")
+    if not token_json:
+        path = os.environ.get("GMAIL_OAUTH_JSON_PATH")
+        if path:
+            with open(path, encoding="utf-8") as f:
+                token_json = f.read()
+    if not token_json:
+        raise RuntimeError(
+            "Gmail OAuth not configured. Set GMAIL_OAUTH_JSON (JSON "
+            "contents) or GMAIL_OAUTH_JSON_PATH (path to token JSON file)."
+        )
     token_data = json.loads(token_json)
     creds = Credentials.from_authorized_user_info(token_data)
     if creds.expired and creds.refresh_token:

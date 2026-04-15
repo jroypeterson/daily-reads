@@ -29,11 +29,24 @@ from sources import SOURCES
 
 
 def get_gmail_service():
+    # Two-path OAuth: CI passes the JSON contents via GMAIL_OAUTH_JSON
+    # (GitHub secret); local dev can set GMAIL_OAUTH_JSON_PATH to a file
+    # so the full JSON doesn't have to live in a shell profile.
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
 
-    token_json = os.environ["GMAIL_OAUTH_JSON"]
+    token_json = os.environ.get("GMAIL_OAUTH_JSON")
+    if not token_json:
+        path = os.environ.get("GMAIL_OAUTH_JSON_PATH")
+        if path:
+            with open(path, encoding="utf-8") as f:
+                token_json = f.read()
+    if not token_json:
+        raise RuntimeError(
+            "Gmail OAuth not configured. Set GMAIL_OAUTH_JSON (JSON "
+            "contents) or GMAIL_OAUTH_JSON_PATH (path to token JSON file)."
+        )
     token_data = json.loads(token_json)
     creds = Credentials.from_authorized_user_info(token_data)
     if creds.expired and creds.refresh_token:

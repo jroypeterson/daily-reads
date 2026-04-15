@@ -67,14 +67,26 @@ Web search ─────────┘                                → Git
    print(creds.to_json())
    "
    ```
-6. Copy the output JSON → set as `GMAIL_OAUTH_JSON` secret in GitHub
+6. Copy the output JSON → set as `GMAIL_OAUTH_JSON` secret in GitHub, and save it to a local file if you want the pre-commit hook to work (set `GMAIL_OAUTH_JSON_PATH` to that file in your shell profile).
+
+## Pre-commit hook (sources.py validation)
+
+The repo ships a pre-commit hook at `.githooks/pre-commit` that validates any new/changed sender addresses in `sources.py` against Gmail before the commit lands. Enable it once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Requires `GMAIL_OAUTH_JSON_PATH` or `GMAIL_OAUTH_JSON` in your environment. If neither is set, the hook skips with a note and leaves the check to CI.
 
 ## Run Locally
 
 ```bash
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-...
-export GMAIL_OAUTH_JSON='{"token": "...", ...}'
+# Either GMAIL_OAUTH_JSON (JSON contents, used by CI) or
+# GMAIL_OAUTH_JSON_PATH (path to a token file, preferred locally)
+export GMAIL_OAUTH_JSON_PATH="$HOME/secrets/gmail_oauth_token.json"
 export SLACK_WEBHOOK_URL=https://hooks.slack.com/...
 python main.py
 ```
