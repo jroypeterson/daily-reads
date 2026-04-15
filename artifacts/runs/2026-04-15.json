@@ -1,10 +1,10 @@
 {
   "run_date": "2026-04-15",
-  "generated_at": "2026-04-15T14:28:59Z",
+  "generated_at": "2026-04-15T19:00:13Z",
   "counts": {
-    "gmail_items": 29,
+    "gmail_items": 129,
     "tier2_items": 90,
-    "selected_articles": 2
+    "selected_articles": 1
   },
   "feedback_summary": {
     "low_score_count": 0,
@@ -12,36 +12,20 @@
   },
   "articles": [
     {
-      "article_id": "aa8c9ae4ef1ffded",
-      "headline": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
-      "source": "FDA Press Releases",
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+      "article_id": "2de69e8876f072bf",
+      "headline": "Novartis CEO joins Anthropic board as pharma-AI ties deepen",
+      "source": "Fierce Pharma",
+      "url": "https://www.fiercepharma.com/biotech/novartis-ceo-vas-narasimhan-joins-anthropic-board",
       "slot": 1,
-      "summary": "The FDA issued draft guidance providing detailed recommendations for using next-generation sequencing to assess off-target editing risks and genome integrity in gene therapy products. The guidance covers both ex vivo and in vivo editing approaches and supports the agency's framework for accelerating individualized therapies for ultra-rare diseases. Companies have 90 days to submit public comments before the guidance is finalized.",
-      "why_it_matters": "This standardizes safety assessment protocols for genome editing therapies, potentially accelerating regulatory approval timelines for companies developing gene therapies by providing clear technical requirements and reducing regulatory uncertainty.",
+      "summary": "Anthropic appointed Novartis CEO Vas Narasimhan to its board of directors, making him the first pharmaceutical executive on the AI startup's governing body. The appointment signals Anthropic's strategic focus on healthcare applications as it prepares for a potential IPO, with Narasimhan bringing expertise from overseeing development of over 35 medicines in highly regulated environments.",
+      "why_it_matters": "This represents the deepening convergence of AI and pharma at the highest strategic levels, with major implications for drug development acceleration and regulatory frameworks as AI companies prepare for public markets.",
       "signal_tags": [
+        "ticker_match:NVS",
         "priority:high",
-        "ticker_match:DRUG",
-        "regulatory_catalyst",
-        "novel_framework"
+        "AI_biology_intersection",
+        "venture_capital_insights"
       ],
       "reading_time": "3 min"
-    },
-    {
-      "article_id": "d9e81abd5bbc7121",
-      "headline": "Frontier AI's Economic Engine",
-      "source": "MBI Deep Dives",
-      "url": "https://mbideepdives.substack.com/p/frontier-ais-economic-engine?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
-      "slot": 2,
-      "summary": "Deep analysis of why coding applications dominate enterprise AI adoption, examining Anthropic's strategic focus on coding use cases and the economic drivers behind AI's product-market fit. The piece explores revenue models, adoption patterns across AI applications, and discusses the narrowing frontier window for AI model economics despite exploding revenues.",
-      "why_it_matters": "Provides a strategic framework for understanding which AI applications will generate sustainable enterprise value and economic returns, with specific insights into why coding represents the most compelling near-term investment opportunity in the AI space.",
-      "signal_tags": [
-        "priority:high",
-        "AI_economics",
-        "enterprise_adoption",
-        "investment_framework"
-      ],
-      "reading_time": "6 min"
     }
   ]
 }

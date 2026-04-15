@@ -349,5 +349,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a substantial analytical piece that perfectly matches Slot 2 (Finance/Markets) with strong focus on AI economics, enterprise adoption patterns, and strategic business implications - directly aligned with the reader's strong preferences for data infrastructure and AI investment insights."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Novartis CEO joins Anthropic board as pharma-AI ties deepen",
+    "source": "Fierce Pharma",
+    "url": "https://www.fiercepharma.com/biotech/novartis-ceo-vas-narasimhan-joins-anthropic-board",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Strong strategic significance showing AI-pharma convergence at board level with actionable implications for drug development and AI company governance trends."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Building the foundations for agentic AI at scale",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d91a458b6c3fcb8369fb45280/05eaa0e351f6454e0000021ef3a0bcc2/05eaa0e3-51f6-454e-95e7-b2492dd3d3f4",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content appears to be missing or corrupted - only the shortlist summary is repeated, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "AI Economics in the East: Part 2",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/ai-economics-in-the-east-part-2",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is primarily a teaser article that cuts off at the paywall right when it would discuss MiniMax's actual economics, providing insufficient substance for the digest."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Revolution Medicines prices $2B raise as XBI reaches heights not seen since pandemic",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/revolution-medicines-prices-2b-raise-as-xbi-reaches-heights-not-seen-since-pandemic/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is completely truncated and contains only cookie consent popups and navigation menus, providing no actual substantive information about Revolution Medicines' $2B raise or the XBI index performance."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "The $7 trillion data center build-out: How industrials can capture their share",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d784ceb1db91416369ff1d668/f71e24b8dd374b4d0000021ef3a0bcc2/f71e24b8-dd37-4b4d-9c03-a3bdac4d1f06",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot verify article substance or accuracy of summary since full article text was not provided despite being indicated as available."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "FDA asks Lilly to evaluate obesity pill's liver risk",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-foundayo-liver-safety-eli-lilly/817556/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is primarily a healthcare/regulatory story that doesn't fit Slot 2 (Finance/Markets) criteria and lacks the market impact depth needed for finance coverage."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Where financial leaders are focusing to turn disruption into advantage",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d91efe066b1eec9f4bbe5bf30/2811aee208734b010000021ef3a0bcc2/2811aee2-0873-4b01-a49c-dc776311d312",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is not available (only shows the headline and summary metadata), making it impossible to verify substance or depth, and given the reader's previous feedback about avoiding paywalled content, this should be rejected."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Myth and Mythos (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/myth-and-mythos?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter digest/summary format that lacks the analytical depth and finance/macro focus required for Slot 2, and doesn't provide actionable investment insights."
   }
 ]
