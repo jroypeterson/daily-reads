@@ -1,6 +1,6 @@
 {
   "run_date": "2026-04-15",
-  "generated_at": "2026-04-15T13:55:57Z",
+  "generated_at": "2026-04-15T14:28:59Z",
   "triage_queue": [
     {
       "candidate_id": "3e70ca9a0e5a65a5",
@@ -130,29 +130,30 @@
       "triage_score": 9
     },
     {
-      "candidate_id": "7407da2c97c347fc",
+      "candidate_id": "aa87620c909dfaf6",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Rare concert recordings are landing on the Internet Archive",
-      "snippet": "Rare concert recordings are landing on the Internet Archive",
-      "primary_url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+      "headline": "US national level OS-level age verification bill",
+      "snippet": "US national level OS-level age verification bill",
+      "primary_url": "https://social.coop/@cwebber/116408556882122186",
       "urls": [
-        "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/"
+        "https://social.coop/@cwebber/116408556882122186"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 675,
+      "score": 53,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:675",
+        "hn_score:53",
         "category:tech_ai",
-        "ticker:ARE",
-        "ticker:RARE"
+        "ticker:BILL",
+        "ticker:OS",
+        "ticker:NHI"
       ],
       "triage_score": 7
     },
@@ -295,36 +296,38 @@
       "triage_score": 15
     },
     {
-      "candidate_id": "20902d16af8be0f6",
+      "candidate_id": "7b7ff1cca334dae3",
       "run_date": "2026-04-15",
       "source_type": "gmail",
-      "source_name": "Fierce Pharma",
-      "headline": "| 04.14.26 | J&J sees \u2018dual powerhouse\u2019 helping it achieve $100B year; Travere breaks new ground in rare kidney disease",
-      "snippet": "Novo, OpenAI link up on broad AI collab Fierce Pharma A message from ZS Today&#39;s Big News Apr 14, 2026 J&amp;J, chasing $100B year, sports immunology &#39;dual powerhouse&#39; of Tremfya and new",
-      "primary_url": "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.15.26 | Stryker strikes a buyout after cyber-attack as Avanos goes private in $1.3B deal",
+      "snippet": "Retractable, Click cut staff Fierce Biotech MedTech A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday, April 21, 2026 | 11am ET / 8am",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
       "urls": [
-        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
-        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
-        "https://www.fiercepharma.com/pharma/jj-chasing-100b-year-shapes-immunology-dual-powerhouse-tremfya-and-newly-launched-icotyde",
-        "https://www.fiercepharma.com/pharma/ashes-trial-setback-travere-filspari-first-fda-approval-fsgs-treatment",
-        "https://www.fiercepharma.com/pharma/novo-taps-openai-deploy-ai-across-rd-manufacturing-and-corporate-functions"
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
       "tier": 1,
       "score": null,
-      "sender_email": "editors@go.fiercepharma.com",
-      "sender": "Fierce Pharma <editors@go.fiercepharma.com>",
-      "published_at": "Tue, 14 Apr 2026 12:12:20 -0500 (CDT)",
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Medtech <editors@go.fiercebiotech.com>",
+      "published_at": "Wed, 15 Apr 2026 09:04:02 -0500 (CDT)",
       "derived_signals": [
         "source_type:gmail",
         "category:healthcare_daily",
-        "ticker:RARE",
-        "ticker:ZS",
-        "ticker:ACHV",
+        "ticker:DHR",
+        "ticker:DSGN",
         "ticker:HCAT",
         "ticker:HR",
-        "subsector:HIT"
+        "ticker:SYK",
+        "subsector:Tools",
+        "subsector:HIT",
+        "subsector:LC MedTech"
       ],
       "triage_score": 15
     }

@@ -277,5 +277,77 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "This is a generic market commentary newsletter that doesn't focus on tech/AI and lacks the depth expected for Slot 3, with only a brief mention of Anthropic's revenue growth."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is substantive regulatory guidance with significant implications for the genome editing sector, providing specific technical recommendations that will directly impact clinical development strategies."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "The AI revolution in software development",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-ai-revolution-in-software-development",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repeat of the shortlist summary with no actual article text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Novartis CEO Joins Anthropic Board as AI Startup Eyes Healthcare Push",
+    "source": "Multiple Sources",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-adds-novartis-ceo-vas-154830677.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin corporate announcement lacking the depth, financial analysis, or market implications needed for a finance/macro slot."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "J&J leads off Q1 earnings touting $100B 2026 revenue goal",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBnvP5nR3bW7Y9pgv6lZ3kvW4hQGFD7B1X_-W8LPK9M47JTpJW32WcNc4TpMTjW4HyLmj2T6cqcW9fR6bX8yD5HGW41Gt968pKBHXW5ZL-2k9bhSgPW17M1Sn2LcZr0W7cytHs8-vlBwW81ZRD06tsmgdVvSnPT73XktCW3JGcMb3Hx3-wVrpn7j1h2_pnVMpxdl1bfFJ2W8ZMylR15J2NrW7sfCK13tGnzmW1qLJB02g7DlqW2ny8H-2m1LYvVFDfSd2-PHnWW2QwdpH5s81gNW3mLqlw7YWBgMW5kTq914rpmRtW1Y29Cf4JFFRDW7k_v9V8mFBHHN3hsFGXrXrsKW4_8cwk97JtDXW5GZc1R8Cd4k9W4B-rdt7x6-WhW4vj69Z3DS0yZVTLL8V6gF2n9W5X6PrY9klNKqW1kPsGp3Qz0mkW6z7hxz84hbbjW44GswZ8cykqnW33hH1_5J_sqRW7G7QvX8hQ7v0W9kLg6j4dpm4GW71rV8Q6SMjZCW7pngzd2QFdgMW209QY37VhDDFN7cdwGsqRsC6W79gQhS43ZhFVf1ZFw3l04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is primarily a newsletter summary with multiple brief stories rather than a single substantial article about J&J's earnings, lacking the depth and analytical focus needed for Slot 2."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Revolution Medicines prices $2B raise as XBI reaches heights not seen since pandemic",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/revolution-medicines-prices-2b-raise-as-xbi-reaches-heights-not-seen-since-pandemic/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is severely truncated and mostly consists of cookie consent dialogs and navigation elements, making it impossible to verify the substance or accuracy of the claims about Revolution Medicines' $2B raise."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Who will pay for AI reviews of chest scans?",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW98Df6mGfjFW1VGqH-6r6PylVQq1455MVZvjN7bK2_83qgz0W7lCdLW6lZ3kZW8h-S5P6j3KVWW2HXkVh528Hz-W80wFG_1d-hG6W7wckvt7MDcw0VRPJRC6pz_2fVgF5dL7gzGrRW6lbpmd6rZd6JW45H4jt4zzCx6N5PBBRDXYCqyW4vb1v88BC2qGN4SLLKSnhLBnVmXQ_F34Nw4LW1XB3FC7zCxt6N4qJBDgpKbbPW5vmPpF8D_ynRW4bHQ5l4LmHlbW31jZBf1BywKVW2TxbZG6YQrdKW1K85sS803zRhN2Klw65z_1pvN7GKFVcbKR_sW6Dp0Cv1yKwcXW4jnkYQ5K7JFGW343W1m2mlXkQf4rj49v04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywall subscription page, not the actual article content about AI chest scan reimbursement."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Allogene off-the-shelf CAR-T posts early win; CAR-T drives patient's 3 autoimmune diseases into remission",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotechweek.com/fiercebiotechweekcom/register?adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is actually a conference registration page with no substantive reporting on Allogene's CAR-T data or clinical results."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Frontier AI's Economic Engine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/frontier-ais-economic-engine?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantial analytical piece that perfectly matches Slot 2 (Finance/Markets) with strong focus on AI economics, enterprise adoption patterns, and strategic business implications - directly aligned with the reader's strong preferences for data infrastructure and AI investment insights."
   }
 ]

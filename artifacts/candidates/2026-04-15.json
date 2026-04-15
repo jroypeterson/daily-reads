@@ -1,12 +1,80 @@
 {
   "run_date": "2026-04-15",
-  "generated_at": "2026-04-15T13:55:57Z",
+  "generated_at": "2026-04-15T14:28:59Z",
   "counts": {
-    "gmail_candidates": 27,
+    "gmail_candidates": 29,
     "tier2_candidates": 90,
-    "total_candidates": 117
+    "total_candidates": 119
   },
   "gmail_candidates": [
+    {
+      "candidate_id": "7b7ff1cca334dae3",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.15.26 | Stryker strikes a buyout after cyber-attack as Avanos goes private in $1.3B deal",
+      "snippet": "Retractable, Click cut staff Fierce Biotech MedTech A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday, April 21, 2026 | 11am ET / 8am",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+      "urls": [
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FMT-nl-041326&adposition=x30"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Medtech <editors@go.fiercebiotech.com>",
+      "published_at": "Wed, 15 Apr 2026 09:04:02 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DHR",
+        "ticker:DSGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:SYK",
+        "subsector:Tools",
+        "subsector:HIT",
+        "subsector:LC MedTech"
+      ]
+    },
+    {
+      "candidate_id": "f3767da615359235",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Pharma",
+      "headline": "| 04.15.26 | Pfizer scolded by FDA over Facebook ads; ViiV launches \u2018Still Here\u2019 HIV campaign",
+      "snippet": "Ionis&#39; method to the Madness Fierce Pharma Pharma Marketing A message from PharmaForceIQ No overpromising or endless analysis Orchestrate digital + field in one system that reduces costs &amp;",
+      "primary_url": "https://pharmaforceiq.com/platform?adposition=x30",
+      "urls": [
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://pharmaforceiq.com/platform?adposition=x30",
+        "https://www.fiercepharma.com/marketing/pfizer-rebuked-fda-misleading-adcetris-ads-facebook"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercepharma.com",
+      "sender": "\"Fierce Pharma: Marketing\" <editors@go.fiercepharma.com>",
+      "published_at": "Wed, 15 Apr 2026 09:02:00 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:IONS",
+        "ticker:OBIO",
+        "ticker:PFE",
+        "subsector:HIT"
+      ]
+    },
     {
       "candidate_id": "2a8a18f2371e1367",
       "run_date": "2026-04-15",
@@ -99,7 +167,7 @@
       ]
     },
     {
-      "candidate_id": "b32c14ac66313b1f",
+      "candidate_id": "783102ca9e7e958d",
       "run_date": "2026-04-15",
       "source_type": "gmail",
       "source_name": "WSJ Newsletters",
@@ -457,19 +525,19 @@
       ]
     },
     {
-      "candidate_id": "0b168f826843d5e3",
+      "candidate_id": "7e1cd18cbffb8a6b",
       "run_date": "2026-04-15",
       "source_type": "gmail",
       "source_name": "MBI",
       "headline": "Frontier AI's Economic Engine",
       "snippet": "It should not surprise anyone that coding has found the most product market fit in AI, but it is notable that how much it surpasses everything else in enterprise segment so far which explains so much",
-      "primary_url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+      "primary_url": "https://mbideepdives.substack.com/p/frontier-ais-economic-engine?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
       "urls": [
-        "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
-        "https://substack.com/app-link/post?publication_id=1444178&post_id=194117632&isFreemail=false&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
+        "https://mbideepdives.substack.com/p/frontier-ais-economic-engine?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
         "https://substack.com/@mbideepdives",
-        "https://substack.com/app-link/post?publication_id=1444178&post_id=194117632&isFreemail=false&submitLike=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjE3Nzg3NjkxMjEsImlzcyI6InB1Yi0xNDQ0MTc4Iiwic3ViIjoicmVhY3Rpb24ifQ.doCyiD-G01PguqtOayW4YjzIUSXhkaN3C-3aVGImfs0&r=w2qs",
-        "https://substack.com/app-link/post?publication_id=1444178&post_id=194117632&isFreemail=false&comments=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4&r=w2qs&action=post-comment"
+        "https://open.substack.com/pub/mbideepdives/p/frontier-ais-economic-engine?action=restack-comment&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
+        "https://open.substack.com/pub/mbideepdives/p/frontier-ais-economic-engine?redirect=app-store",
+        "https://substack.com/redirect/ead77c92-8c5b-4e9e-b0f3-96d878efce30?j=eyJ1IjoidzJxcyJ9.YkAgp7Xzytu_zDhK5XZyTjZgswfpo3RSdb8K4dKh1aQ"
       ],
       "category": "finance_macro",
       "priority": "high",
@@ -485,7 +553,7 @@
       ]
     },
     {
-      "candidate_id": "a170193aa549145b",
+      "candidate_id": "2008abaf2c34bd17",
       "run_date": "2026-04-15",
       "source_type": "gmail",
       "source_name": "Biotech Primer",
@@ -642,19 +710,19 @@
       ]
     },
     {
-      "candidate_id": "e4c1b0e615f09dce",
+      "candidate_id": "fdb463e407b7278d",
       "run_date": "2026-04-15",
       "source_type": "gmail",
       "source_name": "The Transcript",
       "headline": "Catalyst Watch",
       "snippet": "Welcome to Catalyst Watch at The Transcript, a report for paid subscribers that highlights investment themes from this week&#39;s newsletter. \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
-      "primary_url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGV0cmFuc2NyaXB0LnN1YnN0YWNrLmNvbS9wLzA0LTE0LTIwMjYtY2F0YWx5c3Qtd2F0Y2g_dXRtX2NhbXBhaWduPWVtYWlsLXBvc3Qmcj13MnFzJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hORGsyTlRRNExDSndiM04wWDJsa0lqb3hPVFF4TnpJME1EZ3NJbWxoZENJNk1UYzNOakUyTmpRek5Td2laWGh3SWpveE56YzROelU0TkRNMUxDSnBjM01pT2lKd2RXSXRNekkwTlRFaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuNlowZGVsYVE2VGpKU1I4V3pFbVpoNFNTMVNaY1pndHd5Tnh4OVh6RkZ5VSIsInAiOjE5NDE3MjQwOCwicyI6MzI0NTEsImYiOmZhbHNlLCJ1IjoxNDk2NTQ4LCJpYXQiOjE3NzYxNjY0MzUsImV4cCI6MjA5MTc0MjQzNSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.bqL9xjj1xIr7lj-HZaKhPD2dciwvYJGmsuIIy1YEshM",
+      "primary_url": "https://thetranscript.substack.com/p/04-14-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxNzI0MDgsImlhdCI6MTc3NjE2NjQzNSwiZXhwIjoxNzc4NzU4NDM1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6Z0delaQ6TjJSR8WzEmZh4SS1SZcZgtwyNxx9XzFFyU",
       "urls": [
-        "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGV0cmFuc2NyaXB0LnN1YnN0YWNrLmNvbS9wLzA0LTE0LTIwMjYtY2F0YWx5c3Qtd2F0Y2g_dXRtX2NhbXBhaWduPWVtYWlsLXBvc3Qmcj13MnFzJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hORGsyTlRRNExDSndiM04wWDJsa0lqb3hPVFF4TnpJME1EZ3NJbWxoZENJNk1UYzNOakUyTmpRek5Td2laWGh3SWpveE56YzROelU0TkRNMUxDSnBjM01pT2lKd2RXSXRNekkwTlRFaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuNlowZGVsYVE2VGpKU1I4V3pFbVpoNFNTMVNaY1pndHd5Tnh4OVh6RkZ5VSIsInAiOjE5NDE3MjQwOCwicyI6MzI0NTEsImYiOmZhbHNlLCJ1IjoxNDk2NTQ4LCJpYXQiOjE3NzYxNjY0MzUsImV4cCI6MjA5MTc0MjQzNSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.bqL9xjj1xIr7lj-HZaKhPD2dciwvYJGmsuIIy1YEshM",
-        "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGV0cmFuc2NyaXB0LnN1YnN0YWNrLmNvbS9wLzA0LTE0LTIwMjYtY2F0YWx5c3Qtd2F0Y2g_dXRtX2NhbXBhaWduPWVtYWlsLWhhbGYtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhOekkwTURnc0ltbGhkQ0k2TVRjM05qRTJOalF6TlN3aVpYaHdJam94TnpjNE56VTRORE0xTENKcGMzTWlPaUp3ZFdJdE16STBOVEVpTENKemRXSWlPaUp3YjNOMExYSmxZV04wYVc5dUluMC42WjBkZWxhUTZUakpTUjhXekVtWmg0U1MxU1pjWmd0d3lOeHg5WHpGRnlVIiwicCI6MTk0MTcyNDA4LCJzIjozMjQ1MSwiZiI6ZmFsc2UsInUiOjE0OTY1NDgsImlhdCI6MTc3NjE2NjQzNSwiZXhwIjoyMDkxNzQyNDM1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.tJ8OPv2href7zB3ja0z6cNoEJ-XzLK4TP3iLhndT5K8",
-        "https://substack.com/app-link/post?publication_id=32451&post_id=194172408&isFreemail=false&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxNzI0MDgsImlhdCI6MTc3NjE2NjQzNSwiZXhwIjoxNzc4NzU4NDM1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6Z0delaQ6TjJSR8WzEmZh4SS1SZcZgtwyNxx9XzFFyU",
+        "https://thetranscript.substack.com/p/04-14-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxNzI0MDgsImlhdCI6MTc3NjE2NjQzNSwiZXhwIjoxNzc4NzU4NDM1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6Z0delaQ6TjJSR8WzEmZh4SS1SZcZgtwyNxx9XzFFyU",
         "https://substack.com/@thetranscript",
-        "https://substack.com/app-link/post?publication_id=32451&post_id=194172408&isFreemail=false&submitLike=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxNzI0MDgsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNzc2MTY2NDM1LCJleHAiOjE3Nzg3NTg0MzUsImlzcyI6InB1Yi0zMjQ1MSIsInN1YiI6InJlYWN0aW9uIn0.8Rrw7euD0haMKOOwABw9Qf3Z7QVDjJQsd-M5GkEj8As&r=w2qs"
+        "https://open.substack.com/pub/thetranscript/p/04-14-2026-catalyst-watch?action=restack-comment&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxNzI0MDgsImlhdCI6MTc3NjE2NjQzNSwiZXhwIjoxNzc4NzU4NDM1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6Z0delaQ6TjJSR8WzEmZh4SS1SZcZgtwyNxx9XzFFyU",
+        "https://open.substack.com/pub/thetranscript/p/04-14-2026-catalyst-watch?redirect=app-store",
+        "https://open.substack.com/pub/thetranscript/p/04-13-2026-the-end-of-civilization"
       ],
       "category": "finance_macro",
       "priority": "high",
@@ -698,7 +766,7 @@
       ]
     },
     {
-      "candidate_id": "169fc29c6896818d",
+      "candidate_id": "f84628689d3893d7",
       "run_date": "2026-04-15",
       "source_type": "gmail",
       "source_name": "WSJ Newsletters",
@@ -780,19 +848,19 @@
       ]
     },
     {
-      "candidate_id": "99d08766e07c4f1a",
+      "candidate_id": "527d44297ab6933a",
       "run_date": "2026-04-15",
       "source_type": "gmail",
       "source_name": "A Letter a Day",
       "headline": "Letter #326: Brian Halligan and Dharmesh Shah (2014)",
       "snippet": "Cofounders of Hubspot | S-1 Shareholder Letter \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
-      "primary_url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hbGV0dGVyYWRheS5zdWJzdGFjay5jb20vcC9sZXR0ZXItMzI2LWJyaWFuLWhhbGxpZ2FuLWFuZC1kaGFybWVzaD91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE5EQTNORFkyT1RRc0ltbGhkQ0k2TVRjM05qRXlPRFUwTXl3aVpYaHdJam94TnpjNE56SXdOVFF6TENKcGMzTWlPaUp3ZFdJdE5qRTRNRFlpTENKemRXSWlPaUp3YjNOMExYSmxZV04wYVc5dUluMC5yT3dJamdfSFljLURJSUc0cS1Ld09tT1dwbzk4Y2FOWnZLeXh4Z1JVQlRRIiwicCI6MTQwNzQ2Njk0LCJzIjo2MTgwNiwiZiI6ZmFsc2UsInUiOjE0OTY1NDgsImlhdCI6MTc3NjEyODU0MywiZXhwIjoyMDkxNzA0NTQzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.MhmN15IMl4kQVlhJgJXwbMo0D8EExgXKBK8v3OcTVFo",
+      "primary_url": "https://aletteraday.substack.com/p/letter-326-brian-halligan-and-dharmesh?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNDA3NDY2OTQsImlhdCI6MTc3NjEyODU0MywiZXhwIjoxNzc4NzIwNTQzLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.rOwIjg_HYc-DIIG4q-KwOmOWpo98caNZvKyxxgRUBTQ",
       "urls": [
-        "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hbGV0dGVyYWRheS5zdWJzdGFjay5jb20vcC9sZXR0ZXItMzI2LWJyaWFuLWhhbGxpZ2FuLWFuZC1kaGFybWVzaD91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE5EQTNORFkyT1RRc0ltbGhkQ0k2TVRjM05qRXlPRFUwTXl3aVpYaHdJam94TnpjNE56SXdOVFF6TENKcGMzTWlPaUp3ZFdJdE5qRTRNRFlpTENKemRXSWlPaUp3YjNOMExYSmxZV04wYVc5dUluMC5yT3dJamdfSFljLURJSUc0cS1Ld09tT1dwbzk4Y2FOWnZLeXh4Z1JVQlRRIiwicCI6MTQwNzQ2Njk0LCJzIjo2MTgwNiwiZiI6ZmFsc2UsInUiOjE0OTY1NDgsImlhdCI6MTc3NjEyODU0MywiZXhwIjoyMDkxNzA0NTQzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.MhmN15IMl4kQVlhJgJXwbMo0D8EExgXKBK8v3OcTVFo",
-        "https://substack.com/app-link/post?publication_id=61806&post_id=140746694&isFreemail=false&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNDA3NDY2OTQsImlhdCI6MTc3NjEyODU0MywiZXhwIjoxNzc4NzIwNTQzLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.rOwIjg_HYc-DIIG4q-KwOmOWpo98caNZvKyxxgRUBTQ",
+        "https://aletteraday.substack.com/p/letter-326-brian-halligan-and-dharmesh?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNDA3NDY2OTQsImlhdCI6MTc3NjEyODU0MywiZXhwIjoxNzc4NzIwNTQzLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.rOwIjg_HYc-DIIG4q-KwOmOWpo98caNZvKyxxgRUBTQ",
         "https://substack.com/@aletteraday",
-        "https://substack.com/app-link/post?publication_id=61806&post_id=140746694&isFreemail=false&submitLike=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNDA3NDY2OTQsInJlYWN0aW9uIjoi4p2kIiwiaWF0IjoxNzc2MTI4NTQzLCJleHAiOjE3Nzg3MjA1NDMsImlzcyI6InB1Yi02MTgwNiIsInN1YiI6InJlYWN0aW9uIn0.E-zGU0jisy8JxKmjVT4J8ForRozStmvvgKXS8soeiU4&r=w2qs",
-        "https://substack.com/app-link/post?publication_id=61806&post_id=140746694&isFreemail=false&comments=true&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNDA3NDY2OTQsImlhdCI6MTc3NjEyODU0MywiZXhwIjoxNzc4NzIwNTQzLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.rOwIjg_HYc-DIIG4q-KwOmOWpo98caNZvKyxxgRUBTQ&r=w2qs&action=post-comment"
+        "https://open.substack.com/pub/aletteraday/p/letter-326-brian-halligan-and-dharmesh?action=restack-comment&r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNDA3NDY2OTQsImlhdCI6MTc3NjEyODU0MywiZXhwIjoxNzc4NzIwNTQzLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.rOwIjg_HYc-DIIG4q-KwOmOWpo98caNZvKyxxgRUBTQ",
+        "https://open.substack.com/pub/aletteraday/p/letter-326-brian-halligan-and-dharmesh?redirect=app-store",
+        "https://substack.com/redirect/0d0ef1ae-87b5-43fd-b1ec-ae082122c883?j=eyJ1IjoidzJxcyJ9.YkAgp7Xzytu_zDhK5XZyTjZgswfpo3RSdb8K4dKh1aQ"
       ],
       "category": "finance_macro",
       "priority": "high",
@@ -811,30 +879,6 @@
   ],
   "tier2_candidates": [
     {
-      "candidate_id": "09b98c66c9f1299d",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Keep Android Open",
-      "snippet": "Keep Android Open",
-      "primary_url": "https://keepandroidopen.org/cta/",
-      "urls": [
-        "https://keepandroidopen.org/cta/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 95,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:95",
-        "category:tech_ai"
-      ]
-    },
-    {
       "candidate_id": "94e3a3ba53d7d819",
       "run_date": "2026-04-15",
       "source_type": "tier2",
@@ -848,38 +892,38 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 30,
+      "score": 68,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:30",
+        "hn_score:68",
         "category:tech_ai",
         "ticker:MNK"
       ]
     },
     {
-      "candidate_id": "e4b52393bff40c92",
+      "candidate_id": "d36283a03d0cba0d",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Want to Write a Compiler? Just Read These Two Papers (2008)",
-      "snippet": "Want to Write a Compiler? Just Read These Two Papers (2008)",
-      "primary_url": "https://prog21.dadgum.com/30.html",
+      "headline": "The Future of Everything Is Lies, I Guess: New Jobs",
+      "snippet": "The Future of Everything Is Lies, I Guess: New Jobs",
+      "primary_url": "https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs",
       "urls": [
-        "https://prog21.dadgum.com/30.html"
+        "https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 226,
+      "score": 32,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:226",
+        "hn_score:32",
         "category:tech_ai"
       ]
     },
@@ -897,13 +941,37 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 19,
+      "score": 42,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:19",
+        "hn_score:42",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "e4b52393bff40c92",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Want to Write a Compiler? Just Read These Two Papers (2008)",
+      "snippet": "Want to Write a Compiler? Just Read These Two Papers (2008)",
+      "primary_url": "https://prog21.dadgum.com/30.html",
+      "urls": [
+        "https://prog21.dadgum.com/30.html"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 247,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:247",
         "category:tech_ai"
       ]
     },
@@ -921,13 +989,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 163,
+      "score": 175,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:163",
+        "hn_score:175",
         "category:tech_ai"
       ]
     },
@@ -945,13 +1013,37 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 7,
+      "score": 16,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:7",
+        "hn_score:16",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "2d233e8653372339",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Do you even need a database?",
+      "snippet": "Do you even need a database?",
+      "primary_url": "https://www.dbpro.app/blog/do-you-even-need-a-database",
+      "urls": [
+        "https://www.dbpro.app/blog/do-you-even-need-a-database"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 26,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:26",
         "category:tech_ai"
       ]
     },
@@ -969,37 +1061,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 70,
+      "score": 80,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:70",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "2d233e8653372339",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Do You Even Need a Database?",
-      "snippet": "Do You Even Need a Database?",
-      "primary_url": "https://www.dbpro.app/blog/do-you-even-need-a-database",
-      "urls": [
-        "https://www.dbpro.app/blog/do-you-even-need-a-database"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 10,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:10",
+        "hn_score:80",
         "category:tech_ai"
       ]
     },
@@ -1017,14 +1085,40 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 196,
+      "score": 200,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:196",
+        "hn_score:200",
         "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "7021de4407a4e3bc",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Your Backpack Got Worse on Purpose",
+      "snippet": "Your Backpack Got Worse on Purpose",
+      "primary_url": "https://www.worseonpurpose.com/p/your-backpack-got-worse-on-purpose",
+      "urls": [
+        "https://www.worseonpurpose.com/p/your-backpack-got-worse-on-purpose"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 72,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:72",
+        "category:tech_ai",
+        "ticker:PINC",
+        "subsector:Other"
       ]
     },
     {
@@ -1065,85 +1159,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 37,
+      "score": 43,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:37",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "d12015e4e62300a0",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
-      "snippet": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
-      "primary_url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
-      "urls": [
-        "https://www.gizmoweek.com/gemma-4-runs-iphone/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 124,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:124",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "02defde7c33a8ff0",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Claude Code Routines",
-      "snippet": "Claude Code Routines",
-      "primary_url": "https://code.claude.com/docs/en/routines",
-      "urls": [
-        "https://code.claude.com/docs/en/routines"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 670,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:670",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "96ce8c681a8bb665",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Wacli \u2013 WhatsApp CLI: sync, search, send",
-      "snippet": "Wacli \u2013 WhatsApp CLI: sync, search, send",
-      "primary_url": "https://github.com/steipete/wacli",
-      "urls": [
-        "https://github.com/steipete/wacli"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 150,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:150",
+        "hn_score:43",
         "category:tech_ai"
       ]
     },
@@ -1161,13 +1183,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 19,
+      "score": 53,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:19",
+        "hn_score:53",
         "category:tech_ai",
         "ticker:BILL",
         "ticker:OS",
@@ -1175,52 +1197,27 @@
       ]
     },
     {
-      "candidate_id": "200d7a35eb6f360b",
+      "candidate_id": "d12015e4e62300a0",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Direct Win32 API, Weird-Shaped Windows, and Why They Mostly Disappeared",
-      "snippet": "Direct Win32 API, Weird-Shaped Windows, and Why They Mostly Disappeared",
-      "primary_url": "https://warped3.substack.com/p/direct-win32-api-weird-shaped-windows",
+      "headline": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
+      "snippet": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
+      "primary_url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
       "urls": [
-        "https://warped3.substack.com/p/direct-win32-api-weird-shaped-windows"
+        "https://www.gizmoweek.com/gemma-4-runs-iphone/"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 107,
+      "score": 140,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:107",
+        "hn_score:140",
         "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "57e37ff27e8074a3",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "A communist Apple II and fourteen years of not knowing what you're testing",
-      "snippet": "A communist Apple II and fourteen years of not knowing what you're testing",
-      "primary_url": "https://llama.gs/blog/index.php/2026/04/10/friday-archaeology-a-communist-apple-ii-and-fourteen-years-of-not-knowing-what-youre-testing/",
-      "urls": [
-        "https://llama.gs/blog/index.php/2026/04/10/friday-archaeology-a-communist-apple-ii-and-fourteen-years-of-not-knowing-what-youre-testing/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 206,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:206",
-        "category:tech_ai",
-        "ticker:AAPL"
       ]
     },
     {
@@ -1237,63 +1234,61 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 10,
+      "score": 25,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:10",
+        "hn_score:25",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "7021de4407a4e3bc",
+      "candidate_id": "02defde7c33a8ff0",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Your Backpack Got Worse on Purpose",
-      "snippet": "Your Backpack Got Worse on Purpose",
-      "primary_url": "https://www.worseonpurpose.com/p/your-backpack-got-worse-on-purpose",
+      "headline": "Claude Code Routines",
+      "snippet": "Claude Code Routines",
+      "primary_url": "https://code.claude.com/docs/en/routines",
       "urls": [
-        "https://www.worseonpurpose.com/p/your-backpack-got-worse-on-purpose"
+        "https://code.claude.com/docs/en/routines"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 10,
+      "score": 675,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:10",
-        "category:tech_ai",
-        "ticker:PINC",
-        "subsector:Other"
+        "hn_score:675",
+        "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "06ae12cddd4e63f4",
+      "candidate_id": "26b5ff9489acd75c",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "MIT Radiation Laboratory",
-      "snippet": "MIT Radiation Laboratory",
-      "primary_url": "https://www.ll.mit.edu/about/history/mit-radiation-laboratory",
+      "headline": "Gemini Robotics-ER 1.6",
+      "snippet": "Gemini Robotics-ER 1.6",
+      "primary_url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
       "urls": [
-        "https://www.ll.mit.edu/about/history/mit-radiation-laboratory"
+        "https://deepmind.google/blog/gemini-robotics-er-1-6/"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 17,
+      "score": 12,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:17",
+        "hn_score:12",
         "category:tech_ai"
       ]
     },
@@ -1311,13 +1306,182 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 5,
+      "score": 18,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:5",
+        "hn_score:18",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "96ce8c681a8bb665",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Wacli \u2013 WhatsApp CLI: sync, search, send",
+      "snippet": "Wacli \u2013 WhatsApp CLI: sync, search, send",
+      "primary_url": "https://github.com/steipete/wacli",
+      "urls": [
+        "https://github.com/steipete/wacli"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 160,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:160",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "90480d0f3bd095a1",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
+      "snippet": "AI ruling prompts warnings from US lawyers: Your chats could be used against you",
+      "primary_url": "https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/",
+      "urls": [
+        "https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 25,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:25",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "bebb44ef7c110be0",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]",
+      "snippet": "US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]",
+      "primary_url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf",
+      "urls": [
+        "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 13,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:13",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "200d7a35eb6f360b",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Direct Win32 API, Weird-Shaped Windows, and Why They Mostly Disappeared",
+      "snippet": "Direct Win32 API, Weird-Shaped Windows, and Why They Mostly Disappeared",
+      "primary_url": "https://warped3.substack.com/p/direct-win32-api-weird-shaped-windows",
+      "urls": [
+        "https://warped3.substack.com/p/direct-win32-api-weird-shaped-windows"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 123,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:123",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "69828593c2d41b95",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Sam Vimes 'Boots' Theory of Socio-Economic Unfairness",
+      "snippet": "Sam Vimes 'Boots' Theory of Socio-Economic Unfairness",
+      "primary_url": "https://terrypratchett.com/explore-discworld/sam-vimes-boots-theory-of-socio-economic-unfairness/",
+      "urls": [
+        "https://terrypratchett.com/explore-discworld/sam-vimes-boots-theory-of-socio-economic-unfairness/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 18,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:18",
+        "category:tech_ai"
+      ]
+    },
+    {
+      "candidate_id": "57e37ff27e8074a3",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "A communist Apple II and fourteen years of not knowing what you're testing",
+      "snippet": "A communist Apple II and fourteen years of not knowing what you're testing",
+      "primary_url": "https://llama.gs/blog/index.php/2026/04/10/friday-archaeology-a-communist-apple-ii-and-fourteen-years-of-not-knowing-what-youre-testing/",
+      "urls": [
+        "https://llama.gs/blog/index.php/2026/04/10/friday-archaeology-a-communist-apple-ii-and-fourteen-years-of-not-knowing-what-youre-testing/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 208,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:208",
+        "category:tech_ai",
+        "ticker:AAPL"
+      ]
+    },
+    {
+      "candidate_id": "06ae12cddd4e63f4",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "MIT Radiation Laboratory",
+      "snippet": "MIT Radiation Laboratory",
+      "primary_url": "https://www.ll.mit.edu/about/history/mit-radiation-laboratory",
+      "urls": [
+        "https://www.ll.mit.edu/about/history/mit-radiation-laboratory"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 22,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:22",
         "category:tech_ai"
       ]
     },
@@ -1335,61 +1499,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 172,
+      "score": 176,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:172",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "f153ca3e7dcbd207",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Stop Flock",
-      "snippet": "Stop Flock",
-      "primary_url": "https://stopflock.com",
-      "urls": [
-        "https://stopflock.com"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 812,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:812",
-        "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "1ec275001b6d236f",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "What Is in Road Flares?",
-      "snippet": "What Is in Road Flares?",
-      "primary_url": "https://www.spiegl.org/rocket/flare/flare.html",
-      "urls": [
-        "https://www.spiegl.org/rocket/flare/flare.html"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 30,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:30",
+        "hn_score:176",
         "category:tech_ai"
       ]
     },
@@ -1407,62 +1523,61 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 54,
+      "score": 57,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:54",
+        "hn_score:57",
         "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "3ce58b63359f3d35",
+      "candidate_id": "f153ca3e7dcbd207",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "5NF and Database Design",
-      "snippet": "5NF and Database Design",
-      "primary_url": "https://kb.databasedesignbook.com/posts/5nf/",
+      "headline": "Stop Flock",
+      "snippet": "Stop Flock",
+      "primary_url": "https://stopflock.com",
       "urls": [
-        "https://kb.databasedesignbook.com/posts/5nf/"
+        "https://stopflock.com"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 182,
+      "score": 831,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:182",
-        "category:tech_ai",
-        "ticker:DSGN"
+        "hn_score:831",
+        "category:tech_ai"
       ]
     },
     {
-      "candidate_id": "68388f68d7a534db",
+      "candidate_id": "1ec275001b6d236f",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Turn your best AI prompts into one-click tools in Chrome",
-      "snippet": "Turn your best AI prompts into one-click tools in Chrome",
-      "primary_url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "headline": "What Is in Road Flares?",
+      "snippet": "What Is in Road Flares?",
+      "primary_url": "https://www.spiegl.org/rocket/flare/flare.html",
       "urls": [
-        "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/"
+        "https://www.spiegl.org/rocket/flare/flare.html"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 181,
+      "score": 32,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:181",
+        "hn_score:32",
         "category:tech_ai"
       ]
     },
@@ -1480,65 +1595,14 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 152,
+      "score": 157,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:152",
+        "hn_score:157",
         "category:tech_ai"
-      ]
-    },
-    {
-      "candidate_id": "7407da2c97c347fc",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "Rare concert recordings are landing on the Internet Archive",
-      "snippet": "Rare concert recordings are landing on the Internet Archive",
-      "primary_url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
-      "urls": [
-        "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 675,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:675",
-        "category:tech_ai",
-        "ticker:ARE",
-        "ticker:RARE"
-      ]
-    },
-    {
-      "candidate_id": "0be9f23f4efa6375",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Hacker News",
-      "headline": "My adventure in designing API keys",
-      "snippet": "My adventure in designing API keys",
-      "primary_url": "https://vjay15.github.io/blog/apikeys/",
-      "urls": [
-        "https://vjay15.github.io/blog/apikeys/"
-      ],
-      "category": "tech_ai",
-      "priority": "normal",
-      "tier": 2,
-      "score": 85,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "hn_score:85",
-        "category:tech_ai",
-        "ticker:DSGN"
       ]
     },
     {
@@ -1685,6 +1749,33 @@
         "ticker:IART",
         "subsector:HIT",
         "subsector:Spine/Ortho"
+      ]
+    },
+    {
+      "candidate_id": "4cdcda9ed0bbc843",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Endpoints News",
+      "headline": "Revolution Medicines prices $2B raise as XBI reaches heights not seen since pandemic",
+      "snippet": "Revolution Medicines is capitalizing on its recent clinical trial success, putting together the biotech industry\u2019s largest public raise since the Covid-19 pandemic. The company priced its stock and debt offering at ...",
+      "primary_url": "https://endpoints.news/revolution-medicines-prices-2b-raise-as-xbi-reaches-heights-not-seen-since-pandemic/",
+      "urls": [
+        "https://endpoints.news/revolution-medicines-prices-2b-raise-as-xbi-reaches-heights-not-seen-since-pandemic/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:RVMD",
+        "subsector:HIT"
       ]
     },
     {
@@ -1883,33 +1974,6 @@
         "ticker:CCRN",
         "subsector:HIT",
         "subsector:Nurse staffing"
-      ]
-    },
-    {
-      "candidate_id": "6b121e1b2257effc",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Endpoints News",
-      "headline": "Harbinger raises $100M; Astellas to close Seattle site",
-      "snippet": "Plus, news about Novo Nordisk and OpenAI, and Adcendo's Series C: \ud83e\uddea Flagship\u2019s Harbinger Health raises $100 million for cancer test: The startup said it closed the Series B extension last ...",
-      "primary_url": "https://endpoints.news/harbinger-raises-100m-astellas-to-close-seattle-site/",
-      "urls": [
-        "https://endpoints.news/harbinger-raises-100m-astellas-to-close-seattle-site/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:4503",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:HIT"
       ]
     },
     {
@@ -2129,6 +2193,157 @@
       ]
     },
     {
+      "candidate_id": "af43eae056e85c35",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Health systems redefine growth in 2026",
+      "snippet": "As health systems move beyond an era defined by geographic expansion and scale, CEOs are beginning to rethink a fundamental question: What counts as growth today? Leaders are reframing the answer away from footprint and volume, and toward margin durability, care model evolution, ambulatory reach and",
+      "primary_url": "https://www.beckershospitalreview.com/hospital-management-administration/health-systems-redefine-growth-in-2026/",
+      "urls": [
+        "https://www.beckershospitalreview.com/hospital-management-administration/health-systems-redefine-growth-in-2026/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:MOVE",
+        "ticker:DGX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Spine/Ortho",
+        "subsector:Labs",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "7a5828701c27d9d7",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "A look at the Union Health, HCA Indiana hospital merger, 4 months in",
+      "snippet": "Terre Haute, Ind.-based Union Health ended 2025 with a milestone Dec. 13 acquisition, adding Nashville, Tenn.-based HCA Healthcare&#8217;s Terre Haute Regional Hospital to its now three-hospital portfolio. Ian Macdonald, who became CFO of Union Health October 2025, said during a Becker&#8217;s &#822",
+      "primary_url": "https://www.beckershospitalreview.com/finance/a-look-at-the-union-health-hca-indiana-hospital-merger-4-months-in/",
+      "urls": [
+        "https://www.beckershospitalreview.com/finance/a-look-at-the-union-health-hca-indiana-hospital-merger-4-months-in/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCA",
+        "ticker:NOW",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:MIST",
+        "subsector:Hospitals",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "c58d6afbf3ebe931",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "HCA Nevada hospital gets level 1 trauma center designation",
+      "snippet": "Las Vegas-based Sunrise Hospital &#38; Medical Center was designated as a level 1 trauma center by the state. \u201cWe extend our sincere appreciation to Governor [Joe] Lombardo for recognizing the need for this important designation and allowing us the ability to&#160;train and&#160;attract top-tier phy",
+      "primary_url": "https://www.beckershospitalreview.com/care-coordination/hca-nevada-hospital-gets-level-1-trauma-center-designation/",
+      "urls": [
+        "https://www.beckershospitalreview.com/care-coordination/hca-nevada-hospital-gets-level-1-trauma-center-designation/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:HCA",
+        "ticker:DSGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:MPW",
+        "subsector:Hospitals",
+        "subsector:HIT"
+      ]
+    },
+    {
+      "candidate_id": "18a2fc74be2eddb3",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Hudson Regional withdraws closure notice for shuttered hospital",
+      "snippet": "Jersey City, N.J.-based Hudson Regional Health has shared plans to withdraw its certificate-of-need application to close Heights University Hospital, also in Jersey City, signaling a potential path forward to restore healthcare services in the community it serves. &#8220;Hudson Regional Health has a",
+      "primary_url": "https://www.beckershospitalreview.com/finance/hudson-regional-withdraws-closure-notice-for-shuttered-hospital/",
+      "urls": [
+        "https://www.beckershospitalreview.com/finance/hudson-regional-withdraws-closure-notice-for-shuttered-hospital/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:CYH",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:SCI",
+        "ticker:U",
+        "subsector:Hospitals",
+        "subsector:HIT",
+        "subsector:Deathcare"
+      ]
+    },
+    {
+      "candidate_id": "571d72b1f49f2c79",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Becker's Hospital Review",
+      "headline": "Ardent Health\u2019s 6 highest-earning executives in 2025",
+      "snippet": "Marty Bonick, president and CEO of Brentwood-based Ardent Health, saw his total compensation decline by roughly $850,000 in 2025 to about $6.1 million, according to a proxy statement filed with the Securities and Exchange Commission. Ardent went public in July 2024. Here are the system\u2019s six highest",
+      "primary_url": "https://www.beckershospitalreview.com/compensation-issues/ardent-healths-6-highest-earning-executives-in-2025/",
+      "urls": [
+        "https://www.beckershospitalreview.com/compensation-issues/ardent-healths-6-highest-earning-executives-in-2025/"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 2,
+      "score": null,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "category:healthcare_daily",
+        "ticker:ARE",
+        "ticker:ARDT",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:Hospitals",
+        "subsector:HIT"
+      ]
+    },
+    {
       "candidate_id": "bd3c64d087d8da82",
       "run_date": "2026-04-15",
       "source_type": "tier2",
@@ -2213,45 +2428,15 @@
       ]
     },
     {
-      "candidate_id": "e35dae0e03d8767c",
+      "candidate_id": "351f1eb7366e8ecb",
       "run_date": "2026-04-15",
       "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "32 health systems with strong finances",
-      "snippet": "Here are 32 health systems with strong operational metrics and solid financial positions, according to reports from credit rating agencies Fitch Ratings and Moody\u2019s Investors Service released in 2026. Note: This is not an exhaustive list. Health systems were compiled from credit rating reports. Bann",
-      "primary_url": "https://www.beckershospitalreview.com/finance/32-health-systems-with-strong-finances/",
+      "source_name": "Becker's Payer Issues",
+      "headline": "Baylor Scott & White Health Plan to exit Medicaid, individual markets; cut 321 jobs",
+      "snippet": "Baylor Scott &#38; White Health Plan said April 14 it will exit the Texas Medicaid managed care market and discontinue its individual marketplace plans, affecting roughly 225,000 members and eliminating 321 jobs statewide, according to the Dallas Morning News. The health plan, part of Dallas-based B",
+      "primary_url": "https://www.beckerspayer.com/payer/aca/baylor-scott-white-health-plan-to-exit-medicaid-individual-markets-cut-321-jobs/",
       "urls": [
-        "https://www.beckershospitalreview.com/finance/32-health-systems-with-strong-finances/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:ARE",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:SCI",
-        "ticker:SLDB",
-        "subsector:HIT",
-        "subsector:Deathcare"
-      ]
-    },
-    {
-      "candidate_id": "3fcbfcb7d349ed7d",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "Atrium hospital CNO heads to Ascension",
-      "snippet": "Jacksonville, Fla.-based Ascension St. Vincent\u2019s Riverside named Robyn Barriffe, DNP, MSN, RN, chief nursing officer. She will bring an &#8220;innovative, mission-drive approach&#8221; to the system, according to an April 14 system news release. She has over two decades of nursing leadership experie",
-      "primary_url": "https://www.beckershospitalreview.com/hospital-executive-moves/atrium-hospital-cno-heads-to-ascension/",
-      "urls": [
-        "https://www.beckershospitalreview.com/hospital-executive-moves/atrium-hospital-cno-heads-to-ascension/"
+        "https://www.beckerspayer.com/payer/aca/baylor-scott-white-health-plan-to-exit-medicaid-individual-markets-cut-321-jobs/"
       ],
       "category": "healthcare_daily",
       "priority": "normal",
@@ -2265,99 +2450,8 @@
         "category:healthcare_daily",
         "ticker:HCAT",
         "ticker:HR",
-        "ticker:RNA",
+        "ticker:TPL",
         "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "2fe798def6023776",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "24 patients evacuated, surgeries rescheduled after fire at Boston hospital",
-      "snippet": "Boston Medical Center-Brighton evacuated 24 patients and rescheduled some procedures after a fire knocked out power to parts of the building April 15, ABC affiliate WCVB5 reported. The fire began in the electrical room at 1:30 a.m. and disabled a generator. The fire was contained and extinguished an",
-      "primary_url": "https://www.beckershospitalreview.com/care-coordination/24-patients-evacuated-surgeries-rescheduled-after-fire-at-boston-hospital/",
-      "urls": [
-        "https://www.beckershospitalreview.com/care-coordination/24-patients-evacuated-surgeries-rescheduled-after-fire-at-boston-hospital/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:BSX",
-        "ticker:DRUG",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:MPW",
-        "subsector:LC MedTech",
-        "subsector:HIT"
-      ]
-    },
-    {
-      "candidate_id": "e884d2ec4be83f3e",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "Why UnitedHealth Group\u2019s chief medical officer is getting active on social media",
-      "snippet": "UnitedHealth Group Chief Medical Officer and Executive Vice President Margaret-Mary Wilson, MD, has been leaning into social media \u2014 and thinks other healthcare leaders should consider getting vocal, too. In a recent episode of the &#8220;Becker&#8217;s Healthcare Podcast,&#8221; Dr. Wilson discusse",
-      "primary_url": "https://www.beckershospitalreview.com/workforce/why-unitedhealth-groups-chief-medical-officer-is-getting-active-on-social-media/",
-      "urls": [
-        "https://www.beckershospitalreview.com/workforce/why-unitedhealth-groups-chief-medical-officer-is-getting-active-on-social-media/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:MD",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:MPW",
-        "ticker:UNH",
-        "subsector:Providers",
-        "subsector:HIT",
-        "subsector:Mgd Care"
-      ]
-    },
-    {
-      "candidate_id": "7c95fdf7896a0306",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "Becker's Hospital Review",
-      "headline": "Nebraska hospital expands imaging through partnership",
-      "snippet": "Box Butte General Hospital in Alliance, Neb., has expanded its diagnostic imaging services through a partnership with Casper Medical Imaging. The agreement introduces new software to enhance breast cancer detection and adds patient risk assessment tools to improve care planning, according to an Apri",
-      "primary_url": "https://www.beckershospitalreview.com/radiology/nebraska-hospital-expands-imaging-through-partnership/",
-      "urls": [
-        "https://www.beckershospitalreview.com/radiology/nebraska-hospital-expands-imaging-through-partnership/"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:healthcare_daily",
-        "ticker:BOX",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:MPW",
-        "ticker:SCI",
-        "subsector:HIT",
-        "subsector:Deathcare"
       ]
     },
     {
@@ -3111,38 +3205,15 @@
       ]
     },
     {
-      "candidate_id": "944f05c5d1b93be0",
+      "candidate_id": "6069f225ab850f32",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "MarketWatch",
-      "headline": "Bank of America\u2019s 30% jump in equities revenue pushes stock toward a two-month high",
-      "snippet": "Bank of America\u2019s strong quarterly results were helped by market volatility and an easier regulatory environment.",
-      "primary_url": "https://www.marketwatch.com/story/bank-of-americas-30-jump-in-equities-revenue-helps-power-an-earnings-beat-ed68c336?mod=mw_rss_topstories",
+      "headline": "Bill Ackman says his stake in Universal Music has languished \u2014 and now he\u2019s come up with a $64 billion offer",
+      "snippet": "Pershing Square has proposed a merger to address the stock\u2019s \u201cunderperformance.\u201d",
+      "primary_url": "https://www.marketwatch.com/story/bill-ackman-says-his-stake-in-universal-music-has-languished-and-now-hes-come-up-with-a-64-billion-offer-bb923b8c?mod=mw_rss_topstories",
       "urls": [
-        "https://www.marketwatch.com/story/bank-of-americas-30-jump-in-equities-revenue-helps-power-an-earnings-beat-ed68c336?mod=mw_rss_topstories"
-      ],
-      "category": "finance_macro",
-      "priority": "normal",
-      "tier": 2,
-      "score": null,
-      "sender_email": null,
-      "sender": null,
-      "published_at": null,
-      "derived_signals": [
-        "source_type:tier2",
-        "category:finance_macro"
-      ]
-    },
-    {
-      "candidate_id": "437dfb988a59a95a",
-      "run_date": "2026-04-15",
-      "source_type": "tier2",
-      "source_name": "MarketWatch",
-      "headline": "April 15 is tax deadline day \u2014 and here\u2019s why it\u2019s also important for the stock market",
-      "snippet": "Investors are about to lose a financial cushion that\u2019s been supporting the stock market for months, warns Strategas researchers.",
-      "primary_url": "https://www.marketwatch.com/story/april-15-is-tax-deadline-day-but-heres-why-its-also-important-for-the-stock-market-3eeea6a8?mod=mw_rss_topstories",
-      "urls": [
-        "https://www.marketwatch.com/story/april-15-is-tax-deadline-day-but-heres-why-its-also-important-for-the-stock-market-3eeea6a8?mod=mw_rss_topstories"
+        "https://www.marketwatch.com/story/bill-ackman-says-his-stake-in-universal-music-has-languished-and-now-hes-come-up-with-a-64-billion-offer-bb923b8c?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -3154,20 +3225,22 @@
       "derived_signals": [
         "source_type:tier2",
         "category:finance_macro",
-        "ticker:ARE",
-        "ticker:DAY"
+        "ticker:BILL",
+        "ticker:NOW",
+        "ticker:UHS",
+        "subsector:BH - Facilities"
       ]
     },
     {
-      "candidate_id": "ea6b3b801264efe7",
+      "candidate_id": "e2f1dcd4eeef4e74",
       "run_date": "2026-04-15",
       "source_type": "tier2",
       "source_name": "MarketWatch",
-      "headline": "This financial model says the Netherlands is the best bet to win the FIFA World Cup",
-      "snippet": "The man who predicted the tournament\u2019s last three winners says you need to understand the risks of gambling on the Dutch.",
-      "primary_url": "https://www.marketwatch.com/story/the-netherlands-is-the-best-bet-to-win-the-fifa-world-cup-32ec7460?mod=mw_rss_topstories",
+      "headline": "How Meta\u2019s little-known chip business fits in with Zuckerberg\u2019s \u2018superintelligence\u2019 ambitions",
+      "snippet": "Taking a page from Google\u2019s and Amazon\u2019s books, Meta is racing to vertically integrate its AI infrastructure with its Broadcom deal.",
+      "primary_url": "https://www.marketwatch.com/story/how-metas-little-known-chip-business-fits-in-with-zuckerbergs-superintelligence-ambitions-d086cbcf?mod=mw_rss_topstories",
       "urls": [
-        "https://www.marketwatch.com/story/the-netherlands-is-the-best-bet-to-win-the-fifa-world-cup-32ec7460?mod=mw_rss_topstories"
+        "https://www.marketwatch.com/story/how-metas-little-known-chip-business-fits-in-with-zuckerbergs-superintelligence-ambitions-d086cbcf?mod=mw_rss_topstories"
       ],
       "category": "finance_macro",
       "priority": "normal",
@@ -3178,7 +3251,11 @@
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "category:finance_macro"
+        "category:finance_macro",
+        "ticker:META",
+        "ticker:GPCR",
+        "ticker:IART",
+        "subsector:Spine/Ortho"
       ]
     }
   ]

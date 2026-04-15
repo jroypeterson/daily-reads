@@ -160,5 +160,17 @@
     "url": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
     "article_source": "CNBC",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-04-15",
+    "slot": 1,
+    "score": 3,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "aa8c9ae4ef1ffded",
+    "headline": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+    "article_source": "FDA Press Releases",
+    "source": "email_reply"
   }
 ]

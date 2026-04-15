@@ -1,8 +1,8 @@
 {
   "run_date": "2026-04-15",
-  "generated_at": "2026-04-15T13:55:57Z",
+  "generated_at": "2026-04-15T14:28:59Z",
   "counts": {
-    "gmail_items": 27,
+    "gmail_items": 29,
     "tier2_items": 90,
     "selected_articles": 2
   },
@@ -17,31 +17,31 @@
       "source": "FDA Press Releases",
       "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
       "slot": 1,
-      "summary": "FDA released draft guidance establishing standardized safety assessment methods for genome editing therapies, specifically focusing on next-generation sequencing approaches to evaluate off-target editing risks. The guidance covers both ex vivo and in vivo gene editing products and provides specific recommendations on sequencing strategies, sample selection, and reporting requirements for IND and BLA submissions. This builds on FDA's broader framework for accelerating individualized therapies for ultra-rare diseases launched in February.",
-      "why_it_matters": "Regulatory clarity on genome editing safety standards could reduce development risk and accelerate approval timelines for gene therapy companies, potentially impacting valuations across the CRISPR and gene editing sector.",
+      "summary": "The FDA issued draft guidance providing detailed recommendations for using next-generation sequencing to assess off-target editing risks and genome integrity in gene therapy products. The guidance covers both ex vivo and in vivo editing approaches and supports the agency's framework for accelerating individualized therapies for ultra-rare diseases. Companies have 90 days to submit public comments before the guidance is finalized.",
+      "why_it_matters": "This standardizes safety assessment protocols for genome editing therapies, potentially accelerating regulatory approval timelines for companies developing gene therapies by providing clear technical requirements and reducing regulatory uncertainty.",
       "signal_tags": [
         "priority:high",
-        "regulatory_affairs",
-        "catalyst_proximity:regulatory",
-        "investment_relevant_insights"
+        "ticker_match:DRUG",
+        "regulatory_catalyst",
+        "novel_framework"
       ],
       "reading_time": "3 min"
     },
     {
-      "article_id": "0b168f826843d5e3",
+      "article_id": "d9e81abd5bbc7121",
       "headline": "Frontier AI's Economic Engine",
-      "source": "MBI",
-      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/frontier-ais-economic-engine?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQxMTc2MzIsImlhdCI6MTc3NjE3NzEyMSwiZXhwIjoxNzc4NzY5MTIxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Dr3bYcE6Yt4YNRLRUePwb_8nYrGt-ywgjPOKcZSqwz4",
       "slot": 2,
-      "summary": "Analysis of enterprise AI adoption showing coding applications have achieved the strongest product-market fit, far exceeding other use cases. The piece examines why software development leads AI adoption (verifiable outcomes, abundant training data, tractable problem domain) and explores the strategic implications for companies like Anthropic that have focused on this market.",
-      "why_it_matters": "Offers a data-driven framework for evaluating where AI delivers measurable ROI versus hype, particularly valuable for assessing AI infrastructure investments and understanding competitive dynamics in the frontier AI market.",
+      "summary": "Deep analysis of why coding applications dominate enterprise AI adoption, examining Anthropic's strategic focus on coding use cases and the economic drivers behind AI's product-market fit. The piece explores revenue models, adoption patterns across AI applications, and discusses the narrowing frontier window for AI model economics despite exploding revenues.",
+      "why_it_matters": "Provides a strategic framework for understanding which AI applications will generate sustainable enterprise value and economic returns, with specific insights into why coding represents the most compelling near-term investment opportunity in the AI space.",
       "signal_tags": [
         "priority:high",
-        "ai_impact",
-        "investment_relevant_insights",
-        "data_infrastructure"
+        "AI_economics",
+        "enterprise_adoption",
+        "investment_framework"
       ],
-      "reading_time": "3 min"
+      "reading_time": "6 min"
     }
   ]
 }

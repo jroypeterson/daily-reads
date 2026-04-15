@@ -400,5 +400,23 @@
       ]
     },
     "created_at": "2026-04-14T13:05:42Z"
+  },
+  {
+    "id": "ev_d708fbaadd2afdb4",
+    "kind": "daily_rating_3",
+    "source_channel": "daily_scoring",
+    "title": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+    "local_path": "",
+    "note": "",
+    "score": 3,
+    "content_status": "not_applicable",
+    "metadata": {
+      "article_id": "aa8c9ae4ef1ffded",
+      "article_source": "FDA Press Releases",
+      "slot": 1,
+      "digest_date": "2026-04-15"
+    },
+    "created_at": "2026-04-15T14:22:22Z"
   }
 ]
