@@ -205,5 +205,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "This article is about traditional banking vs. private credit competition, which doesn't fit Slot 3's Tech/AI focus and lacks any AI, technology infrastructure, or foundational model content."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Allogene's off-the-shelf CAR-T erases lingering lymphoma cells in early slice of data",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotechweek.com/fiercebiotechcom/register?adposition=x30",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 error and contains no actual content about Allogene or CAR-T therapy - it's just a conference website page."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "The AI revolution in software development",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pGDMlZTW8aMe3bwnVZdg-4LuQsOW6Kpmx2v5Zk4wPqb0WfrBhss7WJIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is about general AI in software development, not healthcare/biotech, making it a poor fit for Slot 1 which specifically requires healthcare/biopharma content."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This provides substantial regulatory clarity on genome editing safety standards with specific technical details that could materially impact gene therapy development timelines and investment decisions."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Travere wins long-awaited approval for kidney disease drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/travere-fda-approve-flispari-fsgs-kidney-disease/817415/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma FDA approval story that belongs in Slot 1, not Slot 2 (Finance/Markets), despite the stock price mention."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Frontier AI's Economic Engine",
+    "source": "MBI",
+    "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "This provides substantive analysis of AI enterprise adoption patterns with specific data and strategic insights that align perfectly with the reader's preferences for AI/data infrastructure and investment-relevant analysis."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Novartis CEO joins Anthropic's board",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/15/biotech-news-novartis-ceo-joins-anthropic-board/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content shows this is actually about Revolution Medicines raising $2 billion and Bain Capital creating Beeline Medicines, with no mention of Novartis CEO joining Anthropic's board - the shortlist summary is completely inaccurate."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "J&J leads off Q1 earnings touting $100B 2026 revenue goal",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW266k7c5Xz9W6R5q0J7-9bW6W6TYKFS5MThWLN1YBnvP5nR3bW7Y9pgv6lZ3kvW4hQGFD7B1X_-W8LPK9M47JTpJW32WcNc4TpMTjW4HyLmj2T6cqcW9fR6bX8yD5HGW41Gt968pKBHXW5ZL-2k9bhSgPW17M1Sn2LcZr0W7cytHs8-vlBwW81ZRD06tsmgdVvSnPT73XktCW3JGcMb3Hx3-wVrpn7j1h2_pnVMpxdl1bfFJ2W8ZMylR15J2NrW7sfCK13tGnzmW1qLJB02g7DlqW2ny8H-2m1LYvVFDfSd2-PHnWW2QwdpH5s81gNW3mLqlw7YWBgMW5kTq914rpmRtW1Y29Cf4JFFRDW7k_v9V8mFBHHN3hsFGXrXrsKW4_8cwk97JtDXW5GZc1R8Cd4k9W4B-rdt7x6-WhW4vj69Z3DS0yZVTLL8V6gF2n9W5X6PrY9klNKqW1kPsGp3Qz0mkW6z7hxz84hbbjW44GswZ8cykqnW33hH1_5J_sqRW7G7QvX8hQ7v0W9kLg6j4dpm4GW71rV8Q6SMjZCW7pngzd2QFdgMW209QY37VhDDFN7cdwGsqRsC6W79gQhS43ZhFVf1ZFw3l04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is primarily about J&J's earnings and pharmaceutical performance, which belongs in Slot 1 (Healthcare/Biopharma) rather than Slot 3 (Tech/AI), and lacks any meaningful tech or AI content."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Catalyst Watch",
+    "source": "The Transcript",
+    "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGV0cmFuc2NyaXB0LnN1YnN0YWNrLmNvbS9wLzA0LTE0LTIwMjYtY2F0YWx5c3Qtd2F0Y2g_dXRtX2NhbXBhaWduPWVtYWlsLXBvc3Qmcj13MnFzJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hORGsyTlRRNExDSndiM04wWDJsa0lqb3hPVFF4TnpJME1EZ3NJbWxoZENJNk1UYzNOakUyTmpRek5Td2laWGh3SWpveE56YzROelU0TkRNMUxDSnBjM01pT2lKd2RXSXRNekkwTlRFaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuNlowZGVsYVE2VGpKU1I4V3pFbVpoNFNTMVNaY1pndHd5Tnh4OVh6RkZ5VSIsInAiOjE5NDE3MjQwOCwicyI6MzI0NTEsImYiOmZhbHNlLCJ1IjoxNDk2NTQ4LCJpYXQiOjE3NzYxNjY0MzUsImV4cCI6MjA5MTc0MjQzNSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.bqL9xjj1xIr7lj-HZaKhPD2dciwvYJGmsuIIy1YEshM",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is a generic market commentary newsletter that doesn't focus on tech/AI and lacks the depth expected for Slot 3, with only a brief mention of Anthropic's revenue growth."
   }
 ]

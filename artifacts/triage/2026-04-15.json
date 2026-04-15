@@ -1,6 +1,6 @@
 {
   "run_date": "2026-04-15",
-  "generated_at": "2026-04-15T13:09:49Z",
+  "generated_at": "2026-04-15T13:55:57Z",
   "triage_queue": [
     {
       "candidate_id": "3e70ca9a0e5a65a5",
@@ -143,13 +143,13 @@
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 668,
+      "score": 675,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:668",
+        "hn_score:675",
         "category:tech_ai",
         "ticker:ARE",
         "ticker:RARE"
@@ -261,6 +261,40 @@
       "triage_score": 15
     },
     {
+      "candidate_id": "2a8a18f2371e1367",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.15.26 | Allogene off-the-shelf CAR-T posts early win; CAR-T drives patient\u2019s 3 autoimmune diseases into remission",
+      "snippet": "Takeda tears up mRNA research pact Fierce Biotech Cell &amp; Gene Therapy A message from Fierce Big News Apr 15, 2026 Allogene&#39;s off-the-shelf CAR-T erases lingering lymphoma cells in early slice",
+      "primary_url": "https://www.fiercebiotechweek.com/fiercebiotechweekcom/register?adposition=x30",
+      "urls": [
+        "https://www.fiercebiotechweek.com/fiercebiotechweekcom/register?adposition=x30",
+        "https://www.fiercebiotechweek.com/fiercebiotechweekcom/register?adposition=x30",
+        "https://www.fiercebiotech.com/biotech/allogenes-shelf-car-t-erases-lingering-lymphoma-cells-key-early-win",
+        "https://www.fiercebiotech.com/research/first-car-t-cell-therapy-drives-3-autoimmune-diseases-remission-once",
+        "https://www.fiercebiotech.com/biotech/takeda-terminates-mrna-research-pact-japanese-drug-discovery-specialist"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "\"Fierce Cell & Gene Therapy\" <editors@go.fiercebiotech.com>",
+      "published_at": "Wed, 15 Apr 2026 08:31:09 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:MRNA",
+        "ticker:ALLO",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:TAK",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
+    },
+    {
       "candidate_id": "20902d16af8be0f6",
       "run_date": "2026-04-15",
       "source_type": "gmail",
@@ -291,41 +325,6 @@
         "ticker:HCAT",
         "ticker:HR",
         "subsector:HIT"
-      ],
-      "triage_score": 15
-    },
-    {
-      "candidate_id": "b9b7f0a64aa9945b",
-      "run_date": "2026-04-15",
-      "source_type": "gmail",
-      "source_name": "Fierce Pharma",
-      "headline": "| 04.14.26 | Telix's radiopharma chops attract $2.1B Regeneron deal; Replimune plans production job cuts after FDA snub",
-      "snippet": "Starting material bottlenecks linger amid reshoring push Fierce Pharma Pharma Manufacturing A message from Mettler-Toledo Today&#39;s Big News Apr 14, 2026 Regeneron rides into radiopharma via $2.1B",
-      "primary_url": "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0a%5Erf8zRd",
-      "urls": [
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0a%5Erf8zRd",
-        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0q%5Erf8zRd",
-        "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix",
-        "https://www.fiercebiotech.com/biotech/fda-refuses-replimunes-melanoma-prospect-second-time",
-        "https://www.fiercepharma.com/manufacturing/usp-flags-hamstrung-starting-material-sourcing-latest-us-vulnerable-medicines-update"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 1,
-      "score": null,
-      "sender_email": "editors@go.fiercepharma.com",
-      "sender": "\"Fierce Pharma: Manufacturing\" <editors@go.fiercepharma.com>",
-      "published_at": "Tue, 14 Apr 2026 08:03:03 -0500 (CDT)",
-      "derived_signals": [
-        "source_type:gmail",
-        "category:healthcare_daily",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:MTD",
-        "ticker:PSG",
-        "ticker:REGN",
-        "subsector:HIT",
-        "subsector:Tools"
       ],
       "triage_score": 15
     }
