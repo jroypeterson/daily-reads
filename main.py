@@ -1411,7 +1411,7 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
             for i, c in enumerate(triage_queue[:10])
         ]
         header = "*Also considered*\n_Reply to rate: `[slot#] [score 1-3]` — 3 = strong pick, 2 = fine, 1 = miss. e.g. `5 3` or `7 1 not relevant`_"
-        SLACK_SECTION_LIMIT = 2800  # leave headroom under the 3000 cap
+        SLACK_SECTION_LIMIT = 2500  # leave headroom under the 3000 cap
         chunks: list[str] = []
         current = header
         for line in triage_lines:
@@ -1426,7 +1426,9 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
         for chunk in chunks:
             blocks.append({
                 "type": "section",
-                "text": {"type": "mrkdwn", "text": chunk},
+                # Hard cap at 2990 as a final safety net against any single
+                # chunk that slipped past the limit (e.g. one line > limit).
+                "text": {"type": "mrkdwn", "text": chunk[:2990]},
             })
 
     if always_read:
@@ -1443,12 +1445,25 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
         })
 
     if substack_items:
+        # Substack emails carry very long redirect URLs (~700 chars each),
+        # so a handful of lines push a chunk near Slack's 3000-char section
+        # limit. Use a tight limit, force a new chunk before each add if
+        # the next line would exceed, and truncate any single line that
+        # somehow exceeds the limit on its own.
+        SLACK_SECTION_LIMIT = 2500
+
+        def _truncate_line(s: str) -> str:
+            if len(s) <= SLACK_SECTION_LIMIT:
+                return s
+            return s[: SLACK_SECTION_LIMIT - 4] + "...>"
+
         sub_lines = [
-            f"<{item.get('url') or '#'}|{item.get('subject', '(no subject)')}> — {item.get('sender_name', '')}"
+            _truncate_line(
+                f"<{item.get('url') or '#'}|{item.get('subject', '(no subject)')}> — {item.get('sender_name', '')}"
+            )
             for item in substack_items
         ]
         header = ":incoming_envelope: *Substack — today's inbox*\n_All @substack.com emails from the last 26h. Flag which to promote to always-read._"
-        SLACK_SECTION_LIMIT = 2800
         chunks: list[str] = []
         current = header
         for line in sub_lines:
@@ -1463,7 +1478,7 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
         for chunk in chunks:
             blocks.append({
                 "type": "section",
-                "text": {"type": "mrkdwn", "text": chunk},
+                "text": {"type": "mrkdwn", "text": chunk[:2990]},
             })
 
     blocks.append({
