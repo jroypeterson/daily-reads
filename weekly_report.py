@@ -194,16 +194,31 @@ def build_report() -> dict:
     }
 
     # --- Always-Read Coverage ---
-    always_read_delivered = {}
+    # An always-read source counts as "delivered" if its email was shipped
+    # in the digest on that day — either as one of the main 4 slots, or in
+    # the dedicated "Always read" section (build_always_read in main.py).
+    # Using the candidates artifact as the source of truth: any day the
+    # source produced a candidate, it shipped somewhere downstream, since
+    # always-read sources aren't filtered out of the digest.
+    always_read_delivered: dict[str, list[str]] = {}
     for date in dates:
         run_path = ARTIFACTS_RUNS / f"{date}.json"
-        if not run_path.exists():
-            continue
-        run = _load_json(run_path, {})
-        for article in run.get("articles", []):
-            src = article.get("source", "")
-            if src in always_read_names:
-                always_read_delivered.setdefault(src, []).append(date)
+        cand_path = ARTIFACTS_CANDIDATES / f"{date}.json"
+        names_for_day: set[str] = set()
+        if run_path.exists():
+            run = _load_json(run_path, {})
+            for article in run.get("articles", []):
+                src = article.get("source", "")
+                if src in always_read_names:
+                    names_for_day.add(src)
+        if cand_path.exists():
+            cands = _load_json(cand_path, {})
+            for c in cands.get("gmail_candidates", []):
+                name = c.get("source_name", "")
+                if name in always_read_names:
+                    names_for_day.add(name)
+        for name in names_for_day:
+            always_read_delivered.setdefault(name, []).append(date)
 
     report["always_read"] = {
         "delivered": {name: len(days) for name, days in always_read_delivered.items()},
