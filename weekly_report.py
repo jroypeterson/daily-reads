@@ -47,6 +47,13 @@ def build_report() -> dict:
 
     # --- Source Health ---
     sources_seen = set()
+    # Per-source email counts dedupe by candidate_id across the 7-day
+    # window. With the 168h fetch window, each gmail email typically
+    # appears in 3-7 consecutive candidate artifacts (re-ingested
+    # daily); counting occurrences directly would inflate source
+    # volume. candidate_id is a stable hash of the article URL so the
+    # same email produces the same id on every re-scan.
+    seen_candidate_ids: set[str] = set()
     source_email_counts: dict[str, int] = {}
     total_gmail = 0
     total_tier2 = 0
@@ -71,13 +78,19 @@ def build_report() -> dict:
         for article in run.get("articles", []):
             sources_seen.add(article.get("source", ""))
 
-        # Also check candidates for source coverage + per-source email volume
+        # Also check candidates for source coverage + per-source email
+        # volume (deduped by candidate_id across the week).
         cand_path = ARTIFACTS_CANDIDATES / f"{date}.json"
         if cand_path.exists():
             cands = _load_json(cand_path, {})
             for c in cands.get("gmail_candidates", []):
                 name = c.get("source_name", "")
                 sources_seen.add(name)
+                cid = c.get("candidate_id")
+                if cid and cid in seen_candidate_ids:
+                    continue
+                if cid:
+                    seen_candidate_ids.add(cid)
                 source_email_counts[name] = source_email_counts.get(name, 0) + 1
 
     all_source_names = {s["name"] for s in SOURCES.values()}

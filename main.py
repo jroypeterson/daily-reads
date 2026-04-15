@@ -738,7 +738,11 @@ def validate_selected_articles(articles: list[dict]) -> list[dict]:
 def gmail_scan() -> list[dict]:
     section("GMAIL SCAN")
     try:
-        items = fetch_newsletters(hours_back=26)
+        # 7-day rolling window makes ingestion self-healing: if a sender
+        # address is corrected or a workflow run is skipped, subsequent
+        # runs backfill the missed emails. Safe because
+        # build_structured_candidates dedupes by candidate_id.
+        items = fetch_newsletters(hours_back=168)
         print(f"Found {len(items)} newsletter emails")
         sources_found = set(i["source_name"] for i in items)
         for s in sorted(sources_found):
