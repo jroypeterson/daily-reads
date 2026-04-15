@@ -1,0 +1,45 @@
+{
+  "run_date": "2026-04-15",
+  "generated_at": "2026-04-15T13:09:49Z",
+  "counts": {
+    "gmail_items": 26,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "aa8c9ae4ef1ffded",
+      "headline": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+      "source": "FDA Press Releases",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+      "slot": 1,
+      "summary": "The FDA issued draft guidance providing standardized methods for assessing genome editing therapy safety using next-generation sequencing technologies. The guidance supports both ex vivo and in vivo gene editing products and builds on the agency's February framework for accelerating individualized therapies for ultra-rare diseases. The 90-day public comment period begins upon Federal Register publication.",
+      "why_it_matters": "Clear regulatory pathways and standardized safety assessment methods could significantly accelerate gene therapy development timelines and reduce regulatory uncertainty for companies in this high-growth sector.",
+      "signal_tags": [
+        "regulatory_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "0b168f826843d5e3",
+      "headline": "Frontier AI's Economic Engine",
+      "source": "MBI",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+      "slot": 2,
+      "summary": "The article examines why coding has achieved the strongest product-market fit in enterprise AI, being an order-of-magnitude outlier among use cases due to its data density, verifiability, and tractability. It explores Anthropic's strategic focus on coding as their path to economic viability and discusses concerns about narrowing frontier windows despite exploding AI revenues. The piece includes insights from a16z data, Anthropic executives, and industry analysis on AI's economic sustainability.",
+      "why_it_matters": "Understanding which AI applications are generating real economic returns helps identify sustainable investment themes and explains the strategic positioning of major AI companies like Anthropic in the competitive landscape.",
+      "signal_tags": [
+        "high-priority_source",
+        "AI_impact",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

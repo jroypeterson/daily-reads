@@ -133,5 +133,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article content wasn't provided - only the headline and summary were repeated, making it impossible to verify substance or accuracy against actual content."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "J&J kicks off earnings, with investors awaiting more BD talk",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX385Y2JnjmqW4XMnww60S-lnW7Pgndt5MVP0ZN3V8l9C5nR3bW7Y9pgv6lZ3pqW4Q49Vz8q7fw7W2ZGzBX5438nWW1M_bw_6dGk7xW9dwsTC4xGWpsW3k-YTW7FNM-7W7Z9PLf6YM3pMN1l8TrbWn7ggW5cg8Kh2mzD5mW5nH22X95q71RW4-GCKG6BCPh3W8RbNr2336Y5_W1x1V8g4JkTp5W3Vnbdc6fbtcYW1LpfBX44vCqxW7fjnV31T4lM5N73b1mzQGwkmW6Q34727WD6MvW2sxNdn5Vg7sVW5sm_8j74RDszW5kbmp34BdfCQW2D9Jfy76k66QW7BdsWG4YR55CW5pGYlV2P03p6VztWV-2LJQMFW51-M2T76QkjsN1JrdvsFR14qW25Ql8l80H2n8W7zBQW982dtBNW1FRBMB6vTPgHN4-CtfBLjgbmW64TZX71ZYj3DW7GRYzV58_THTW1phQ_-8ll7lsW5g1MgW5QCGmfN1z8_0dLR867W7RYMSw18J5tGW35RdFQ6k5SyQW7KnSQF4bL8jmW2bMfcq6mcwvJW41vLp24HsRptW6b1M0J6dffwGW6232R85G38btf4LJ74404",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter digest/roundup article with minimal actual content about J&J earnings - the full article is primarily promotional material and links to other stories rather than substantive analysis."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is substantive FDA regulatory news that directly impacts gene therapy development timelines and investment opportunities, perfectly fitting Slot 1 healthcare/biotech criteria."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "The AI revolution in software development",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pGDMlZTW8aMe3bwnVZdg-4LuQsOW6Kpmx2v5Zk4wPqb0WfrBhss7WJIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is too thin and generic - it only provides high-level statistics without the substantive analysis and actionable insights expected from McKinsey consulting content."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Travere wins long-awaited approval for kidney disease drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/travere-fda-approve-flispari-fsgs-kidney-disease/817415/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is primarily a healthcare/biopharma story about FDA approval and drug development rather than a finance/macro story, making it a poor fit for Slot 2 despite the stock price mention."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Lilly boosts ADC portfolio with CrossBridge Bio deal",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a straightforward M&A announcement that lacks the finance/macro perspective required for Slot 2, reading more like healthcare industry news than market analysis."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Novo teams with OpenAI; Ideaya gets muted response to eye drug data",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novo-openai-regeneron-radiopharmaceuticals-ideaya-neomorph-gsk/817278/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin news roundup with multiple brief items rather than deep analysis suitable for Slot 2 Finance/Macro coverage."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Frontier AI's Economic Engine",
+    "source": "MBI",
+    "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYmlkZWVwZGl2ZXMuc3Vic3RhY2suY29tL3AvZnJvbnRpZXItYWlzLWVjb25vbWljLWVuZ2luZT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPXcycXMmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE5EazJOVFE0TENKd2IzTjBYMmxrSWpveE9UUXhNVGMyTXpJc0ltbGhkQ0k2TVRjM05qRTNOekV5TVN3aVpYaHdJam94TnpjNE56WTVNVEl4TENKcGMzTWlPaUp3ZFdJdE1UUTBOREUzT0NJc0luTjFZaUk2SW5CdmMzUXRjbVZoWTNScGIyNGlmUS5EcjNiWWNFNll0NFlOUkxSVWVQd2JfOG5Zckd0LXl3Z2pQT0tjWlNxd3o0IiwicCI6MTk0MTE3NjMyLCJzIjoxNDQ0MTc4LCJmIjpmYWxzZSwidSI6MTQ5NjU0OCwiaWF0IjoxNzc2MTc3MTIxLCJleHAiOjIwOTE3NTMxMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UJeX6ewpLVHqKVEtTr_LrvtxuHGd5-Pq12N57dg0n3Y",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial analysis on AI economics with strong data backing, aligning perfectly with the reader's preferences for data infrastructure, AI impact, and investment-relevant insights."
+  },
+  {
+    "date": "2026-04-15",
+    "headline": "Banks Aren't Worried About Private Credit",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-04-14/banks-aren-t-worried-about-private-credit",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is about traditional banking vs. private credit competition, which doesn't fit Slot 3's Tech/AI focus and lacks any AI, technology infrastructure, or foundational model content."
   }
 ]

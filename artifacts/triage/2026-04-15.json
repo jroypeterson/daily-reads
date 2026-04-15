@@ -1,0 +1,333 @@
+{
+  "run_date": "2026-04-15",
+  "generated_at": "2026-04-15T13:09:49Z",
+  "triage_queue": [
+    {
+      "candidate_id": "3e70ca9a0e5a65a5",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | A \u2018diabolical\u2019 molecule with monstrous potential; CAR-T treats 3 autoimmune diseases in single patient",
+      "snippet": "Big Pharma&#39;s journey to the quantum realm Fierce Biotech Biotech Research A message from Epicypher Uncover the \u201cWhy?\u201d Behind Gene Regulation with EpiCypher&#39;s Genomic Services Advance your drug",
+      "primary_url": "https://www.epicypher.com/services/cutana-genomic-services",
+      "urls": [
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.fiercebiotech.com/biotech/its-going-be-huge-diabolical-molecule-poised-become-biotechs-next-gold-rush"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "\"Fierce Biotech: Research\" <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 08:32:40 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DRUG",
+        "ticker:DERM",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
+    },
+    {
+      "candidate_id": "26bf5eafe1dcd226",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "The Atlantic",
+      "headline": "Today's stories: America\u2019s Insane Tax-Filing Process",
+      "snippet": "Five of our new and most read stories for today. Apr 15, 2026 A selection of recent and most read stories from The Atlantic to start your day Support fearless independent journalism and give unlimited",
+      "primary_url": "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D66f1f34c-370e-3432-8a38-975223011e1d",
+      "urls": [
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D66f1f34c-370e-3432-8a38-975223011e1d",
+        "https://www.liveintent.com/ad-choices?c=&callback=https%3A%2F%2Fp.liadm.com%2Fcomplain%3Fid%3D66f1f34c-370e-3432-8a38-975223011e1d",
+        "https://accounts.theatlantic.com/products/gift",
+        "https://www.theatlantic.com/ideas/2026/04/tax-day-irs-filing/686805",
+        "https://www.theatlantic.com/ideas/2026/04/tax-day-irs-filing/686805"
+      ],
+      "category": "broad_curious",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "email@theatlantic.com",
+      "sender": "\"The Atlantic A.M.\" <email@theatlantic.com>",
+      "published_at": "Wed, 15 Apr 2026 08:16:40 -0400 (EDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:broad_curious",
+        "ticker:DAY",
+        "ticker:FIVE",
+        "ticker:SEM",
+        "subsector:Post-acute"
+      ],
+      "triage_score": 11
+    },
+    {
+      "candidate_id": "b601d099de676ea1",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "McKinsey",
+      "headline": "The AI revolution in software development",
+      "snippet": "Unlock next-level productivity \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
+      "primary_url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pGDMlZTW8aMe3bwnVZdg-4LuQsOW6Kpmx2v5Zk4wPqb0WfrBhss7WJIku-X8Mf0Jg%3D",
+      "urls": [
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pGDMlZTW8aMe3bwnVZdg-4LuQsOW6Kpmx2v5Zk4wPqb0WfrBhss7WJIku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc3/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oJ0YKeOu_trCNHwGTgMPtGQqL_jTzdH42TJw_Mt0QvRoy1F7gaW_--Iku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc4/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rx3qH8--Mll1scm5B_y5kKg4WSuhTGyTQCd8iWpfxFHt-x33LlE7OQIku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc5/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8olrPP9Tb2fkkilSg5vRRUwrPOb_o9NLVlLpw2d_AT7zpNEh1EJtGb4Iku-X8Mf0Jg%3D",
+        "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc6/1d6962d6-29f0-4fcb-aaaf-05fa101edb66?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qbzdAncN81kCixXlMndLiCXFEY1V2XZjvmEZWKa_LAJvZORGTdEb9HIku-X8Mf0Jg%3D"
+      ],
+      "category": "consulting",
+      "priority": "high",
+      "tier": 1,
+      "score": null,
+      "sender_email": "publishing@email.mckinsey.com",
+      "sender": "\"McKinsey & Company\" <publishing@email.mckinsey.com>",
+      "published_at": "Tue, 14 Apr 2026 18:14:00 +0000",
+      "derived_signals": [
+        "priority:high",
+        "source_type:gmail",
+        "category:consulting",
+        "ticker:RVMD"
+      ],
+      "triage_score": 9
+    },
+    {
+      "candidate_id": "cd7412cee1322a30",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Morning Brew",
+      "headline": "\u2615 Brand discovery via resale",
+      "snippet": "Insights from the ReCon resale conference. April 14, 2026 View Online | Sign Up | Shop Retail Brew Presented By Sponsor Logo: IBM It&#39;s Tuesday. Retail labor is unpredictable. Your staffing strategy",
+      "primary_url": "https://www.retailbrew.com/issues/pre-love-story?mbcid=45203697.23927&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+      "urls": [
+        "https://www.retailbrew.com/issues/pre-love-story?mbcid=45203697.23927&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.retailbrew.com/subscribe?kid=357c21&mbcid=45203697.23927&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.ibm.com/account/reg/us-en/signup?formid=urx-54194",
+        "https://www.retailbrew.com/events/staffing-smarter-automation-revenue-gains?mbcid=45203697.23927&mblid=6d5fab9e9255&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17",
+        "https://www.retailbrew.com/stories/2026/04/14/more-than-8-in-10-shop-resale-to-discover-new-brands?mbcid=45203697.23927&mblid=ef01c2235c0c&mbuuid=5AcKKGVra9K4U1zaWuCRDaQ8&mid=3af1b8d55084da630b7f4a7b9a9edf17"
+      ],
+      "category": "finance_macro",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "retailbrew@morningbrew.com",
+      "sender": "Retail Brew <retailbrew@morningbrew.com>",
+      "published_at": "Tue, 14 Apr 2026 12:35:09 -0400 (EDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:finance_macro",
+        "ticker:SHOP",
+        "ticker:SGHT",
+        "subsector:Opthomalogy"
+      ],
+      "triage_score": 9
+    },
+    {
+      "candidate_id": "7407da2c97c347fc",
+      "run_date": "2026-04-15",
+      "source_type": "tier2",
+      "source_name": "Hacker News",
+      "headline": "Rare concert recordings are landing on the Internet Archive",
+      "snippet": "Rare concert recordings are landing on the Internet Archive",
+      "primary_url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+      "urls": [
+        "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/"
+      ],
+      "category": "tech_ai",
+      "priority": "normal",
+      "tier": 2,
+      "score": 668,
+      "sender_email": null,
+      "sender": null,
+      "published_at": null,
+      "derived_signals": [
+        "source_type:tier2",
+        "hn_score:668",
+        "category:tech_ai",
+        "ticker:ARE",
+        "ticker:RARE"
+      ],
+      "triage_score": 7
+    },
+    {
+      "candidate_id": "3e70ca9a0e5a65a5",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | A \u2018diabolical\u2019 molecule with monstrous potential; CAR-T treats 3 autoimmune diseases in single patient",
+      "snippet": "Big Pharma&#39;s journey to the quantum realm Fierce Biotech Biotech Research A message from Epicypher Uncover the \u201cWhy?\u201d Behind Gene Regulation with EpiCypher&#39;s Genomic Services Advance your drug",
+      "primary_url": "https://www.epicypher.com/services/cutana-genomic-services",
+      "urls": [
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.epicypher.com/services/cutana-genomic-services",
+        "https://www.fiercebiotech.com/biotech/its-going-be-huge-diabolical-molecule-poised-become-biotechs-next-gold-rush"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "\"Fierce Biotech: Research\" <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 08:30:52 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DRUG",
+        "ticker:DERM",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PSG",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
+    },
+    {
+      "candidate_id": "e437b6adf4149de4",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | J&J\u2019s immunology \u2018dual powerhouse\u2019; Lilly lands preclinical ADC biotech in $300M buyout",
+      "snippet": "FDA chastises Pfizer for misleading Facebook ads Fierce Biotech PM Tracker A message from Danaher Webinar: From Design to Delivery: A Translational Framework for Non-Viral Gene Editing Tuesday, April",
+      "primary_url": "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+      "urls": [
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30",
+        "https://www.fiercebiotech.com/premium/webinar/1379148?pk=danaher-wb-042126-FBPMT-nl-041326&adposition=x30"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Biotech PM Tracker <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 14:11:31 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:DHR",
+        "ticker:DSGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:PFE",
+        "subsector:Tools",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
+    },
+    {
+      "candidate_id": "237285a6c0dab577",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "| 04.14.26 | Ravenous Lilly absorbs ADC specialist in $300M deal; BI, Amgen scrap early immunology assets",
+      "snippet": "Astellas to lay off staffers with Seattle site closure Fierce Biotech A message from JobsOhio Today&#39;s Big News Apr 14, 2026 Lilly makes preclinical ADC specialist CrossBridge its latest acquisition",
+      "primary_url": "https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m",
+      "urls": [
+        "https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m",
+        "https://www.fiercebiotech.com/biotech/boehringer-amgen-discard-early-immunology-candidates-due-lack-clinical-potential",
+        "https://www.fiercebiotech.com/biotech/astellas-close-stem-cell-units-seattle-site-layoffs-incoming",
+        "https://www.fiercebiotech.com/biotech/cell-therapy-biotech-obsidian-leverages-galera-reverse-merger-go-public",
+        "https://www.fiercebiotech.com/biotech/takeda-terminates-mrna-research-pact-japanese-drug-discovery-specialist"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Biotech <editors@go.fiercebiotech.com>",
+      "published_at": "Tue, 14 Apr 2026 11:14:55 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:4503",
+        "ticker:AMGN",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:CCRN",
+        "subsector:HIT",
+        "subsector:Nurse staffing"
+      ],
+      "triage_score": 15
+    },
+    {
+      "candidate_id": "20902d16af8be0f6",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Pharma",
+      "headline": "| 04.14.26 | J&J sees \u2018dual powerhouse\u2019 helping it achieve $100B year; Travere breaks new ground in rare kidney disease",
+      "snippet": "Novo, OpenAI link up on broad AI collab Fierce Pharma A message from ZS Today&#39;s Big News Apr 14, 2026 J&amp;J, chasing $100B year, sports immunology &#39;dual powerhouse&#39; of Tremfya and new",
+      "primary_url": "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+      "urls": [
+        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+        "https://www.zs.com/about/innovation-that-matters?adposition=x30",
+        "https://www.fiercepharma.com/pharma/jj-chasing-100b-year-shapes-immunology-dual-powerhouse-tremfya-and-newly-launched-icotyde",
+        "https://www.fiercepharma.com/pharma/ashes-trial-setback-travere-filspari-first-fda-approval-fsgs-treatment",
+        "https://www.fiercepharma.com/pharma/novo-taps-openai-deploy-ai-across-rd-manufacturing-and-corporate-functions"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercepharma.com",
+      "sender": "Fierce Pharma <editors@go.fiercepharma.com>",
+      "published_at": "Tue, 14 Apr 2026 12:12:20 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:RARE",
+        "ticker:ZS",
+        "ticker:ACHV",
+        "ticker:HCAT",
+        "ticker:HR",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
+    },
+    {
+      "candidate_id": "b9b7f0a64aa9945b",
+      "run_date": "2026-04-15",
+      "source_type": "gmail",
+      "source_name": "Fierce Pharma",
+      "headline": "| 04.14.26 | Telix's radiopharma chops attract $2.1B Regeneron deal; Replimune plans production job cuts after FDA snub",
+      "snippet": "Starting material bottlenecks linger amid reshoring push Fierce Pharma Pharma Manufacturing A message from Mettler-Toledo Today&#39;s Big News Apr 14, 2026 Regeneron rides into radiopharma via $2.1B",
+      "primary_url": "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0a%5Erf8zRd",
+      "urls": [
+        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0a%5Erf8zRd",
+        "https://qtx.omeclk.com/portal/wts/uc%5EcmQ6k4smbcD-vaSwD0q%5Erf8zRd",
+        "https://www.fiercebiotech.com/biotech/regeneron-rides-radiopharma-21b-biobucks-pact-australias-telix",
+        "https://www.fiercebiotech.com/biotech/fda-refuses-replimunes-melanoma-prospect-second-time",
+        "https://www.fiercepharma.com/manufacturing/usp-flags-hamstrung-starting-material-sourcing-latest-us-vulnerable-medicines-update"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercepharma.com",
+      "sender": "\"Fierce Pharma: Manufacturing\" <editors@go.fiercepharma.com>",
+      "published_at": "Tue, 14 Apr 2026 08:03:03 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:MTD",
+        "ticker:PSG",
+        "ticker:REGN",
+        "subsector:HIT",
+        "subsector:Tools"
+      ],
+      "triage_score": 15
+    }
+  ]
+}
