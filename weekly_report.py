@@ -47,6 +47,7 @@ def build_report() -> dict:
 
     # --- Source Health ---
     sources_seen = set()
+    source_email_counts: dict[str, int] = {}
     total_gmail = 0
     total_tier2 = 0
     total_selected = 0
@@ -70,17 +71,54 @@ def build_report() -> dict:
         for article in run.get("articles", []):
             sources_seen.add(article.get("source", ""))
 
-        # Also check candidates for source coverage
+        # Also check candidates for source coverage + per-source email volume
         cand_path = ARTIFACTS_CANDIDATES / f"{date}.json"
         if cand_path.exists():
             cands = _load_json(cand_path, {})
             for c in cands.get("gmail_candidates", []):
-                sources_seen.add(c.get("source_name", ""))
+                name = c.get("source_name", "")
+                sources_seen.add(name)
+                source_email_counts[name] = source_email_counts.get(name, 0) + 1
 
     all_source_names = {s["name"] for s in SOURCES.values()}
     always_read_names = get_always_read_names()
     missing_sources = sorted(all_source_names - sources_seen)
     missing_always_read = sorted(always_read_names - sources_seen)
+
+    # Build the full source roster, grouped by category, sorted within each
+    # group. One entry per unique source name (SOURCES may have multiple
+    # sender emails mapping to the same display name, e.g. Bloomberg,
+    # The Atlantic).
+    roster_by_category: dict[str, list[dict]] = {}
+    seen_names: set[str] = set()
+    for meta in SOURCES.values():
+        name = meta["name"]
+        if name in seen_names:
+            continue
+        seen_names.add(name)
+        category = meta.get("category", "other")
+        roster_by_category.setdefault(category, []).append({
+            "name": name,
+            "category": category,
+            "frequency": meta.get("frequency", ""),
+            "always_read": bool(meta.get("always_read")),
+            "active": name in sources_seen,
+            "email_count": source_email_counts.get(name, 0),
+        })
+    for entries in roster_by_category.values():
+        entries.sort(key=lambda e: (not e["always_read"], e["name"].lower()))
+    # Stable order of categories for rendering
+    category_order = [
+        "healthcare_daily", "healthcare_weekly", "healthcare_policy",
+        "finance_macro", "finance_weekly",
+        "tech_ai", "consulting", "broad_curious",
+    ]
+    ordered_roster: list[tuple[str, list[dict]]] = []
+    for cat in category_order:
+        if cat in roster_by_category:
+            ordered_roster.append((cat, roster_by_category.pop(cat)))
+    for cat in sorted(roster_by_category):
+        ordered_roster.append((cat, roster_by_category[cat]))
 
     report["source_health"] = {
         "active_sources": len(sources_seen),
@@ -90,6 +128,7 @@ def build_report() -> dict:
         "total_gmail_items": total_gmail,
         "total_tier2_items": total_tier2,
         "days_with_runs": days_with_runs,
+        "roster": ordered_roster,
     }
 
     # --- Selection Quality ---
@@ -227,6 +266,18 @@ def format_report_text(report: dict) -> str:
         lines.append(f"  Missing sources: {', '.join(sh['missing_sources'])}")
     if sh["missing_always_read"]:
         lines.append(f"  MISSING ALWAYS-READ: {', '.join(sh['missing_always_read'])}")
+    # Full source roster grouped by category
+    roster = sh.get("roster", [])
+    if roster:
+        lines.append("")
+        lines.append("  Sources scanned (by category):")
+        for category, entries in roster:
+            lines.append(f"    [{category}]")
+            for entry in entries:
+                marker = "★" if entry["always_read"] else ("•" if entry["active"] else "○")
+                count = f" ({entry['email_count']} email{'s' if entry['email_count'] != 1 else ''})" if entry["active"] else " (no emails)"
+                lines.append(f"      {marker} {entry['name']}{count}")
+        lines.append("    Legend: ★ always-read · • active this week · ○ silent this week")
     lines.append("")
 
     # Selection Quality
@@ -303,6 +354,38 @@ def format_report_html(report: dict) -> str:
     if sh["missing_always_read"]:
         missing_html += f'<p style="color: #e94560; font-weight: bold;">Missing always-read: {", ".join(sh["missing_always_read"])}</p>'
 
+    roster_html = ""
+    roster = sh.get("roster", [])
+    if roster:
+        category_blocks = []
+        for category, entries in roster:
+            rows = []
+            for entry in entries:
+                if entry["always_read"]:
+                    marker = '<span style="color: #ff9800;">★</span>'
+                    color = "#e0e0e0"
+                elif entry["active"]:
+                    marker = '<span style="color: #4caf50;">●</span>'
+                    color = "#e0e0e0"
+                else:
+                    marker = '<span style="color: #666;">○</span>'
+                    color = "#a8a8b3"
+                count = f' <span style="color: #666; font-size: 12px;">· {entry["email_count"]} email{"s" if entry["email_count"] != 1 else ""}</span>' if entry["active"] else ' <span style="color: #666; font-size: 12px;">· silent</span>'
+                rows.append(
+                    f'<li style="color: {color}; font-size: 13px; list-style: none; padding: 2px 0;">'
+                    f'{marker} {entry["name"]}{count}</li>'
+                )
+            category_blocks.append(
+                f'<p style="color: #a8a8b3; font-size: 12px; margin: 8px 0 2px 0; text-transform: uppercase; letter-spacing: 0.5px;">{category}</p>'
+                f'<ul style="margin: 0; padding-left: 12px;">{"".join(rows)}</ul>'
+            )
+        roster_html = (
+            '<details style="margin-top: 12px;"><summary style="cursor: pointer; color: #0fbcf9; font-size: 13px;">Show all sources scanned</summary>'
+            '<p style="color: #666; font-size: 11px; margin-top: 6px;">★ always-read · ● active this week · ○ silent this week</p>'
+            + "".join(category_blocks)
+            + '</details>'
+        )
+
     fail_html = ""
     if sq["fail_reasons"]:
         items = "".join(f"<li>{r[:80]}</li>" for r in sq["fail_reasons"][:5])
@@ -344,6 +427,7 @@ def format_report_html(report: dict) -> str:
   <p>Gmail: {sh["total_gmail_items"]} items · Tier 2: {sh["total_tier2_items"]} items</p>
   <p>Successful runs: {sh["days_with_runs"]}/7 days</p>
   {missing_html}
+  {roster_html}
 </div>
 
 <div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid #4caf50;">
@@ -407,6 +491,29 @@ def format_report_slack(report: dict) -> list[dict]:
     if sh["missing_always_read"]:
         source_text += f"\n:rotating_light: Missing always-read: {', '.join(sh['missing_always_read'])}"
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": source_text}})
+
+    # Full source roster, one Slack section per category. Skip if roster
+    # is empty (shouldn't happen in practice).
+    roster = sh.get("roster", [])
+    if roster:
+        roster_header = "*Sources scanned* — ⭐ always-read · ✅ active · ⚪ silent"
+        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": roster_header}})
+        for category, entries in roster:
+            lines = []
+            for entry in entries:
+                if entry["always_read"]:
+                    marker = ":star:"
+                elif entry["active"]:
+                    marker = ":white_check_mark:"
+                else:
+                    marker = ":white_circle:"
+                count = f" ({entry['email_count']})" if entry["active"] and entry["email_count"] else ""
+                lines.append(f"{marker} {entry['name']}{count}")
+            text = f"_{category}_\n" + "  ·  ".join(lines)
+            blocks.append({
+                "type": "section",
+                "text": {"type": "mrkdwn", "text": text[:2990]},
+            })
 
     # Selection
     sel_text = (
