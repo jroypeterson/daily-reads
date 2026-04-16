@@ -421,5 +421,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a newsletter digest/summary format that lacks the analytical depth and finance/macro focus required for Slot 2, and doesn't provide actionable investment insights."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Novartis CEO Vas Narasimhan joins Anthropic board as biopharma's ties to AI deepen",
+    "source": "Fierce Pharma",
+    "url": "https://www.fiercepharma.com/ai-and-machine-learning/novartis-ceo-vas-narasimhan-joins-anthropic-board-pharmas-link-ai-deepens",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong fit for Slot 1 with substantial depth on AI-pharma convergence, detailed context on Novartis' AI strategy, and clear investment implications around Anthropic's IPO trajectory."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "FDA asks Lilly to evaluate obesity pill's liver risk",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-foundayo-liver-safety-eli-lilly/817556/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While this has regulatory substance, it's primarily a healthcare/biopharma story about drug safety rather than a finance/macro story, and would be better suited for Slot 1."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Building the foundations for agentic AI at scale",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d91a458b6c3fcb8369fb45280/05eaa0e351f6454e0000021ef3a0bcc2/05eaa0e3-51f6-454e-95e7-b2492dd3d3f4",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This appears to be a mislabeled article - it's about agentic AI infrastructure which would fit Slot 3 (Tech/AI) rather than Slot 2 (Finance/Macro), and the actual article content wasn't provided to verify substance despite claims of full text being available."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "AI Economics in the East: Part 2",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/ai-economics-in-the-east-part-2",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is mostly paywalled content that only provides a brief introduction about Chinese AI model pricing competition before cutting off, lacking the substantial analysis needed for selection."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "The AI revolution in software development",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, indicating the full article could not be fetched, and without substantive content this appears to be a generic AI/productivity topic that doesn't fit the Finance/Macro slot requirements."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Where financial leaders are focusing to turn disruption into advantage",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d91efe066b1eec9f4bbe5bf30/2811aee208734b010000021ef3a0bcc2/2811aee2-0873-4b01-a49c-dc776311d312",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, indicating the full article wasn't available and there's insufficient substance to evaluate depth or accuracy."
+  },
+  {
+    "date": "2026-04-16",
+    "headline": "Frontier AI's Economic Engine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/frontier-ais-economic-engine",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial analysis of AI business models and enterprise adoption patterns with specific data and strategic insights that align well with finance/markets focus."
   }
 ]

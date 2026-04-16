@@ -82,5 +82,17 @@
         "url": "https://www.fiercepharma.com/biotech/novartis-ceo-vas-narasimhan-joins-anthropic-board"
       }
     ]
+  },
+  {
+    "date": "2026-04-16",
+    "checked_unique": 57,
+    "checked_slots": 58,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

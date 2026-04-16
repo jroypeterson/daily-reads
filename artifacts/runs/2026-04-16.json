@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-04-16",
+  "generated_at": "2026-04-16T13:18:14Z",
+  "counts": {
+    "gmail_items": 119,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "325f3bc67ddbb24d",
+      "headline": "Novartis CEO Vas Narasimhan joins Anthropic board as biopharma's ties to AI deepen",
+      "source": "Fierce Pharma",
+      "url": "https://www.fiercepharma.com/ai-and-machine-learning/novartis-ceo-vas-narasimhan-joins-anthropic-board-pharmas-link-ai-deepens",
+      "slot": 1,
+      "summary": "Anthropic appointed Novartis CEO Vas Narasimhan to its board, making him the first pharma executive on a major AI company's governing body. The article details Novartis' extensive AI partnerships including Isomorphic Labs, Generate:Biomedicines, and others, with goals to cut drug development time from 4 years to 2. However, the appointment comes amid regulatory challenges as the Trump administration has banned Anthropic across federal agencies including HHS.",
+      "why_it_matters": "This represents a major milestone in AI-biology convergence with clear investment implications as Anthropic eyes an IPO, while showcasing how pharma is systematically integrating AI across drug discovery pipelines despite emerging regulatory headwinds.",
+      "signal_tags": [
+        "ticker_match:NVS",
+        "AI_biology_intersection",
+        "venture_capital_insights",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "80ae4afdcf9d34e6",
+      "headline": "Frontier AI's Economic Engine",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/frontier-ais-economic-engine",
+      "slot": 2,
+      "summary": "Analysis examines how coding applications have achieved the strongest product-market fit in enterprise AI, with a16z data showing coding as an order-of-magnitude outlier among AI use cases. The piece explores why Anthropic has focused heavily on coding (citing its tractability, verifiability, and economic returns) and discusses the narrowing frontier window for AI model monetization despite exploding revenues.",
+      "why_it_matters": "Provides actionable insights into which AI investments are generating real economic value and explains the strategic positioning of major AI labs, critical for understanding enterprise AI adoption trends and investment opportunities.",
+      "signal_tags": [
+        "priority:high",
+        "venture_capital_insights",
+        "AI_impact",
+        "data_infrastructure"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
