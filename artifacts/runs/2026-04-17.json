@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-04-17",
+  "generated_at": "2026-04-17T13:05:40Z",
+  "counts": {
+    "gmail_items": 123,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "099d29b5183edc74",
+      "headline": "Kailera Therapeutics raises $625M in biotech's biggest IPO in years, taking on obesity drug giants",
+      "source": "Multiple sources",
+      "url": "https://www.biospace.com/business/kailera-eyes-record-533m-ipo-to-play-in-competitive-obesity-space-with-chinese-drugs",
+      "slot": 1,
+      "summary": "Kailera Therapeutics raised $625 million in biotech's largest IPO ever, surpassing Moderna's 2018 record of $600 million. The company is advancing ribupatide, a GLP-1/GIP dual agonist showing 12.1% weight loss in Phase 2 trials, with three Phase 3 studies currently ongoing for the injectable form and oral development planned. Backed by Bain Capital and built around assets from China's Jiangsu Hengrui Pharmaceuticals, Kailera enters the competitive obesity market where recent M&A activity includes Pfizer's $10 billion acquisition of Metsera.",
+      "why_it_matters": "This record IPO validates massive investor appetite for obesity therapeutics and demonstrates the biotech public markets are reopening, potentially signaling improved access to capital and higher valuations across the GLP-1 receptor space.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "high-priority_source",
+        "catalyst_proximity",
+        "novelty"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "d72eebd4be6b7b50",
+      "headline": "ASML beats Q1 earnings but stock falls 6% amid China restrictions despite raising 2026 revenue guidance to \u20ac36-40B",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/asml-1q26-update",
+      "slot": 2,
+      "summary": "ASML reported strong Q1 2026 results with \u20ac8.8B revenue but stock fell 6% due to China export restrictions reducing Chinese sales from 36% to 19% of revenue. The company is rapidly scaling EUV production capacity to 80+ units in 2027 (double the wafer-per-hour capacity of 2025) amid persistent demand outstripping supply across AI, mobile, and PC markets. Management highlighted how the emergence of multiple competitive foundries beyond TSMC's dominance could accelerate high-NA EUV adoption.",
+      "why_it_matters": "As the critical bottleneck in AI chip manufacturing, ASML's capacity expansion and customer diversification beyond TSMC signals continued strength in AI infrastructure investment despite geopolitical headwinds, with implications for the broader semiconductor value chain.",
+      "signal_tags": [
+        "ticker_match:ASML",
+        "high-priority_source",
+        "catalyst_proximity",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

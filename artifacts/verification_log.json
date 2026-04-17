@@ -484,5 +484,68 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This article provides substantial analysis of AI business models and enterprise adoption patterns with specific data and strategic insights that align well with finance/markets focus."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Kailera Therapeutics raises $625M in biotech's biggest IPO in years, taking on obesity drug giants",
+    "source": "Multiple sources",
+    "url": "https://www.biospace.com/business/kailera-eyes-record-533m-ipo-to-play-in-competitive-obesity-space-with-chinese-drugs",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with substantial depth covering a record-breaking IPO, clinical trial data, pipeline details, and competitive positioning in the high-value obesity market."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Anthropic releases Claude Opus 4.7 with enhanced coding and cybersecurity safeguards, as Mythos stays locked away",
+    "source": "Multiple tech outlets",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a tech/AI article that doesn't belong in Slot 2 (Finance/Markets) and lacks the macro economic or market analysis required for that slot."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "ASML beats Q1 earnings but stock falls 6% amid China restrictions despite raising 2026 revenue guidance to \u20ac36-40B",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/asml-1q26-update",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep-dive analysis of ASML earnings with strategic insights about semiconductor supply chains, AI infrastructure capacity, and competitive dynamics that align well with Slot 2 finance/macro criteria."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Trump taps former deputy surgeon general Erica Schwartz to lead CDC after agency's leadership void",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/16/erica-schwartz-cdc-director-nominee/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/government personnel story that doesn't fit Slot 3 (Tech/AI) and lacks the technical depth or AI relevance the reader preferences indicate they value."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "RFK Jr. defends FDA and focuses on affordability, fraud in Capitol Hill hearings while avoiding vaccine controversies",
+    "source": "Multiple healthcare sources",
+    "url": "https://www.statnews.com/2026/04/16/rfk-jr-congressional-hearing-trump-health-agenda/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is paywalled after just two paragraphs and doesn't fit Slot 3 (Tech/AI) criteria at all - it's purely healthcare policy content with no technology or AI angle."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Research challenges core assumption of GLP-1 obesity drugs: maybe targeting GLP-1 isn't necessary for weight loss",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/16/glp1-weight-loss-new-approach/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after the first few paragraphs, making it impossible to evaluate the full substance and depth of the research claims."
+  },
+  {
+    "date": "2026-04-17",
+    "headline": "Lilly's new obesity pill Foundayo shows heart safety in diabetes trial, enabling broader regulatory pathway",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/foundayo-heart-safety-diabetes-obesity-eli-lilly/817694/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma story about drug trials and FDA approvals that belongs in Slot 1, not Slot 3 (Tech/AI), and contains no meaningful AI or tech content."
   }
 ]
