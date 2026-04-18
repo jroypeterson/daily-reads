@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-04-18",
+  "generated_at": "2026-04-18T12:50:13Z",
+  "counts": {
+    "gmail_items": 117,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "bcdfd9b57d209a10",
+      "headline": "Kailera breaks biotech IPO record with $625M debut",
+      "source": "BioSpace",
+      "url": "https://www.biospace.com/business/kailera-eyes-record-533m-ipo-to-play-in-competitive-obesity-space-with-chinese-drugs",
+      "slot": 1,
+      "summary": "Kailera Therapeutics raised a record-breaking $625 million in the largest biotech IPO ever, surpassing Moderna's 2018 record of $600 million. The obesity-focused company trades under KLRA and closed up 62.5% on its first day, bringing its total funding to over $1.6 billion including previous Series A and B rounds. The company's lead asset ribupatide showed 12.1% weight loss in Phase 2 trials and is now advancing through three Phase 3 studies.",
+      "why_it_matters": "This record IPO validates the biotech public markets recovery and signals massive investor appetite for obesity therapeutics, particularly those with proven Phase 2 efficacy data and clear late-stage development timelines.",
+      "signal_tags": [
+        "ticker_match:KLRA",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "1403afa5221cc13e",
+      "headline": "TSMC 1Q'26 Update: AI momentum continues one-way up and to the right",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/tsmc-1q26-update",
+      "slot": 2,
+      "summary": "TSMC's Q1 2026 earnings revealed continued robust AI demand driving a fundamental business mix shift, with HPC (including AI accelerators) now representing 61% of revenue versus 26% for smartphones - a complete reversal from 2019. The company achieved record 66.2% gross margins while management expressed high conviction in the multi-year AI megatrend and confirmed capex will be at the high end of their $52-56B range.",
+      "why_it_matters": "TSMC serves as the definitive bellwether for AI infrastructure spending and semiconductor demand sustainability, with their guidance and margin expansion providing critical validation of the AI investment thesis and capital allocation priorities across the tech ecosystem.",
+      "signal_tags": [
+        "high_priority_source",
+        "analytical_depth",
+        "investment_relevant"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

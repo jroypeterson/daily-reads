@@ -547,5 +547,140 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a healthcare/biopharma story about drug trials and FDA approvals that belongs in Slot 1, not Slot 3 (Tech/AI), and contains no meaningful AI or tech content."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Stratechery Weekly: Servers, Satellites, and Stars - The Cost of AI and Amazon's Globalstar Play",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/servers-satellites-and-stars",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter digest/table of contents rather than substantive content, and doesn't match Slot 1's healthcare/biotech focus despite having AI infrastructure elements the reader would enjoy."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Revolution Medicines' Pancreatic Cancer Breakthrough: 'Unprecedented' Survival Benefit Opens New RAS Era",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/17/revolution-medicines-daraxonrasib-clinical-trial-readout-loud-podcast-transcript",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after a brief introduction, providing insufficient substance to justify inclusion and violating the reader's preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "TSMC Q1 2026: AI Momentum Continues 'One-Way Street Up and to the Right'",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-1q26-update",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a pure semiconductor/tech earnings analysis that doesn't belong in the Healthcare/Biotech slot and lacks any healthcare relevance despite having good analytical depth."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Anthropic's Claude Design vs. Figma: AI Disruption Hits Collaborative Design Tools",
+    "source": "Hacker News",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement from Anthropic that doesn't fit Slot 1 (Healthcare/Biotech) criteria and lacks investment-relevant analysis beyond basic competitive impact."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "McKinsey on Healthcare CEO Leadership: Sam Hazen Interview on Patient-Centric Transformation",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d97222749c262ae369fb45280/e0b91c7b96a242e20000021ef3a0bcc2/e0b91c7b-96a2-42e2-a9e3-00c04c6e3cb5",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is missing and only shows the headline/summary, making it impossible to verify substance or depth for a healthcare strategy piece that requires analytical rigor."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "How Anthropic Discovered Mythos AI Was 'Too Dangerous' for Public Release",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/features/2026-04-16/how-anthropic-discovered-mythos-ai-was-too-dangerous-for-release",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is about AI safety and cybersecurity threats, which belongs in Slot 3 (Tech/AI) rather than Slot 1 (Healthcare/Biotech), and the provided content appears to be just the beginning of a longer piece."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Kailera Therapeutics Raises Record $625M Biotech IPO with Obesity Pipeline from China",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/kailera-ipo-interview-ceo-renaud-talks-biotech-market-china-and-obesity-pipeline",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is severely truncated and consists almost entirely of cookie consent banners, navigation menus, and topic hubs rather than the actual substantive interview content about Kailera's IPO."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "BCG CEO Stress Index: Rising Leadership Pressure and Strategic Implications",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGhNZmNl0nCXlw5l4agw1CvqBsa5jV21OfEPzxhovRLNUW2P4Q-4cwRfsD2F09YjCiUvY0OANA=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This appears to be a BCG email newsletter template with promotional content and article links rather than a substantive research article - it lacks the analytical depth and concrete insights expected for Slot 1."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Kailera breaks biotech IPO record with $625M debut",
+    "source": "BioSpace",
+    "url": "https://www.biospace.com/business/kailera-eyes-record-533m-ipo-to-play-in-competitive-obesity-space-with-chinese-drugs",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a record-breaking biotech IPO with specific financial details, pipeline data, and strategic context that aligns perfectly with healthcare/biopharma coverage priorities."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Revolution Medicines' pancreatic cancer drug nearly doubles survival in Phase 3 trial",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/04/13/pancreatic-cancer-drug-daraxonrasib-from-revolution-medicines-succeeds-in-trial.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is primarily a healthcare/biopharma story about clinical trial results and FDA approval processes, which belongs in Slot 1 rather than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "Anthropic launches Claude Design, challenging Figma with AI-powered prototyping",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement that doesn't match Slot 2's finance/macro focus and lacks market/investment analysis despite having some enterprise relevance."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "TSMC 1Q'26 Update: AI momentum continues one-way up and to the right",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-1q26-update",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial analysis of TSMC's earnings with concrete data on AI demand trends, competitive positioning, and margin expansion that serves as a bellwether for semiconductor and AI infrastructure investment themes."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "How Anthropic discovered Mythos was too dangerous for public release",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/features/2026-04-16/how-anthropic-discovered-mythos-ai-was-too-dangerous-for-release",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article appears to be just the beginning/intro with no substantial content beyond the opening anecdote about Carlini testing the model in Bali."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "The AI revolution in software development: productivity gains and workforce implications",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019d8d33438ab4a6986e96c66058/1d6962d629f04fcb0000021ef3a0bcc2/1d6962d6-29f0-4fcb-aaaf-05fa101edb66",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repeat of the headline and summary rather than actual substantive content, suggesting the full article was not successfully retrieved."
+  },
+  {
+    "date": "2026-04-18",
+    "headline": "CEO stress reaches record highs: BCG's new insomnia index reveals leadership pressure",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGhNZmNl0nCXlw5l4agw1CvqBsa5jV21OfEPzxhovRLNUW2P4Q-4cwRfsD2F09YjCiUvY0OANA=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a BCG newsletter teaser with minimal actual content - it only shows an infographic about CEO stress and links to other articles, lacking the substantive analysis needed for selection."
   }
 ]
