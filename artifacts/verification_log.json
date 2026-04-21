@@ -682,5 +682,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is just a BCG newsletter teaser with minimal actual content - it only shows an infographic about CEO stress and links to other articles, lacking the substantive analysis needed for selection."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "Lilly Wheels $7B CAR-T Deal for Kelonia",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVGkBP7Ksp3RVFNhtl4p_bVQW3LfLlX5N583kN4qMxL45nR3bW7lCGcx6lZ3nWW1BQCG71XwWbnW1RKMb22d3cR5W6-766Q87hX87N8ZFJDYFKWCZW6-8Q_n8009dtW904ztq7-RNxtV-wxhT38q1zTW4Tj5KP3N9qP1V7dQks1B-FTHW2lkRZn23hZvmW4C0nhy5Sz_vjW2S7VJV3k1Pl_W9cgqk237gNW9W9j9Zmc7lvQc-W98lyDN8sRSqVW3R_Vg84J3smKW7DQXV66SyBTjV_tk-p32GSQdW1nnvW11f292HW8pJ6-C7lf7rXW8bWJFC1PJCbCN3Yf6ZM40hMpW8lJh_56t0fy5W71xN_Z31jdmXW882jq_4QJT3FVmDHh14SddR3W4CHzrz1C7SQjW3X86kD1Bwz53W7G6BY53J8-9SW1KZtQX8fr_V_VjwFy66vLC97VVFZWV7MJjDQW1yhS6c4vH6HcW2xlvfJ8RsQ0HW3Y5xBw1s8xCSW4_LF5D8zm61WW3-bch48Z-Dk7N1WHY1tKyPx3W7wYs5S6Nt8S2W1M0cdR4ZRmXPf127xPd04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantial $7B M&A deal with strategic significance for Lilly's cell therapy expansion, fitting perfectly in Slot 1 with good analytical depth from BioSpace."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "John Ternus to become Apple CEO",
+    "source": "Apple Newsroom",
+    "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial leadership transition at the world's most valuable company with significant market and strategic implications, fitting well in the Finance/Markets slot."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "James Zou on integrating AI agents into biology R&D and drug discovery",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dabc70505b608b7f4bbe5cfc0/b751e8f546484f400000021ef3a0bcc2/b751e8f5-4648-4f40-9622-aef6aca495f1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is just a repetition of the headline and summary with no actual substantive content provided, making it impossible to verify depth or accuracy."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "Kennedy hints at coming breakthrough device announcement",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/21/kennedy-hints-breakthrough-device-announcement-health-tech/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is just a header/navigation structure without the actual substantive content about Kennedy's breakthrough device announcement."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "TSMC 1Q'26 Update",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-1q26-update",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive analysis of TSMC's Q1 2026 earnings with specific data points, strategic insights about AI infrastructure demand, and forward-looking implications that align perfectly with the Tech/AI slot and the reader's data infrastructure preferences."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "Rewired 2.0: How leading companies are (still) winning with AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019da0ea1adca856946e96c65848/8783caee265243960000021ef3a0bcc2/8783caee-2652-4396-b061-92ab8c239872",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content wasn't successfully fetched (only showing the shortlist summary repeated), making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "Catalyst Watch",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/04-21-2026-catalyst-watch",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article appears to be incomplete with only an introduction and one quote fragment, lacking the substantial catalyst analysis and investment themes promised in the shortlist summary."
+  },
+  {
+    "date": "2026-04-21",
+    "headline": "How did RevMed do it? Inside the race to catch KRAS",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VXdX794C85sbW3c702r31r890W6YVQGc5N5HKXN3rtP743qgz0W7lCdLW6lZ3lRW5yZCtH17PdX0W8xgntM8WcKlcN3y15mG6Pzw0W3DSCr13yTXkFW8y6-0d2V2gYHW27CJRQ8YM5FsW57z4m88h-_g6W1WBl8y22VqcYW7M-cQ12YGJQYN1jjfqYcMjn1VMYGPz8tzK4_N3P2TRTfg7ZhW85xNKB59hM6TW430fys1QPjyYW1JvkXp1ZJpGMW7vNVKS19xxnfW1mwmgM4VNF8ZW2zgqGy8W2MFsW8dnF1J3nxT0jVffS0X1fBqs9F6d72ftvcZYW1RdSBq770gdwW8mj2md2fNz9gW1Swc3t8XZt9Kf4nHW-M04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywalled STAT+ subscription page with no actual article content accessible, making it impossible to verify the substance or accuracy of the shortlist summary."
   }
 ]

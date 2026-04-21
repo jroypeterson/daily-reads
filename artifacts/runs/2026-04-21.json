@@ -1,0 +1,63 @@
+{
+  "run_date": "2026-04-21",
+  "generated_at": "2026-04-21T13:13:25Z",
+  "counts": {
+    "gmail_items": 126,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a80162151e7e6a25",
+      "headline": "Lilly Wheels $7B CAR-T Deal for Kelonia",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVGkBP7Ksp3RVFNhtl4p_bVQW3LfLlX5N583kN4qMxL45nR3bW7lCGcx6lZ3nWW1BQCG71XwWbnW1RKMb22d3cR5W6-766Q87hX87N8ZFJDYFKWCZW6-8Q_n8009dtW904ztq7-RNxtV-wxhT38q1zTW4Tj5KP3N9qP1V7dQks1B-FTHW2lkRZn23hZvmW4C0nhy5Sz_vjW2S7VJV3k1Pl_W9cgqk237gNW9W9j9Zmc7lvQc-W98lyDN8sRSqVW3R_Vg84J3smKW7DQXV66SyBTjV_tk-p32GSQdW1nnvW11f292HW8pJ6-C7lf7rXW8bWJFC1PJCbCN3Yf6ZM40hMpW8lJh_56t0fy5W71xN_Z31jdmXW882jq_4QJT3FVmDHh14SddR3W4CHzrz1C7SQjW3X86kD1Bwz53W7G6BY53J8-9SW1KZtQX8fr_V_VjwFy66vLC97VVFZWV7MJjDQW1yhS6c4vH6HcW2xlvfJ8RsQ0HW3Y5xBw1s8xCSW4_LF5D8zm61WW3-bch48Z-Dk7N1WHY1tKyPx3W7wYs5S6Nt8S2W1M0cdR4ZRmXPf127xPd04",
+      "slot": 1,
+      "summary": "Eli Lilly acquired Kelonia Therapeutics for up to $7 billion to gain access to innovative \"in vivo\" CAR-T cell therapy technology that delivers gene therapy directly to patients rather than extracting and modifying cells ex vivo. The deal follows Lilly's February entry into CAR-T and represents a major bet on next-generation cell therapy approaches that could be more accessible and scalable than current methods.",
+      "why_it_matters": "This massive acquisition signals big pharma's strategic pivot toward more accessible cell therapies while diversifying Lilly's portfolio beyond its blockbuster GLP-1 franchise, potentially transforming cancer treatment delivery.",
+      "signal_tags": [
+        "ticker_match:LLY",
+        "high_value_deal",
+        "cell_therapy_innovation",
+        "M&A_activity"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "ca3fd8d1405ad627",
+      "headline": "John Ternus to become Apple CEO",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "slot": 2,
+      "summary": "Apple announced that Tim Cook will transition to executive chairman while John Ternus, current SVP of Hardware Engineering, becomes CEO on September 1, 2026. The succession follows long-term planning and board approval, with Cook remaining as CEO through summer for a smooth transition. Under Cook's 15-year tenure, Apple grew from $350B to $4T market cap with revenue nearly quadrupling to $416B.",
+      "why_it_matters": "This historic CEO transition at Apple will likely impact markets significantly and could reshape the company's strategy around AI, hardware innovation, and global expansion under new leadership with deep engineering expertise.",
+      "signal_tags": [
+        "ticker_match:AAPL",
+        "leadership_transition",
+        "tech_governance",
+        "market_moving"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "1403afa5221cc13e",
+      "headline": "TSMC 1Q'26 Update",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/tsmc-1q26-update",
+      "slot": 3,
+      "summary": "TSMC's Q1 2026 earnings confirm explosive AI momentum, with HPC now representing 61% of revenue (vs. 29% in 2019) while smartphones dropped to 26%. The company achieved record 66.2% gross margins and indicated capex will hit the high end of $52-56B range, driven by robust demand from cloud service providers for advanced node semiconductors.",
+      "why_it_matters": "TSMC's results provide concrete evidence of AI infrastructure spending sustainability and offer insights into the semiconductor supply chain constraints that could impact AI deployment timelines and costs.",
+      "signal_tags": [
+        "priority:high",
+        "AI_infrastructure",
+        "semiconductor_earnings",
+        "Taiwan_tech"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
