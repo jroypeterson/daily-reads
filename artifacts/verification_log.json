@@ -754,5 +754,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is a paywalled STAT+ subscription page with no actual article content accessible, making it impossible to verify the substance or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Revolution Medicines' KRAS breakthrough: 58% response rate in first-line pancreatic cancer",
+    "source": "Revolution Medicines / BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/revolution-aacr-2026-daraxonrasib-pancreatic-cancer-results/818173/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with substantial clinical data, clear investment implications, and good depth on a major oncology breakthrough."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "FDA and CMS launch RAPID pathway to accelerate breakthrough device coverage",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/cms-and-fda-announce-rapid-coverage-pathway-accelerate-patient-access-life-changing-medical-devices",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This has substantial policy impact for medtech commercialization with concrete details on timeline improvements and financial implications for healthcare companies."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Danaher Q1'26: Another steady quarter amid bioprocessing recovery",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/danaher-1q26-update?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQ5NDQ0MTUsImlhdCI6MTc3Njg2ODcxNiwiZXhwIjoxNzc5NDYwNzE2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7BwFgR5XJgPFTOZMnlYTkby8bKZaC3J15Zbr0wWcnY",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a detailed quarterly earnings analysis of Danaher's bioprocessing business, which belongs in Slot 1 (Healthcare/Biopharma) rather than Slot 3 (Tech/AI), and while it mentions AI briefly at the end, it's not primarily a tech/AI focused piece."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Meta's heterogeneous compute fleet strategy for AI workloads",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-heterogeneous-fleet?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQ4NTczMzAsImlhdCI6MTc3Njc4MjU3NywiZXhwIjoxNzc5Mzc0NTc3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.RXCyJqc0dKbCAeS3cGslCh8VdYBeXJEEfivtRay_OE0",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial depth on Meta's AI infrastructure strategy with concrete technical insights about how LLMs are solving heterogeneous compute challenges, directly matching the reader's strong preference for data infrastructure and AI intersection topics."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "McKinsey on Japan's pharmaceutical operations transformation",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019db06f0925a42d436e96c65848/190c831e3b5b49470000021ef3a0bcc2/190c831e-3b5b-4947-8a1b-4dcac86cb2aa?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qFwbqruGumy1uOmNl8A1PdkFjuQlYjAteLqONuvA-AtIe6jlveE5m3Iku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content appears to be missing or identical to the summary, making it impossible to verify substance and depth."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "RFK Jr.'s congressional hearings signal more moderate MAHA approach",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/22/kennedy-congressional-testimony-analysis-new-moderate-maha/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a brief excerpt available, making it impossible to assess substance and depth for the wildcard slot."
+  },
+  {
+    "date": "2026-04-23",
+    "headline": "Merck partners with Google Cloud in $1B AI push for drug discovery",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/merck-google-idvynso-roche-fenebrutinib-arcus-gilead-ray/817987/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a brief news roundup with thin coverage of multiple unrelated stories, lacking the depth and analytical insight required for Slot 4."
   }
 ]

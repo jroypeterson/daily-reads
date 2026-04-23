@@ -1,0 +1,62 @@
+{
+  "run_date": "2026-04-23",
+  "generated_at": "2026-04-23T13:12:55Z",
+  "counts": {
+    "gmail_items": 120,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2c1d0ac262906206",
+      "headline": "Revolution Medicines' KRAS breakthrough: 58% response rate in first-line pancreatic cancer",
+      "source": "Revolution Medicines / BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/revolution-aacr-2026-daraxonrasib-pancreatic-cancer-results/818173/",
+      "slot": 1,
+      "summary": "Revolution Medicines presented AACR 2026 data showing daraxonrasib achieved impressive response rates in first-line pancreatic cancer: 58% when combined with chemotherapy and 47% as monotherapy, compared to 23-43% for standard chemotherapy. The results follow last week's Phase 3 data showing the drug nearly doubled survival in second-line treatment, launching Revolution's valuation past $30 billion. The company is now launching a Phase 3 first-line trial based on these promising early results.",
+      "why_it_matters": "This validates Revolution's RAS-targeting approach in notoriously difficult pancreatic cancer across multiple treatment lines, potentially creating a multi-billion dollar franchise and making the company a prime acquisition target.",
+      "signal_tags": [
+        "ticker_match:RVMD",
+        "novelty",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "dea874195044703d",
+      "headline": "FDA and CMS launch RAPID pathway to accelerate breakthrough device coverage",
+      "source": "FDA Press Releases",
+      "url": "http://www.fda.gov/news-events/press-announcements/cms-and-fda-announce-rapid-coverage-pathway-accelerate-patient-access-life-changing-medical-devices",
+      "slot": 2,
+      "summary": "CMS and FDA launched the RAPID coverage pathway to synchronize FDA approval with Medicare coverage decisions for breakthrough medical devices. The program enables Medicare national coverage as soon as two months after FDA authorization, compared to a year or more under current processes, by aligning evidence requirements early in device development.",
+      "why_it_matters": "This regulatory streamlining could significantly accelerate revenue timelines and reduce commercialization costs for medtech companies developing breakthrough devices, particularly benefiting companies with products targeting Medicare populations.",
+      "signal_tags": [
+        "high-priority_source",
+        "regulatory_catalyst",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "80f0eef29cb5a1a6",
+      "headline": "Meta's heterogeneous compute fleet strategy for AI workloads",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/metas-heterogeneous-fleet?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTQ4NTczMzAsImlhdCI6MTc3Njc4MjU3NywiZXhwIjoxNzc5Mzc0NTc3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.RXCyJqc0dKbCAeS3cGslCh8VdYBeXJEEfivtRay_OE0",
+      "slot": 3,
+      "summary": "Meta has overcome the traditional challenges of managing heterogeneous hardware fleets (5-6 different SKUs annually) by using large language models to automatically generate optimized kernels for specific binary-hardware pairs. This breakthrough eliminates the previous trade-off between abstraction layers (simple but less performant) and custom optimization (performant but expensive), enabling Meta to actively manage workloads across diverse chip architectures cost-effectively.",
+      "why_it_matters": "Meta's approach could fundamentally reshape how hyperscalers design AI infrastructure, potentially reducing dependency on single chip vendors while improving cost efficiency across the industry.",
+      "signal_tags": [
+        "ticker_match:META",
+        "high-priority_source",
+        "data_infrastructure",
+        "AI_impact"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

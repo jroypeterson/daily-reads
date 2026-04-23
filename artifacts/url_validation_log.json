@@ -130,5 +130,23 @@
       "substack_dropped": 0
     },
     "warned_articles": []
+  },
+  {
+    "date": "2026-04-23",
+    "checked_unique": 54,
+    "checked_slots": 55,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 2,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "FDA Press Releases",
+        "headline": "FDA and CMS launch RAPID pathway to accelerate breakthrough device coverage",
+        "url": "http://www.fda.gov/news-events/press-announcements/cms-and-fda-announce-rapid-coverage-pathway-accelerate-patient-access-life-changing-medical-devices"
+      }
+    ]
   }
 ]
