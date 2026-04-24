@@ -817,5 +817,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a brief news roundup with thin coverage of multiple unrelated stories, lacking the depth and analytical insight required for Slot 4."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "FDA Approves First-Ever Gene Therapy for Genetic Hearing Loss",
+    "source": "FDA/Regeneron",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial FDA approval announcement with significant clinical data and regulatory innovation that perfectly fits Slot 1's healthcare/biopharma criteria."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "OpenAI Launches GPT-5.5, Latest AI Model for Enterprise Coding and Research",
+    "source": "OpenAI/TechCrunch",
+    "url": "https://openai.com/index/introducing-gpt-5-5/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article belongs in Slot 3 (Tech/AI) as it's about AI model capabilities and development, not finance/markets which is the target slot."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Meta to Cut 10% of Workforce as AI Spending Surges to $135 Billion",
+    "source": "Bloomberg/CNBC",
+    "url": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article appears to be truncated or paywalled with only navigation elements visible, lacking the actual substantive content about Meta's layoffs and AI spending."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "DeepSeek v4 AI Model Gains Significant Attention in Open Source Community",
+    "source": "Hacker News",
+    "url": "https://api-docs.deepseek.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just API documentation, not a substantive article about DeepSeek v4's market impact, competitive positioning, or financial implications for Slot 2."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "UK Biobank Health Data Compromised, 500,000 Records Offered for Sale",
+    "source": "BMJ/Hacker News",
+    "url": "https://www.bmj.com/content/393/bmj.s781",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article appears to be truncated and lacks substantive content beyond the headline and basic facts, failing to provide the depth and analysis expected for finance/macro coverage."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Bitwarden CLI Supply Chain Attack Affects Password Management Tools",
+    "source": "Socket Security/Hacker News",
+    "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While this is a substantial cybersecurity story with detailed technical analysis, it doesn't fit Slot 2 (Finance/Markets) criteria which focuses on macro moves, earnings, sector rotation, and policy impact on markets."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Alberta Startup Disrupts Agriculture with No-Tech Tractors at Half Price",
+    "source": "Wheelfront/Hacker News",
+    "url": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This agriculture equipment story doesn't fit Slot 2 (Finance/Markets) criteria as it lacks macro market implications, earnings data, or healthcare-adjacent finance content."
+  },
+  {
+    "date": "2026-04-24",
+    "headline": "Claude Code Quality Issues Prompt Anthropic Post-Mortem and Safety Discussion",
+    "source": "Anthropic/Hacker News",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a technical post-mortem about AI product issues that doesn't fit the Finance/Markets slot criteria, which should focus on macro moves, earnings, sector rotation, or policy impact on markets."
   }
 ]

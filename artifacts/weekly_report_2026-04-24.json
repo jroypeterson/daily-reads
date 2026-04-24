@@ -1,0 +1,269 @@
+{
+  "period_start": "2026-04-18",
+  "period_end": "2026-04-24",
+  "generated_at": "2026-04-24T13:09:01.271163+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 489,
+    "total_tier2_items": 359,
+    "days_with_runs": 4,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 6
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 20
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 6
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 11
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 9
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 42
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 15
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 23
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 9,
+    "articles_per_day": [
+      1,
+      3,
+      3,
+      2
+    ],
+    "avg_articles_per_day": 2.2,
+    "verified_pass": 9,
+    "verified_fail": 29,
+    "fail_reasons": [
+      "This is a newsletter digest/table of contents rather than substantive content, and doesn't match Slot 1's healthcare/biotech focus despite having AI infrastructure elements the reader would enjoy.",
+      "The article is paywalled after a brief introduction, providing insufficient substance to justify inclusion and violating the reader's preference to avoid paywalled content.",
+      "This is a pure semiconductor/tech earnings analysis that doesn't belong in the Healthcare/Biotech slot and lacks any healthcare relevance despite having good analytical depth.",
+      "This is a product announcement from Anthropic that doesn't fit Slot 1 (Healthcare/Biotech) criteria and lacks investment-relevant analysis beyond basic competitive impact.",
+      "The article content is missing and only shows the headline/summary, making it impossible to verify substance or depth for a healthcare strategy piece that requires analytical rigor.",
+      "This article is about AI safety and cybersecurity threats, which belongs in Slot 3 (Tech/AI) rather than Slot 1 (Healthcare/Biotech), and the provided content appears to be just the beginning of a longer piece.",
+      "The article content is severely truncated and consists almost entirely of cookie consent banners, navigation menus, and topic hubs rather than the actual substantive interview content about Kailera's IPO.",
+      "This appears to be a BCG email newsletter template with promotional content and article links rather than a substantive research article - it lacks the analytical depth and concrete insights expected for Slot 1.",
+      "This is primarily a healthcare/biopharma story about clinical trial results and FDA approval processes, which belongs in Slot 1 rather than Slot 2 (Finance/Macro).",
+      "This is a product announcement that doesn't match Slot 2's finance/macro focus and lacks market/investment analysis despite having some enterprise relevance."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 16,
+      "jina": 15,
+      "tavily": 2,
+      "snippet_fallback": 5
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": 2.17,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Scuttleblurb": 4,
+      "A Letter a Day": 4,
+      "MBI": 4,
+      "Biotech Primer": 4,
+      "The Transcript": 4,
+      "Value Investors Insight": 2
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 4,
+    "checked_slots": 260,
+    "total_broken": 6,
+    "surfaces": {
+      "article_warnings": 2,
+      "triage_dropped": 4,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": [
+      [
+        "FDA Press Releases",
+        1
+      ],
+      [
+        "FDA/Regeneron",
+        1
+      ]
+    ]
+  }
+}

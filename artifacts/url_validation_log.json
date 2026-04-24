@@ -148,5 +148,23 @@
         "url": "http://www.fda.gov/news-events/press-announcements/cms-and-fda-announce-rapid-coverage-pathway-accelerate-patient-access-life-changing-medical-devices"
       }
     ]
+  },
+  {
+    "date": "2026-04-24",
+    "checked_unique": 74,
+    "checked_slots": 76,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "FDA/Regeneron",
+        "headline": "FDA Approves First-Ever Gene Therapy for Genetic Hearing Loss",
+        "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher"
+      }
+    ]
   }
 ]

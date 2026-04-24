@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-04-24",
+  "generated_at": "2026-04-24T13:08:53Z",
+  "counts": {
+    "gmail_items": 126,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "5bff47d0d88a4228",
+      "headline": "FDA Approves First-Ever Gene Therapy for Genetic Hearing Loss",
+      "source": "FDA/Regeneron",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
+      "slot": 1,
+      "summary": "The FDA approved Otarmeni, the first gene therapy for genetic hearing loss caused by OTOF gene mutations, in a record-fast 61-day review under the National Priority Voucher program. In clinical trials, 80% of the 20 evaluable pediatric patients showed improved hearing after the single-dose cochlear injection, with the therapy targeting a condition affecting 2-8% of inherited hearing loss cases. Regeneron received orphan drug and fast track designations for this dual AAV vector therapy that restores otoferlin protein production.",
+      "why_it_matters": "This breakthrough opens a new treatment category for genetic hearing loss, demonstrates FDA's accelerated review capabilities for rare diseases, and signals Regeneron's expansion into genetic medicines with potential implications for the broader gene therapy sector.",
+      "signal_tags": [
+        "ticker_match:REGN",
+        "catalyst_proximity:FDA_approval",
+        "high_priority_source",
+        "breakthrough_therapy"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
