@@ -166,5 +166,17 @@
         "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher"
       }
     ]
+  },
+  {
+    "date": "2026-04-25",
+    "checked_unique": 61,
+    "checked_slots": 62,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

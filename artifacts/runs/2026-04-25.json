@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-04-25",
+  "generated_at": "2026-04-25T12:49:02Z",
+  "counts": {
+    "gmail_items": 124,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f2b880fa9c926211",
+      "headline": "FDA Accelerates Review of Three Psychedelic Drugs Following Trump Executive Order",
+      "source": "FDA Press Releases / News",
+      "url": "https://www.cnn.com/2026/04/24/health/fda-psychedelic-drugs-priority-vouchers",
+      "slot": 1,
+      "summary": "The FDA issued priority vouchers to three companies (Compass Pathways, Usona Institute, and Transcend Therapeutics) studying psychedelic treatments, cutting review times from 10-12 months to 1-2 months. This follows Trump's executive order directing expedited review of breakthrough psychedelic therapies, backed by $50 million in state funding. The FDA also approved the first U.S. clinical study of ibogaine for alcohol use disorder.",
+      "why_it_matters": "This represents a watershed regulatory shift that could bring FDA-approved psychedelic treatments to market by mid-2026, creating significant opportunities in the mental health therapeutics sector while establishing new treatment paradigms for depression, PTSD, and substance abuse disorders.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "breakthrough_therapy",
+        "priority:high"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "87f5f4467585975c",
+      "headline": "Pricing 'The Compute Theory of Everything' - Semiconductor Inflection Point",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/pricing-the-compute-theory-of-everything?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTUyOTM4NDgsImlhdCI6MTc3NzA0MDY4NywiZXhwIjoxNzc5NjMyNjg3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Yt94gzmsvs_oDJSSgnPBWMtenCke5sNo-OM9BC-AWXs",
+      "slot": 2,
+      "summary": "The semiconductor ETF (SOXX) surged 47% YTD after being flat through March, now trading at valuations not seen since 2001 as markets price in the 'compute theory of everything' paradigm. The analysis explores how stratospheric semiconductor valuations demand sustained fundamental strength for years to generate acceptable returns. Texas Instruments appears to have hit an inflection point with analog revenue growth exceeding 20% for the first time since 2021.",
+      "why_it_matters": "Provides crucial context on whether current semiconductor valuations are sustainable given the massive run-up, with specific insights on TXN as a bellwether for the sector's fundamental health.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "investment_relevant",
+        "ticker_match:TXN"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

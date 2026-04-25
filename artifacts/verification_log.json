@@ -889,5 +889,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a technical post-mortem about AI product issues that doesn't fit the Finance/Markets slot criteria, which should focus on macro moves, earnings, sector rotation, or policy impact on markets."
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "FDA Accelerates Review of Three Psychedelic Drugs Following Trump Executive Order",
+    "source": "FDA Press Releases / News",
+    "url": "https://www.cnn.com/2026/04/24/health/fda-psychedelic-drugs-priority-vouchers",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a significant regulatory development with clear investment implications for psychedelic medicine companies and the broader mental health treatment landscape."
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Generative AI in Healthcare: Adoption Matures as Agentic AI Emerges",
+    "source": "McKinsey & Company",
+    "url": "https://email.mckinsey.com/T/v710000019dc06b718db5b3a4369ff0aab4/c878b1e30a5f42c90000021ef3a0bcc2/c878b1e3-0a5f-42c9-bcbe-2b46b6a4fae4",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repetition of the summary with no actual substantive details, making it impossible to verify depth or accuracy for the target finance/macro slot."
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "He Came, He Saw, He Cooked: Tim Cook's Apple Era Ends",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/he-came-he-saw-he-cooked?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hlLWNhbWUtaGUtc2F3LWhlLWNvb2tlZC8iXX0sImV4cCI6MTc3OTY0MjI5MSwiaWF0IjoxNzc3MDUwMjkxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.UGHYLmQnL-UuVuOyCr-l83G3vLMDBHEoNIvbN2xzfV3YjAz3-qicINVVxHkgKiEXIXHwqFRJrFz6cy7cFxpcvdAl_MsRp0PRFmI6FX4lj83-3RFS7JHPnIujwGIjjetr_Cm4nwz5dtmN5ha4LcgsmlphQRNTKpkXBO1ZDYLfwzUXeZbdzVpm_xYBfHkRAr11T97qP46nEzj18WUFZp4QcDc-phe1rNPm-lTsiG8fgWRd2Tb3qnhn3rbWi4TdfARRo4hfAAI1JWPe-6YmQLMEx7qYetPjteP6XDIfvQQlqEZYAHgbfsvyLHUoyPpPfS0DUZZenYuWE3nN7YWkinODFQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter overview/table of contents from Stratechery, not the actual substantive article about Tim Cook's departure."
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Google Plans $40B Investment in Anthropic as AI Wars Heat Up",
+    "source": "Hacker News / Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is completely truncated and contains only Bloomberg's website navigation menu, making it impossible to verify the substance or accuracy of the claims about a $40B Google-Anthropic investment."
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "Pricing 'The Compute Theory of Everything' - Semiconductor Inflection Point",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/pricing-the-compute-theory-of-everything?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTUyOTM4NDgsImlhdCI6MTc3NzA0MDY4NywiZXhwIjoxNzc5NjMyNjg3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Yt94gzmsvs_oDJSSgnPBWMtenCke5sNo-OM9BC-AWXs",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong analytical depth on semiconductor valuations with investment-relevant insights about the 'compute theory of everything' thesis, matching the reader's strong preferences for data infrastructure and investment analysis."
+  },
+  {
+    "date": "2026-04-25",
+    "headline": "DeepSeek v4: China's Latest AI Model Breakthrough",
+    "source": "Hacker News",
+    "url": "https://api-docs.deepseek.com/news/news260424",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a marketing announcement/press release from DeepSeek rather than analytical journalism or technical reporting that provides independent assessment of the model's capabilities and implications."
   }
 ]
