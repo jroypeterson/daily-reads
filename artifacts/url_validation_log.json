@@ -178,5 +178,17 @@
       "substack_dropped": 0
     },
     "warned_articles": []
+  },
+  {
+    "date": "2026-04-26",
+    "checked_unique": 43,
+    "checked_slots": 44,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

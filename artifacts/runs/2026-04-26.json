@@ -1,0 +1,65 @@
+{
+  "run_date": "2026-04-26",
+  "generated_at": "2026-04-26T12:54:14Z",
+  "counts": {
+    "gmail_items": 124,
+    "tier2_items": 85,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e147b8269de31806",
+      "headline": "Generative AI in healthcare: Adoption matures as agentic AI emerges",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019dc06b718db5b3a4369ff0aab4/c878b1e30a5f42c90000021ef3a0bcc2/c878b1e3-0a5f-42c9-bcbe-2b46b6a4fae4",
+      "slot": 1,
+      "summary": "McKinsey's April 16 survey reveals that 50% of US healthcare organizations now actively use generative AI, marking a shift from experimentation to real-world deployment. The research highlights growing interest in 'agentic AI' systems that go beyond simple question-answering, with organizations seeing the greatest potential in administrative efficiency and clinical productivity improvements. Among early adopters, 64% report positive or anticipated ROI from their AI implementations.",
+      "why_it_matters": "Signals healthcare AI has reached mainstream adoption with measurable ROI, while agentic AI represents the next evolutionary leap that could transform operational efficiency across the sector.",
+      "signal_tags": [
+        "priority:high_source",
+        "AI_healthcare",
+        "data_infrastructure",
+        "investment_relevant_insights",
+        "healthcare_technology"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "215b6c3dbb48dda5",
+      "headline": "The Era of Tokenmaxxing",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-era-of-tokenmaxxing?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTUzOTAwNzYsImlhdCI6MTc3NzEyOTI0MiwiZXhwIjoxNzc5NzIxMjQyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ",
+      "slot": 2,
+      "summary": "Analysis of the emerging 'tokenmaxxing' trend where tech companies like Meta, Shopify, Microsoft and Salesforce are optimizing AI token usage through internal dashboards and competitions. The piece examines Shopify's data showing nearly 100% employee adoption of AI tools, highly skewed usage patterns, and explores the economic and strategic implications including potential workforce restructuring based on token consumption efficiency.",
+      "why_it_matters": "Reveals how major tech companies are managing AI computational costs and efficiency optimization, which could significantly impact their operational expenses, competitive positioning, and workforce strategies as AI adoption scales across enterprises.",
+      "signal_tags": [
+        "priority:high_source",
+        "ticker_match:META",
+        "AI_economics",
+        "investment_relevant_insights",
+        "data_infrastructure"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "953219a5d8cb7d87",
+      "headline": "Amateur armed with ChatGPT solves an Erd\u0151s problem",
+      "source": "Hacker News/Scientific American",
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+      "slot": 3,
+      "summary": "A 23-year-old amateur mathematician named Liam Price used ChatGPT Pro to solve a 60-year-old Erd\u0151s problem about primitive sets that had stumped professional mathematicians. The AI used a completely novel approach that experts hadn't considered, requiring human mathematicians to refine the proof but revealing a genuinely new mathematical insight. This represents a departure from previous AI mathematical achievements because it demonstrates original problem-solving methodology rather than just computational power.",
+      "why_it_matters": "Demonstrates AI's potential to democratize complex research and generate genuinely novel insights, with implications for how AI could accelerate discovery across scientific and technical fields beyond mathematics.",
+      "signal_tags": [
+        "AI_breakthrough",
+        "democratization_of_research",
+        "scientific_discovery",
+        "ChatGPT_applications"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}

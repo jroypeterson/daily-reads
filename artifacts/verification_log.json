@@ -943,5 +943,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a marketing announcement/press release from DeepSeek rather than analytical journalism or technical reporting that provides independent assessment of the model's capabilities and implications."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "FDA to accelerate its review of three psychedelic drugs",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/24/trump-psychedelic-drugs-fda-priority-review-mental-health-treatment/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a brief lead paragraph visible, making it impossible to assess substance or provide meaningful analysis for the reader."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Regeneron wins FDA approval for hearing loss gene therapy",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVpLGK21dtj-W1K5w6253hM--W44_bnN5NcNQhMSn_px5nR3bW8wM7ks6lZ3n0W3CBqMp5yqsvCW5YMJJ64GTg_0VsGCWb7qsq8NW8n_6FR6gQMd_W6f7lNt6RLf5qW7fXQmc7Q73LRN47yyhnqB2HSW7qrx7V2CMx0wW8GvrNz4Pj2h1W1H57Lf1H_qMKW6t7zJ24XvwcrW3f63z_7vCpgTW79vBrV3ydgjWW6856Sq8P9f5_W7rWz7D3clSP3W4hxZN-1NQVkTW4pNfgh4dlgVtW4QNBM41YZ7PMW7YHRCW3K-1s0W5lxlBM8zjnVdW30vqgv5cn60NW8DPRqn6FsswLN7QRgQmC8_lXW8QjCVd7bH1PVW88ChfK9bz-yVMz2qld9Kw9_W24z5B81nNYMbN6RxNzBz4XXQW20_Xtv7RL088V476hx7h8jgdM4P0P_mhJBgW3-wRKY5G3M8CVmznK091CrsHW38xT9M5Wg9CfW4RHqhC10K9q2W3zD6Dh4N-PVnW46D6v36zqx7ZW7WPWLX8BshWcW1M2qPq1hhBVMW7fy1_-2tkZN1W1QjWtJ3tnkzGW2zXH511-w6jJW5lVjFR4gnW11W1jh5Dz3hk1mrdP8TdC04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is just a brief newsletter blurb with minimal substance - only 4 sentences of actual content about the approval with no depth, analysis, or investment implications."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Generative AI in healthcare: Adoption matures as agentic AI emerges",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dc06b718db5b3a4369ff0aab4/c878b1e30a5f42c90000021ef3a0bcc2/c878b1e3-0a5f-42c9-bcbe-2b46b6a4fae4",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Strong match for healthcare/biotech slot with McKinsey's authoritative survey data on AI adoption reaching 50% penetration and emergence of agentic AI systems."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "He Came, He Saw, He Cooked (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/he-came-he-saw-he-cooked?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table of contents with brief summaries rather than substantive analysis, and doesn't fit Slot 2's finance/markets focus despite covering some relevant topics like Apple's CEO transition."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "The Era of Tokenmaxxing",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-era-of-tokenmaxxing?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTUzOTAwNzYsImlhdCI6MTc3NzEyOTI0MiwiZXhwIjoxNzc5NzIxMjQyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial analytical depth on AI computational economics at major tech companies with concrete data and strategic insights that align perfectly with the reader's preferences for data infrastructure, AI impact, and investment-relevant insights."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "Amateur armed with ChatGPT solves an Erd\u0151s problem",
+    "source": "Hacker News/Scientific American",
+    "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong match for Tech/AI slot with substantial depth on AI democratizing mathematical research, aligning with reader's preference for AI and biology intersection and analytical content."
+  },
+  {
+    "date": "2026-04-26",
+    "headline": "ChatGPT is so 2025 \u2014 here are the real AI gold mines for investors in 2026",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/the-chatbot-era-is-over-these-3-sectors-are-the-real-ai-gold-mines-for-2026-002372c7?mod=mw_rss_topstories",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to be thin investment content focused on generic AI sector predictions rather than substantive analysis, and lacks the depth or unique insights expected for the wildcard slot."
   }
 ]
