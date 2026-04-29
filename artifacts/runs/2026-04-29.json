@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-04-29",
+  "generated_at": "2026-04-29T13:34:34Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e6fa746166a65990",
+      "headline": "FDA Announces Major Steps to Implement Real-Time Clinical Trials",
+      "source": "FDA Press Releases",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-announces-major-steps-implement-real-time-clinical-trials",
+      "slot": 1,
+      "summary": "The FDA announced two proof-of-concept real-time clinical trials with AstraZeneca and Amgen that allow the agency to view safety signals and endpoints as trials progress, plus launched an RFI for a broader pilot program. The initiative aims to eliminate the traditional hiatus between clinical phases and could reduce overall trial development time by 20-40% according to the FDA's Chief AI Officer.",
+      "why_it_matters": "This represents a fundamental shift in drug development methodology that could significantly accelerate time-to-market for new therapies, directly impacting biotech valuations and development timelines across the industry.",
+      "signal_tags": [
+        "ticker_match:AZN,AMGN",
+        "regulatory_innovation",
+        "ai_healthcare",
+        "clinical_trials"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "b0bb96473bbc1c70",
+      "headline": "Tim Cook to Step Down as Apple CEO; John Ternus to Succeed",
+      "source": "Multiple sources",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "slot": 2,
+      "summary": "Tim Cook will step down as Apple CEO on September 1, 2026, transitioning to executive chairman while John Ternus, current SVP of Hardware Engineering, becomes the new CEO. Under Cook's 15-year tenure, Apple grew from $350B to $4T market cap with revenue nearly quadrupling to $416B, while expanding globally and launching major new categories like Apple Watch and Vision Pro. Ternus, a 25-year Apple veteran who worked under both Steve Jobs and Cook, will join the board as he takes over leadership.",
+      "why_it_matters": "This represents a pivotal leadership transition at the world's most valuable company, with Ternus's hardware engineering background potentially signaling Apple's strategic direction as it faces AI competition and seeks post-iPhone growth drivers.",
+      "signal_tags": [
+        "ticker_match:AAPL",
+        "leadership_transition",
+        "tech_leadership",
+        "corporate_governance"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

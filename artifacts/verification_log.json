@@ -1006,5 +1006,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article appears to be thin investment content focused on generic AI sector predictions rather than substantive analysis, and lacks the depth or unique insights expected for the wildcard slot."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "FDA Announces Major Steps to Implement Real-Time Clinical Trials",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-announces-major-steps-implement-real-time-clinical-trials",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial FDA announcement with concrete details about real-time clinical trials, specific company partnerships, and quantified potential benefits that align perfectly with Slot 1 healthcare criteria."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "Tim Cook to Step Down as Apple CEO; John Ternus to Succeed",
+    "source": "Multiple sources",
+    "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a major corporate governance story with significant market implications - Apple CEO transitions are rare, material events that affect the world's most valuable company and broader tech sector dynamics."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "The next age of fintech: AI, digital assets, and new paths to success",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dd09ec835bf563d369ff0aab4/d6df45e0608e413e0000021ef3a0bcc2/d6df45e0-608e-413e-9dd3-4d39d17d66e7",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, indicating the full article text wasn't successfully retrieved, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "Generative AI in healthcare: Adoption matures as agentic AI emerges",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dc06b718db5b3a4369ff0aab4/c878b1e30a5f42c90000021ef3a0bcc2/c878b1e3-0a5f-42c9-bcbe-2b46b6a4fae4",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article text provided is just a repeat of the headline and summary rather than actual article content, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "Greg Abel's First Annual Shareholder Letter as Berkshire CEO",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-328-greg-abel-2026",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article focuses on corporate governance and leadership transition at Berkshire Hathaway, which doesn't align with Slot 3's Tech/AI focus and lacks the technological depth expected for that slot."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "Roblox: Aggregating the Attention of Next Generation",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/roblox-aggregating-the-attention",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a traditional business/gaming platform analysis that doesn't qualify for the Tech/AI slot as it lacks meaningful AI or breakthrough technology content."
+  },
+  {
+    "date": "2026-04-29",
+    "headline": "He Came, He Saw, He Cooked: This Week in Stratechery",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/he-came-he-saw-he-cooked",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest/roundup with brief topic summaries rather than substantive analysis, lacking the depth and actionable insights expected for the selection criteria."
   }
 ]
