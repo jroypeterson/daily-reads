@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-04-30",
+  "generated_at": "2026-04-30T13:30:11Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "4e7e1a3a361a36d4",
+      "headline": "Regeneron wins landmark FDA approval for first gene therapy treating hearing loss",
+      "source": "FDA / Multiple",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
+      "slot": 1,
+      "summary": "The FDA approved Regeneron's Otarmeni, the first-ever gene therapy for genetic hearing loss, using a dual AAV vector to treat children and adults with OTOF gene mutations. The approval came through an accelerated 61-day review under the National Priority Voucher program, with clinical trial data showing 80% of patients experienced improved hearing. This marks the first disease-modifying treatment for OTOF-related deafness, which affects 2-8% of inherited hearing loss cases.",
+      "why_it_matters": "This landmark approval validates Regeneron's gene therapy platform in a new therapeutic area and could signal the beginning of a broader sensory restoration market, with potential applications beyond hearing loss.",
+      "signal_tags": [
+        "priority:high",
+        "fda_approval",
+        "gene_therapy_breakthrough",
+        "ticker_match:REGN",
+        "pediatric_indication"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "8c41c3da876ded85",
+      "headline": "Getting NIH funds is more competitive \u2014 and confusing \u2014 than ever",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/04/30/nih-grant-funding-national-stat-survey-impact-labs-careers/?utm_campaign=rss",
+      "slot": 2,
+      "summary": "NIH grant success rates have plummeted to just 13% under new budgeting strategies and policy changes, forcing academic researchers to spend more time on grant applications while many labs face funding crises. A STAT survey of nearly 1,000 researchers found 45% experienced grant delays and 43% cancelled research projects, with the agency spending 30% less than normal at this point in the fiscal year.",
+      "why_it_matters": "Severe NIH funding constraints could reshape the biomedical innovation landscape, potentially driving more academic talent toward industry partnerships and affecting the pipeline of early-stage research that feeds into drug development.",
+      "signal_tags": [
+        "research_funding",
+        "biotech_ecosystem",
+        "academic_research"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

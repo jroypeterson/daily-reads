@@ -1069,5 +1069,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a weekly newsletter digest/roundup with brief topic summaries rather than substantive analysis, lacking the depth and actionable insights expected for the selection criteria."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "FDA launches effort to speed up clinical trials with AI",
+    "source": "FDA / STAT News",
+    "url": "https://www.statnews.com/2026/04/28/fda-real-time-clinical-trials-pilot-project-astrazeneca-amgen-cancer-drugs/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just two paragraphs, providing insufficient substance to evaluate depth or accuracy of the summary claims about 20-40% timeline reductions."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Regeneron wins landmark FDA approval for first gene therapy treating hearing loss",
+    "source": "FDA / Multiple",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial FDA approval announcement with significant depth, covering a first-in-class gene therapy that opens a new therapeutic category with clear investment implications for Regeneron."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Federal autism committee, remade by RFK Jr., defines 'profound autism'",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/28/federal-autism-advisory-committee-profound-autism-new-definition/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While substantial, this is primarily a healthcare/regulatory story about autism research policy rather than finance/markets content, and doesn't fit Slot 2's focus on macro moves, earnings, or market dynamics."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "It's a Blowout Earnings Season. Is That Bad?",
+    "source": "WSJ Markets AM",
+    "url": "https://www.wsj.com/finance/stocks/its-a-blowout-earnings-season-heres-why-that-might-be-a-bad-sign-465237cd?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, indicating the full article wasn't actually fetched, and the topic appears to be generic market commentary without the depth or specificity needed for selection."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Getting NIH funds is more competitive \u2014 and confusing \u2014 than ever",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/30/nih-grant-funding-national-stat-survey-impact-labs-careers/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on NIH funding challenges with concrete data (13% success rate, 30% underspending) and fits Slot 2's finance/markets focus through its analysis of funding dynamics affecting the biomedical sector."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Spotify 1Q'26: Recalibrating Expectations",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/spotify-1q26-recalibrating-expectations",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a shallow teaser post with minimal analysis that's mostly paywalled, focused on short-term stock movements rather than tech/AI innovation, and doesn't match Slot 3 criteria."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "Lilly's deal spree reaches 10-year high with $21B spent",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWzDsl1vZrvhW1vfY0b4Qh_hfW2dmkKk5NrP5zN5QLhTq5nR3bW7Y9pgv6lZ3l7W8KbL4p50gjLqW4pjKM55WLrCBW3vLBTc5TklkxW2jv3GK2NDbCLW1vJyjy888xTWW76mf1W1dJYdKVh5gH597QQF2W2kxHdL492CVSW34c1Zl21bDCZW7PnYQY8x4b1JW7KrYFn60LKGLW56LwRb56R-dzW1XnSH82fs9rMW3x8vdc36dxFfW7v-3Zw6c14GYW975Tjg3Wx-HtN7m0CTpmtR3GVcdFyM1rK4X5N308FmtrZNXwW8SBbKN36NW-nW1bMRmZ6JmTPgW6_B6vs3XY09FW7QHbry5JBwdPW1K58Wv2GlWH4W7XXSkN27C0prW4Dtx7p4F-7FTW7fH_gg6nJMt7W7K9W9q94MT85W2WzW4z97QQM_W6_M7Ss1Jy-fJW6BqZDl52C0gCW4FWhfG3HhRdkW8HL-RS7m5-bmW1LFSwQ2f5zNvW7RDq3y8VljNlW8VhLkd2cmfHjW6gg_1_1fvCC5W31z4GS8WY8B-W5sqgDn9lZ_D4W46P9Px7Zcy0YW5VJ7vZ2nFXK2W5cLZDY3ytT73d7YYX204",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is for Slot 1 (Healthcare/Biopharma) not Slot 3 (Tech/AI), and the content is actually just a newsletter roundup with brief summaries rather than a substantive analysis of Lilly's M&A strategy."
+  },
+  {
+    "date": "2026-04-30",
+    "headline": "The next age of fintech: AI, digital assets, and new paths to success",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dd09ec835bf563d369ff0aab4/d6df45e0608e413e0000021ef3a0bcc2/d6df45e0-608e-413e-9dd3-4d39d17d66e7",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot verify article substance or accuracy since the full content was not successfully fetched, and given the reader's pattern of avoiding paywalled content, this should be rejected."
   }
 ]

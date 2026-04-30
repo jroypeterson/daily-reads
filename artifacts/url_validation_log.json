@@ -208,5 +208,23 @@
         "url": "http://www.fda.gov/news-events/press-announcements/fda-announces-major-steps-implement-real-time-clinical-trials"
       }
     ]
+  },
+  {
+    "date": "2026-04-30",
+    "checked_unique": 52,
+    "checked_slots": 53,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "FDA / Multiple",
+        "headline": "Regeneron wins landmark FDA approval for first gene therapy treating hearing loss",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher"
+      }
+    ]
   }
 ]
