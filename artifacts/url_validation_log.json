@@ -226,5 +226,23 @@
         "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher"
       }
     ]
+  },
+  {
+    "date": "2026-05-01",
+    "checked_unique": 62,
+    "checked_slots": 63,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "FDA Press Releases",
+        "headline": "FDA Approves First Non-Antipsychotic Drug to Treat Agitation Associated with Dementia",
+        "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-non-antipsychotic-drug-treat-agitation-associated-dementia"
+      }
+    ]
   }
 ]

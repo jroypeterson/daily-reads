@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-05-01",
+  "generated_at": "2026-05-01T13:08:47Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 89,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "7b8b5601aec940fd",
+      "headline": "FDA Approves First Non-Antipsychotic Drug to Treat Agitation Associated with Dementia",
+      "source": "FDA Press Releases",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-non-antipsychotic-drug-treat-agitation-associated-dementia",
+      "slot": 1,
+      "summary": "The FDA expanded approval for Auvelity (dextromethorphan/bupropion) to treat agitation in Alzheimer's dementia patients, making it the first non-antipsychotic option for this indication. The approval was based on two randomized trials showing efficacy and received breakthrough therapy designation. Auvelity was originally approved in 2022 for major depressive disorder.",
+      "why_it_matters": "This creates a new therapeutic category addressing a major unmet need in dementia care, potentially opening significant market opportunities for Axsome Therapeutics given the aging population and limitations of current antipsychotic treatments.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

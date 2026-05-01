@@ -1,0 +1,270 @@
+{
+  "period_start": "2026-04-25",
+  "period_end": "2026-05-01",
+  "generated_at": "2026-05-01T13:08:57.973972+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 643,
+    "total_tier2_items": 444,
+    "days_with_runs": 5,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 20
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 5
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 13
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 11
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 9
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 53
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 16
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 25
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 10,
+    "articles_per_day": [
+      1,
+      2,
+      2,
+      3,
+      2
+    ],
+    "avg_articles_per_day": 2.0,
+    "verified_pass": 10,
+    "verified_fail": 26,
+    "fail_reasons": [
+      "The article content provided is just a repetition of the summary with no actual substantive details, making it impossible to verify depth or accuracy for the target finance/macro slot.",
+      "This is just a newsletter overview/table of contents from Stratechery, not the actual substantive article about Tim Cook's departure.",
+      "The article content is completely truncated and contains only Bloomberg's website navigation menu, making it impossible to verify the substance or accuracy of the claims about a $40B Google-Anthropic investment.",
+      "This is a marketing announcement/press release from DeepSeek rather than analytical journalism or technical reporting that provides independent assessment of the model's capabilities and implications.",
+      "The article is paywalled with only a brief lead paragraph visible, making it impossible to assess substance or provide meaningful analysis for the reader.",
+      "The article is just a brief newsletter blurb with minimal substance - only 4 sentences of actual content about the approval with no depth, analysis, or investment implications.",
+      "This is a newsletter table of contents with brief summaries rather than substantive analysis, and doesn't fit Slot 2's finance/markets focus despite covering some relevant topics like Apple's CEO transition.",
+      "The article appears to be thin investment content focused on generic AI sector predictions rather than substantive analysis, and lacks the depth or unique insights expected for the wildcard slot.",
+      "The article content provided is identical to the shortlist summary, indicating the full article text wasn't successfully retrieved, making it impossible to verify substance or accuracy.",
+      "The article text provided is just a repeat of the headline and summary rather than actual article content, making it impossible to verify substance or accuracy."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 16,
+      "jina": 9,
+      "tavily": 2,
+      "snippet_fallback": 9
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Scuttleblurb": 5,
+      "A Letter a Day": 5,
+      "Biotech Primer": 5,
+      "Value Investors Insight": 1,
+      "MBI": 5,
+      "The Transcript": 5
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 5,
+    "checked_slots": 277,
+    "total_broken": 3,
+    "surfaces": {
+      "article_warnings": 3,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": [
+      [
+        "FDA Press Releases",
+        2
+      ],
+      [
+        "FDA / Multiple",
+        1
+      ]
+    ]
+  }
+}

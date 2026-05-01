@@ -1141,5 +1141,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "Cannot verify article substance or accuracy since the full content was not successfully fetched, and given the reader's pattern of avoiding paywalled content, this should be rejected."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "FDA Launches Effort to Speed Up Clinical Trials with AI",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/04/28/fda-real-time-clinical-trials-pilot-project-astrazeneca-amgen-cancer-drugs/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just two paragraphs, providing only basic details about two specific trials without the substantive analysis promised in the shortlist summary."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "McKinsey: Reimagining Tech Infrastructure for (and with) Agentic AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019ddec84518960d56369ff04b6c/51fdeb647e8e4eac0000021ef3a0bcc2/51fdeb64-7e8e-4eac-9bac-881f8653afa3",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is just a McKinsey homepage with navigation links and promotional content, not an actual article about agentic AI infrastructure."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Meta 1Q'26: Nothing to Complain About",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-1q26-nothing-to-complain-about",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a detailed Meta earnings analysis focused on advertising revenue and stock performance, which belongs in Slot 2 (Finance/Markets) rather than Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "The Era of Tokenmaxxing",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-era-of-tokenmaxxing",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article about AI token optimization strategies at tech companies doesn't fit Slot 1 (Healthcare/Biotech) and lacks any healthcare or biopharma relevance."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Stratechery: He Came, He Saw, He Cooked (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/he-came-he-saw-he-cooked",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter roundup that doesn't fit Slot 1 (Healthcare/Biotech) criteria and lacks the healthcare/biopharma focus required for the target slot."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "FDA Approves First Non-Antipsychotic Drug to Treat Agitation Associated with Dementia",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-non-antipsychotic-drug-treat-agitation-associated-dementia",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This FDA approval of the first non-antipsychotic treatment for dementia-related agitation represents a significant regulatory milestone with clear investment and market implications for Axsome Therapeutics and the broader dementia care sector."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "McKinsey: Generative AI in Healthcare - Adoption Matures as Agentic AI Emerges",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dc06b718db5b3a4369ff0aab4/c878b1e30a5f42c90000021ef3a0bcc2/c878b1e3-0a5f-42c9-bcbe-2b46b6a4fae4",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, suggesting no actual article text was retrieved, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-05-01",
+    "headline": "Lilly's Deal Spree Reaches 10-Year High with $21B Spent",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWzDsl1vZrvhW1vfY0b4Qh_hfW2dmkKk5NrP5zN5QLhTq5nR3bW7Y9pgv6lZ3l7",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content shows only the headline and summary without the actual substantive article text, making it impossible to verify depth or accuracy of the claims about Lilly's $21B acquisition spree."
   }
 ]
