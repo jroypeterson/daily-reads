@@ -244,5 +244,17 @@
         "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-non-antipsychotic-drug-treat-agitation-associated-dementia"
       }
     ]
+  },
+  {
+    "date": "2026-05-02",
+    "checked_unique": 58,
+    "checked_slots": 59,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

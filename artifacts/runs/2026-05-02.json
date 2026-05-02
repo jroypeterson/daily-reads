@@ -1,0 +1,64 @@
+{
+  "run_date": "2026-05-02",
+  "generated_at": "2026-05-02T12:56:24Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 88,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e3accd5ef2abff6c",
+      "headline": "FDA approves first-ever PROTAC drug Veppanu from Arvinas and Pfizer for breast cancer",
+      "source": "BioPharma Dive / Endpoints News",
+      "url": "https://www.biopharmadive.com/news/arvinas-pfizer-fda-approve-veppanu-vepdegestrant-breast-cancer/819108/",
+      "slot": 1,
+      "summary": "The FDA approved Arvinas and Pfizer's Veppanu, the first-ever PROTAC (protein degradation) drug to reach market, for treating ESR1-mutated breast cancer patients. Despite the regulatory milestone validating a new drug class, the companies are seeking a third-party partner due to competitive market dynamics and uncertain commercial prospects against existing oral hormone-degrading drugs from Lilly and Menarini.",
+      "why_it_matters": "This approval validates protein degradation as a viable therapeutic approach beyond traditional drug mechanisms, potentially opening new treatment paradigms across oncology and neurological diseases, while Arvinas' 7% stock jump reflects immediate investor recognition of this scientific breakthrough.",
+      "signal_tags": [
+        "ticker_match:ARVN",
+        "ticker_match:PFE",
+        "priority:tier2",
+        "catalyst_proximity",
+        "novelty"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "e0511cde28642b57",
+      "headline": "MBI Deep Dives: Alphabet Q1'26 reaches stratospheric heights with five consecutive quarters of growth acceleration",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/alphabet-1q26-stratospheric-heights",
+      "slot": 2,
+      "summary": "MBI Deep Dives provides detailed analysis of Alphabet's Q1 2026 earnings, showing five consecutive quarters of accelerating revenue growth (~19% for Google Search) driven by AI enhancements across business lines. Google Cloud was the standout performer with operating income tripling year-over-year to reach 32.9% operating margin, while Google Services hit record 45.3% operating margins.",
+      "why_it_matters": "Provides institutional-quality financial analysis of one of the market's most important AI beneficiaries, with specific metrics on how AI is driving both revenue growth and margin expansion across Alphabet's business segments.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:GOOG",
+        "earnings_catalyst",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "784ce3ce451f08a1",
+      "headline": "AI startup reaches ChatGPT moment: Eka's robotic claw breakthrough suggests hardware inflection point",
+      "source": "Hacker News / Wired",
+      "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
+      "slot": 3,
+      "summary": "Eka Robotics has developed robotic manipulation technology that demonstrates unprecedented dexterity, able to naturally handle delicate tasks like screwing in light bulbs that have stumped other commercial robot arms. The startup's approach builds on lessons from OpenAI's abandoned Dactyl project, using improved simulation-to-reality techniques to achieve fluid, natural-seeming robotic movement that could unlock broader automation applications beyond current factory/warehouse use cases.",
+      "why_it_matters": "Hardware breakthroughs in robotics represent massive market opportunities given the trillions of dollars that flow through manual dexterity, and this suggests we may be approaching an inflection point where practical robotic automation becomes viable for retail, restaurants, and even households.",
+      "signal_tags": [
+        "AI_impact",
+        "breakthrough_technology",
+        "robotics",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

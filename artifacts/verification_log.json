@@ -1213,5 +1213,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article content shows only the headline and summary without the actual substantive article text, making it impossible to verify depth or accuracy of the claims about Lilly's $21B acquisition spree."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "FDA approves first-ever PROTAC drug Veppanu from Arvinas and Pfizer for breast cancer",
+    "source": "BioPharma Dive / Endpoints News",
+    "url": "https://www.biopharmadive.com/news/arvinas-pfizer-fda-approve-veppanu-vepdegestrant-breast-cancer/819108/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial healthcare/biotech story with strong investment implications, covering the first-ever PROTAC drug approval which validates an entirely new therapeutic class, plus it involves coverage universe tickers (Arvinas/Pfizer) with immediate market impact."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Stratechery Weekly: Long-term, Peripheral & Myopic Visions on AI, AR, and Beijing's strategic missteps",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief teasers, not substantive articles with actual analysis or insights."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Meta Q1 2026: Record revenue growth but shares sink on massive AI spending increase to $145B",
+    "source": "CNBC / Multiple sources",
+    "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a generic earnings report that lacks the depth and analytical insights the reader prefers, focusing on short-term stock movements rather than strategic implications."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "McKinsey: The future is shared - Financing task-sharing programs in mental health",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019de3f33591bceee96e966eb1e0/89f92145c5484e4a0000021ef3a0bcc2/89f92145-c548-4e4a-8839-8048727951f8",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the shortlist summary, indicating no full article was available for evaluation, and McKinsey content doesn't fit the finance/macro slot criteria which prioritizes market moves, earnings, and sector dynamics."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "FDA permits expanded access for Revolution Medicines' pancreatic cancer drug daraxonrasib",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-permits-expanded-access-investigational-pancreatic-cancer-drug",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin FDA press release that lacks the financial/market analysis depth required for Slot 2, and doesn't provide meaningful investment insights beyond basic regulatory news."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "MBI Deep Dives: Alphabet Q1'26 reaches stratospheric heights with five consecutive quarters of growth acceleration",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-1q26-stratospheric-heights",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep-dive analysis of Alphabet's Q1 2026 earnings with detailed financial metrics, margin analysis, and strategic insights that aligns well with Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "AI startup reaches ChatGPT moment: Eka's robotic claw breakthrough suggests hardware inflection point",
+    "source": "Hacker News / Wired",
+    "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a robotics breakthrough with strong technical detail, covers AI/hardware convergence perfectly suited for Slot 3, and aligns with the reader's interest in AI and biology intersection plus data infrastructure themes."
+  },
+  {
+    "date": "2026-05-02",
+    "headline": "Summit Therapeutics stumbles on 'self-inflicted' trial decision while Esperion gets $1.1B buyout offer",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/summit-ivonescimab-esperion-axsome-alzheimers-astrazeneca-camizestrant/819031/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin news roundup covering four disconnected biotech stories without the analytical depth or cross-domain insights expected for the Wildcard slot."
   }
 ]
