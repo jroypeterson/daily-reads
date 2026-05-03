@@ -1285,5 +1285,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a thin news roundup covering four disconnected biotech stories without the analytical depth or cross-domain insights expected for the Wildcard slot."
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "FDA Approves First-Ever PROTAC Drug Veppanu for Breast Cancer",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercepharma.com/pharma/fda-hands-pfizer-arvinas-veppanu-early-approval-certain-breast-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article has strong substance covering a landmark FDA approval that creates a new drug class (PROTAC), includes specific clinical data, commercial context, and stock impact - perfectly fitting Slot 1 healthcare criteria."
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Long-term, Peripheral & Myopic Visions (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter digest/table of contents rather than substantive analysis, lacking the depth and actionable insights expected for Slot 2 finance/macro coverage."
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Reimagining tech infrastructure for agentic AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/reimagining-tech-infrastructure-for-and-with-agentic-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the summary, suggesting the full article wasn't actually retrieved, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Amazon 1Q'26: Rosy Near-term but 'Cloudy' Long-term",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/amazon-1q26-rosy-near-term-but-cloudy",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, data-driven analysis of Amazon's Q1 2026 earnings with detailed financial metrics and strategic insights that fits perfectly in the Finance/Macro slot."
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Federal appeals court blocks mailing of abortion pill mifepristone",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/02/mifepristone-abortion-pill-court-ruling-mailing-blocked/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory/legal ruling about abortion access that doesn't fit Slot 3 (Tech/AI) criteria and lacks the technology or AI focus required for this slot."
+  },
+  {
+    "date": "2026-05-03",
+    "headline": "Chinese stocks are about to get a big AI boost, Morgan Stanley predicts",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/05/03/chinese-stocks-are-about-to-get-a-big-ai-boost-morgan-stanley-predicts/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 error and no actual content is available to evaluate for substance or accuracy."
   }
 ]

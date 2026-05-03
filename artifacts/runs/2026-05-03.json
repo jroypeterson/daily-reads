@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-05-03",
+  "generated_at": "2026-05-03T12:57:39Z",
+  "counts": {
+    "gmail_items": 126,
+    "tier2_items": 82,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b074ecac204b33d9",
+      "headline": "FDA Approves First-Ever PROTAC Drug Veppanu for Breast Cancer",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercepharma.com/pharma/fda-hands-pfizer-arvinas-veppanu-early-approval-certain-breast-cancer",
+      "slot": 1,
+      "summary": "The FDA approved Veppanu (vepdegestrant) from Pfizer and Arvinas, marking the first-ever approval of a PROTAC protein degrader therapy for ESR1-mutated breast cancer. The drug reduced disease progression risk by 43% versus standard care in phase 3 trials, though it failed in the broader unselected population. The companies are seeking a third-party partner for commercialization following the mixed clinical results.",
+      "why_it_matters": "This breakthrough validates an entirely new therapeutic class (protein degraders) that could transform drug development across oncology and other diseases, while demonstrating how biotech innovation translates to commercial reality.",
+      "signal_tags": [
+        "ticker_match:PFE",
+        "ticker_match:ARVN",
+        "catalyst_proximity",
+        "high_priority_source",
+        "novelty"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "4f78a6dac7cb951f",
+      "headline": "Amazon 1Q'26: Rosy Near-term but 'Cloudy' Long-term",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/amazon-1q26-rosy-near-term-but-cloudy",
+      "slot": 2,
+      "summary": "Deep dive into Amazon's Q1 2026 earnings shows AWS accelerated to 28% growth (highest in 15 quarters) while retail business demonstrated strong operating leverage with 15% unit growth despite declining average prices. However, Amazon's advertising business is losing incremental share to Google, potentially due to structural disadvantages in the AI era where bottom-funnel ads (Amazon's strength) benefit less from AI than mid-funnel search ads (Google's domain).",
+      "why_it_matters": "Provides nuanced investment thesis on Amazon's current strength in cloud/AI infrastructure while identifying a potential structural weakness in advertising that could impact long-term profitability and competitive positioning.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:AMZN",
+        "analytical_depth",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
