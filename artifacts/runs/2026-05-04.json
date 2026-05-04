@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-05-04",
+  "generated_at": "2026-05-04T13:30:54Z",
+  "counts": {
+    "gmail_items": 133,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "79f533965c9f1306",
+      "headline": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+      "source": "Harvard Medical School",
+      "url": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study",
+      "slot": 1,
+      "summary": "A Harvard study published in Science found that OpenAI's o1 model outperformed physicians in emergency room diagnostic accuracy across multiple tests, correctly diagnosing 67% of triage cases versus 50-55% for doctors. The AI excelled particularly in rare disease diagnosis and complex medical reasoning tasks, using real patient data from Beth Israel and Mass General hospitals. Researchers emphasize this suggests AI-physician partnership rather than replacement, with urgent need for prospective clinical trials.",
+      "why_it_matters": "This represents a landmark validation of AI diagnostic capabilities in real clinical settings, potentially accelerating adoption of LLMs for clinical decision support and reshaping how medical diagnosis is approached in emergency departments.",
+      "signal_tags": [
+        "ai_healthcare_breakthrough",
+        "regulatory_implications",
+        "ticker_match:HCAT",
+        "clinical_validation"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "a798802e361e4d0d",
+      "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+      "slot": 2,
+      "summary": "Deep analysis of Microsoft's Q3 FY26 earnings reveals that despite the company's multi-model AI strategy narrative, 90% of Azure AI Foundry customers still use only one model, contradicting Microsoft's positioning. The piece examines the growing tension between Microsoft's desire for model commoditization and AI labs' efforts to integrate models more tightly with their infrastructure layers.",
+      "why_it_matters": "Microsoft's AI strategy serves as a bellwether for the broader tech sector's approach to AI infrastructure investment, and this analysis reveals potential cracks in the multi-model thesis that could impact how enterprises adopt AI and how cloud providers monetize these massive infrastructure investments.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:MSFT",
+        "ai_investment_analysis",
+        "earnings_analysis"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

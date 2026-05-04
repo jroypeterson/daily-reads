@@ -1339,5 +1339,59 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article URL returns a 404 error and no actual content is available to evaluate for substance or accuracy."
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "UCB to acquire Candid in $2.2B bet on bispecifics for autoimmune diseases",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/ucb-bets-2-billion-on-candids-t-cell-engager-ambitions/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is completely truncated and consists almost entirely of cookie consent preferences rather than the actual M&A story, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors",
+    "source": "Harvard Medical School",
+    "url": "https://www.harvardmagazine.com/ai/ai-outperforms-doctors-diagnosis-harvard-study",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial, well-researched study from Harvard published in Science that demonstrates a significant AI breakthrough in healthcare diagnostics with clear clinical implications."
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep-dive analysis of Microsoft's earnings that reveals important strategic insights about AI monetization challenges and customer adoption patterns, perfectly fitting Slot 2's finance/markets focus with tech crossover appeal."
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Long-term, Peripheral & Myopic Visions (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2xvbmctdGVybS1wZXJpcGhlcmFsLW15b3BpYy12aXNpb25zLyJdfSwiZXhwIjoxNzgwMjQ3MDM4LCJpYXQiOjE3Nzc2NTUwMzgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.Rb_40VbJpMgzKMQjeAgP0MIJzDE4oDoFNkdcZyLkqPgVS3LWExB_6Gvgr1TaWroyonaBexB3V4K-sYJCgMrTK2a_GTqg-ujH5itdIj1BcJVaQyD2KJ3MC3osLKAe3-ABrSPauwyn5DbZVDNgBFNQgUxozMXVMtbR2XXRla_CTy5hHzumjh-JPizUXKj3zF7aj99MjMiaeMulhHRE08go60JNKQkrtE_0WXeJVyM7ZhPMoKL98-Y0az1-vb4NPqNO43OFTr-nNOTcoVtm_tpsHbYcR77XxTgE8UyL9gx7Ir6DCH899eSiGqzsMy284y7_BXvWXWkIICWjJdUV115fdQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table of contents with brief summaries rather than substantive analysis, lacking the depth expected for Slot 3 tech/AI content."
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "The week in charts",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dea26bb3a913fb6f4bbe5be68/c03fb3bc1d4e41ea0000021ef3a0bcc2/c03fb3bc-1d4e-41ea-a2c9-dd41a71d4fe2?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oXvY1TedyJq9c2E7sWfsusHhcv0geNmJdNyMKXovdvN5AcT6dWR9lEIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This appears to be a generic weekly chart roundup without the substantive AI/tech content needed for Slot 3, and lacks the depth and actionability the reader prefers."
+  },
+  {
+    "date": "2026-05-04",
+    "headline": "Future Advantage Will Be Built on AI. Lead It.",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGhh8BvyOGWxhPp7G27b2a2XaEw2wvX0MRSYcar_M93HHRAi92qlLva0kFqts8-sIsjMYoz20Y=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a BCG newsletter template with article thumbnails and links, not an actual substantive article with readable content."
   }
 ]
