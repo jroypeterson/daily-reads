@@ -1393,5 +1393,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is just a BCG newsletter template with article thumbnails and links, not an actual substantive article with readable content."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "UCB snaps up Candid in $2.2B autoimmune deal",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWT9zs2_bgTBW3T8QgW1vnVYzW7xsyK95NG5_1N2dmMw-5nR3bW7lCGcx6lZ3ptW9bvFSh7N7hMmN5TvmpqNZt9BW7G-JHx5kyhHBW8qQZG77WDZzHW1T1qxx87r-xdW5MmcBt1rwV1sW4MW6GM8YMZznW26wKCL7znzTcW1mhVcR5Q9ZXhW8VCQB64_WqB9W7MbNGC8CbZ9qW1kJ9YT8YCxFCV-DW3W5-xSCKW2hff3B12w7P_W1zgNHw54WQk8W4hvS_v47ZjrhW65fBFM49g-myVySMM863w7pPW7cxyrf6lblPjW7D1mBf3_bNR1W1qLpXv7M7N7BW8Yj6Pg7hVr0jW6TZwFD3g-h3zW57H3l_3vpPmTW5GSFwj1RzPBqN8jCHwV8gtHPN2jT2nzw78TWW7mLQjb6wtsfqW5-FNzn89RhT9W6Tt6b26-5fSvW4vMqm37Wwp5TW8tbP0z3GnzNqN16-Gkr79F53W2SqRhy7hVd1ZW1PnmLt1KshhHW4yRCFB29PGFWW5WrpmR1xwgj3W2v7-dK6lZMH2W1Rn-J83nnFHYW1s0Hhl6T8Fmnf3Bwfnx04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter digest format with multiple brief story summaries rather than a single substantial article about the UCB-Candid deal."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Pfizer, Arvinas score 1st PROTAC nod with Veppanu in breast cancer",
+    "source": "Fierce Pharma",
+    "url": "https://www.fiercepharma.com/pharma/fda-hands-pfizer-arvinas-veppanu-early-approval-certain-breast-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a genuine breakthrough - the first FDA-approved PROTAC therapy - with specific clinical data, market context, and forward-looking implications for protein degradation medicine."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides deep analytical insights into Microsoft's AI strategy evolution and enterprise AI adoption patterns, fitting Slot 2's finance/markets focus with strong analytical depth."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Rewired, second edition: What's changed\u2014and what hasn't",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019df3cf1d09b368196e96c660f0/8fc8c403fdfb406c0000021ef3a0bcc2/8fc8c403-fdfb-406c-b559-e1f5bdb2539d?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8phZ-baB94PE4jKIilZNpQwPuL14NDnGm9jpQcKnDXPmUpqyWtsebckIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is just a repeat of the headline and summary with no actual substance provided, making it impossible to verify depth or strategic value."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Strong Growth",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/05-04-2026-strong-growth?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTY0MDQ5MDksImlhdCI6MTc3Nzg5NDQyOSwiZXhwIjoxNzgwNDg2NDI5LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Jmp9oHNGb24c-wVPv0VmGhBUTQLlgc7vCpGBE4b5Ka4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a finance/markets article focused on earnings analysis and economic growth patterns, not a tech/AI piece suitable for Slot 3."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Reimagining tech infrastructure for (and with) agentic AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019ddec84518960d56369ff04b6c/51fdeb647e8e4eac0000021ef3a0bcc2/51fdeb64-7e8e-4eac-9bac-881f8653afa3?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8r8FyRWQnlK6JcNHi-TPmZpcufncki7njMzjMRQA8j8Piil6NWczWxNIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repeat of the headline and summary rather than actual article text, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Healthcare organizations are increasingly building their own AI tools",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/healthcare-organizations-are-increasingly-building-their-own-ai-tools/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a teaser paragraph visible, making it impossible to verify substance or depth beyond the headline."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Trump ICE policies fuel scientific brain drain",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VVzkxf4bcnz1W3nGLmj8Y93-YW6R-97G5NGDz0N4-lLgT3qgz0W7lCdLW6lZ3pVW5jXscD2n9tW7W8h9CC120v-kmVgdM_l8wDYBWW6S3h9f5GkKmpW8SbJD71h_6-fW2qKsws5PM-y2W7kHxTH5-NRsZW35dNkn3xxJ6sVsl64M2SmPwZW8DjNTr44Cyn3W36tfDf3-QR7RW55Pb7K8Gb8MkW8pv9y26LTKB3W5vC6LX2GlcnTVWstFc7T16dvW25PlSn6FcB86W5t347d1FYWP4W16pzFH3DjKJ-W69w4681JkPLFW2pG_5l6d5z2gW5n8l9D7mjvGZW4xSRsW791RzcW4x1YQh6tgvZ8W5xj4rt6V2-k9f5LDS0404",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywalled subscription page, not the actual article content, so there's no substance to evaluate for the Tech/AI slot."
   }
 ]

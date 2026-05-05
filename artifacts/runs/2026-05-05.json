@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-05-05",
+  "generated_at": "2026-05-05T13:26:44Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "142a6a6c35d787c4",
+      "headline": "Pfizer, Arvinas score 1st PROTAC nod with Veppanu in breast cancer",
+      "source": "Fierce Pharma",
+      "url": "https://www.fiercepharma.com/pharma/fda-hands-pfizer-arvinas-veppanu-early-approval-certain-breast-cancer",
+      "slot": 1,
+      "summary": "The FDA approved Veppanu (vepdegestrant), the first-ever PROTAC (protein degrader) therapy, for ER-positive breast cancer patients with ESR1 mutations, showing 43% reduction in disease progression risk versus standard care. Despite this milestone, Pfizer and Arvinas are seeking a third-party partner to commercialize the drug following mixed phase 3 results that limited its market potential.",
+      "why_it_matters": "This validates an entirely new drug modality that degrades proteins rather than just blocking them, potentially opening therapeutic pathways across oncology and neurological diseases while establishing proof-of-concept for the broader PROTAC platform.",
+      "signal_tags": [
+        "ticker_match:PFE",
+        "ticker_match:ARVN",
+        "novelty",
+        "regulatory_milestone"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "a798802e361e4d0d",
+      "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+      "slot": 2,
+      "summary": "MBI Deep Dives analyzes Microsoft's Q3 2026 earnings, revealing that despite Microsoft's push for multi-model AI environments, 90% of their Azure AI Foundry customers still use just one model. The piece explores the tension between Microsoft's desire to commoditize AI models through multi-model strategies versus AI labs' efforts to integrate models more tightly with their harness layers.",
+      "why_it_matters": "This analysis cuts through Microsoft's earnings narrative to reveal actual enterprise AI adoption patterns and the strategic battle over AI infrastructure standardization, providing crucial insights for investors evaluating the sustainability of cloud providers' AI strategies.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:MSFT",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
