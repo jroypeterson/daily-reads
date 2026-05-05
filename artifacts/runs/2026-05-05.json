@@ -1,9 +1,9 @@
 {
   "run_date": "2026-05-05",
-  "generated_at": "2026-05-05T13:26:44Z",
+  "generated_at": "2026-05-05T22:20:09Z",
   "counts": {
-    "gmail_items": 128,
-    "tier2_items": 90,
+    "gmail_items": 143,
+    "tier2_items": 89,
     "selected_articles": 2
   },
   "feedback_summary": {
@@ -12,33 +12,32 @@
   },
   "articles": [
     {
-      "article_id": "142a6a6c35d787c4",
-      "headline": "Pfizer, Arvinas score 1st PROTAC nod with Veppanu in breast cancer",
-      "source": "Fierce Pharma",
-      "url": "https://www.fiercepharma.com/pharma/fda-hands-pfizer-arvinas-veppanu-early-approval-certain-breast-cancer",
+      "article_id": "167b3ac757229ea4",
+      "headline": "Cytokinetics heart drug scores in closely watched trial",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/cytokinetics-aficamten-acacia-results-non-obstructive-hypertrophic-cardiomyopathy/819266/",
       "slot": 1,
-      "summary": "The FDA approved Veppanu (vepdegestrant), the first-ever PROTAC (protein degrader) therapy, for ER-positive breast cancer patients with ESR1 mutations, showing 43% reduction in disease progression risk versus standard care. Despite this milestone, Pfizer and Arvinas are seeking a third-party partner to commercialize the drug following mixed phase 3 results that limited its market potential.",
-      "why_it_matters": "This validates an entirely new drug modality that degrades proteins rather than just blocking them, potentially opening therapeutic pathways across oncology and neurological diseases while establishing proof-of-concept for the broader PROTAC platform.",
+      "summary": "Cytokinetics' Myqorzo succeeded in Phase 3 trials for non-obstructive hypertrophic cardiomyopathy, hitting dual primary endpoints with statistically significant improvements in peak oxygen consumption and heart health scores. This differentiates it from Bristol Myers Squibb's Camzyos, which failed in the same indication last year, potentially opening access to the one-third of HCM patients with non-obstructive disease. The drug showed manageable safety profile though 27 patients experienced drops in ejection fraction versus one on placebo.",
+      "why_it_matters": "Success in both obstructive and non-obstructive HCM could expand Cytokinetics' addressable market to over $5 billion annually while establishing competitive advantage over Bristol Myers' $1B+ Camzyos franchise.",
       "signal_tags": [
-        "ticker_match:PFE",
-        "ticker_match:ARVN",
-        "novelty",
-        "regulatory_milestone"
+        "catalyst_proximity",
+        "ticker_match:CYTK",
+        "high-priority_source"
       ],
       "reading_time": "3 min"
     },
     {
-      "article_id": "a798802e361e4d0d",
-      "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+      "article_id": "4f78a6dac7cb951f",
+      "headline": "Amazon 1Q'26: Rosy Near-term but 'Cloudy' Long-term",
       "source": "MBI Deep Dives",
-      "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+      "url": "https://mbideepdives.substack.com/p/amazon-1q26-rosy-near-term-but-cloudy",
       "slot": 2,
-      "summary": "MBI Deep Dives analyzes Microsoft's Q3 2026 earnings, revealing that despite Microsoft's push for multi-model AI environments, 90% of their Azure AI Foundry customers still use just one model. The piece explores the tension between Microsoft's desire to commoditize AI models through multi-model strategies versus AI labs' efforts to integrate models more tightly with their harness layers.",
-      "why_it_matters": "This analysis cuts through Microsoft's earnings narrative to reveal actual enterprise AI adoption patterns and the strategic battle over AI infrastructure standardization, providing crucial insights for investors evaluating the sustainability of cloud providers' AI strategies.",
+      "summary": "Amazon's AWS accelerated to 28% growth in Q1'26 (highest in 15 quarters) driving strong results, while retail business showed remarkable resilience with 15% unit growth despite average product prices declining year-over-year. However, Amazon's advertising growth has plateaued at 22% for four consecutive quarters while Google advertising has been accelerating, suggesting shifting competitive dynamics.",
+      "why_it_matters": "AWS growth acceleration is critical for Big Tech momentum and provides insights into AI infrastructure investment sustainability, while the advertising competitive dynamics between Amazon/Google/Meta signal important shifts in digital ad market share.",
       "signal_tags": [
-        "priority:high",
-        "ticker_match:MSFT",
-        "analytical_depth"
+        "high-priority_source",
+        "analytical_depth",
+        "ticker_match:AMZN"
       ],
       "reading_time": "6 min"
     }

@@ -1,6 +1,6 @@
 {
   "run_date": "2026-05-05",
-  "generated_at": "2026-05-05T13:26:44Z",
+  "generated_at": "2026-05-05T22:20:09Z",
   "triage_queue": [
     {
       "candidate_id": "1d64f6672ae0099f",
@@ -132,31 +132,66 @@
       "triage_score": 11
     },
     {
-      "candidate_id": "ab619c9842f337d5",
+      "candidate_id": "df04f7d2f5386724",
       "run_date": "2026-05-05",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Kids bypass age verification with fake moustaches",
-      "snippet": "Kids bypass age verification with fake moustaches",
-      "primary_url": "https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/",
+      "headline": "IBM didn't want Microsoft to use the Tab key to move between dialog fields",
+      "snippet": "IBM didn't want Microsoft to use the Tab key to move between dialog fields",
+      "primary_url": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
       "urls": [
-        "https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/"
+        "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 157,
+      "score": 258,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:157",
+        "hn_score:258",
         "category:tech_ai",
-        "ticker:KIDS",
+        "ticker:MOVE",
+        "ticker:MSFT",
         "subsector:Spine/Ortho"
       ],
-      "triage_score": 5
+      "triage_score": 7
+    },
+    {
+      "candidate_id": "ae6883e82b64d122",
+      "run_date": "2026-05-05",
+      "source_type": "gmail",
+      "source_name": "BioSpace",
+      "headline": "Sarepta, Amylyx to report Q1 as key catalysts loom",
+      "snippet": "Plus, Lilly dips on Foundayo liver event \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "primary_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX4DPC487rH9MbVHl7-vJQTW8JC1R55NJdjBN6wcHqY5nR3bW7Y9pgv6lZ3l2W4kn72Q2jttg_W3tHckN32lCJqW2zcsb05j6V8tW3ZWBK24L-9MgW5W7cJ-4pgnKlW3zPpQF2kPTkbW37d7xl1WY-hfW1X-4MJ72b7QlN50-HFXxjgNSW5KMl3717fnMVW42rXpQ3R3MlZV5XKmj6Qzj_TW5HhWLG3LjgmXW85GbDP6mNCDLW913B574PNnwHW47Bsx07R4gPsW5cy90X60YHCWW6R7Dsy5GzZ_-W6DD3T06cFp_vW5Fvf6m2JcgpwVh13xP7d5S5HW16Hcs862WN_tW4fm1yj8WlpXMV5VlQ68RhqryW53K7Ts5_XxQtW1b11Md4LF3D_W6VHYsb6RJqsyW6Ln7JL9cGyhJW8RGFnX8D0pyFW8vlwVp8TqyS3W8Jqg593309r8N5LSKl1gd8s_W5LNf9L1VQ3Y3VZjKBL8fTfZRW17BN0R7zbL-6N1FNX_xwwvmBW66YXrX8ykN7WW5SlsFK6nqDR_W3Wbt4R90XkbCW6VfV-_7-2Rq8W6J23l37MyrM2W33GYpB1YBZPDf15g7_q04",
+      "urls": [
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX4DPC487rH9MbVHl7-vJQTW8JC1R55NJdjBN6wcHqY5nR3bW7Y9pgv6lZ3l2W4kn72Q2jttg_W3tHckN32lCJqW2zcsb05j6V8tW3ZWBK24L-9MgW5W7cJ-4pgnKlW3zPpQF2kPTkbW37d7xl1WY-hfW1X-4MJ72b7QlN50-HFXxjgNSW5KMl3717fnMVW42rXpQ3R3MlZV5XKmj6Qzj_TW5HhWLG3LjgmXW85GbDP6mNCDLW913B574PNnwHW47Bsx07R4gPsW5cy90X60YHCWW6R7Dsy5GzZ_-W6DD3T06cFp_vW5Fvf6m2JcgpwVh13xP7d5S5HW16Hcs862WN_tW4fm1yj8WlpXMV5VlQ68RhqryW53K7Ts5_XxQtW1b11Md4LF3D_W6VHYsb6RJqsyW6Ln7JL9cGyhJW8RGFnX8D0pyFW8vlwVp8TqyS3W8Jqg593309r8N5LSKl1gd8s_W5LNf9L1VQ3Y3VZjKBL8fTfZRW17BN0R7zbL-6N1FNX_xwwvmBW66YXrX8ykN7WW5SlsFK6nqDR_W3Wbt4R90XkbCW6VfV-_7-2Rq8W6J23l37MyrM2W33GYpB1YBZPDf15g7_q04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX4DPC487rH9MbVHl7-vJQTW8JC1R55NJdjBN6wcHpM5nR3bW5BWr2F6lZ3n0VcVTpC4nbGfwW48CG7V4j6GqKW2Z2NN92G9xbhVHjdcB8fMJfyW7svDKX6v0_g8W5Ysctr7ZycHhW3wxbKK67BhnKMbxDHQv-QylVx8f1w5VsqBgVlsK3X1jscm4W5XxzVZ5lX_qYV_234v7kBK5QW62wvtX6K6Nr5W2Nj_YN3TDX6hW4q1z6x8hD9HPW2jdW178J2ctwW8rKgPg3J8X6QW7TxhJ75vx7thW7X52Dn76cNMmVXPwQy2xPchpW7TC_CB40cpdYW2fQzlM7zPZW9N4zBbCR2qzClW6g_5sQ1tzh7GW6GKV831LklypW7wMKyq7_3PqDW7n9_rc1k_vT_W5F0MG26S4-GbW2SRLXb66H85_N8jXFFZ4k-2MN4xbpCf2g4tqW21ZX0D7b_hVzW9fvxJL94wfgWW4kXDld7ZBCR1f6W9tDT04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX4DPC487rH9MbVHl7-vJQTW8JC1R55NJdjBN6wcHpM5nR3bW5BWr2F6lZ3kwW60XYRz1WP21HTq6Hb1NNdXCW37V_5G73l7C5VQDP-K52qS7MW6xDsqP1hjSN8W6ycdLf3Y31N0W4z6b3j6fWMlDW5sQYfz8rhm_rW3VLDY35FYMRcF8x07KRPcpcN80bGRLQ6L7bN2XB8092l5_DW6D6m8V5LCtKqW2_QF2X14mdgfW5N2msd1fm813W7Pjbzf9kZcv_N93zW3tqxNVTW1d05h299SkSvW8KmjXm2HMLNvN9cX3TGhgY6RW45sz4-88MJWcW5QKHYs3c1CklW481Pbs3_vX3hW7bY7h73HzXk0W2rnCwz8Y4PwBMK56fWDXhDXW4m_8P94ry6p9W64vK302DX5m5W3BBdRS14YqLMW15RJ4Z1hVr_PVGwxP210t86YW4jGdnz1y-r8YVnPCY26QGQn9N11Z6-yXmL9vf7hVvTR04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX4DPC487rH9MbVHl7-vJQTW8JC1R55NJdjBN6wcHq25nR3bW69t95C6lZ3pwW9fH33r74Y991W8Bdz454ls8SMW78-g0f1XgL4NVVFQHw56pbDkW1WXFFR7BQc5JW6cLL9Y69nWFwN881HNk5ntlpW4rFZTT98FktxW1sjx5K8NjP1mW70T2GF5fpHVVW9gSRNr59YDPKW8GH0Kl38Jj4bN7b7ZMx3_Jz5W1LZDW_38Y25hW58jJH73tszvjW1LsDG22RYS3zW4cJysk2s-GN_W2f61Yj4f-kBWW4Xq1lW3MS6VmW7Wmq9M7n78LfV3g6_n1CvSFBW24zhXf3mw24dW7BYY645FJWs7W28VfGr12H89FW52FJj01vRwQSW7ymhKN8_p7rcW6pm9dM8FML5KW63wCZ27xZPQ9W5vXCbH2m9GXbW1xXwth6k3lnFW1B4JDL8vZPQ6N6VrgTGTc9H9W1ZPxKN66g5N9W1FjJ5-5znbBVW5nTdrR1Rk6nMW58RtZx3WQ5SSf3XRxTd04",
+        "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX4DPC487rH9MbVHl7-vJQTW8JC1R55NJdjBN6wcHq25nR3bW69t95C6lZ3l_N98dgSq2llwBW51w3z71m2G1_W2TCZ-s2GDf3FW4Nq-T15GdtlxW7-l18-51bXS4W15n__T3TK6CsW82KD655Wb1-dW857Ks6896mySVlXsqf1CswdDN6BQ9lKPML1fTcw_X8x0MrWW6bL-5W4hbYSVN2k4Ps-ZhTT7W88MM922BSDp9W1jQ9cY34Zx2bW6D6LYj9fq7wfV6NF7q6kX2vCW6Rc1yS4H36P_W2y5KNN6_-c3mN4pfnRH1qMw6W4WjxtW58XG0PW7LyP895fL9NNW7cmD9m3YHQTWW7L9JWy6xMwlTW6LVRPD7lWSh2W279cBW4f7SknW1KF-d23jJgmXW721GM-7N98bQW4h42363l3VhvW3McQTB8Wj2fqW8Z77pG6zNDCCW44S-yf5-m_Y3W6KZdvP5Zp_SYVYl3RL4YxqBXW8NgQFN8Ztr_-W5p5MWj1J5b7_f8QKMb404"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "newsletters@biospace.com",
+      "sender": "\"GenePool | BioSpace\" <newsletters@biospace.com>",
+      "published_at": "Tue, 5 May 2026 09:37:14 -0500",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:AMLX",
+        "ticker:CPRX",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:SRPT",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
     },
     {
       "candidate_id": "37d14dfd5462777e",
@@ -292,41 +327,6 @@
         "ticker:OGN",
         "subsector:HIT",
         "subsector:CRO / Health Data"
-      ],
-      "triage_score": 15
-    },
-    {
-      "candidate_id": "3a23c4f6e22cc204",
-      "run_date": "2026-05-05",
-      "source_type": "gmail",
-      "source_name": "Fierce Biotech",
-      "headline": "| 05.04.26 | Is Trump support boon or bane for psychedelic legitimacy?; UCB makes $2B autoimmune move for Candid",
-      "snippet": "Celcuity breast cancer drug tops Novartis&#39; Fierce Biotech A message from Lonza Managing Nitrosamine Risks Together Learn how to assess and mitigate nitrosamine risks in pharma products. Read what",
-      "primary_url": "https://www.lonza.com/knowledge-center/smallmolecules/a/nitrosamines?adposition=x30",
-      "urls": [
-        "https://www.lonza.com/knowledge-center/smallmolecules/a/nitrosamines?adposition=x30",
-        "https://www.lonza.com/knowledge-center/smallmolecules/a/nitrosamines?adposition=x30",
-        "https://www.lonza.com/knowledge-center/smallmolecules/a/nitrosamines?adposition=x30",
-        "https://www.lonza.com/knowledge-center/smallmolecules/a/nitrosamines?adposition=x30",
-        "https://www.fiercebiotech.com/biotech/real-momentum-or-completely-absurd-trump-support-offers-psychedelic-field-murky-path"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 1,
-      "score": null,
-      "sender_email": "editors@go.fiercebiotech.com",
-      "sender": "Fierce Biotech <editors@go.fiercebiotech.com>",
-      "published_at": "Mon, 4 May 2026 11:08:52 -0500 (CDT)",
-      "derived_signals": [
-        "source_type:gmail",
-        "category:healthcare_daily",
-        "ticker:DRUG",
-        "ticker:MOVE",
-        "ticker:UCB",
-        "ticker:HCAT",
-        "ticker:HR",
-        "subsector:Spine/Ortho",
-        "subsector:HIT"
       ],
       "triage_score": 15
     }

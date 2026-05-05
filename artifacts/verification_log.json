@@ -1465,5 +1465,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is a paywalled subscription page, not the actual article content, so there's no substance to evaluate for the Tech/AI slot."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "BioNTech to slash 1,860 jobs, exits sites in Germany and Singapore in major manufacturing pullback",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/biontech-to-scale-down-manufacturing-over-1800-jobs-on-the-line/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is severely truncated and appears to be mostly cookie consent dialogs and navigation menus rather than actual article substance."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Cytokinetics heart drug scores in closely watched trial",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/cytokinetics-aficamten-acacia-results-non-obstructive-hypertrophic-cardiomyopathy/819266/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with clear investment implications, competitive dynamics, and substantial market opportunity ($5B+) backed by detailed trial data and analyst commentary."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "From promise to impact: How companies can measure\u2014and realize\u2014the full value of AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019df891ae1299647ef4bbcf6cc0/a83d9c1365f849100000021ef3a0bcc2/a83d9c13-65f8-4910-bbd7-2f613d1db29f",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is not available - only the headline and shortlist summary are provided, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Amazon 1Q'26: Rosy Near-term but 'Cloudy' Long-term",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/amazon-1q26-rosy-near-term-but-cloudy",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive earnings analysis with deep dive into Amazon's segments, particularly AWS acceleration and competitive dynamics in cloud/advertising markets, fitting Finance/Macro slot perfectly."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Sun Pharma signs $11.75B Organon buyout",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVqQ-n7f--kpW1gp18f8GPqnxVSnzBh5Npz1bN8kT_Cb5nR3bW7Y9pgv6lZ3kM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma M&A story that belongs in Slot 1, not Slot 3 (Tech/AI), and lacks any AI or technology focus required for the target slot."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "Long-term, Peripheral & Myopic Visions (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin weekly newsletter roundup with brief summaries rather than the deep analysis Stratechery is known for, and lacks the substantial AI/tech insights expected for Slot 3."
+  },
+  {
+    "date": "2026-05-05",
+    "headline": "UnitedHealthcare to reduce prior auth requirements by 30%",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/unitedhealthcare-reduce-prior-auth-requirements-30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This healthcare policy article doesn't match Slot 3 (Tech/AI) requirements and lacks the technology focus, analytical depth, or investment-relevant insights the reader prefers."
   }
 ]
