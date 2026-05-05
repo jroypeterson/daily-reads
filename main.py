@@ -1493,17 +1493,33 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
             })
 
     if always_read:
-        always_lines = "\n".join(
+        # Always-read sources include Substack publications whose redirect URLs
+        # run hundreds of chars each. Once the section accumulated ~11 entries
+        # the joined mrkdwn crossed Slack's 3000-char section limit and the
+        # whole digest started failing with invalid_blocks. Chunk the same way
+        # the triage and substack sections do.
+        SLACK_SECTION_LIMIT = 2500
+        always_lines = [
             f"<{c.get('primary_url', '#')}|{c.get('headline', 'Untitled')}> — {c.get('source_name', '')}"
             for c in always_read
-        )
-        blocks.append({
-            "type": "section",
-            "text": {
-                "type": "mrkdwn",
-                "text": f":book: *Always read*\n{always_lines}",
-            },
-        })
+        ]
+        header = ":book: *Always read*"
+        chunks: list[str] = []
+        current = header
+        for line in always_lines:
+            candidate = current + "\n" + line
+            if len(candidate) > SLACK_SECTION_LIMIT and current:
+                chunks.append(current)
+                current = line
+            else:
+                current = candidate
+        if current:
+            chunks.append(current)
+        for chunk in chunks:
+            blocks.append({
+                "type": "section",
+                "text": {"type": "mrkdwn", "text": chunk[:2990]},
+            })
 
     if substack_items:
         # Substack emails carry very long redirect URLs (~700 chars each),
