@@ -41,13 +41,15 @@ Web search ─────────┘                                → Git
 
 ## Resilience model
 
-Five layers guard against silent newsletter misses (see `memory/project_resilience.md` for detail):
+Layers guard against silent ingest misses *and* silent delivery failures (see `memory/project_resilience.md` for detail):
 
 1. **Pre-commit hook** — `.githooks/pre-commit` blocks bad addresses in `sources.py` before commit
 2. **Daily audit** — flags stale/dead addresses within 7 days via Slack
 3. **Canary assertion** — fails loudly if zero emails from high-frequency senders
 4. **7-day self-healing window** — fixed addresses backfill the previous week automatically
 5. **Weekly roster** — full source status list in Friday's report
+6. **Slack section auto-splitter** — `_split_oversized_section_blocks` in `main.py` walks the assembled payload before posting and splits any section block exceeding Slack's 3000-char limit. Catches new sections that someone forgets to chunk manually.
+7. **Operator alert on delivery failure** — `_alert_operator_slack` posts a one-line failure summary to the operator webhook (`SLACK_WEBHOOK_URL`) when the daily-reads webhook returns non-2xx. Detection time drops from "until you notice" to same-day. Skipped when both webhooks point at the same channel.
 
 ## GitHub Secrets Required
 
