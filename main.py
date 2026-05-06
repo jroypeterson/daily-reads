@@ -1419,6 +1419,68 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
 # [DELIVERY: SLACK]
 # ---------------------------------------------------------------------------
 
+SLACK_SECTION_HARD_LIMIT = 2990  # Slack rejects sections > 3000 chars
+
+
+def _split_oversized_section_blocks(blocks: list[dict]) -> list[dict]:
+    """Belt-and-suspenders against Slack's 3000-char-per-section limit.
+
+    The triage / always-read / substack sections each chunk themselves,
+    but any new section type (or one that gets refactored later) can
+    silently exceed the limit and trip invalid_blocks. This pass walks
+    the assembled payload and splits any oversized section on newline
+    boundaries. Other block types pass through unchanged.
+    """
+    out: list[dict] = []
+    for block in blocks:
+        if block.get("type") != "section":
+            out.append(block)
+            continue
+        text_obj = block.get("text") or {}
+        text = text_obj.get("text", "")
+        if len(text) <= SLACK_SECTION_HARD_LIMIT:
+            out.append(block)
+            continue
+        text_type = text_obj.get("type", "mrkdwn")
+        chunks: list[str] = []
+        current = ""
+        for line in text.split("\n"):
+            if len(line) > SLACK_SECTION_HARD_LIMIT:
+                line = line[: SLACK_SECTION_HARD_LIMIT - 4] + "..."
+            candidate = (current + "\n" + line) if current else line
+            if len(candidate) > SLACK_SECTION_HARD_LIMIT and current:
+                chunks.append(current)
+                current = line
+            else:
+                current = candidate
+        if current:
+            chunks.append(current)
+        print(f"Auto-split oversized section ({len(text)} chars) into {len(chunks)} chunks")
+        for chunk in chunks:
+            out.append({"type": "section", "text": {"type": text_type, "text": chunk}})
+    return out
+
+
+def _alert_operator_slack(message: str) -> None:
+    """Post a one-line failure alert to the operator webhook so the
+    digest can't fail silently for days. Only fires when the operator
+    webhook is a separate channel from the one that just failed —
+    otherwise the alert would land in the same broken pipe.
+    """
+    operator_url = os.environ.get("SLACK_WEBHOOK_URL")
+    daily_reads_url = os.environ.get("SLACK_WEBHOOK_URL_DAILY_READS")
+    if not operator_url or operator_url == daily_reads_url:
+        return
+    try:
+        requests.post(
+            operator_url,
+            json={"text": f":warning: Daily Reads digest delivery failed: {message[:500]}"},
+            timeout=10,
+        )
+    except Exception as e:
+        print(f"Operator alert post also failed: {e}")
+
+
 def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
     section("DELIVERY: SLACK")
     # The daily digest posts to its own #daily-reads channel when its
@@ -1566,16 +1628,20 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
         }],
     })
 
+    blocks = _split_oversized_section_blocks(blocks)
+
     try:
         resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
         if not resp.ok:
             # Slack returns useful detail in the body (e.g. invalid_blocks, no_text)
-            print(f"Slack delivery failed (non-blocking): HTTP {resp.status_code} — body: {resp.text[:500]}")
-            print(f"Payload had {len(blocks)} blocks")
+            err = f"HTTP {resp.status_code} — body: {resp.text[:500]} (had {len(blocks)} blocks)"
+            print(f"Slack delivery failed: {err}")
+            _alert_operator_slack(err)
         else:
             print("Slack message sent")
     except Exception as e:
-        print(f"Slack delivery failed (non-blocking): {e}")
+        print(f"Slack delivery failed: {e}")
+        _alert_operator_slack(str(e))
 
 
 # ---------------------------------------------------------------------------
