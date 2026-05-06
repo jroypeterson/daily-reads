@@ -1528,5 +1528,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This healthcare policy article doesn't match Slot 3 (Tech/AI) requirements and lacks the technology focus, analytical depth, or investment-relevant insights the reader prefers."
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Cytokinetics heart drug scores in closely watched trial",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/cytokinetics-aficamten-acacia-results-non-obstructive-hypertrophic-cardiomyopathy/819266/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with significant market implications, clinical trial depth, and competitive dynamics analysis that aligns well with Slot 1 criteria."
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "From promise to impact: How companies can measure\u2014and realize\u2014the full value of AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019df891ae1299647ef4bbcf6cc0/a83d9c1365f849100000021ef3a0bcc2/a83d9c13-65f8-4910-bbd7-2f613d1db29f?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qCmCOvSesyDRqyjSCWOqBQf6z4JF0ydGANdT4ejVGG9TtcmTxs-q_bIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repeat of the headline and summary rather than the actual full article text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This provides substantial analytical depth on Microsoft's AI monetization strategy with concrete data points that cut through earnings hype, perfectly fitting Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "The view from Rome on Prasad's FDA",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MVvS3G8ddx9W374M872TcVsqW4dVnpw5NK-3dN4FBQMb3qgz0W7lCdLW6lZ3pQW63cHY0250y8WW6R2bdH1tBrHXV7cgwT7Wdzm3W7Ph79t4dXmywN2y27Cpq4pKmW2x78lP1GGlR3W22K86J74vwRFW3yyQ515xWqy4W96d8b13JTyRNW5kvw2l7Yg8c-W4r_Th07yPWtgW86NZdD4BhRC_W3fK1pY7124p0W8vBVYz8YhpH_W3d1fjQ7JtzCBW3X5bln45xZf8W3Ln2_T3RVh0_N49ks8zyjstGW48QXZN9l-xB6VGJtCC4_LWMNW5lfBN62RX7D-W6608L32bSg-HW4vcdPL6NBr7xW8_LHJk5XhDwrf97dHl-04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywall page for STAT+ subscription, not the actual article content about FDA leadership and Prasad."
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Will the Iran Crisis Cause a Global Recession?",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/finance/stocks/will-the-iran-crisis-cause-a-global-recession-1e6a4044?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is targeting Slot 3 (Tech/AI) but covers geopolitical/macro topics that belong in Slot 2 (Finance/Markets), and the reader profile shows they want to avoid generic market indices and short-term trading focus."
+  },
+  {
+    "date": "2026-05-06",
+    "headline": "Computer Use is 45x more expensive than structured APIs",
+    "source": "Hacker News",
+    "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial technical depth on AI automation costs with concrete benchmarking data, directly relevant to enterprise AI deployment decisions."
   }
 ]

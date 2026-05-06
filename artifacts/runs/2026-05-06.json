@@ -1,0 +1,61 @@
+{
+  "run_date": "2026-05-06",
+  "generated_at": "2026-05-06T13:53:12Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "167b3ac757229ea4",
+      "headline": "Cytokinetics heart drug scores in closely watched trial",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/cytokinetics-aficamten-acacia-results-non-obstructive-hypertrophic-cardiomyopathy/819266/",
+      "slot": 1,
+      "summary": "Cytokinetics' Myqorzo succeeded in a Phase 3 trial for non-obstructive hypertrophic cardiomyopathy, meeting dual primary endpoints of improved peak oxygen consumption and heart health scores versus placebo. The success differentiates Myqorzo from Bristol Myers' Camzyos, which failed in this patient population last year, potentially opening a multibillion-dollar market opportunity. The drug showed manageable safety profile with some expected cardiac side effects leading to 3% treatment interruptions.",
+      "why_it_matters": "This trial success could unlock peak sales of $5+ billion for Cytokinetics by expanding into the non-obstructive HCM market where Bristol Myers' competing drug failed, creating significant competitive advantage and market opportunity.",
+      "signal_tags": [
+        "ticker_match:U",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "488b8f718de366eb",
+      "headline": "Microsoft FY 3Q'26: Multi-Model Mirage, but Copilot Momentum",
+      "source": "MBI",
+      "url": "https://mbideepdives.substack.com/p/microsoft-fy-3q26-multi-model-mirage?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTYyNjAzNzEsImlhdCI6MTc3NzgyMTU2OSwiZXhwIjoxNzgwNDEzNTY5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.7YpEGJJfCVX81_2kPHF9A1w_E7jcXvZyGjq8F899l7M",
+      "slot": 2,
+      "summary": "Deep analysis of Microsoft's Q3 FY26 earnings reveals that while the company promotes multi-model AI environments, 90% of Azure AI Foundry customers still use single models, contradicting the multi-model narrative. The piece examines Microsoft's strategic positioning challenges as AI labs like OpenAI increasingly integrate model and harness layers, potentially undermining Microsoft's platform strategy.",
+      "why_it_matters": "Essential for understanding the reality behind Big Tech AI investment themes and Microsoft's actual competitive positioning in enterprise AI infrastructure, with implications for any healthcare organization evaluating Microsoft's AI offerings.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:MSFT",
+        "analytical_depth",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "8e4d10b35a97b94c",
+      "headline": "Computer Use is 45x more expensive than structured APIs",
+      "source": "Hacker News",
+      "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+      "slot": 3,
+      "summary": "A detailed technical benchmark comparing AI 'computer use' (vision-based UI automation) versus structured API calls for the same admin panel tasks. The study found vision agents require 53 steps and 551k tokens versus 8 API calls and 12k tokens, making computer use 45x more expensive and significantly less reliable due to UI interpretation challenges.",
+      "why_it_matters": "Critical cost analysis for organizations evaluating AI automation strategies, particularly relevant for healthcare data infrastructure decisions where cost efficiency and reliability are paramount for enterprise AI deployments.",
+      "signal_tags": [
+        "data_infrastructure",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
