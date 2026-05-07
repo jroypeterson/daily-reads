@@ -150,7 +150,11 @@ def check_url_live(url: str, timeout: int = 3) -> bool:
     headers = {"User-Agent": USER_AGENT}
     try:
         resp = requests.head(url, allow_redirects=True, timeout=timeout, headers=headers)
-        if resp.status_code == 405:  # Method Not Allowed — retry with GET
+        # 405 = explicit "no HEAD". 404/410 from HEAD can also lie: fda.gov
+        # serves 200 on GET but 404 on HEAD from GH Actions IP ranges, which
+        # was generating ~90% of our main-slot URL warnings. Verify with GET
+        # before declaring a HARD_FAILURE code.
+        if resp.status_code in (405, *HARD_FAILURE_CODES):
             resp = requests.get(
                 url, allow_redirects=True, timeout=timeout, headers=headers, stream=True
             )
