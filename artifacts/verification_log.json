@@ -1582,5 +1582,68 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial technical depth on AI automation costs with concrete benchmarking data, directly relevant to enterprise AI deployment decisions."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "McKinsey Quantum Technology Monitor 2026: A commercial tipping point",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-quantum-technology-monitor-2026-a-commercial-tipping-point",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article targets Slot 1 (Healthcare/Biotech) but focuses on broad quantum computing commercialization rather than specific healthcare or biopharma applications, making it a better fit for Slot 3 (Tech/AI) or Slot 4 (Wildcard)."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "FDA Expands AI Capabilities and Completes Data Platform Consolidation",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-expands-ai-capabilities-and-completes-data-platform-consolidation",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial detail about significant FDA regulatory infrastructure upgrades that will directly impact biotech/pharma approval timelines and operations, matching both the healthcare slot criteria and the reader's strong preference for data infrastructure topics."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Angelini to buy Catalyst in $4B play for rare neuro drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/angelini-catalyst-acquisition-cns-drugs/819591/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article focuses on healthcare/biopharma M&A rather than finance/macro themes, and better fits Slot 1 (Healthcare/Biopharma) than the target Slot 2 (Finance/Markets)."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Roche to acquire digital pathology firm PathAI in deal potentially worth over $1B",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/roche-to-acquire-digital-pathology-firm-pathai-in-deal-potentially-worth-ov/819592/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial M&A story with clear strategic implications for AI-powered diagnostics and precision medicine, fitting both the finance/M&A criteria and the reader's strong interest in AI-biology intersection."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Sanofi pulls drug from FDA voucher program after political interference",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/05/07/sanofi-diabetes-drug-voucher-fda-rethinking-rare-disease-rejection/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article doesn't fit Slot 3 (Tech/AI) as it's purely about FDA regulatory process and political interference, with no technology or AI component."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "Vibe coding and agentic engineering are getting closer than I'd like",
+    "source": "Hacker News",
+    "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on AI coding tools' evolution and matches the reader's strong preferences for AI impact analysis and data infrastructure topics."
+  },
+  {
+    "date": "2026-05-07",
+    "headline": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+    "source": "DeepMind/Google",
+    "url": "https://deepmind.google/blog/alphaevolve-impact/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on AlphaEvolve's real-world applications across multiple industries with concrete performance metrics, aligning perfectly with the reader's strong preferences for AI infrastructure and data systems intersecting with business applications."
   }
 ]
