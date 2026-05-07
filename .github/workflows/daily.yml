@@ -55,7 +55,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
 
       # Source audit runs early so a stale/dead address gets a Slack alert
       # even if the main digest later fails. Not marked continue-on-error
@@ -67,19 +67,47 @@ jobs:
         run: python validate_source.py --audit
         env:
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
 
       - name: Run Daily Reads
         run: python main.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
           SLACK_WEBHOOK_URL_DAILY_READS: ${{ secrets.SLACK_WEBHOOK_URL_DAILY_READS }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TICKTICK_ACCESS_TOKEN: ${{ secrets.TICKTICK_ACCESS_TOKEN }}
           TICKTICK_LIST_DAILY_READS: ${{ secrets.TICKTICK_LIST_DAILY_READS }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+
+      # If main.py died before posting the health/v1 heartbeat (import
+      # error, dependency outage, runner crash), post a generic failure
+      # heartbeat so silence in #status-reports doesn't mask a broken run.
+      # Sentinel at .health/posted is written by health_report.py on every
+      # successful POST; absence means no heartbeat was sent.
+      - name: Health heartbeat fallback
+        if: always()
+        env:
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
+          GH_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -f .health/posted ]; then
+            echo "Heartbeat already posted — skipping fallback."
+            exit 0
+          fi
+          if [ -z "$SLACK_WEBHOOK_STATUS_REPORTS" ]; then
+            echo "No SLACK_WEBHOOK_STATUS_REPORTS — cannot post fallback heartbeat."
+            exit 1
+          fi
+          CYCLE="$(date -u +%Y-%m-%d) daily"
+          NEXT="$(date -u -d 'tomorrow 12:00 UTC' +'%Y-%m-%d %H:%M UTC' 2>/dev/null || date -u +'%Y-%m-%d 12:00 UTC')"
+          NOW="$(date -u +'%Y-%m-%d %H:%M UTC')"
+          TEXT=":x: *daily-reads — error*  ·  health/v1\ncycle: ${CYCLE}  ·  attempt: 1\n${NOW} (workflow aborted)\nnext expected: ${NEXT}\n\n*Error:*\n\`\`\`\nRun aborted before main.py could post the health/v1 heartbeat. Check the GH Actions log for the failing step (likely an earlier step or an import-time crash in main.py).\n\`\`\`\n\n<${GH_RUN_URL}|GH Actions run>"
+          curl -fsS -X POST "$SLACK_WEBHOOK_STATUS_REPORTS" \
+            -H 'Content-Type: application/json' \
+            --data "$(jq -nc --arg t "$TEXT" --arg fb "daily-reads — error (${CYCLE}) — workflow aborted" \
+              '{blocks:[{type:"section",text:{type:"mrkdwn",text:$t}}],text:$fb}')"
 
       - name: Weekly health report (Fridays only)
         run: |
@@ -91,7 +119,7 @@ jobs:
         continue-on-error: true
         env:
           GMAIL_OAUTH_JSON: ${{ secrets.GMAIL_OAUTH_JSON }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
 
       - name: Commit and push Pages update
         run: |

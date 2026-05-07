@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import traceback
 from difflib import ndiff
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -23,8 +24,15 @@ from project_data import (
     triage_artifact_path,
 )
 from sources import SOURCES, get_always_read_names
+from health_report import Heartbeat, post_health_to_slack
 
 REPO = "jroypeterson/daily-reads"
+
+# Run-state tracking populated by delivery functions and read by the
+# end-of-run heartbeat. partial_reasons downgrade status from ok→partial
+# (operational degradation that affected primary output); warnings are
+# informational and do not change status.
+_RUN_STATE: dict[str, list[str]] = {"warnings": [], "partial_reasons": []}
 CRITERIA_STATE_PATH = "criteria_update_state.json"
 PROPOSED_CRITERIA_PATH = "selection_criteria_proposed.md"
 CRITERIA_WEB_URL = f"https://github.com/{REPO}/blob/main/{PROPOSED_CRITERIA_PATH}"
@@ -142,9 +150,9 @@ def notify_criteria_update(proposal: dict):
     except Exception as e:
         print(f"Criteria update email notification failed: {e}")
 
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    webhook_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
     if not webhook_url:
-        print("No SLACK_WEBHOOK_URL set — skipping criteria Slack notification")
+        print("No SLACK_WEBHOOK_STATUS_REPORTS set — skipping criteria Slack notification")
         return
 
     blocks = [
@@ -1462,19 +1470,34 @@ def _split_oversized_section_blocks(blocks: list[dict]) -> list[dict]:
 
 
 def _alert_operator_slack(message: str) -> None:
-    """Post a one-line failure alert to the operator webhook so the
-    digest can't fail silently for days. Only fires when the operator
-    webhook is a separate channel from the one that just failed —
-    otherwise the alert would land in the same broken pipe.
+    """Post a one-line failure alert to #status-reports so the digest
+    can't fail silently for days. Always records the failure as a
+    partial-run signal so the end-of-run heartbeat reflects it. Only
+    posts the standalone alert when the operator webhook is a separate
+    channel from the digest webhook — otherwise the alert would land in
+    the same broken pipe.
     """
-    operator_url = os.environ.get("SLACK_WEBHOOK_URL")
+    _RUN_STATE["partial_reasons"].append(f"Slack digest delivery failed: {message[:200]}")
+
+    operator_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
     daily_reads_url = os.environ.get("SLACK_WEBHOOK_URL_DAILY_READS")
     if not operator_url or operator_url == daily_reads_url:
         return
     try:
         requests.post(
             operator_url,
-            json={"text": f":warning: Daily Reads digest delivery failed: {message[:500]}"},
+            json={
+                "blocks": [
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f":warning: *Daily Reads digest delivery failed*\n{message[:500]}",
+                        },
+                    }
+                ],
+                "text": f"Daily Reads digest delivery failed: {message[:500]}",
+            },
             timeout=10,
         )
     except Exception as e:
@@ -1484,14 +1507,15 @@ def _alert_operator_slack(message: str) -> None:
 def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
     section("DELIVERY: SLACK")
     # The daily digest posts to its own #daily-reads channel when its
-    # dedicated webhook is configured. Fall back to the general
-    # SLACK_WEBHOOK_URL so a missing secret doesn't break delivery.
+    # dedicated webhook is configured. Fall back to the #status-reports
+    # webhook so a missing secret doesn't break delivery (cross-channel
+    # leak is a smaller blast radius than a silent dropped digest).
     webhook_url = (
         os.environ.get("SLACK_WEBHOOK_URL_DAILY_READS")
-        or os.environ.get("SLACK_WEBHOOK_URL")
+        or os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
     )
     if not webhook_url:
-        print("No Slack webhook set (checked SLACK_WEBHOOK_URL_DAILY_READS, SLACK_WEBHOOK_URL) — skipping Slack delivery")
+        print("No Slack webhook set (checked SLACK_WEBHOOK_URL_DAILY_READS, SLACK_WEBHOOK_STATUS_REPORTS) — skipping Slack delivery")
         return
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -1900,12 +1924,19 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
 
     if token_expired:
         print("\n⚠️ TickTick access token expired. Re-run the OAuth flow to get a new token.")
-        slack_url = os.environ.get("SLACK_WEBHOOK_URL")
+        _RUN_STATE["partial_reasons"].append("TickTick token expired — push to TickTick skipped")
+        slack_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
         if slack_url:
+            alert = (
+                ":warning: *TickTick token expired* — Daily Reads can't push to TickTick. "
+                "Re-run the OAuth flow at developer.ticktick.com to get a new access token, "
+                "then update the `TICKTICK_ACCESS_TOKEN` GitHub secret."
+            )
             requests.post(slack_url, json={
-                "text": "⚠️ *TickTick token expired* — Daily Reads can't push to TickTick. "
-                        "Re-run the OAuth flow at developer.ticktick.com to get a new access token, "
-                        "then update the `TICKTICK_ACCESS_TOKEN` GitHub secret."
+                "blocks": [
+                    {"type": "section", "text": {"type": "mrkdwn", "text": alert}},
+                ],
+                "text": "TickTick token expired — push skipped",
             })
 
     print(f"\nCreated {created}/{len(tasks)} tasks in TickTick.")
@@ -2121,73 +2152,218 @@ def save_triage_artifact(run_date: str, triage_queue: list[dict]):
 # MAIN
 # ---------------------------------------------------------------------------
 
+def _build_run_link() -> str:
+    server = os.environ.get("GITHUB_SERVER_URL")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    run_id = os.environ.get("GITHUB_RUN_ID")
+    if server and repo and run_id:
+        return f"<{server}/{repo}/actions/runs/{run_id}|GH Actions run>"
+    return ""
+
+
+def _next_expected_daily(now: datetime) -> str:
+    # Daily run at 12:00 UTC; if we're past today's slot, point to tomorrow.
+    target = now.replace(hour=12, minute=0, second=0, microsecond=0)
+    if now >= target:
+        target = target + timedelta(days=1)
+    return target.strftime("%Y-%m-%d %H:%M UTC")
+
+
+def _read_url_validation_warnings(today: str) -> list[str]:
+    """Pull today's URL liveness drop counts from the validation log."""
+    log = load_json("artifacts/url_validation_log.json", [])
+    if not isinstance(log, list):
+        return []
+    todays = [e for e in log if isinstance(e, dict) and e.get("date") == today]
+    if not todays:
+        return []
+    entry = todays[-1]
+    broken = entry.get("broken", {}) or {}
+    parts: list[str] = []
+    if broken.get("article_warnings"):
+        parts.append(f"{broken['article_warnings']} main-slot URL(s) shipped broken")
+    triage_n = broken.get("triage_dropped", 0) + broken.get("always_read_dropped", 0) + broken.get("substack_dropped", 0)
+    if triage_n:
+        parts.append(f"{triage_n} non-slot URL(s) dropped (broken)")
+    return parts
+
+
+def _post_run_heartbeat(
+    *,
+    start_time: datetime,
+    status: str,
+    counters: list[str],
+    artifacts: list[str],
+    warnings: list[str],
+    error_text: str = "",
+) -> None:
+    end_time = datetime.now(timezone.utc)
+    cycle_date = start_time.astimezone(timezone.utc).strftime("%Y-%m-%d")
+    try:
+        post_health_to_slack(Heartbeat(
+            project="daily-reads",
+            status=status,  # type: ignore[arg-type]
+            cycle=f"{cycle_date} daily",
+            start_time=start_time,
+            end_time=end_time,
+            next_expected=_next_expected_daily(end_time),
+            counters=counters,
+            artifacts=artifacts,
+            warnings=warnings,
+            error_text=error_text,
+            run_link=_build_run_link(),
+        ))
+    except Exception as e:
+        # Per HEALTH_REPORTING.md §4.7: log loudly so CI shows red.
+        print(f"\n[health/v1] heartbeat post failed: {e}")
+        raise
+
+
 def main():
     print("=" * 60)
     print("  📰 DAILY READS AGENT")
     print(f"  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 60)
 
-    # Step 1: Gmail scan
-    gmail_items = gmail_scan()
+    start_time = datetime.now(timezone.utc)
+    today = start_time.strftime("%Y-%m-%d")
+    gmail_items: list[dict] = []
+    tier2_items: list[dict] = []
+    articles: list[dict] = []
+    triage_queue: list[dict] = []
+    artifacts_produced: list[str] = []
 
-    # Step 2: Tier 2 sources
-    tier2_items = tier2_scan()
-    tier2_items.extend(rss_scan())
+    try:
+        # Step 1: Gmail scan
+        gmail_items = gmail_scan()
 
-    # Step 3: Feedback check
-    feedback_info = feedback_check()
+        # Step 2: Tier 2 sources
+        tier2_items = tier2_scan()
+        tier2_items.extend(rss_scan())
 
-    # Step 3b: Criteria rewrite if enough feedback
-    if feedback_info["should_rewrite"]:
-        all_feedback = load_json("feedback_log.json", [])
-        rewrite_criteria(all_feedback)
+        # Step 3: Feedback check
+        feedback_info = feedback_check()
 
-    # Step 4: Article selection
-    if not gmail_items and not tier2_items:
-        print("\nNo items from any source. Exiting.")
-        sys.exit(0)
+        # Step 3b: Criteria rewrite if enough feedback
+        if feedback_info["should_rewrite"]:
+            all_feedback = load_json("feedback_log.json", [])
+            rewrite_criteria(all_feedback)
 
-    articles = select_articles(gmail_items, tier2_items, feedback_info)
-    if not articles:
-        print("\nFirst selection attempt failed validation — retrying...")
+        # Step 4: Article selection
+        if not gmail_items and not tier2_items:
+            print("\nNo items from any source. Exiting.")
+            _post_run_heartbeat(
+                start_time=start_time,
+                status="partial",
+                counters=["0 Gmail items", "0 RSS items", "0 articles selected"],
+                artifacts=[],
+                warnings=["No source activity in 7-day window — nothing to select from"],
+            )
+            sys.exit(0)
+
         articles = select_articles(gmail_items, tier2_items, feedback_info)
-    if not articles:
-        print("\nNo valid articles selected after 2 attempts. Exiting.")
-        sys.exit(1)
+        if not articles:
+            print("\nFirst selection attempt failed validation — retrying...")
+            articles = select_articles(gmail_items, tier2_items, feedback_info)
+        if not articles:
+            print("\nNo valid articles selected after 2 attempts. Exiting.")
+            _post_run_heartbeat(
+                start_time=start_time,
+                status="error",
+                counters=[
+                    f"{len(gmail_items)} Gmail items",
+                    f"{len(tier2_items)} RSS items",
+                    "0 articles selected (validation failed 2x)",
+                ],
+                artifacts=[],
+                warnings=[],
+                error_text="select_articles returned no valid articles after 2 attempts",
+            )
+            sys.exit(1)
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    tickers = load_json("tickers.json", {})
-    structured_gmail, structured_tier2 = build_structured_candidates(
-        gmail_items,
-        tier2_items,
-        today,
-        tickers,
+        tickers = load_json("tickers.json", {})
+        structured_gmail, structured_tier2 = build_structured_candidates(
+            gmail_items,
+            tier2_items,
+            today,
+            tickers,
+        )
+        triage_queue = build_triage_queue(structured_gmail, structured_tier2, articles)
+        always_read = build_always_read(structured_gmail, articles)
+        substack_items = substack_scan()
+        save_candidate_artifact(today, gmail_items, tier2_items, tickers)
+        save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
+        save_triage_artifact(today, triage_queue)
+        artifacts_produced.append(str(run_artifact_path(today)))
+
+        # Step 4c: Pre-delivery URL liveness check — catch broken links before
+        # they ship. Drops broken URLs from triage/always_read/substack and logs
+        # warnings for main-slot articles (dropping those would leave empty slots).
+        articles, triage_queue, always_read, substack_items = validate_delivery_urls(
+            articles, triage_queue, always_read, substack_items
+        )
+
+        # Step 5: Deliver to all channels
+        deliver_gmail(articles, triage_queue, always_read, substack_items)
+        deliver_slack(articles, triage_queue, always_read, substack_items)
+        deliver_pages(articles, triage_queue, always_read, substack_items)
+        deliver_ticktick(articles, always_read)
+        deliver_log(articles)
+        deliver_triage_log(triage_queue)
+        artifacts_produced.append(f"docs/{today}.html")
+
+        print(f"\n{'='*60}")
+        print(f"  ✅ Daily Reads complete — {len(articles)} articles delivered")
+        print(f"{'='*60}")
+
+    except SystemExit:
+        raise
+    except Exception:
+        tb = traceback.format_exc()
+        # Tail the traceback to a manageable size (§7 templates show ~20 lines).
+        tb_tail = "\n".join(tb.splitlines()[-30:])
+        try:
+            _post_run_heartbeat(
+                start_time=start_time,
+                status="error",
+                counters=[
+                    f"{len(gmail_items)} Gmail items",
+                    f"{len(tier2_items)} RSS items",
+                    f"{len(articles)} articles selected",
+                ],
+                artifacts=artifacts_produced,
+                warnings=list(_RUN_STATE["warnings"]),
+                error_text=tb_tail,
+            )
+        except Exception as hb_err:
+            # Don't let a heartbeat-post failure mask the original error.
+            # The fallback file under .health/ + the workflow's if:always()
+            # step still surface the missing heartbeat.
+            print(f"[health/v1] heartbeat post failed during error handling: {hb_err}")
+        raise
+
+    # Success / partial path. partial_reasons populated by deliver_slack
+    # (digest fan-out failed) or deliver_ticktick (token expired); URL drops
+    # surface as informational warnings.
+    url_warnings = _read_url_validation_warnings(today)
+    warnings_all = list(_RUN_STATE["warnings"]) + url_warnings
+    partial_reasons = list(_RUN_STATE["partial_reasons"])
+    status = "partial" if partial_reasons else "ok"
+    if partial_reasons:
+        warnings_all = partial_reasons + warnings_all
+
+    _post_run_heartbeat(
+        start_time=start_time,
+        status=status,
+        counters=[
+            f"{len(gmail_items)} Gmail items",
+            f"{len(tier2_items)} RSS items",
+            f"{len(articles)} articles selected",
+            f"{len(triage_queue)} triaged",
+        ],
+        artifacts=artifacts_produced,
+        warnings=warnings_all,
     )
-    triage_queue = build_triage_queue(structured_gmail, structured_tier2, articles)
-    always_read = build_always_read(structured_gmail, articles)
-    substack_items = substack_scan()
-    save_candidate_artifact(today, gmail_items, tier2_items, tickers)
-    save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
-    save_triage_artifact(today, triage_queue)
-
-    # Step 4c: Pre-delivery URL liveness check — catch broken links before
-    # they ship. Drops broken URLs from triage/always_read/substack and logs
-    # warnings for main-slot articles (dropping those would leave empty slots).
-    articles, triage_queue, always_read, substack_items = validate_delivery_urls(
-        articles, triage_queue, always_read, substack_items
-    )
-
-    # Step 5: Deliver to all channels
-    deliver_gmail(articles, triage_queue, always_read, substack_items)
-    deliver_slack(articles, triage_queue, always_read, substack_items)
-    deliver_pages(articles, triage_queue, always_read, substack_items)
-    deliver_ticktick(articles, always_read)
-    deliver_log(articles)
-    deliver_triage_log(triage_queue)
-
-    print(f"\n{'='*60}")
-    print(f"  ✅ Daily Reads complete — {len(articles)} articles delivered")
-    print(f"{'='*60}")
 
 
 if __name__ == "__main__":

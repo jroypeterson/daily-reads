@@ -361,9 +361,9 @@ def _notify_synthesis(changes: list[str], preferences: dict):
         print(f"Taste synthesis email notification failed: {e}")
 
     # Slack
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    webhook_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
     if not webhook_url:
-        print("No SLACK_WEBHOOK_URL set — skipping taste synthesis Slack notification")
+        print("No SLACK_WEBHOOK_STATUS_REPORTS set — skipping taste synthesis Slack notification")
         return
 
     blocks = [

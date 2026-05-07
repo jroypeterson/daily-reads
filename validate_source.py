@@ -120,7 +120,7 @@ def discover(keyword: str):
 def _send_slack_alert(message: str):
     """Send a warning to Slack if webhook is configured."""
     import requests
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    webhook_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
     if not webhook_url:
         return
     blocks = [

@@ -49,7 +49,8 @@ Layers guard against silent ingest misses *and* silent delivery failures (see `m
 4. **7-day self-healing window** — fixed addresses backfill the previous week automatically
 5. **Weekly roster** — full source status list in Friday's report
 6. **Slack section auto-splitter** — `_split_oversized_section_blocks` in `main.py` walks the assembled payload before posting and splits any section block exceeding Slack's 3000-char limit. Catches new sections that someone forgets to chunk manually.
-7. **Operator alert on delivery failure** — `_alert_operator_slack` posts a one-line failure summary to the operator webhook (`SLACK_WEBHOOK_URL`) when the daily-reads webhook returns non-2xx. Detection time drops from "until you notice" to same-day. Skipped when both webhooks point at the same channel.
+7. **Operator alert on delivery failure** — `_alert_operator_slack` posts a one-line failure summary to `#status-reports` (`SLACK_WEBHOOK_STATUS_REPORTS`) when the daily-reads webhook returns non-2xx. Also flags the run as `partial` in the end-of-run heartbeat. Skipped when both webhooks point at the same channel.
+8. **End-of-run health/v1 heartbeat** — every run posts a Block Kit status message to `#status-reports` per `HEALTH_REPORTING.md`. `ok` on clean completion, `partial` if a delivery surface degraded (Slack digest failed, TickTick token expired), `error` on uncaught exception. The workflow's `if: always()` final step posts a generic error heartbeat if `main.py` died before reaching its own posting code.
 
 ## GitHub Secrets Required
 
@@ -57,8 +58,8 @@ Layers guard against silent ingest misses *and* silent delivery failures (see `m
 |--------|-------------|
 | `ANTHROPIC_API_KEY` | Claude API key |
 | `GMAIL_OAUTH_JSON` | Gmail OAuth token JSON (see setup below) |
-| `SLACK_WEBHOOK_URL` | Slack incoming webhook for operator alerts (weekly report, source audit, criteria proposals, TickTick-expired warnings, taste synthesis) |
-| `SLACK_WEBHOOK_URL_DAILY_READS` | Optional — Slack webhook for the daily digest itself (e.g. `#daily-reads`). Falls back to `SLACK_WEBHOOK_URL` when unset. |
+| `SLACK_WEBHOOK_STATUS_REPORTS` | Slack incoming webhook for `#status-reports` — end-of-run `health/v1` heartbeat plus operator alerts (weekly report, source audit, criteria proposals, TickTick-expired warnings, taste synthesis, digest delivery failure) |
+| `SLACK_WEBHOOK_URL_DAILY_READS` | Optional — Slack webhook for the daily digest itself (e.g. `#daily-reads`). Falls back to `SLACK_WEBHOOK_STATUS_REPORTS` when unset. |
 | `GITHUB_TOKEN` | Auto-provided by GitHub Actions |
 | `TASTE_EMAIL_ALIAS` | Optional override for exemplar intake alias, defaults to `jroypeterson+taste@gmail.com` |
 | `TASTE_GMAIL_LABEL` | Optional Gmail label used as a backup exemplar intake path, defaults to `taste` |
@@ -101,7 +102,7 @@ export ANTHROPIC_API_KEY=sk-...
 # Either GMAIL_OAUTH_JSON (JSON contents, used by CI) or
 # GMAIL_OAUTH_JSON_PATH (path to a token file, preferred locally)
 export GMAIL_OAUTH_JSON_PATH="$HOME/secrets/gmail_oauth_token.json"
-export SLACK_WEBHOOK_URL=https://hooks.slack.com/...
+export SLACK_WEBHOOK_STATUS_REPORTS=https://hooks.slack.com/...
 python main.py
 ```
 

@@ -612,9 +612,9 @@ def deliver_gmail(html: str, period: str):
 
 def deliver_slack(blocks: list[dict]):
     """Send the report via Slack."""
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+    webhook_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
     if not webhook_url:
-        print("No SLACK_WEBHOOK_URL — skipping Slack delivery")
+        print("No SLACK_WEBHOOK_STATUS_REPORTS — skipping Slack delivery")
         return
     resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
     if resp.ok:
