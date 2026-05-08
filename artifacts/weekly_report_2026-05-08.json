@@ -1,0 +1,268 @@
+{
+  "period_start": "2026-05-02",
+  "period_end": "2026-05-08",
+  "generated_at": "2026-05-08T13:18:23.821017+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 927,
+    "total_tier2_items": 618,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 17
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 12
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 7
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 20
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 8
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 12
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 13
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 10
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 9
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 69
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 27
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 18,
+    "articles_per_day": [
+      2,
+      4,
+      3,
+      2,
+      2,
+      2,
+      3
+    ],
+    "avg_articles_per_day": 2.6,
+    "verified_pass": 20,
+    "verified_fail": 34,
+    "fail_reasons": [
+      "This is just a newsletter table of contents with brief teasers, not substantive articles with actual analysis or insights.",
+      "This is a generic earnings report that lacks the depth and analytical insights the reader prefers, focusing on short-term stock movements rather than strategic implications.",
+      "The article content is identical to the shortlist summary, indicating no full article was available for evaluation, and McKinsey content doesn't fit the finance/macro slot criteria which prioritizes market moves, earnings, and sector dynamics.",
+      "This is a thin FDA press release that lacks the financial/market analysis depth required for Slot 2, and doesn't provide meaningful investment insights beyond basic regulatory news.",
+      "This is a thin news roundup covering four disconnected biotech stories without the analytical depth or cross-domain insights expected for the Wildcard slot.",
+      "This is a newsletter digest/table of contents rather than substantive analysis, lacking the depth and actionable insights expected for Slot 2 finance/macro coverage.",
+      "The article content provided is identical to the summary, suggesting the full article wasn't actually retrieved, making it impossible to verify substance or depth.",
+      "This is a regulatory/legal ruling about abortion access that doesn't fit Slot 3 (Tech/AI) criteria and lacks the technology or AI focus required for this slot.",
+      "The article URL returns a 404 error and no actual content is available to evaluate for substance or accuracy.",
+      "The article content is completely truncated and consists almost entirely of cookie consent preferences rather than the actual M&A story, making it impossible to verify substance or accuracy."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 27,
+      "jina": 15,
+      "tavily": 1,
+      "snippet_fallback": 11
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Value Investors Insight": 7,
+      "Scuttleblurb": 7,
+      "A Letter a Day": 5,
+      "Biotech Primer": 7,
+      "The Transcript": 7,
+      "MBI": 7
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 8,
+    "checked_slots": 476,
+    "total_broken": 8,
+    "surfaces": {
+      "article_warnings": 1,
+      "triage_dropped": 7,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": [
+      [
+        "FDA Press Releases",
+        1
+      ]
+    ]
+  }
+}

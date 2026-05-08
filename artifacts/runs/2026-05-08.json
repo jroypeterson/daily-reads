@@ -1,0 +1,45 @@
+{
+  "run_date": "2026-05-08",
+  "generated_at": "2026-05-08T13:18:13Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "91e47bdeac5af5cf",
+      "headline": "AI is fabricating citations in medical journals",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/05/07/lancet-study-finds-steep-rise-fraudulent-citations-academic-papers/",
+      "slot": 1,
+      "summary": "A Columbia University study analyzing 97 million citations found AI-fabricated references spreading rapidly in biomedical literature, rising from 1 in 2,828 papers in 2023 to 1 in 277 in early 2026. The researchers identified 4,000 fabricated citations across 2,800 papers, with over a third concentrated in two large open-access publishers. The trend reflects deeper problems with research culture as AI tools enable superficial engagement with literature.",
+      "why_it_matters": "This represents a fundamental threat to evidence-based medicine and could undermine the scientific foundation that healthcare investments, drug approvals, and clinical guidelines depend upon.",
+      "signal_tags": [
+        "AI_impact",
+        "health_technology_datasets",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "cd136104e6f5bfd3",
+      "headline": "Angelini to buy Catalyst in $4B play for rare neuro drugs",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/angelini-catalyst-acquisition-cns-drugs/819591/",
+      "slot": 2,
+      "summary": "Italian pharma Angelini will acquire Catalyst Pharmaceuticals for $4.1 billion ($31.50/share, 21% premium), gaining three approved CNS treatments including Firdapse and Fycompa that generated $589M revenue in 2025. The deal gives Angelini its first major U.S. market entry and reflects broader pharma consolidation in neuroscience, joining recent billion-dollar CNS acquisitions by UCB, Otsuka, and Eli Lilly.",
+      "why_it_matters": "Large-scale M&A demonstrates continued appetite for revenue-generating rare disease assets and highlights strategic consolidation in neuroscience as a key 2026 trend worth monitoring for investment implications.",
+      "signal_tags": [
+        "ticker_match:CPRX",
+        "catalyst_proximity",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

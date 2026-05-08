@@ -334,5 +334,17 @@
         "url": "http://www.fda.gov/news-events/press-announcements/fda-expands-ai-capabilities-and-completes-data-platform-consolidation"
       }
     ]
+  },
+  {
+    "date": "2026-05-08",
+    "checked_unique": 63,
+    "checked_slots": 65,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

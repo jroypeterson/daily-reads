@@ -1645,5 +1645,59 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial depth on AlphaEvolve's real-world applications across multiple industries with concrete performance metrics, aligning perfectly with the reader's strong preferences for AI infrastructure and data systems intersecting with business applications."
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Sanofi pulls drug from FDA voucher program after political appointee interfered with review",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/06/sanofi-asks-to-pull-diabetes-drug-teplizumab-makary-fda-voucher-program/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Article is paywalled after just three paragraphs, preventing full evaluation of substance and depth required for selection."
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "AI is fabricating citations in medical journals",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/07/lancet-study-finds-steep-rise-fraudulent-citations-academic-papers/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong article with substantial depth on a critical threat to scientific integrity in healthcare/biotech research, backed by rigorous data analysis and expert commentary."
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Healthcare revenue cycle management at a strategic turning point: Survey insights",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/healthcare/our-insights/healthcare-revenue-cycle-management-at-a-strategic-turning-point-survey-insights",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article text provided is identical to the shortlist summary, suggesting the full article content wasn't actually retrieved, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Angelini to buy Catalyst in $4B play for rare neuro drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/angelini-catalyst-acquisition-cns-drugs/819591/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong M&A story with solid financial details and strategic context that fits finance/macro slot well, showing consolidation trends in rare disease space."
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Cloudflare to cut about 20% workforce",
+    "source": "Hacker News/Reuters",
+    "url": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is truncated and appears to be mostly website navigation elements rather than substantive reporting about Cloudflare's layoffs or AI operations."
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Odyssey raises more than $300M as biotech goes public",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/odyssey-raises-more-than-300m-as-biotech-goes-public-in-ipo/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is targeted for Slot 3 (Tech/AI) but is purely a biotech IPO financing story with no technology or AI content, and the article text appears to be cut off showing only website navigation elements rather than substantive content."
   }
 ]
