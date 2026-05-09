@@ -1,0 +1,44 @@
+{
+  "run_date": "2026-05-09",
+  "generated_at": "2026-05-09T13:05:31Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "ddadc2f7fd841538",
+      "headline": "Trump reportedly plans to fire FDA Commissioner Makary",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/?utm_campaign=rss",
+      "slot": 1,
+      "summary": "President Trump reportedly plans to fire FDA Commissioner Marty Makary after just over a year in the role, following months of political pressure and management controversies. Makary's tenure included clashes over flavored vape approvals, the abortion pill mifepristone, and personnel drama that led to departures of longtime staff. His dismissal would create another vacancy in RFK Jr.'s already understaffed health department, which lacks permanent leaders at CDC and other key positions.",
+      "why_it_matters": "FDA leadership instability creates regulatory uncertainty for biopharma companies navigating drug approvals, while the broader pattern of HHS vacancies signals ongoing dysfunction in health policy implementation that could impact industry timelines and priorities.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "0b2ff6282b27dfca",
+      "headline": "Amazon 1Q'26: Rosy Near-term but 'Cloudy' Long-term",
+      "source": "MBI",
+      "url": "https://mbideepdives.substack.com/p/amazon-1q26-rosy-near-term-but-cloudy?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4",
+      "slot": 2,
+      "summary": "Amazon's Q1 2026 results showed AWS accelerating to 28% growth (highest in 15 quarters) while retail business demonstrated strong unit growth of 15% despite declining average prices. However, the analysis reveals competitive pressures with Amazon ads losing incremental share to Google, which itself is losing share to Meta, suggesting potential long-term headwinds despite strong near-term metrics.",
+      "why_it_matters": "Provides critical insight into Amazon's competitive moats across cloud infrastructure and digital advertising - two key battlegrounds that will determine Big Tech leadership and investment returns over the next decade.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

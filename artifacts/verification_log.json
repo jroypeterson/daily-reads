@@ -1699,5 +1699,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This article is targeted for Slot 3 (Tech/AI) but is purely a biotech IPO financing story with no technology or AI content, and the article text appears to be cut off showing only website navigation elements rather than substantive content."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Trump reportedly plans to fire FDA Commissioner Makary",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on FDA leadership instability with specific details about Makary's controversial tenure and broader implications for regulatory policy, fitting perfectly into Slot 1 healthcare/biotech criteria."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Ushering in the next era of frontline nursing with AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/healthcare/our-insights/ushering-in-the-next-era-of-frontline-nursing-with-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article fits Slot 1 (Healthcare/Biopharma) or Slot 3 (Tech/AI) better than Slot 2 (Finance/Markets), as it focuses on clinical workflow transformation rather than financial/market implications."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Earning & Spending (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/earning-spending?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin newsletter digest with brief bullet points rather than substantive analysis, and it's primarily a content promotion vehicle rather than providing actionable finance/macro insights."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Shopify 1Q'26: Impressive, But Still Not Enough to Justify Valuation",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/shopify-1q26-impressive-but-still?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Article is paywalled after the first few paragraphs, making it impossible to verify depth and substance, plus the reader's taste profile explicitly includes 'paywalled content' as an avoid pattern."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Amazon 1Q'26: Rosy Near-term but 'Cloudy' Long-term",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/amazon-1q26-rosy-near-term-but-cloudy?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "High-quality financial analysis with substantial depth on Amazon's competitive positioning across AWS, retail, and advertising segments, perfectly fitting Slot 2 requirements."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "FDA Grants Seventh Approval under the National Priority Voucher Pilot Program",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-grants-seventh-approval-under-national-priority-voucher-pilot-program",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a straightforward FDA approval announcement that lacks the tech/AI focus required for Slot 3 and doesn't contain sufficient analytical depth or strategic insights."
+  },
+  {
+    "date": "2026-05-09",
+    "headline": "Junior bankers built a $2B company to do their jobs",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/features/2026-04-29/junior-bankers-sick-of-grunt-work-build-2-billion-ai-tool-to-do-the-job",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is completely truncated and contains only Bloomberg's website navigation menu, providing no actual substance to evaluate for the Tech/AI slot."
   }
 ]
