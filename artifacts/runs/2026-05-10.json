@@ -1,0 +1,62 @@
+{
+  "run_date": "2026-05-10",
+  "generated_at": "2026-05-10T13:08:43Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 76,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f6d2960ea91e4af8",
+      "headline": "Trump to Fire FDA Commissioner Marty Makary After Tumultuous Tenure",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/",
+      "slot": 1,
+      "summary": "President Trump is reportedly planning to fire FDA Commissioner Marty Makary after a tumultuous tenure marked by political conflicts, including pressure to approve flavored vapes and delays on abortion pill studies. His departure would create another vacancy in RFK Jr.'s already understaffed health department, which lacks permanent leadership at both CDC and FDA's key biopharma divisions. The firing follows months of reports that Makary was on 'thin ice' due to management issues and political pressure affecting the FDA's scientific processes.",
+      "why_it_matters": "FDA commissioner changes create regulatory uncertainty for drug approvals, review timelines, and policy direction that directly impacts biopharma investment decisions and portfolio companies navigating the approval process.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "healthcare_policy",
+        "leadership_change"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "a438173b064b59df",
+      "headline": "Microsoft Q3 2026: $37B AI Revenue Run Rate as Copilot Hits 20M Seats",
+      "source": "Microsoft/CNBC",
+      "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+      "slot": 2,
+      "summary": "Microsoft's AI business reached a $37 billion annualized revenue run rate (up 123% YoY) while Copilot achieved 20 million paid seats with Outlook-level engagement, indicating enterprise AI adoption is accelerating. The company will invest $190 billion in capex for 2026 (up 61% from 2025), with $25 billion attributed to higher memory costs from AI demand. Microsoft also ended its exclusive OpenAI partnership while retaining IP licensing rights through 2032.",
+      "why_it_matters": "Microsoft's massive AI revenue milestone and unprecedented infrastructure spending validates the enterprise AI transformation thesis while highlighting critical supply constraints in memory components that could impact the entire AI infrastructure ecosystem.",
+      "signal_tags": [
+        "AI_enterprise_adoption",
+        "infrastructure_investment",
+        "productivity_transformation",
+        "ticker_match:MSFT"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "56131233c4304788",
+      "headline": "AI-Augmented Behavioral Health Provider Theris Launches from Stealth",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/digital-health/ai-powered-behavioral-health-provider-theris-launches-out-stealth",
+      "slot": 3,
+      "summary": "Theris, an AI-powered behavioral health startup, emerged from stealth with a platform that records and analyzes therapy sessions using AI agents trained on 150,000+ clinical hours. The company extracts digital biomarkers from voice and facial expressions, achieving claimed 94% diagnostic accuracy, and is pursuing FDA Class II device status for autonomous psychology services. They're bootstrapped initially but have raised undisclosed funding rounds and serve patients across eight states including the VA.",
+      "why_it_matters": "This represents a significant advancement in AI-healthcare data infrastructure with concrete metrics (94% accuracy, 150K training hours) and regulatory pathway that could transform behavioral health delivery at scale, directly matching the reader's interest in biology-AI intersection and data infrastructure investments.",
+      "signal_tags": [
+        "digital_health",
+        "AI_healthcare",
+        "behavioral_health",
+        "workflow_automation"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

@@ -1762,5 +1762,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article content is completely truncated and contains only Bloomberg's website navigation menu, providing no actual substance to evaluate for the Tech/AI slot."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Trump to Fire FDA Commissioner Marty Makary After Tumultuous Tenure",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong regulatory news with significant biopharma implications - FDA leadership turnover creates uncertainty for drug approvals and policy direction across the industry."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "McKinsey Quantum Technology Monitor 2026: A Commercial Tipping Point",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-quantum-technology-monitor-2026-a-commercial-tipping-point",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the shortlist summary, indicating no full article was available - only promotional bullet points without the substantive analysis expected from McKinsey consulting insights."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Microsoft Q3 2026: $37B AI Revenue Run Rate as Copilot Hits 20M Seats",
+    "source": "Microsoft/CNBC",
+    "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This earnings report provides substantial depth on Microsoft's AI transformation with concrete metrics ($37B AI revenue run rate, 20M Copilot seats) and forward-looking infrastructure investments that have clear market implications."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Digital Advertising Industry Snapshot Q1 2026",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/digital-advertising-industry-snapshot-421?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTY5NTE3OTcsImlhdCI6MTc3ODMzMzQzNSwiZXhwIjoxNzgwOTI1NDM1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.NW6xoeqj5cwLmKN1xT9nsWN27THAE5eLZsP8ZpwP7NM",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "While this is substantive market analysis, it's purely about digital advertising market share and doesn't match Slot 3's focus on AI breakthroughs, infrastructure, or enterprise adoption - it belongs in Slot 2 (Finance/Markets) instead."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Stratechery Weekly: Earning & Spending - Big Tech Q1 Analysis",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/earning-spending?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Vhcm5pbmctc3BlbmRpbmcvIl19LCJleHAiOjE3ODA4NTE3NzYsImlhdCI6MTc3ODI1OTc3NiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiIxZWUxMmEzNC01OGRiLTRjYzYtODY1OS1iZjRmNzkwODk4MDciLCJ1c2UiOiJhY2Nlc3MifQ.Z9irbXPs3nXMgknja521rsuOdApX_4vWMSQj13ng5lClx0SF_p0C3KhQsx9oM5iiHILer5QttkCS4o2GxzOi-drRxLUKdh42b6pajQ7RG8Q1WouJub4BKPGRAqlDKW1cQDC3a_csj6RMVHDeFTWAJ7oLPd-CwJ_Q_RgQVGQWE-BMOpH3Rac0vbVjgrNWd5FcyqV9SLYlxs734mYYMW-zKqM1QLTpkuiQFfXRsaShBntlB55GGKMuu2jBphEqbkEH_xVZmXkLsb9NOhdQ2jb6PBc1Ma2rj-oLXLYIeurjAKBEvcKO0XHpDamOC8-SLapGKcmyzCLK0uI6MPa3ZGDWnw",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table of contents with brief summaries rather than substantive analysis, lacking the depth expected for Tech/AI slot selection."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Ushering in the Next Era of Frontline Nursing with AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e095536e5b97f186e96c660c0/89b05ad8fae248130000021ef3a0bcc2/89b05ad8-fae2-4813-8ba8-766d9db8eef4",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, indicating the full article was not actually retrieved, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Bun's Experimental Rust Rewrite Hits 99.8% Test Compatibility",
+    "source": "Hacker News",
+    "url": "https://twitter.com/jarredsumner/status/2053047748191232310",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a single tweet with an image showing test results, lacking the substance and depth required for a daily digest article."
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "AI-Augmented Behavioral Health Provider Theris Launches from Stealth",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/ai-powered-behavioral-health-provider-theris-launches-out-stealth",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on AI-healthcare intersection with specific technical details, funding information, and strategic insights that align perfectly with the reader's strong preference for data infrastructure and AI-biology convergence."
   }
 ]
