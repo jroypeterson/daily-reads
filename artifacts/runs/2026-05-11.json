@@ -1,0 +1,60 @@
+{
+  "run_date": "2026-05-11",
+  "generated_at": "2026-05-11T14:37:57Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f4e146dcd1c6fdeb",
+      "headline": "Trump reportedly plans to fire FDA Commissioner Marty Makary after agency turmoil",
+      "source": "Multiple sources",
+      "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/",
+      "slot": 1,
+      "summary": "President Trump reportedly plans to fire FDA Commissioner Marty Makary after a turbulent tenure marked by staff departures, political pressure over flavored vapes approval, and conflicts over abortion pill studies. The move would create another vacancy in Kennedy's health department, which already lacks permanent CDC director and surgeon general, while the FDA's main biopharma divisions also lack permanent leadership.",
+      "why_it_matters": "FDA leadership instability and political interference in drug approval processes creates significant regulatory uncertainty for biotech companies, potentially affecting approval timelines and investment decisions across the sector.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "high_impact"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "5a097f4f4fbca2a2",
+      "headline": "Anthropic hits $30B revenue run rate after 'crazy' 80x growth",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "slot": 2,
+      "summary": "Anthropic CEO Dario Amodei revealed the company hit a $30 billion revenue run rate after 80x annualized growth in Q1 2026, far exceeding their planned 10x growth trajectory. The growth is driven primarily by Claude Code, their AI coding tool that became the fastest-growing enterprise software product ever, hitting $1 billion in revenue within six months of launch. The company is now weighing a funding round that could value it at over $900 billion, potentially making it the world's most valuable AI startup.",
+      "why_it_matters": "This validates the enterprise AI coding thesis at unprecedented scale and signals major disruption coming to software development workflows, with potential implications for the broader tech sector and AI infrastructure investments.",
+      "signal_tags": [
+        "AI_impact",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "46fd2c081f9ef2d0",
+      "headline": "Local AI needs to be the norm",
+      "source": "Hacker News",
+      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "slot": 3,
+      "summary": "Developer argues that the current trend of relying on cloud AI APIs creates fragile, privacy-invasive applications when local AI could handle many use cases better. Provides detailed technical implementation using Apple's local AI APIs with concrete code examples for on-device text summarization and structured data generation. Demonstrates how local AI can eliminate privacy concerns, reduce complexity, and improve reliability for common AI features.",
+      "why_it_matters": "This represents a significant architectural shift in AI deployment that could reshape the competitive landscape between local compute and cloud AI providers, with major implications for infrastructure investments and enterprise AI adoption patterns.",
+      "signal_tags": [
+        "AI_infrastructure",
+        "tech_analysis",
+        "emerging_trend"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

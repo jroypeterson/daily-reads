@@ -1834,5 +1834,68 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial depth on AI-healthcare intersection with specific technical details, funding information, and strategic insights that align perfectly with the reader's strong preference for data infrastructure and AI-biology convergence."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Trump reportedly plans to fire FDA Commissioner Marty Makary after agency turmoil",
+    "source": "Multiple sources",
+    "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on FDA leadership instability with specific details about political pressures, management issues, and regulatory implications that directly impact biotech investors."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Anthropic hits $30B revenue run rate after 'crazy' 80x growth",
+    "source": "VentureBeat",
+    "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial depth on Anthropic's explosive growth with concrete financial metrics and strategic implications for the AI enterprise market, fitting well into Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "McKinsey Quantum Technology Monitor 2026: A commercial tipping point",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e035e1d7a900a5b369ff0b33c/363b3196e20b465f0000021ef3a0bcc2/363b3196-e20b-465f-b190-eca06729a446",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, indicating no full article was available to evaluate for substance and depth."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Ushering in the next era of frontline nursing with AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e095536e5b97f186e96c660c0/89b05ad8fae248130000021ef3a0bcc2/89b05ad8-fae2-4813-8ba8-766d9db8eef4",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content provided is just McKinsey's homepage navigation and promotional material, not the actual article about AI in nursing."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Healthcare revenue cycle management at a strategic turning point",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019dfe1c4a37b132506e96c660a0/712b926031054f0d0000021ef3a0bcc2/712b9260-3105-4f0d-9db0-e718a8bbfc24",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repetition of the headline and summary, indicating the full article wasn't accessible, and revenue cycle management doesn't align with Slot 3's tech/AI focus despite being from a high-priority consulting source."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "FDA Advances Drug Repurposing to Address Unmet Medical Needs",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-advances-drug-repurposing-address-unmet-medical-needs",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory announcement seeking public input rather than a tech/AI article, and lacks the technical depth or AI focus required for Slot 3."
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Local AI needs to be the norm",
+    "source": "Hacker News",
+    "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial technical depth on local AI implementation with concrete code examples and strategic analysis of the infrastructure shift, perfectly matching Slot 3 tech/AI criteria and the reader's strong preference for data infrastructure topics."
   }
 ]
