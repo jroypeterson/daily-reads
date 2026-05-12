@@ -1,0 +1,30 @@
+{
+  "run_date": "2026-05-12",
+  "generated_at": "2026-05-12T14:07:19Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f6d2960ea91e4af8",
+      "headline": "Trump reportedly plans to fire FDA Commissioner Makary",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/",
+      "slot": 1,
+      "summary": "President Trump has reportedly signed off on dismissing FDA Commissioner Marty Makary after a tumultuous tenure marked by personnel drama, staff departures, and political controversies including conflicts over flavored e-cigarettes and mifepristone safety studies. Makary's departure would create another major vacancy in RFK Jr.'s health department, adding to existing gaps at CDC and Surgeon General positions. The FDA is already operating without permanent leadership in its main biopharma regulatory divisions.",
+      "why_it_matters": "FDA leadership instability could significantly disrupt drug approval timelines, regulatory policy consistency, and pharmaceutical investment decisions during a period of unprecedented agency turnover.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "priority:high",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
