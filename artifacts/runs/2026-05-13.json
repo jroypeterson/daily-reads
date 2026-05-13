@@ -1,0 +1,30 @@
+{
+  "run_date": "2026-05-13",
+  "generated_at": "2026-05-13T14:16:49Z",
+  "counts": {
+    "gmail_items": 137,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c6c65ac4441e8d3d",
+      "headline": "Bristol Myers, Hengrui join forces in drugmaking alliance worth up to $15.2 billion",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/bristol-myers-hengrui-china-biotech-drugs-deal/819937/",
+      "slot": 1,
+      "summary": "Bristol Myers Squibb announced a comprehensive $15.2 billion alliance with China's Hengrui Pharmaceutical covering 13 drug programs across oncology and immunology. The deal reflects accelerating U.S.-China biotech partnerships, with over 60 such deals in 2025 alone, despite growing regulatory concerns in Washington. Bristol pays $600M upfront plus milestones, gaining global rights to Hengrui's cancer drugs while Hengrui gets Bristol's immunology assets for Greater China.",
+      "why_it_matters": "This mega-deal validates the strategic shift of major pharmas toward Chinese partnerships for drug discovery, signaling continued cross-border collaboration despite geopolitical tensions and potential regulatory headwinds.",
+      "signal_tags": [
+        "ticker_match:BMY",
+        "catalyst_proximity",
+        "china_exposure"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

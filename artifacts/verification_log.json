@@ -1960,5 +1960,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a thin regulatory announcement requesting public input rather than substantive policy change, and doesn't fit Slot 2's finance/markets focus despite having some investment implications."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "FDA Commissioner Marty Makary resigns, capping turbulent tenure",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/12/fda-commissioner-marty-makary-resigns-kyle-diamantas-acting/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a brief introduction available, lacking the substance and depth required for selection."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Bristol Myers, Hengrui join forces in drugmaking alliance worth up to $15.2 billion",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/bristol-myers-hengrui-china-biotech-drugs-deal/819937/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a major $15B+ pharma deal while analyzing broader trends in U.S.-China biotech collaboration, perfectly fitting Slot 1 healthcare/biopharma criteria."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "The AI paradox in Europe's consumer industries: More spending, elusive impact",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e1d0d6ebda89c9e6e96c569c8/4990a795e1d844000000021ef3a0bcc2/4990a795-e1d8-4400-b40f-cfa2055f2135",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be identical to the shortlist summary, suggesting the full article was not actually retrieved and this evaluation is based only on the summary placeholder text."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Building the muscle for AI transformation",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e17901941bcb0f56e966eb1e0/25a4c91c493746210000021ef3a0bcc2/25a4c91c-4937-4621-a8da-d16672c2dab6",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot verify article substance or accuracy of summary since full content was not provided - only metadata was repeated."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Shopify 1Q'26: Impressive, But Still Not Enough to Justify Valuation",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/shopify-1q26-impressive-but-still?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTY2MDk1MjMsImlhdCI6MTc3ODA3ODA4NSwiZXhwIjoxNzgwNjcwMDg1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.HbL9cdXSD4heCib00VLGL7VHDiqGges4l68jf0XiCZM",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "While the analysis has good depth, it focuses on a single stock's valuation rather than broader finance/macro themes that would fit Slot 2, and the reader's taste profile shows they avoid short-term trading focus and prefer healthcare-adjacent finance coverage."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Roblox 1Q'26: Age Check Hangover, But Aiming to Go Beyond the Blocks",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/roblox-1q26-age-check-hangover-but?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTcxMzI0NjgsImlhdCI6MTc3ODUxMDkxNCwiZXhwIjoxNzgxMTAyOTE0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.k9VQhGGUZL22gp6RwMjtvLSrTm80WSlb8lKBworE6Ow",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a niche gaming company analysis that doesn't fit Slot 2's finance/macro focus and lacks broader market relevance or healthcare adjacency that the reader prefers."
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Meet the Nvidias of power \u2014 5 stocks winning Big Tech's $700 billion AI energy grab",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/meet-the-nvidias-of-power-5-stocks-winning-big-techs-700-billion-ai-energy-grab-9226157a?mod=mw_rss_topstories",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article appears to be mostly truncated with only a brief introduction visible, lacking the substantive analysis of specific companies and investment opportunities promised in the headline."
   }
 ]
