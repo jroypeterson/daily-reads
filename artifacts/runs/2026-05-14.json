@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-05-14",
+  "generated_at": "2026-05-14T13:56:01Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "18377302826bedfa",
+      "headline": "FDA Commissioner Marty Makary resigns, ending tumultuous tenure and creating leadership uncertainty for biotech",
+      "source": "BioPharma Dive / STAT News",
+      "url": "https://www.biopharmadive.com/news/makary-fda-resign-biotech-impact/820090/",
+      "slot": 1,
+      "summary": "FDA Commissioner Marty Makary's resignation leaves three top FDA drug review positions in temporary 'acting' roles with 210-day federal time limits, creating regulatory uncertainty for biotech. His tenure brought both biotech-friendly initiatives like faster review pathways and AI adoption, but also delayed reviews, policy flip-flops, and an exodus of seasoned FDA officials. Wall Street analysts note that while biotech indices have reached pandemic-era highs during his tenure, the leadership vacuum creates investment uncertainty given biotech's long development timelines.",
+      "why_it_matters": "FDA leadership instability directly impacts drug approval timelines and biotech investment decisions, with the next appointee's approach potentially determining whether the agency maintains its biotech-friendly stance or becomes more politically driven.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "ticker_match:BIIB",
+        "ticker_match:RGNX",
+        "healthcare_daily",
+        "analytical_depth"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "ae4837e7b9e5679e",
+      "headline": "McKinsey explores space-based data centers as solution to AI infrastructure demands",
+      "source": "McKinsey & Company",
+      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-case-for-data-centers-in-space",
+      "slot": 2,
+      "summary": "McKinsey projects a potential $1 trillion annual market for orbital data center build-out, driven by AI compute demands that could dominate global infrastructure needs. Space-based systems could reduce costs to under $5 million per megawatt versus $12-15 million for terrestrial data centers. Deutsche Bank expects first small-scale orbital data centers by 2027-2028, with larger constellations emerging in the 2030s.",
+      "why_it_matters": "This represents a paradigm shift in data infrastructure strategy, offering investors and technologists a glimpse into how the AI compute bottleneck might be solved through space-based solutions with significant cost advantages and unlimited solar energy access.",
+      "signal_tags": [
+        "data_infrastructure",
+        "AI_impact",
+        "investment-relevant_insights",
+        "analytical_depth",
+        "top_tier_VC_firms"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

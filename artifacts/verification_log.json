@@ -2023,5 +2023,77 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "The article appears to be mostly truncated with only a brief introduction visible, lacking the substantive analysis of specific companies and investment opportunities promised in the headline."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "FDA Commissioner Marty Makary resigns, ending tumultuous tenure and creating leadership uncertainty for biotech",
+    "source": "BioPharma Dive / STAT News",
+    "url": "https://www.biopharmadive.com/news/makary-fda-resign-biotech-impact/820090/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on FDA leadership instability with clear investment implications for biotech, matching both the healthcare slot requirements and the reader's preference for regulatory affairs and analytical depth."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Isomorphic Labs raises $2.1 billion Series B to scale AI-powered drug discovery platform",
+    "source": "Isomorphic Labs / Bloomberg",
+    "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is essentially a press release with minimal substance - it lacks financial details, valuation context, market analysis, or strategic insights that would make it valuable for Slot 2."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "McKinsey explores space-based data centers as solution to AI infrastructure demands",
+    "source": "McKinsey & Company",
+    "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-case-for-data-centers-in-space",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "This McKinsey analysis provides substantive strategic insights on space-based data infrastructure with specific market projections and cost comparisons that align perfectly with the reader's preference for data infrastructure and consulting insights."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Biogen's tau-targeting Alzheimer's drug posts mixed Phase 2 results but advances to Phase 3",
+    "source": "Endpoints News / STAT News",
+    "url": "https://endpoints.news/biogens-anti-tau-alzheimers-drug-misses-phase-2-goal-but-will-move-to-pivotal-study/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma article about clinical trial results that belongs in Slot 1, not Slot 3 (Tech/AI), and the article content was truncated showing only website navigation elements without the actual substantive content."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Constellation Software delivers steady Q1'26 results amid software industry turbulence",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-1q26-leaning?r=w2qs",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a detailed financial analysis of Constellation Software's quarterly results, but it doesn't fit Slot 3 (Tech/AI) as it's purely a financial/earnings report without meaningful tech or AI insights."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Regenxbio's Duchenne gene therapy hits pivotal study milestone, eyes 2027 FDA approval",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/regenxbio-hits-duchenne-gene-therapy-milestone-eyes-2027-fda-approval/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma story that belongs in Slot 1, not Slot 3 (Tech/AI), and the article content appears to be truncated without the actual substance of the clinical data."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Kevin Warsh confirmed as next Federal Reserve Chair in divisive Senate vote",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Finance/Markets article about Fed leadership transition that doesn't fit Slot 3 (Tech/AI) and lacks the tech/AI focus required for that slot."
+  },
+  {
+    "date": "2026-05-14",
+    "headline": "Xi asks Trump about avoiding 'Thucydides Trap' at high-stakes Beijing summit",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a generic geopolitical summit article that lacks the tech/AI focus required for Slot 3 and doesn't match the reader's preference for investment-relevant insights with analytical depth."
   }
 ]
