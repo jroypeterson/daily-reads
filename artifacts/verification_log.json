@@ -2095,5 +2095,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a generic geopolitical summit article that lacks the tech/AI focus required for Slot 3 and doesn't match the reader's preference for investment-relevant insights with analytical depth."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "<cite index=\"4-13,4-18,1-7\">FDA Commissioner Marty Makary resigns, ending tumultuous tenure amid biotech industry chaos</cite>",
+    "source": "Multiple Healthcare Sources",
+    "url": "https://www.biopharmadive.com/news/makary-fda-resign-biotech-impact/820090/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on FDA leadership chaos with clear investment implications for biotech, matching both the healthcare slot criteria and the reader's preference for regulatory affairs and investment-relevant insights."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "<cite index=\"2-15,2-16\">Bristol Myers strikes $15.2 billion alliance with China's Hengrui in massive biotech deal</cite>",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/bristol-myers-hengrui-china-biotech-drugs-deal/819937/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a major M&A deal with strong finance/macro implications, including detailed deal structure, broader industry trends, and geopolitical context that aligns well with Slot 2 criteria."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "<cite index=\"11-3,11-4\">Alphabet's Isomorphic Labs raises $2.1 billion Series B for AI drug discovery revolution</cite>",
+    "source": "Multiple Tech Sources",
+    "url": "https://letsdatascience.com/news/isomorphic-labs-raises-21bn-series-b-57992d5d",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong fit for Tech/AI slot with substantial analysis of a major funding event at the intersection of AI and biology, matching the reader's preferences for data infrastructure, venture insights, and AI-biology convergence."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "<cite index=\"21-8,21-26\">McKinsey: Quantum computing hits commercial tipping point as business leaders wake up to $2.7 trillion opportunity</cite>",
+    "source": "McKinsey & Company",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/quantums-bold-promise-what-business-leaders-need-to-know",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the shortlist summary, indicating this is likely just a headline and brief description rather than a full substantive McKinsey report with actual analysis and data."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Supreme Court preserves mail-order access to abortion pill mifepristone amid political pressures",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/supreme-court-preserves-mail-access-for-abortion-pill/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article appears to be completely inaccessible due to cookie consent walls and lacks any actual substantive content about the Supreme Court ruling."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "Mid-cap pharma companies emerge as new M&A buyers in record dealmaking year",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/ma-isnt-just-for-big-pharma-mid-size-companies-are-stepping-up-deal-hunts/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is completely inaccessible due to cookie consent barriers and appears to contain no actual substantive content beyond navigation elements and cookie policies."
+  },
+  {
+    "date": "2026-05-15",
+    "headline": "DOJ accuses Yale and UCLA medical schools of racial discrimination in admissions process",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/15/trump-doj-targets-yale-ucla-medical-school-admissions/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial analytical depth on a complex issue with cross-domain implications for healthcare policy, medical education, and workforce diversity that would merit forwarding."
   }
 ]

@@ -1,0 +1,263 @@
+{
+  "period_start": "2026-05-09",
+  "period_end": "2026-05-15",
+  "generated_at": "2026-05-15T13:53:28.859855+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 922,
+    "total_tier2_items": 614,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 10
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 21
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 7
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 6
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 12
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 13
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 9
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 66
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 27
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 16,
+    "articles_per_day": [
+      4,
+      2,
+      1,
+      1,
+      3,
+      3,
+      2
+    ],
+    "avg_articles_per_day": 2.3,
+    "verified_pass": 16,
+    "verified_fail": 35,
+    "fail_reasons": [
+      "This article fits Slot 1 (Healthcare/Biopharma) or Slot 3 (Tech/AI) better than Slot 2 (Finance/Markets), as it focuses on clinical workflow transformation rather than financial/market implications.",
+      "This is a thin newsletter digest with brief bullet points rather than substantive analysis, and it's primarily a content promotion vehicle rather than providing actionable finance/macro insights.",
+      "Article is paywalled after the first few paragraphs, making it impossible to verify depth and substance, plus the reader's taste profile explicitly includes 'paywalled content' as an avoid pattern.",
+      "This is a straightforward FDA approval announcement that lacks the tech/AI focus required for Slot 3 and doesn't contain sufficient analytical depth or strategic insights.",
+      "The article content is completely truncated and contains only Bloomberg's website navigation menu, providing no actual substance to evaluate for the Tech/AI slot.",
+      "The article content is identical to the shortlist summary, indicating no full article was available - only promotional bullet points without the substantive analysis expected from McKinsey consulting insights.",
+      "While this is substantive market analysis, it's purely about digital advertising market share and doesn't match Slot 3's focus on AI breakthroughs, infrastructure, or enterprise adoption - it belongs in Slot 2 (Finance/Markets) instead.",
+      "This is a newsletter table of contents with brief summaries rather than substantive analysis, lacking the depth expected for Tech/AI slot selection.",
+      "The article content provided is identical to the shortlist summary, indicating the full article was not actually retrieved, making it impossible to verify substance or depth.",
+      "This is just a single tweet with an image showing test results, lacking the substance and depth required for a daily digest article."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 22,
+      "jina": 15,
+      "tavily": 3,
+      "snippet_fallback": 11
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Value Investors Insight": 7,
+      "MBI": 7,
+      "The Transcript": 7,
+      "Scuttleblurb": 7,
+      "A Letter a Day": 7,
+      "Biotech Primer": 7
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 7,
+    "checked_slots": 439,
+    "total_broken": 2,
+    "surfaces": {
+      "article_warnings": 0,
+      "triage_dropped": 2,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "run_date": "2026-05-15",
+  "generated_at": "2026-05-15T13:53:23Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "96a442bfcaf73f0f",
+      "headline": "<cite index=\"4-13,4-18,1-7\">FDA Commissioner Marty Makary resigns, ending tumultuous tenure amid biotech industry chaos</cite>",
+      "source": "Multiple Healthcare Sources",
+      "url": "https://www.biopharmadive.com/news/makary-fda-resign-biotech-impact/820090/",
+      "slot": 1,
+      "summary": "FDA Commissioner Marty Makary's resignation leaves three top FDA drug regulation positions filled by 'acting' officials with 210-day federal limits, creating unprecedented leadership instability. While Makary introduced biotech-friendly initiatives like national priority vouchers and faster review pathways, his tenure was marked by delayed reviews, policy reversals, and exodus of senior scientific staff. The uncertainty around his replacement's approach could significantly impact biotech regulatory pathways and investment decisions.",
+      "why_it_matters": "This regulatory uncertainty directly affects biotech investment decisions and drug approval timelines, with analysts noting the wide range of potential outcomes depending on whether the next commissioner maintains current pro-biotech policies or shifts toward more restrictive oversight.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "ticker_match:multiple",
+        "high_priority_source"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "c6c65ac4441e8d3d",
+      "headline": "<cite index=\"2-15,2-16\">Bristol Myers strikes $15.2 billion alliance with China's Hengrui in massive biotech deal</cite>",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/bristol-myers-hengrui-china-biotech-drugs-deal/819937/",
+      "slot": 2,
+      "summary": "Bristol Myers Squibb announced a $15.2 billion alliance with China's Hengrui Pharma covering 13 drug prospects, paying $600M upfront with potential milestone payments. The deal reflects an acceleration of U.S.-China pharmaceutical licensing, with over 60 such deals in 2025 alone, despite growing Washington concerns about China's influence on U.S. drug development.",
+      "why_it_matters": "Signals a strategic shift toward U.S. pharma dependence on Chinese innovation that could create both geopolitical investment risks and major market opportunities as cross-border pharmaceutical alliances reshape global drug pipelines.",
+      "signal_tags": [
+        "ticker_match:BMY",
+        "geopolitical_risks",
+        "catalyst_proximity",
+        "investment_relevance"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "deb81398eee8a110",
+      "headline": "<cite index=\"11-3,11-4\">Alphabet's Isomorphic Labs raises $2.1 billion Series B for AI drug discovery revolution</cite>",
+      "source": "Multiple Tech Sources",
+      "url": "https://letsdatascience.com/news/isomorphic-labs-raises-21bn-series-b-57992d5d",
+      "slot": 3,
+      "summary": "Isomorphic Labs, spun out from Google DeepMind in 2021, raised $2.1B Series B led by Thrive Capital with participation from major sovereign and corporate investors, bringing total funding to ~$2.6B. The company builds AI drug discovery systems based on AlphaFold technology and has partnerships with Eli Lilly and Novartis, though clinical trials have been delayed to end of 2026. CEO Demis Hassabis clarified earlier statements about clinical readiness, noting they are currently in pre-clinical trials.",
+      "why_it_matters": "This massive round sets a new financing benchmark for AI-driven drug discovery companies and signals institutional confidence in translating protein structure prediction into actual therapeutics, while the delayed timeline highlights the ongoing challenges of moving from AI models to clinical validation.",
+      "signal_tags": [
+        "AI_biology_intersection",
+        "ticker_match:GOOG",
+        "data_infrastructure",
+        "investment_relevance",
+        "venture_capital_insights"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "06bb382bf754fb7f",
+      "headline": "DOJ accuses Yale and UCLA medical schools of racial discrimination in admissions process",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/05/15/trump-doj-targets-yale-ucla-medical-school-admissions/",
+      "slot": 4,
+      "summary": "The DOJ has accused Yale and UCLA medical schools of racially discriminatory admissions practices, citing MCAT score disparities between racial groups as evidence of continued affirmative action despite the 2023 Supreme Court ban. The investigation is part of a broader Trump administration campaign against DEI programs, creating legal uncertainty for medical schools who face potential violations whether they explicitly consider race or adopt race-neutral policies with diverse outcomes. Medical educators argue that MCAT scores are imperfect measures of physician potential and that broadened admission criteria better serve healthcare needs.",
+      "why_it_matters": "This legal precedent could fundamentally reshape medical education pipelines and healthcare workforce composition, with downstream effects on health outcomes, medical school operations, and the broader healthcare delivery system.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "labor_market_dynamics",
+        "geopolitical_risks"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
