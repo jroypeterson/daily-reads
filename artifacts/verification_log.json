@@ -2158,5 +2158,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial analytical depth on a complex issue with cross-domain implications for healthcare policy, medical education, and workforce diversity that would merit forwarding."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "FDA Commissioner Marty Makary Resigns After Turbulent Tenure",
+    "source": "Multiple Healthcare Sources",
+    "url": "https://www.statnews.com/2026/05/16/marty-makary-fda-commissioner-administrative-power/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The shortlist summary is completely inaccurate - this is actually an opinion piece analyzing Makary's tenure and FDA management challenges, not breaking news about his resignation."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+    "source": "Multiple Tech/Healthcare Sources",
+    "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong fit for Slot 1 with substantial funding news ($2.1B Series B), clear technical details about their AI drug design engine, and validation through major pharma partnerships."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "CDER Chief Tracy Beth H\u00f8eg Exits FDA as Leadership Vacuum Deepens",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/cder-chief-hoeg-expected-to-leave-fda-according-to-source/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is completely inaccessible due to cookie consent barriers and lacks any substantive text about the FDA leadership changes."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "Bristol Myers Squibb and China's Hengrui Strike $15B Strategic Partnership",
+    "source": "Multiple Healthcare Sources",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVVcG71DJFxNW5rvkyN5t0CbPW1h36Dw5N-cw5N5n2LRb5nR3bW7Y9pgv6lZ3mXW36SFpw9kZ1_2W1l38H06yw62jW1gGvpb43v9YnW3lT7C3488fGMW2-K8tf4wBBbwVYRBXK2NBB7fW7H91pL5hGpNGW7B8hzs7qPzR2W3_fths50dGrdVnqZn65K5LFyW8Kg9MB20-pzRW74R3Qp1Jx0wxW5rBBv-5Lz9gqVzjmhx80ZvtPW5w-Rwd6Shmb-W5D-BJp8BxNrdW8fZJl741fmQ5V-My9r8hVJGqW4G8K1p7vPDpMW3N5Jkt7bCR6VW5w-kF96g19k5N4Ss_NzQgk3RW7lvqps90lGxnW1zhcwb3vc1XsN60RkSFzBbfKW1-zFcY5RLB79VyFt7P2svnB5W6qWM8R33vkZGW3HzXJY2LxjWjW2w3Y_h6vsf6dW4ZmD_433lMsrVlJQCz33mCN3VGRDJV2tCvD-W89xNd73g48yKN7c85S-dwkZsN1lxGFqDfRrZW7VrxCk6SJzQWW1n--pG4m23_XW6l8Fvv47mPh9W1W4Ccv7z0dzjW2FfW_F47pxLGW3rpMMF3qS7F-f7CDXgW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a newsletter aggregation with minimal detail on the BMS-Hengrui deal - only one brief sentence about the partnership structure with no financial analysis, strategic context, or investment implications suitable for Slot 2 Finance/Macro coverage."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "Stratechery Weekly: Shifting Alliances in a Changing World",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3NoaWZ0aW5nLWFsbGlhbmNlcy1pbi1hLWNoYW5naW5nLXdvcmxkLyJdfSwiZXhwIjoxNzgxNDU2Njk3LCJpYXQiOjE3Nzg4NjQ2OTcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.WJl6w2YvGnzLK8kUlfmx6Pa5FclvZz5KjUybRM__-HkEniuuQEEhI8sFGh_l9M_eDfccNAahrluLs7koGuRgnQB6JJ093WUwIJfqqp2x46TLCiY6YTrW8RCsf5KoDt89dTGBqA_Sdn98naHtjYAiLCrB7XnAEpn2Ptym6H6kPXnFeF3xTM-lmhSywiPZeb-bB6NatyAHmRSHGjHw8iYv5MD0mQ5gDMPR_uPgEwE11n7ateB9szJpiVxGhEpryuV5yXnOVmshN65T1boTm_ksbshQ7t_FLGq82OB4JbCA-TUuYU1mNWUNE7SzdEBEUdb6htckyL9vbsaEdf6aWHizwA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief summaries rather than substantive analysis, and doesn't fit Slot 2's finance/markets focus despite having some relevant themes."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "McKinsey: The Case for Data Centers in Space",
+    "source": "McKinsey & Company",
+    "url": "https://email.mckinsey.com/T/v710000019e22912cf1c2e3256e965fd798/80ce0832110e4e2e0000021ef3a0bcc2/80ce0832-110e-4e2e-bf00-114ff594beeb?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8r7mo8Clw5lxImMkoy_n_EF38ZZ8H9YwG69oSJULim6wbWPbvQvyAuRIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repeat of the summary with no actual substantive content provided, indicating this is likely thin/generic or the full article wasn't successfully retrieved."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "MBI Deep Dives: FICO - Pricing the Standard (Part 1)",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/fico-pricing-the-standard?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc0MzUwNjMsImlhdCI6MTc3ODg1MzM5MCwiZXhwIjoxNzgxNDQ1MzkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.eQiCHpGWpclCZkVIANfH7R_hGHFZ4W_V5TuZORDa-hc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep dive into FICO's monopolistic positioning and pricing power in financial infrastructure, perfectly matching Slot 2's finance/markets focus with strong analytical depth."
+  },
+  {
+    "date": "2026-05-16",
+    "headline": "Supreme Court Preserves Mail-Order Access to Abortion Pill Mifepristone",
+    "source": "Multiple Healthcare Sources",
+    "url": "https://www.biopharmadive.com/news/supreme-court-preserves-access-abortion-pill-mail-mifepristone/820372/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare regulatory/legal story that doesn't fit Slot 3 (Tech/AI) criteria and lacks the technology or AI focus required for that slot."
   }
 ]

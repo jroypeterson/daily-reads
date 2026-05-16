@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-05-16",
+  "generated_at": "2026-05-16T13:11:31Z",
+  "counts": {
+    "gmail_items": 118,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "efe3f1b753928cce",
+      "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+      "source": "Multiple Tech/Healthcare Sources",
+      "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
+      "slot": 1,
+      "summary": "Isomorphic Labs, DeepMind's AI drug discovery spinout, raised $2.1B in Series B funding led by Thrive Capital with participation from Alphabet, Temasek, and others. The funding will scale their proprietary AI drug design engine (IsoDDE) and advance their pipeline toward clinical trials, building on existing partnerships with Novartis, Lilly, and Johnson & Johnson.",
+      "why_it_matters": "This represents one of the largest biotech funding rounds in 2026 and validates the commercialization potential of AI-first drug discovery platforms, with clear progression from research to clinical application.",
+      "signal_tags": [
+        "ticker_match:GOOG",
+        "AI_biology_intersection",
+        "venture_capital_insights",
+        "data_infrastructure",
+        "novelty"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "a286e89c3ea105c4",
+      "headline": "MBI Deep Dives: FICO - Pricing the Standard (Part 1)",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/fico-pricing-the-standard?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc0MzUwNjMsImlhdCI6MTc3ODg1MzM5MCwiZXhwIjoxNzgxNDQ1MzkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.eQiCHpGWpclCZkVIANfH7R_hGHFZ4W_V5TuZORDa-hc",
+      "slot": 2,
+      "summary": "Deep historical and financial analysis of FICO's evolution from a small consulting firm to a credit scoring monopoly. Examines how the 1970s Equal Credit Opportunity Act created legal preference for statistical scoring over subjective lending decisions, and traces FICO's pivot from custom scorecards to the standardized 300-850 score that became industry standard by 1991.",
+      "why_it_matters": "FICO represents a rare case study of regulatory tailwinds creating durable competitive moats in financial infrastructure, with lessons applicable to other data/scoring monopolies in finance.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:FICO",
+        "analytical_depth",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
