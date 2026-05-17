@@ -2230,5 +2230,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a healthcare regulatory/legal story that doesn't fit Slot 3 (Tech/AI) criteria and lacks the technology or AI focus required for that slot."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Breaking: FDA Commissioner Marty Makary resigns",
+    "source": "BioSpace / STAT News / Fierce Biotech",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWwJVK4DsF_3W6qGX706fpZD8W5wYw0_5N-BwdN1RGL-F5nR3bW6N1X8z6lZ3nnW96LS4T4YlMdBW3LS-bM1x62DnW1hZRLs1-PVXYW83_9Q16F8m-DVRQH1x3R6qL9W3-cyRB932tvZW53NSbZ6B26BTW7D_Wm17FfplBW2F7x616xs5cPW4p-0b92tf7PnW5M_NDF8WFLznW3VWVW16TtTM-W8jxD8087z30jV3HPxT8hWJ7CN8RFHtwkKtNqTqtVv6lcYTLW47SH1y3DVf7hW9dlgMv2rVr7DW4yjrRl7h45mZN6Fc4WyLTldcW4Gt1yj11VdzwW2pqQxT207zSHW4bLyjf3vQZ9rN4JnLv1SmsXvN88rj6NLCWKrN9flr-R7swVhW8jqzHt4dDjH8W5PTFQY6ZkMDbW5Q1rJJ3xnNC2VkTMHQ5h_hbxW7HzDyb8HhcWgW6N8YzQ8dbSvRVv7jRb42m5sJW5glkW-6dcCwGW2NQh1947hzr1W82Lvmk3XK2l3VdHQ-F7hx75GW6Kc_w16Ytkk4f9cNsYR04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a breaking news alert with minimal substance - just a one-paragraph announcement that lacks the depth, context, and analytical insights expected for digest selection."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "BMS, Hengrui strike $15B deal for 13-asset pipeline",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVVcG71DJFxNW5rvkyN5t0CbPW1h36Dw5N-cw5N5n2LRb5nR3bW7Y9pgv6lZ3mXW36SFpw9kZ1_2W1l38H06yw62jW1gGvpb43v9YnW3lT7C3488fGMW2-K8tf4wBBbwVYRBXK2NBB7fW7H91pL5hGpNGW7B8hzs7qPzR2W3_fths50dGrdVnqZn65K5LFyW8Kg9MB20-pzRW74R3Qp1Jx0wxW5rBBv-5Lz9gqVzjmhx80ZvtPW5w-Rwd6Shmb-W5D-BJp8BxNrdW8fZJl741fmQ5V-My9r8hVJGqW4G8K1p7vPDpMW3N5Jkt7bCR6VW5w-kF96g19k5N4Ss_NzQgk3RW7lvqps90lGxnW1zhcwb3vc1XsN60RkSFzBbfKW1-zFcY5RLB79VyFt7P2svnB5W6qWM8R33vkZGW3HzXJY2LxjWjW2w3Y_h6vsf6dW4ZmD_433lMsrVlJQCz33mCN3VGRDJV2tCvD-W89xNd73g48yKN7c85S-dwkZsN1lxGFqDfRrZW7VrxCk6SJzQWW1n--pG4m23_XW6l8Fvv47mPh9W1W4Ccv7z0dzjW2FfW_F47pxLGW3rpMMF3qS7F-f7CDXgW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter digest format with multiple brief story summaries rather than a substantial standalone article about the BMS-Hengrui deal."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "AI Isn't Coming for Your Mind. It's Coming Through It",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/ai-isnt-coming-for-your-mind-its?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTcwNjI0NjUsImlhdCI6MTc3ODc5MzE3OSwiZXhwIjoxNzgxMzg1MTc5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.EHMlW8noUvEEcUg6UoJaJJ8wUH8SbTMSG516-M0QqWk",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a philosophical essay about AI's cognitive influence that doesn't fit Slot 1's healthcare/biopharma focus and lacks the FDA decisions, clinical trials, M&A, or pipeline news that slot requires."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Quantum's bold promise: What business leaders need to know",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e2814eb5cb06530369fe94bd8/262bb38cc0bc49c10000021ef3a0bcc2/262bb38c-c0bc-49c1-8694-a66a9bc0d4f3",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is targeting Slot 1 (Healthcare/Biotech) but is actually a general business technology piece that doesn't fit healthcare criteria and would be better suited for Slot 3 (Tech/AI) or Slot 4 (Wildcard)."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Figma 1Q'26: 'Not Dead'",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/figma-1q26-not-dead?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc4NzY5NTgsImlhdCI6MTc3ODk0MDQxMywiZXhwIjoxNzgxNTMyNDEzLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CeVKLlwfi6idKvFpl2AQt7stN-kiNWVN2nLNsnhNp44",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article analyzes Figma (design software) earnings which doesn't fit Slot 1's healthcare/biopharma focus, and while it has good analytical depth, it's completely outside the target domain."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Biogen's Alzheimer's data bolster tau theory\u2014and Denali",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VXf5pf15lbDbVqK0St1Y4t7cW6G5rDL5P4JYnN8_nRGx5nR3bW7Y9pgv6lZ3n-W5k0K2j3DM3TqW6nhJWh2dTvPPW3N3Z2W86qWmgW3HqqN32j75hBW3x2Vvg9csjF3N20xCfSkmsHtN7_CT3htSb5RW3fdjZT2psyfKW4PWNyq8qHlXYVkVRKJ35xNxwVgZHLZ6bDhzlW6v5K3K5DWlJ8V676Rg76fMYdW5Q0wmW7-_qPHW1sCV1X4ZV9RTN2TT4zKbp0jhW4BxbCr1KKfk_W36XSzH77TCq3W10kphb2Yxnd5W3B_dxd87SDd-N7X5ChKvzXd-W5K2jxX15sNmlW3b6H7X3XlCbkW98qPr25rfYTNW2JDW5c9knrkrW4V3SmT4jrqvPW7V5dCS2NC8mRN3lDRWqJtw1-VFcHXW6tpDxqW2kj-3n2FFyLwVhT_ty562dZjW5jRZmH4kSWj1VYDrZg42H1MjW40DKWM17KFWtW7cP_0x7DV7t2N4NXWfQ_kZY7N6KYtQQq8rZ2W35RwWs6yQC1dW5W5ybB9h7hqkW3pSwms5MnXmwW6FL6988j4mRFW6RZLSQ110lP8f7ynHMW04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content covering Biogen's tau-targeting Alzheimer's data with clear investment implications for multiple companies including Denali Therapeutics."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "Constellation Software 1Q'26: Leaning In Amidst the SaaSpocalypse",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-1q26-leaning?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc1NDg2NTIsImlhdCI6MTc3ODc2NDY2MiwiZXhwIjoxNzgxMzU2NjYyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ZF3NUcd3dcJWAGs24c_cAcvT7tEB7XXRadjCNX2wK1I",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive analysis of Constellation Software's Q1 2026 performance with detailed financial metrics, management commentary, and strategic insights about software M&A during market downturns, fitting well into the Finance/Macro slot."
+  },
+  {
+    "date": "2026-05-17",
+    "headline": "WHO declares Ebola outbreak an international public health emergency",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/17/who-ebola-drc-uganda-bundibugyo-pheic-public-health-emergency/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/public health story that doesn't fit Slot 3 (Tech/AI) and lacks any meaningful technology or AI angle despite the reader's strong preference for AI and biology intersection."
   }
 ]

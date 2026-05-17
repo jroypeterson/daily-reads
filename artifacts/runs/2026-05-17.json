@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-05-17",
+  "generated_at": "2026-05-17T13:07:23Z",
+  "counts": {
+    "gmail_items": 121,
+    "tier2_items": 82,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "27dfbecc0ec4d98a",
+      "headline": "Biogen's Alzheimer's data bolster tau theory\u2014and Denali",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VXf5pf15lbDbVqK0St1Y4t7cW6G5rDL5P4JYnN8_nRGx5nR3bW7Y9pgv6lZ3n-W5k0K2j3DM3TqW6nhJWh2dTvPPW3N3Z2W86qWmgW3HqqN32j75hBW3x2Vvg9csjF3N20xCfSkmsHtN7_CT3htSb5RW3fdjZT2psyfKW4PWNyq8qHlXYVkVRKJ35xNxwVgZHLZ6bDhzlW6v5K3K5DWlJ8V676Rg76fMYdW5Q0wmW7-_qPHW1sCV1X4ZV9RTN2TT4zKbp0jhW4BxbCr1KKfk_W36XSzH77TCq3W10kphb2Yxnd5W3B_dxd87SDd-N7X5ChKvzXd-W5K2jxX15sNmlW3b6H7X3XlCbkW98qPr25rfYTNW2JDW5c9knrkrW4V3SmT4jrqvPW7V5dCS2NC8mRN3lDRWqJtw1-VFcHXW6tpDxqW2kj-3n2FFyLwVhT_ty562dZjW5jRZmH4kSWj1VYDrZg42H1MjW40DKWM17KFWtW7cP_0x7DV7t2N4NXWfQ_kZY7N6KYtQQq8rZ2W35RwWs6yQC1dW5W5ybB9h7hqkW3pSwms5MnXmwW6FL6988j4mRFW6RZLSQ110lP8f7ynHMW04",
+      "slot": 1,
+      "summary": "Biogen reported positive Phase 2 data for its tau-targeting Alzheimer's drug, providing validation for the tau protein pathway as an alternative to failed amyloid approaches. The results particularly benefit Denali Therapeutics, which has next-generation tau-targeting technology and proven blood-brain barrier delivery capabilities from its FDA-approved Hunter syndrome treatment. The article also covers FDA placing a clinical hold on Aardvark Therapeutics' Prader-Willi drug due to cardiac safety concerns.",
+      "why_it_matters": "Tau-based therapies represent a potentially transformative shift in Alzheimer's treatment strategy, with Biogen's validation creating a rising tide that could benefit multiple biotech companies pursuing this pathway, especially those with superior delivery technologies like Denali.",
+      "signal_tags": [
+        "ticker_match:BIIB",
+        "ticker_match:DNLI",
+        "clinical_data",
+        "alzheimers_catalyst"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "dd754cc4ae78db1b",
+      "headline": "Constellation Software 1Q'26: Leaning In Amidst the SaaSpocalypse",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-1q26-leaning?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc1NDg2NTIsImlhdCI6MTc3ODc2NDY2MiwiZXhwIjoxNzgxMzU2NjYyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ZF3NUcd3dcJWAGs24c_cAcvT7tEB7XXRadjCNX2wK1I",
+      "slot": 2,
+      "summary": "Deep dive analysis of Constellation Software's Q1 2026 results shows organic growth softening to 4% (below their 4.8% average) and margins declining to 24.0%, but capital deployment accelerated dramatically with $1.6B in acquisitions over 4.5 months. Management discussed AI's potential impact on their vertical software businesses, viewing it as an opportunity to expand customer presence rather than just defend market position.",
+      "why_it_matters": "Constellation's aggressive M&A activity during the 'SaaSpocalypse' provides insights into software sector valuations and acquisition opportunities, while their AI strategy offers a framework for how vertical software companies can adapt to technological disruption.",
+      "signal_tags": [
+        "priority:high",
+        "earnings_analysis",
+        "software_sector",
+        "MA_activity"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
