@@ -40,6 +40,10 @@ Substack `substack.com/redirect/2/<token>` URLs get unwrapped to canonical publi
 
 The daily digest posts to a dedicated `#daily-reads` channel via `SLACK_WEBHOOK_URL_DAILY_READS`. The end-of-run `health/v1` heartbeat plus operator-style alerts (weekly report, source audit, criteria proposals, TickTick-expired warnings, taste synthesis, digest delivery failure) all post to `#status-reports` via `SLACK_WEBHOOK_STATUS_REPORTS`. If `SLACK_WEBHOOK_URL_DAILY_READS` is unset, the digest falls back to `SLACK_WEBHOOK_STATUS_REPORTS` so a missing secret doesn't drop the digest entirely.
 
+## Outbound email digest — paused
+
+As of 2026-05-18 the HTML email digest (`deliver_gmail` in `main.py`) is paused in the scheduled GH Actions run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. The function is gated on that env var (default `"true"` so local `python main.py` still sends if the user wants to test). To resume: delete the env line in `daily.yml` or flip it to `"true"`. Slack/TickTick/Pages/health-heartbeat were never paused.
+
 ## Health reporting
 
 Per `HEALTH_REPORTING.md` at the Claude Folder root. Cadence: **daily at 12:00 UTC** (7am ET) via `.github/workflows/daily.yml`. Every run posts a `health/v1` Block Kit heartbeat to `#status-reports` at end of `main.py` — `ok` on clean completion, `partial` if Slack digest delivery failed or TickTick token expired, `error` on uncaught exception or no-articles-after-2-attempts. URL liveness drops surface as informational warnings. The heartbeat helper is `health_report.py`; it writes `.health/last_run.json` on Slack POST failure and a `.health/posted` sentinel on success. The workflow has a final `if: always()` step that posts a generic error heartbeat when the sentinel is missing (main.py died before reaching its own heartbeat post).
