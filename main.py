@@ -2304,7 +2304,10 @@ def main():
         )
 
         # Step 5: Deliver to all channels
-        deliver_gmail(articles, triage_queue, always_read, substack_items)
+        if os.environ.get("DELIVER_GMAIL_ENABLED", "true").strip().lower() not in ("false", "0", "no", ""):
+            deliver_gmail(articles, triage_queue, always_read, substack_items)
+        else:
+            print("⏸  deliver_gmail paused via DELIVER_GMAIL_ENABLED=false")
         deliver_slack(articles, triage_queue, always_read, substack_items)
         deliver_pages(articles, triage_queue, always_read, substack_items)
         deliver_ticktick(articles, always_read)
