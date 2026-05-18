@@ -1,0 +1,45 @@
+{
+  "run_date": "2026-05-18",
+  "generated_at": "2026-05-18T15:05:05Z",
+  "counts": {
+    "gmail_items": 131,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1bbd3b4f4f86ad41",
+      "headline": "Regeneron's Phase 3 melanoma trial fails, wiping out billions in market value",
+      "source": "BioPharma Dive/Endpoints",
+      "url": "https://www.biopharmadive.com/news/regeneron-cancer-immunotherapy-fianlimab-lag3-melanoma-study-results/820443/",
+      "slot": 1,
+      "summary": "Regeneron's fianlimab plus Libtayo combination failed to meet statistical significance versus Keytruda in a Phase 3 melanoma trial, despite showing numerical improvement (11.5 vs 6.4 months progression-free survival). The failure adds to mounting setbacks for LAG-3 inhibitor drug class and raises broader questions about Regeneron's pipeline strategy as the company faces pressure from Eylea biosimilars and slower-than-expected uptake of high-dose Eylea.",
+      "why_it_matters": "Validates investor concerns about next-generation immunotherapy targets beyond PD-1 inhibitors and highlights pipeline execution risks at a major biotech facing franchise headwinds, with analysts now questioning whether Regeneron needs external business development to sustain growth.",
+      "signal_tags": [
+        "ticker_match:REGN",
+        "novelty",
+        "investment-relevant"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "47b0820c13befdde",
+      "headline": "MBI Deep Dives: The Honeymoon Phase of Capacity",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-honeymoon-phase-of-capacity",
+      "slot": 2,
+      "summary": "Analysis of CoreWeave and Nebius Q1 2026 earnings reveals massive backlog growth ($100B for CoreWeave, up from $25.9B) and complex capacity allocation deals, including Nebius's innovative $27B Meta agreement that functions as a capacity put option. The piece examines whether neocloud providers represent durable alternatives to hyperscalers or temporary solutions in the current supply-constrained AI compute market.",
+      "why_it_matters": "Provides detailed financial intelligence on the rapidly evolving AI infrastructure market dynamics, capacity economics, and competitive positioning between neoclouds and hyperscalers that directly impacts investment decisions in this critical sector.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}

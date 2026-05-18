@@ -2302,5 +2302,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a healthcare/public health story that doesn't fit Slot 3 (Tech/AI) and lacks any meaningful technology or AI angle despite the reader's strong preference for AI and biology intersection."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "WHO declares global health emergency over Ebola outbreak in Congo and Uganda",
+    "source": "WHO/STAT News/Multiple Sources",
+    "url": "https://www.statnews.com/2026/05/18/health-news-texas-opens-detransition-clinic/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter digest covering multiple brief health topics rather than a substantial article focused on the Ebola outbreak, which doesn't provide the depth expected for slot selection."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "FDA Commissioner Marty Makary resigns after tumultuous tenure",
+    "source": "Multiple Sources",
+    "url": "https://www.statnews.com/2026/05/12/fda-commissioner-marty-makary-resigns-kyle-diamantas-acting/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a brief excerpt visible, making it impossible to assess the actual substance or depth of the content."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Supreme Court rejects drugmaker challenges to Medicare price negotiations",
+    "source": "Multiple Sources",
+    "url": "https://endpoints.news/the-supreme-court-wont-take-up-drugmakers-ira-cases/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is completely truncated and consists entirely of cookie consent preferences and privacy settings rather than the actual news content about the Supreme Court decision."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Regeneron's Phase 3 melanoma trial fails, wiping out billions in market value",
+    "source": "BioPharma Dive/Endpoints",
+    "url": "https://www.biopharmadive.com/news/regeneron-cancer-immunotherapy-fianlimab-lag3-melanoma-study-results/820443/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with substantial depth on a major pipeline failure, market implications, and strategic context for a major public company."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "The China question is tearing biotech apart",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/18/biotech-industry-split-chinese-drugs-opportunity-versus-existential-threat/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Article is paywalled after just two paragraphs, preventing assessment of actual depth and substance beyond the opening setup."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Stratechery: Shifting Alliances in a Changing World",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief summaries rather than substantive analysis, and doesn't provide the investment-relevant insights or analytical depth the reader prefers."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "MBI Deep Dives: The Honeymoon Phase of Capacity",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-honeymoon-phase-of-capacity",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong analytical depth on cloud infrastructure economics with specific financial data from earnings calls, directly matching reader's data infrastructure interests and Slot 2 finance/macro criteria."
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "BCG: AI, Risk, and Capital: What Leaders Must Do Now",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGhz9mpI6XK8JM1bGBvc_Fe0fXZKT4-z0aw6ROKAgCYbSHfGMmAXvZ1mp71g8_Dc_U6QbFZJ0A=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a newsletter digest with brief summaries and links to multiple reports, lacking the depth and substance required for selection."
   }
 ]
