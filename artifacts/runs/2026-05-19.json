@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-05-19",
+  "generated_at": "2026-05-19T14:48:03Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e557a051b2b132d0",
+      "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+      "source": "Multiple sources",
+      "url": "https://techstartups.com/2026/05/12/alphabet-backed-isomorphic-labs-raises-2-1b-to-accelerate-ai-designed-drug-discovery-as-clinical-trials-near/",
+      "slot": 1,
+      "summary": "Isomorphic Labs, the DeepMind spinout led by Demis Hassabis, raised $2.1 billion in Series B funding led by Thrive Capital to scale its AI drug discovery platform. The company has existing partnerships worth up to $3 billion with Eli Lilly and Novartis, and expects its first AI-designed drugs to enter clinical trials by end of 2026.",
+      "why_it_matters": "This represents validation of AI-driven drug discovery at massive scale, with pharmaceutical giants betting billions that AI can compress the traditional 10-15 year, $2.6 billion drug development process into something measured in months rather than years.",
+      "signal_tags": [
+        "ticker_match:GOOG",
+        "AI_biology_intersection",
+        "venture_capital_insights",
+        "data_infrastructure",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "1fe6396871e76d24",
+      "headline": "Not Your Grandma's Economy",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/05-18-2026-not-your-grandmas-economy",
+      "slot": 2,
+      "summary": "Financial leaders including CEOs from Apollo, JPMorgan, and Starwood discuss how AI spending is fundamentally reshaping economic dynamics, creating strong GDP growth that doesn't translate to typical consumer benefits. The piece covers concerns about market exuberance, building inflationary pressures, and the appointment of new Fed chair Kevin Warsh.",
+      "why_it_matters": "Understanding how AI capital expenditure is decoupling traditional economic indicators from consumer reality is crucial for investment positioning, especially given the reader's strong interest in data infrastructure and AI's economic impact.",
+      "signal_tags": [
+        "priority:high",
+        "investment_relevant_insights",
+        "analytical_depth",
+        "labor_market_dynamics"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

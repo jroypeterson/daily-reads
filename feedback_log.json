@@ -172,5 +172,17 @@
     "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
     "article_source": "FDA Press Releases",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-05-16",
+    "slot": 1,
+    "score": 3,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "efe3f1b753928cce",
+    "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+    "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
+    "article_source": "Multiple Tech/Healthcare Sources",
+    "source": "email_reply"
   }
 ]

@@ -1,12 +1,12 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-05-18T14:58:49Z
+> Structured preference model. Last updated: 2026-05-19T14:39:26Z
 
 ## Evidence Snapshot
-- Total evidence records: 20
-- By kind: daily_rating_1=3, daily_rating_3=5, positive_exemplar=12
+- Total evidence records: 21
+- By kind: daily_rating_1=3, daily_rating_3=6, positive_exemplar=12
 
 ### Evidence Channels
-- daily_scoring: 8
+- daily_scoring: 9
 - email: 12
 
 ## Topic Preferences

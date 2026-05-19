@@ -2374,5 +2374,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is just a newsletter digest with brief summaries and links to multiple reports, lacking the depth and substance required for selection."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+    "source": "Multiple sources",
+    "url": "https://techstartups.com/2026/05/12/alphabet-backed-isomorphic-labs-raises-2-1b-to-accelerate-ai-designed-drug-discovery-as-clinical-trials-near/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial article with strong depth on a major AI biotech funding round that aligns perfectly with Slot 1 healthcare/biotech criteria and the reader's strong interest in AI-biology intersection."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Talking with Nigel Morris, cofounder of QED Investors",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e40ac15d2bae8ce6e96638918/ddcf7df8016549050000021ef3a0bcc2/ddcf7df8-0165-4905-88df-87487ceaa4e5",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content wasn't provided (likely paywalled), and while the topic and source are strong, I cannot verify that the content has sufficient substance or accurately assess what Morris actually discusses about fintech trends."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Is a tech and AI transformation worth it?",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e3c5cdfc69521bbf4bbe5be50/3880871e7e0a43160000021ef3a0bcc2/3880871e-7e0a-4316-8e67-aefa20dc6a77",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content was not provided - only the headline and summary were available, making it impossible to verify substance or accuracy of the summary."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Regeneron's $2.3B pact for next-gen ADCs",
+    "source": "Fierce Biotech",
+    "url": "https://www.biointron.com/antibody-production/htp-recombinant-antibody-production.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is not a news article about Regeneron's partnership but rather marketing content for Biointron's antibody production services."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Not Your Grandma's Economy",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/05-18-2026-not-your-grandmas-economy",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong finance/macro content with substantive CEO quotes on AI's economic impact, inflation dynamics, and market conditions that aligns well with the reader's preference for investment-relevant insights and data infrastructure themes."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "FICO: Pricing the Standard",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/fico-pricing-the-standard",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a finance/business analysis of FICO's pricing strategy and market dominance, not a tech/AI article, and belongs in Slot 2 (Finance/Markets) rather than Slot 3 (Tech/AI)."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "The American Rebellion Against AI Gains Steam",
+    "source": "Wall Street Journal",
+    "url": "https://www.wsj.com/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is just the WSJ website navigation and subscription prompts - no actual article text is provided to evaluate."
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "It's Up to Nvidia to Reverse a Buyback Trend",
+    "source": "Wall Street Journal",
+    "url": "https://www.wsj.com/finance/stocks/big-tech-is-cutting-back-on-buybacks-nvidia-could-be-the-exception-8fc6044f",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a finance/markets article about corporate capital allocation that doesn't fit Slot 3's Tech/AI criteria, and the content appears to be paywalled with insufficient detail to verify substantive analysis."
   }
 ]
