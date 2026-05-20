@@ -2446,5 +2446,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "This is a finance/markets article about corporate capital allocation that doesn't fit Slot 3's Tech/AI criteria, and the content appears to be paywalled with insufficient detail to verify substantive analysis."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Regenxbio reaps key Duchenne gene therapy win; Novo rehomes Parkinson's cell therapy",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1379671?pk=Elegen-052826-WB-FCGT-NL-051826&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is actually a webinar advertisement about DNA production technology, not the Regenxbio Duchenne gene therapy clinical trial results described in the headline and summary."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/alphabets-ai-biotech-isomorphic-labs-bags-21b-series-b-fuel-next-gen-drug-design-model",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong match for Slot 1 with substantial funding news ($2.1B) at the AI-drug discovery intersection, featuring specific details about partnerships, technology (AlphaFold 3, IsoDDE), and clinical timeline expectations."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "The end of ERP as we know it? Five ways AI is disrupting ERP",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e41d9c07fc0362b369ff0aab4/817d5a244eb14ba70000021ef3a0bcc2/817d5a24-4eb1-4ba7-a56e-3b5ed3586ff8",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content shows this is a generic, high-level overview without the analytical depth or specific insights that would meet the selection criteria for a finance/macro slot."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Quantum's bold promise: What business leaders need to know",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e2814eb5cb06530369fe94bd8/262bb38cc0bc49c10000021ef3a0bcc2/262bb38c-c0bc-49c1-8694-a66a9bc0d4f3",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, indicating no full article was retrieved, making it impossible to verify substance or depth beyond a generic consulting overview."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Merck's $1.4B Kelun deal pays off in endometrial cancer",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW8D4S6_fTpDW8PWwqx7d66FYW4WpcsS5PfhbFN24tzwx5nR3bW7Y9pgv6lZ3lqW9bXPKW7LG32ZW2RpBrG1dnLGbW2WDGJc99QbDhW1PPyWD56Kpj0VXj5TZ6BXfpZW76LJMr30_GjhW51B0Lp5HCKTkW1sk85B3-lBVXW56dt144XjrC_N8YH3jtwt-NKN9jRDJzp2TbXW8B6vk12Yrqz3W47-XRJ4QRJG9W2vylRw5F9xWTN8DzpB8b9lP6W86wQX-2fxYyzN6n3-QYKP2C1W3WSGc-7-FXQwW5gDdlk5Q8bh7W5vY_T13cStkPW3MqgQ28HL4TZW1fwcH63wpG60W60Vzk54BYD95W408NvQ2_05d3W2n2KML1SPVHkW5R7Nld3JJX0-W5NwsC97G_mrsW4qWlW34wZZP1W3CR5Ts6F7bqrW83pcBb8v-32cW1Cs3gG7XdlwMW8V6jXc5CMS_RW38WdxZ4lMwLqW6Yqdyd4l__SqW3rdwyT2cZfVkW7DnG9p8vhWpCW8m26ZM7p5BfsW8blzxl6xmK7DW3Q_xz520s4ltW8txKJv7QHGhcW3xbNws47CzW9W3JT2GR6_7_Sgf7cN_sn04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter format with multiple brief stories rather than a substantive single article, and the main Kelun story lacks the depth and financial analysis expected for Slot 2."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "\ud83d\udcb0The AI Spending Mirage",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/finance/stocks/higher-prices-could-slow-the-ai-building-boom-627f6c2c?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to be just a headline and brief summary without the actual substantive WSJ analysis content needed to evaluate depth or accuracy."
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Figma 1Q'26: 'Not Dead'",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/figma-1q26-not-dead?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc4NzY5NTgsImlhdCI6MTc3ODk0MDQxMywiZXhwIjoxNzgxNTMyNDEzLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CeVKLlwfi6idKvFpl2AQt7stN-kiNWVN2nLNsnhNp44",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "While this is a detailed earnings analysis, it focuses on a private design software company that doesn't align with Slot 2's macro/markets focus or the reader's strong preferences for data infrastructure and AI-biology intersection."
   }
 ]

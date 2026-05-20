@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-05-20",
+  "generated_at": "2026-05-20T14:48:37Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b403d6c689edb004",
+      "headline": "Alphabet's Isomorphic Labs Raises $2.1 Billion for AI Drug Discovery Scale-Up",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/alphabets-ai-biotech-isomorphic-labs-bags-21b-series-b-fuel-next-gen-drug-design-model",
+      "slot": 1,
+      "summary": "Isomorphic Labs raised $2.1 billion in Series B funding led by Thrive Capital to scale its AI drug design engine (IsoDDE), which uses models like AlphaFold 3 to predict molecular structures and interactions. The company, founded by Alphabet in 2021 and led by Demis Hassabis, has existing partnerships with Eli Lilly and Novartis for AI-driven small molecule discovery. The funding will accelerate both platform development and the company's internal drug pipeline toward clinical trials.",
+      "why_it_matters": "This represents one of the largest biotech funding rounds of 2026 and validates the AI-drug discovery thesis at massive scale, potentially signaling a new phase of institutional investment in computational biology platforms.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "large_funding_round",
+        "ticker_match:GOOGL",
+        "clinical_catalyst_proximity"
+      ],
+      "reading_time": "2 min"
+    }
+  ]
+}
