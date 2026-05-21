@@ -1,0 +1,63 @@
+{
+  "run_date": "2026-05-21",
+  "generated_at": "2026-05-21T14:50:55Z",
+  "counts": {
+    "gmail_items": 134,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "79341777e355d519",
+      "headline": "Bristol Myers deepens AI investment with Anthropic deal",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/bristol-myers-deepens-ai-investment-anthropic-deal/820697/",
+      "slot": 1,
+      "summary": "Bristol Myers Squibb partnered with Anthropic to deploy Claude AI across its entire enterprise, from R&D to manufacturing and regulatory submissions, aiming to unlock decades of siloed institutional data. The move follows major AI investments by competitors including Merck's $1B Google Cloud deal, Novo Nordisk's OpenAI partnership, and Lilly's $2B+ Insilico agreement. Despite AI's promise to accelerate drug discovery, the industry faces challenges including data quality issues and AI hallucinations that could affect regulatory filings.",
+      "why_it_matters": "Demonstrates the scale and urgency of pharma's AI transformation with specific investment figures and strategic implications, directly aligning with the reader's strong interest in AI-biology convergence and data infrastructure evolution.",
+      "signal_tags": [
+        "ticker_match:BMY",
+        "ai_biology_intersection",
+        "novelty",
+        "investment_relevant"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "270754d9d4d632d7",
+      "headline": "CMS proposes rule aimed at limiting Medicaid state-directed payments",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/regulatory/cms-proposes-rule-aimed-limiting-medicaid-state-directed-payments",
+      "slot": 2,
+      "summary": "The Trump administration proposed new CMS rules to cap Medicaid state-directed payments at 100-110% of Medicare rates, targeting what it calls inflated program costs. The rule would save an estimated $775 billion over a decade ($510B federal savings) and implements national transparency standards for Medicaid payments.",
+      "why_it_matters": "Major regulatory shift affecting hospital reimbursement models and margins across 41 states currently using state-directed payments, creating significant investment implications for healthcare providers and managed care organizations.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "investment_relevant",
+        "healthcare_policy"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "f2f9327611110ff5",
+      "headline": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "source": "Hacker News",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "slot": 3,
+      "summary": "OpenAI's general-purpose reasoning model has autonomously disproved the Korkine-Zolotareff conjecture in discrete geometry, a problem that has stood for nearly 80 years. The AI found a construction that achieves polynomial improvement over previously known bounds for the planar unit distance problem, using sophisticated techniques from algebraic number theory. This marks the first time a prominent open mathematical problem has been solved autonomously by AI.",
+      "why_it_matters": "Demonstrates AI's evolution from mathematical assistant to autonomous researcher capable of original scientific breakthroughs, validating investment theses around AI's potential to accelerate discovery in complex domains like drug development and materials science.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "novelty",
+        "analytical_depth",
+        "foundational_advance"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

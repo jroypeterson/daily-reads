@@ -2509,5 +2509,59 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "While this is a detailed earnings analysis, it focuses on a private design software company that doesn't align with Slot 2's macro/markets focus or the reader's strong preferences for data infrastructure and AI-biology intersection."
+  },
+  {
+    "date": "2026-05-21",
+    "headline": "Lilly's 'triple-G' drug leads to bariatric-surgery levels of weight loss in trial",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/21/eli-lilly-retatrutide-triple-g-weight-loss-obesity-discontinuations-trial/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after the first few paragraphs, making it inaccessible to readers and violating the avoid pattern for paywalled content."
+  },
+  {
+    "date": "2026-05-21",
+    "headline": "Bristol Myers deepens AI investment with Anthropic deal",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/bristol-myers-deepens-ai-investment-anthropic-deal/820697/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on Bristol Myers' comprehensive AI strategy with Anthropic, includes broader industry context with specific deal values, and addresses both opportunities and challenges in pharma AI adoption."
+  },
+  {
+    "date": "2026-05-21",
+    "headline": "The next big pharma company will come from China",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/the-next-big-pharma-company-will-come-from-china/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Article is paywalled with only a teaser paragraph available, making it impossible to assess actual substance or verify the shortlist summary accuracy."
+  },
+  {
+    "date": "2026-05-21",
+    "headline": "CMS proposes rule aimed at limiting Medicaid state-directed payments",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/cms-proposes-rule-aimed-limiting-medicaid-state-directed-payments",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial policy announcement with clear financial implications for healthcare sector investments, perfectly fitting Slot 2's focus on policy impact on markets."
+  },
+  {
+    "date": "2026-05-21",
+    "headline": "OpenAI takes the lead in AI IPO horse race: 'Getting to public markets first is very important'",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/05/20/openai-takes-the-lead-in-ai-ipo-horse-race-getting-to-public-markets-first-is-very-important.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Article lacks substance and is primarily market speculation based on prediction market movements rather than meaningful AI/tech developments or strategic insights."
+  },
+  {
+    "date": "2026-05-21",
+    "headline": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "source": "Hacker News",
+    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a genuine AI breakthrough in mathematical discovery, aligning with the reader's strong preferences for AI impact and analytical depth."
   }
 ]
