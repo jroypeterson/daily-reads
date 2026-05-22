@@ -1,0 +1,76 @@
+{
+  "run_date": "2026-05-22",
+  "generated_at": "2026-05-22T14:26:49Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f8ac55ffba6e4622",
+      "headline": "Bristol Myers Squibb Teams Up with Anthropic to Deploy Claude AI Across Drug Development",
+      "source": "Multiple Sources",
+      "url": "https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx",
+      "slot": 1,
+      "summary": "Bristol Myers Squibb announced a strategic partnership with Anthropic to deploy Claude AI across its entire 30,000+ person organization, moving beyond basic chatbots to 'agentic AI' integrated into core drug development workflows including research, clinical trials, manufacturing, and regulatory submissions. The deployment focuses on three key areas: accelerating engineering with Claude Code, embedding AI agents into drug development workflows, and connecting Claude to BMS's institutional knowledge systems with full enterprise governance.",
+      "why_it_matters": "This represents one of the largest and most comprehensive enterprise AI deployments in pharmaceutical history, potentially serving as a template for industry-wide transformation and directly addressing the reader's interest in AI-biology intersection and data infrastructure at scale.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "data_infrastructure",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "a286e89c3ea105c4",
+      "headline": "FICO: Pricing the Standard - Deep Dive into Credit Scoring Monopoly Margins",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/fico-pricing-the-standard?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc0MzUwNjMsImlhdCI6MTc3ODg1MzM5MCwiZXhwIjoxNzgxNDQ1MzkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.eQiCHpGWpclCZkVIANfH7R_hGHFZ4W_V5TuZORDa-hc",
+      "slot": 2,
+      "summary": "MBI Deep Dives explores how FICO transformed from a small consulting firm into a credit scoring monopoly, tracing the regulatory foundations laid by the Equal Credit Opportunity Act in the 1970s and the pivotal 1989 launch of the standardized FICO score. The analysis examines how statistical credit scoring became legally privileged over subjective lending decisions, creating durable competitive moats.",
+      "why_it_matters": "This provides a framework for understanding how regulatory requirements can create virtually unassailable business moats in financial infrastructure, offering insights into one of the most durable monopolies in modern finance.",
+      "signal_tags": [
+        "ticker_match:FICO",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "high_priority_source"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "facac23f4b1dc180",
+      "headline": "Prediction Markets Come for Clinical Trials as Betting Meets Biotech",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/betting-biotech-prediction-markets-set-sights-clinical-trials",
+      "slot": 3,
+      "summary": "Prediction markets are expanding into biotech through platforms like Kalshi, Polymarket, and new entrant Endpoint Arena, allowing users to bet on clinical trial outcomes and FDA approvals. The article explores regulatory challenges around insider trading detection and profiles Endpoint Arena's vision of using prediction markets to potentially influence and accelerate drug development through crowdsourced forecasting.",
+      "why_it_matters": "This represents a new financial infrastructure layer for biotech that could change how clinical risk is priced and assessed, while creating new data sources that might influence trial design and patient decision-making.",
+      "signal_tags": [
+        "investment_relevant_insights",
+        "data_infrastructure",
+        "regulatory_affairs"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "871d630ad1d3420c",
+      "headline": "NIH Director Faces Senate Questions on Staff Turnover and Funding Cuts",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/hospital-management-administration/nih-director-testifies-on-staff-turnover-funding-cuts-before-senate-committee-3-notes",
+      "slot": 4,
+      "summary": "NIH Director Jay Bhattacharya testified before Senate appropriators about significant leadership turnover at NIAID (8 of top 10 officials reassigned) and funding challenges, including a new OMB policy requiring upfront multi-year grant funding that reduced new research grants by 22% overall. The hearing also covered proposed indirect cost caps and budget cuts totaling $6 billion.",
+      "why_it_matters": "These NIH operational changes and funding constraints directly impact biomedical research capacity and could reshape which therapeutic areas and institutions receive priority support, affecting the innovation pipeline that feeds biotech investment opportunities.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "corporate_governance",
+        "healthcare_policy"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

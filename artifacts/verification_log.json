@@ -2563,5 +2563,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial depth on a genuine AI breakthrough in mathematical discovery, aligning with the reader's strong preferences for AI impact and analytical depth."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Bristol Myers Squibb Teams Up with Anthropic to Deploy Claude AI Across Drug Development",
+    "source": "Multiple Sources",
+    "url": "https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a major pharmaceutical AI deployment with specific implementation details and strategic implications that align perfectly with both healthcare/biotech coverage and the reader's strong interest in AI-biology intersection."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Lilly's Triple-G Obesity Drug Sets New Weight Loss Benchmark at 28% in Phase 3",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/lillys-retatrutide-tripleG-phase3-obesity-data/820851/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is primarily a healthcare/biopharma story about clinical trial results that belongs in Slot 1, not Slot 2 (Finance/Macro), despite having some market implications."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Merck's China-Partnered ADC Delivers 65% Reduction in Lung Cancer Progression",
+    "source": "Fierce Pharma",
+    "url": "https://www.fiercepharma.com/pharma/merck-kelun-sac-tmt-adc-combo-beats-keytruda-65-progression-first-line-lung-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma article with clinical trial data and drug development focus that belongs in Slot 1, not the target Slot 2 (Finance/Markets)."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "The End of ERP as We Know It: Five Ways AI is Disrupting Enterprise Software",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e41d9c07fc0362b369ff0aab4/817d5a244eb14ba70000021ef3a0bcc2/817d5a24-4eb1-4ba7-a56e-3b5ed3586ff8",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, suggesting the full article wasn't actually fetched, and without the actual McKinsey analysis content, I cannot verify substance or accuracy for Slot 2 finance/macro criteria."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "FICO: Pricing the Standard - Deep Dive into Credit Scoring Monopoly Margins",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/fico-pricing-the-standard?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTc0MzUwNjMsImlhdCI6MTc3ODg1MzM5MCwiZXhwIjoxNzgxNDQ1MzkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.eQiCHpGWpclCZkVIANfH7R_hGHFZ4W_V5TuZORDa-hc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep dive into FICO's regulatory-protected business model that aligns perfectly with the reader's strong preference for data infrastructure insights and investment-relevant analysis."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Supreme Court Leaves Mifepristone Access Unchanged as Hantavirus Tests Public Health Response",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/MVN4W5qkS8kN4SXCTTVmgtDVrHz2f5P4PPNN7FnD0P5nR3bW69t95C6lZ3mjW3X9GW-47JYwQW9fmFrv6-ngsrW4-l3N96gKqhxW501Cvs8rR51bVnJbyL8VZf38W54QGLN1BVpNYW3fTd-84CF6J3Vp7dgC9czPZdW6_0Tmn1V_bT6W3bmm_t5gKvL7N2qfJ5CqfdN-W5nsw6w5BGbjQW6qKwDN2bB22CW6t8K8G81dkw7W6-BmMM2WQlLpW3bs4ZD6nl4WcW1HGkNy2nTNZnW7z2L2v8160dsVhzXP23ms987W4ClS7Q8x4m3MW2qrt6X1zRx7VW5xKMYW4hLyhsW6kjL4d2vTgCgW7MlLw46x6j0LW5By1Tt1t3bBZW8yzPw82pnLB9N7hC7dKvxHGhW79T2rY3_cCgSW8gm6FV99zYtKW4njLxP4KKx-yW5C9dq48KkKHSW77xg2j2lZ496W2nqJB165wPhGW5tTLbD14j0DbVT6LmF1ML18fVc_txL1TTN8_f5RGrQb04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy newsletter roundup that doesn't match Slot 3 (Tech/AI) criteria and lacks the depth or tech focus required for selection."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Prediction Markets Come for Clinical Trials as Betting Meets Biotech",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/betting-biotech-prediction-markets-set-sights-clinical-trials",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on an emerging intersection of fintech and biotech with clear investment implications, matching the Tech/AI slot theme and reader preferences for data infrastructure and AI-biology convergence."
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "NIH Director Faces Senate Questions on Staff Turnover and Funding Cuts",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/hospital-management-administration/nih-director-testifies-on-staff-turnover-funding-cuts-before-senate-committee-3-notes",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantive detail on NIH leadership changes and funding policy impacts with concrete data on grant reductions, fitting the wildcard slot's focus on consulting-style insights about institutional dynamics."
   }
 ]

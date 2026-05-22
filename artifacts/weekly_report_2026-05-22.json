@@ -1,0 +1,263 @@
+{
+  "period_start": "2026-05-16",
+  "period_end": "2026-05-22",
+  "generated_at": "2026-05-22T14:26:59.891923+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 903,
+    "total_tier2_items": 622,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 22
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 10
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 21
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 8
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 5
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 12
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 7
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 9
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 66
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 16
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 29
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 16,
+    "articles_per_day": [
+      4,
+      3,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "avg_articles_per_day": 2.3,
+    "verified_pass": 16,
+    "verified_fail": 37,
+    "fail_reasons": [
+      "The shortlist summary is completely inaccurate - this is actually an opinion piece analyzing Makary's tenure and FDA management challenges, not breaking news about his resignation.",
+      "The article content is completely inaccessible due to cookie consent barriers and lacks any substantive text about the FDA leadership changes.",
+      "This is just a newsletter aggregation with minimal detail on the BMS-Hengrui deal - only one brief sentence about the partnership structure with no financial analysis, strategic context, or investment implications suitable for Slot 2 Finance/Macro coverage.",
+      "This is just a newsletter table of contents with brief summaries rather than substantive analysis, and doesn't fit Slot 2's finance/markets focus despite having some relevant themes.",
+      "The article content appears to be just a repeat of the summary with no actual substantive content provided, indicating this is likely thin/generic or the full article wasn't successfully retrieved.",
+      "This is a healthcare regulatory/legal story that doesn't fit Slot 3 (Tech/AI) criteria and lacks the technology or AI focus required for that slot.",
+      "This is a breaking news alert with minimal substance - just a one-paragraph announcement that lacks the depth, context, and analytical insights expected for digest selection.",
+      "This is a newsletter digest format with multiple brief story summaries rather than a substantial standalone article about the BMS-Hengrui deal.",
+      "This is a philosophical essay about AI's cognitive influence that doesn't fit Slot 1's healthcare/biopharma focus and lacks the FDA decisions, clinical trials, M&A, or pipeline news that slot requires.",
+      "This article is targeting Slot 1 (Healthcare/Biotech) but is actually a general business technology piece that doesn't fit healthcare criteria and would be better suited for Slot 3 (Tech/AI) or Slot 4 (Wildcard)."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 25,
+      "jina": 17,
+      "tavily": 2,
+      "snippet_fallback": 9
+    }
+  },
+  "feedback": {
+    "total_ratings": 1,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 1
+    },
+    "avg_score": 3.0,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "A Letter a Day": 7,
+      "Scuttleblurb": 7,
+      "MBI": 7,
+      "The Transcript": 7,
+      "Value Investors Insight": 7,
+      "Biotech Primer": 7
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 7,
+    "checked_slots": 433,
+    "total_broken": 0,
+    "surfaces": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": []
+  }
+}
