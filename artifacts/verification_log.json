@@ -2635,5 +2635,68 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantive detail on NIH leadership changes and funding policy impacts with concrete data on grant reductions, fitting the wildcard slot's focus on consulting-style insights about institutional dynamics."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "The Data Center Veto (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-data-center-veto?access_token=...",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter overview/digest format that lacks the substantial analysis depth required for selection, and it doesn't fit Slot 1 (Healthcare/Biotech) as it's primarily about AI infrastructure and web economics."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "A closely watched Parkinson's drug fails key trial",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VVQnT287k-CPW4LQ7j02Wc3-mW5q0Twr5PnbYLMfRfk-3qgz0W7lCdLW6lZ3pdVCNJy33mQYD3V9_Wkd9g8rvrW7v528K7Zcx0fW6JY5kM1H9xxbW2Wvpf012Mr6fW6BL5GY3c4vhJN6hK6SrCXS06W8LXkfF7w9wMvW1y9S3v1FfwK7W1NyGq73YN_FJW4C_lCs8Y6T7NVHPPBH3bDhW7W1_1pY33x7HNRN8SmbzZRGSkcW3wJb_R6ZmCPVW3PXhwJ1kvFvdW996_qs15HCFxW2M6_HX2qv3M6W7Pf62110GpRWW2lbzg291pwQSW8SYm7G6dHjHgW8xh32z2-nslgV1RcDd2BwVrQW2YkRC-2yJ_cvd6fsgn04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywall landing page with no actual article content about the Parkinson's drug trial failure."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "From AI table stakes to AI advantage: Building competitive moats",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e502f308dbb6ec16e96c660f0/...",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article targets Slot 1 (Healthcare/Biotech) but is a generic AI strategy framework that doesn't specifically address healthcare, biopharma, or biotech applications."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "Airbnb's Soul Search Beyond Homes",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/airbnbs-soul-search-beyond-homes?r=w2qs&token=...",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about Airbnb's business strategy and has no connection to healthcare/biotech, making it completely inappropriate for Slot 1."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "FICO: Deconstructing the Monopoly Margins",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/fico-deconstructing-the-monopoly?r=w2qs&token=...",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article about FICO's credit scoring business does not fit Slot 1 (Healthcare/Biotech) criteria and is paywalled content which the reader profile indicates should be avoided."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "Moderna's mRNA flu shot gets FDA adcomm",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW04Pf2Fl7xhW90FdP_53KXWYW15bp5B5PmH2HM7WCRq5nR3bW7lCGcx6lZ3nPN2kdhtgbdtZtW9hncTW10Y9TkW4HDqbJ2qw3PkVMP6q11GKXf5W6j67XL3hbT_kW3tZRpM5qKgmCW8Tp7Z_1BYZ3NW8DwN294xXDbvW6GN3195GW3g-W7GpSx_7XmxXfW5hg_cd3jV6pQW8QYqfT30Jcf4W1mrfVZ7v0FkzW8Xc3dZ4DSNTKW8KSbmF6BSjDwN6yGf6xSr4MjN6HpJTclP2xvN3MlRJvVG0l4W6jHwLQ1ly6pHW83vbPQ7sN2SCW1DsC8K9hKymPW2MQyvm3PRf5rW6hTzrp7dWTD7V9xQ5D1fMLG6W864L7F5gXlbZW4zcphn6QNJQJW5D7xRX5rSbVWW1S9r9y7nMc1QVtYSC6435-CYW6HLNCV29CmrBW8zDHjB6qDDNzW6fWDq-1tmzPmW3k58jK6LbFRsN2M-FpQyLvNXVFYFfX5JcygMVQQ1qK6X6PKcW469ZB_667mtQN7sNd3VWvSPpW5flPch4NZX8_W1KxjkY1-mbTRf6Q4Pnj04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial regulatory news about Moderna's mRNA platform expansion beyond COVID-19, which is a significant catalyst for the company and the broader mRNA technology space."
+  },
+  {
+    "date": "2026-05-24",
+    "headline": "How to Tame AI's Voracious Appetite for Energy",
+    "source": "Nautilus",
+    "url": "https://nautil.us/how-to-tame-ais-voracious-appetite-for-energy-1281212/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article doesn't fit Slot 2 (Finance/Markets) as it lacks financial analysis, market implications, or investment relevance - it's purely a technical/environmental piece about AI energy consumption."
   }
 ]

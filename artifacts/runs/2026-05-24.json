@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-05-24",
+  "generated_at": "2026-05-24T13:13:40Z",
+  "counts": {
+    "gmail_items": 126,
+    "tier2_items": 76,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a94f8b641df44903",
+      "headline": "Moderna's mRNA flu shot gets FDA adcomm",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW04Pf2Fl7xhW90FdP_53KXWYW15bp5B5PmH2HM7WCRq5nR3bW7lCGcx6lZ3nPN2kdhtgbdtZtW9hncTW10Y9TkW4HDqbJ2qw3PkVMP6q11GKXf5W6j67XL3hbT_kW3tZRpM5qKgmCW8Tp7Z_1BYZ3NW8DwN294xXDbvW6GN3195GW3g-W7GpSx_7XmxXfW5hg_cd3jV6pQW8QYqfT30Jcf4W1mrfVZ7v0FkzW8Xc3dZ4DSNTKW8KSbmF6BSjDwN6yGf6xSr4MjN6HpJTclP2xvN3MlRJvVG0l4W6jHwLQ1ly6pHW83vbPQ7sN2SCW1DsC8K9hKymPW2MQyvm3PRf5rW6hTzrp7dWTD7V9xQ5D1fMLG6W864L7F5gXlbZW4zcphn6QNJQJW5D7xRX5rSbVWW1S9r9y7nMc1QVtYSC6435-CYW6HLNCV29CmrBW8zDHjB6qDDNzW6fWDq-1tmzPmW3k58jK6LbFRsN2M-FpQyLvNXVFYFfX5JcygMVQQ1qK6X6PKcW469ZB_667mtQN7sNd3VWvSPpW5flPch4NZX8_W1KxjkY1-mbTRf6Q4Pnj04",
+      "slot": 1,
+      "summary": "Moderna's mRNA-based seasonal influenza vaccine will face FDA advisory committee review after previously receiving a refuse-to-file letter. The newsletter also covers multiple other biotech developments including Kelun-Merck's positive lung cancer data combining their TROP2 ADC with Keytruda, and Biogen/Denali discontinuing their Parkinson's program after Phase 2b failure.",
+      "why_it_matters": "The FDA advisory committee review represents a critical milestone for mRNA technology's expansion beyond COVID-19 vaccines and could validate Moderna's platform diversification strategy, while the Parkinson's failure highlights ongoing challenges in neurodegeneration drug development.",
+      "signal_tags": [
+        "ticker_match:MRNA,BIIB,DNLI",
+        "FDA_catalyst",
+        "mRNA_expansion",
+        "regulatory_milestone"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
