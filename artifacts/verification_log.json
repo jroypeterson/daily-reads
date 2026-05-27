@@ -2698,5 +2698,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This article doesn't fit Slot 2 (Finance/Markets) as it lacks financial analysis, market implications, or investment relevance - it's purely a technical/environmental piece about AI energy consumption."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "Lilly's triple agonist retatrutide delivers up to 28% weight loss in pivotal Phase 3 obesity trial",
+    "source": "STAT News/BioPharma Dive",
+    "url": "https://www.statnews.com/2026/05/21/eli-lilly-retatrutide-triple-g-weight-loss-obesity-discontinuations-trial/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just three paragraphs, providing insufficient content for a meaningful digest despite the promising headline about Lilly's obesity drug trial results."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "SpaceX files for historic $1.75 trillion IPO as Musk eyes trillionaire status",
+    "source": "CNBC/Multiple Sources",
+    "url": "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a general tech/finance IPO story that doesn't fit Slot 1's healthcare/biotech focus and lacks the depth expected for selection."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "FDA approves Gilead's Hepcludex as first treatment for hepatitis delta virus",
+    "source": "Multiple Healthcare Sources",
+    "url": "https://www.gilead.com/news/news-details/2026/fda-grants-accelerated-approval-to-gileads-hepcludex-bulevirtide-gmod-the-first-and-only-approved-treatment-for-chronic-hepatitis-delta-virus-hdv",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial FDA approval announcement with meaningful commercial and medical implications for Gilead, fitting perfectly in the healthcare/biopharma slot with strong ticker relevance and regulatory catalyst significance."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "Testing AI's limits in a one-year experiment: McKinsey roadmap for effective AI use",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e69d9023dadf6eb6e96c660c0/728df3a4525744950000021ef3a0bcc2/728df3a4-5257-4495-9fab-b3474a6b439d",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot verify article substance or accuracy of summary since full article text was not provided, only metadata repetition."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "Mount Sinai estimates $50M ROI from AI portfolio with 3-to-1 returns",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/mount-sinai-estimates-50m-roi-from-ai-portfolio/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to lack sufficient depth and specificity about the AI implementations and ROI methodology, making it too thin for the selection criteria despite the promising headline."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "Can the market absorb three trillion-dollar IPOs? A memo on upcoming mega IPOs",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive strategic analysis examining the unprecedented market dynamics of three trillion-dollar IPOs (SpaceX, OpenAI, Anthropic) with detailed financial modeling and market structure implications that directly fits Slot 2 finance/macro criteria."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "What if AI could remove the constraints shaping your business? McKinsey strategic insights",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e659f5045a7a364f4bbcfd118/4b8b084d8e4b48e50000021ef3a0bcc2/4b8b084d-8e4b-48e5-a737-d2ed62b06d01",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, indicating the full article text was not actually retrieved, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "Bond markets are bullying the U.K. and Japan - one has the right defenses",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/finance/stocks/bond-markets-are-bullying-the-u-k-and-japan-one-has-the-right-defenses-808c7f36?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a finance/macro markets article that doesn't fit Slot 3 (Tech/AI) criteria and would be better suited for Slot 2 (Finance/Markets)."
   }
 ]
