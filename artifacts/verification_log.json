@@ -2770,5 +2770,41 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "This is a finance/macro markets article that doesn't fit Slot 3 (Tech/AI) criteria and would be better suited for Slot 2 (Finance/Markets)."
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "GSK, Ionis tout functional cure for hepatitis B",
+    "source": "BioSpace",
+    "url": "https://www.businesswire.com/news/home/20260527201380/en/Ionis-partner-GSK-announces-bepirovirsen-achieves-unprecedented-functional-cure-rates-with-potential-to-redefine-treatment-for-chronic-hepatitis-B",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive clinical trial readout with strong regulatory catalysts and investment implications for two public companies, perfectly fitting Slot 1 healthcare criteria."
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "CVS obesity drug deal puts Lilly on equal footing with Novo",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/lilly-cvs-caremark-formulary-zepbound-foundayo-obesity-glp1/821327/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial analysis of a major competitive shift in the GLP-1 market with clear financial implications, including specific market share data and analyst insights that align well with Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "I think Anthropic and OpenAI have found product-market fit",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial analytical depth on a major AI industry inflection point with strong investment implications, perfectly matching Slot 3 criteria and the reader's preference for data infrastructure and investment-relevant insights."
+  },
+  {
+    "date": "2026-05-28",
+    "headline": "Airbnb's Soul Search Beyond Homes",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/airbnbs-soul-search-beyond-homes",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantial strategic analysis of Airbnb's product expansion and competitive positioning versus Booking that offers genuine investment insights and passes the 'would I forward this?' test for Slot 4."
   }
 ]

@@ -1,0 +1,80 @@
+{
+  "run_date": "2026-05-28",
+  "generated_at": "2026-05-28T15:38:36Z",
+  "counts": {
+    "gmail_items": 111,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "4e345c049935df5a",
+      "headline": "GSK, Ionis tout functional cure for hepatitis B",
+      "source": "BioSpace",
+      "url": "https://www.businesswire.com/news/home/20260527201380/en/Ionis-partner-GSK-announces-bepirovirsen-achieves-unprecedented-functional-cure-rates-with-potential-to-redefine-treatment-for-chronic-hepatitis-B",
+      "slot": 1,
+      "summary": "GSK and Ionis reported breakthrough Phase 3 results for bepirovirsen in chronic hepatitis B, achieving 19% functional cure rates overall and 26% in a key subgroup, compared to 0% with standard care. The drug is under FDA priority review with breakthrough designation, with regulatory decisions expected in Q3 2026. Current standard of care achieves functional cure rates of less than 1% and requires lifelong therapy.",
+      "why_it_matters": "This represents a potential paradigm shift in hepatitis B treatment affecting 240+ million patients globally, with near-term FDA approval catalyst in Q3 2026 and significant revenue potential for both GSK and Ionis through their licensing agreement.",
+      "signal_tags": [
+        "ticker_match:GSK",
+        "ticker_match:IONS",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "04e547fd360864ff",
+      "headline": "CVS obesity drug deal puts Lilly on equal footing with Novo",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/lilly-cvs-caremark-formulary-zepbound-foundayo-obesity-glp1/821327/",
+      "slot": 2,
+      "summary": "CVS Caremark announced it will add Lilly's Zepbound and new Foundayo pill as co-preferred options alongside Novo's Wegovy, reversing its previous exclusive deal with Novo Nordisk. The move gives Lilly access to CVS's 25-30 million covered lives and puts both companies on equal footing across all three major PBMs. Lilly shares rose nearly 6% on the news, while analysts noted this significantly expands Lilly's addressable prescription pool.",
+      "why_it_matters": "This formulary change levels the competitive playing field in the massive GLP-1 obesity market, potentially driving significant revenue upside for Lilly while reshaping payer dynamics in this high-growth pharmaceutical sector worth billions in annual sales.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:PSG",
+        "high-priority_source",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "34fb1005fecff99c",
+      "headline": "I think Anthropic and OpenAI have found product-market fit",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "slot": 3,
+      "summary": "Simon Willison analyzes evidence that OpenAI and Anthropic have achieved product-market fit through enterprise coding agents, with both companies switching to API pricing for enterprise customers in April 2026 and Anthropic rumored to approach profitability. He demonstrates that power users like himself generate ~$2,200/month in API costs while paying only $200 for consumer plans, and that both companies are aggressively hiring enterprise sales teams.",
+      "why_it_matters": "This marks a potential inflection point where leading AI companies transition from unsustainable consumer subsidies to profitable enterprise business models, with significant implications for AI investment themes and enterprise software spending patterns.",
+      "signal_tags": [
+        "analytical_depth",
+        "ai_impact",
+        "investment-relevant_insights",
+        "novelty"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "6dc4985a77a64c49",
+      "headline": "Airbnb's Soul Search Beyond Homes",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/airbnbs-soul-search-beyond-homes",
+      "slot": 4,
+      "summary": "MBI Deep Dives analyzes Airbnb's strategic challenges and product expansion beyond core home-sharing, focusing on CEO Brian Chesky's evolving approach to experiences (particularly landmark tours) and new service categories like groceries and airport transfers. The piece contrasts Airbnb's founder-driven intuition with Booking's data-first approach, examining how both companies are encroaching on each other's territories in the broader travel ecosystem.",
+      "why_it_matters": "Provides actionable investment perspective on Airbnb's diversification strategy and competitive moat versus Booking, with specific data points on product expansion that could impact long-term growth trajectory and market share dynamics.",
+      "signal_tags": [
+        "high-priority_source",
+        "investment-relevant_insights",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
