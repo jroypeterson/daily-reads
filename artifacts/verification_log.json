@@ -2806,5 +2806,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a substantial strategic analysis of Airbnb's product expansion and competitive positioning versus Booking that offers genuine investment insights and passes the 'would I forward this?' test for Slot 4."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Lilly inks deals to buy 3 vaccine developers for up to $3.8B as M&A spree continues",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/MVBjbJQC-_tW5m7XzS1TB2dnW6rg8CD5Pxc2fN9fbG9x5nR3bW7lCGcx6lZ3nRW4GPK408Xhw3xW2kMYxQ1mLQzDVvZmPV76sxxJW4N2kHg3Nzy5kW2N9sPr6_1S9gVTKXmT57QsFMW7l7BH53tDTyHN7DgzD4ghLxVW4_XxCt6s9rhnW5XV-s37XxDqdW26FRh32vqP5QW8sGjv43C0n4JN954f6Qz0BkSW21hDv02Kwx9qW776yKj3z0PrsW4L2GY_1WZ_svW2R-FFf4284VsVYhKSh7dv36CW1GVYWV4kqC8KW5sVND169sh9XW2DLb5G3Tr4F1W2hDXHc8pbcvnW4HWpqQ8PvT6KW64lLRf1Ldf5sW2vYXZ_2mlTVsW4y28Gw3n_9k5VTJRd78kyv0CVHCFXN1qW-CxN44hlymJqpdzW8p3jPg536yvNW3rGZpx4CkYqWW7s1Pvr8ZPw1fW689GTC6ffCgzW2RS62n25j8MPW3YmHGt5zDWzkMX0J8Szwr0pW94_R5j7Jb-rkW5wyjBR1HW_t8N98kHGPp-V3zW8CwL7Q1pGbKKf5thbn804",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is extremely thin - just a headline and brief mention that Lilly hired Peter Marks, with no actual details about the acquisitions, deal terms, or strategic rationale."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "CVS restores Zepbound coverage, adds Eli Lilly's obesity pill Foundayo",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/05/28/cvs-covers-zepbound-adds-eli-lilly-foundayo.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial coverage of a significant formulary decision that impacts the competitive dynamics of the $100+ billion obesity drug market, with specific details about coverage timelines, patient populations affected, and strategic implications for both Lilly and Novo Nordisk."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Massachusetts sues UnitedHealth, alleging fraud in state's Medicaid plans for seniors",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after the first few paragraphs, preventing evaluation of its full substance and depth."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "GSK, Ionis unveil data for hepatitis B drug touted as 'functional cure'",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/gsk-ionis-bepirovirsen-hepatitis-b-nejm-study-results/821341/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma story about clinical trial results and FDA approval timelines, which belongs in Slot 1 (Healthcare/Biopharma), not Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "The Data Center Veto",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-data-center-veto?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1kYXRhLWNlbnRlci12ZXRvLyJdfSwiZXhwIjoxNzgyMDYyMTc0LCJpYXQiOjE3Nzk0NzAxNzQsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.Fa7NRTBADloWSYzJGNI-z5-RdXq20Kl_EVIYklaE6Z5_XKOto2lM_fnOrMSYwGmvazaySOR5EAT2qrT1RsNtG6VQj8e8NzGWJARtND9wGLAbMaKQvZXM6onEUgP0PYdS-h-NFQvccM-QG3Oqg2hQNweHsUiMEnCEvyXcxQKTLGqCotqYiY4n82pHuRKg7N5X8lsq9rKy1hxEDNkjzvTnNX9INZKeBqsbKzQekkJMG-D2dutKnGdZMFTuu8hrDIfJp7m7Yrl6xfQ1GXmWus8gAP9UFHpt7062KF99C9vtQyA1KxeeJ5exwopMYbtd-xzzjfkzlnTSOXHg1ae_QPA4QA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter summary/digest format rather than a substantive article, and the actual data center content appears to be behind a paywall in the referenced 'Daily Update'."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Can the Market Absorb Three Trillion-Dollar IPOs?",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantial financial analysis examining the unprecedented scenario of three trillion-dollar IPOs (SpaceX, OpenAI, Anthropic) and whether public markets can absorb them, with detailed financial projections and market capacity analysis."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Primary care, reimagined: Workforce and care model innovation in a modern age",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e60daeabd91cf1f369f52aa68/47e4af1f5209469e0000021ef3a0bcc2/47e4af1f-5209-469e-b113-3525f8d64b85",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot evaluate article substance as full content was not provided - only metadata was repeated, making it impossible to verify depth or accuracy of the summary."
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Author Talks: Testing AI's limits in a one-year experiment",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e69d9023dadf6eb6e96c660c0/728df3a4525744950000021ef3a0bcc2/728df3a4-5257-4495-9fab-b3474a6b439d",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content appears to be just a repeat of the headline and summary, suggesting the actual substantive content was not available, making it impossible to verify depth or accuracy."
   }
 ]

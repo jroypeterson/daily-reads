@@ -1,0 +1,260 @@
+{
+  "period_start": "2026-05-23",
+  "period_end": "2026-05-29",
+  "generated_at": "2026-05-29T14:51:17.480815+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 453,
+    "total_tier2_items": 345,
+    "days_with_runs": 4,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 17
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 7
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 6
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 7
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 8
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 38
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 17
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 25
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 9,
+    "articles_per_day": [
+      2,
+      4,
+      2,
+      1
+    ],
+    "avg_articles_per_day": 2.2,
+    "verified_pass": 9,
+    "verified_fail": 18,
+    "fail_reasons": [
+      "This is a newsletter overview/digest format that lacks the substantial analysis depth required for selection, and it doesn't fit Slot 1 (Healthcare/Biotech) as it's primarily about AI infrastructure and web economics.",
+      "This is a paywall landing page with no actual article content about the Parkinson's drug trial failure.",
+      "This article targets Slot 1 (Healthcare/Biotech) but is a generic AI strategy framework that doesn't specifically address healthcare, biopharma, or biotech applications.",
+      "This article is about Airbnb's business strategy and has no connection to healthcare/biotech, making it completely inappropriate for Slot 1.",
+      "This article about FICO's credit scoring business does not fit Slot 1 (Healthcare/Biotech) criteria and is paywalled content which the reader profile indicates should be avoided.",
+      "This article doesn't fit Slot 2 (Finance/Markets) as it lacks financial analysis, market implications, or investment relevance - it's purely a technical/environmental piece about AI energy consumption.",
+      "The article is paywalled after just three paragraphs, providing insufficient content for a meaningful digest despite the promising headline about Lilly's obesity drug trial results.",
+      "This is a general tech/finance IPO story that doesn't fit Slot 1's healthcare/biotech focus and lacks the depth expected for selection.",
+      "Cannot verify article substance or accuracy of summary since full article text was not provided, only metadata repetition.",
+      "The article appears to lack sufficient depth and specificity about the AI implementations and ROI methodology, making it too thin for the selection criteria despite the promising headline."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 11,
+      "jina": 9,
+      "tavily": 0,
+      "snippet_fallback": 7
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": 3.0,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Scuttleblurb": 4,
+      "MBI": 4,
+      "The Transcript": 4,
+      "A Letter a Day": 4,
+      "Value Investors Insight": 1,
+      "Biotech Primer": 1
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 4,
+    "checked_slots": 225,
+    "total_broken": 1,
+    "surfaces": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": []
+  }
+}

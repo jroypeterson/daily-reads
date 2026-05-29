@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-05-29",
+  "generated_at": "2026-05-29T14:51:12Z",
+  "counts": {
+    "gmail_items": 108,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "d624eb7c88cfabb2",
+      "headline": "CVS restores Zepbound coverage, adds Eli Lilly's obesity pill Foundayo",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/28/cvs-covers-zepbound-adds-eli-lilly-foundayo.html",
+      "slot": 1,
+      "summary": "CVS Caremark will restore coverage of Eli Lilly's Zepbound weight loss injection starting October 1st and add coverage for the newly approved Foundayo obesity pill on June 1st, reversing last year's decision to exclude Zepbound in favor of Novo Nordisk's Wegovy. This puts both companies on equal footing across CVS's standard formulary covering 25-30 million Americans, following successful pricing negotiations with both drugmakers that CVS expects will drive 10-15% additional savings in the weight management category.",
+      "why_it_matters": "This formulary decision significantly impacts the competitive landscape in the massive obesity drug market, potentially accelerating Lilly's market share gains and demonstrating how PBM negotiations are driving down costs in this high-growth therapeutic area.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:LLY",
+        "glp1_competition",
+        "formulary_access"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "93e7b81e7cf1e2c0",
+      "headline": "Can the Market Absorb Three Trillion-Dollar IPOs?",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+      "slot": 2,
+      "summary": "A detailed memo analyzing whether public markets can absorb three planned trillion-dollar IPOs from SpaceX, OpenAI, and Anthropic within a 12-month window. The analysis examines the companies' massive burn rates (OpenAI projected to lose $85bn in 2028), capital requirements ($115-218bn more needed for OpenAI through 2029), and the structural challenge that private capital pools are tapped out while these companies face urgent IPO windows.",
+      "why_it_matters": "Provides critical framework for understanding a potentially market-reshaping event where three of the largest IPOs in history could simultaneously test public market liquidity and institutional appetite, with significant implications for AI sector valuations and broader market dynamics.",
+      "signal_tags": [
+        "priority:high",
+        "mega_ipos",
+        "market_structure",
+        "tech_valuations"
+      ],
+      "reading_time": "8 min"
+    }
+  ]
+}
