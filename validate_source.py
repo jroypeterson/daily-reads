@@ -133,11 +133,28 @@ def _send_slack_alert(message: str):
         print(f"  Slack alert failed: {e}")
 
 
+# Staleness is judged relative to each source's declared cadence, not a flat
+# 7-day window: a monthly newsletter going quiet for a week is normal, not a
+# broken address. `stale` = past the expected interval plus grace (one skipped
+# issue); `dead` = silent long enough that a wrong address / dropped sub is the
+# likely explanation. Sources with no/unknown frequency fall back to weekly.
+FREQUENCY_THRESHOLDS = {
+    "daily": {"stale": 7, "dead": 21},
+    "weekly": {"stale": 16, "dead": 45},
+    "monthly": {"stale": 45, "dead": 80},
+}
+_DEFAULT_THRESHOLDS = FREQUENCY_THRESHOLDS["weekly"]
+
+
 def audit(ci_mode: bool = False):
-    """Check every source in sources.py against recent Gmail activity."""
+    """Check every source in sources.py against recent Gmail activity.
+
+    Each source is graded against its own declared `frequency` cadence so
+    low-frequency newsletters (weekly/monthly) aren't flagged just because they
+    skipped a week.
+    """
     service = get_gmail_service()
-    cutoff_7d = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y/%m/%d")
-    cutoff_30d = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y/%m/%d")
+    now = datetime.now(timezone.utc)
 
     print(f"Auditing {len(SOURCES)} sources against Gmail...\n")
 
@@ -147,20 +164,25 @@ def audit(ci_mode: bool = False):
 
     for email_addr, source in SOURCES.items():
         name = source["name"]
-        # Check last 7 days first
-        query_7d = f"after:{cutoff_7d} from:{email_addr}"
-        msgs_7d = gmail_search(service, query_7d, max_results=1)
-        if msgs_7d:
+        freq = source.get("frequency", "weekly")
+        thresholds = FREQUENCY_THRESHOLDS.get(freq, _DEFAULT_THRESHOLDS)
+        stale_days = thresholds["stale"]
+        dead_days = thresholds["dead"]
+
+        # Check within the stale window first (cadence + grace)
+        cutoff_stale = (now - timedelta(days=stale_days)).strftime("%Y/%m/%d")
+        msgs_recent = gmail_search(service, f"after:{cutoff_stale} from:{email_addr}", max_results=1)
+        if msgs_recent:
             ok.append((name, email_addr, "recent"))
             continue
 
-        # Fall back to 30 days
-        query_30d = f"after:{cutoff_30d} from:{email_addr}"
-        msgs_30d = gmail_search(service, query_30d, max_results=1)
-        if msgs_30d:
-            stale.append((name, email_addr, msgs_30d[0]["date"]))
+        # Fall back to the dead window
+        cutoff_dead = (now - timedelta(days=dead_days)).strftime("%Y/%m/%d")
+        msgs_dead = gmail_search(service, f"after:{cutoff_dead} from:{email_addr}", max_results=1)
+        if msgs_dead:
+            stale.append((name, email_addr, freq, stale_days, msgs_dead[0]["date"]))
         else:
-            dead.append((name, email_addr))
+            dead.append((name, email_addr, freq, dead_days))
 
     # Report
     print(f"OK ({len(ok)}):")
@@ -168,28 +190,28 @@ def audit(ci_mode: bool = False):
         print(f"  {name:30s} {addr}")
 
     if stale:
-        print(f"\nSTALE — no email in 7 days, last seen within 30 ({len(stale)}):")
-        for name, addr, last_date in stale:
-            print(f"  {name:30s} {addr}")
+        print(f"\nSTALE — silent past expected cadence ({len(stale)}):")
+        for name, addr, freq, stale_days, last_date in stale:
+            print(f"  {name:30s} {addr}  ({freq}, >{stale_days}d)")
             print(f"    Last seen: {last_date}")
 
     if dead:
-        print(f"\nDEAD — no email in 30 days ({len(dead)}):")
-        for name, addr in dead:
-            print(f"  {name:30s} {addr}")
+        print(f"\nDEAD — silent well past cadence ({len(dead)}):")
+        for name, addr, freq, dead_days in dead:
+            print(f"  {name:30s} {addr}  ({freq}, >{dead_days}d)")
         print("\n  These may have wrong addresses or you may not be subscribed.")
 
     # Slack alert for problems
     if dead or stale:
         lines = []
         if dead:
-            lines.append(f"*{len(dead)} dead source(s)* (no email in 30 days):")
-            for name, addr in dead:
-                lines.append(f"  {name} — `{addr}`")
+            lines.append(f"*{len(dead)} dead source(s)* (silent well past cadence):")
+            for name, addr, freq, dead_days in dead:
+                lines.append(f"  {name} — `{addr}`  (_{freq}, no email in {dead_days}d_)")
         if stale:
-            lines.append(f"*{len(stale)} stale source(s)* (no email in 7 days):")
-            for name, addr, _ in stale:
-                lines.append(f"  {name} — `{addr}`")
+            lines.append(f"*{len(stale)} stale source(s)* (silent past expected cadence):")
+            for name, addr, freq, stale_days, _ in stale:
+                lines.append(f"  {name} — `{addr}`  (_{freq}, no email in {stale_days}d_)")
         lines.append("\nRun `python validate_source.py \"name\"` to find the correct address.")
         _send_slack_alert("\n".join(lines))
 
