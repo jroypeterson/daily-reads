@@ -2878,5 +2878,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The full article content appears to be just a repeat of the headline and summary, suggesting the actual substantive content was not available, making it impossible to verify depth or accuracy."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Pfizer strikes up to $10.5B cancer drug deal with China's Innovent Biologics",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/pfizer-innovent-china-adc-cancer-drug-deal/821444/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a major $10.5B pharma deal with significant strategic context about US-China biotech partnerships and pipeline implications for Pfizer."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "SpaceX cuts IPO valuation target to at least $1.8 trillion from $2 trillion",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-29/spacex-lowers-ipo-valuation-target-to-at-least-1-8-trillion",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is completely truncated and contains only Bloomberg's website navigation menu rather than the actual article text about SpaceX's IPO valuation."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Massachusetts sues UnitedHealthcare over alleged $100M Medicaid fraud",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just three paragraphs, providing insufficient content for meaningful analysis and violating the reader's stated preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "FDA Issues Draft Guidance to Cut Unnecessary Animal Testing for Cancer Drugs",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-cut-unnecessary-animal-testing-cancer-drugs",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin FDA press release that lacks the financial/markets analysis required for Slot 2 and doesn't provide investment-relevant insights beyond generic regulatory news."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Move first or fall behind: How AI is rewriting the rules of banking",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e7507678fa80ab3369fea4b34/165a54674b0c40da0000021ef3a0bcc2/165a5467-4b0c-40da-8004-5d31fc25b4cb?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8ozpoQLR5JlpJmhoB5qIImZnzHecAgRGBXnrbWBrZ5wEF1ckN3WXNiOIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, indicating the full article wasn't actually fetched and we only have the summary to evaluate, which doesn't provide enough substance to verify depth or accuracy."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Luceing Their Mind (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/luceing-their-mind?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2x1Y2VpbmctdGhlaXItbWluZC8iXX0sImV4cCI6MTc4MjY2NjEzOSwiaWF0IjoxNzgwMDc0MTM5LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.d0EslkZiI55Nxk74j5yC3cZL15YxkBBmPKYQ9BnjVuO1Qk9TJa4evJ6BRmv2p5DXPo7k4pt0CpRZ1DEUIZe8EZnz5cb0hCoVRerDNF37NPgRsavYEWSzyVsbBcw7LEo6z9EMnO4PQf5eY026jY5PbF3ovIUHvsikovFZD2o9nl_hjK7CTuYv4kLzWfRSNFAUONvNorw5aWtZzPoscX4R6BIhvbJmW5TROqizA2Mer8qsrcd114G-vmR-1nniEc-9EUVCBrjdZ1qCIRTXfGVmyMk5Z-gvMB4VfMlc-GlYHy1LN7CsLac5lxfOmSTmaZIKQqiuVCqGbVV0KzoEkHZo0w",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table of contents/summary format that lacks the substantive analysis expected for Slot 2 finance/macro content, and doesn't contain meaningful market or financial insights."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Can the Market Absorb Three Trillion-Dollar IPOs?",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive analysis of market capacity constraints for mega-IPOs with strong investment relevance, fitting perfectly into the Finance/Macro slot."
+  },
+  {
+    "date": "2026-05-30",
+    "headline": "Testing AI's limits in a one-year experiment",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e69d9023dadf6eb6e96c660c0/728df3a4525744950000021ef3a0bcc2/728df3a4-5257-4495-9fab-b3474a6b439d?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pE71tLriLY0XTW_j5_i962ce59qNcABj28tW1K3RWL1RYGCZwkbiSDIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content was not successfully fetched, providing only the headline and summary without the substantive McKinsey research findings needed to evaluate depth and investment relevance."
   }
 ]

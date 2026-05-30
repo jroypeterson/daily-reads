@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-05-30",
+  "generated_at": "2026-05-30T13:14:07Z",
+  "counts": {
+    "gmail_items": 102,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2a114d94e81f91cb",
+      "headline": "Pfizer strikes up to $10.5B cancer drug deal with China's Innovent Biologics",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/pfizer-innovent-china-adc-cancer-drug-deal/821444/",
+      "slot": 1,
+      "summary": "Pfizer struck a potentially $10.5 billion partnership with China's Innovent Biologics covering 12 cancer drug programs, with $650M upfront and up to $9.85B in milestones. The deal focuses on next-generation antibody-drug conjugates and multispecific antibodies, with Innovent handling early discovery and Pfizer taking over global development after Phase 1. This represents Pfizer's largest bet on China-discovered medicines and is part of a broader trend of major pharma companies forming multibillion-dollar partnerships with Chinese biotechs.",
+      "why_it_matters": "This deal exemplifies the strategic shift toward China as a key source of drug innovation, potentially reshaping global pharmaceutical development while raising questions about US competitive positioning in biotech.",
+      "signal_tags": [
+        "ticker_match:PFE",
+        "ticker_match:1801",
+        "high_value_deal",
+        "international_partnership",
+        "pipeline_expansion"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "93e7b81e7cf1e2c0",
+      "headline": "Can the Market Absorb Three Trillion-Dollar IPOs?",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+      "slot": 2,
+      "summary": "This detailed memo analyzes whether public markets can absorb three trillion-dollar IPOs (SpaceX, OpenAI, Anthropic) within a single window, examining liquidity constraints, institutional investor capacity limits, and the companies' massive cash burn rates. The analysis explores two scenarios: whether historical market baselines apply or if AI represents a paradigm shift that justifies these unprecedented valuations.",
+      "why_it_matters": "Provides critical insights into market structure limitations and capital allocation dynamics that could significantly impact investment strategies as these mega-IPOs approach public markets.",
+      "signal_tags": [
+        "priority:high",
+        "market_structure",
+        "ipo_analysis",
+        "liquidity_concerns",
+        "mega_valuations"
+      ],
+      "reading_time": "8 min"
+    }
+  ]
+}
