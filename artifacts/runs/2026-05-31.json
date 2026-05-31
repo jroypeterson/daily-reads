@@ -1,0 +1,60 @@
+{
+  "run_date": "2026-05-31",
+  "generated_at": "2026-05-31T13:23:25Z",
+  "counts": {
+    "gmail_items": 100,
+    "tier2_items": 88,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2a114d94e81f91cb",
+      "headline": "Pfizer strikes up to $10.5B China cancer collab with Innovent Biologics",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/pfizer-innovent-china-adc-cancer-drug-deal/821444/",
+      "slot": 1,
+      "summary": "Pfizer signed a $10.5 billion deal with China's Innovent Biologics to co-develop 12 cancer drugs, including antibody-drug conjugates and multispecific antibodies, with $650M upfront and up to $9.85B in milestones. The deal exemplifies accelerating U.S.-China biotech partnerships, with six major pharma companies striking $8B+ multidrug deals since July 2025, raising concerns in Washington about America's pharmaceutical edge.",
+      "why_it_matters": "This represents the largest oncology licensing deal highlighting Big Pharma's growing strategic dependence on China's faster R&D capabilities, which creates both investment opportunities in cross-border biotech partnerships and significant geopolitical risks for U.S. pharmaceutical sovereignty.",
+      "signal_tags": [
+        "ticker_match:PFE",
+        "healthcare",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "93e7b81e7cf1e2c0",
+      "headline": "Can the Market Absorb Three Trillion-Dollar IPOs?",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+      "slot": 2,
+      "summary": "Deep analysis examining whether capital markets can absorb SpaceX, OpenAI, and Anthropic all going public at $1tn+ valuations within 12 months. The memo explores their massive capital requirements (OpenAI needs $115-218bn more through 2029), tapped-out private investor pools, and whether this represents a paradigm shift or unsustainable bubble dynamics.",
+      "why_it_matters": "With these companies burning tens of billions annually and facing forced IPO timelines due to capital constraints, this analysis provides critical framework for understanding potential market disruption and investment implications of the largest IPO wave in history.",
+      "signal_tags": [
+        "priority:high",
+        "finance_macro",
+        "ipo_catalyst"
+      ],
+      "reading_time": "8 min"
+    },
+    {
+      "article_id": "0691e2b7a071a25c",
+      "headline": "Domain expertise has always been the real moat",
+      "source": "Hacker News",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "slot": 3,
+      "summary": "Argues that agentic AI has fundamentally shifted the value equation in software development by making code generation cheap while domain expertise becomes the scarce, valuable asset. The piece demonstrates how domain experts can now effectively use AI tools while generalist engineers struggle without deep field knowledge, because the binding constraint has moved from 'can you build it' to 'can you tell whether it's right.'",
+      "why_it_matters": "Provides a framework for evaluating which companies and professionals will capture value in the AI era - those with deep domain knowledge rather than just technical skills - helping identify investment opportunities in specialized AI applications versus commoditized tooling.",
+      "signal_tags": [
+        "tech_ai",
+        "analytical_depth",
+        "high_hn_score:694"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

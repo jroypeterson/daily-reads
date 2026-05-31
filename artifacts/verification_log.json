@@ -2950,5 +2950,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article content was not successfully fetched, providing only the headline and summary without the substantive McKinsey research findings needed to evaluate depth and investment relevance."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Physical AI: What Business Leaders Need to Know Now",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiF_KTbStnVeeTuyzwYuC5aZQAVW7mU9Gr6Il8eJaX2cvkcd2DJkpJwgfns6A2XaOd0Czln3k=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a BCG newsletter email with article headlines and links, not actual substantive content about physical AI that would provide the strategic insights promised in the shortlist summary."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Pfizer strikes up to $10.5B China cancer collab with Innovent Biologics",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/pfizer-innovent-china-adc-cancer-drug-deal/821444/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a major $10.5B deal with clear strategic implications for both Big Pharma's China dependence and geopolitical risks in biotech."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Massachusetts sues UnitedHealthcare over alleged $100M Medicaid fraud",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just three paragraphs, making it impossible to evaluate its full depth and substance."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Can the Market Absorb Three Trillion-Dollar IPOs?",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxOTgwMjE2NTIsImlhdCI6MTc3OTc1NzM1OSwiZXhwIjoxNzgyMzQ5MzU5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lp0Y9D-WooNQ21oIZETxTr3qfNDbMnI3s0BNvcQF4P4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive analysis of unprecedented market mechanics around three potential trillion-dollar IPOs with detailed financial analysis and strategic implications that fits perfectly in Slot 2 Finance/Macro."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "SpaceX IPO Among the Stars",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F05-26-2026-among-the-stars",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to be just a headline and metadata without any actual substantive content about SpaceX's IPO filing or analysis."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Move first or fall behind: How AI is rewriting the rules of banking",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e7507678fa80ab3369fea4b34/165a54674b0c40da0000021ef3a0bcc2/165a5467-4b0c-40da-8004-5d31fc25b4cb",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content appears to be missing or identical to the summary, making it impossible to verify substance and depth beyond the generic headline and brief description."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Domain expertise has always been the real moat",
+    "source": "Hacker News",
+    "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong analytical depth on how AI shifts competitive advantages from coding ability to domain expertise, directly relevant to tech/AI investment thesis."
+  },
+  {
+    "date": "2026-05-31",
+    "headline": "Value Investor Insight: Gerardo Zamorano on emerging markets evolution",
+    "source": "Value Investors Insight",
+    "url": "https://valueinvestorinsight.com/Content_Premium/investor-insight-changing-landscape-may-2026.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is only a preview/paywall teaser with no actual substantive content to evaluate, violating the reader's documented preference to avoid paywalled content."
   }
 ]
