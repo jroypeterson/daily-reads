@@ -1,4 +1,11 @@
 # Daily Reads
+> AI-curated daily digest of ~4 articles (healthcare/biotech, finance, tech/AI, wildcard) sourced from Gmail newsletters + Hacker News + web search, with feedback-driven taste learning.
+
+- **Status:** live
+- **Runtime/trigger:** Python via GitHub Actions (daily 12:00 UTC / 7am ET) + manual dispatch
+- **Reads:** Gmail newsletters (7-day window) · Hacker News · web search · email-reply / GitHub-issue feedback · `learned_preferences.json`
+- **Writes:** Slack `#daily-reads` (digest) · GitHub Pages archive · TickTick · `#status-reports` (heartbeat) · `artifacts/runs/<date>.json` (Gmail email digest currently paused)
+- **Run:** `python main.py`  ·  **Entry points:** `main.py`, `gmail_reader.py`, `url_resolver.py`, `preference_learning.py`
 
 AI-curated daily article digest — 4 articles across healthcare/biotech, finance, tech/AI, and wildcard topics.
 
