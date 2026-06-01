@@ -3022,5 +3022,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is only a preview/paywall teaser with no actual substantive content to evaluate, violating the reader's documented preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Akeso's ivonescimab achieves landmark 34% reduction in death risk for lung cancer at ASCO 2026",
+    "source": "ASCO 2026 / Multiple Healthcare Sources",
+    "url": "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is substantial clinical trial coverage with meaningful analysis of data quality, competitive landscape, and expert critiques that goes well beyond a simple press release rehash."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Lilly's $3.2B Kelonia acquisition delivers 'nutty' 100% CAR-T response rate at ASCO",
+    "source": "Fierce Biotech / ASCO 2026",
+    "url": "https://www.fiercebiotech.com/biotech/asco-kelonia-keeps-vivo-car-t-momentum-rolling-nutty-100-response-rate",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is primarily a healthcare/biopharma story about clinical trial results and drug development rather than a finance/markets story, making it better suited for Slot 1 than Slot 2."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Anthropic confidentially files S-1 for IPO, joining $3 trillion AI race with SpaceX and OpenAI",
+    "source": "Anthropic / SEC Filing",
+    "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article is just a brief SEC filing announcement with no financial details, market analysis, or substantive content - it lacks the depth and analytical substance needed for selection."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "How will agentic AI reshape the workforce? McKinsey video analysis",
+    "source": "McKinsey & Company",
+    "url": "https://email.mckinsey.com/T/v710000019e8406ae1da4ffcd6e9666b528/1d4719d52d554cd20000021ef3a0bcc2/1d4719d5-2d55-4cd2-830f-9329816e93d1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to be just a video content piece without substantive written analysis, making it thin for a finance/macro slot that should focus on market moves, earnings, or policy impacts."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Physical AI: What Business Leaders Need to Know Now - BCG strategic report",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiF_KTbStnVeeTuyzwYuC5aZQAVW7mU9Gr6Il8eJaX2cvkcd2DJkpJwgfns6A2XaOd0Czln3k=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a promotional email newsletter with image links to reports, not actual article content with substantive analysis or insights."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Massachusetts AG sues UnitedHealthcare over alleged Medicaid fraud",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/01/massachusetts-ag-sues-unitedhealthcare-over-alleged-medicaid-fraud/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 error page with no actual content about the alleged UnitedHealthcare lawsuit."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Can the Market Absorb Three Trillion-Dollar IPOs? A Letter a Day analysis",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive investment analysis examining unprecedented market dynamics around mega-IPOs with detailed financial projections and strategic implications, perfectly fitting Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Box Creates 13 New Types of Jobs Because of AI - enterprise transformation case study",
+    "source": "The New York Times / DealBook",
+    "url": "https://www.nytimes.com/2026/06/01/technology/box-13-new-types-jobs-ai.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repetition of the headline and summary rather than actual article text, making it impossible to verify substance or depth."
   }
 ]

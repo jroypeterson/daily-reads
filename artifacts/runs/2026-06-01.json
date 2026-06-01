@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-06-01",
+  "generated_at": "2026-06-01T17:26:26Z",
+  "counts": {
+    "gmail_items": 114,
+    "tier2_items": 87,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c0b28eec1cb6483c",
+      "headline": "Akeso's ivonescimab achieves landmark 34% reduction in death risk for lung cancer at ASCO 2026",
+      "source": "ASCO 2026 / Multiple Healthcare Sources",
+      "url": "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+      "slot": 1,
+      "summary": "Akeso's ivonescimab achieved a statistically significant 34% reduction in death risk versus standard PD-1 plus chemotherapy in advanced squamous non-small cell lung cancer, marking the first China-originated drug to reach ASCO's prestigious plenary session. While the overall survival benefit exceeded expectations, oncology experts raised questions about follow-up duration, patient selection, and global applicability of the China-only dataset.",
+      "why_it_matters": "This validates the dual PD-1/VEGF mechanism in a $20B+ lung cancer market and could establish a new treatment paradigm, though expert skepticism about data maturity and generalizability creates both opportunity and risk for investors evaluating the China biotech sector.",
+      "signal_tags": [
+        "ticker_match:9926.HK",
+        "catalyst_proximity:ASCO",
+        "novelty",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "f4491427b200a087",
+      "headline": "Can the Market Absorb Three Trillion-Dollar IPOs? A Letter a Day analysis",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/can-the-market-absorb-three-trillion",
+      "slot": 2,
+      "summary": "Investment memo analyzing whether public markets can absorb simultaneous trillion-dollar IPOs from SpaceX, OpenAI, and Anthropic, examining their massive cash burn rates (OpenAI projected to lose $85bn in 2028), capital requirements ($115-218bn more needed for OpenAI through 2029), and whether traditional valuation metrics apply to AI companies. The analysis covers financing pathways, market capacity constraints, and the fundamental question of whether AI represents a paradigm shift that justifies these valuations.",
+      "why_it_matters": "The simultaneous public debut of three trillion-dollar companies would stress-test market infrastructure and liquidity while potentially reshaping equity allocation strategies, with implications for both institutional portfolio management and the broader technology sector's access to capital.",
+      "signal_tags": [
+        "priority:high",
+        "investment_relevant",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min"
+    }
+  ]
+}
