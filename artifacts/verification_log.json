@@ -3094,5 +3094,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article content provided is just a repetition of the headline and summary rather than actual article text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "Celcuity dares to dream of becoming $10B company after breast cancer win over Piqray",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/asco-10-billion-ambitions-celcuity-details-breast-cancer-win-over-piqray",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on Celcuity's ASCO data with specific clinical metrics, competitive positioning against Novartis' Piqray, and clear investment implications including a July 17 FDA decision catalyst."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "Anthropic expands Project Glasswing to 150 organizations, adds healthcare",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a corporate announcement about Anthropic's own cybersecurity program expansion, not finance/markets content, and lacks the investment or market analysis expected for Slot 2."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "Eli Lilly warns hospitals to submit claims data in the next five days or lose their 340B drug discounts",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after the first few paragraphs, preventing access to the full substance and depth needed for proper evaluation."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "How will agentic AI reshape the workforce?",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e8406ae1da4ffcd6e9666b528/1d4719d52d554cd20000021ef3a0bcc2/1d4719d5-2d55-4cd2-830f-9329816e93d1",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is just McKinsey's homepage navigation content, not the actual article about agentic AI and workforce transformation."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "Patient-first, America-first: The Case For Global Collaboration",
+    "source": "Life Sciences VC",
+    "url": "https://lifescivc.com/2026/06/patient-first-america-first-the-case-for-global-collaboration/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive VC perspective on geopolitical tensions affecting biopharma deals and investment strategies, directly relevant to finance/macro with strong analytical depth."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "Physical AI: What Business Leaders Need to Know Now",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiF_KTbStnVeeTuyzwYuC5aZQAVW7mU9Gr6Il8eJaX2cvkcd2DJkpJwgfns6A2XaOd0Czln3k=",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, indicating the full article wasn't fetched and there's no substantive content to evaluate beyond a brief description."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "CMS outlines national framework to support rollout of Medicaid work requirements",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/cms-outlines-national-framework-support-rollout-medicaid-work-requirements",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare policy article that doesn't fit the Tech/AI slot criteria and lacks any meaningful technology or AI focus beyond basic mentions of state IT infrastructure."
+  },
+  {
+    "date": "2026-06-02",
+    "headline": "IAC and MGM update: part 2",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a preview/table of contents page showing upcoming posts rather than actual substantive content about IAC and MGM, and it doesn't fit the Tech/AI slot criteria."
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-06-02",
+  "generated_at": "2026-06-02T16:10:29Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "46b3ac75849ed538",
+      "headline": "Celcuity dares to dream of becoming $10B company after breast cancer win over Piqray",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/asco-10-billion-ambitions-celcuity-details-breast-cancer-win-over-piqray",
+      "slot": 1,
+      "summary": "Celcuity presented detailed ASCO 2026 data showing its gedatolisib breast cancer drug achieved 11.3 months median progression-free survival versus 5.6 months for Novartis' Piqray in PIK3CA-mutant patients, with objective response rates of 35.7-48.9%. The company has an FDA decision pending by July 17 and plans a supplemental filing in Q3, with CEO Brian Sullivan targeting $10B company valuation if frontline studies succeed.",
+      "why_it_matters": "This represents a significant competitive threat to Novartis' Piqray with a clear FDA catalyst within 30 days, potentially opening a $20B frontline market opportunity for a currently small biotech.",
+      "signal_tags": [
+        "ticker_match:CELC",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "0dbbab0ca497e86a",
+      "headline": "Patient-first, America-first: The Case For Global Collaboration",
+      "source": "Life Sciences VC",
+      "url": "https://lifescivc.com/2026/06/patient-first-america-first-the-case-for-global-collaboration/",
+      "slot": 2,
+      "summary": "A Life Sciences VC argues against protectionist policies targeting Chinese biopharma partnerships, contending that global collaboration benefits US patients through access to innovative medicines and benefits US companies through IP licensing deals. The piece makes the case that China's rise in biopharma creates opportunities rather than threats, and that isolationist responses could harm the US biotech ecosystem.",
+      "why_it_matters": "Provides investment-relevant insights into how geopolitical tensions are reshaping biopharma deal flow and strategy, with implications for portfolio companies navigating cross-border partnerships and licensing opportunities.",
+      "signal_tags": [
+        "high_priority_source",
+        "venture_capital_insights",
+        "geopolitical_risks",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
