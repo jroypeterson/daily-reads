@@ -628,5 +628,23 @@
         "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-help-accelerate-cell-and-gene-therapies-patients"
       }
     ]
+  },
+  {
+    "date": "2026-06-03",
+    "checked_unique": 47,
+    "checked_slots": 47,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "Fierce Biotech",
+        "headline": "ASCO's Biggest Winners Showcase China's Biotech Coming of Age: Akeso's Ivonescimab Scores Historic Plenary",
+        "url": "https://www.fiercebiotech.com/biotech/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival"
+      }
+    ]
   }
 ]

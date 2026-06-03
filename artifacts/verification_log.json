@@ -3220,5 +3220,59 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial insights into AI market dynamics and institutional capital flows from a top Wall Street CEO, aligning well with the reader's preferences for data infrastructure, VC insights, and investment-relevant analysis."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "ASCO's Biggest Winners Showcase China's Biotech Coming of Age: Akeso's Ivonescimab Scores Historic Plenary",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content from a priority source covering a significant clinical milestone with clear investment implications for the oncology market."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Rewiring Software Delivery for the Agentic Era: McKinsey's Blueprint for AI-Native Organizations",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repetition of the headline and summary, with no actual substantive content to evaluate depth or accuracy."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Microsoft and Mayo Clinic Partner to Build Frontier AI Model for Healthcare",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/microsoft-mayo-clinic-plan-build-frontier-ai-model-healthcare",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin press release rehash with no financial analysis, market implications, or depth beyond basic partnership announcement details."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Ultra-Processed Food Researchers Call for Sweeping Policy Changes: 'The System is Rigged'",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/03/ultra-processed-food-experts-want-sweeping-policy-changes/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial policy analysis with clear investment implications for food industry companies, aligning well with the finance/macro slot and the reader's interest in regulatory affairs and corporate governance."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "House Bill Targets China Biotech Deals Following Major Pfizer, Bristol Myers Partnerships",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/binsa-china-biotech-deals-house-moolenaar-dingell/821841/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is primarily a regulatory/policy article about biotech investment restrictions rather than a tech/AI advancement, and doesn't align with Slot 3's focus on AI breakthroughs or foundational model advances."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "AI Outperforms Law Professors in Stanford Law Study: Professional Skills Under Pressure",
+    "source": "Hacker News",
+    "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is substantive research from Stanford Law with rigorous methodology that demonstrates AI's capability in complex reasoning tasks, fitting the tech/AI slot and reader's interest in AI impact on professional services."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "run_date": "2026-06-03",
-  "generated_at": "2026-06-03T00:28:13Z",
+  "generated_at": "2026-06-03T16:26:49Z",
   "triage_queue": [
     {
       "candidate_id": "d83ed2c74e745234",
@@ -134,30 +134,31 @@
       "triage_score": 11
     },
     {
-      "candidate_id": "0b6b0ae43816a498",
+      "candidate_id": "76a54242fb03221f",
       "run_date": "2026-06-03",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "A walking tour of surveillance infrastructure in Seattle (2020)",
-      "snippet": "A walking tour of surveillance infrastructure in Seattle (2020)",
-      "primary_url": "https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/",
+      "headline": "Meta workers can opt out of being tracked at work up to 30 min",
+      "snippet": "Meta workers can opt out of being tracked at work up to 30 min",
+      "primary_url": "https://www.bbc.com/news/articles/c93x0k194yno",
       "urls": [
-        "https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/"
+        "https://www.bbc.com/news/articles/c93x0k194yno"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 370,
+      "score": 376,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:370",
+        "hn_score:376",
         "category:tech_ai",
-        "ticker:GPCR"
+        "ticker:META",
+        "ticker:OPT"
       ],
-      "triage_score": 5
+      "triage_score": 7
     },
     {
       "candidate_id": "484e86426f4b38f7",
@@ -228,6 +229,40 @@
       "triage_score": 15
     },
     {
+      "candidate_id": "15f932804651ad3b",
+      "run_date": "2026-06-03",
+      "source_type": "gmail",
+      "source_name": "Fierce Biotech",
+      "headline": "ASCO special: Akeso's plenary cements China's biotech rise; RevMed, Lilly, BMS and more show out",
+      "snippet": "Legend founder shares next CAR-T vision Fierce Biotech ASCO Special Today&#39;s Big News Jun 3, 2026 Akeso&#39;s ivonescimab bests PD-1 inhibitor in lung cancer chemo combos, slashing death risk by 34%",
+      "primary_url": "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+      "urls": [
+        "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+        "https://www.fiercepharma.com/pharma/akeso-takes-center-stage-asco-china-biotech-industry-cements-its-coming-age",
+        "https://www.fiercebiotech.com/biotech/asco-revolution-medicines-confident-ras-leadership-rivals-square",
+        "https://www.fiercebiotech.com/biotech/asco-kelonia-keeps-vivo-car-t-momentum-rolling-nutty-100-response-rate",
+        "https://www.fiercebiotech.com/biotech/legend-scientific-founder-returns-asco-new-ambition-high-yield-non-gene-edited-car-t"
+      ],
+      "category": "healthcare_daily",
+      "priority": "normal",
+      "tier": 1,
+      "score": null,
+      "sender_email": "editors@go.fiercebiotech.com",
+      "sender": "Fierce Biotech <editors@go.fiercebiotech.com>",
+      "published_at": "Wed, 3 Jun 2026 09:48:34 -0500 (CDT)",
+      "derived_signals": [
+        "source_type:gmail",
+        "category:healthcare_daily",
+        "ticker:PD",
+        "ticker:3320",
+        "ticker:HCAT",
+        "ticker:HR",
+        "ticker:LEGN",
+        "subsector:HIT"
+      ],
+      "triage_score": 15
+    },
+    {
       "candidate_id": "51ac3d4d884a8375",
       "run_date": "2026-06-03",
       "source_type": "gmail",
@@ -293,40 +328,6 @@
         "ticker:HCAT",
         "ticker:HR",
         "ticker:LEGN",
-        "subsector:HIT"
-      ],
-      "triage_score": 15
-    },
-    {
-      "candidate_id": "1b66cb7d3e4f8c88",
-      "run_date": "2026-06-03",
-      "source_type": "gmail",
-      "source_name": "Fierce Biotech",
-      "headline": "| 05.29.26 | Lilly lands 3 more biotechs in M&A spree; Gilead, AbbVie score FDA nods",
-      "snippet": "FDA reforms intact despite commissioner switch Fierce Life Sciences Weekly Digest A message from Porton Pharma Solutions This Week May 29, 2026 Lilly inks deals to buy 3 vaccine developers for up to",
-      "primary_url": "https://www.portonpharma.com/en/newsinfo/Optimization_of_Synthetic_Process_and_Metal-Chelation_Impurity_Control_Strategy_for_Complex_Peptide-based_RDCs_?adposition=x30",
-      "urls": [
-        "https://www.portonpharma.com/en/newsinfo/Optimization_of_Synthetic_Process_and_Metal-Chelation_Impurity_Control_Strategy_for_Complex_Peptide-based_RDCs_?adposition=x30",
-        "https://www.portonpharma.com/en/newsinfo/Optimization_of_Synthetic_Process_and_Metal-Chelation_Impurity_Control_Strategy_for_Complex_Peptide-based_RDCs_?adposition=x30",
-        "https://www.fiercebiotech.com/biotech/eli-lilly-inks-deals-buy-3-vaccine-developers-38b",
-        "https://www.fiercepharma.com/pharma/elahere-building-steam-abbvie-nets-another-immunogen-fda-nod-rare-blood-cancer-conjugate",
-        "https://www.fiercepharma.com/pharma/after-prior-fda-manufacturing-snub-gileads-hepcludex-nabs-accelerated-hepatitis-d-nod-us"
-      ],
-      "category": "healthcare_daily",
-      "priority": "normal",
-      "tier": 1,
-      "score": null,
-      "sender_email": "editors@go.fiercebiotech.com",
-      "sender": "\"Fierce Life Sciences: Weekly Digest\" <editors@go.fiercebiotech.com>",
-      "published_at": "Fri, 29 May 2026 08:09:14 -0500 (CDT)",
-      "derived_signals": [
-        "source_type:gmail",
-        "category:healthcare_daily",
-        "ticker:ABBV",
-        "ticker:GILD",
-        "ticker:HCAT",
-        "ticker:HR",
-        "ticker:PSG",
         "subsector:HIT"
       ],
       "triage_score": 15
