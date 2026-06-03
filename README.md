@@ -4,7 +4,7 @@
 - **Status:** live
 - **Runtime/trigger:** Python via GitHub Actions (daily 12:00 UTC / 7am ET) + manual dispatch
 - **Reads:** Gmail newsletters (7-day window) · Hacker News · web search · email-reply / GitHub-issue feedback · `learned_preferences.json`
-- **Writes:** Slack `#daily-reads` (digest) · GitHub Pages archive · TickTick · `#status-reports` (heartbeat) · `artifacts/runs/<date>.json` (Gmail email digest currently paused)
+- **Writes:** Slack `#daily-reads` (digest) · GitHub Pages archive · TickTick · Readwise Reader (top picks + always-read → `later`) · `#status-reports` (heartbeat) · `artifacts/runs/<date>.json` (Gmail email digest currently paused)
 - **Run:** `python main.py`  ·  **Entry points:** `main.py`, `gmail_reader.py`, `url_resolver.py`, `preference_learning.py`
 
 AI-curated daily article digest — 4 articles across healthcare/biotech, finance, tech/AI, and wildcard topics.
@@ -73,6 +73,8 @@ Layers guard against silent ingest misses *and* silent delivery failures (see `m
 | `TAVILY_API_KEY` | Optional — enables Tavily extract as last-resort fallback for paywalled/JS-heavy articles that trafilatura and Jina can't extract |
 | `TICKTICK_ACCESS_TOKEN` | Optional — enables TickTick delivery |
 | `TICKTICK_LIST_DAILY_READS` | Optional — TickTick list ID for daily digest |
+| `READWISE_TOKEN` | Optional — static Readwise token (readwise.io/access_token) enabling the Reader push of top picks + always-read. Unset = step skipped cleanly. |
+| `READWISE_READER_LOCATION` | Optional — Reader shelf for pushed items (`later` default; e.g. `shortlist`) |
 
 ## Gmail OAuth Setup
 
