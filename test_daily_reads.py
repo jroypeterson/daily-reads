@@ -754,6 +754,61 @@ class DailyReadsTests(unittest.TestCase):
         self.assertEqual(state["pending"]["modification_note"], "Tighten biotech emphasis")
         self.assertEqual(current, "# Current\nold\n")
 
+    # -- Readwise Reader push -------------------------------------------------
+
+    def test_deliver_reader_skips_without_token(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            with mock.patch.object(main.requests, "post") as post:
+                main.deliver_reader(
+                    [{"url": "https://example.com/a", "headline": "A"}],
+                    [{"primary_url": "https://example.com/b", "headline": "B"}],
+                )
+        post.assert_not_called()
+
+    def test_deliver_reader_pushes_top_picks_and_always_read(self):
+        resp = mock.Mock(status_code=201, headers={}, text="")
+        with mock.patch.dict(os.environ, {"READWISE_TOKEN": "tok123"}, clear=True):
+            with mock.patch.object(main.requests, "post", return_value=resp) as post:
+                main.deliver_reader(
+                    [{"url": "https://example.com/top", "headline": "Top Pick", "summary": "why"}],
+                    [{"primary_url": "https://example.com/always", "subject": "Always Item"}],
+                )
+
+        self.assertEqual(post.call_count, 2)
+        first = post.call_args_list[0]
+        self.assertEqual(first.args[0], "https://readwise.io/api/v3/save/")
+        self.assertEqual(first.kwargs["headers"]["Authorization"], "Token tok123")
+        top_body = first.kwargs["json"]
+        self.assertEqual(top_body["url"], "https://example.com/top")
+        self.assertEqual(top_body["title"], "Top Pick")
+        self.assertEqual(top_body["location"], "later")
+        self.assertIn("top-pick", top_body["tags"])
+        self.assertEqual(top_body["summary"], "why")
+
+        always_body = post.call_args_list[1].kwargs["json"]
+        self.assertEqual(always_body["url"], "https://example.com/always")
+        self.assertEqual(always_body["title"], "Always Item")  # falls back to subject
+        self.assertIn("always-read", always_body["tags"])
+
+    def test_deliver_reader_skips_items_without_url(self):
+        resp = mock.Mock(status_code=200, headers={}, text="")
+        with mock.patch.dict(os.environ, {"READWISE_TOKEN": "tok"}, clear=True):
+            with mock.patch.object(main.requests, "post", return_value=resp) as post:
+                main.deliver_reader(
+                    [{"headline": "No URL pick"}, {"url": "https://example.com/ok", "headline": "OK"}],
+                    [{"headline": "No URL always"}],
+                )
+        # Only the single article with a URL should be pushed.
+        self.assertEqual(post.call_count, 1)
+        self.assertEqual(post.call_args.kwargs["json"]["url"], "https://example.com/ok")
+
+    def test_deliver_reader_honors_location_override(self):
+        resp = mock.Mock(status_code=201, headers={}, text="")
+        with mock.patch.dict(os.environ, {"READWISE_TOKEN": "t", "READWISE_READER_LOCATION": "shortlist"}, clear=True):
+            with mock.patch.object(main.requests, "post", return_value=resp) as post:
+                main.deliver_reader([{"url": "https://example.com/x", "headline": "X"}], [])
+        self.assertEqual(post.call_args.kwargs["json"]["location"], "shortlist")
+
 
 if __name__ == "__main__":
     unittest.main()

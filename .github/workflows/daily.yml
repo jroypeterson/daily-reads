@@ -80,6 +80,7 @@ jobs:
           TICKTICK_ACCESS_TOKEN: ${{ secrets.TICKTICK_ACCESS_TOKEN }}
           TICKTICK_LIST_DAILY_READS: ${{ secrets.TICKTICK_LIST_DAILY_READS }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
           DELIVER_GMAIL_ENABLED: "false"   # paused 2026-05-18; remove line to resume
 
       # If main.py died before posting the health/v1 heartbeat (import

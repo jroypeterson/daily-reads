@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import time
 import traceback
 from difflib import ndiff
 from datetime import datetime, timedelta, timezone
@@ -1942,6 +1943,140 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
     print(f"\nCreated {created}/{len(tasks)} tasks in TickTick.")
 
 
+def deliver_reader(articles: list[dict], always_read: list[dict] | None = None):
+    """Push the day's top picks + always-read items into Readwise Reader so
+    they're queued to read in the app.
+
+    Uses the Readwise REST API (https://readwise.io/api/v3/save/), NOT the
+    interactive MCP — this runs in the GH Actions cloud cron, which can't reach
+    interactive MCP servers. Auth is the static personal token in READWISE_TOKEN
+    (header `Authorization: Token <token>`), distinct from the OAuth/Bearer MCP.
+
+    The save endpoint is idempotent on URL (200 = already saved, 201 = created),
+    so re-running the same day does not create duplicates. Both lists land in
+    `location` (default 'later'); items are tagged so they're filterable in
+    Reader ('daily-reads' + 'top-pick'/'always-read').
+    """
+    section("DELIVERY: READWISE READER")
+    token = os.environ.get("READWISE_TOKEN")
+    if not token:
+        print("READWISE_TOKEN not configured — skipping Reader push.")
+        return
+
+    location = (os.environ.get("READWISE_READER_LOCATION") or "later").strip()
+    headers = {
+        "Authorization": f"Token {token}",
+        "Content-Type": "application/json",
+    }
+
+    # Build the save list. Top picks and always-read use different field names
+    # for their URL/headline (see build_always_read), so normalise here.
+    saves: list[dict] = []
+    for a in (articles or []):
+        url = (a.get("url") or "").strip()
+        if not url:
+            continue
+        payload = {
+            "url": url,
+            "title": a.get("headline") or "Untitled",
+            "location": location,
+            "category": "article",
+            "saved_using": "daily-reads",
+            "tags": ["daily-reads", "top-pick"],
+        }
+        summary = a.get("summary") or ""
+        if summary:
+            payload["summary"] = summary
+        saves.append(payload)
+
+    for item in (always_read or []):
+        url = (item.get("primary_url") or "").strip()
+        if not url:
+            continue
+        saves.append({
+            "url": url,
+            "title": item.get("headline") or item.get("subject") or "Untitled",
+            "location": location,
+            "category": "article",
+            "saved_using": "daily-reads",
+            "tags": ["daily-reads", "always-read"],
+        })
+
+    if not saves:
+        print("No URLs to push to Reader.")
+        return
+
+    saved = 0
+    bad_token = False
+    failures = 0
+    for payload in saves:
+        try:
+            resp = requests.post(
+                "https://readwise.io/api/v3/save/",
+                headers=headers,
+                json=payload,
+                timeout=30,
+            )
+        except requests.RequestException as exc:
+            failures += 1
+            print(f"  ✗ Network error: {payload['title']} — {exc}")
+            continue
+
+        # Reader rate limit (default 20/min) returns 429 + Retry-After. Volume
+        # is small (a handful of picks), so a single bounded retry is enough.
+        if resp.status_code == 429:
+            wait = int(resp.headers.get("Retry-After", "5") or "5")
+            print(f"  … 429 rate-limited, waiting {wait}s and retrying once")
+            time.sleep(min(wait, 60))
+            try:
+                resp = requests.post(
+                    "https://readwise.io/api/v3/save/",
+                    headers=headers,
+                    json=payload,
+                    timeout=30,
+                )
+            except requests.RequestException as exc:
+                failures += 1
+                print(f"  ✗ Network error on retry: {payload['title']} — {exc}")
+                continue
+
+        if resp.status_code in (200, 201):
+            saved += 1
+            state = "created" if resp.status_code == 201 else "exists"
+            print(f"  ✓ ({state}) {payload['title']}")
+        elif resp.status_code in (401, 403):
+            bad_token = True
+            print(f"  ✗ {resp.status_code} — READWISE_TOKEN rejected.")
+            break
+        else:
+            failures += 1
+            print(f"  ✗ Failed ({resp.status_code}): {payload['title']}")
+            print(f"    {resp.text[:200]}")
+
+    if bad_token:
+        _RUN_STATE["partial_reasons"].append("Readwise token rejected — push to Reader skipped")
+        slack_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
+        if slack_url:
+            alert = (
+                ":warning: *Readwise token rejected* — Daily Reads can't push to Reader. "
+                "Mint a new static token at https://readwise.io/access_token, then update "
+                "the `READWISE_TOKEN` GitHub secret (and `daily-reads/.env` locally)."
+            )
+            try:
+                requests.post(slack_url, json={
+                    "blocks": [{"type": "section", "text": {"type": "mrkdwn", "text": alert}}],
+                    "text": "Readwise token rejected — push skipped",
+                }, timeout=15)
+            except requests.RequestException:
+                pass
+    elif failures:
+        _RUN_STATE["partial_reasons"].append(
+            f"Readwise Reader push: {failures}/{len(saves)} items failed to save"
+        )
+
+    print(f"\nSaved {saved}/{len(saves)} items to Readwise Reader (location={location}).")
+
+
 def deliver_triage_log(triage_queue: list[dict]):
     section("TRIAGE QUEUE")
     if not triage_queue:
@@ -2311,6 +2446,7 @@ def main():
         deliver_slack(articles, triage_queue, always_read, substack_items)
         deliver_pages(articles, triage_queue, always_read, substack_items)
         deliver_ticktick(articles, always_read)
+        deliver_reader(articles, always_read)
         deliver_log(articles)
         deliver_triage_log(triage_queue)
         artifacts_produced.append(f"docs/{today}.html")

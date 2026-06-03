@@ -40,6 +40,16 @@ Substack `substack.com/redirect/2/<token>` URLs get unwrapped to canonical publi
 
 The daily digest posts to a dedicated `#daily-reads` channel via `SLACK_WEBHOOK_URL_DAILY_READS`. The end-of-run `health/v1` heartbeat plus operator-style alerts (weekly report, source audit, criteria proposals, TickTick-expired warnings, taste synthesis, digest delivery failure) all post to `#status-reports` via `SLACK_WEBHOOK_STATUS_REPORTS`. If `SLACK_WEBHOOK_URL_DAILY_READS` is unset, the digest falls back to `SLACK_WEBHOOK_STATUS_REPORTS` so a missing secret doesn't drop the digest entirely.
 
+## Readwise Reader push
+
+`deliver_reader` in `main.py` pushes the day's **top picks** (`articles`) + **always-read** items into Readwise Reader so they're queued to read in the app. Uses the Readwise REST API (`POST https://readwise.io/api/v3/save/`), NOT the interactive MCP — the cron can't reach interactive MCP servers. Auth is the static personal token in `READWISE_TOKEN` (header `Authorization: Token <token>`), set as a GH Actions secret and kept locally in `daily-reads/.env` (gitignored). Mint/rotate at https://readwise.io/access_token.
+
+- **What's pushed:** top picks (tagged `daily-reads` + `top-pick`) and always-read items (tagged `daily-reads` + `always-read`). The pull direction (ingesting Reader docs as digest candidates) was intentionally not built.
+- **Where:** location `later` by default; override with `READWISE_READER_LOCATION` (e.g. `shortlist`).
+- **Idempotent:** the save endpoint dedupes on URL (201=created, 200=already existed) and does **not** move a pre-existing doc — so re-running the same day won't duplicate, and a URL you already archived won't get resurfaced to `later`.
+- **Failure handling:** a 401/403 (bad token) posts a `#status-reports` alarm and marks the run `partial`; other per-item failures are counted and added as a partial reason. A single 429 retry honors `Retry-After`.
+- If `READWISE_TOKEN` is unset the push is skipped cleanly (no error) — so local `python main.py` without the token just no-ops this step.
+
 ## Outbound email digest — paused
 
 As of 2026-05-18 the HTML email digest (`deliver_gmail` in `main.py`) is paused in the scheduled GH Actions run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. The function is gated on that env var (default `"true"` so local `python main.py` still sends if the user wants to test). To resume: delete the env line in `daily.yml` or flip it to `"true"`. Slack/TickTick/Pages/health-heartbeat were never paused.
