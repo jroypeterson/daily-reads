@@ -3166,5 +3166,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is just a preview/table of contents page showing upcoming posts rather than actual substantive content about IAC and MGM, and it doesn't fit the Tech/AI slot criteria."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "NewLimit Raises $435 Million for Anti-Aging Drug Targeting Liver Disease",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/02/longevity-startup-newlimit-announces-435-million-clinical-trial-financing/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just three paragraphs, providing insufficient substance beyond basic funding announcement details."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Mayo Clinic and Microsoft Partner to Build Frontier AI Model for Healthcare",
+    "source": "Microsoft News",
+    "url": "https://news.microsoft.com/source/2026/06/02/mayo-clinic-and-microsoft-collaborate-to-develop-a-frontier-ai-model-for-healthcare/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin press release with no substance beyond announcing a partnership - it lacks clinical details, technical specifics, timeline, or meaningful analysis of market implications."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "FDA Issues Draft Guidance to Accelerate Cell and Gene Therapies",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-help-accelerate-cell-and-gene-therapies-patients",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is substantial regulatory guidance that will meaningfully impact gene therapy development timelines and costs across the biotech sector."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Eli Lilly Issues Ultimatum to 340B Hospitals Over Data Sharing",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/eli-lilly-340b-hospital-ultimatum-data-sharing-hrsa/821744/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a significant healthcare policy dispute with clear implications for drug pricing dynamics and hospital economics, fitting well into the Finance/Macro slot."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "California's University System AI Initiative Faces Internal Turmoil",
+    "source": "Hacker News",
+    "url": "https://www.nytimes.com/2026/06/01/magazine/ai-university-college-california.html",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article appears to be behind a paywall with only the opening section available, making it impossible to assess the full depth and substance of the piece."
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Goldman Sachs CEO: Markets in 'Greed' Mode as AI Companies Seek Billions",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial insights into AI market dynamics and institutional capital flows from a top Wall Street CEO, aligning well with the reader's preferences for data infrastructure, VC insights, and investment-relevant analysis."
   }
 ]

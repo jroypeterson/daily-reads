@@ -1,0 +1,63 @@
+{
+  "run_date": "2026-06-03",
+  "generated_at": "2026-06-03T00:28:13Z",
+  "counts": {
+    "gmail_items": 113,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e22309ad3850e33c",
+      "headline": "FDA Issues Draft Guidance to Accelerate Cell and Gene Therapies",
+      "source": "FDA Press Releases",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-help-accelerate-cell-and-gene-therapies-patients",
+      "slot": 1,
+      "summary": "The FDA issued draft guidance allowing gene therapy developers to leverage existing scientific and regulatory knowledge to streamline development, reducing redundant testing and accelerating treatments for rare diseases. The guidance works alongside the FDA's Plausible Mechanism Framework and complements recent draft guidance on genome editing safety assessment. Companies can now build on publicly available CMC data, nonclinical studies, and clinical information to support regulatory submissions.",
+      "why_it_matters": "This regulatory shift could significantly reduce development costs and timelines for gene therapy companies, creating material value for investors in a sector where regulatory efficiency directly impacts commercial viability and patient access.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "high_priority_source",
+        "investment_relevant",
+        "healthcare_policy"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "62fb138f7940dc71",
+      "headline": "Eli Lilly Issues Ultimatum to 340B Hospitals Over Data Sharing",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/eli-lilly-340b-hospital-ultimatum-data-sharing-hrsa/821744/",
+      "slot": 2,
+      "summary": "Eli Lilly has given hospitals in the 340B drug discount program until Monday to submit claims data proving compliance or lose access to discounts on Lilly's medications, escalating a broader industry dispute over program transparency. Hospital groups are calling the move illegal and urging federal intervention, warning it could set precedent for other drugmakers to impose similar requirements. The conflict centers on preventing duplicate discounts while hospitals argue this creates burdensome compliance costs for safety-net providers.",
+      "why_it_matters": "This precedent-setting confrontation could reshape the $54 billion 340B program, affecting drug pricing power dynamics between pharmaceutical companies and hospitals while potentially influencing margins and costs across the healthcare system.",
+      "signal_tags": [
+        "ticker_match:LLY",
+        "regulatory_affairs",
+        "corporate_governance",
+        "investment_relevant"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "a3abf7e20c00ff0d",
+      "headline": "Goldman Sachs CEO: Markets in 'Greed' Mode as AI Companies Seek Billions",
+      "source": "CNBC Finance",
+      "url": "https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html",
+      "slot": 3,
+      "summary": "Goldman Sachs CEO David Solomon characterized current markets as being in 'greed' mode, driven by unprecedented AI fundraising activity including potential trillion-dollar IPOs from OpenAI, Anthropic, and SpaceX. Solomon argued there's sufficient market liquidity to absorb this wave of equity issuance, pointing to Alphabet's successful $80 billion raise as evidence, while acknowledging that market sentiment could shift quickly from greed to fear.",
+      "why_it_matters": "Solomon's perspective provides critical insight into institutional appetite for AI investments and signals potential market saturation risks as multiple AI giants simultaneously seek massive public funding rounds.",
+      "signal_tags": [
+        "financial_news",
+        "market_timing",
+        "AI_impact",
+        "investment_relevant"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
