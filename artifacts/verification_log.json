@@ -3274,5 +3274,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This is substantive research from Stanford Law with rigorous methodology that demonstrates AI's capability in complex reasoning tasks, fitting the tech/AI slot and reader's interest in AI impact on professional services."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "ADC Therapeutics plummets on 27 deaths in confirmatory cancer trial",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWjQ7d7LHsRZW3zMGKV6j3m90W5g6HvJ5PVxsvN6WXHZ-5nR3bW7Y9pgv6lZ3mVW2kFhJN2JtDCfW3JKvrW8zTGt5VvmZ_D3wQMZGW4V6_5j6FyT-XN3cnMGTPGCzFW7jnXkS1pRlzbW60vKHW1zR_RzW4PW3Vn7yKkbZW8BnRwF3plNvNW8THlCk2lDPJ2W6-KTf99174S2W5dCfc87plQ2xW4GmyVg8PJ0-jW7sPh1n4yjdWMW6T6XcN4wTFg_W2zlk6w92sl1qW4FP1Bq1G8CXtW5zlKgX2LT6Q2W6cfDgK8W3cZMW7dFzc3120pMHW8xV-bX2Bc5hKVHLb362kjGzHV8lTMr8w-2rjW6l-pdY6jw9p-W87QvL3665q2HW7c2xwx7_jJPmW5vGscq4J0LxbW9d937f1zB9pNMBc8mGsktc7W209kqD2q1C3RW2_Wt_G46BJHDW6xQc744wy4WMW3PfHJb1TVLGxW4cJTjW8MPQgpV5Ccj93Jhc69W4N8HWR4wNG04W2dbzgM887S8vVDvltf1QZcCJW6XT9cV1-KbttW2yrhvx5WrDshW7B9Vzq8mGByQW6Cnfn84wtr1Qf635qGz04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial clinical trial data with significant safety implications and clear investment relevance for ADC Therapeutics, meeting Slot 1 healthcare criteria with actionable information."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is identical to the shortlist summary, suggesting the full article wasn't actually fetched and this is just a rehash of the summary rather than substantive content."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "Letter #332: Alex Sacerdote and Leon Shaulov on Intelligence as Infrastructure",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This provides substantive investment insights from top-tier fund managers on AI's economic impact with actionable frameworks for evaluating different AI segments, matching both the finance slot and reader's preferences for VC insights and data infrastructure themes."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "NewLimit's $435M megaround; Lilly's busy dealmaking week",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/newlimit-lilly-hanmi-haisco-praxis-cytomx-regeneron/821624/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin news roundup of multiple disconnected biotech deals that lacks the depth and AI/tech focus required for Slot 3, and doesn't align with the reader's preference for analytical insights over brief updates."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "House bill aims to crack down on China biotech deals",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/binsa-china-biotech-deals-house-moolenaar-dingell/821841/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory/policy article that doesn't fit Slot 3 (Tech/AI) criteria and lacks the technology depth or AI focus required for that slot."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "Physical AI: What Business Leaders Need to Know Now",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiF_KTbStnVeeTuyzwYuC5aZQAVW7mU9Gr6Il8eJaX2cvkcd2DJkpJwgfns6A2XaOd0Czln3k=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a marketing email with high-level teaser content and image links, not a substantive article with analysis or insights."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "Rewiring software delivery for the agentic era",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e8dca8474c6b3d2f4bbe5cfc0/6452b25c97b748060000021ef3a0bcc2/6452b25c-97b7-4806-952b-a2d2ab711a44?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oO6y9wpCUNe9knf-_3c42UVR703e8gSJxydDiTMmEBjGLToII_xXnUIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content provided is just a repeat of the headline and summary, indicating the full article wasn't actually retrieved, making it impossible to verify substance or accuracy."
+  },
+  {
+    "date": "2026-06-04",
+    "headline": "Opting Out of the AI Boom",
+    "source": "Bloomberg Money Stuff",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-06-03/opting-out-of-the-ai-boom",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is truncated and appears to be primarily navigation/website boilerplate rather than the actual Matt Levine analysis described in the shortlist."
   }
 ]

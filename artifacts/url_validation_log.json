@@ -646,5 +646,17 @@
         "url": "https://www.fiercebiotech.com/biotech/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival"
       }
     ]
+  },
+  {
+    "date": "2026-06-04",
+    "checked_unique": 53,
+    "checked_slots": 55,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

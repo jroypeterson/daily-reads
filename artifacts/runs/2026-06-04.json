@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-06-04",
+  "generated_at": "2026-06-04T14:46:32Z",
+  "counts": {
+    "gmail_items": 123,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "0543da09975bf66f",
+      "headline": "ADC Therapeutics plummets on 27 deaths in confirmatory cancer trial",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWjQ7d7LHsRZW3zMGKV6j3m90W5g6HvJ5PVxsvN6WXHZ-5nR3bW7Y9pgv6lZ3mVW2kFhJN2JtDCfW3JKvrW8zTGt5VvmZ_D3wQMZGW4V6_5j6FyT-XN3cnMGTPGCzFW7jnXkS1pRlzbW60vKHW1zR_RzW4PW3Vn7yKkbZW8BnRwF3plNvNW8THlCk2lDPJ2W6-KTf99174S2W5dCfc87plQ2xW4GmyVg8PJ0-jW7sPh1n4yjdWMW6T6XcN4wTFg_W2zlk6w92sl1qW4FP1Bq1G8CXtW5zlKgX2LT6Q2W6cfDgK8W3cZMW7dFzc3120pMHW8xV-bX2Bc5hKVHLb362kjGzHV8lTMr8w-2rjW6l-pdY6jw9p-W87QvL3665q2HW7c2xwx7_jJPmW5vGscq4J0LxbW9d937f1zB9pNMBc8mGsktc7W209kqD2q1C3RW2_Wt_G46BJHDW6xQc744wy4WMW3PfHJb1TVLGxW4cJTjW8MPQgpV5Ccj93Jhc69W4N8HWR4wNG04W2dbzgM887S8vVDvltf1QZcCJW6XT9cV1-KbttW2yrhvx5WrDshW7B9Vzq8mGByQW6Cnfn84wtr1Qf635qGz04",
+      "slot": 1,
+      "summary": "ADC Therapeutics' stock plummeted after reporting 27 deaths in the LOTIS-5 confirmatory trial for its lymphoma drug Zynlonta plus rituximab. While the drug met progression-free survival endpoints, it showed no overall survival benefit and had concerning safety signals including a high rate of Grade 5 adverse events (deaths) in the second-line diffuse large B cell lymphoma indication.",
+      "why_it_matters": "This represents a major clinical and commercial setback for ADC Therapeutics, demonstrating how even drugs that meet primary endpoints can face regulatory and market challenges due to safety concerns, with direct implications for investors in the ADC therapeutics space.",
+      "signal_tags": [
+        "ticker_match:ADCT",
+        "catalyst_proximity",
+        "novelty",
+        "healthcare_biotech"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "article_id": "03858a24e9e3bfec",
+      "headline": "Letter #332: Alex Sacerdote and Leon Shaulov on Intelligence as Infrastructure",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+      "slot": 2,
+      "summary": "Whale Rock Capital's Alex Sacerdote and Maplelane Capital's Leon Shaulov discuss AI's economic transformation at the Sohn Conference, highlighting short-term inflationary pressures from infrastructure costs, robust software engineer hiring (18% increase as old economy adopts AI), and a clear distinction between struggling horizontal AI applications versus succeeding data-driven infrastructure software.",
+      "why_it_matters": "Offers actionable investment frameworks from billion-dollar fund managers on which AI segments will outperform, with specific insights on timing inflation/deflation cycles and identifying winning categories in the AI ecosystem.",
+      "signal_tags": [
+        "high_priority_source",
+        "venture_capital_insights",
+        "investment_relevant_insights",
+        "AI_impact"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
