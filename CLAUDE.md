@@ -50,6 +50,13 @@ The daily digest posts to a dedicated `#daily-reads` channel via `SLACK_WEBHOOK_
 - **Failure handling:** a 401/403 (bad token) posts a `#status-reports` alarm and marks the run `partial`; other per-item failures are counted and added as a partial reason. A single 429 retry honors `Retry-After`.
 - If `READWISE_TOKEN` is unset the push is skipped cleanly (no error) — so local `python main.py` without the token just no-ops this step.
 
+## Taste profile
+
+`taste_profile.md` is a **general-purpose** content preference model (no daily-reads/source references — reusable for podcasts/videos/articles too). It feeds `preference_learning.py` and the digest's scoring prior.
+
+- **Seeded 2026-06-04 from a full Readwise-library analysis** (~3,860 of 4,255 highlights via the readwise MCP), NOT from submitted article exemplars — so the file is richly populated even though `taste_evidence.json` has 0 `positive_exemplar` rows. Don't be confused by that mismatch; the provenance is in an HTML comment at the top of the file. Full narrative persona lives at `../READING_PERSONA.md`.
+- `process_taste.py` → `rebuild_profile()` only fires once **3+** GitHub-issue exemplars accumulate (`Taste: <headline>` issues). When it does, it passes the current file to Claude as the `CURRENT PROFILE` prior to preserve/refine — so the Readwise seed is the standing prior, not throwaway. Treat it that way; don't blank it.
+
 ## Outbound email digest — paused
 
 As of 2026-05-18 the HTML email digest (`deliver_gmail` in `main.py`) is paused in the scheduled GH Actions run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. The function is gated on that env var (default `"true"` so local `python main.py` still sends if the user wants to test). To resume: delete the env line in `daily.yml` or flip it to `"true"`. Slack/TickTick/Pages/health-heartbeat were never paused.
