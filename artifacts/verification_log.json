@@ -3346,5 +3346,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article content is truncated and appears to be primarily navigation/website boilerplate rather than the actual Matt Levine analysis described in the shortlist."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Industry calls for pause on Makary's voucher program",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/04/fda-commissioners-voucher-program-town-hall-pharma-patients-urge-pause/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after the first few paragraphs, providing insufficient substance for evaluation and violating the reader's preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "SpaceX blocked from early US benchmark index entry as S&P reaffirms existing rules",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/06/05/spacex-blocked-from-early-us-benchmark-index-entry-as-sp-reaffirms-existing-rules.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is about index inclusion rules and market structure, not healthcare/biotech content required for Slot 1."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is targeting Slot 1 (Healthcare/Biotech) but is actually a general corporate governance piece about AI risk management that doesn't fit the healthcare/biopharma criteria."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Alnylam, Inceptive ink AI deal potentially worth $2B",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/alnylam-inceptive-ai-drug-discovery-rna-deal-artificial-intelligence/822008/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong match for Slot 1 with substantial AI-biotech convergence content, $2B deal value, and broader industry context that aligns with reader's strong preferences for AI/biology intersection and investment-relevant insights."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Intelligence as Infrastructure: How AI is Rewiring the Economy",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong match for Slot 2 with substantive discussion from top fund managers on AI's economic impact, inflation dynamics, and investment implications, aligning perfectly with the reader's preferences for data infrastructure, VC insights, and investment-relevant analysis."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Anthropic's Call for A.I. Nonproliferation",
+    "source": "New York Times Business",
+    "url": "https://www.nytimes.com/2026/06/05/business/dealbook/anthropic-ai-nonproliferation.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to be paywalled with no substantive content available beyond the headline, making it impossible to verify depth or accuracy of the summary."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Rewiring software delivery for the agentic era",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e8dca8474c6b3d2f4bbe5cfc0/6452b25c97b748060000021ef3a0bcc2/6452b25c-97b7-4806-952b-a2d2ab711a44?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8opF3oF_VplrX6kv1gAZpiAZtHdiZd_yjwunRGtyLYkdKZnESiIaWXkIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot verify article substance or accuracy of summary since full article text was not provided - only the headline and original summary were repeated."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Physical AI: What Business Leaders Need to Know Now",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiF_KTbStnVeeTuyzwYuC5aZQAVW7mU9Gr6Il8eJaX2cvkcd2DJkpJwgfns6A2XaOd0Czln3k=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a BCG newsletter teaser with minimal actual content - only promotional text and links to the real articles, lacking the substantive analysis expected for selection."
   }
 ]

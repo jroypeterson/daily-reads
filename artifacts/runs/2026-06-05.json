@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-06-05",
+  "generated_at": "2026-06-05T14:35:51Z",
+  "counts": {
+    "gmail_items": 123,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "aa667a615ddc3170",
+      "headline": "Alnylam, Inceptive ink AI deal potentially worth $2B",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/alnylam-inceptive-ai-drug-discovery-rna-deal-artificial-intelligence/822008/",
+      "slot": 1,
+      "summary": "Alnylam Pharmaceuticals partnered with AI startup Inceptive in a deal worth up to $2 billion to use artificial intelligence for RNA drug discovery. The collaboration starts with $30 million upfront and aims to help Alnylam identify the most promising RNA interference molecules more efficiently. The deal exemplifies the broader pharmaceutical industry rush to embrace AI, joining recent partnerships by Bristol Myers Squibb with Anthropic, Merck with Google Cloud, and Novo Nordisk with OpenAI.",
+      "why_it_matters": "Represents a significant validation of AI-driven drug discovery with substantial financial backing, while illustrating the accelerating convergence of AI and biology that could reshape pharmaceutical R&D productivity and investment opportunities.",
+      "signal_tags": [
+        "ticker_match:ALNY",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "healthcare_slot1"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "03858a24e9e3bfec",
+      "headline": "Intelligence as Infrastructure: How AI is Rewiring the Economy",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+      "slot": 2,
+      "summary": "Transcript of conversation between Alex Sacerdote (Whale Rock Capital) and Leon Shaulov (Maplelane Capital) at Sohn Conference discussing AI's economic impact. They argue AI will be deflationary long-term but inflationary short-term due to infrastructure costs and hiring needs as companies implement AI systems, creating challenging dynamics for Fed policy.",
+      "why_it_matters": "Provides actionable investment framework from top-tier fund managers on AI infrastructure timing and economic transitions, directly addressing the reader's strong preferences for VC insights and data infrastructure themes with clear policy and market implications.",
+      "signal_tags": [
+        "priority_high",
+        "vc_insights",
+        "data_infrastructure",
+        "AI_impact",
+        "finance_slot2"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
