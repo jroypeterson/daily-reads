@@ -3418,5 +3418,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is just a BCG newsletter teaser with minimal actual content - only promotional text and links to the real articles, lacking the substantive analysis expected for selection."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "At a crossroads for an FDA drug review voucher program",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWVb5L3DWJ5yW3WzcTQ4ZJMH4W2lg-cV5PYdHdN4vJDLs3qgz0W7lCdLW6lZ3mmW71-YQC9cZycVW1YYZlg1RHcSPW6kYpXk8KxM5HW5yXwsX1vg9cMW2ShLMn2s6cgPW13v6nB1jnd1QW5j6mRV5HWBTwW49SwpH4pPj5pW7zC5L68RbDtTW7j5hWT7xw8YWW2rw6B77GMHkDW5-DM-B5zgQXmW7-W98T32nVCwVDQvk94hLz1yW3NDb274hLX7nW1LdR6l1ctHhRW5z75dY7qnZK5N3R696wwfRmBW2N0s2Y7Kj4ctN5yRGNqlzKzTV61Wf32jx9JDW7_8hW23D9TPLW4G29kL4-LVJzW2W6g3J31dVFKf6_zRGg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is just a STAT+ subscription paywall page with no actual article content about the FDA voucher program."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "Akeso's ivonescimab bests PD-1 inhibitor in lung cancer chemo combos, slashing death risk by 34%",
+    "source": "Fierce Pharma",
+    "url": "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a breakthrough Chinese biotech drug with clear investment implications and detailed clinical trial analysis."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3Bvd2VyLXNoaWZ0cy8iXX0sImV4cCI6MTc4MzI3MTAzMSwiaWF0IjoxNzgwNjc5MDMxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.eLasSk0Y46fPMX9bi8FdWzT_8rCvAa5LFcAvXsPhm6-HUVIRuwqalgvd9n2klStJ7gDDnniMGVrCUsglgJZQ7i4tbGRHw9rBFAnVEMm-qyjQfQhvteD06WUtbFXrKINHMAPBGQoDac8Tv0Sc7JSDpz3VFhOz9f_LwIzPJYOEBM_J0U81SG6fBAcNYv1PPkpxxDS2uyu44aGgDwlOrlzEprtjcF0d6DINzRfqu5fOFbRYt8RFt-w2kdhANEo51KRPEQtd5e6Gq7hQl_kd_-Fw3QgqY_DZ-GPxBp7J6NYxnAotq5uoeNQcoeocTyaTFGJWR_qSFgwemnaNIoieVuTEIA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter index/table of contents with brief teasers rather than substantive analysis, and it doesn't fit Slot 2's finance/macro focus despite covering tech topics."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The provided text is just McKinsey's website homepage/navigation content, not the actual article about AI governance and board oversight."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+    "source": "Ars Technica",
+    "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article appears to be fictional (references future dates like June 4 for an S&P decision and SpaceX IPO that hasn't happened) and doesn't meet quality standards for financial news."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "A Texas housing boom unravels",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/features/2026-dallas-h1b-housing-market",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive analysis of how immigration policy changes are creating a concrete housing market impact in Dallas, with strong macro implications for real estate sectors and regional economics."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "Intelligence as Infrastructure: How AI is Rewiring the Economy",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This provides substantive VC perspectives on AI's economic transformation with specific insights on inflation/deflation cycles and infrastructure implications that align with the reader's strong preferences for VC insights and data infrastructure."
   }
 ]
