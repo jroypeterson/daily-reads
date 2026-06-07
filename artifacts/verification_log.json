@@ -3481,5 +3481,68 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This provides substantive VC perspectives on AI's economic transformation with specific insights on inflation/deflation cycles and infrastructure implications that align with the reader's strong preferences for VC insights and data infrastructure."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "At a crossroads for an FDA drug review voucher program",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWVb5L3DWJ5yW3WzcTQ4ZJMH4W2lg-cV5PYdHdN4vJDLs3qgz0W7lCdLW6lZ3mmW71-YQC9cZycVW1YYZlg1RHcSPW6kYpXk8KxM5HW5yXwsX1vg9cMW2ShLMn2s6cgPW13v6nB1jnd1QW5j6mRV5HWBTwW49SwpH4pPj5pW7zC5L68RbDtTW7j5hWT7xw8YWW2rw6B77GMHkDW5-DM-B5zgQXmW7-W98T32nVCwVDQvk94hLz1yW3NDb274hLX7nW1LdR6l1ctHhRW5z75dY7qnZK5N3R696wwfRmBW2N0s2Y7Kj4ctN5yRGNqlzKzTV61Wf32jx9JDW7_8hW23D9TPLW4G29kL4-LVJzW2W6g3J31dVFKf6_zRGg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywall landing page with no actual article content about the FDA voucher program controversy."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is primarily about corporate strategy and capital allocation philosophy rather than healthcare/biotech news, and doesn't fit Slot 1 criteria despite mentioning an $80B capital raise."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "How will agentic AI reshape the workforce?",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e8406ae1da4ffcd6e9666b528/1d4719d52d554cd20000021ef3a0bcc2/1d4719d5-2d55-4cd2-830f-9329816e93d1",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is just a navigation page with links and promotional content, not the actual McKinsey analysis about agentic AI reshaping the workforce."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3Bvd2VyLXNoaWZ0cy8iXX0sImV4cCI6MTc4MzI3MTAzMSwiaWF0IjoxNzgwNjc5MDMxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.eLasSk0Y46fPMX9bi8FdWzT_8rCvAa5LFcAvXsPhm6-HUVIRuwqalgvd9n2klStJ7gDDnniMGVrCUsglgJZQ7i4tbGRHw9rBFAnVEMm-qyjQfQhvteD06WUtbFXrKINHMAPBGQoDac8Tv0Sc7JSDpz3VFhOz9f_LwIzPJYOEBM_J0U81SG6fBAcNYv1PPkpxxDS2uyu44aGgDwlOrlzEprtjcF0d6DINzRfqu5fOFbRYt8RFt-w2kdhANEo51KRPEQtd5e6Gq7hQl_kd_-Fw3QgqY_DZ-GPxBp7J6NYxnAotq5uoeNQcoeocTyaTFGJWR_qSFgwemnaNIoieVuTEIA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest that covers general tech platform strategy but doesn't contain substantial healthcare/biotech content required for Slot 1."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Biohub releases a world model of protein biology",
+    "source": "Hacker News",
+    "url": "https://biohub.org/news/world-model-of-protein-biology/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a breakthrough AI protein biology platform with clear investment and strategic implications for biotech/pharma."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, indicating the full article wasn't actually fetched, and McKinsey governance pieces tend to be generic frameworks rather than investment-actionable insights."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Letter #332: Alex Sacerdote and Leon Shaulov (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This provides substantive hedge fund manager perspectives on AI's economic timeline and investment implications, perfectly fitting Slot 2's finance/macro focus with strong alignment to reader preferences for AI impact and investment insights."
   }
 ]
