@@ -3544,5 +3544,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This provides substantive hedge fund manager perspectives on AI's economic timeline and investment implications, perfectly fitting Slot 2's finance/macro focus with strong alignment to reader preferences for AI impact and investment insights."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is primarily about corporate strategy and capital allocation philosophy rather than healthcare/biotech content, making it unsuitable for Slot 1 despite its substantial depth and analysis."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep-dive analysis of Veeva's earnings with significant focus on their AI-driven healthcare data infrastructure platform launch, perfectly matching the reader's strong preferences for data infrastructure and AI-biology intersection."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "J&J spends $1 billion to enter KRAS race for cancer treatments",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/08/johnson-and-johnson-firefly-cancer-kras-treatment/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just 3 paragraphs, providing insufficient substance for analysis and violating the reader's preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "New drug 'functionally cures' many hepatitis B virus infections",
+    "source": "Hacker News",
+    "url": "https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections?user_id=66c4bf745d78644b3aa57b08",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Hacker News discussion thread, not the original source reporting, and doesn't fit Slot 2 (Finance/Markets) criteria which requires macro/markets/finance focus from sources like WSJ, Bloomberg, or Morningbrew."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3Bvd2VyLXNoaWZ0cy8iXX0sImV4cCI6MTc4MzI3MTAzMSwiaWF0IjoxNzgwNjc5MDMxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.eLasSk0Y46fPMX9bi8FdWzT_8rCvAa5LFcAvXsPhm6-HUVIRuwqalgvd9n2klStJ7gDDnniMGVrCUsglgJZQ7i4tbGRHw9rBFAnVEMm-qyjQfQhvteD06WUtbFXrKINHMAPBGQoDac8Tv0Sc7JSDpz3VFhOz9f_LwIzPJYOEBM_J0U81SG6fBAcNYv1PPkpxxDS2uyu44aGgDwlOrlzEprtjcF0d6DINzRfqu5fOFbRYt8RFt-w2kdhANEo51KRPEQtd5e6Gq7hQl_kd_-Fw3QgqY_DZ-GPxBp7J6NYxnAotq5uoeNQcoeocTyaTFGJWR_qSFgwemnaNIoieVuTEIA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief teases rather than substantive analysis, and doesn't fit Slot 2's finance/markets focus despite containing some relevant topics."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is just a McKinsey homepage with navigation links and promotional content, not the actual article about board AI risk management."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "How much of Thermo Fisher's antibody data has been manipulated?",
+    "source": "Hacker News",
+    "url": "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive investigative piece documenting data integrity issues at a major life sciences infrastructure company, with significant implications for biotech research reliability and market trust."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Letter #332: Alex Sacerdote and Leon Shaulov (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive conversation between two prominent fund managers providing institutional investor perspective on AI's economic transformation, matching the Tech/AI slot and reader's preference for VC insights and data infrastructure themes."
   }
 ]

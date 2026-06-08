@@ -1,0 +1,64 @@
+{
+  "run_date": "2026-06-08",
+  "generated_at": "2026-06-08T15:38:32Z",
+  "counts": {
+    "gmail_items": 121,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1c612a56228110ac",
+      "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+      "source": "MBI",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 1,
+      "summary": "Deep analysis of Veeva Systems' Q1 2026 earnings showing 16.3% revenue growth to $883M and record 30%+ operating margins. Key focus on Veeva's upcoming Falcon agentic AI platform launch for November 2026, which represents a strategic shift from traditional SaaS to AI agents performing automated clinical, regulatory, and safety tasks in life sciences. The analysis also covers competitive dynamics with Salesforce in the CRM space.",
+      "why_it_matters": "Veeva's Falcon platform represents a significant evolution in healthcare data infrastructure with AI automation, directly targeting the intersection of AI and biology that aligns with investment themes around data infrastructure transformation in healthcare.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:VEEV",
+        "data_infrastructure",
+        "AI_biology_intersection",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "8a3a7ea4ab2e5019",
+      "headline": "How much of Thermo Fisher's antibody data has been manipulated?",
+      "source": "Hacker News",
+      "url": "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/",
+      "slot": 2,
+      "summary": "Researchers have identified over 450 manipulated images in Thermo Fisher Scientific's antibody verification data, including duplicated Western blot bands, Photoshop brushstrokes, and the same background pattern used across dozens of different antibody products. The investigation reveals systemic data integrity problems in verification materials for antibodies that typically cost $400-500 per vial and are critical reagents for biomedical research.",
+      "why_it_matters": "Thermo Fisher is the world's largest laboratory reagent supplier serving the entire biotech ecosystem - widespread data manipulation in their antibody verification could undermine research reproducibility and shake confidence in a key infrastructure provider to the life sciences industry.",
+      "signal_tags": [
+        "ticker_match:TMO",
+        "data_integrity",
+        "biotech_infrastructure",
+        "risk_factor"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "03858a24e9e3bfec",
+      "headline": "Letter #332: Alex Sacerdote and Leon Shaulov (2026)",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+      "slot": 3,
+      "summary": "Interview with Alex Sacerdote (Whale Rock Capital) and Leon Shaulov (Maplelane Capital) at the Sohn Conference discussing AI's economic impact. They argue AI will be deflationary long-term but inflationary short-term due to infrastructure costs and increased hiring as companies implement AI systems. The conversation covers AI's adoption timeline, labor market effects, and investment implications.",
+      "why_it_matters": "Provides institutional investor framework for understanding AI's economic transformation from top-tier fund managers, with specific insights on timing, inflation dynamics, and sector-by-sector disruption that can inform investment strategy.",
+      "signal_tags": [
+        "priority:high",
+        "venture_insights",
+        "AI_infrastructure",
+        "institutional_perspective"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
