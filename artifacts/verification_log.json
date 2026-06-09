@@ -3616,5 +3616,59 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a substantive conversation between two prominent fund managers providing institutional investor perspective on AI's economic transformation, matching the Tech/AI slot and reader's preference for VC insights and data infrastructure themes."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "GSK to acquire Nuvalent for $10.6 billion in targeted cancer therapy push",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after a brief mention, providing insufficient substance for meaningful analysis or actionable insights."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Lilly's obesity drug dominance at ADA 2026 sets new standard",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/ada-2026-lilly-retatrutide-pfizer-berobenatide-roche-enicepatide/822208/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with detailed clinical data analysis, competitive positioning insights, and clear investment implications for the obesity drug market."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Alphabet reveals $10B Berkshire investment in major AI infrastructure expansion",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The shortlist summary is completely inaccurate - there is no $10B Berkshire investment announcement, this is an analytical memo comparing Alphabet's business model to Berkshire Hathaway's approach."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Veeva Systems Q1'26 earnings show strong present but patient future outlook",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial analytical depth on Veeva's earnings with specific strategic insights about their AI pivot and competitive dynamics, matching the reader's strong preference for data infrastructure and investment-relevant analysis."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Apple reveals new AI architecture built around Google Gemini models",
+    "source": "MacRumors",
+    "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article has substantial depth on a major AI partnership announcement with clear strategic implications for the AI competitive landscape, fitting well within Slot 3's tech/AI focus."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "JPMorgan Chase plans to deploy more powerful AI agents this year",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on enterprise AI adoption with specific technical details, concrete metrics (20% sales increase), and strategic insights that align well with the reader's strong preference for data infrastructure and investment-relevant insights."
   }
 ]

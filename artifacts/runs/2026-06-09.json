@@ -1,0 +1,78 @@
+{
+  "run_date": "2026-06-09",
+  "generated_at": "2026-06-09T14:34:12Z",
+  "counts": {
+    "gmail_items": 118,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c30ccaa3d24baf40",
+      "headline": "Lilly's obesity drug dominance at ADA 2026 sets new standard",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/ada-2026-lilly-retatrutide-pfizer-berobenatide-roche-enicepatide/822208/",
+      "slot": 1,
+      "summary": "At ADA 2026, Eli Lilly's retatrutide showed remarkable 28% weight loss (70 pounds) in 80 weeks, matching bariatric surgery efficacy but with higher GI side effects. Pfizer's berobenatide demonstrated competitive efficacy around 16% weight loss but faces tolerability concerns with up to 21% discontinuation rates. Roche's enicepatide achieved 18-22% weight loss but analysts view it as an undifferentiated 'me-too' late-comer.",
+      "why_it_matters": "The obesity drug market represents a multi-billion dollar opportunity, and this comprehensive analysis of clinical data from three major pharma companies provides critical competitive intelligence for investment positioning in this rapidly evolving therapeutic space.",
+      "signal_tags": [
+        "ticker_match:LLY",
+        "ticker_match:PFE",
+        "ticker_match:ROG",
+        "catalyst_proximity:conference"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "d4117143bb3fc67f",
+      "headline": "Veeva Systems Q1'26 earnings show strong present but patient future outlook",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 2,
+      "summary": "Veeva Systems delivered strong Q1'26 results beating revenue guidance and achieving record operating margins, but management took a cautious tone about future growth. The company announced Falcon, their new 'agentic labor' AI platform for clinical and regulatory automation, launching for early adopters in November with usage-based pricing rather than traditional seat licenses.",
+      "why_it_matters": "Veeva is a critical data infrastructure player in life sciences, and their AI strategy shift toward automated workflows could reshape how biotech companies operate while providing insights into both healthcare technology spending and the practical deployment of AI agents in regulated industries.",
+      "signal_tags": [
+        "ticker_match:VEEV",
+        "high_priority_source",
+        "earnings_catalyst",
+        "data_infrastructure"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "86fb22f9da0f3973",
+      "headline": "Apple reveals new AI architecture built around Google Gemini models",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "slot": 3,
+      "summary": "Apple announced a major overhaul of its Apple Intelligence platform at WWDC 2026, revealing new foundation models co-developed with Google using Gemini technologies. The new architecture includes on-device and server-based processing, multimodal capabilities including image generation, and a system orchestrator for truly system-wide intelligence across Apple's platforms.",
+      "why_it_matters": "This Google-Apple AI collaboration represents a significant shift in competitive dynamics between tech giants and could reshape how AI is integrated into consumer devices, with potential ripple effects across the enterprise AI market.",
+      "signal_tags": [
+        "ticker_match:AAPL",
+        "ticker_match:GOOG",
+        "AI_impact",
+        "tech_innovation"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "c6cd4716b3210a21",
+      "headline": "JPMorgan Chase plans to deploy more powerful AI agents this year",
+      "source": "CNBC Finance",
+      "url": "https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html",
+      "slot": 4,
+      "summary": "JPMorgan Chase plans to deploy 'long-running autonomous agents' in 2026 that can operate independently for hours rather than minutes, representing a significant advancement in enterprise AI adoption. The bank reports 20% sales increases from current AI tools and believes future agents could expand individual banker client coverage by 50%. Chief Analytics Officer Derek Waldron notes that improved AI reasoning capabilities are shifting the technology from individual task completion to complex workflow management.",
+      "why_it_matters": "As the largest US bank with a $20B tech budget signals readiness to deploy advanced AI agents, this demonstrates enterprise AI is overcoming governance hurdles and moving toward substantial productivity gains, with implications for competitive dynamics across financial services and enterprise software vendors.",
+      "signal_tags": [
+        "ticker_match:JPM",
+        "AI_impact",
+        "enterprise_adoption"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
