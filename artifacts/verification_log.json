@@ -3670,5 +3670,68 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "This article provides substantial depth on enterprise AI adoption with specific technical details, concrete metrics (20% sales increase), and strategic insights that align well with the reader's strong preference for data infrastructure and investment-relevant insights."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Substantial M&A coverage with detailed competitive analysis, FDA timelines, and strategic rationale that perfectly fits Slot 1 criteria."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Lilly making M&A history with $25B+ spree",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWdxsv5KyfhgW5G3C-r2hJt8KW61z83B5Q5KQmN76MZ-P5nR3bW7lCGcx6lZ3nNW6S2PNv5R1tGdW4vJxMB2Xpvp4W6tw83P1Q9x6VW8BwF348dqtnxW8TYy1D1WQSZ5W4JLT-c3Z9nFxW7pyVnP7KTh9jW7Xn3DG7B3DCcW7YhXLZ88zLCKW99g0P62Gyhm9MCkpm-7XdgHW4pfJlH93YRQ6N52610qbCw1RM30TpZMCKCGW252G1C48_WVrW8BnVmz3QLfY6W4r-LyB1f3GFkW3Y6w_x2_mZf5W37W_t36mBdjKW6hh4lD4QCFGJN67R5m04KLl4W5XRzN06vLgc8W5Mj_dd3D6hycW7dwbjd26lT2vW11bHmn4MSC0BVft8R27BZzcSW6DzHzY5-VQjrW2v-X_423SZJbW8Q-wWQ7-6ytPW3H2s0x1t-fMWW5yPBmG1_hQ69N8jv9pg-TMdXW7VpNrw3NCx7RW3ZpbVk3C__kSW5-4rQh2GnLbTW4xL_zH4m_yRNW5VDK-L8y-GklVXQVtM1q0LvDW4HKnH77Mn7DLN6xKRttFRsqqf6pk16W04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article lacks substantive content beyond the headline claim, providing no actual data, deal details, or analysis to support the $25B+ M&A figure."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deep, analytical piece on Veeva Systems' Q1 2026 results with substantial content covering financial performance, AI product strategy (Falcon), and competitive dynamics - perfectly fitting Slot 2 finance/macro criteria and the reader's strong preference for data infrastructure and analytical depth."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "When AI becomes part of the workflow: Redesigning how software gets built",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019eae103c58add9faf4bbe5be68/b81a249c45024f820000021ef3a0bcc2/b81a249c-4502-4f82-9155-3cfbac78a902",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content was not provided (likely paywalled), making it impossible to verify the substance and accuracy of the summary claims about McKinsey case studies and implementation insights."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "FDA Expands Sunscreen Options for the First Time in 20 Years",
+    "source": "FDA",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory announcement about sunscreen ingredients that doesn't fit Slot 3 (Tech/AI) and lacks the technological depth or innovation angle needed for the target audience."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the introduction, preventing access to the substantial analysis promised, and the available content doesn't provide enough depth for Tech/AI slot selection."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief descriptions rather than substantive analysis, lacking the depth and actionable insights expected for the digest."
   }
 ]
