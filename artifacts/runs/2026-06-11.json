@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-06-11",
+  "generated_at": "2026-06-11T15:43:16Z",
+  "counts": {
+    "gmail_items": 130,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "178f8c7f176b112d",
+      "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+      "source": "MBI (finance_macro)",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 1,
+      "summary": "Deep analysis of Veeva's strong Q1 FY2026 performance ($883M revenue, 16% growth, 30%+ operating margins) with focus on their upcoming AI agent platform 'Falcon' launching for early adopters in November 2026. The analysis examines Veeva's shift from pure SaaS applications to agentic AI labor for clinical/regulatory work, plus competitive dynamics with Salesforce in life sciences CRM.",
+      "why_it_matters": "Provides investment-grade analysis of a major healthcare IT infrastructure company's transition to AI-powered automation in life sciences, combining the reader's preferences for data infrastructure insights and AI-biology intersection with actionable financial analysis.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:VEEV",
+        "analytical_depth",
+        "data_infrastructure",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "5ec30c1c76dcfc44",
+      "headline": "Parabilis' record-setting $670M IPO breaks new record for biotechs",
+      "source": "Fierce Biotech (healthcare_daily)",
+      "url": "https://www.fiercebiotech.com/biotech/cancer-focused-parabilis-upsized-670m-ipo-breaks-new-record-biotechs",
+      "slot": 2,
+      "summary": "Cancer biotech Parabilis raised a record $670 million in the largest venture-backed biotech IPO ever, pricing 33.5 million shares at $20 each and potentially raising another $100 million through underwriter options. The company plans to use proceeds to advance its lead drug zolucatetide through phase 3 trials for desmoid tumors and continue phase 1 studies across multiple indications, while developing additional pipeline assets.",
+      "why_it_matters": "This record-setting IPO signals strong capital market recovery for biotech and demonstrates renewed institutional appetite for life sciences investments, providing a key benchmark for healthcare portfolio strategy and sector timing.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "novelty",
+        "investment-relevant_insights",
+        "venture_capital_insights"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

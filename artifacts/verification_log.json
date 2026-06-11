@@ -3733,5 +3733,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is just a newsletter table of contents with brief descriptions rather than substantive analysis, lacking the depth and actionable insights expected for the digest."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI (finance_macro)",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a high-quality, detailed analysis of Veeva's Q1 FY2026 results with substantial depth on their new AI agent platform Falcon and competitive positioning, fitting perfectly into Slot 1 healthcare/biotech coverage."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Parabilis' record-setting $670M IPO breaks new record for biotechs",
+    "source": "Fierce Biotech (healthcare_daily)",
+    "url": "https://www.fiercebiotech.com/biotech/cancer-focused-parabilis-upsized-670m-ipo-breaks-new-record-biotechs",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a record-breaking biotech IPO with specific financial details, strategic context, and broader market implications that perfectly fit Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "FDA Issues Emergency Use Authorization for Generic Over-the-Counter Drug to Treat New World Screwworm in Dogs and Cats",
+    "source": "FDA Press Releases (healthcare_daily)",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-emergency-use-authorization-generic-over-counter-drug-treat-new-world-screwworm-dogs-and",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a veterinary regulatory announcement that doesn't fit Slot 3 (Tech/AI) and lacks the technology or AI focus required for that slot."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Most Transformations Fall Short. Here's What Leaders Miss",
+    "source": "BCG (consulting)",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiVcEQELP8B-Q0OZC2lZjlR5cEFENUTaZast0hs8CQGEAxaJ-_jzelRHiq7PDhBpzed17FZM4uEuJjUI0=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a newsletter promotional email with minimal content depth - it only contains headlines, images, and brief teasers without substantive analysis or insights."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "How Wild the Market's Bet on AI Really Is",
+    "source": "WSJ Newsletters (finance_macro)",
+    "url": "https://www.wsj.com/finance/stocks/how-wild-the-markets-bet-on-ai-really-is-8be0e29a?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repetition of the summary rather than the actual full article text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day (finance_macro)",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled with only an introduction visible, making it impossible to evaluate the full substance and depth of the analysis."
   }
 ]
