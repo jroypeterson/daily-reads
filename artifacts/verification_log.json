@@ -3787,5 +3787,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is paywalled with only an introduction visible, making it impossible to evaluate the full substance and depth of the analysis."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Novartis' $12B Avidity buy yields muscular dystrophy win",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWfMz-3wkvT1W7j1hST933LlmW8GDvjX5QbH8kN4sL4dz5nR3bW7Y9pgv6lZ3pxW2WJz436Pl7KxW1-hr2M4k70c6W8kFrPW793nrYW5YWzf232MP4WW555X7V2w01fMW3sWJjX3z8TRKV3WlN-2WQC-TW4cqmYK5sNdCWW3LxS9q1_KM_gW15Pv4F829g4dVj9j6Z2RDdD1W2-DVwv1T1X9GW8_VYcH3TlllJW3lzZG67H9z-_W3YQDyx50V4HjW83k3lD2Qn2GgW9d47Ds7w_nv3W6D-tJQ3YTZvhW8l2JLQ51JZtRN6jNtSyZVytBW92wsdN5fx3QWW4M5GyF8DH_JkV5BG632YQkGBW1wD_MH7xW3HLN66-Y2dJM0mdW1Wfn1c3lTM8_W9lMtKg1Q6qwfV7Y7gp9blwZfW30386p6YbLSmW73kB5c220s4pW7bLy9D4pwHYZVrx5kv86zYq0N548DdwhL415W4qQjfg3tSQ_XW4_dcMZ4MfXSpW1Bzst06PWmmfVVYS8R816WS9W5ZBp0-37qMQxW53cCZN38VHQXW7Zyxnx3jqWWgW1q5glF1l5tZtW51-qGr7jkstvf8XytRR04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter format with minimal actual content about the Novartis-Avidity deal - it only contains a brief intro paragraph and focuses heavily on ads and other stories."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial M&A story with strong strategic analysis, clear competitive positioning, and detailed financial context that perfectly fits Slot 1 healthcare criteria."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Claude Fable 5: Anthropic's Most Powerful Model Goes Public",
+    "source": "Enterprise DNA",
+    "url": "https://enterprisedna.co/resources/news/anthropic-claude-fable-5-mythos-5-public-launch-2026/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article doesn't fit Slot 2 (Finance/Markets) as it's primarily about AI product releases with minimal financial/market analysis, and appears to be from a less credible source not matching the preferred finance domains."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a high-quality deep dive analysis of Veeva's earnings with substantial operational insights, competitive dynamics discussion, and forward-looking strategic assessment that perfectly fits Slot 2's finance/markets criteria."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Banking and AI: When the tech starts doing the work, not just assisting it",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019eb7fa13d88925a9369fb45280/c50334f469c746c50000021ef3a0bcc2/c50334f4-69c7-46c5-8487-a1666b02c3e8",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repetition of the headline and summary rather than the actual full article text, making it impossible to verify substantive content."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "OIG: Frequent MA prior authorization denials for long-term care hospitals, inpatient rehab",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/oig-look-ma-prior-authorization-denials-long-term-care-hospitals-inpatient-rehab",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article focuses on Medicare Advantage prior authorization practices and regulatory oversight, which doesn't align with Slot 3's tech/AI focus and lacks any technology or AI elements."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "How Wild the Market's Bet on AI Really Is",
+    "source": "WSJ Markets A.M.",
+    "url": "https://www.wsj.com/finance/stocks/how-wild-the-markets-bet-on-ai-really-is-8be0e29a?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the shortlist summary, indicating no full article was available for evaluation, making it impossible to assess depth and substance for a paywalled WSJ piece."
   }
 ]
