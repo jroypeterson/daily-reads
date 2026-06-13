@@ -938,7 +938,15 @@ def _extract_json_array(content_blocks) -> list:
                     if depth == 0:
                         try:
                             parsed = json.loads(t[s:e + 1])
-                            if isinstance(parsed, list):
+                            # Require the article-object shape: a non-empty list
+                            # of dicts. Without the all-dicts check the reverse
+                            # scan can return a *nested* string array (e.g. a
+                            # "signal_tags": ["ai","biotech"] span, hit first
+                            # because it's the last "[") as if it were the
+                            # shortlist — then `a.get()` downstream blows up with
+                            # AttributeError: 'str' object has no attribute 'get'.
+                            if (isinstance(parsed, list) and parsed
+                                    and all(isinstance(x, dict) for x in parsed)):
                                 return parsed
                         except json.JSONDecodeError:
                             pass
@@ -1044,6 +1052,10 @@ Select your top 8 articles ranked by quality. Return JSON only."""
               "the JSON shortlist is likely cut off; raise max_tokens if this recurs.")
 
     shortlist = _extract_json_array(response.content)
+    # Defensive: never let a stray non-dict element reach `.get()` below or in
+    # verify_shortlist — a malformed shortlist once crashed the whole run with
+    # `AttributeError: 'str' object has no attribute 'get'`.
+    shortlist = [a for a in shortlist if isinstance(a, dict)]
 
     if not shortlist:
         reason = "response truncated at max_tokens" if truncated else "no parseable JSON array"

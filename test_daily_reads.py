@@ -845,6 +845,27 @@ class ExtractJsonArrayTests(unittest.TestCase):
         # A bare object (not the expected list) shouldn't be returned as picks.
         self.assertEqual(main._extract_json_array(self._blocks('{"rank": 1}')), [])
 
+    def test_ignores_nested_string_array_returns_outer_dicts(self):
+        # The article objects carry nested arrays (e.g. signal_tags). The reverse
+        # scan hits the *inner* ["ai","biotech"] span first; it must be rejected
+        # (not dicts) and the outer article array returned instead — otherwise a
+        # bare string list reaches `.get()` and crashes the run.
+        blocks = self._blocks(
+            '[{"rank": 1, "headline": "A", "signal_tags": ["ai", "biotech"]}]'
+        )
+        self.assertEqual(
+            main._extract_json_array(blocks),
+            [{"rank": 1, "headline": "A", "signal_tags": ["ai", "biotech"]}],
+        )
+
+    def test_ignores_top_level_string_array(self):
+        # If the model returns headlines as bare strings, degrade to [] (caller
+        # reports "no parseable") rather than handing strings downstream.
+        self.assertEqual(
+            main._extract_json_array(self._blocks('["Headline one", "Headline two"]')),
+            [],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
