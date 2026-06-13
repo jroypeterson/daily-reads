@@ -1,0 +1,272 @@
+{
+  "period_start": "2026-05-30",
+  "period_end": "2026-06-05",
+  "generated_at": "2026-06-05T14:35:56.350187+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 18,
+    "missing_sources": [],
+    "missing_always_read": [],
+    "total_gmail_items": 816,
+    "total_tier2_items": 623,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 17
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 8
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 6
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 25
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 15
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 8
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 62
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 15
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 25
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 16,
+    "articles_per_day": [
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2
+    ],
+    "avg_articles_per_day": 2.3,
+    "verified_pass": 19,
+    "verified_fail": 41,
+    "fail_reasons": [
+      "The article content is completely truncated and contains only Bloomberg's website navigation menu rather than the actual article text about SpaceX's IPO valuation.",
+      "The article is paywalled after just three paragraphs, providing insufficient content for meaningful analysis and violating the reader's stated preference to avoid paywalled content.",
+      "This is a thin FDA press release that lacks the financial/markets analysis required for Slot 2 and doesn't provide investment-relevant insights beyond generic regulatory news.",
+      "The article content provided is identical to the shortlist summary, indicating the full article wasn't actually fetched and we only have the summary to evaluate, which doesn't provide enough substance to verify depth or accuracy.",
+      "This is a newsletter table of contents/summary format that lacks the substantive analysis expected for Slot 2 finance/macro content, and doesn't contain meaningful market or financial insights.",
+      "The article content was not successfully fetched, providing only the headline and summary without the substantive McKinsey research findings needed to evaluate depth and investment relevance.",
+      "This is just a BCG newsletter email with article headlines and links, not actual substantive content about physical AI that would provide the strategic insights promised in the shortlist summary.",
+      "The article is paywalled after just three paragraphs, making it impossible to evaluate its full depth and substance.",
+      "The article appears to be just a headline and metadata without any actual substantive content about SpaceX's IPO filing or analysis.",
+      "The full article content appears to be missing or identical to the summary, making it impossible to verify substance and depth beyond the generic headline and brief description."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 31,
+      "jina": 13,
+      "tavily": 2,
+      "snippet_fallback": 14
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "A Letter a Day": 6,
+      "Scuttleblurb": 7,
+      "Value Investors Insight": 6,
+      "The Transcript": 7,
+      "Biotech Primer": 4,
+      "MBI": 1
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 8,
+    "checked_slots": 445,
+    "total_broken": 2,
+    "surfaces": {
+      "article_warnings": 2,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "top_warned_sources": [
+      [
+        "FDA Press Releases",
+        1
+      ],
+      [
+        "Fierce Biotech",
+        1
+      ]
+    ]
+  }
+}

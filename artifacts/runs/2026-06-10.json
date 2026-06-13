@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-06-10",
+  "generated_at": "2026-06-10T15:03:18Z",
+  "counts": {
+    "gmail_items": 122,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a7ff12d547838648",
+      "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+      "slot": 1,
+      "summary": "GSK announced a $10.6 billion acquisition of Nuvalent, paying a 40% premium to secure two late-stage lung cancer drugs with FDA decisions expected in September (zidesamtinib) and November (neladalkib). The deal represents GSK's largest acquisition in over a decade and aims to provide revenue growth starting in 2027 to offset upcoming generic competition to its HIV franchise.",
+      "why_it_matters": "Major biotech M&A with clear near-term catalysts and competitive implications for the precision oncology landscape, offering actionable insights on sector consolidation dynamics and upcoming FDA decisions.",
+      "signal_tags": [
+        "ticker_match:GSK",
+        "ticker_match:NUVL",
+        "catalyst_proximity",
+        "high_signal_value"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "d4117143bb3fc67f",
+      "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 2,
+      "summary": "Veeva Systems delivered strong Q1 2026 results with $883M revenue (beating guidance) and 30%+ operating margins, while announcing Falcon, their new 'agentic labor' AI platform for clinical, regulatory, and safety work launching to early adopters in November. The analysis reveals mixed signals including competitive pressure from Salesforce in CRM and management's cautious tone about growth expectations despite strong current performance.",
+      "why_it_matters": "Provides investment-relevant insights into a leading healthcare data infrastructure company at a pivotal moment as it transitions from pure SaaS to AI-enabled services, with detailed financial analysis and competitive positioning that directly aligns with portfolio decision-making.",
+      "signal_tags": [
+        "ticker_match:VEEV",
+        "data_infrastructure",
+        "analytical_depth",
+        "investment_relevance"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

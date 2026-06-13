@@ -1,0 +1,63 @@
+{
+  "run_date": "2026-06-06",
+  "generated_at": "2026-06-06T13:18:56Z",
+  "counts": {
+    "gmail_items": 111,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "07c33edd0a9ac860",
+      "headline": "Akeso's ivonescimab bests PD-1 inhibitor in lung cancer chemo combos, slashing death risk by 34%",
+      "source": "Fierce Pharma",
+      "url": "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+      "slot": 1,
+      "summary": "Akeso's ivonescimab, a first-in-class PD-1/VEGF bispecific antibody, demonstrated a statistically significant 34% reduction in death risk versus standard PD-1 inhibitor therapy in advanced squamous lung cancer. The drug became the first China-developed asset to achieve plenary session status at ASCO, though experts noted concerns about patient selection, toxicity, and global applicability despite the positive overall survival results.",
+      "why_it_matters": "Represents a potential paradigm shift where China-developed oncology drugs are challenging Western standards of care, with significant implications for global biotech investment flows and competitive dynamics in the oncology market.",
+      "signal_tags": [
+        "healthcare_slot",
+        "ticker_match:9926",
+        "ASCO_catalyst",
+        "China_biotech_rise"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "61db8124947901d6",
+      "headline": "A Texas housing boom unravels",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/features/2026-dallas-h1b-housing-market",
+      "slot": 2,
+      "summary": "Bloomberg examines how tightened H-1B visa restrictions and tech layoffs are causing Indian buyers to vanish from Dallas's housing market, where they previously represented 70% of some builders' sales. Home prices in key suburban counties have dropped 9% year-over-year, illustrating how immigration policy directly impacts regional real estate markets. The piece connects this local phenomenon to broader trends affecting immigrant-heavy markets across the US.",
+      "why_it_matters": "This demonstrates how immigration policy serves as a leading indicator for regional housing markets and provides insights into potential impacts on homebuilders, REITs, and regional banks with exposure to high-growth suburban markets.",
+      "signal_tags": [
+        "finance_slot",
+        "ticker_match:TPL",
+        "regional_economics",
+        "housing_market"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "03858a24e9e3bfec",
+      "headline": "Intelligence as Infrastructure: How AI is Rewiring the Economy",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+      "slot": 3,
+      "summary": "Prominent VCs Alex Sacerdote (Whale Rock) and Leon Shaulov (Maplelane Capital) discuss AI's economic impact at the Sohn Conference, arguing AI will initially cause inflation through infrastructure costs and hiring demand before becoming highly deflationary long-term. They examine the paradox of increased software engineer hiring despite AI capabilities and the challenges this creates for Federal Reserve policy.",
+      "why_it_matters": "Top-tier VCs provide forward-looking investment framework on AI infrastructure economics, addressing timing of deflationary impacts and labor market disruption that will drive major capital allocation decisions.",
+      "signal_tags": [
+        "tech_slot",
+        "priority_high",
+        "VC_insights",
+        "AI_infrastructure"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

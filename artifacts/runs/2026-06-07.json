@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-06-07",
+  "generated_at": "2026-06-07T13:33:09Z",
+  "counts": {
+    "gmail_items": 112,
+    "tier2_items": 88,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "cd0c39125428c4d9",
+      "headline": "Biohub releases a world model of protein biology",
+      "source": "Hacker News",
+      "url": "https://biohub.org/news/world-model-of-protein-biology/",
+      "slot": 1,
+      "summary": "Biohub released ESMC, ESMFold2, and ESM Atlas - a comprehensive AI platform for protein structure prediction and design trained on 2.8 billion protein sequences. The system successfully designed functional protein binders against cancer and immunology targets in days rather than years, with 36-88% hit rates in lab validation. All tools are being made freely available to researchers globally.",
+      "why_it_matters": "This represents foundational AI infrastructure that could dramatically accelerate drug discovery timelines and reduce costs across the biotech industry, while the open-source approach may shift competitive dynamics in computational biology.",
+      "signal_tags": [
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "hn_score:102"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "03858a24e9e3bfec",
+      "headline": "Letter #332: Alex Sacerdote and Leon Shaulov (2026)",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+      "slot": 2,
+      "summary": "Interview transcript with Alex Sacerdote (Whale Rock Capital) and Leon Shaulov (Maplelane Capital) discussing AI's economic impact timeline. They argue AI will initially be inflationary due to infrastructure costs and increased hiring for AI implementation, but become highly deflationary long-term as productivity gains materialize across sectors like healthcare.",
+      "why_it_matters": "Provides actionable investment framework from successful hedge fund managers on AI's economic phases - near-term inflation from infrastructure build-out followed by deflationary productivity gains - with specific insights on labor market dynamics and Fed policy implications.",
+      "signal_tags": [
+        "priority:high",
+        "venture_capital_insights",
+        "AI_impact",
+        "data_infrastructure"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

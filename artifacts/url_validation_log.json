@@ -658,5 +658,107 @@
       "substack_dropped": 0
     },
     "warned_articles": []
+  },
+  {
+    "date": "2026-06-05",
+    "checked_unique": 56,
+    "checked_slots": 58,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-06-06",
+    "checked_unique": 58,
+    "checked_slots": 58,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-06-07",
+    "checked_unique": 40,
+    "checked_slots": 41,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-06-08",
+    "checked_unique": 54,
+    "checked_slots": 55,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "Hacker News",
+        "headline": "How much of Thermo Fisher's antibody data has been manipulated?",
+        "url": "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "checked_unique": 56,
+    "checked_slots": 58,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-06-10",
+    "checked_unique": 60,
+    "checked_slots": 62,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-06-11",
+    "checked_unique": 72,
+    "checked_slots": 73,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-06-12",
+    "checked_unique": 63,
+    "checked_slots": 63,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

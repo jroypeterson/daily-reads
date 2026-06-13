@@ -3346,5 +3346,509 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article content is truncated and appears to be primarily navigation/website boilerplate rather than the actual Matt Levine analysis described in the shortlist."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Industry calls for pause on Makary's voucher program",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/04/fda-commissioners-voucher-program-town-hall-pharma-patients-urge-pause/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after the first few paragraphs, providing insufficient substance for evaluation and violating the reader's preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "SpaceX blocked from early US benchmark index entry as S&P reaffirms existing rules",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/06/05/spacex-blocked-from-early-us-benchmark-index-entry-as-sp-reaffirms-existing-rules.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is about index inclusion rules and market structure, not healthcare/biotech content required for Slot 1."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is targeting Slot 1 (Healthcare/Biotech) but is actually a general corporate governance piece about AI risk management that doesn't fit the healthcare/biopharma criteria."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Alnylam, Inceptive ink AI deal potentially worth $2B",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/alnylam-inceptive-ai-drug-discovery-rna-deal-artificial-intelligence/822008/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong match for Slot 1 with substantial AI-biotech convergence content, $2B deal value, and broader industry context that aligns with reader's strong preferences for AI/biology intersection and investment-relevant insights."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Intelligence as Infrastructure: How AI is Rewiring the Economy",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Strong match for Slot 2 with substantive discussion from top fund managers on AI's economic impact, inflation dynamics, and investment implications, aligning perfectly with the reader's preferences for data infrastructure, VC insights, and investment-relevant analysis."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Anthropic's Call for A.I. Nonproliferation",
+    "source": "New York Times Business",
+    "url": "https://www.nytimes.com/2026/06/05/business/dealbook/anthropic-ai-nonproliferation.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article appears to be paywalled with no substantive content available beyond the headline, making it impossible to verify depth or accuracy of the summary."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Rewiring software delivery for the agentic era",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e8dca8474c6b3d2f4bbe5cfc0/6452b25c97b748060000021ef3a0bcc2/6452b25c-97b7-4806-952b-a2d2ab711a44?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8opF3oF_VplrX6kv1gAZpiAZtHdiZd_yjwunRGtyLYkdKZnESiIaWXkIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Cannot verify article substance or accuracy of summary since full article text was not provided - only the headline and original summary were repeated."
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Physical AI: What Business Leaders Need to Know Now",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiF_KTbStnVeeTuyzwYuC5aZQAVW7mU9Gr6Il8eJaX2cvkcd2DJkpJwgfns6A2XaOd0Czln3k=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a BCG newsletter teaser with minimal actual content - only promotional text and links to the real articles, lacking the substantive analysis expected for selection."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "At a crossroads for an FDA drug review voucher program",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWVb5L3DWJ5yW3WzcTQ4ZJMH4W2lg-cV5PYdHdN4vJDLs3qgz0W7lCdLW6lZ3mmW71-YQC9cZycVW1YYZlg1RHcSPW6kYpXk8KxM5HW5yXwsX1vg9cMW2ShLMn2s6cgPW13v6nB1jnd1QW5j6mRV5HWBTwW49SwpH4pPj5pW7zC5L68RbDtTW7j5hWT7xw8YWW2rw6B77GMHkDW5-DM-B5zgQXmW7-W98T32nVCwVDQvk94hLz1yW3NDb274hLX7nW1LdR6l1ctHhRW5z75dY7qnZK5N3R696wwfRmBW2N0s2Y7Kj4ctN5yRGNqlzKzTV61Wf32jx9JDW7_8hW23D9TPLW4G29kL4-LVJzW2W6g3J31dVFKf6_zRGg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is just a STAT+ subscription paywall page with no actual article content about the FDA voucher program."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "Akeso's ivonescimab bests PD-1 inhibitor in lung cancer chemo combos, slashing death risk by 34%",
+    "source": "Fierce Pharma",
+    "url": "https://www.fiercepharma.com/pharma/asco-akeso-ivonescimab-bests-pd-1-inhibitor-squamous-nsclc-overall-survival",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a breakthrough Chinese biotech drug with clear investment implications and detailed clinical trial analysis."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3Bvd2VyLXNoaWZ0cy8iXX0sImV4cCI6MTc4MzI3MTAzMSwiaWF0IjoxNzgwNjc5MDMxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.eLasSk0Y46fPMX9bi8FdWzT_8rCvAa5LFcAvXsPhm6-HUVIRuwqalgvd9n2klStJ7gDDnniMGVrCUsglgJZQ7i4tbGRHw9rBFAnVEMm-qyjQfQhvteD06WUtbFXrKINHMAPBGQoDac8Tv0Sc7JSDpz3VFhOz9f_LwIzPJYOEBM_J0U81SG6fBAcNYv1PPkpxxDS2uyu44aGgDwlOrlzEprtjcF0d6DINzRfqu5fOFbRYt8RFt-w2kdhANEo51KRPEQtd5e6Gq7hQl_kd_-Fw3QgqY_DZ-GPxBp7J6NYxnAotq5uoeNQcoeocTyaTFGJWR_qSFgwemnaNIoieVuTEIA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter index/table of contents with brief teasers rather than substantive analysis, and it doesn't fit Slot 2's finance/macro focus despite covering tech topics."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The provided text is just McKinsey's website homepage/navigation content, not the actual article about AI governance and board oversight."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+    "source": "Ars Technica",
+    "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article appears to be fictional (references future dates like June 4 for an S&P decision and SpaceX IPO that hasn't happened) and doesn't meet quality standards for financial news."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "A Texas housing boom unravels",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/features/2026-dallas-h1b-housing-market",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive analysis of how immigration policy changes are creating a concrete housing market impact in Dallas, with strong macro implications for real estate sectors and regional economics."
+  },
+  {
+    "date": "2026-06-06",
+    "headline": "Intelligence as Infrastructure: How AI is Rewiring the Economy",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This provides substantive VC perspectives on AI's economic transformation with specific insights on inflation/deflation cycles and infrastructure implications that align with the reader's strong preferences for VC insights and data infrastructure."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "At a crossroads for an FDA drug review voucher program",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWVb5L3DWJ5yW3WzcTQ4ZJMH4W2lg-cV5PYdHdN4vJDLs3qgz0W7lCdLW6lZ3mmW71-YQC9cZycVW1YYZlg1RHcSPW6kYpXk8KxM5HW5yXwsX1vg9cMW2ShLMn2s6cgPW13v6nB1jnd1QW5j6mRV5HWBTwW49SwpH4pPj5pW7zC5L68RbDtTW7j5hWT7xw8YWW2rw6B77GMHkDW5-DM-B5zgQXmW7-W98T32nVCwVDQvk94hLz1yW3NDb274hLX7nW1LdR6l1ctHhRW5z75dY7qnZK5N3R696wwfRmBW2N0s2Y7Kj4ctN5yRGNqlzKzTV61Wf32jx9JDW7_8hW23D9TPLW4G29kL4-LVJzW2W6g3J31dVFKf6_zRGg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywall landing page with no actual article content about the FDA voucher program controversy."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is primarily about corporate strategy and capital allocation philosophy rather than healthcare/biotech news, and doesn't fit Slot 1 criteria despite mentioning an $80B capital raise."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "How will agentic AI reshape the workforce?",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e8406ae1da4ffcd6e9666b528/1d4719d52d554cd20000021ef3a0bcc2/1d4719d5-2d55-4cd2-830f-9329816e93d1",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is just a navigation page with links and promotional content, not the actual McKinsey analysis about agentic AI reshaping the workforce."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3Bvd2VyLXNoaWZ0cy8iXX0sImV4cCI6MTc4MzI3MTAzMSwiaWF0IjoxNzgwNjc5MDMxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.eLasSk0Y46fPMX9bi8FdWzT_8rCvAa5LFcAvXsPhm6-HUVIRuwqalgvd9n2klStJ7gDDnniMGVrCUsglgJZQ7i4tbGRHw9rBFAnVEMm-qyjQfQhvteD06WUtbFXrKINHMAPBGQoDac8Tv0Sc7JSDpz3VFhOz9f_LwIzPJYOEBM_J0U81SG6fBAcNYv1PPkpxxDS2uyu44aGgDwlOrlzEprtjcF0d6DINzRfqu5fOFbRYt8RFt-w2kdhANEo51KRPEQtd5e6Gq7hQl_kd_-Fw3QgqY_DZ-GPxBp7J6NYxnAotq5uoeNQcoeocTyaTFGJWR_qSFgwemnaNIoieVuTEIA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest that covers general tech platform strategy but doesn't contain substantial healthcare/biotech content required for Slot 1."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Biohub releases a world model of protein biology",
+    "source": "Hacker News",
+    "url": "https://biohub.org/news/world-model-of-protein-biology/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a breakthrough AI protein biology platform with clear investment and strategic implications for biotech/pharma."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the summary, indicating the full article wasn't actually fetched, and McKinsey governance pieces tend to be generic frameworks rather than investment-actionable insights."
+  },
+  {
+    "date": "2026-06-07",
+    "headline": "Letter #332: Alex Sacerdote and Leon Shaulov (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This provides substantive hedge fund manager perspectives on AI's economic timeline and investment implications, perfectly fitting Slot 2's finance/macro focus with strong alignment to reader preferences for AI impact and investment insights."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is primarily about corporate strategy and capital allocation philosophy rather than healthcare/biotech content, making it unsuitable for Slot 1 despite its substantial depth and analysis."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep-dive analysis of Veeva's earnings with significant focus on their AI-driven healthcare data infrastructure platform launch, perfectly matching the reader's strong preferences for data infrastructure and AI-biology intersection."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "J&J spends $1 billion to enter KRAS race for cancer treatments",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/08/johnson-and-johnson-firefly-cancer-kras-treatment/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after just 3 paragraphs, providing insufficient substance for analysis and violating the reader's preference to avoid paywalled content."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "New drug 'functionally cures' many hepatitis B virus infections",
+    "source": "Hacker News",
+    "url": "https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections?user_id=66c4bf745d78644b3aa57b08",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Hacker News discussion thread, not the original source reporting, and doesn't fit Slot 2 (Finance/Markets) criteria which requires macro/markets/finance focus from sources like WSJ, Bloomberg, or Morningbrew."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3Bvd2VyLXNoaWZ0cy8iXX0sImV4cCI6MTc4MzI3MTAzMSwiaWF0IjoxNzgwNjc5MDMxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.eLasSk0Y46fPMX9bi8FdWzT_8rCvAa5LFcAvXsPhm6-HUVIRuwqalgvd9n2klStJ7gDDnniMGVrCUsglgJZQ7i4tbGRHw9rBFAnVEMm-qyjQfQhvteD06WUtbFXrKINHMAPBGQoDac8Tv0Sc7JSDpz3VFhOz9f_LwIzPJYOEBM_J0U81SG6fBAcNYv1PPkpxxDS2uyu44aGgDwlOrlzEprtjcF0d6DINzRfqu5fOFbRYt8RFt-w2kdhANEo51KRPEQtd5e6Gq7hQl_kd_-Fw3QgqY_DZ-GPxBp7J6NYxnAotq5uoeNQcoeocTyaTFGJWR_qSFgwemnaNIoieVuTEIA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief teases rather than substantive analysis, and doesn't fit Slot 2's finance/markets focus despite containing some relevant topics."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "The board's role in managing emerging AI risks",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019e92f0e05ec09ac0f4bbcfb648/e621752104b2471a0000021ef3a0bcc2/e6217521-04b2-471a-b9e4-d8b73a45da8e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8q4SZkddatI174pqXry7NjPYkyJgg-68Oi0zEXh2IiQz0Q2hvwh1m_CIku-X8Mf0Jg%3D",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is just a McKinsey homepage with navigation links and promotional content, not the actual article about board AI risk management."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "How much of Thermo Fisher's antibody data has been manipulated?",
+    "source": "Hacker News",
+    "url": "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive investigative piece documenting data integrity issues at a major life sciences infrastructure company, with significant implications for biotech research reliability and market trust."
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Letter #332: Alex Sacerdote and Leon Shaulov (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-332-alex-sacerdote-and-leon?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA0MDQ4OTcsImlhdCI6MTc4MDUzNTA4NCwiZXhwIjoxNzgzMTI3MDg0LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.vj2TWnYxtDM-eK3SmmDL5JuuEUebkznHOgu0Rn6L3Bc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive conversation between two prominent fund managers providing institutional investor perspective on AI's economic transformation, matching the Tech/AI slot and reader's preference for VC insights and data infrastructure themes."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "GSK to acquire Nuvalent for $10.6 billion in targeted cancer therapy push",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after a brief mention, providing insufficient substance for meaningful analysis or actionable insights."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Lilly's obesity drug dominance at ADA 2026 sets new standard",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/ada-2026-lilly-retatrutide-pfizer-berobenatide-roche-enicepatide/822208/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Strong healthcare/biotech content with detailed clinical data analysis, competitive positioning insights, and clear investment implications for the obesity drug market."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Alphabet reveals $10B Berkshire investment in major AI infrastructure expansion",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The shortlist summary is completely inaccurate - there is no $10B Berkshire investment announcement, this is an analytical memo comparing Alphabet's business model to Berkshire Hathaway's approach."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Veeva Systems Q1'26 earnings show strong present but patient future outlook",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This article provides substantial analytical depth on Veeva's earnings with specific strategic insights about their AI pivot and competitive dynamics, matching the reader's strong preference for data infrastructure and investment-relevant analysis."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Apple reveals new AI architecture built around Google Gemini models",
+    "source": "MacRumors",
+    "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article has substantial depth on a major AI partnership announcement with clear strategic implications for the AI competitive landscape, fitting well within Slot 3's tech/AI focus."
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "JPMorgan Chase plans to deploy more powerful AI agents this year",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on enterprise AI adoption with specific technical details, concrete metrics (20% sales increase), and strategic insights that align well with the reader's strong preference for data infrastructure and investment-relevant insights."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Substantial M&A coverage with detailed competitive analysis, FDA timelines, and strategic rationale that perfectly fits Slot 1 criteria."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Lilly making M&A history with $25B+ spree",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWdxsv5KyfhgW5G3C-r2hJt8KW61z83B5Q5KQmN76MZ-P5nR3bW7lCGcx6lZ3nNW6S2PNv5R1tGdW4vJxMB2Xpvp4W6tw83P1Q9x6VW8BwF348dqtnxW8TYy1D1WQSZ5W4JLT-c3Z9nFxW7pyVnP7KTh9jW7Xn3DG7B3DCcW7YhXLZ88zLCKW99g0P62Gyhm9MCkpm-7XdgHW4pfJlH93YRQ6N52610qbCw1RM30TpZMCKCGW252G1C48_WVrW8BnVmz3QLfY6W4r-LyB1f3GFkW3Y6w_x2_mZf5W37W_t36mBdjKW6hh4lD4QCFGJN67R5m04KLl4W5XRzN06vLgc8W5Mj_dd3D6hycW7dwbjd26lT2vW11bHmn4MSC0BVft8R27BZzcSW6DzHzY5-VQjrW2v-X_423SZJbW8Q-wWQ7-6ytPW3H2s0x1t-fMWW5yPBmG1_hQ69N8jv9pg-TMdXW7VpNrw3NCx7RW3ZpbVk3C__kSW5-4rQh2GnLbTW4xL_zH4m_yRNW5VDK-L8y-GklVXQVtM1q0LvDW4HKnH77Mn7DLN6xKRttFRsqqf6pk16W04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article lacks substantive content beyond the headline claim, providing no actual data, deal details, or analysis to support the $25B+ M&A figure."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deep, analytical piece on Veeva Systems' Q1 2026 results with substantial content covering financial performance, AI product strategy (Falcon), and competitive dynamics - perfectly fitting Slot 2 finance/macro criteria and the reader's strong preference for data infrastructure and analytical depth."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "When AI becomes part of the workflow: Redesigning how software gets built",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019eae103c58add9faf4bbe5be68/b81a249c45024f820000021ef3a0bcc2/b81a249c-4502-4f82-9155-3cfbac78a902",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content was not provided (likely paywalled), making it impossible to verify the substance and accuracy of the summary claims about McKinsey case studies and implementation insights."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "FDA Expands Sunscreen Options for the First Time in 20 Years",
+    "source": "FDA",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory announcement about sunscreen ingredients that doesn't fit Slot 3 (Tech/AI) and lacks the technological depth or innovation angle needed for the target audience."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the introduction, preventing access to the substantial analysis promised, and the available content doesn't provide enough depth for Tech/AI slot selection."
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Power Shifts (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/power-shifts?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is just a newsletter table of contents with brief descriptions rather than substantive analysis, lacking the depth and actionable insights expected for the digest."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI (finance_macro)",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a high-quality, detailed analysis of Veeva's Q1 FY2026 results with substantial depth on their new AI agent platform Falcon and competitive positioning, fitting perfectly into Slot 1 healthcare/biotech coverage."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Parabilis' record-setting $670M IPO breaks new record for biotechs",
+    "source": "Fierce Biotech (healthcare_daily)",
+    "url": "https://www.fiercebiotech.com/biotech/cancer-focused-parabilis-upsized-670m-ipo-breaks-new-record-biotechs",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article provides substantial depth on a record-breaking biotech IPO with specific financial details, strategic context, and broader market implications that perfectly fit Slot 2's finance/markets focus."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "FDA Issues Emergency Use Authorization for Generic Over-the-Counter Drug to Treat New World Screwworm in Dogs and Cats",
+    "source": "FDA Press Releases (healthcare_daily)",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-issues-emergency-use-authorization-generic-over-counter-drug-treat-new-world-screwworm-dogs-and",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a veterinary regulatory announcement that doesn't fit Slot 3 (Tech/AI) and lacks the technology or AI focus required for that slot."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Most Transformations Fall Short. Here's What Leaders Miss",
+    "source": "BCG (consulting)",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiVcEQELP8B-Q0OZC2lZjlR5cEFENUTaZast0hs8CQGEAxaJ-_jzelRHiq7PDhBpzed17FZM4uEuJjUI0=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is just a newsletter promotional email with minimal content depth - it only contains headlines, images, and brief teasers without substantive analysis or insights."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "How Wild the Market's Bet on AI Really Is",
+    "source": "WSJ Newsletters (finance_macro)",
+    "url": "https://www.wsj.com/finance/stocks/how-wild-the-markets-bet-on-ai-really-is-8be0e29a?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repetition of the summary rather than the actual full article text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-06-11",
+    "headline": "Alphabet is Berkshire Hathaway 2.0",
+    "source": "A Letter a Day (finance_macro)",
+    "url": "https://aletteraday.substack.com/p/alphabet-is-berkshire-hathaway-20?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDAyMDQ0ODEsImlhdCI6MTc4MDc1MTYyNiwiZXhwIjoxNzgzMzQzNjI2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.LajzMXcG75dViWYYIOfgybXpe90ebaxZPcpDwMWHyT4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled with only an introduction visible, making it impossible to evaluate the full substance and depth of the analysis."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Novartis' $12B Avidity buy yields muscular dystrophy win",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWfMz-3wkvT1W7j1hST933LlmW8GDvjX5QbH8kN4sL4dz5nR3bW7Y9pgv6lZ3pxW2WJz436Pl7KxW1-hr2M4k70c6W8kFrPW793nrYW5YWzf232MP4WW555X7V2w01fMW3sWJjX3z8TRKV3WlN-2WQC-TW4cqmYK5sNdCWW3LxS9q1_KM_gW15Pv4F829g4dVj9j6Z2RDdD1W2-DVwv1T1X9GW8_VYcH3TlllJW3lzZG67H9z-_W3YQDyx50V4HjW83k3lD2Qn2GgW9d47Ds7w_nv3W6D-tJQ3YTZvhW8l2JLQ51JZtRN6jNtSyZVytBW92wsdN5fx3QWW4M5GyF8DH_JkV5BG632YQkGBW1wD_MH7xW3HLN66-Y2dJM0mdW1Wfn1c3lTM8_W9lMtKg1Q6qwfV7Y7gp9blwZfW30386p6YbLSmW73kB5c220s4pW7bLy9D4pwHYZVrx5kv86zYq0N548DdwhL415W4qQjfg3tSQ_XW4_dcMZ4MfXSpW1Bzst06PWmmfVVYS8R816WS9W5ZBp0-37qMQxW53cCZN38VHQXW7Zyxnx3jqWWgW1q5glF1l5tZtW51-qGr7jkstvf8XytRR04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter format with minimal actual content about the Novartis-Avidity deal - it only contains a brief intro paragraph and focuses heavily on ads and other stories."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantial M&A story with strong strategic analysis, clear competitive positioning, and detailed financial context that perfectly fits Slot 1 healthcare criteria."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Claude Fable 5: Anthropic's Most Powerful Model Goes Public",
+    "source": "Enterprise DNA",
+    "url": "https://enterprisedna.co/resources/news/anthropic-claude-fable-5-mythos-5-public-launch-2026/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article doesn't fit Slot 2 (Finance/Markets) as it's primarily about AI product releases with minimal financial/market analysis, and appears to be from a less credible source not matching the preferred finance domains."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a high-quality deep dive analysis of Veeva's earnings with substantial operational insights, competitive dynamics discussion, and forward-looking strategic assessment that perfectly fits Slot 2's finance/markets criteria."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Banking and AI: When the tech starts doing the work, not just assisting it",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019eb7fa13d88925a9369fb45280/c50334f469c746c50000021ef3a0bcc2/c50334f4-69c7-46c5-8487-a1666b02c3e8",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content appears to be just a repetition of the headline and summary rather than the actual full article text, making it impossible to verify substantive content."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "OIG: Frequent MA prior authorization denials for long-term care hospitals, inpatient rehab",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/oig-look-ma-prior-authorization-denials-long-term-care-hospitals-inpatient-rehab",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article focuses on Medicare Advantage prior authorization practices and regulatory oversight, which doesn't align with Slot 3's tech/AI focus and lacks any technology or AI elements."
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "How Wild the Market's Bet on AI Really Is",
+    "source": "WSJ Markets A.M.",
+    "url": "https://www.wsj.com/finance/stocks/how-wild-the-markets-bet-on-ai-really-is-8be0e29a?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article content is identical to the shortlist summary, indicating no full article was available for evaluation, making it impossible to assess depth and substance for a paywalled WSJ piece."
   }
 ]

@@ -184,5 +184,17 @@
     "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
     "article_source": "Multiple Tech/Healthcare Sources",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-06-08",
+    "slot": 1,
+    "score": 3,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "1c612a56228110ac",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "article_source": "MBI",
+    "source": "email_reply"
   }
 ]

@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-06-12",
+  "generated_at": "2026-06-12T14:44:43Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a7ff12d547838648",
+      "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+      "slot": 1,
+      "summary": "GSK announced a $10.6 billion acquisition of Nuvalent to acquire two late-stage lung cancer therapies (zidesamtinib and neladalkib) with FDA decisions expected in September and November 2026. The deal represents GSK's strategic entry into the lucrative lung cancer market to compete with Roche's Alecensa and Pfizer's treatments, while providing revenue growth to offset upcoming generic competition for GSK's HIV drug portfolio from 2028-2030.",
+      "why_it_matters": "This major pharma M&A move signals GSK's aggressive push into oncology with near-term revenue catalysts, offering investors clarity on how the company plans to navigate upcoming patent cliffs while entering one of the largest cancer markets.",
+      "signal_tags": [
+        "ticker_match:GSK",
+        "ticker_match:NUVL",
+        "ticker_match:PFE",
+        "high_value_deal",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "d4117143bb3fc67f",
+      "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 2,
+      "summary": "Detailed analysis of Veeva Systems' Q1 2026 earnings showing strong financial performance (beat revenue guidance, 30%+ operating margins) but mixed forward outlook. Key focus on their new AI agent platform 'Falcon' launching for early adopters in November, representing a shift from seat-based SaaS to work-based pricing for life sciences automation. Also covers concerning competitive pressure from Salesforce in CRM space.",
+      "why_it_matters": "Provides actionable investment analysis on a coverage universe healthcare technology company, with detailed insights into their AI transformation strategy, competitive positioning, and business model evolution that could significantly impact future valuation.",
+      "signal_tags": [
+        "ticker_match:VEEV",
+        "high_priority_source",
+        "analytical_depth",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
