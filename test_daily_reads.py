@@ -810,5 +810,41 @@ class DailyReadsTests(unittest.TestCase):
         self.assertEqual(post.call_args.kwargs["json"]["location"], "shortlist")
 
 
+class ExtractJsonArrayTests(unittest.TestCase):
+    """Regression guard for the select_articles 'no parseable JSON' failures."""
+
+    @staticmethod
+    def _blocks(*texts):
+        return [SimpleNamespace(type="text", text=t) for t in texts]
+
+    def test_plain_array(self):
+        out = main._extract_json_array(self._blocks('[{"rank": 1, "headline": "A"}]'))
+        self.assertEqual(out, [{"rank": 1, "headline": "A"}])
+
+    def test_prefers_final_block_over_narration_brackets(self):
+        # web_search narration has stray "[1]"; the real array is the last block.
+        blocks = self._blocks(
+            "Searching... found source [1] and [2] relevant.",
+            'Here are the picks:\n[{"rank": 1, "headline": "Real"}]',
+        )
+        self.assertEqual(main._extract_json_array(blocks), [{"rank": 1, "headline": "Real"}])
+
+    def test_strips_code_fence(self):
+        blocks = self._blocks('```json\n[{"rank": 1}]\n```')
+        self.assertEqual(main._extract_json_array(blocks), [{"rank": 1}])
+
+    def test_truncated_array_returns_empty(self):
+        # A max_tokens cutoff mid-array must NOT half-parse — return [].
+        blocks = self._blocks('[{"rank": 1, "headline": "A"}, {"rank": 2, "headl')
+        self.assertEqual(main._extract_json_array(blocks), [])
+
+    def test_no_array_returns_empty(self):
+        self.assertEqual(main._extract_json_array(self._blocks("no json here")), [])
+
+    def test_ignores_object_only_response(self):
+        # A bare object (not the expected list) shouldn't be returned as picks.
+        self.assertEqual(main._extract_json_array(self._blocks('{"rank": 1}')), [])
+
+
 if __name__ == "__main__":
     unittest.main()

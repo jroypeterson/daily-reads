@@ -909,6 +909,43 @@ def feedback_check() -> dict:
 # [ARTICLE SELECTION]
 # ---------------------------------------------------------------------------
 
+def _extract_json_array(content_blocks) -> list:
+    """Pull the article-shortlist JSON array out of a tool-use response.
+
+    Robust to the failure modes that made the old single greedy `\\[.*\\]` regex
+    brittle: with the web_search tool, `content` interleaves narration text
+    blocks (which can contain stray `[...]` like "[1]") before the final answer.
+    Strategy: scan TEXT blocks in REVERSE (the JSON answer comes last), strip
+    ```json code fences, then try each balanced top-level `[...]` span (last
+    first) until one parses as a list. Returns [] if nothing parses (e.g. the
+    array was truncated at max_tokens)."""
+    texts = [b.text for b in content_blocks if getattr(b, "type", None) == "text"]
+    for text in reversed(texts):
+        t = text.strip()
+        if "```" in t:
+            # keep only fenced bodies if present (handles ```json … ```)
+            fences = re.findall(r"```(?:json)?\s*(.*?)```", t, re.DOTALL)
+            if fences:
+                t = "\n".join(fences)
+        opens = [i for i, c in enumerate(t) if c == "["]
+        for s in reversed(opens):
+            depth = 0
+            for e in range(s, len(t)):
+                if t[e] == "[":
+                    depth += 1
+                elif t[e] == "]":
+                    depth -= 1
+                    if depth == 0:
+                        try:
+                            parsed = json.loads(t[s:e + 1])
+                            if isinstance(parsed, list):
+                                return parsed
+                        except json.JSONDecodeError:
+                            pass
+                        break  # this open didn't yield valid JSON; try an earlier one
+    return []
+
+
 def select_articles(
     gmail_items: list[dict],
     tier2_items: list[dict],
@@ -988,33 +1025,33 @@ Select your top 8 articles ranked by quality. Return JSON only."""
     print("Calling Claude for article shortlist (top 8)...")
     client = anthropic.Anthropic()
 
+    # max_tokens=8192 (was 4096): the web_search reasoning and the final JSON
+    # share one response, so on a busy search day 4096 truncated the JSON array
+    # mid-element → JSONDecodeError → empty shortlist → "no articles" failure.
+    # The bigger cap + explicit truncation detection make that mode diagnosable
+    # and rare instead of a silent generic parse failure.
     response = client.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=4096,
+        max_tokens=8192,
         system=system_prompt,
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}],
         messages=[{"role": "user", "content": user_content}],
     )
 
-    # Extract JSON from response
-    shortlist = []
-    for block in response.content:
-        if block.type == "text":
-            text = block.text.strip()
-            json_match = re.search(r'\[.*\]', text, re.DOTALL)
-            if json_match:
-                try:
-                    shortlist = json.loads(json_match.group())
-                    break
-                except json.JSONDecodeError:
-                    pass
+    truncated = getattr(response, "stop_reason", None) == "max_tokens"
+    if truncated:
+        print("WARNING: select_articles response hit max_tokens (truncated) — "
+              "the JSON shortlist is likely cut off; raise max_tokens if this recurs.")
+
+    shortlist = _extract_json_array(response.content)
 
     if not shortlist:
-        print("WARNING: Could not parse article shortlist from Claude response")
-        print("Raw response blocks:")
+        reason = "response truncated at max_tokens" if truncated else "no parseable JSON array"
+        print(f"WARNING: Could not parse article shortlist from Claude response ({reason})")
+        print("Raw response text blocks (full):")
         for block in response.content:
             if block.type == "text":
-                print(block.text[:500])
+                print(block.text)
         return []
 
     print(f"Shortlisted {len(shortlist)} candidates:")
