@@ -3850,5 +3850,59 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article content is identical to the shortlist summary, indicating no full article was available for evaluation, making it impossible to assess depth and substance for a paywalled WSJ piece."
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "The week in charts",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019ec26c5529b5a5bf369ff04b6c/638f35304025469a0000021ef3a0bcc2/638f3530-4025-469a-bdd5-a781e0ae845a?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oUghvEWOrRa3hHoOg8IWyLajGgO2CvjEowjfKvKodtXBgwO4c7ncd1Iku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a thin weekly chart digest that lacks the depth and substantive healthcare/biotech focus required for Slot 1, and the actual article content appears to be just a repeat of the summary without additional substance."
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive deep-dive analysis of Veeva Systems' Q1 2026 earnings with detailed financial metrics, strategic insights about their AI platform Falcon, and competitive positioning against Salesforce - exactly matching Slot 1 healthcare/biotech criteria."
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Hey Siri, Tell Me a Fable (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hleS1zaXJpLXRlbGwtbWUtYS1mYWJsZS8iXX0sImV4cCI6MTc4Mzg3NTc1MiwiaWF0IjoxNzgxMjgzNzUyLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.q3OT3pnWLl6i_KmMjWcACPXW4AYjySG6JfYMWBpebN7QPdQW8yRj3qdqA96OPmXosDOCtM-up6tCUG7VDbv08m-p5Plzzkhp-zr3UI2IR9bO2s91wJNcQP2QdDToQDhmjh5GSJdrEjTgnKGUd2vyZkvEQomcp8WjyT80v1DVHC8brXFmrjAelOslabI0aW447q9DWMxED8728tvFlJ313NvOZHgx6hnnGM7yE8F9UxTE58P8osg9OzFehMnFdnBCjQb7wDtYupdCWot9yruBNdHd6L8NvlbBB0TZZkAIeUe2L_i5TTKhspKlVFtwtrzgDs5dLGpp_MZP41eUD8DmRQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter index/table of contents with brief editorial commentary rather than substantial analysis, and it doesn't align with Slot 2's finance/markets focus despite containing some relevant topics."
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Banking and AI: When the tech starts doing the work, not just assisting it",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019eb7fa13d88925a9369fb45280/c50334f469c746c50000021ef3a0bcc2/c50334f4-69c7-46c5-8487-a1666b02c3e8?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qW84yRjGEnparQRb-_lZ-JsuMh0W63bJ2rjkyn33TlpQINhj0AwHY7Iku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content appears to be just a repeat of the headline and summary, suggesting the actual McKinsey report content was not successfully fetched."
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+    "source": "Hacker News",
+    "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "This article provides substantial reporting on a significant regulatory intervention in AI governance with clear implications for tech companies and investors."
+  },
+  {
+    "date": "2026-06-14",
+    "headline": "GSK inks $10.6B buy for cancer biotech Nuvalent",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWpkfm1vVS_JW6jLQ0m8Dvf29W6rg8CD5Q4fh-N3DlwGj5nR3bW7Y9pgv6lZ3mlN14Q0ly_nMxsW1Yb2tf5nbzcMW1r0Bjl180MDkW7zV3w31m7Kw6W3zpxBq1ZGQF9W6mNX_y8mqMwhW8D5bNw8-8nVfW4T9s2T95YGkFN56HrgRGVxjbVcXY2j7W5QpHW6fqWnT2wRh9rW5y5Fmh6dpVl1W6mYjqd15nCqmW32ZNbK5G6tk_W3dLd9c7361Q8W2dcm8s35L7CXN3NY3mmwjGSZVL4FbY3vJv-1W3mFTX61byp_jW2rZd9h1vgnpJW6LZcW03T233BW945wny92LPBLW6M0WG230mlrNW1ssMCR30PXkrW9jzQs651vLKWW61zV-h8-j3j2W4xh8Gp6Q68gHW7gGh2P1-zFL2W20jy2z83vQ0DW35T06644Ln3GN18yVrnDW5K1W3kvSVg4gCGjkN63F67sPfggpW7Gx9943Tp760W658zGc2Spyl_W7RQDST7KfVSGW2q4kHZ90xqhRW78C-xM3YncFZW8Bncbk5WG8fvN7bl3Hxgj0lMW8CbKJr8CCHMsW5tt1Dv3R9rNGf6xyZz804",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article lacks substance and depth - it's essentially a newsletter format with minimal actual content about the GSK-Nuvalent acquisition, and doesn't fit the Tech/AI slot criteria."
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-06-14",
+  "generated_at": "2026-06-14T13:51:58Z",
+  "counts": {
+    "gmail_items": 122,
+    "tier2_items": 82,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1c612a56228110ac",
+      "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+      "source": "MBI",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 1,
+      "summary": "MBI Deep Dives provides comprehensive analysis of Veeva Systems' Q1 2026 results showing strong financials ($883M revenue, 30%+ operating margins) but management guidance suggesting growth deceleration ahead. The piece examines Veeva's new AI initiative 'Falcon' - an agentic platform for clinical/regulatory work launching to early adopters in November - and discusses competitive pressures from Salesforce in life sciences CRM.",
+      "why_it_matters": "Veeva's transition from pure SaaS to AI-driven 'agentic labor' represents a significant shift in life sciences software infrastructure, while their competitive dynamics with Salesforce signal broader consolidation trends in biotech tooling.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:VEEV",
+        "earnings_catalyst",
+        "investment_analysis"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "4f76659f1038d1bc",
+      "headline": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "source": "Hacker News",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "slot": 2,
+      "summary": "Amazon CEO Andy Jassy's conversations with Treasury Secretary Scott Bessent about security vulnerabilities in Anthropic's Fable 5 AI model prompted the Trump administration to ban all foreign access to the company's most advanced AI tools. Amazon researchers had successfully used prompts to extract information from the model that could aid cyberattacks, leading to an immediate government crackdown.",
+      "why_it_matters": "This unprecedented regulatory action demonstrates how quickly governments will intervene when AI safety concerns emerge, creating new compliance risks for AI companies and potentially reshaping competitive dynamics in the foundation model market.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "AI_impact",
+        "geopolitical_risks",
+        "tier2_high_engagement"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
