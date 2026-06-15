@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-06-15",
+  "generated_at": "2026-06-15T17:07:29Z",
+  "counts": {
+    "gmail_items": 133,
+    "tier2_items": 87,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1c612a56228110ac",
+      "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+      "source": "MBI",
+      "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+      "slot": 1,
+      "summary": "Deep dive analysis of Veeva's Q1 2026 earnings showing strong financial performance (30%+ GAAP operating margin, revenue beat) but mixed signals on future growth. Key highlight is the announcement of Veeva Falcon, an 'agentic labor' AI platform for clinical, regulatory, and safety processes launching to early adopters in November, representing a shift from seat-based SaaS to work-based pricing model.",
+      "why_it_matters": "Provides detailed investment analysis of a major healthcare data infrastructure company at a pivotal moment as they transition into AI-powered automation, with specific insights on competitive dynamics, pricing models, and timeline for their most significant product launch.",
+      "signal_tags": [
+        "ticker_match:VEEV",
+        "priority:high",
+        "data_infrastructure",
+        "investment_relevance"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}

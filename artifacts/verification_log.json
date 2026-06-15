@@ -3904,5 +3904,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This article lacks substance and depth - it's essentially a newsletter format with minimal actual content about the GSK-Nuvalent acquisition, and doesn't fit the Tech/AI slot criteria."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
+    "source": "Hacker News",
+    "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a tech M&A deal that doesn't belong in the Healthcare/Biotech slot despite having some substance around AI customer service technology."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "Anthropic's Claude Fable 5 Launch and Government Suspension",
+    "source": "Multiple Tech Sources",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article has substantial depth on AI capabilities, it doesn't fit Slot 1 (Healthcare/Biotech) as it's primarily about AI model development with only brief mentions of drug discovery applications."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "Veeva 1Q'26: Strong Present, Patient Future",
+    "source": "MBI",
+    "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deep, substantive analysis of Veeva's quarterly results with significant focus on their new AI 'agentic labor' platform Falcon, perfectly matching the healthcare/biotech slot and reader preferences for data infrastructure and investment-relevant insights."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/gsk-inks-106b-nuvalent-buyout-challenge-roche-and-pfizer-lung-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While this is substantial M&A news, it's from Fierce Biotech which is primarily a Slot 1 (Healthcare/Biopharma) source rather than a finance-focused publication appropriate for Slot 2."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "SpaceX IPO Leaves Retail Investors with Few Shares and Tough Decisions",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/06/15/spacex-ipo-leaves-retail-investors-with-too-few-shares-and-a-tough-hold-or-sell-decision.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article focuses on retail investor allocation complaints and individual trading anecdotes rather than substantive market dynamics, macro trends, or finance insights relevant to the reader's investment focus."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "The week in charts: GLP-1s' effect on food sales, humanoid robots, and more",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019ec26c5529b5a5bf369ff04b6c/638f35304025469a0000021ef3a0bcc2/638f3530-4025-469a-bdd5-a781e0ae845a",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The full article content was not provided, making it impossible to verify substance or accuracy of the summary beyond the headline."
+  },
+  {
+    "date": "2026-06-15",
+    "headline": "Banking and AI: When the tech starts doing the work, not just assisting it",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019eb7fa13d88925a9369fb45280/c50334f469c746c50000021ef3a0bcc2/c50334f4-69c7-46c5-8487-a1666b02c3e8",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content provided is only the McKinsey website homepage/navigation structure, not the actual article about banking and AI transformation."
   }
 ]
