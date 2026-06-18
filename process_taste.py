@@ -148,7 +148,7 @@ Output ONLY the markdown content for taste_profile.md."""
     print("Calling Claude to rebuild taste profile...")
     client = anthropic.Anthropic()
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=4096,
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 10}],
         messages=[{"role": "user", "content": prompt}],

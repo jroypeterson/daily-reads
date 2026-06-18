@@ -1039,7 +1039,7 @@ Select your top 8 articles ranked by quality. Return JSON only."""
     # The bigger cap + explicit truncation detection make that mode diagnosable
     # and rare instead of a silent generic parse failure.
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=8192,
         system=system_prompt,
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}],
@@ -1302,7 +1302,7 @@ Return ONLY valid JSON with these keys:
 
         try:
             verify_resp = client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model="claude-sonnet-4-6",
                 max_tokens=1024,
                 messages=[{"role": "user", "content": verify_prompt}],
             )
@@ -2176,7 +2176,7 @@ def rewrite_criteria(feedback: list[dict]):
 
     client = anthropic.Anthropic()
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=4096,
         messages=[{
             "role": "user",
