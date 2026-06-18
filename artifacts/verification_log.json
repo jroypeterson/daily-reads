@@ -3967,5 +3967,77 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "The article content provided is only the McKinsey website homepage/navigation structure, not the actual article about banking and AI transformation."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "UniQure to File Gene Therapy for Approval, Reflecting Major Shifts at FDA",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/uniqure-fda-gene-therapy-huntingtons-approval-filing-leadership/823163/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantial depth, directly matches Slot 1 criteria with a named ticker (QURE), a near-term BLA catalyst (Q3 2026 filing), and broader regulatory implications for the gene therapy sector."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Fed Holds Rates Steady at Warsh's First Meeting \u2014 Signals Hawkish Pivot, Revamps Communications",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/06/17/fed-meeting-today-live-updates.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is extremely thin \u2014 essentially a brief news bulletin with bullet points and a live coverage redirect \u2014 lacking the analytical depth required for the digest, and the substantive details in the shortlist summary appear to go well beyond what the sparse article actually contains."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Leaked OpenAI Financials Show $38.5B Loss and $13B Revenue Ahead of IPO",
+    "source": "Hacker News (Ars Technica)",
+    "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive, audited financial detail on OpenAI's cost structure ahead of its IPO, with direct implications for cloud/data infrastructure spend (MSFT, AMZN) and the AI unit economics debate central to the reader's strong data infrastructure interest."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "McKinsey: AI in Life Sciences Explained \u2014 The Technology That Could Reinvent Medicine",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019ed21741dca707e8f4bbe5be68/b7380f5796364b170000021ef3a0bcc2/b7380f57-9636-4b17-97a6-adca519744b5",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source covering the AI-biology intersection \u2014 a strong reader preference \u2014 with substantive framing around capital allocation in drug discovery and clinical development, fitting Slot 3's AI/healthcare-adjacent mandate."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "The Enterprise Strikes Back \u2014 Is the Cost of AI Tokens Exceeding the Value They Produce?",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/06-15-2026-the-enterprise-strikes-back",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the macro section, so the actual AI cost/enterprise ROI content promised by the headline is inaccessible \u2014 the visible portion is a generic macro resilience roundup of consumer spending quotes from bank earnings calls with no substantive AI analysis visible."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Scuttleblurb: [scuttleslops] AAPL, NVDA, TYL, FISV, APO, ROL",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a paywall-truncated preview showing only teaser snippets and navigation links \u2014 there is no substantive analytical content accessible to evaluate or summarize."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Health Services Deal Value Remained Resilient in 2026 with Higher Bar for Investment: PwC",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/health-services-deal-value-remained-resilient-2026-higher-bar-investment-pwc",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article has reasonable depth as a PwC M&A outlook report, it doesn't pass the Wildcard 'would I forward this?' test \u2014 it's a sector survey with incremental deal statistics rather than a surprising insight, cross-domain idea, or consulting framework that would genuinely delight a sophisticated reader; it also conflicts with the reader's AVOID pattern of 'niche therapeutics' adjacency and lacks the AI/data infrastructure/governance angle that drives the reader's strong preferences."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "iRhythm Hit by Cyberattack That Compromised Patient Data",
+    "source": "Fierce Biotech (MedTech)",
+    "url": "https://www.fiercebiotech.com/medtech/irhythm-hit-cyberattack-has-found-no-impact-its-business",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin news brief lacking analytical depth \u2014 it reports a breach disclosure with no investigation findings, no quantified risk, and no forward-looking insight beyond standard incident response boilerplate, making it a weak Wildcard candidate that doesn't pass the 'would I forward this?' test."
   }
 ]

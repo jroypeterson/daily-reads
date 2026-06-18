@@ -1,0 +1,65 @@
+{
+  "run_date": "2026-06-18",
+  "generated_at": "2026-06-18T00:59:21Z",
+  "counts": {
+    "gmail_items": 114,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "86d361f7b68879d5",
+      "headline": "UniQure to File Gene Therapy for Approval, Reflecting Major Shifts at FDA",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/uniqure-fda-gene-therapy-huntingtons-approval-filing-leadership/823163/",
+      "slot": 1,
+      "summary": "UniQure announced it will file a BLA for its Huntington's disease gene therapy AMT-130 in Q3 2026 after the FDA reversed course and agreed that three years of Phase 1/2 data are sufficient to support accelerated approval \u2014 a dramatic shift from March when the agency publicly criticized the program's evidence. The reversal followed the departures of FDA Commissioner Makary, acting drug review director H\u00f8eg, and Vinay Prasad, who had been a vocal critic of expedited gene therapy approvals and was widely suspected to be behind the anonymous FDA briefing that hammered QURE shares earlier this year. Analysts at RBC and William Blair view the development as a positive signal not just for QURE (shares +80%) but for other rare disease gene therapy programs that faced unexpected regulatory headwinds under prior leadership.",
+      "why_it_matters": "A directly actionable QURE catalyst with a defined BLA filing window, plus a leading indicator that the FDA's posture toward accelerated approval for rare disease gene therapies has meaningfully shifted, with read-through implications for other stalled programs in the sector.",
+      "signal_tags": [
+        "ticker_match:QURE",
+        "catalyst_proximity",
+        "high_priority_source:BioPharma_Dive",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "d5e32cdb8ae25281",
+      "headline": "Leaked OpenAI Financials Show $38.5B Loss and $13B Revenue Ahead of IPO",
+      "source": "Hacker News (Ars Technica)",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "slot": 2,
+      "summary": "Leaked audited financials show OpenAI tripled revenue to $13.07B in 2025 but saw operating losses balloon to $20.92B, with R&D alone hitting $19.18B \u2014 including $10.59B paid to Microsoft. Cost of revenue nearly tripled to $7.5B, reflecting surging inference compute costs, while sales and marketing jumped to $5.73B. The documents surfaced as OpenAI confidentially files for its IPO and faces a 42-state AG subpoena over its non-profit-to-for-profit conversion.",
+      "why_it_matters": "OpenAI's $17B+ in payments to Microsoft for compute directly validates the data infrastructure spend thesis and raises critical questions about AI unit economics that have forward implications for cloud hyperscaler revenues (MSFT, AMZN) and the sustainability of the current AI build-out.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "data_infrastructure",
+        "AI_impact",
+        "hn_score:253"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "eebdaacc276c917d",
+      "headline": "McKinsey: AI in Life Sciences Explained \u2014 The Technology That Could Reinvent Medicine",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019ed21741dca707e8f4bbe5be68/b7380f5796364b170000021ef3a0bcc2/b7380f57-9636-4b17-97a6-adca519744b5",
+      "slot": 3,
+      "summary": "McKinsey's explainer synthesizes how AI is transforming life sciences across drug discovery, clinical development, and commercial operations, with focus on generative models for target identification and AI-assisted regulatory submissions. The piece reflects McKinsey's current research agenda and serves as a strategic framework for understanding where biopharma is directing AI investment. It directly maps to the reader's core thesis around AI applied to healthcare and biology.",
+      "why_it_matters": "McKinsey's frameworks are often leading indicators of large pharma capital allocation shifts, making this a useful strategic lens for assessing AI-in-healthcare investment risk/reward across the biopharma pipeline.",
+      "signal_tags": [
+        "high_priority_source:McKinsey",
+        "AI_biology_intersection",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
