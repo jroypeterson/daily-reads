@@ -4039,5 +4039,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a thin news brief lacking analytical depth \u2014 it reports a breach disclosure with no investigation findings, no quantified risk, and no forward-looking insight beyond standard incident response boilerplate, making it a weak Wildcard candidate that doesn't pass the 'would I forward this?' test."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Midjourney Medical: AI Image Company Unveils Full-Body Ultrasonic Scanner",
+    "source": "Midjourney (via Hacker News)",
+    "url": "https://www.midjourney.com/medical/blogpost",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has genuine substance \u2014 a detailed technical announcement of a novel ultrasonic CT scanner backed by a BFLY license, with clear investment signals for diagnostic imaging and consumer health data infrastructure, fitting Slot 1's healthcare/biopharma mandate and the reader's strong interest in AI-biology intersection and data infrastructure."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "UniQure to File Gene Therapy BLA for Huntington's Disease in Q3 2026, Reflecting Major FDA Shift",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/uniqure-fda-gene-therapy-huntingtons-approval-filing-leadership/823163/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/Biopharma) article about a specific gene therapy regulatory catalyst, not a Slot 2 Finance/Macro article \u2014 it covers an FDA regulatory reversal for a single biotech (QURE), not macro moves, earnings, sector rotation, or policy impact on markets broadly."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Warsh's Hawkish Turn: Fed Removes Easing Bias, Nine Officials Signal 2026 Rate Hike",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/06/18/business/dealbook/warsh-fed-rates.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article text is thin DealBook newsletter content that briefly mentions the Fed decision as a sidebar, lacks the analytical depth described in the shortlist summary, and buries the macro story beneath a tangential celebrity investing anecdote \u2014 it does not deliver the substance the shortlist implies."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "McKinsey: AI in Life Sciences Explained \u2014 The Technology That Could Reinvent Medicine",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019ed21741dca707e8f4bbe5be68/b7380f5796364b170000021ef3a0bcc2/b7380f57-9636-4b17-97a6-adca519744b5?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pqEFLyIxiFR8BLZuXnO8XlWmr7GXO_1EtashquZMGuC2ITXJSTKAifIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is a strong fit for Slot 3 (Tech/AI) or Slot 4 (Wildcard), not Slot 2 (Finance/Macro), which requires macro moves, earnings, sector rotation, or policy impact on markets."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "The Enterprise Strikes Back: Is the Cost of AI Tokens Exceeding the Value They Produce?",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/06-15-2026-the-enterprise-strikes-back",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is primarily a macro/consumer resilience roundup sourced from bank earnings calls, with the AI enterprise cost angle (the headline hook) locked behind a paywall \u2014 making the shortlist summary materially misleading about the actual accessible content."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "Health Services Deal Value Holds Steady in 2026 With Higher Bar for Investment: PwC",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/health-services-deal-value-remained-resilient-2026-higher-bar-investment-pwc",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive, data-rich analysis from PwC's midyear M&A outlook with specific deal volume figures, subsector breakdowns, and named transactions \u2014 well beyond a thin summary \u2014 and fits Slot 2's finance/macro mandate with healthcare-adjacent M&A dynamics."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "AI Agents Are Going Off Script: Health Systems Are Figuring It Out in Real Time",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ai-agents-are-going-off-script-health-systems-are-figuring-it-out-in-real-time/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is thin and anecdote-driven \u2014 a collection of brief CIO quotes about AI agent misbehavior with no data, no vendor analysis, and no actionable depth \u2014 falling well short of the analytical standard required for Slot 3, and sourced from Becker's which is not a priority tech/AI domain."
+  },
+  {
+    "date": "2026-06-18",
+    "headline": "McKinsey: The Health System CEO Imperative \u2014 Turning AI's Promise Into Performance",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019edb1a6311a61decf4bbe5be68/3ee4a3d8434146e20000021ef3a0bcc2/3ee4a3d8-4341-46e2-a298-6ae6aedb2b3a?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rjbRPlBM1uClSrZVyR7LfNNCe6AilCxV_gf5a-c62SIsKXEyqqbdiUIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source and the topic \u2014 CEO-level AI governance frameworks for health systems scaling from pilot to enterprise \u2014 aligns strongly with the reader's data infrastructure and AI impact preferences and fits Slot 3's enterprise AI adoption theme."
   }
 ]

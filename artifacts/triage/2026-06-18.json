@@ -1,6 +1,6 @@
 {
   "run_date": "2026-06-18",
-  "generated_at": "2026-06-18T00:59:21Z",
+  "generated_at": "2026-06-18T14:56:28Z",
   "triage_queue": [
     {
       "candidate_id": "cf2131367d6565cf",
@@ -134,30 +134,31 @@
       "triage_score": 9
     },
     {
-      "candidate_id": "97b3b24f8bf82869",
+      "candidate_id": "d131644fd1e3973f",
       "run_date": "2026-06-18",
       "source_type": "tier2",
       "source_name": "Hacker News",
-      "headline": "Lore \u2013 Open source version control system designed for scalability",
-      "snippet": "Lore \u2013 Open source version control system designed for scalability",
-      "primary_url": "https://lore.org/",
+      "headline": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
+      "snippet": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
+      "primary_url": "https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/",
       "urls": [
-        "https://lore.org/"
+        "https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/"
       ],
       "category": "tech_ai",
       "priority": "normal",
       "tier": 2,
-      "score": 954,
+      "score": 201,
       "sender_email": null,
       "sender": null,
       "published_at": null,
       "derived_signals": [
         "source_type:tier2",
-        "hn_score:954",
+        "hn_score:201",
         "category:tech_ai",
-        "ticker:DSGN"
+        "ticker:MSFT",
+        "ticker:OTLK"
       ],
-      "triage_score": 5
+      "triage_score": 7
     },
     {
       "candidate_id": "2e4cf7bf60132486",

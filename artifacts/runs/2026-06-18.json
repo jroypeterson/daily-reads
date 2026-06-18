@@ -1,8 +1,8 @@
 {
   "run_date": "2026-06-18",
-  "generated_at": "2026-06-18T00:59:21Z",
+  "generated_at": "2026-06-18T14:56:28Z",
   "counts": {
-    "gmail_items": 114,
+    "gmail_items": 123,
     "tier2_items": 90,
     "selected_articles": 3
   },
@@ -12,54 +12,56 @@
   },
   "articles": [
     {
-      "article_id": "86d361f7b68879d5",
-      "headline": "UniQure to File Gene Therapy for Approval, Reflecting Major Shifts at FDA",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/uniqure-fda-gene-therapy-huntingtons-approval-filing-leadership/823163/",
+      "article_id": "da56b339a27a1ed4",
+      "headline": "Midjourney Medical: AI Image Company Unveils Full-Body Ultrasonic Scanner",
+      "source": "Midjourney (via Hacker News)",
+      "url": "https://www.midjourney.com/medical/blogpost",
       "slot": 1,
-      "summary": "UniQure announced it will file a BLA for its Huntington's disease gene therapy AMT-130 in Q3 2026 after the FDA reversed course and agreed that three years of Phase 1/2 data are sufficient to support accelerated approval \u2014 a dramatic shift from March when the agency publicly criticized the program's evidence. The reversal followed the departures of FDA Commissioner Makary, acting drug review director H\u00f8eg, and Vinay Prasad, who had been a vocal critic of expedited gene therapy approvals and was widely suspected to be behind the anonymous FDA briefing that hammered QURE shares earlier this year. Analysts at RBC and William Blair view the development as a positive signal not just for QURE (shares +80%) but for other rare disease gene therapy programs that faced unexpected regulatory headwinds under prior leadership.",
-      "why_it_matters": "A directly actionable QURE catalyst with a defined BLA filing window, plus a leading indicator that the FDA's posture toward accelerated approval for rare disease gene therapies has meaningfully shifted, with read-through implications for other stalled programs in the sector.",
+      "summary": "Midjourney has announced Midjourney Medical, a new division launching a full-body ultrasonic CT scanner using ~500,000 transducers to generate MRI-grade whole-body imaging in ~60 seconds with no radiation, processing roughly 17GB/s of data across a large compute cluster. The hardware is built on an exclusive technology license from Butterfly Network (BFLY) signed in late 2025, with the first consumer 'Midjourney Spa' planned for San Francisco in late 2027. The company has stated ambitious targets of 50,000 scanners and 1 billion scans per month by 2031, framing the product as a casual, consumer wellness experience rather than a clinical device.",
+      "why_it_matters": "Midjourney's entry into medical imaging at consumer scale \u2014 backed by a BFLY exclusive license \u2014 is a direct competitive and M&A signal for diagnostic imaging incumbents (GE HealthCare, Siemens Healthineers) and raises immediate questions about BFLY's strategic positioning, while the mass-scale body data infrastructure play is highly relevant to digital health and AI-in-biology investors.",
       "signal_tags": [
-        "ticker_match:QURE",
-        "catalyst_proximity",
-        "high_priority_source:BioPharma_Dive",
-        "novelty",
-        "actionability"
-      ],
-      "reading_time": "4 min"
-    },
-    {
-      "article_id": "d5e32cdb8ae25281",
-      "headline": "Leaked OpenAI Financials Show $38.5B Loss and $13B Revenue Ahead of IPO",
-      "source": "Hacker News (Ars Technica)",
-      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
-      "slot": 2,
-      "summary": "Leaked audited financials show OpenAI tripled revenue to $13.07B in 2025 but saw operating losses balloon to $20.92B, with R&D alone hitting $19.18B \u2014 including $10.59B paid to Microsoft. Cost of revenue nearly tripled to $7.5B, reflecting surging inference compute costs, while sales and marketing jumped to $5.73B. The documents surfaced as OpenAI confidentially files for its IPO and faces a 42-state AG subpoena over its non-profit-to-for-profit conversion.",
-      "why_it_matters": "OpenAI's $17B+ in payments to Microsoft for compute directly validates the data infrastructure spend thesis and raises critical questions about AI unit economics that have forward implications for cloud hyperscaler revenues (MSFT, AMZN) and the sustainability of the current AI build-out.",
-      "signal_tags": [
+        "ticker_match:BFLY",
+        "AI_and_biology_intersection",
+        "health_technology_datasets",
         "novelty",
         "actionability",
-        "data_infrastructure",
-        "AI_impact",
-        "hn_score:253"
+        "high_hn_score:1053"
       ],
-      "reading_time": "3 min"
+      "reading_time": "5 min"
     },
     {
-      "article_id": "eebdaacc276c917d",
-      "headline": "McKinsey: AI in Life Sciences Explained \u2014 The Technology That Could Reinvent Medicine",
-      "source": "McKinsey",
-      "url": "https://email.mckinsey.com/T/v710000019ed21741dca707e8f4bbe5be68/b7380f5796364b170000021ef3a0bcc2/b7380f57-9636-4b17-97a6-adca519744b5",
-      "slot": 3,
-      "summary": "McKinsey's explainer synthesizes how AI is transforming life sciences across drug discovery, clinical development, and commercial operations, with focus on generative models for target identification and AI-assisted regulatory submissions. The piece reflects McKinsey's current research agenda and serves as a strategic framework for understanding where biopharma is directing AI investment. It directly maps to the reader's core thesis around AI applied to healthcare and biology.",
-      "why_it_matters": "McKinsey's frameworks are often leading indicators of large pharma capital allocation shifts, making this a useful strategic lens for assessing AI-in-healthcare investment risk/reward across the biopharma pipeline.",
+      "article_id": "a1361976c72bd7b8",
+      "headline": "Health Services Deal Value Holds Steady in 2026 With Higher Bar for Investment: PwC",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/finance/health-services-deal-value-remained-resilient-2026-higher-bar-investment-pwc",
+      "slot": 2,
+      "summary": "PwC's midyear 2026 health services M&A outlook finds deal volume softening (300 deals in Q1 2026, down from 324 in Q3 2025) while total deal value held resilient at $18B in Q1, driven by larger, conviction-backed transactions. Physician medical groups captured a record 46% of Q1 deal volume with 18% year-over-year growth, while eHealth captured 61% of disclosed deal value despite a 29% drop in deal count. Strategic acquirers and PE sponsors are shifting their primary question from growth to earnings sustainability and reimbursement predictability, with policy uncertainty around Medicare Advantage and government-sponsored populations serving as the key overhang.",
+      "why_it_matters": "PwC's granular subsector data and the 'repricing of risk' framework give investors a practical lens for identifying which healthcare assets (reimbursement-stable, cash-generative platforms in dentistry, oncology, ophthalmology, behavioral health) are most likely to attract premium M&A multiples in H2 2026.",
       "signal_tags": [
-        "high_priority_source:McKinsey",
-        "AI_biology_intersection",
-        "novelty",
-        "actionability"
+        "venture_capital_insights",
+        "investment_relevant_insights",
+        "actionability",
+        "analytical_depth",
+        "novelty"
       ],
-      "reading_time": "6 min"
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "69ca3a58c5e63c11",
+      "headline": "McKinsey: The Health System CEO Imperative \u2014 Turning AI's Promise Into Performance",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019edb1a6311a61decf4bbe5be68/3ee4a3d8434146e20000021ef3a0bcc2/3ee4a3d8-4341-46e2-a298-6ae6aedb2b3a?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rjbRPlBM1uClSrZVyR7LfNNCe6AilCxV_gf5a-c62SIsKXEyqqbdiUIku-X8Mf0Jg%3D",
+      "slot": 3,
+      "summary": "McKinsey presents a structured action guide for health system CEOs on translating AI investments into measurable operational outcomes, covering care delivery transformation, talent reallocation, and the governance mechanisms required to move AI initiatives from isolated pilots to enterprise-wide deployment. The piece is framed as prescriptive rather than descriptive, targeting executive decision-makers rather than technologists. It implicitly signals where health system AI spending is heading, which has downstream relevance for health IT vendors.",
+      "why_it_matters": "CEO-level intent and governance frameworks from McKinsey function as leading indicators of enterprise AI procurement cycles, making this directly relevant to assessing demand trajectories for health IT and digital health platform companies in the coverage universe.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:HCAT",
+        "AI_impact",
+        "investment_relevant_insights",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min"
     }
   ]
 }

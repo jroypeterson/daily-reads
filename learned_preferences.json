@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-06-18T00:50:12Z",
+  "updated_at": "2026-06-18T14:49:06Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -9,7 +9,7 @@
       "evidence_ids": [
         "ev_c1f79a0309332bde"
       ],
-      "last_updated": "2026-06-18T00:50:12Z"
+      "last_updated": "2026-06-18T14:49:06Z"
     },
     {
       "name": "AI and biology intersection",
@@ -44,7 +44,7 @@
         "ev_2e87e7ed94e83b6c",
         "ev_2388bc9a1c26358d"
       ],
-      "last_updated": "2026-06-18T00:50:12Z"
+      "last_updated": "2026-06-18T14:49:06Z"
     },
     {
       "name": "corporate governance",
@@ -177,15 +177,15 @@
     }
   ],
   "evidence_summary": {
-    "total": 22,
+    "total": 23,
     "by_kind": {
       "positive_exemplar": 12,
-      "daily_rating_3": 7,
+      "daily_rating_3": 8,
       "daily_rating_1": 3
     },
     "by_channel": {
       "email": 12,
-      "daily_scoring": 10
+      "daily_scoring": 11
     }
   },
   "score_scale": {
