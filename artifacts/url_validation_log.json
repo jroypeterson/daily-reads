@@ -808,5 +808,17 @@
       "substack_dropped": 0
     },
     "warned_articles": []
+  },
+  {
+    "date": "2026-06-19",
+    "checked_unique": 67,
+    "checked_slots": 68,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
   }
 ]

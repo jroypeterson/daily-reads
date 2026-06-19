@@ -4111,5 +4111,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey is a high-priority source and the topic \u2014 CEO-level AI governance frameworks for health systems scaling from pilot to enterprise \u2014 aligns strongly with the reader's data infrastructure and AI impact preferences and fits Slot 3's enterprise AI adoption theme."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Moderna flu vaccine wins unanimous support from FDA panel",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/moderna-mflusiva-mrna-flu-vaccine-fda-committee-vote/823275/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article has substantial depth covering the regulatory history, clinical data specifics, panel deliberations, and commercial implications of a hard PDUFA catalyst (August 5) for a major ticker (MRNA), fitting Slot 1 criteria precisely."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "AI in life sciences explained: The technology that could reinvent medicine",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/ai-in-life-sciences-explained-the-technology-that-could-reinvent-medicine",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Slot 3 (Tech/AI) article misassigned to Slot 2 (Finance/Macro) \u2014 it's a McKinsey strategic explainer on AI in life sciences, not a finance or macro piece, and it was already flagged as an exemplar for daily_scoring in Slot 3."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "What's Embedded in OpenAI's Stock Price?",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/whats-embedded-in-openais-stock-price",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-priority analytical source and this reverse-engineering valuation framework for OpenAI offers genuine depth relevant to AI infrastructure investing and public comps like Microsoft and Google."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "The Enterprise Strikes Back",
+    "source": "The Transcript (Substack)",
+    "url": "https://thetranscript.substack.com/p/06-15-2026-the-enterprise-strikes-back",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the AI-focused content (enterprise pushback on AI costs) is locked behind a premium subscription, leaving only a generic macro/consumer-resilience synthesis visible, which does not meet the Slot 3 Tech/AI criteria and conflicts with the reader's 'avoid paywalled content' preference."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Apollo and what even is private credit?",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) but is clearly a Finance/Markets piece about private credit and Apollo \u2014 and critically, the full article text reveals only teaser fragments and a list of upcoming posts, not substantive content about private credit mechanics or Apollo's business model."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "OpenAI says new ChatGPT model tops physician-written health answers",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/openai-says-new-chatgpt-model-tops-physician-written-health-answers/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief from a non-priority source (Becker's Hospital Review) that summarizes OpenAI's self-reported benchmark claims without independent analysis, depth, or actionable investment insight beyond what the shortlist summary already captures."
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "A look at Epic's long-term play to build tech for operations, starting with scheduling",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/look-epics-long-term-play-build-tech-operations-starting-scheduling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a product feature announcement about Epic's Teamwork scheduling module \u2014 it reads more as vendor marketing than deep tech/AI analysis, lacks investment-grade insight, and doesn't meaningfully address AI, data infrastructure breakthroughs, or foundational model advances required for Slot 3."
   }
 ]
