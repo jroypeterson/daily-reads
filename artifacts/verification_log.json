@@ -4174,5 +4174,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a product feature announcement about Epic's Teamwork scheduling module \u2014 it reads more as vendor marketing than deep tech/AI analysis, lacks investment-grade insight, and doesn't meaningfully address AI, data infrastructure breakthroughs, or foundational model advances required for Slot 3."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "FDA Advisory Panel Endorses Moderna mRNA Flu Vaccine That Was Subject of Controversy",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ subscription required), meaning the full content is inaccessible \u2014 matching the 'paywalled content' AVOID pattern explicitly flagged in the reader taste profile."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "AI in Life Sciences Explained: The Technology That Could Reinvent Medicine",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/ai-in-life-sciences-explained-the-technology-that-could-reinvent-medicine",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source, the topic directly aligns with the reader's strongest preferences (AI-biology intersection, AI drug discovery, analytical depth), and the summary suggests substantive strategic content rather than thin reporting."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "The Enterprise Strikes Back",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/06-15-2026-the-enterprise-strikes-back",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantive earnings-call intelligence on two high-relevance themes \u2014 macro resilience confirmed by major bank and PE executives, and enterprise AI cost pushback \u2014 making it well-suited for the Finance/Macro slot with strong actionability for portfolio positioning."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "The Stuff of Myth(os) (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-stuff-of-mythos",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter digest/table of contents \u2014 it contains only brief teasers and bullet-point summaries of underlying Stratechery content, not substantive analysis itself, making it too thin to satisfy the analytical depth preference."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "Biogen Bets Up to $1B for RayThera's Immunology Pipeline; UniQure Plans Q3 Huntington's Filing as FDA Opens Door",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1380783?pk=LabCorp-WB-062326-LSWD-nl-061526&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a webinar promotional advertisement about molecular residual disease (MRD) biomarkers in oncology \u2014 it contains no substance about Biogen/RayThera, UniQure, or any of the topics described in the shortlist summary, and it does not match Slot 3's Tech/AI theme."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "Apollo and What Even Is Private Credit?",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is a fragment/teaser with no substantive content about private credit or Apollo \u2014 it's essentially a table of contents and promotional material for upcoming posts, not the actual deep-dive described in the shortlist summary."
+  },
+  {
+    "date": "2026-06-20",
+    "headline": "A Look at Epic's Long-Term Play to Build Tech for Operations, Starting with Scheduling",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/look-epics-long-term-play-build-tech-operations-starting-scheduling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement / vendor feature article about Epic's Teamwork scheduling module \u2014 it lacks the analytical depth, AI focus, or foundational tech insight required for Slot 3 (Tech/AI), and reads more like a trade press product profile than an investment-relevant technology analysis."
   }
 ]

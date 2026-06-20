@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-06-19T14:44:41Z",
+  "updated_at": "2026-06-20T13:30:32Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -9,14 +9,17 @@
       "evidence_ids": [
         "ev_c1f79a0309332bde"
       ],
-      "last_updated": "2026-06-19T14:44:41Z"
+      "last_updated": "2026-06-20T13:30:27Z"
     },
     {
       "name": "AI and biology intersection",
       "strength": "strong",
       "direction": "positive",
       "evidence_ids": [
-        "email_biology_ai_fwd"
+        "email_biology_ai_fwd",
+        "daily_scoring_isomorphic_labs",
+        "daily_scoring_mckinsey_ai_lifesciences",
+        "daily_scoring_fda_genome_editing"
       ]
     },
     {
@@ -24,7 +27,8 @@
       "strength": "strong",
       "direction": "positive",
       "evidence_ids": [
-        "email_biology_ai_fwd"
+        "email_biology_ai_fwd",
+        "daily_scoring_isomorphic_labs"
       ]
     },
     {
@@ -44,7 +48,7 @@
         "ev_2e87e7ed94e83b6c",
         "ev_2388bc9a1c26358d"
       ],
-      "last_updated": "2026-06-19T14:44:41Z"
+      "last_updated": "2026-06-20T13:30:27Z"
     },
     {
       "name": "corporate governance",
@@ -60,7 +64,8 @@
       "strength": "moderate",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_fda_rejections"
+        "daily_scoring_fda_rejections",
+        "daily_scoring_fda_genome_editing"
       ]
     },
     {
@@ -73,10 +78,14 @@
     },
     {
       "name": "AI impact",
-      "strength": "moderate",
+      "strength": "strong",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_jpmorgan_dimon"
+        "daily_scoring_jpmorgan_dimon",
+        "daily_scoring_mckinsey_ai_lifesciences",
+        "daily_scoring_isomorphic_labs",
+        "daily_scoring_midjourney_medical",
+        "email_biology_ai_fwd"
       ]
     },
     {
@@ -93,6 +102,47 @@
       "direction": "positive",
       "evidence_ids": [
         "daily_scoring_epic_alerts"
+      ]
+    },
+    {
+      "name": "gene therapy development",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_fda_genome_editing"
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "strength": "strong",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_isomorphic_labs",
+        "daily_scoring_mckinsey_ai_lifesciences"
+      ]
+    },
+    {
+      "name": "medical imaging technology",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_midjourney_medical"
+      ]
+    },
+    {
+      "name": "health software SaaS",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_veeva_1q26"
+      ]
+    },
+    {
+      "name": "private markets risks",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_jpmorgan_dimon"
       ]
     }
   ],
@@ -118,18 +168,37 @@
       "strength": "moderate",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_fda_rejections"
+        "daily_scoring_fda_rejections",
+        "daily_scoring_fda_genome_editing"
+      ]
+    },
+    {
+      "name": "management consulting research",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_mckinsey_ai_lifesciences"
+      ]
+    },
+    {
+      "name": "equity research reports",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_veeva_1q26"
       ]
     }
   ],
   "style_preferences": [
     {
       "name": "analytical depth",
-      "strength": "moderate",
+      "strength": "strong",
       "direction": "positive",
       "evidence_ids": [
         "daily_scoring_jpmorgan_dimon",
-        "daily_scoring_fda_rejections"
+        "daily_scoring_fda_rejections",
+        "daily_scoring_veeva_1q26",
+        "daily_scoring_mckinsey_ai_lifesciences"
       ]
     },
     {
@@ -138,6 +207,26 @@
       "direction": "positive",
       "evidence_ids": [
         "email_biology_ai_fwd",
+        "daily_scoring_epic_alerts",
+        "daily_scoring_veeva_1q26",
+        "daily_scoring_isomorphic_labs"
+      ]
+    },
+    {
+      "name": "forward-looking perspective",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "daily_scoring_jpmorgan_dimon",
+        "daily_scoring_fda_genome_editing",
+        "daily_scoring_mckinsey_ai_lifesciences"
+      ]
+    },
+    {
+      "name": "novel dataset coverage",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
         "daily_scoring_epic_alerts"
       ]
     }
@@ -177,15 +266,15 @@
     }
   ],
   "evidence_summary": {
-    "total": 23,
+    "total": 24,
     "by_kind": {
       "positive_exemplar": 12,
-      "daily_rating_3": 8,
+      "daily_rating_3": 9,
       "daily_rating_1": 3
     },
     "by_channel": {
       "email": 12,
-      "daily_scoring": 11
+      "daily_scoring": 12
     }
   },
   "score_scale": {
@@ -193,5 +282,5 @@
     "2": "Fine",
     "3": "Strong pick"
   },
-  "last_synthesis": "2026-04-14T13:05:43Z"
+  "last_synthesis": "2026-06-20T13:30:32Z"
 }

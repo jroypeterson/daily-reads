@@ -208,5 +208,17 @@
     "url": "https://email.mckinsey.com/T/v710000019ed21741dca707e8f4bbe5be68/b7380f5796364b170000021ef3a0bcc2/b7380f57-9636-4b17-97a6-adca519744b5",
     "article_source": "McKinsey",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-06-18",
+    "slot": 1,
+    "score": 3,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "da56b339a27a1ed4",
+    "headline": "Midjourney Medical: AI Image Company Unveils Full-Body Ultrasonic Scanner",
+    "url": "https://www.midjourney.com/medical/blogpost",
+    "article_source": "Midjourney (via Hacker News)",
+    "source": "email_reply"
   }
 ]
