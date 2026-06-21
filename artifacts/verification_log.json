@@ -4237,5 +4237,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a product announcement / vendor feature article about Epic's Teamwork scheduling module \u2014 it lacks the analytical depth, AI focus, or foundational tech insight required for Slot 3 (Tech/AI), and reads more like a trade press product profile than an investment-relevant technology analysis."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin news brief about a talent move with no analytical depth, no healthcare/biotech investment implications, and belongs in Slot 3 (Tech/AI) rather than Slot 1 (Healthcare/Biotech) \u2014 the article itself contains almost no substance beyond the announcement."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "FDA advisory panel endorses Moderna mRNA flu vaccine that was subject of controversy",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWWmD25VvxmwW2prZwm6wFNNnW5BVC1m5Qs76fN4Tr4Nj3qgz0W7lCdLW6lZ3nqW4dZbTP2XmNLHW6PySrt1kSgjdW2B4Sx93znwKrW4RNgYD69l36pW2xD8gd49sp9RW2SNxNw2JZjtJVShNGs8zcZ3QVnWDwJ5_CnZ7N3JvDXzhtqKrW9kKV6d3NlNlLW6NtlMX4hc4fpW5CT6bq50Lb4fW27X2sW68Kp4XW35_HlN2lFVmQW1dBJHZ4rZ6QNW5-RymW5ppCBHW15vSKp2rvmYtW4M5zcP2Mjyt_N2pln9NQ7JCSW5k9dKx3ljcl0W1nmRTh56hmckW7gkfNQ36_FddVyrFWS6gQQZPW77rBtB4qgGn0f4Ll1-404",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall page with no substantive content \u2014 only subscription marketing copy \u2014 making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "AI in life sciences explained: The technology that could reinvent medicine",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/ai-in-life-sciences-explained-the-technology-that-could-reinvent-medicine",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "This is an exemplar-match article \u2014 a substantive McKinsey piece on AI in life sciences that directly aligns with the reader's strongest topic preferences (AI/biology intersection, AI impact) and mirrors a previously high-rated content pattern."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "A look at Epic's long-term play to build tech for operations, starting with scheduling",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/look-epics-long-term-play-build-tech-operations-starting-scheduling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product launch/feature announcement for Epic's EpicOps ERP suite \u2014 it fits health software SaaS and data infrastructure themes the reader values, but it does not match Slot 2 (Finance/Macro), which requires macro moves, earnings, sector rotation, or policy impact on markets; it belongs in Slot 3 or Slot 4 at best."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "What's Embedded in OpenAI's Stock Price?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/whats-embedded-in-openais-stock-price",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality analytical source, and a reverse-engineered valuation framework on OpenAI's private market pricing is substantive, forward-looking, and directly relevant to AI infrastructure investing \u2014 matching both the reader's strong preferences for analytical depth and the finance/macro slot."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "The Stuff of Myth(os) (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-stuff-of-mythos",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter digest/table of contents with only brief editorial blurbs \u2014 it lacks the analytical depth required for Slot 3, and the Anthropic content is a teaser pointing to paywalled full articles rather than substantive analysis itself."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "Apollo and what even is private credit?",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a fragment/teaser with no substantive content \u2014 it contains only a one-sentence opening and then unrelated post previews and announcements, meaning there is no actual deep-dive content to evaluate for Slot 3 (Tech/AI), and the piece is about private credit finance, not technology or AI."
+  },
+  {
+    "date": "2026-06-21",
+    "headline": "Healthcare organizations still struggle to operationalize AI at scale: Arcadia survey",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-implementation-lagging-across-us-healthcare-organizations-arcadia-survey",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin survey summary with generic statistics and executive quotes, lacking the analytical depth and actionable insight the reader profile requires \u2014 it reads as a press release for Arcadia rather than a substantive analysis of AI adoption barriers."
   }
 ]

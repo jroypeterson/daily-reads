@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-06-20T13:30:32Z",
+  "updated_at": "2026-06-21T13:50:10Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -9,7 +9,7 @@
       "evidence_ids": [
         "ev_c1f79a0309332bde"
       ],
-      "last_updated": "2026-06-20T13:30:27Z"
+      "last_updated": "2026-06-21T13:50:10Z"
     },
     {
       "name": "AI and biology intersection",
@@ -48,7 +48,7 @@
         "ev_2e87e7ed94e83b6c",
         "ev_2388bc9a1c26358d"
       ],
-      "last_updated": "2026-06-20T13:30:27Z"
+      "last_updated": "2026-06-21T13:50:10Z"
     },
     {
       "name": "corporate governance",
@@ -106,20 +106,21 @@
     },
     {
       "name": "gene therapy development",
-      "strength": "moderate",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_fda_genome_editing"
-      ]
+        "ev_d708fbaadd2afdb4"
+      ],
+      "last_updated": "2026-06-21T13:50:10Z"
     },
     {
       "name": "AI drug discovery",
-      "strength": "strong",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_isomorphic_labs",
-        "daily_scoring_mckinsey_ai_lifesciences"
-      ]
+        "ev_184418fa0b02520e"
+      ],
+      "last_updated": "2026-06-21T13:50:10Z"
     },
     {
       "name": "medical imaging technology",
