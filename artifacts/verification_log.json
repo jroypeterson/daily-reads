@@ -4309,5 +4309,149 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a thin survey summary with generic statistics and executive quotes, lacking the analytical depth and actionable insight the reader profile requires \u2014 it reads as a press release for Arcadia rather than a substantive analysis of AI adoption barriers."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "AbbVie to Acquire Apogee Therapeutics, Deepening Immunology Portfolio (~$10.9B)",
+    "source": "STAT News / BioPharma Dive",
+    "url": "https://www.statnews.com/2026/06/22/abbvie-apogee-acquisition-immunology-zumilokibart/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ exclusive content \u2014 only the lede paragraph is visible, making it too thin to verify substance or depth beyond what the shortlist summary already states."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "FDA to Speed Up Early-Stage Clinical Trials with AI-Powered Pilot Program",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/22/fda-speed-up-early-stage-single-study-clinical-trials/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ exclusive) and the visible content is too thin to confirm the depth claimed in the shortlist summary \u2014 the full substance is inaccessible to readers."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Scuttleblurb: Apollo and What Even Is Private Credit?",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/apollo2",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Finance/Markets article about Apollo Global Management and private credit \u2014 it does not match Slot 1's Healthcare/Biotech theme (FDA decisions, clinical trials, biopharma M&A, pipeline news)."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "The Stuff of Myth(os): This Week in Stratechery \u2014 Anthropic, E-Commerce in the Age of AI",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-stuff-of-mythos",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Stratechery weekly digest newsletter index, not a substantive article \u2014 the Anthropic content is a brief paragraph teaser, and the article belongs in Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "The Health System CEO Imperative: Turning AI's Promise Into Performance",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/healthcare/our-insights/the-health-system-ceo-imperative-turning-ais-promise-into-performance",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "Despite strong analytical framing, this is a McKinsey consulting piece targeting health system CEOs on AI transformation strategy \u2014 it fits Slot 4 (Wildcard/Consulting) far better than Slot 1 (Healthcare/Biopharma), which requires FDA decisions, clinical trial data, M&A, or pipeline news; it has no biopharma or biotech investment catalyst."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "A Look at Epic's Long-Term Play to Build Tech for Operations, Starting with Scheduling",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/look-epics-long-term-play-build-tech-operations-starting-scheduling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement / vendor feature article about Epic's Teamwork scheduling module \u2014 it belongs in health IT trade press and lacks the FDA decisions, clinical trial data, M&A, or pipeline news required for Slot 1; it also doesn't match the reader's strong preferences for analytical depth or investment-relevant insights, and reads more like a vendor case study than a strategic analysis."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Prosper AI Lands $30M Backed by Andreessen Horowitz to Build AI Workforce for Healthcare Operations",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/prosper-ai-lands-30m-backed-andreessen-horowitz-build-ai-workforce",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a startup funding announcement with marketing-heavy quotes and no hard financials, public company implications, or deep analytical substance \u2014 it fits the reader's interest in health software SaaS and VC-backed AI, but lacks the analytical depth and investment relevance required for Slot 1, which prioritizes FDA decisions, clinical trial data, M&A, and pipeline news over Series A press releases."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "The Transcript: A New Chapter \u2014 Fed Chair on a New Era for Monetary Policy",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/06-22-2026-a-new-chapter",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Finance/Macro article (Slot 2 material at best) covering Fed Chair Warsh's communication philosophy and consumer spending trends \u2014 it has no healthcare or biopharma content and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "AbbVie to Acquire Apogee Therapeutics, Deepening Immunology Portfolio",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/abbvie-apogee-acquire-zumilokibart-eczema-drugs/823353/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Substantive M&A article with direct ticker matches (ABBV, APGE), clear investment catalyst (deal close Q3 2026), competitive context against Dupixent, and analyst commentary adding depth beyond a press release rehash."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "FDA to Speed Up Early-Stage Clinical Trials with Pilot Program",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/22/fda-speed-up-early-stage-single-study-clinical-trials/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ subscribers only), meaning the full content is inaccessible and the substantive depth cannot be verified beyond the lede \u2014 matching a documented 'avoid' pattern from recent misses."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "The Health System CEO Imperative: Turning AI's Promise into Performance",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/healthcare/our-insights/the-health-system-ceo-imperative-turning-ais-promise-into-performance",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source with strong reader taste alignment, and the report's focus on AI integration complexity and ROI quantification in health systems directly intersects the reader's strong preferences for data infrastructure, AI impact, and analytical depth \u2014 fitting the Wildcard/Curiosity slot better but defensible here given healthcare-adjacent finance framing."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Apollo and What Even Is Private Credit?",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/apollo2",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Finance/Markets article (private credit, Apollo AUM, credit underwriting) that belongs in Slot 2, not Slot 3 \u2014 it contains no AI, tech, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "The Enterprise Strikes Back",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/06-15-2026-the-enterprise-strikes-back",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after the macro section, and the visible content is a generic earnings-call roundup on consumer resilience and inflation \u2014 not the AI enterprise spending/ROI analysis promised by the headline and shortlist summary."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Is China Closing the A.I. Gap Faster Than Expected?",
+    "source": "NYT Business (DealBook)",
+    "url": "https://www.nytimes.com/2026/06/22/business/dealbook/china-closing-ai-gap.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full content is inaccessible, leaving only a brief teaser, making it impossible to verify substance or depth, and directly matching the reader's documented 'AVOID' pattern for paywalled content."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "What's Embedded in OpenAI's Stock Price?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/whats-embedded-in-openais-stock-price",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a well-regarded analytical newsletter known for deep valuation work, and reverse-engineering OpenAI's implied growth expectations is substantive, investment-relevant content that aligns with the reader's strong preferences for analytical depth, private markets, and AI impact."
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "A Look at Epic's Long-Term Play to Build Tech for Operations, Starting with Scheduling",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/look-epics-long-term-play-build-tech-operations-starting-scheduling",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on Epic's ERP strategy, includes real deployment data and executive quotes, and aligns with the reader's strong interest in data infrastructure and health software SaaS \u2014 fitting Slot 4's 'would I forward this?' test."
   }
 ]
