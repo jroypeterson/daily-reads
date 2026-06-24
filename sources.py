@@ -275,6 +275,24 @@ SOURCES = {
         "priority": "high",
         "always_read": True,
     },
+    "msim.fund@morganstanley.com": {
+        "name": "Consilient Observer",
+        "email": "msim.fund@morganstanley.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "monthly",
+        "priority": "high",
+        "always_read": True,
+        # Morgan Stanley Investment Management's fund address sends the
+        # Counterpoint Global Insights research (Mauboussin's Consilient
+        # Observer series) AND generic fund marketing/factsheets. Whitelist
+        # only the research banner so the must-read lane never fills with
+        # fund promos (same pattern as the VII entry above).
+        "subject_allow": [
+            r"Consilient Observer",
+            r"Counterpoint Global Insights",
+        ],
+    },
 }
 
 
