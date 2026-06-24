@@ -1,0 +1,83 @@
+{
+  "run_date": "2026-06-22",
+  "generated_at": "2026-06-22T16:41:27Z",
+  "counts": {
+    "gmail_items": 111,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6c78eb8d810d45c3",
+      "headline": "AbbVie to Acquire Apogee Therapeutics, Deepening Immunology Portfolio",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/abbvie-apogee-acquire-zumilokibart-eczema-drugs/823353/",
+      "slot": 1,
+      "summary": "AbbVie announced a $10.9 billion acquisition of Apogee Therapeutics at $135.11/share (49% premium), its largest deal since the 2020 Allergan buyout. The deal centers on zumilokibart, a half-life-extended IL-13 antibody for atopic dermatitis and asthma requiring only 2\u20134 injections per year versus Dupixent's every-two-week dosing, with Phase 2 data showing ~two-thirds of patients achieving significant skin clearance at 16 weeks. The acquisition adds to a broader 2025 biopharma M&A wave that is on pace to exceed every year since 2020, and analysts note other Paragon Therapeutics spinouts (Spyre, Oruka) as potential read-through targets.",
+      "why_it_matters": "The deal is a direct catalyst for ABBV and APGE holders, signals AbbVie's strategic commitment to defending immunology franchise post-Humira, and creates a read-through for other Paragon-lineage biotechs and the wider immunology M&A landscape.",
+      "signal_tags": [
+        "ticker_match:ABBV",
+        "ticker_match:APGE",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "4375d0011926e623",
+      "headline": "The Health System CEO Imperative: Turning AI's Promise into Performance",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/healthcare/our-insights/the-health-system-ceo-imperative-turning-ais-promise-into-performance",
+      "slot": 2,
+      "summary": "McKinsey's June 2025 report finds health systems are saturated with AI point solutions but struggling to generate enterprise-wide value, with 82% of healthcare leaders expecting positive ROI but only 45% able to actually quantify it. The firm argues that closing this gap requires CEO-level commitment to end-to-end operational rewiring rather than continued pilot proliferation. Integration complexity and missing internal capabilities are now the top barriers, shifting the competitive advantage toward platform players who can consolidate fragmented tooling.",
+      "why_it_matters": "Clarifies which health tech infrastructure and SaaS platform vendors are best positioned to capture consolidation value as health systems move from point-solution procurement to enterprise AI platforms \u2014 directly relevant to the clinical-data-foundry investment thesis.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "ticker_match:HCAT",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "5b03d167a78ffefc",
+      "headline": "What's Embedded in OpenAI's Stock Price?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/whats-embedded-in-openais-stock-price",
+      "slot": 3,
+      "summary": "MBI Deep Dives deconstructs OpenAI's secondary market valuation by stress-testing the revenue growth, margin, and competitive durability assumptions baked into its current price. The analysis grapples with the tension between OpenAI's benchmark-setting position and the accelerating commoditization of foundation models. It frames the exercise as a reference point for evaluating AI valuations more broadly across public and private markets.",
+      "why_it_matters": "As OpenAI's valuation anchors pricing expectations across the AI ecosystem \u2014 including healthcare AI ventures \u2014 understanding what growth and margin assumptions are already priced in is critical for assessing relative value in both public AI names and private rounds.",
+      "signal_tags": [
+        "high_priority_source",
+        "venture_capital_insights",
+        "AI_impact",
+        "private_markets_risks",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min"
+    },
+    {
+      "article_id": "3d2dcd6dc1aec8c2",
+      "headline": "A Look at Epic's Long-Term Play to Build Tech for Operations, Starting with Scheduling",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/look-epics-long-term-play-build-tech-operations-starting-scheduling",
+      "slot": 4,
+      "summary": "Epic is building a natively integrated ERP suite called EpicOps exclusively for healthcare operations, starting with Teamwork \u2014 a clinician scheduling module live at five health systems with 11 more installing. The platform aims to consolidate financial, operational, and clinical data in a single system, eliminating reliance on third-party tools like Kronos or manual spreadsheets. Epic plans a phased rollout through 2027, adding credentialing, cost accounting, supply chain, and HR/payroll functions.",
+      "why_it_matters": "Epic's move to own the full operational data layer of health systems is a direct competitive threat to standalone health IT SaaS vendors across scheduling, revenue cycle, and workforce management \u2014 with real displacement already underway at early adopters.",
+      "signal_tags": [
+        "data_infrastructure",
+        "health_software_SaaS",
+        "AI_impact",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}

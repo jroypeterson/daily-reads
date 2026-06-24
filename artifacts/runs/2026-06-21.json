@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-06-21",
+  "generated_at": "2026-06-21T13:57:16Z",
+  "counts": {
+    "gmail_items": 99,
+    "tier2_items": 77,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "fceb59eebf46bc65",
+      "headline": "AI in life sciences explained: The technology that could reinvent medicine",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/ai-in-life-sciences-explained-the-technology-that-could-reinvent-medicine",
+      "slot": 1,
+      "summary": "Three McKinsey life sciences experts break down where AI is delivering real value in pharma, biotech, and medtech across two dimensions: scientific AI (trial modeling, disease subpopulation identification, granularity) and operational AI (document compression, process acceleration). The piece diagnoses why most enterprise AI implementations stall and frames what agentic AI makes newly possible. McKinsey estimates agentic AI could free 25\u201340% of enterprise capacity and add 3\u20137 percentage points of incremental growth in medtech.",
+      "why_it_matters": "Provides a strategic framework for evaluating which life sciences companies are positioned to capture AI-driven productivity gains versus those likely to stall \u2014 directly actionable for portfolio positioning across pharma, biotech, and medtech.",
+      "signal_tags": [
+        "high_priority_source:mckinsey",
+        "ai_biology_intersection",
+        "ai_impact",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "5b03d167a78ffefc",
+      "headline": "What's Embedded in OpenAI's Stock Price?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/whats-embedded-in-openais-stock-price",
+      "slot": 2,
+      "summary": "MBI Deep Dives reverse-engineers the implied assumptions baked into OpenAI's current private market valuation, stress-testing revenue growth, margin trajectories, and market share scenarios against competitive pressure from Anthropic, Google, and Meta. The analysis interrogates whether the current price is justifiable under realistic assumptions or requires heroic optimism. It is structured as a fundamental investment framework rather than a narrative piece, making it actionable for readers assessing AI platform valuations.",
+      "why_it_matters": "As AI infrastructure companies approach public markets at stratospheric valuations (Anthropic reportedly at ~$965B), this kind of scenario-based private market deconstruction gives investors a calibrated framework for evaluating entry points and embedded risk in the AI platform layer.",
+      "signal_tags": [
+        "high_priority_source:MBI",
+        "ai_impact",
+        "private_markets_risks",
+        "venture_capital_insights",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "10 min"
+    }
+  ]
+}

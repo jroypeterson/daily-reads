@@ -196,5 +196,29 @@
     "url": "https://mbideepdives.substack.com/p/veeva-1q26-strong-present-patient?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDA1MzE2NDcsImlhdCI6MTc4MDkyOTY3MCwiZXhwIjoxNzgzNTIxNjcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uwRH35xQPtgABks5-MEwIETadOmsI-ruaoHv5FOj41E",
     "article_source": "MBI",
     "source": "email_reply"
+  },
+  {
+    "date": "2026-06-18",
+    "slot": 3,
+    "score": 3,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "eebdaacc276c917d",
+    "headline": "McKinsey: AI in Life Sciences Explained \u2014 The Technology That Could Reinvent Medicine",
+    "url": "https://email.mckinsey.com/T/v710000019ed21741dca707e8f4bbe5be68/b7380f5796364b170000021ef3a0bcc2/b7380f57-9636-4b17-97a6-adca519744b5",
+    "article_source": "McKinsey",
+    "source": "email_reply"
+  },
+  {
+    "date": "2026-06-18",
+    "slot": 1,
+    "score": 3,
+    "note": "",
+    "channel": "email_reply",
+    "article_id": "da56b339a27a1ed4",
+    "headline": "Midjourney Medical: AI Image Company Unveils Full-Body Ultrasonic Scanner",
+    "url": "https://www.midjourney.com/medical/blogpost",
+    "article_source": "Midjourney (via Hacker News)",
+    "source": "email_reply"
   }
 ]

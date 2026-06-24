@@ -1,0 +1,47 @@
+{
+  "run_date": "2026-06-19",
+  "generated_at": "2026-06-19T14:52:13Z",
+  "counts": {
+    "gmail_items": 110,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b6c4bc279d0048ff",
+      "headline": "Moderna flu vaccine wins unanimous support from FDA panel",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/moderna-mflusiva-mrna-flu-vaccine-fda-committee-vote/823275/",
+      "slot": 1,
+      "summary": "The FDA's VRBPAC voted 9-0 on June 18 to endorse Moderna's mRNA-1010 (mFlusiva) for adults 50 and older, marking the first mRNA-based seasonal flu vaccine to clear this advisory hurdle after a dramatic regulatory reversal \u2014 the FDA had previously issued a Refusal to File letter in February 2026 under then-vaccine chief Vinay Prasad. The approval is based on a New England Journal of Medicine study showing 27% relative efficacy vs. standard-dose flu vaccine, with panelists acknowledging limitations (single flu season, limited influenza B data) but expressing confidence given a large confirmatory trial commitment of up to 800,000 participants. A final FDA decision is expected by August 5, potentially placing the vaccine on shelves for the 2026\u20132027 flu season.",
+      "why_it_matters": "With a hard PDUFA date of August 5 and a unanimous advisory committee vote, this is a near-term binary catalyst for MRNA that could validate the mRNA platform's commercial expansion beyond COVID and open a significant new revenue stream.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "1686b39f4c29ef7e",
+      "headline": "What's Embedded in OpenAI's Stock Price?",
+      "source": "MBI Deep Dives (Substack)",
+      "url": "https://mbideepdives.substack.com/p/whats-embedded-in-openais-stock-price",
+      "slot": 2,
+      "summary": "MBI Deep Dives reverse-engineers the implied assumptions baked into OpenAI's private-market valuation by examining what revenue trajectory, margin profile, and competitive positioning must hold true to justify current secondary market prices. The framework stress-tests key variables \u2014 growth rate, take rates, compute costs, and moat durability \u2014 against plausible scenarios. Despite OpenAI being private, the analysis yields actionable insights for evaluating adjacent public AI infrastructure and platform plays.",
+      "why_it_matters": "Provides a rigorous valuation framework for AI's most consequential private company, directly applicable to assessing public comps and the broader AI infrastructure investment thesis.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "venture_capital_insights"
+      ],
+      "reading_time": "12 min"
+    }
+  ]
+}

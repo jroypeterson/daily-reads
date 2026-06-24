@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-06-20",
+  "generated_at": "2026-06-20T13:37:52Z",
+  "counts": {
+    "gmail_items": 100,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "fceb59eebf46bc65",
+      "headline": "AI in Life Sciences Explained: The Technology That Could Reinvent Medicine",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/ai-in-life-sciences-explained-the-technology-that-could-reinvent-medicine",
+      "slot": 1,
+      "summary": "Three McKinsey life sciences partners assess where AI is delivering real value today in pharma and medtech, identifying why most implementations stall and what agentic AI unlocks. The piece argues for a 'glass box' transparency imperative for regulatory trust, and contends that life sciences firms \u2014 with their existing compliance culture \u2014 are better positioned for responsible AI adoption than most industries. The analysis projects what a fully AI-transformed life sciences sector could look like within a decade.",
+      "why_it_matters": "Provides a strategic framework for evaluating which biopharma and health tech companies are best positioned to capture AI productivity gains, directly relevant to the reader's interest in AI drug discovery and the AI-biology intersection.",
+      "signal_tags": [
+        "high_priority_source",
+        "ai_drug_discovery",
+        "ai_biology_intersection",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min"
+    },
+    {
+      "article_id": "c7a7e9eb82acbc5e",
+      "headline": "The Enterprise Strikes Back",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/06-15-2026-the-enterprise-strikes-back",
+      "slot": 2,
+      "summary": "The Transcript's weekly earnings digest aggregates direct quotes from Blackstone, JPMorgan, Wells Fargo, Citigroup, Capital One, and others painting a consistent picture: the U.S. economy and consumer remain resilient despite Iran war uncertainty, elevated inflation (CPI +4.2% YoY), and headline noise. A second major thread \u2014 paywalled but flagged \u2014 is enterprises pushing back on AI token costs versus value produced, framing the central ROI debate for enterprise AI software adoption.",
+      "why_it_matters": "The convergence of bullish macro signals from top financial executives alongside emerging enterprise AI cost skepticism has direct implications for both financial sector holdings and AI infrastructure/software valuations in the portfolio.",
+      "signal_tags": [
+        "high_priority_source",
+        "ai_impact",
+        "data_infrastructure",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}
