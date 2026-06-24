@@ -4453,5 +4453,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The article has substantive depth on Epic's ERP strategy, includes real deployment data and executive quotes, and aligns with the reader's strong interest in data infrastructure and health software SaaS \u2014 fitting Slot 4's 'would I forward this?' test."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "How Trump's MFN policy is rewriting biopharma dealmaking",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVqJlw2rbHxMW4H2fYF1F7GppW28qdJZ5QGMmzN1-yX_-5nR3bW7Y9pgv6lZ3kQW2TMcM73rcC2lW3TWjhR377wmgW3VSwpJ6HZHWcN21cVB35KL1mW5hWzsh5zRzN9DPnCbyz2fqW6XlT1T5WjMZ2W3XlTld77GhlzW9kx20Z4KZHRcVZ5s5R4bR0BKW94xz7984Vg2vVyDz9c88x--JW7xkNX89j5nN_W7bSYFq9gRRpwW5SHjV_7FdYKjN2RGjcsPR5mfW37RbDW2PSzx9W6GWMJT988tkmW2L4Gtb6G5zq1W2xKrmJ7kwVsxW79bdGT137g37N96bD5J1WwrwW6BH4Nq46KX81W4kq9Bl3nWYQxW8WGFth6DMz5hN5WbNDc9Dr9MW4NBYtK4hhQj5W3gG2Xy2w4DWLW82x60w6ZZ2ZJW59ZdZd9l2rSfW1QQ4FH4SFncLW1844QV8k092xN6jjpLHSL1gnW2lLk1j1Y3Ww3W8t-vZ277R5XMW96PKj42b9MdhW3M6PmB6sm7pxW2QcDgW3fxylGW2526Kf8xlSDMW63N6Yh6nfN1zW2rRSzt7q_5ZXW8FZ1LJ6wL7_Jf3cCwHd04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially an empty newsletter shell \u2014 it contains only a one-sentence teaser, sponsor ads, job listings, and editor contact info, with no actual substantive reporting on MFN policy or dealmaking strategy."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "HHS, responding to China's rise, moves to fast-track early drug research",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/hhs-clinical-trial-streamline-plan-china/823504/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive policy depth covering specific FDA regulatory reforms (IND documentation reduction, flexible trial protocols, rolling submission platform, a pilot network program) with clear structural implications for domestic early-stage drug development, fitting Slot 1 well."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "McKinsey: The health system CEO imperative: Turning AI's promise into performance",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019edb1a6311a61decf4bbe5be68/3ee4a3d8434146e20000021ef3a0bcc2/3ee4a3d8-4341-46e2-a298-6ae6aedb2b3a?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rjbRPlBM1uClSrZVyR7LfNNCe6AilCxV_gf5a-c62SIsKXEyqqbdiUIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source and the topic \u2014 AI deployment at scale in health systems, with focus on data infrastructure and governance \u2014 directly aligns with the reader's strongest preferences and the exemplar articles rated highly."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "Unpacking CMS' decision to recalculate 2026 MA star ratings after Clover Health ruling",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/unpacking-cms-decision-recalculate-2026-ma-star-ratings-after-clover-health-ruling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is clearly a healthcare regulatory/finance story about Medicare Advantage star ratings and belongs in Slot 1 or 2, not Slot 3 (Tech/AI), as it contains no AI, technology, or data infrastructure content."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "AbbVie strikes $10.9B Apogee deal to take on Dupixent",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWFJC34-gTQNW6ZVBtX8vL--LW7Y8zfc5QCb9GN1xVmZM5nR3bW7Y9pgv6lZ3lHW67zJW68dfv61W97c9Sx44Jpt1W2rSjKq8-7sN2W6f7Mlg3TC0CyW79vSzN6YHCDSW4mw2X422rQGhW2DrnQ79fcPFnW8BqKyZ3MN-MXW3k_z9T8rrprhW1XDQfC456N6bW8k2lYW8Q-MC6N3syVRy2wcy0W8bzl_Q54bVHvW6xbXdG2MhmhGW1rKhTf6_wk2KW8s9J0p86PBhsW2BPC8h1wbp87N6hLKsGXCm-0N8KjHKW5n496W72D4cX34CP45W5mxH475sHlz6W2m29sL3rGhxvW7vBHX15hmp89W8k93Fp79nqLJW1FmCvM74yhnmW8Yk0H45LWF0PW97jSm97cjsZgW5J7XGV3CXh1yW5L1VwQ5khLT9N5pph6FPJPVSW60jhk01wm9rVW4vfZ-S1Y_QGgW7Gc3ZG4Ks495V3VjMC5mQpBLW70kxdp1G_P3QW79rLh38gZyHJVdS5S55-LDM8W4jnR3_2DqH2qW12C5nC6M9rdgW9lMS7D4bDsBmW4gsJV07_FzkyW37lNH77tl08Qf4S3Ryv04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a biopharma M&A story best suited for Slot 1 (Healthcare/Biopharma), not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or data infrastructure content."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "Stratechery: The Stuff of Myth(os) \u2014 Anthropic, e-commerce in the age of AI",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-stuff-of-mythos?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zdHVmZi1vZi1teXRob3MvIl19LCJleHAiOjE3ODQ0ODA1NTksImlhdCI6MTc4MTg4ODU1OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiIxZWUxMmEzNC01OGRiLTRjYzYtODY1OS1iZjRmNzkwODk4MDciLCJ1c2UiOiJhY2Nlc3MifQ.vqGFN1L4a-77rFD9h9oqGwrP0FaSmsgjcXEnBkw2muyVEcqNOcoOIqaeu2duF1yGjEyrnNBFKq1fz9Va9Snj4Oxb-Y822dkXnHug_Ib14J44FKD7PLMRcIwXbsk2kTS2Wy5c5-gVN1YkIaprxetQXYw2I_e7-QiDknSteXkw_rErCKzfTAelvoHUPffhR_2sMHYF2dIvNi9qgRC4YRFBtsSS7VvVyubf3JaVma8vk50_XT2qo-la86mHb5KAMGxtnutSO72L4Y-uYnNnWg2apvlhMUbL0FCNt-dzQCtmfau1SpIpMQ9V1_yWWvRCn8vCBkjDyzv8f2avc9jNqvSpmw",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a weekly digest newsletter index \u2014 a table of contents with brief editorial blurbs \u2014 not a substantive analytical piece on Anthropic's competitive positioning or AI's impact on e-commerce; the shortlist summary significantly overstates the depth of the content."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "Scuttleblurb: Apollo and what even is private credit?",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is a content index/teaser page from Scuttleblurb listing upcoming posts and brief descriptions of other pieces \u2014 the actual Apollo/private credit deep-dive article is not present in the supplied text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-06-24",
+    "headline": "Medicare's AI push snarls patients and doctors in errors and delays",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/medicares-ai-push-snarls-patients-and-doctors-errors-and-delays",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While substantive and well-reported, this article fits Slot 1 (Healthcare/regulatory) far better than Slot 3 (Tech/AI) \u2014 it uses AI as a backdrop for a policy/patient-harm story rather than offering technical depth on AI systems, and the reader profile explicitly flags avoidance of niche operational healthcare stories without strong analytical or investment angle."
   }
 ]

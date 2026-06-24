@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-06-24",
+  "generated_at": "2026-06-24T14:16:43Z",
+  "counts": {
+    "gmail_items": 99,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "112591466b3c67b5",
+      "headline": "HHS, responding to China's rise, moves to fast-track early drug research",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/hhs-clinical-trial-streamline-plan-china/823504/",
+      "slot": 1,
+      "summary": "HHS has published a blueprint to streamline early-stage U.S. clinical trial initiation, directly targeting the competitive advantage China has built in Phase 1 trial starts. Key reforms include FDA specifying minimum IND data requirements to cut unnecessary toxicology/CMC documentation, more flexible trial protocols to reduce amendment filings, a pilot consulting network with research institutions, and a rolling FDA review submission platform. The plan also explores expanding patient enrollment via stipends, telehealth, remote monitoring, and AI-assisted trial matching for rural and underserved populations.",
+      "why_it_matters": "Structural reduction in IND friction and faster early-trial pathways would lower time-to-data and costs for clinical-stage biotechs, CROs, and CDMOs in the coverage universe, with broader geopolitical implications for where early drug development capital flows.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "ef0b04b651e90bd6",
+      "headline": "McKinsey: The health system CEO imperative: Turning AI's promise into performance",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019edb1a6311a61decf4bbe5be68/3ee4a3d8434146e20000021ef3a0bcc2/3ee4a3d8-4341-46e2-a298-6ae6aedb2b3a?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rjbRPlBM1uClSrZVyR7LfNNCe6AilCxV_gf5a-c62SIsKXEyqqbdiUIku-X8Mf0Jg%3D",
+      "slot": 2,
+      "summary": "McKinsey outlines the imperative for health system CEOs to move beyond AI pilots toward enterprise-scale performance, identifying organizational design, data infrastructure gaps, and governance frameworks as the critical bottlenecks. The piece draws on benchmarking data and case studies to provide a structured deployment framework. It sits at the intersection of AI impact, health technology datasets, and corporate governance \u2014 three of the reader's top interest areas.",
+      "why_it_matters": "Health systems scaling AI adoption drive demand for health IT vendors, data infrastructure platforms, and digital health companies \u2014 making this directly relevant for HIT subsector positioning and understanding where enterprise AI spend will flow.",
+      "signal_tags": [
+        "high_priority_source",
+        "ai_and_biology_intersection",
+        "data_infrastructure",
+        "ticker_match:HCAT",
+        "actionability"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
