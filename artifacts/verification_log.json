@@ -4525,5 +4525,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "While substantive and well-reported, this article fits Slot 1 (Healthcare/regulatory) far better than Slot 3 (Tech/AI) \u2014 it uses AI as a backdrop for a policy/patient-harm story rather than offering technical depth on AI systems, and the reader profile explicitly flags avoidance of niche operational healthcare stories without strong analytical or investment angle."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "OpenAI unveils its first custom chip, built by Broadcom",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI infrastructure story (better suited for Slot 3) with no connection to healthcare or biopharma \u2014 it does not meet the Slot 1 criteria of FDA decisions, clinical trials, M&A, or pipeline news."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+    "source": "Reuters / Hacker News",
+    "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article belongs to the Tech/AI or Finance/Geopolitics domain, not Healthcare/Biotech \u2014 it contains zero healthcare or biopharma content and does not fit Slot 1 by any reasonable interpretation of the criteria."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "STAT+: FDA gives generative AI in radiology two breakthrough designation nods",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/25/radiology-generative-ai-cognita-aidoc-fda-breakthrough-designation/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 only the lede and a paywall gate are visible, providing insufficient substance to justify selection, and this matches a documented 'avoid' pattern in the reader taste profile."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "U.S. health spending jumps to $5.7 trillion",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW1yGF8pvr7bW781y1g2sC6sjW4FBnYy5QHY0LN6mkvpW3qgz0W7lCdLW6lZ3lPW60X4tV97N46sW2NyzLV97JFxfW1kLsHv76M5QyN3qbkGzbp62jW2jxDq33tsxcqVnmMbR51lzpLW4-pC8k1Xtvm2W4zhHht7c8Y-MV-xj2V6hMB4YN6q7Tm6lNj3hW5mpzhs43zMp_W5HnYzr8vVMW5N2-1Yb97ZZW6W4MnBhV6DnwRjN7HSVSFcJPg9W2X5zrV1xvNzJW5DBVKN5khnq4W1KWYtL4X1mtvW5v-Hp_6NPY7rW7VNb3N1Bn2W3V48V8x6V-dyBW4mFSmK8F6kXFW1f7BGp1Yxl2qW83K4z5315BXmf7TPPyb04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall/subscription page with no actual article content accessible \u2014 there is no substantive reporting to evaluate, only a subscription upsell."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "Letter #334: Deven Parekh (2025) \u2014 Insight Partners Managing Director",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/letter-334-deven-parekh-2025",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a VC/software investing retrospective with no meaningful healthcare or biopharma content, making it a clear mismatch for Slot 1 (Healthcare/Biotech), and the full article text is paywalled after the transcript excerpt \u2014 limiting actual depth."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "Scuttleblurb: Apollo and what even is private credit?",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a fragmented collection of newsletter teasers and promotional copy, not an actual deep-dive on Apollo and private credit mechanics as the shortlist summary claims."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "McKinsey: The health system CEO imperative: Turning AI's promise into performance",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019edb1a6311a61decf4bbe5be68/3ee4a3d8434146e20000021ef3a0bcc2/3ee4a3d8-4341-46e2-a298-6ae6aedb2b3a",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source and the topic \u2014 AI implementation barriers in health systems, with focus on data infrastructure and governance \u2014 directly aligns with the reader's strong preferences for data infrastructure, AI impact, and analytical depth."
+  },
+  {
+    "date": "2026-06-25",
+    "headline": "Stratechery: The Stuff of Myth(os) \u2014 Anthropic, e-commerce in the age of AI",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-stuff-of-mythos",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents digest, not a substantive article \u2014 the actual content is a list of brief editorial blurbs linking to paywalled Stratechery pieces, with no analytical depth on Anthropic, e-commerce, or AI strategy."
   }
 ]

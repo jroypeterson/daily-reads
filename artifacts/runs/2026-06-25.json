@@ -1,0 +1,33 @@
+{
+  "run_date": "2026-06-25",
+  "generated_at": "2026-06-25T14:12:41Z",
+  "counts": {
+    "gmail_items": 99,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a6e0375e3a0f10d3",
+      "headline": "McKinsey: The health system CEO imperative: Turning AI's promise into performance",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019edb1a6311a61decf4bbe5be68/3ee4a3d8434146e20000021ef3a0bcc2/3ee4a3d8-4341-46e2-a298-6ae6aedb2b3a",
+      "slot": 1,
+      "summary": "McKinsey outlines the concrete challenges health system CEOs face in moving AI from pilot programs to measurable operational performance, arguing that organizational readiness and data architecture \u2014 not model quality \u2014 are the primary bottlenecks. The piece covers governance frameworks, workflow integration strategies, and ROI measurement approaches for AI investments in health systems. It positions data infrastructure decisions as the critical strategic lever for health system leaders.",
+      "why_it_matters": "Identifies where health system buyers are accelerating or stalling on AI adoption, with direct relevance to enterprise health software vendors (Epic, Aidoc, Microsoft Health) and digital health platforms seeking to convert pilots into sticky enterprise contracts.",
+      "signal_tags": [
+        "priority:high",
+        "high_priority_source",
+        "ticker_match:HCAT",
+        "ai_and_biology_intersection",
+        "health_software_SaaS",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    }
+  ]
+}
