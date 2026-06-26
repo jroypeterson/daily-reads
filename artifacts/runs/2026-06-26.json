@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-06-26",
+  "generated_at": "2026-06-26T14:11:38Z",
+  "counts": {
+    "gmail_items": 97,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e2fedc14465cf59f",
+      "headline": "Oracle partners with Theator to expand AI-powered surgical documentation to operating rooms",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/oracle-partners-theator-expand-ai-powered-surgical-documentation-operating-rooms",
+      "slot": 1,
+      "summary": "Oracle Health is integrating Theator's AI-powered surgical video analytics into its EHR platform, automating operative report generation that is currently manual, retrospective, and only 72.8% accurate per peer-reviewed research. The integration connects real-time surgical intelligence directly into EHR workflows and revenue cycle infrastructure, improving coding precision and reducing revenue leakage for health systems. The partnership is part of Oracle's broader AI ecosystem expansion following its $28B Cerner acquisition, with leadership projecting double-digit Oracle Health growth in FY2027.",
+      "why_it_matters": "This is a concrete example of AI-driven data infrastructure being embedded at the point of surgical care \u2014 directly relevant to ORCL's healthcare monetization strategy and the reader's core interest in how AI reshapes health data architecture at scale.",
+      "signal_tags": [
+        "ticker_match:ORCL",
+        "AI_impact",
+        "health_technology_datasets",
+        "novelty"
+      ],
+      "reading_time": "4 min"
+    }
+  ]
+}

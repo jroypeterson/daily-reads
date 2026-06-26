@@ -4597,5 +4597,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a newsletter table-of-contents digest, not a substantive article \u2014 the actual content is a list of brief editorial blurbs linking to paywalled Stratechery pieces, with no analytical depth on Anthropic, e-commerce, or AI strategy."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "AbbVie strikes $10.9B deal to acquire Apogee Therapeutics, taking on Dupixent",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWf_S_6GRJhmN3Rv7cTKXqMdW5wYw0_5QKF96N9cd5HF5nR3bW7Y9pgv6lZ3l4W31FMMM3lb8XgW8BxXKD91SsYkW2vGhzh64Tl65Vwqqy81qv2VVW73NtfK8x69_2W5jZGdF2VkFqcN4N1G0_pGQsGW5rxZPG2sbV5jW6N-d5Y345gK9W8qw4Jm9ctJs3W97F6Zq6ZhXlRW2Lf8nc3BzqfDW2KNhKg8CG30yN7qj8N6pLsm6W9dWT9v4YFc7nV2m3qb7ZDqC-W6zm4kB8DHHhzW30S2zh72HXKtW6b9R9B5l6shdVZb9dV2fMDFNV6YQqG2_l77FW7DB-9W1-Y4DsW1md7cg4XrwNGW24LFlq5XB8DHW2BQ7j787dnc0W4MpTfS7jF8x5W9fxRXW5ly5_wM4jb9gZL3G9N79z2bCVBzGGV88MfQ3P5qGLW51cV7H370KDkVtxNTJ69d3htW65qnR58Sss7GW4sjKfF7f07QjW64Rt7048Jr3tN7WC-zCS3yHWW14s6WZ5bygH-W5djYv43pzKDZN59NZVzf9TNSW2gnHWg2wTBC9W4rf2cv81dFhcN8wWTZGsy8jMf8m6F-004",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article is a BioSpace newsletter digest with multiple thin story blurbs, not a substantive deep-dive on the AbbVie/Apogee deal \u2014 the shortlist summary describes an article that does not match the actual full-text content provided."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "U.S. health spending jumps to $5.7 trillion",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW1yGF8pvr7bW781y1g2sC6sjW4FBnYy5QHY0LN6mkvpW3qgz0W7lCdLW6lZ3lPW60X4tV97N46sW2NyzLV97JFxfW1kLsHv76M5QyN3qbkGzbp62jW2jxDq33tsxcqVnmMbR51lzpLW4-pC8k1Xtvm2W4zhHht7c8Y-MV-xj2V6hMB4YN6q7Tm6lNj3hW5mpzhs43zMp_W5HnYzr8vVMW5N2-1Yb97ZZW6W4MnBhV6DnwRjN7HSVSFcJPg9W2X5zrV1xvNzJW5DBVKN5khnq4W1KWYtL4X1mtvW5v-Hp_6NPY7rW7VNb3N1Bn2W3V48V8x6V-dyBW4mFSmK8F6kXFW1f7BGp1Yxl2qW83K4z5315BXmf7TPPyb04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall/subscription page with no substantive content \u2014 the actual article on U.S. health spending is not accessible, making it impossible to verify depth, accuracy, or fitness for the slot."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "IBM debuts world's first sub-1 nanometer chip technology",
+    "source": "Hacker News / IBM Newsroom",
+    "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a semiconductor/chip technology article that belongs in Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "Scale Without Sluggishness",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/scale-without-sluggishness",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about Meta's product management and AI-enabled organizational agility \u2014 a Tech/AI topic at best \u2014 and has no meaningful healthcare or biopharma content, making it a clear mismatch for Slot 1."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "The Structural Case for Open-Source AI",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/the-structural-case-for-open-source",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) at best, not Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, M&A, or pipeline news \u2014 the article contains no healthcare or biopharma content whatsoever."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "Apollo and what even is private credit?",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a fragmented collection of newsletter teasers and unrelated content snippets \u2014 there is no actual substantive article about Apollo or private credit present in the provided text."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "Oracle partners with Theator to expand AI-powered surgical documentation to operating rooms",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/oracle-partners-theator-expand-ai-powered-surgical-documentation-operating-rooms",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has real substance covering a concrete AI-in-healthcare infrastructure deployment (Oracle Health + Theator surgical documentation), with specific clinical accuracy data, executive quotes, and financial context from Oracle's Q4 earnings \u2014 matching Slot 1 and the reader's strong interest in data infrastructure and AI-biology intersection."
+  },
+  {
+    "date": "2026-06-26",
+    "headline": "An entire Herculaneum scroll has been read for the first time",
+    "source": "Vesuvius Challenge / Hacker News",
+    "url": "https://scrollprize.org/firstscroll",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 4 Wildcard article, not a Slot 2 Finance/Macro article \u2014 it has no meaningful connection to markets, macro, earnings, or healthcare-adjacent finance themes."
   }
 ]
