@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-06-27",
+  "generated_at": "2026-06-27T13:21:08Z",
+  "counts": {
+    "gmail_items": 97,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "3a2af6f720df083c",
+      "headline": "AbbVie strikes $10.9B Apogee deal to take on Dupixent",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWFJC34-gTQNW6ZVBtX8vL--LW7Y8zfc5QCb9GN1xVmZM5nR3bW7Y9pgv6lZ3lHW67zJW68dfv61W97c9Sx44Jpt1W2rSjKq8-7sN2W6f7Mlg3TC0CyW79vSzN6YHCDSW4mw2X422rQGhW2DrnQ79fcPFnW8BqKyZ3MN-MXW3k_z9T8rrprhW1XDQfC456N6bW8k2lYW8Q-MC6N3syVRy2wcy0W8bzl_Q54bVHvW6xbXdG2MhmhGW1rKhTf6_wk2KW8s9J0p86PBhsW2BPC8h1wbp87N6hLKsGXCm-0N8KjHKW5n496W72D4cX34CP45W5mxH475sHlz6W2m29sL3rGhxvW7vBHX15hmp89W8k93Fp79nqLJW1FmCvM74yhnmW8Yk0H45LWF0PW97jSm97cjsZgW5J7XGV3CXh1yW5L1VwQ5khLT9N5pph6FPJPVSW60jhk01wm9rVW4vfZ-S1Y_QGgW7Gc3ZG4Ks495V3VjMC5mQpBLW70kxdp1G_P3QW79rLh38gZyHJVdS5S55-LDM8W4jnR3_2DqH2qW12C5nC6M9rdgW9lMS7D4bDsBmW4gsJV07_FzkyW37lNH77tl08Qf4S3Ryv04",
+      "slot": 1,
+      "summary": "AbbVie is acquiring Apogee Therapeutics for $10.9 billion, adding Apogee's IL-23 blocker and extended half-life IL-4R\u03b1 antibody to its immunology portfolio alongside Skyrizi and Rinvoq. The deal represents a direct strategic challenge to Sanofi/Regeneron's Dupixent franchise and reflects AbbVie's ongoing efforts to diversify its pipeline following the Humira biosimilar cliff. This is one of the largest biopharma M&A transactions of 2026 and constitutes a direct catalyst event for both ABBV and APGE.",
+      "why_it_matters": "The $10.9B acquisition signals continued mega-cap biopharma willingness to pay premium valuations for differentiated late-stage immunology assets, reshaping competitive dynamics in one of pharma's most lucrative therapeutic categories.",
+      "signal_tags": [
+        "ticker_match:ABBV",
+        "ticker_match:APGE",
+        "catalyst_proximity",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "2 min"
+    },
+    {
+      "article_id": "c422ffacdc68dc7e",
+      "headline": "Elevance pays CMS $342M amid Medicare Advantage sanctions threat",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/legal/elevance-pays-cms-342m-amid-medicare-advantage-sanctions-threat/",
+      "slot": 2,
+      "summary": "Elevance Health paid $342 million to CMS after receiving a Medicare Advantage sanction notice over alleged failures to properly address overpayments \u2014 one of the largest MA compliance settlements on record. The action reflects years of escalating CMS scrutiny of MA overpayment practices and signals regulators are willing to pursue aggressive enforcement. The settlement carries read-across implications for other major MA players including UnitedHealth Group and CVS/Aetna.",
+      "why_it_matters": "This enforcement action crystallizes the structural regulatory headwind facing the managed care sector, with direct portfolio implications for ELV, UNH, and other Medicare Advantage-heavy insurers navigating CMS audit risk.",
+      "signal_tags": [
+        "ticker_match:ELV",
+        "regulatory_affairs",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
