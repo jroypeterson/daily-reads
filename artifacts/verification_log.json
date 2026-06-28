@@ -4741,5 +4741,59 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "ELV ticker match, substantive regulatory enforcement event with clear sector-wide read-across to UNH and CVS/Aetna, directly fits the healthcare-adjacent finance slot covering payer dynamics and reimbursement risk."
+  },
+  {
+    "date": "2026-06-28",
+    "headline": "AbbVie strikes $10.9B deal for Apogee Therapeutics, targeting Dupixent rival",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWFJC34-gTQNW6ZVBtX8vL--LW7Y8zfc5QCb9GN1xVmZM5nR3bW7Y9pgv6lZ3lHW67zJW68dfv61W97c9Sx44Jpt1W2rSjKq8-7sN2W6f7Mlg3TC0CyW79vSzN6YHCDSW4mw2X422rQGhW2DrnQ79fcPFnW8BqKyZ3MN-MXW3k_z9T8rrprhW1XDQfC456N6bW8k2lYW8Q-MC6N3syVRy2wcy0W8bzl_Q54bVHvW6xbXdG2MhmhGW1rKhTf6_wk2KW8s9J0p86PBhsW2BPC8h1wbp87N6hLKsGXCm-0N8KjHKW5n496W72D4cX34CP45W5mxH475sHlz6W2m29sL3rGhxvW7vBHX15hmp89W8k93Fp79nqLJW1FmCvM74yhnmW8Yk0H45LWF0PW97jSm97cjsZgW5J7XGV3CXh1yW5L1VwQ5khLT9N5pph6FPJPVSW60jhk01wm9rVW4vfZ-S1Y_QGgW7Gc3ZG4Ks495V3VjMC5mQpBLW70kxdp1G_P3QW79rLh38gZyHJVdS5S55-LDM8W4jnR3_2DqH2qW12C5nC6M9rdgW9lMS7D4bDsBmW4gsJV07_FzkyW37lNH77tl08Qf4S3Ryv04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a major, actionable M&A deal \u2014 AbbVie's $10.9B acquisition of Apogee Therapeutics \u2014 with clear investment implications for ABBV, APGE, and the Dupixent franchise (REGN/SNY), fitting Slot 1 squarely."
+  },
+  {
+    "date": "2026-06-28",
+    "headline": "The ASIC-GPU Standoff",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-asic-gpu-standoff",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers rigorous, analytically dense coverage of ASIC-GPU competitive dynamics with direct investment implications for NVDA, AVGO, and MRVL \u2014 aligning with the reader's strong preferences for data infrastructure, AI impact, and analytical depth."
+  },
+  {
+    "date": "2026-06-28",
+    "headline": "U.S. health spending jumps to $5.7 trillion \u2014 GLP-1 drugs are a major factor",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW1yGF8pvr7bW781y1g2sC6sjW4FBnYy5QHY0LN6mkvpW3qgz0W7lCdLW6lZ3lPW60X4tV97N46sW2NyzLV97JFxfW1kLsHv76M5QyN3qbkGzbp62jW2jxDq33tsxcqVnmMbR51lzpLW4-pC8k1Xtvm2W4zhHht7c8Y-MV-xj2V6hMB4YN6q7Tm6lNj3hW5mpzhs43zMp_W5HnYzr8vVMW5N2-1Yb97ZZW6W4MnBhV6DnwRjN7HSVSFcJPg9W2X5zrV1xvNzJW5DBVKN5khnq4W1KWYtL4X1mtvW5v-Hp_6NPY7rW7VNb3N1Bn2W3V48V8x6V-dyBW4mFSmK8F6kXFW1f7BGp1Yxl2qW83K4z5315BXmf7TPPyb04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall page with no actual article content \u2014 only a subscription pitch \u2014 making it impossible to verify depth or substance, and the content is explicitly paywalled which matches a known 'AVOID' pattern in the reader profile."
+  },
+  {
+    "date": "2026-06-28",
+    "headline": "BCG: The New Rules for Proving AI Value \u2014 How CIOs Can Prove the Value of Technology in the Age of AI",
+    "source": "BCG",
+    "url": "https://www.bcg.com/publications/2026/how-cios-can-prove-the-value-of-technology-in-the-age-of-ai",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returned a 404 error, so there is no actual article content to evaluate \u2014 only a BCG site navigation page."
+  },
+  {
+    "date": "2026-06-28",
+    "headline": "The Structural Case for Open-Source AI",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/the-structural-case-for-open-source",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine structural depth on open-source AI dynamics, synthesizing geopolitical, economic, and competitive forces with specific real-world evidence (DeepSeek, Qwen, Cursor/Kimi adoption), making it highly relevant to Slot 3 and the reader's strong AI impact and investment-relevance preferences."
+  },
+  {
+    "date": "2026-06-28",
+    "headline": "Fierce Biotech Weekly: AbbVie, Merck KGaA strike major buyouts; Sanofi CEO makes statement with R&D chief swap",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercepharma.com/premium/webinar/1381405?pk=samsungbio-wb-063026-LSWD-nl-062226&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a webinar promotional piece about patient-derived organoids in drug development \u2014 completely unrelated to the shortlist summary describing AbbVie/Merck KGaA M&A and Sanofi leadership changes."
   }
 ]

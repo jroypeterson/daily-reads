@@ -1,0 +1,66 @@
+{
+  "run_date": "2026-06-28",
+  "generated_at": "2026-06-28T13:26:03Z",
+  "counts": {
+    "gmail_items": 101,
+    "tier2_items": 78,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "3a2af6f720df083c",
+      "headline": "AbbVie strikes $10.9B deal for Apogee Therapeutics, targeting Dupixent rival",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWFJC34-gTQNW6ZVBtX8vL--LW7Y8zfc5QCb9GN1xVmZM5nR3bW7Y9pgv6lZ3lHW67zJW68dfv61W97c9Sx44Jpt1W2rSjKq8-7sN2W6f7Mlg3TC0CyW79vSzN6YHCDSW4mw2X422rQGhW2DrnQ79fcPFnW8BqKyZ3MN-MXW3k_z9T8rrprhW1XDQfC456N6bW8k2lYW8Q-MC6N3syVRy2wcy0W8bzl_Q54bVHvW6xbXdG2MhmhGW1rKhTf6_wk2KW8s9J0p86PBhsW2BPC8h1wbp87N6hLKsGXCm-0N8KjHKW5n496W72D4cX34CP45W5mxH475sHlz6W2m29sL3rGhxvW7vBHX15hmp89W8k93Fp79nqLJW1FmCvM74yhnmW8Yk0H45LWF0PW97jSm97cjsZgW5J7XGV3CXh1yW5L1VwQ5khLT9N5pph6FPJPVSW60jhk01wm9rVW4vfZ-S1Y_QGgW7Gc3ZG4Ks495V3VjMC5mQpBLW70kxdp1G_P3QW79rLh38gZyHJVdS5S55-LDM8W4jnR3_2DqH2qW12C5nC6M9rdgW9lMS7D4bDsBmW4gsJV07_FzkyW37lNH77tl08Qf4S3Ryv04",
+      "slot": 1,
+      "summary": "AbbVie is acquiring Apogee Therapeutics for approximately $10.9 billion ($135.11/share, ~49% premium), its largest deal since Allergan, anchored by Apogee's lead asset zumilokibart \u2014 a long-acting IL-13 antibody targeting atopic dermatitis and asthma with dosing as infrequent as twice yearly. The deal positions AbbVie to compete directly with Sanofi/Regeneron's Dupixent, bolstering its immunology franchise alongside Skyrizi and Rinvoq as it navigates the post-Humira patent cliff. Closing is expected in Q3 2026, pending regulatory and shareholder approvals.",
+      "why_it_matters": "This is the most significant I&I M&A deal of 2026 and directly threatens Dupixent's dominance in atopic dermatitis, making it actionable for holders of ABBV, APGE, REGN, and Sanofi.",
+      "signal_tags": [
+        "ticker_match:ABBV",
+        "ticker_match:APGE",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "135c9f57e22448ac",
+      "headline": "The ASIC-GPU Standoff",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-asic-gpu-standoff",
+      "slot": 2,
+      "summary": "MBI's deep-dive uses Google's TPU evolution paper and a candid Google employee interview to frame the structural battle between custom ASICs and Nvidia GPUs, anchored by OpenAI's Jalape\u00f1o inference chip \u2014 co-developed with Broadcom and Celestica in just nine months. The piece interrogates whether CUDA's moat erodes as AI models increasingly write their own optimized kernels, citing Jensen Huang's own acknowledgment that the software abstraction layer may matter less over time. A key insight from the Google insider: the real value in ASIC co-design partnerships is TSMC fab and memory allocation, not the co-design work itself \u2014 which has significant implications for how infrastructure value accrues across the semiconductor stack.",
+      "why_it_matters": "Provides a durable analytical framework for assessing where AI infrastructure value will concentrate as hyperscalers pursue in-house silicon, directly relevant to long positions in Nvidia, Broadcom, and Marvell.",
+      "signal_tags": [
+        "priority:high",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "data_infrastructure"
+      ],
+      "reading_time": "12 min"
+    },
+    {
+      "article_id": "b8a37d82178a699c",
+      "headline": "The Structural Case for Open-Source AI",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/the-structural-case-for-open-source",
+      "slot": 3,
+      "summary": "The essay argues that open-source AI is 'overdetermined' \u2014 inevitable regardless of what closed labs do \u2014 driven by three compounding structural forces: layer defense (incumbents like Nvidia funding open models to commoditize adjacent layers), enterprise distrust of vendor lock-in, and geopolitical/regulatory tailwinds. It backs the argument with concrete evidence including GLM-5.2 outperforming Claude and GPT on SWE-Bench, Cursor adopting Kimi, and Airbnb choosing Qwen over OpenAI for customer service. The piece also notes that the cost gap (self-hosted inference running 70-500x cheaper per token) is not closing, even as the capability gap narrows.",
+      "why_it_matters": "The open vs. closed AI structural divide directly shapes the competitive moats and long-term pricing power of MSFT, GOOGL, and vertical AI SaaS platforms \u2014 understanding why open-source is overdetermined is essential for evaluating whether closed-lab premium valuations are sustainable.",
+      "signal_tags": [
+        "priority:high",
+        "AI_impact",
+        "novelty",
+        "forward_looking",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min"
+    }
+  ]
+}
