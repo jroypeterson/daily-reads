@@ -4795,5 +4795,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The actual article content is a webinar promotional piece about patient-derived organoids in drug development \u2014 completely unrelated to the shortlist summary describing AbbVie/Merck KGaA M&A and Sanofi leadership changes."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "10 clinical trials to watch in the second half of 2026",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article delivers substantive, analyst-cited clinical trial breakdowns across oncology, neurology, and immunology with specific trial names, enrollment details, commercial context, and bear/bull case reasoning \u2014 well above the thin-summary threshold."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "The Shape of Compute Curve",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-shape-of-compute-curve",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite analytical depth and reader-relevant themes, this is a Tech/AI infrastructure piece about GPU compute pricing dynamics \u2014 it fits Slot 3 far better than Slot 2 (Finance/Macro), which requires macro moves, earnings, sector rotation, or policy impact on markets."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is not actually present \u2014 only a table of contents / teaser fragments from multiple Scuttleblurb posts are visible, with no substantive Zoetis analysis accessible, indicating the content is paywalled or not yet published."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "STAT+: Investor Clive Meanwell on designing biotechs for population health, and AI's role as a catalyst",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/29/clive-meanwell-population-health-partners-on-ai-biotech/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ exclusive), so the actual content is inaccessible beyond a brief teaser \u2014 making it impossible to verify depth or deliver value to the reader, and it explicitly matches a known AVOID pattern ('paywalled content')."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "The ASIC-GPU Standoff",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-asic-gpu-standoff",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI infrastructure article about chip architecture competition \u2014 it belongs in Slot 3, not Slot 2 (Finance/Macro), and lacks the macro, earnings, or market-structure framing required for that slot."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "The Structural Case for Open-Source AI",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/the-structural-case-for-open-source",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Slot 3 (Tech/AI) article, not a Slot 2 (Finance/Macro) article \u2014 and critically, the substantive content (3,000+ word addendum on recent events) is paywalled, leaving only a reprinted May memo that is partially truncated, undermining the depth claim."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "BCG: The New Rules for Proving AI Value \u2014 How CIOs Can Prove the Value of Technology in the Age of AI",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiqCTPBWDXPYiOY0Ljj64GFCnDByd-xvBH0FW0f-g_4G5kbHLY4Fj_f4pS2DvGQz2yxWn0wkQ=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially a BCG email newsletter shell with image links and truncated content \u2014 there is no substantive article body, frameworks, or analytical depth visible, making it impossible to verify the shortlist's claims about governance structures, productivity accounting, or healthcare-specific measurement complexity."
+  },
+  {
+    "date": "2026-06-29",
+    "headline": "STAT+: Sword Health contracted to provide AI-supported physical therapy for an entire country",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/29/sword-health-portugal-deal-ai-supported-physical-therapy/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is not accessible, leaving only a short teaser with minimal substantive content, and the reader taste profile explicitly flags paywalled content as an AVOID pattern."
   }
 ]

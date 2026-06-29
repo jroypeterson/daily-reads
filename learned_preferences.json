@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-06-28T13:19:11Z",
+  "updated_at": "2026-06-29T15:32:08Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -9,7 +9,7 @@
       "evidence_ids": [
         "ev_c1f79a0309332bde"
       ],
-      "last_updated": "2026-06-28T13:19:11Z"
+      "last_updated": "2026-06-29T15:32:08Z"
     },
     {
       "name": "AI and biology intersection",
@@ -48,7 +48,7 @@
         "ev_2e87e7ed94e83b6c",
         "ev_2388bc9a1c26358d"
       ],
-      "last_updated": "2026-06-28T13:19:11Z"
+      "last_updated": "2026-06-29T15:32:08Z"
     },
     {
       "name": "corporate governance",
@@ -111,7 +111,7 @@
       "evidence_ids": [
         "ev_d708fbaadd2afdb4"
       ],
-      "last_updated": "2026-06-28T13:19:11Z"
+      "last_updated": "2026-06-29T15:32:08Z"
     },
     {
       "name": "AI drug discovery",
@@ -120,7 +120,7 @@
       "evidence_ids": [
         "ev_184418fa0b02520e"
       ],
-      "last_updated": "2026-06-28T13:19:11Z"
+      "last_updated": "2026-06-29T15:32:08Z"
     },
     {
       "name": "medical imaging technology",

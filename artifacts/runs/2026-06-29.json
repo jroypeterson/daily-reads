@@ -1,0 +1,33 @@
+{
+  "run_date": "2026-06-29",
+  "generated_at": "2026-06-29T15:36:30Z",
+  "counts": {
+    "gmail_items": 107,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "cc661c278e905513",
+      "headline": "10 clinical trials to watch in the second half of 2026",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+      "slot": 1,
+      "summary": "BioPharma Dive catalogs ten high-stakes clinical trial readouts expected in H2 2026, with detailed coverage of ivonescimab's Harmoni-3 global lung cancer trial (vs. Keytruda), Bristol Myers Squibb's ADEPT-2 Alzheimer's psychosis study for Cobenfy, and Celldex's barzolvolimab \u2014 each assessed with analyst commentary, enrollment nuance, and commercial stakes. The piece situates these catalysts within a biotech sector that has seen record dealmaking, $300M+ IPOs, and easing regulatory uncertainty in early 2026. Each trial entry includes the scientific rationale, competitive context, and key risks, making it a practical half-year catalyst calendar.",
+      "why_it_matters": "Provides a structured, analyst-informed roadmap of binary readouts across multiple coverage-universe subsectors \u2014 actionable for timing entries or hedges ahead of high-volatility events in oncology, neurology, and immunology through year-end.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "ticker_match:HCAT",
+        "ticker_match:HR",
+        "ticker_match:PSG"
+      ],
+      "reading_time": "7 min"
+    }
+  ]
+}
