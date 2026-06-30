@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-06-30",
+  "generated_at": "2026-06-30T14:03:22Z",
+  "counts": {
+    "gmail_items": 105,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b5f73d486823d036",
+      "headline": "Merck KGaA inks $11.3B Bio-Techne buyout to expand into cell therapy production",
+      "source": "BioSpace",
+      "url": "https://www.biospace.com/deals/merck-kgaa-inks-11b-bio-techne-buyout-to-expand-into-cell-therapy-production",
+      "slot": 1,
+      "summary": "Merck KGaA has agreed to acquire Bio-Techne (NASDAQ: TECH) for $11.3 billion ($73/share, a 36% premium to one-month VWAP), its largest life sciences deal since the 2015 Sigma-Aldrich acquisition. The deal targets Bio-Techne's consumables-heavy portfolio (81% of revenue) used in drug discovery, development, and advanced therapy manufacturing \u2014 particularly cell therapy, which is growing at 20%+ annually. Merck KGaA plans to leverage its global footprint to expand Bio-Techne's historically Americas-weighted revenue base, and expects ~\u20ac140M in annual cost synergies within three years, with no revenue synergies assumed in the model.",
+      "why_it_matters": "The deal sets a valuation benchmark for life science tools platforms and confirms that cell therapy manufacturing infrastructure remains a high-priority strategic acquisition target for large-cap pharma, with direct implications for peers in the coverage universe.",
+      "signal_tags": [
+        "ticker_match:TECH",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "fb13f96b1e93cebf",
+      "headline": "25 states sue Trump admin over Medicaid work requirements \u2014 8 things to know",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/medicaid/25-states-sue-trump-admin-over-medicaid-work-requirements-7-things-to-know/",
+      "slot": 2,
+      "summary": "Twenty-five state AGs and D.C. filed a 74-page federal lawsuit challenging CMS's interim final rule on Medicaid work requirements, arguing it exceeds statutory authority and bypassed notice-and-comment procedures. Implementation is set to begin in Montana and Arkansas on July 1, making the preliminary injunction timeline a critical near-term catalyst. The outcome carries major enrollment and revenue implications for managed care plans, safety-net hospitals, and behavioral health facilities serving Medicaid populations.",
+      "why_it_matters": "A ruling \u2014 or preliminary injunction \u2014 in this case is the single biggest near-term enrollment risk for managed care (CNC, CI, UNH), hospital (CYH, THC), and behavioral health (UHS) companies, making it a high-priority regulatory catalyst to monitor.",
+      "signal_tags": [
+        "ticker_match:CNC",
+        "ticker_match:CI",
+        "ticker_match:THC",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    }
+  ]
+}

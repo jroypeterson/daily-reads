@@ -4867,5 +4867,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is paywalled \u2014 the full text is not accessible, leaving only a short teaser with minimal substantive content, and the reader taste profile explicitly flags paywalled content as an AVOID pattern."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "Merck KGaA inks $11.3B Bio-Techne buyout to expand into cell therapy production",
+    "source": "BioSpace",
+    "url": "https://www.biospace.com/deals/merck-kgaa-inks-11b-bio-techne-buyout-to-expand-into-cell-therapy-production",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a substantive $11.3B M&A deal with direct ticker relevance (TECH), specific deal mechanics, and strategic rationale around cell therapy manufacturing infrastructure \u2014 fitting Slot 1 criteria with actionable investment implications."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "The loophole in Trump's obesity drug deal with Eli Lilly and Novo Nordisk",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/medicare-medicaid-glp1-costs-explained-balance-out-bridge-in/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ exclusive), meaning the full content is inaccessible, which matches a known 'AVOID' pattern and undermines the reader's ability to act on it."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "The Shape of Compute Curve",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-shape-of-compute-curve",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear reader relevance, this article fits Slot 3 (Tech/AI infrastructure) far better than Slot 2 (Finance/Macro), and the source (MBI Deep Dives on Substack) does not match the priority domains for the Finance slot (wsj.com, bloomberg.com, morningbrew.com)."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "STAT+: FDA digital leader hints at coming AI policy updates",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/health-tech-fda-digital-leader-hints-at-coming-ai-policy-updates/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) with no substantive content visible beyond the headline and navigation chrome, making it impossible to verify depth or accuracy, and it belongs to Slot 1 (Healthcare/FDA) or Slot 3 (Tech/AI) rather than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "STAT+: All of Us tests a new approach to collect real-world data for research",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/nih-all-of-us-program-taps-ehr-records-fill-data-gaps/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 only the lede and a truncated teaser are accessible, meaning there is no substantive article to evaluate or summarize, and it matches a known 'avoid' pattern explicitly flagged in the reader taste profile."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "25 states sue Trump admin over Medicaid work requirements \u2014 8 things to know",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicaid/25-states-sue-trump-admin-over-medicaid-work-requirements-7-things-to-know/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "This article has substantive regulatory and legal detail \u2014 a 74-page multi-state lawsuit with a near-term catalyst (July 1 implementation) \u2014 directly impacting managed care, hospital, and behavioral health tickers in the coverage universe, fitting Slot 2's healthcare-adjacent finance theme."
+  },
+  {
+    "date": "2026-06-30",
+    "headline": "HHS announces new oversight measures for TEFCA, touts 1B health records exchanged",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/more-1b-health-records-exchange-through-tefca-onc-officials-report",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare regulatory/policy article about TEFCA oversight and belongs in Slot 1 or is a weak fit overall \u2014 it lacks the Tech/AI depth required for Slot 3, with only a passing mention of AI used by the audit contractor (which has since been removed from the vendor's website), and the substance is primarily about compliance, governance, and information blocking enforcement rather than any meaningful AI or technology breakthrough."
   }
 ]
