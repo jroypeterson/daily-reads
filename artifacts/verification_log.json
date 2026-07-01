@@ -4930,5 +4930,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a healthcare regulatory/policy article about TEFCA oversight and belongs in Slot 1 or is a weak fit overall \u2014 it lacks the Tech/AI depth required for Slot 3, with only a passing mention of AI used by the audit contractor (which has since been removed from the vendor's website), and the substance is primarily about compliance, governance, and information blocking enforcement rather than any meaningful AI or technology breakthrough."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is paywalled (STAT+ exclusive), so there is no substantive content to evaluate beyond the headline \u2014 and paywalled content is explicitly flagged as an AVOID pattern in the reader taste profile."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "Nearly 4 Million Medicare Beneficiaries Could Be Eligible for the Medicare GLP-1 Bridge Program",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VVxDPk4_ym1BW5Q7Hc91Z9w1NW1vWpFD5QVtC-N3fD2DM5nR3bW8wM7ks6lZ3pRW7nyPld4nVNZ8W63KlM45JVGJKW1QD9g872XFSTW6hVRh77QWw0FVLdK7b3M5M3JW67_hfD2W9k47W28vCVT4cR3zYW43dPvP2DjPnWW2xgncd8ttHRNN7xVkzCNpr03W42R8S-88lrxyW5DSSk61K2mgGN7pWMTn4-TVXW495yTP2k6fDnW5s30Rz3LSTsMW38wZJt2N9r0XN6nrW034_j9-W7cr26_2BLTYqW4CSZZ34pGMFdVTspCg1FP3qlW49sFJn2xDqt8W3PwddD3K6WMNW6h7gws1c8P4wW94bPDM3jmf7_MJvHWZ8S-w8W1N1V0p1z1kpZVVZ2Cr3XL2jzW1-R6bD1Vxxx3W2Tt6l86gcD1CN4Pz1xdgHCh6W8x1Gly1chgtWW3Lt2zQ5sS4L8W1jy3Yd7bBwHfW77NNpd1xvZljV2J5P06xsJz3W41WnDz6TST6bW6vt9g_4p4fCdW6g8L4V3Zv7vFW2hX3x-3b8l0DW7JRhqH3r_CDRW7_wTM833lDPtW5XmrVK4bZdmPW1zN2dJ4hnCdRVRpQkp7wP3K0f79X4vR04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, data-driven analysis of a major new Medicare GLP-1 program launching today, with specific cost modeling and eligibility breakdowns directly relevant to LLY, NVO, and managed care names."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "AI data readiness: The key to scaling impact",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/ai-data-readiness-the-key-to-scaling-impact",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a strong data infrastructure piece but belongs in Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), which requires macro moves, earnings, sector rotation, or policy impact on markets."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "The Shape of Compute Curve",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-shape-of-compute-curve",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth, this article targets Slot 3 (Tech/AI infrastructure) far more naturally than Slot 2 (Finance/Macro), and the source (MBI Deep Dives on Substack) doesn't match the preferred Slot 2 domains (wsj.com, bloomberg.com, morningbrew.com)."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "FDA Approves New Treatment That Uses Donor Immune Cells to Prevent Serious Complications in Blood Cancer Patients",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-new-treatment-uses-donor-immune-cells-prevent-serious-complications-blood-cancer",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/FDA) article, not a Slot 2 (Finance/Macro) article \u2014 it contains no market, pricing, reimbursement, or macro financial analysis, and the company (Orca Bio) is private with no tradeable ticker or investment action available."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "50+ M&A deals buoy biopharma sector",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVH5sM8zQMHCW2Vcsbr12F5PlW8XrjSc5QYMcnN8Qx57j5nR3bW7lCGcx6lZ3l2W5Fb71g8x69kGN40Kg3qfywWMW8p4fqm2-4pcvW49khzh3p8vfTW8mZGcw4z7WPlN7lG7JnNlP9JW8Lld8Z6ryslTN936p_kxwCzpW3h8BtF9gRdYsW3N7_3F7cFt9LW458K0S14tyGnV39rN51fZn5cW8bPBbh4wX4LjW3wp3_D1Dhvv6W97ZHB825QFHCN3SLDRK93dJXW6Gry3H5TfGvzW7MCLF33LXdCzW7qhYLz3896THW3VzklG8R2sHrW2t4g1M1STtZWW25ljk352-7BpW1ksD6885Zv-0N4fhFL4Gtj8VW7DfMG37PlFL8W6x3TZk8YhWPNW7x3lMK4NYcC_W6sSWbl8LPRLfW7V5xbK4JmByQW2s3DKF75Y9-wVlFHsW3gCxtcW3D4LpN8H2rBGW3S6ggw7t326wW2fDPF88xVtqNN5DVR-2J6swvW10qlw06XFh_2W1ZlLLR6Z5xsmW94B3_S8X708qN5kqJxz4Hnt7W3p-jqs2rx8WTf3Gplqd04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article content is essentially an empty newsletter shell \u2014 it contains no substantive analysis of the 52 M&A deals, no deal structures, no therapeutic area breakdowns, and no discussion of MFN pricing policy impact; the shortlist summary describes content that does not exist in the article text."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "Health system AI leaders shrug off OpenEvidence dispute \u2014 but the underlying tension is real",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/health-system-ai-leaders-shrug-off-openevidence-dispute-but-the-underlying-tension-is-real/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a strong Slot 3 (Tech/AI) candidate misrouted to Slot 2 (Finance/Macro), and Becker's Hospital Review is not a priority finance/macro source \u2014 the structural SaaS valuation angle is real but secondary to the AI competition narrative."
+  },
+  {
+    "date": "2026-07-01",
+    "headline": "CMS launches the Medicare GLP-1 Bridge \u2014 but 4 questions linger",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/glp-1s/cms-launches-the-medicare-glp-1-bridge-but-4-questions-linger/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article offers substantive operational analysis of the Medicare GLP-1 Bridge launch with four specific unresolved questions touching Humana's processor role, LIS patient continuity, BALANCE Model economics, and provider liability \u2014 directly relevant to managed care and GLP-1 investment theses."
   }
 ]
