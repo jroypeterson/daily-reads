@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-07-02",
+  "generated_at": "2026-07-02T13:51:00Z",
+  "counts": {
+    "gmail_items": 107,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "43effb93ae6cb828",
+      "headline": "Nearly 4 Million Medicare Beneficiaries Could Be Eligible for the Medicare GLP-1 Bridge Program",
+      "source": "KFF Health News",
+      "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VVxDPk4_ym1BW5Q7Hc91Z9w1NW1vWpFD5QVtC-N3fD2DM5nR3bW8wM7ks6lZ3pRW7nyPld4nVNZ8W63KlM45JVGJKW1QD9g872XFSTW6hVRh77QWw0FVLdK7b3M5M3JW67_hfD2W9k47W28vCVT4cR3zYW43dPvP2DjPnWW2xgncd8ttHRNN7xVkzCNpr03W42R8S-88lrxyW5DSSk61K2mgGN7pWMTn4-TVXW495yTP2k6fDnW5s30Rz3LSTsMW38wZJt2N9r0XN6nrW034_j9-W7cr26_2BLTYqW4CSZZ34pGMFdVTspCg1FP3qlW49sFJn2xDqt8W3PwddD3K6WMNW6h7gws1c8P4wW94bPDM3jmf7_MJvHWZ8S-w8W1N1V0p1z1kpZVVZ2Cr3XL2jzW1-R6bD1Vxxx3W2Tt6l86gcD1CN4Pz1xdgHCh6W8x1Gly1chgtWW3Lt2zQ5sS4L8W1jy3Yd7bBwHfW77NNpd1xvZljV2J5P06xsJz3W41WnDz6TST6bW6vt9g_4p4fCdW6g8L4V3Zv7vFW2hX3x-3b8l0DW7JRhqH3r_CDRW7_wTM833lDPtW5XmrVK4bZdmPW1zN2dJ4hnCdRVRpQkp7wP3K0f79X4vR04",
+      "slot": 1,
+      "summary": "A new KFF analysis estimates 3.8 million Medicare Part D enrollees met the eligibility criteria for the newly launched Medicare GLP-1 Bridge Program, which runs July 1, 2026 through December 2027 and covers Wegovy, Zepbound, and Foundayo for weight management. Eligible beneficiaries must meet BMI thresholds and not already have GLP-1-covered conditions like type 2 diabetes. Depending on participation rates (10\u201375%), the federal cost could range from $1.3 billion to $10 billion over the 18-month program.",
+      "why_it_matters": "This live reimbursement event defines the near-term demand ceiling for the two dominant GLP-1 obesity drugs and sets a concrete federal spending baseline that will shape formulary negotiations, PBM dynamics, and volume expectations for Novo Nordisk and Eli Lilly through late 2027.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "investment_relevant_insights",
+        "actionability",
+        "subsector:Diabetes",
+        "subsector:Benefits"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "25166099101bd794",
+      "headline": "UnitedHealthcare CEO: AI-driven cost inflation not 'going to be persistent'",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/unitedhealthcare-ceo-ai-driven-cost-inflation-not-going-to-be-persistent/",
+      "slot": 2,
+      "summary": "UnitedHealthcare's CEO characterized the AI-driven cost inflation \u2014 stemming from providers using AI to optimize billing codes while insurers deploy AI to audit and deny claims \u2014 as a temporary rather than structural pressure on the company's medical loss ratio. This 'AI billing war' dynamic has been a significant headwind for managed care margins and is a central topic in how investors model payer earnings recovery. The CEO's framing suggests management expects normalization, which has direct implications for near-term earnings expectations.",
+      "why_it_matters": "For investors in managed care, this CEO signal on margin trajectory is actionable \u2014 it shapes whether UNH's elevated medical loss ratio is a one-time reset or a durable structural drag, with read-through implications across the payer sector.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "ai_impact",
+        "investment_relevant_insights",
+        "analytical_depth",
+        "subsector:Mgd Care",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

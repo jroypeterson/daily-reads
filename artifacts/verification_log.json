@@ -5002,5 +5002,149 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "The article offers substantive operational analysis of the Medicare GLP-1 Bridge launch with four specific unresolved questions touching Humana's processor role, LIS patient continuity, BALANCE Model economics, and provider liability \u2014 directly relevant to managed care and GLP-1 investment theses."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/anthropic-claude-science-life-sciences/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 Page Not Found error, meaning there is no actual article content to evaluate \u2014 only the STAT News site navigation wrapper."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "A 'historic' FDA clearance raises the question: Is the LLM an interface or the decision-maker?",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/fda-clearance-raises-questions-updoc-use-generative-ai-diabetes-treatment/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ exclusive), meaning the full content is inaccessible and there is insufficient substance to evaluate depth \u2014 only a brief introductory paragraph is available, which aligns with a known 'avoid' pattern in the reader profile."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "A former AI regulator, now in industry, says biopharma is reading FDA's AI guidance wrong",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/fda-ai-guidance-pharma-industry-caution-tala-fakhouri-explains/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ exclusive) with only a brief teaser visible, providing insufficient substance to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains only teaser excerpts and navigation snippets from Scuttleblurb's site \u2014 the actual Zoetis deep-dive content is not present, making it impossible to verify the substance, depth, or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "FDA Approves First Gene Therapy for Young Children with Sickle Cell Disease",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-young-children-sickle-cell-disease",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin FDA press release with standard regulatory boilerplate and limited analytical depth; it confirms a label expansion but offers no commercial analysis, pricing dynamics, or forward-looking investment insight that would satisfy this reader's strong preference for analytical depth and investment-relevant content \u2014 and the reader taste profile flags 'niche therapeutics' and 'gene therapy development' as weak/avoid patterns."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "Halfway into the year, biotech is booming",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ subscriber content \u2014 the full text is not accessible, making it impossible to verify depth or substance beyond the teaser, which only confirms XBI index performance figures and nothing more."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "Nearly 4 Million Medicare Beneficiaries Could Be Eligible for the Medicare GLP-1 Bridge Program",
+    "source": "KFF Health News",
+    "url": "https://kffhealthnews.org/medicare/glp-1-bridge-program-medicare-beneficiaries/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returned a 404 'Page Not Found' error, meaning there is no actual article content to evaluate \u2014 only KFF Health News site navigation."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "AI data readiness: The key to scaling impact",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/ai-data-readiness",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article targets Slot 1 (Healthcare/Biotech) but its content is a general enterprise AI data readiness framework \u2014 it belongs in Slot 4 (Wildcard) or Slot 3 (Tech/AI), not a healthcare-specific slot, and the full article text is just a restatement of the shortlist summary with no additional substance."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWxc_J7Gz3GtW8mh94s7j_tT2W3NdgT55QXvkFN8tN9CF3qgz0W7lCdLW6lZ3kTW8D11qp3gXZJHW6XG6rf8_0H3qW49F8xf8lmcMzW3tbjXF2rH1RJW4VvRsk55BCg_VTJj-v3XP_4gW91pgp64Q87BxW7qzMDk46jNXhN7NPdfX9k8mkW72YJjt5B2fFqW3wmqWJ1y2bZjW8-RZ103f1MQYW908T054VK7pnMz2BqR_488nV6wCYh4YXCFgW2XmmQk5Zh1LXW6TSyDj4w-rStW5yKZsZ7PNLTxW6MhX9S7VjfzSW2c5crc2vM5pSW3sqQp98CK9PMW57l0Fm4sR2NzV8K7t828hFjcW8_sV3C3pNsZGf6CbY6404",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL resolves to a STAT News marketing/navigation page with no actual article body text \u2014 the full article content was truncated and never loaded, leaving only site chrome and navigation elements."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "A 'historic' FDA clearance raises the question: Is the LLM an interface or the decision-maker?",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/fda-clearance-raises-questions-updoc-use-generative-ai-diabetes-treatment/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 only the introduction is visible, making it impossible to verify depth or substance beyond what the shortlist summary already states, and paywalled content is an explicit AVOID pattern in the reader taste profile."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a fragmented feed of Scuttleblurb navigation snippets, teasers, and unrelated posts \u2014 the actual Zoetis deep-dive content is not present, only a mention that it is 'upcoming,' meaning the substantive analysis has not yet been published."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "McKinsey: AI data readiness: The key to scaling impact",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f18e1348e9b86026e9666b528/2fe1194fdf564f370000021ef3a0bcc2/2fe1194f-df56-4f37-8adf-a77f6225c232",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article fits Slot 3 (Tech/AI) or Slot 4 (Wildcard) far better than Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, M&A, or pipeline news \u2014 not enterprise AI data strategy frameworks."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "Halfway into the year, biotech is booming",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ subscriber-only content with virtually no accessible substance \u2014 only a brief teaser mentioning XBI performance figures, making it impossible to verify depth, M&A claims, or the Capricor FDA catalyst referenced in the shortlist summary."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "The Shape of Compute Curve",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-shape-of-compute-curve",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about AI compute infrastructure economics (GPU depreciation, hyperscaler capex, backwardated compute curves) and belongs in Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biopharma), which requires FDA decisions, clinical trial data, M&A, or pipeline news."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "Nearly 4 Million Medicare Beneficiaries Could Be Eligible for the Medicare GLP-1 Bridge Program",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VVxDPk4_ym1BW5Q7Hc91Z9w1NW1vWpFD5QVtC-N3fD2DM5nR3bW8wM7ks6lZ3pRW7nyPld4nVNZ8W63KlM45JVGJKW1QD9g872XFSTW6hVRh77QWw0FVLdK7b3M5M3JW67_hfD2W9k47W28vCVT4cR3zYW43dPvP2DjPnWW2xgncd8ttHRNN7xVkzCNpr03W42R8S-88lrxyW5DSSk61K2mgGN7pWMTn4-TVXW495yTP2k6fDnW5s30Rz3LSTsMW38wZJt2N9r0XN6nrW034_j9-W7cr26_2BLTYqW4CSZZ34pGMFdVTspCg1FP3qlW49sFJn2xDqt8W3PwddD3K6WMNW6h7gws1c8P4wW94bPDM3jmf7_MJvHWZ8S-w8W1N1V0p1z1kpZVVZ2Cr3XL2jzW1-R6bD1Vxxx3W2Tt6l86gcD1CN4Pz1xdgHCh6W8x1Gly1chgtWW3Lt2zQ5sS4L8W1jy3Yd7bBwHfW77NNpd1xvZljV2J5P06xsJz3W41WnDz6TST6bW6vt9g_4p4fCdW6g8L4V3Zv7vFW2hX3x-3b8l0DW7JRhqH3r_CDRW7_wTM833lDPtW5XmrVK4bZdmPW1zN2dJ4hnCdRVRpQkp7wP3K0f79X4vR04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive quantitative analysis of a live reimbursement catalyst \u2014 the Medicare GLP-1 Bridge Program launched July 1 \u2014 with specific eligibility estimates, cost modeling across participation scenarios, and clear clinical criteria, making it directly actionable for healthcare investors tracking Novo Nordisk (Wegovy), Eli Lilly (Zepbound), and managed care dynamics."
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "UnitedHealthcare CEO: AI-driven cost inflation not 'going to be persistent'",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/unitedhealthcare-ceo-ai-driven-cost-inflation-not-going-to-be-persistent/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "UNH is a coverage universe ticker and CEO commentary on AI-driven medical cost inflation directly addresses a key managed care margin debate with investment-relevant implications."
   }
 ]
