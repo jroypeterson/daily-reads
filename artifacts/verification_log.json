@@ -5146,5 +5146,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "UNH is a coverage universe ticker and CEO commentary on AI-driven medical cost inflation directly addresses a key managed care margin debate with investment-relevant implications."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the actual content is limited to a brief intro and a subscription gate, providing no substantive depth beyond what the headline conveys, matching a known 'avoid' pattern from the reader's taste profile."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "Roche drug sets new standard for KRAS-driven lung cancer",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is paywalled (STAT+ exclusive), so actual substance and depth cannot be verified \u2014 only the headline and a brief newsletter tease are accessible."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "Elevance sues government over $115 million tied to Medicare Advantage star ratings",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/02/elevance-lawsuit-medicare-advantage-star-ratings-clover/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ exclusive), so actual content depth cannot be verified and readers cannot access it \u2014 matching the 'paywalled content' AVOID pattern in the reader taste profile."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "AI data readiness: The key to scaling impact",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/ai-data-readiness-the-key-to-scaling-impact",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a strong AI/data infrastructure article that fits Slot 3 far better than Slot 1 (Healthcare/Biotech), as it contains no FDA decisions, clinical trial data, biopharma pipeline news, or healthcare-specific content \u2014 the healthcare angle is only implied in the 'why it matters' framing, not in the article itself."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "[scuttleslops] Semiconductors and AI Infrastructure: AAPL, CRWV, NBIS, HPE, DELL, Analog Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is a semiconductor/AI infrastructure digest with no meaningful healthcare or biopharma content, making it entirely mismatched for Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is not the actual Zoetis deep-dive \u2014 it's a collection of Scuttleblurb site navigation snippets, upcoming post teasers, and unrelated content (TikTok Shop, private credit, Apple Siri), confirming the ZTS piece has not yet been published or was not included in the crawl."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "Vertex's Casgevy makes history again with new approval \u2014 plus 7 FDA decisions to watch this quarter",
+    "source": "BioSpace",
+    "url": "https://www.biospace.com/news/vertex-casgevy-makes-history-again-with-new-approval",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 'Page not found' error, meaning there is no actual article content to evaluate \u2014 only a BioSpace navigation shell."
+  },
+  {
+    "date": "2026-07-03",
+    "headline": "CMS targets 340B, site-neutral rates in 2027 outpatient rule \u2014 8 things to know",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/cms-targets-340b-site-neutral-pay-in-2027-outpatient-rule-8-things-to-know/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "CMS's proposed 2027 outpatient rule with dual 340B and site-neutral cuts represents a major structural reimbursement shift with clear investment implications for hospital operators and outpatient care platforms."
   }
 ]

@@ -1,0 +1,32 @@
+{
+  "run_date": "2026-07-03",
+  "generated_at": "2026-07-03T13:50:40Z",
+  "counts": {
+    "gmail_items": 97,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "4bac436d38f2b771",
+      "headline": "CMS targets 340B, site-neutral rates in 2027 outpatient rule \u2014 8 things to know",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/cms-targets-340b-site-neutral-pay-in-2027-outpatient-rule-8-things-to-know/",
+      "slot": 1,
+      "summary": "CMS's proposed 2027 outpatient prospective payment rule targets two major revenue streams simultaneously: reduced 340B drug reimbursement rates and an expanded site-neutral payment policy covering new categories of outpatient services. The combined effect would strip billions from hospital outpatient revenue starting in 2027, with the eight-point breakdown detailing affected service categories, policy mechanics, and the regulatory rationale driving each change.",
+      "why_it_matters": "These dual cuts represent among the largest structural reimbursement risks in the coverage universe, with cascading effects on hospital system financials, M&A dynamics in outpatient care, and payer-provider contract negotiations.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "healthcare_adjacent_finance",
+        "actionability",
+        "novelty",
+        "forward_looking"
+      ],
+      "reading_time": "4 min"
+    }
+  ]
+}
