@@ -57,6 +57,16 @@ The daily digest posts to a dedicated `#daily-reads` channel via `SLACK_WEBHOOK_
 - **Seeded 2026-06-04 from a full Readwise-library analysis** (~3,860 of 4,255 highlights via the readwise MCP), NOT from submitted article exemplars — so the file is richly populated even though `taste_evidence.json` has 0 `positive_exemplar` rows. Don't be confused by that mismatch; the provenance is in an HTML comment at the top of the file. Full narrative persona lives at `../READING_PERSONA.md`.
 - `process_taste.py` → `rebuild_profile()` only fires once **3+** GitHub-issue exemplars accumulate (`Taste: <headline>` issues). When it does, it passes the current file to Claude as the `CURRENT PROFILE` prior to preserve/refine — so the Readwise seed is the standing prior, not throwaway. Treat it that way; don't blank it.
 
+## Readwise highlight → taste exemplar ingest
+
+`process_readwise_exemplars.py` (daily workflow step, before "Update learned preferences") pulls recent Readwise highlights via the reusable fetch-only client `readwise_client.py` (v2 `/api/v2/export/`, same `READWISE_TOKEN` as the Reader push; 429/Retry-After backoff built in). Each highlighted **article** becomes one `kind="positive_exemplar"` record in `taste_evidence.json` (`source_channel="readwise"`, highlight texts as `metadata.extracted_text_preview`, highlight notes as `note`) — identical shape to the email/Dropbox/issue intake, so `preference_learning.py` synthesis and the ranker's `load_learned_preferences_summary()` pick them up with no changes.
+
+- **Books/tweets/podcasts are excluded** — the article-taste loop models article taste; the standing `taste_profile.md` prior was already seeded from the full book+article library.
+- **State:** `readwise_state.json` holds the incremental `updatedAfter` cursor (10-min overlap for clock skew; id-dedupe absorbs it). Committed by the workflow. First run = 30-day lookback.
+- **Cap:** max 25 new exemplars per run; on overflow the cursor is held back so the remainder drains on later runs (nothing lost).
+- **Failure mode:** missing/rejected token or API failure prints a loud warning + posts a Block Kit alert to `#status-reports`, then exits 0 — digest proceeds without fresh exemplars.
+- **Reuse:** `readwise_client.fetch_export()` is deliberately taste-agnostic — the planned Anki pipeline should reuse it rather than re-implementing the pull.
+
 ## Outbound email digest — paused
 
 As of 2026-05-18 the HTML email digest (`deliver_gmail` in `main.py`) is paused in the scheduled GH Actions run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. The function is gated on that env var (default `"true"` so local `python main.py` still sends if the user wants to test). To resume: delete the env line in `daily.yml` or flip it to `"true"`. Slack/TickTick/Pages/health-heartbeat were never paused.

@@ -68,7 +68,9 @@ import process_dropbox_exemplars
 import process_exemplar_content
 import process_email_exemplars
 import process_email_feedback
+import process_readwise_exemplars
 import project_data
+import readwise_client
 
 
 class FixedDateTime(datetime):
@@ -865,6 +867,228 @@ class ExtractJsonArrayTests(unittest.TestCase):
             main._extract_json_array(self._blocks('["Headline one", "Headline two"]')),
             [],
         )
+
+
+class ReadwiseClientTests(unittest.TestCase):
+    """readwise_client.fetch_export — pagination, auth, and 429 backoff."""
+
+    @staticmethod
+    def _resp(status=200, body=None, headers=None, text=""):
+        resp = mock.Mock(status_code=status, headers=headers or {}, text=text)
+        resp.json.return_value = body if body is not None else {}
+        return resp
+
+    def test_paginates_and_passes_updated_after(self):
+        pages = [
+            self._resp(body={"results": [{"user_book_id": 1}], "nextPageCursor": "c2"}),
+            self._resp(body={"results": [{"user_book_id": 2}], "nextPageCursor": None}),
+        ]
+        request_fn = mock.Mock(side_effect=pages)
+
+        docs = readwise_client.fetch_export(
+            "tok", updated_after="2026-06-01T00:00:00Z", request_fn=request_fn
+        )
+
+        self.assertEqual([d["user_book_id"] for d in docs], [1, 2])
+        self.assertEqual(request_fn.call_count, 2)
+        first_params = request_fn.call_args_list[0].kwargs["params"]
+        self.assertEqual(first_params["updatedAfter"], "2026-06-01T00:00:00Z")
+        self.assertNotIn("pageCursor", first_params)
+        second_params = request_fn.call_args_list[1].kwargs["params"]
+        self.assertEqual(second_params["pageCursor"], "c2")
+        headers = request_fn.call_args_list[0].kwargs["headers"]
+        self.assertEqual(headers["Authorization"], "Token tok")
+
+    def test_429_honors_retry_after_then_succeeds(self):
+        pages = [
+            self._resp(status=429, headers={"Retry-After": "7"}),
+            self._resp(body={"results": [{"user_book_id": 9}], "nextPageCursor": None}),
+        ]
+        request_fn = mock.Mock(side_effect=pages)
+        sleeps = []
+
+        docs = readwise_client.fetch_export(
+            "tok", request_fn=request_fn, sleep_fn=sleeps.append
+        )
+
+        self.assertEqual(len(docs), 1)
+        self.assertEqual(len(sleeps), 1)
+        self.assertGreaterEqual(sleeps[0], 7)
+
+    def test_persistent_429_raises_after_bounded_retries(self):
+        request_fn = mock.Mock(
+            return_value=self._resp(status=429, headers={"Retry-After": "1"})
+        )
+        with self.assertRaises(readwise_client.ReadwiseError):
+            readwise_client.fetch_export("tok", request_fn=request_fn, sleep_fn=lambda s: None)
+        self.assertEqual(request_fn.call_count, readwise_client.MAX_RETRIES_PER_PAGE + 1)
+
+    def test_401_raises_auth_error(self):
+        request_fn = mock.Mock(return_value=self._resp(status=401))
+        with self.assertRaises(readwise_client.ReadwiseAuthError):
+            readwise_client.fetch_export("bad", request_fn=request_fn, sleep_fn=lambda s: None)
+
+    def test_missing_token_raises_auth_error(self):
+        with self.assertRaises(readwise_client.ReadwiseAuthError):
+            readwise_client.fetch_export("", request_fn=mock.Mock())
+
+    def test_runaway_pagination_raises_not_partial(self):
+        request_fn = mock.Mock(
+            return_value=self._resp(body={"results": [], "nextPageCursor": "again"})
+        )
+        with self.assertRaises(readwise_client.ReadwiseError):
+            readwise_client.fetch_export(
+                "tok", max_pages=3, request_fn=request_fn, sleep_fn=lambda s: None
+            )
+        self.assertEqual(request_fn.call_count, 3)
+
+
+class ProcessReadwiseExemplarTests(unittest.TestCase):
+    """Readwise highlights → positive_exemplar records in taste_evidence.json."""
+
+    ARTICLE_DOC = {
+        "user_book_id": 4321,
+        "title": "Why Managed Care Margins Compress",
+        "readable_title": "Why Managed Care Margins Compress",
+        "author": "Analyst Person",
+        "category": "articles",
+        "source": "reader",
+        "source_url": "https://example.com/mco-margins",
+        "unique_url": "https://readwise.io/reader/shared/abc",
+        "highlights": [
+            {"text": "MLR floors bite in year two.", "note": "core thesis", "highlighted_at": "2026-06-20T10:00:00Z"},
+            {"text": "Discarded junk", "is_discard": True, "highlighted_at": "2026-06-21T10:00:00Z"},
+            {"text": "Repricing lags utilization by ~9 months.", "note": "", "highlighted_at": "2026-06-22T10:00:00Z"},
+        ],
+    }
+    BOOK_DOC = {
+        "user_book_id": 99,
+        "title": "Some Investing Book",
+        "category": "books",
+        "source_url": "",
+        "highlights": [{"text": "book highlight", "highlighted_at": "2026-06-22T10:00:00Z"}],
+    }
+
+    def test_build_exemplar_maps_article(self):
+        record = process_readwise_exemplars.build_exemplar(
+            self.ARTICLE_DOC, "2026-07-04T12:00:00Z"
+        )
+        self.assertEqual(record["kind"], "positive_exemplar")
+        self.assertEqual(record["source_channel"], "readwise")
+        self.assertEqual(record["title"], "Why Managed Care Margins Compress")
+        self.assertEqual(record["url"], "https://example.com/mco-margins")
+        self.assertEqual(record["note"], "core thesis")
+        self.assertEqual(record["content_status"], "extracted")
+        self.assertEqual(record["id"], project_data.evidence_id_for("readwise|4321"))
+        meta = record["metadata"]
+        # Discarded highlight excluded; remaining two joined chronologically.
+        self.assertEqual(meta["highlight_count"], 2)
+        self.assertEqual(
+            meta["extracted_text_preview"],
+            "MLR floors bite in year two. […] Repricing lags utilization by ~9 months.",
+        )
+        self.assertEqual(meta["latest_highlighted_at"], "2026-06-22T10:00:00Z")
+        self.assertEqual(record["created_at"], "2026-07-04T12:00:00Z")
+
+    def test_build_exemplar_keeps_books_out_of_article_loop(self):
+        self.assertIsNone(
+            process_readwise_exemplars.build_exemplar(self.BOOK_DOC, "2026-07-04T12:00:00Z")
+        )
+
+    def test_build_exemplar_skips_article_with_no_usable_highlights(self):
+        doc = dict(self.ARTICLE_DOC, highlights=[{"text": "  ", "is_discard": False}])
+        self.assertIsNone(process_readwise_exemplars.build_exemplar(doc, "2026-07-04T12:00:00Z"))
+
+    def _run_ingest_in_tmpdir(self, docs, tmpdir):
+        original_cwd = os.getcwd()
+        try:
+            os.chdir(tmpdir)
+            with mock.patch.object(
+                process_readwise_exemplars, "fetch_export", return_value=docs
+            ) as fetch:
+                summary = process_readwise_exemplars.ingest("tok")
+            return summary, fetch
+        finally:
+            os.chdir(original_cwd)
+
+    def test_ingest_appends_evidence_and_advances_cursor(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            summary, fetch = self._run_ingest_in_tmpdir(
+                [self.ARTICLE_DOC, self.BOOK_DOC], tmpdir
+            )
+            self.assertEqual(summary["new_exemplars"], 1)
+            self.assertEqual(summary["skipped_non_article"], 1)
+            self.assertFalse(summary["truncated"])
+            # First run uses the 30-day default lookback.
+            self.assertTrue(fetch.call_args.kwargs["updated_after"])
+
+            evidence = json.load(open(os.path.join(tmpdir, "taste_evidence.json")))
+            self.assertEqual(len(evidence), 1)
+            self.assertEqual(evidence[0]["source_channel"], "readwise")
+
+            state = json.load(open(os.path.join(tmpdir, "readwise_state.json")))
+            self.assertIn("updated_after", state)
+            self.assertEqual(state["last_run_added"], 1)
+
+            # Second run: same doc returns, dedupe adds nothing.
+            summary2, fetch2 = self._run_ingest_in_tmpdir([self.ARTICLE_DOC], tmpdir)
+            self.assertEqual(summary2["new_exemplars"], 0)
+            # Incremental: second run queries from the persisted cursor.
+            self.assertEqual(
+                fetch2.call_args.kwargs["updated_after"], state["updated_after"]
+            )
+            evidence = json.load(open(os.path.join(tmpdir, "taste_evidence.json")))
+            self.assertEqual(len(evidence), 1)
+
+    def test_ingest_cap_holds_cursor_back_so_overflow_drains(self):
+        docs = [
+            dict(
+                self.ARTICLE_DOC,
+                user_book_id=1000 + i,
+                source_url=f"https://example.com/a{i}",
+            )
+            for i in range(process_readwise_exemplars.MAX_NEW_EXEMPLARS_PER_RUN + 5)
+        ]
+        with tempfile.TemporaryDirectory() as tmpdir:
+            summary, _ = self._run_ingest_in_tmpdir(docs, tmpdir)
+            self.assertTrue(summary["truncated"])
+            self.assertEqual(
+                summary["new_exemplars"],
+                process_readwise_exemplars.MAX_NEW_EXEMPLARS_PER_RUN,
+            )
+            state = json.load(open(os.path.join(tmpdir, "readwise_state.json")))
+            self.assertNotIn("updated_after", state)  # cursor held back
+
+            # Next run drains the remaining 5.
+            summary2, _ = self._run_ingest_in_tmpdir(docs, tmpdir)
+            self.assertEqual(summary2["new_exemplars"], 5)
+            state = json.load(open(os.path.join(tmpdir, "readwise_state.json")))
+            self.assertIn("updated_after", state)
+
+    def test_main_without_token_warns_loudly_and_proceeds(self):
+        env = {"SLACK_WEBHOOK_STATUS_REPORTS": "https://hooks.slack test"}
+        with mock.patch.dict(os.environ, env, clear=True):
+            with mock.patch.object(process_readwise_exemplars.requests, "post") as post:
+                post.return_value = mock.Mock(raise_for_status=lambda: None)
+                process_readwise_exemplars.main()  # must not raise
+        post.assert_called_once()
+        blocks = post.call_args.kwargs["json"]["blocks"]
+        self.assertEqual(blocks[0]["type"], "section")
+        self.assertIn("READWISE_TOKEN not set", blocks[0]["text"]["text"])
+
+    def test_main_auth_error_alarms_but_exits_cleanly(self):
+        env = {"READWISE_TOKEN": "bad", "SLACK_WEBHOOK_STATUS_REPORTS": "https://hooks"}
+        with mock.patch.dict(os.environ, env, clear=True):
+            with mock.patch.object(
+                process_readwise_exemplars,
+                "ingest",
+                side_effect=readwise_client.ReadwiseAuthError("rejected"),
+            ):
+                with mock.patch.object(process_readwise_exemplars.requests, "post") as post:
+                    post.return_value = mock.Mock(raise_for_status=lambda: None)
+                    process_readwise_exemplars.main()  # must not raise
+        post.assert_called_once()
+        self.assertIn("token rejected", post.call_args.kwargs["json"]["text"])
 
 
 if __name__ == "__main__":

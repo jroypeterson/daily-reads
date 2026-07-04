@@ -45,6 +45,16 @@ jobs:
           TASTE_EMAIL_ALIAS: ${{ secrets.TASTE_EMAIL_ALIAS }}
           TASTE_GMAIL_LABEL: ${{ secrets.TASTE_GMAIL_LABEL }}
 
+      # Readwise highlights = strong positive taste exemplars. Runs before
+      # "Update learned preferences" so fresh exemplars trigger synthesis in
+      # the same run. Missing/rejected token degrades loudly (Slack warning
+      # to #status-reports) but does not fail the digest.
+      - name: Process Readwise taste exemplars
+        run: python process_readwise_exemplars.py
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
+
       - name: Process criteria decisions
         run: python process_criteria_feedback.py
         env:
@@ -127,6 +137,6 @@ jobs:
         run: |
           git config user.name "daily-reads-bot"
           git config user.email "bot@daily-reads"
-          git add docs/ feedback_log.json selection_criteria.md selection_criteria_proposed.md criteria_update_state.json taste_profile.md taste_evidence.json learned_preferences.json learned_preferences.md url_resolution_cache.json artifacts/
+          git add docs/ feedback_log.json selection_criteria.md selection_criteria_proposed.md criteria_update_state.json taste_profile.md taste_evidence.json readwise_state.json learned_preferences.json learned_preferences.md url_resolution_cache.json artifacts/
           git diff --staged --quiet || git commit -m "Daily reads $(date -u +%Y-%m-%d)"
           git push

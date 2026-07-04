@@ -490,5 +490,71 @@
       "digest_date": "2026-06-18"
     },
     "created_at": "2026-06-20T13:30:29Z"
+  },
+  {
+    "id": "ev_73b313690cb68798",
+    "kind": "positive_exemplar",
+    "source_channel": "readwise",
+    "title": "Studying Serial Acquirers - By Canuck Analysts",
+    "url": "https://exploringcontext.substack.com/p/studying-serial-acquirers",
+    "local_path": "",
+    "note": "",
+    "score": null,
+    "content_status": "extracted",
+    "metadata": {
+      "readwise_user_book_id": 60966141,
+      "readwise_category": "articles",
+      "readwise_source": "instapaper",
+      "author": "exploringcontext.substack.com",
+      "highlight_count": 25,
+      "latest_highlighted_at": "2022-01-01T16:36:32Z",
+      "extracted_text_preview": "Then you need to have a sense of what share the roll-up, as well as the other roll-ups, both public and private, have within this realistic TAM [\u2026] you wanted to draw an analogy to investing in public equity markets, you\u2019d say that roll-ups are the expert sector analysts of the serial acquirer world whereas accumulators and platforms are the generalist investors. Playing in a single industry and/or a single country means that [\u2026] roll-ups have an easier time scaling up M&A, and they can scale up deal volume pretty quickly\u2026 until they run into TAM constraints, at which point mediocrity will set in. This is a classic trap for investors looking through the rear-view mirror. Wast [\u2026] It\u2019s key to have a good sense what the actual roll-up TAM is. If management teams tell you how many companies are in their industry, and thus purported acquisition targets, you need to figure out what percentage of them are realistic acquisition targets, so excluding the crappy ones, tiny ones etc. [\u2026] A roll-up model at the end of its useful life creates bad incentives for mgmt. For a company used to growing a lot via M&A, it\u2019s hard to suddenly pivot to returning capital [\u2026] That last part is very importa",
+      "extracted_at": "2026-07-04T18:52:22Z"
+    },
+    "created_at": "2026-07-04T18:52:22Z"
+  },
+  {
+    "id": "ev_f56f7dccb9f9a5d3",
+    "kind": "positive_exemplar",
+    "source_channel": "readwise",
+    "title": "Scott Investor Letters - Scott Management, LLC",
+    "url": "https://scottlp.com/letters.html",
+    "local_path": "",
+    "note": "",
+    "score": null,
+    "content_status": "extracted",
+    "metadata": {
+      "readwise_user_book_id": 60966143,
+      "readwise_category": "articles",
+      "readwise_source": "instapaper",
+      "author": "scottlp.com",
+      "highlight_count": 17,
+      "latest_highlighted_at": "2022-01-01T16:36:08Z",
+      "extracted_text_preview": "is the aligned set of activities that contributes to the advantage, not any particular step in the process [\u2026] Making acquisitions is easy\u2014it\u2019s everything that takes place before and after that presents the challenge. To succeed through M&A, companies need to have certain foundational elements in place before a transaction takes place [\u2026] Independence from forecasts is key. I hesitate with companies that maintain fixed dividend payout ratios, which can stifle value creation, or that communicate five-year revenue targets incorporating to-be-acquired sales, which can promulgate loose capital spending. [\u2026] standardized control environment: Gr [\u2026] Compared to companies that steadily grow organically by doing one thing very well (e.g., ultra-low-cost airline Wizz Air), adept serial acquirers should keep a more flexible capital management policy. Their capital needs are, by nature, more difficult to predict. This is at odds with policies that forecast-driven sell-side analysts or income-oriented shareholders might desire [\u2026] Learning from one another: Managers benefit from talk across the group. [\u2026] When selecting KPIs, it\u2019s sensible to choose those that can be consistently used by every",
+      "extracted_at": "2026-07-04T18:52:22Z"
+    },
+    "created_at": "2026-07-04T18:52:22Z"
+  },
+  {
+    "id": "ev_16896503a68c9119",
+    "kind": "positive_exemplar",
+    "source_channel": "readwise",
+    "title": "Behind the Scenes With Buffett\u2019s Biographer, Alice Schroeder | Seeking Alph",
+    "url": "https://seekingalpha.com/article/235292-behind-the-scenes-with-buffett-s-biographer-alice-schroeder",
+    "local_path": "",
+    "note": "",
+    "score": null,
+    "content_status": "extracted",
+    "metadata": {
+      "readwise_user_book_id": 60965751,
+      "readwise_category": "articles",
+      "readwise_source": "instapaper",
+      "author": "seekingalpha.com",
+      "highlight_count": 3,
+      "latest_highlighted_at": "2018-07-19T21:02:08Z",
+      "extracted_text_preview": "When it comes to appreciating something that is special about a business that others do not, I\u2019ve learned that the devil really is in the details [\u2026] well-intended, ethical people are blind to conflicts when they\u2019re faced with giving up some personal thing that they highly value. [\u2026] have enough of an ego to believe you\u2019re smarter, and, this will sound corny, but it helps enormously if you have crusader streak. Crusaders will suffer all kinds of slings and arrows in the name of whatever they believe is justice.",
+      "extracted_at": "2026-07-04T18:52:22Z"
+    },
+    "created_at": "2026-07-04T18:52:22Z"
   }
 ]

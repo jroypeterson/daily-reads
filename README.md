@@ -42,7 +42,7 @@ Web search ─────────┘                                → Git
 7. **URL validation**: Pre-delivery `validate_delivery_urls` probes every URL about to ship. Broken URLs (404/410, DNS failures, dead-end trackers) are dropped from triage/always-read/substack; main-slot breakages log a loud warning. `url_resolver.py` unwraps tracker redirects generically (shape-based, not per-host) and drops ones that resolve to publisher homepages. Substack `redirect/2/<token>` URLs are decoded to canonical publication URLs so desktop clicks work.
 8. **Delivery**: Sends 4 verified articles to Gmail, Slack (dedicated `#daily-reads` channel via `SLACK_WEBHOOK_URL_DAILY_READS`), TickTick, GitHub Pages, and Actions log. Digest includes an "Always read" section for paid subscriptions and a "Substack — today's inbox" section listing every `@substack.com` email in the last 26h. **Note (paused 2026-05-18):** outbound Gmail digest is currently disabled in the scheduled run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. Slack/TickTick/Pages remain on. Remove the env line to resume.
 9. **Criteria Review**: When enough feedback accumulates, Claude proposes a criteria update and notifies via Gmail + Slack for accept/reject/modify review
-10. **Taste Intake**: Positive exemplars can come from a dedicated Gmail alias/label or a local Dropbox watch folder and feed learned preferences
+10. **Taste Intake**: Positive exemplars come from a dedicated Gmail alias/label, a local Dropbox watch folder, GitHub `Taste:` issues, or **Readwise article highlights** (`process_readwise_exemplars.py` + reusable fetch-only `readwise_client.py`) — an article JP highlighted is treated as a strong positive exemplar. Only `category=articles` documents enter the article-taste loop (books/tweets/podcasts excluded); the incremental sync cursor lives in `readwise_state.json` (committed by the workflow, max 25 new exemplars/run with overflow draining on later runs). All paths append `positive_exemplar` records to `taste_evidence.json`, which feed learned preferences
 11. **Source Audit**: Daily check that every newsletter source in `sources.py` has produced emails recently; Slack alert if any go stale/dead. Not `continue-on-error` — a broken audit fails the workflow visibly.
 12. **Weekly Report**: Every Friday, a health report is sent via Gmail + Slack covering source health (with full configured-source roster by category), selection quality, feedback trends, always-read coverage, and URL validation stats.
 
@@ -73,7 +73,7 @@ Layers guard against silent ingest misses *and* silent delivery failures (see `m
 | `TAVILY_API_KEY` | Optional — enables Tavily extract as last-resort fallback for paywalled/JS-heavy articles that trafilatura and Jina can't extract |
 | `TICKTICK_ACCESS_TOKEN` | Optional — enables TickTick delivery |
 | `TICKTICK_LIST_DAILY_READS` | Optional — TickTick list ID for daily digest |
-| `READWISE_TOKEN` | Optional — static Readwise token (readwise.io/access_token) enabling the Reader push of top picks + always-read. Unset = step skipped cleanly. |
+| `READWISE_TOKEN` | Optional — static Readwise token (readwise.io/access_token). Enables (a) the Reader push of top picks + always-read (unset = skipped cleanly) and (b) the Readwise highlight → taste-exemplar ingest (unset = loud Slack warning to `#status-reports`, digest proceeds without fresh exemplars). |
 | `READWISE_READER_LOCATION` | Optional — Reader shelf for pushed items (`later` default; e.g. `shortlist`) |
 
 ## Gmail OAuth Setup
