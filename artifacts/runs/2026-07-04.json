@@ -1,0 +1,66 @@
+{
+  "run_date": "2026-07-04",
+  "generated_at": "2026-07-04T13:08:57Z",
+  "counts": {
+    "gmail_items": 84,
+    "tier2_items": 72,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c4d677d94306ee62",
+      "headline": "[ZTS] Zoetis could use a booster shot",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/zts",
+      "slot": 1,
+      "summary": "Scuttleblurb profiles Zoetis (ZTS), the former Pfizer animal health division, dissecting how its four blockbuster pet franchises (Simparica, Apoquel, Cytopoint, Librela) transformed it from a livestock-dominated business to a companion animal powerhouse representing a structural moat story. The piece explains why pet drugs are fundamentally superior to livestock drugs \u2014 longer treatment durations, emotional spending, brand loyalty with vets, and limited generic cliff risk \u2014 while contextualizing the current 11% U.S. companion animal sales decline in Q1 2026 against intensifying competition and pet-owner price sensitivity. The analysis frames the core investment question: whether Zoetis' durable competitive advantages justify its valuation amid near-term headwinds.",
+      "why_it_matters": "For investors, this teardown provides the structural framework needed to assess whether ZTS's current weakness is a cyclical buying opportunity or the beginning of moat erosion \u2014 directly actionable for portfolio review.",
+      "signal_tags": [
+        "ticker_match:ZTS",
+        "priority:high",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "subsector:Animal Health"
+      ],
+      "reading_time": "12 min"
+    },
+    {
+      "article_id": "d8ead6b6b70ea6e6",
+      "headline": "McKinsey: AI data readiness: The key to scaling impact",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019f18e1348e9b86026e9666b528/2fe1194fdf564f370000021ef3a0bcc2/2fe1194f-df56-4f37-8adf-a77f6225c232?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oJ3sHRkl51nhnm-omUF0xF8iQwTkjBrV3DC-99g3xvqp_vQoIKQcaPIku-X8Mf0Jg%3D",
+      "slot": 2,
+      "summary": "McKinsey examines why most organizations struggle to move AI beyond pilots, centering on data readiness as the critical bottleneck \u2014 specifically data consistency, governance frameworks, and accessibility of data assets across the enterprise. The piece outlines architectural decisions that determine whether AI can scale to enterprise-wide value creation or remains siloed in proofs-of-concept. It offers strategic frameworks applicable to healthcare, life sciences, and health tech SaaS contexts where data fragmentation is endemic.",
+      "why_it_matters": "For a reader with data infrastructure as their strongest topic preference and holdings in health tech SaaS and digital health, this McKinsey framework provides actionable criteria for evaluating which portfolio companies have the data foundations to actually deliver on AI promises \u2014 versus those that are AI-washing.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "ai_impact",
+        "analytical_depth",
+        "source:mckinsey"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "5e5ca9714a84c6bd",
+      "headline": "A behind-the-scenes look at Midjourney's medical scanner leaves many questions unanswered",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "slot": 3,
+      "summary": "Midjourney released a behind-the-scenes video of its full-body ultrasound scanner, described by an internal engineer as ultrasound probes 'hacked apart and slapped on a glorified hot tub' running on off-the-shelf hardware and Raspberry Pis. The company is positioning it as a wellness/body-composition product to avoid FDA clearance requirements, but continues to use medical language and aspirational claims about transforming diagnostics. Experts previously told The Verge that Midjourney has offered little evidence it can overcome fundamental limits of ultrasound physics, and the new video does little to address those concerns.",
+      "why_it_matters": "For readers tracking AI's incursion into medical imaging and diagnostics, this story illustrates the regulatory arbitrage strategy non-traditional entrants are using to sidestep clinical validation \u2014 a pattern with significant implications for incumbents and investment theses around health tech disruption.",
+      "signal_tags": [
+        "medical_imaging_technology",
+        "ai_biology_intersection",
+        "novelty",
+        "analytical_depth",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "4 min"
+    }
+  ]
+}

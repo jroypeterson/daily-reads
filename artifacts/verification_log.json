@@ -5218,5 +5218,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "CMS's proposed 2027 outpatient rule with dual 340B and site-neutral cuts represents a major structural reimbursement shift with clear investment implications for hospital operators and outpatient care platforms."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is paywalled (STAT+ subscribers only), meaning there is no substantive content to evaluate beyond the headline and teaser \u2014 and the digest explicitly flags paywalled content as an avoid pattern."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "Elevance sues government over Medicare Advantage ratings",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW4NBp12wtzNW6CrxrY5gCmRFW7qxXbD5R04MTN8GDX6z3qgz0W7lCdLW6lZ3lYW5cdJX88BVX1MW3pjFpt6m1QHmW7lDmh_7jbdwZVWG-w01xTf2DW1-PbzR1r6-gXW5bsvMv8P2xnCW2q9B9L7G987DW2tcVwv1gl3V_W1w66mL6N6g34W44w2vL4XhCJMW3-hZdV5zYdvLW2wdwhT8D-_6pW4K4bMM9gSjDNW91lzDK6ZtKdKW7GFG1y2KkzrsN2bLY8Pt-6nBW88Q3q31t9VjlV57vYB1xWxKXW8cYxXl3_8g38W74sz6n5-wHQsN8tsBBxks80KW2VgK3V1SN-szV4XBXD1N__GSW3St1bG99nc--f68gPd004",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is paywalled \u2014 the actual content is a STAT+ subscription marketing page, not a substantive article \u2014 so depth and accuracy cannot be verified, and the reader taste profile explicitly flags paywalled content as an AVOID pattern."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/zts",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb delivers a substantive, analytically deep business-quality teardown of Zoetis (ZTS) \u2014 a ticker match \u2014 examining the structural moat of pet pharma versus livestock, blockbuster franchise economics, and current headwinds, perfectly matching Slot 1 and the reader's strong preference for investment-relevant analytical depth."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "McKinsey: AI data readiness: The key to scaling impact",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f18e1348e9b86026e9666b528/2fe1194fdf564f370000021ef3a0bcc2/2fe1194f-df56-4f37-8adf-a77f6225c232?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oJ3sHRkl51nhnm-omUF0xF8iQwTkjBrV3DC-99g3xvqp_vQoIKQcaPIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey on AI data readiness is a strong fit for the reader's #1 topic preference (data infrastructure, 11 evidence points) from a high-priority consulting source, and the content appears substantive \u2014 addressing enterprise AI scaling barriers rather than surface-level hype."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "Money Stuff: Tricking the AI Investors",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-07-02/tricking-the-ai-investors",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is almost entirely truncated/inaccessible (only Bloomberg navigation menus are visible), making it impossible to verify substance, depth, or accuracy of the shortlist summary \u2014 and Bloomberg is also the wrong domain for Slot 3 (Tech/AI), which prioritizes stratechery.com, thesequence.substack.com, and importai.net."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "BCG: The New Rules for Proving AI Value \u2014 How CIOs Can Prove the Value of Technology in the Age of AI",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGiqCTPBWDXPYiOY0Ljj64GFCnDByd-xvBH0FW0f-g_4G5kbHLY4Fj_f4pS2DvGQz2yxWn0wkQ=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is actually just a BCG marketing email newsletter with image links and truncated content \u2014 there is no substantive article body present, making it impossible to verify analytical depth or frameworks claimed in the shortlist summary."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "KFF: Nearly 4 Million Medicare Beneficiaries Could Be Eligible for the Medicare GLP-1 Bridge Program",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VVxDPk4_ym1BW5Q7Hc91Z9w1NW1vWpFD5QVtC-N3fD2DM5nR3bW8wM7ks6lZ3pRW7nyPld4nVNZ8W63KlM45JVGJKW1QD9g872XFSTW6hVRh77QWw0FVLdK7b3M5M3JW67_hfD2W9k47W28vCVT4cR3zYW43dPvP2DjPnWW2xgncd8ttHRNN7xVkzCNpr03W42R8S-88lrxyW5DSSk61K2mgGN7pWMTn4-TVXW495yTP2k6fDnW5s30Rz3LSTsMW38wZJt2N9r0XN6nrW034_j9-W7cr26_2BLTYqW4CSZZ34pGMFdVTspCg1FP3qlW49sFJn2xDqt8W3PwddD3K6WMNW6h7gws1c8P4wW94bPDM3jmf7_MJvHWZ8S-w8W1N1V0p1z1kpZVVZ2Cr3XL2jzW1-R6bD1Vxxx3W2Tt6l86gcD1CN4Pz1xdgHCh6W8x1Gly1chgtWW3Lt2zQ5sS4L8W1jy3Yd7bBwHfW77NNpd1xvZljV2J5P06xsJz3W41WnDz6TST6bW6vt9g_4p4fCdW6g8L4V3Zv7vFW2hX3x-3b8l0DW7JRhqH3r_CDRW7_wTM833lDPtW5XmrVK4bZdmPW1zN2dJ4hnCdRVRpQkp7wP3K0f79X4vR04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy/reimbursement article that fits Slot 1, not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-07-04",
+    "headline": "A behind-the-scenes look at Midjourney's medical scanner leaves many questions unanswered",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance as investigative tech journalism \u2014 it critically examines Midjourney's medical scanner claims, highlights the gap between ambition and clinical validation, and raises meaningful regulatory and safety questions relevant to AI-in-healthcare watchers."
   }
 ]
