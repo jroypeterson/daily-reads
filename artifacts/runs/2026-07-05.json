@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-07-05",
+  "generated_at": "2026-07-05T13:18:51Z",
+  "counts": {
+    "gmail_items": 82,
+    "tier2_items": 75,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c4d677d94306ee62",
+      "headline": "[ZTS] Zoetis could use a booster shot",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/zts",
+      "slot": 1,
+      "summary": "Scuttleblurb examines Zoetis (ZTS), the 2013 Pfizer spin-off that built four blockbuster pet health franchises (Simparica, Apoquel, Cytopoint, Librela) which together now represent nearly 90% of the company's total 2012 revenue base. The piece traces how ZTS's revenue mix flipped from 65% livestock to companion animal dominance, explaining why pet drugs enjoy structural advantages over both livestock and human pharma \u2014 including softer brand moats, price-insensitive consumers, and reduced generic cliff risk from a bypass of third-party payers. The analysis sets up a stress-test of the bull case following a 50%+ stock decline driven by weakening U.S. companion animal demand, guidance cuts, and competitive erosion in its key franchises.",
+      "why_it_matters": "With ZTS at multi-year valuation lows, this forensic breakdown of franchise revenue concentration and moat durability provides the structural diligence needed to distinguish cyclical demand weakness from permanent competitive deterioration \u2014 directly actionable for portfolio positioning.",
+      "signal_tags": [
+        "ticker_match:ZTS",
+        "priority:high",
+        "deep_business_diligence",
+        "competitive_moat_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min"
+    },
+    {
+      "article_id": "43effb93ae6cb828",
+      "headline": "Nearly 4 Million Medicare Beneficiaries Could Be Eligible for the Medicare GLP-1 Bridge Program",
+      "source": "KFF Health News",
+      "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VVxDPk4_ym1BW5Q7Hc91Z9w1NW1vWpFD5QVtC-N3fD2DM5nR3bW8wM7ks6lZ3pRW7nyPld4nVNZ8W63KlM45JVGJKW1QD9g872XFSTW6hVRh77QWw0FVLdK7b3M5M3JW67_hfD2W9k47W28vCVT4cR3zYW43dPvP2DjPnWW2xgncd8ttHRNN7xVkzCNpr03W42R8S-88lrxyW5DSSk61K2mgGN7pWMTn4-TVXW495yTP2k6fDnW5s30Rz3LSTsMW38wZJt2N9r0XN6nrW034_j9-W7cr26_2BLTYqW4CSZZ34pGMFdVTspCg1FP3qlW49sFJn2xDqt8W3PwddD3K6WMNW6h7gws1c8P4wW94bPDM3jmf7_MJvHWZ8S-w8W1N1V0p1z1kpZVVZ2Cr3XL2jzW1-R6bD1Vxxx3W2Tt6l86gcD1CN4Pz1xdgHCh6W8x1Gly1chgtWW3Lt2zQ5sS4L8W1jy3Yd7bBwHfW77NNpd1xvZljV2J5P06xsJz3W41WnDz6TST6bW6vt9g_4p4fCdW6g8L4V3Zv7vFW2hX3x-3b8l0DW7JRhqH3r_CDRW7_wTM833lDPtW5XmrVK4bZdmPW1zN2dJ4hnCdRVRpQkp7wP3K0f79X4vR04",
+      "slot": 2,
+      "summary": "A new KFF analysis estimates 3.8 million Medicare Part D beneficiaries met the eligibility criteria for the Trump administration's GLP-1 Bridge Program, which launched July 1 and covers Wegovy, Zepbound, and Foundayo through December 2027. The eligible pool is narrower than the 13M+ Medicare beneficiaries with qualifying BMI due to restrictions excluding those with diabetes or prior GLP-1 fills. Depending on participation rates (10%\u201375%), total federal cost ranges from $1.3 billion to $10 billion over the 18-month program.",
+      "why_it_matters": "With 3.8M newly eligible beneficiaries and a program live as of this week, the volume and pricing dynamics for Novo Nordisk and Eli Lilly's obesity GLP-1s are materially shifting, and the program's temporary structure makes the policy pathway to permanent Medicare coverage a key watch item for long-term demand modeling.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "healthcare_adjacent_finance",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

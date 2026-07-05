@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-07-05T10:37:05Z",
+  "updated_at": "2026-07-05T13:10:52Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -9,7 +9,7 @@
       "evidence_ids": [
         "ev_c1f79a0309332bde"
       ],
-      "last_updated": "2026-07-04T13:02:27Z"
+      "last_updated": "2026-07-05T13:10:52Z"
     },
     {
       "name": "AI and biology intersection",
@@ -48,7 +48,7 @@
         "ev_2e87e7ed94e83b6c",
         "ev_2388bc9a1c26358d"
       ],
-      "last_updated": "2026-07-04T13:02:27Z"
+      "last_updated": "2026-07-05T13:10:52Z"
     },
     {
       "name": "corporate governance",
@@ -106,23 +106,21 @@
     },
     {
       "name": "gene therapy development",
-      "strength": "moderate",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_fda_genome_editing",
         "ev_d708fbaadd2afdb4"
       ],
-      "last_updated": "2026-07-05T00:00:00Z"
+      "last_updated": "2026-07-05T13:10:52Z"
     },
     {
       "name": "AI drug discovery",
-      "strength": "moderate",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_isomorphic_labs",
         "ev_184418fa0b02520e"
       ],
-      "last_updated": "2026-07-05T00:00:00Z"
+      "last_updated": "2026-07-05T13:10:52Z"
     },
     {
       "name": "medical imaging technology",
@@ -220,12 +218,12 @@
     },
     {
       "name": "investor letters",
-      "strength": "moderate",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "readwise_scott_investor_letters",
-        "readwise_canuck_analysts_serial_acquirers"
-      ]
+        "ev_f56f7dccb9f9a5d3"
+      ],
+      "last_updated": "2026-07-05T13:10:52Z"
     },
     {
       "name": "long-form investment writing",
