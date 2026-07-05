@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-07-04T13:02:27Z",
+  "updated_at": "2026-07-05T10:37:05Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -106,21 +106,23 @@
     },
     {
       "name": "gene therapy development",
-      "strength": "weak",
+      "strength": "moderate",
       "direction": "positive",
       "evidence_ids": [
+        "daily_scoring_fda_genome_editing",
         "ev_d708fbaadd2afdb4"
       ],
-      "last_updated": "2026-07-04T13:02:27Z"
+      "last_updated": "2026-07-05T00:00:00Z"
     },
     {
       "name": "AI drug discovery",
-      "strength": "weak",
+      "strength": "moderate",
       "direction": "positive",
       "evidence_ids": [
+        "daily_scoring_isomorphic_labs",
         "ev_184418fa0b02520e"
       ],
-      "last_updated": "2026-07-04T13:02:27Z"
+      "last_updated": "2026-07-05T00:00:00Z"
     },
     {
       "name": "medical imaging technology",
@@ -144,6 +146,33 @@
       "direction": "positive",
       "evidence_ids": [
         "daily_scoring_jpmorgan_dimon"
+      ]
+    },
+    {
+      "name": "serial acquirer analysis",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_canuck_analysts_serial_acquirers",
+        "readwise_scott_investor_letters"
+      ]
+    },
+    {
+      "name": "competitive moat analysis",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_scott_investor_letters",
+        "readwise_alice_schroeder_buffett"
+      ]
+    },
+    {
+      "name": "deep business diligence",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_alice_schroeder_buffett",
+        "readwise_scott_investor_letters"
       ]
     }
   ],
@@ -188,6 +217,25 @@
       "evidence_ids": [
         "daily_scoring_veeva_1q26"
       ]
+    },
+    {
+      "name": "investor letters",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_scott_investor_letters",
+        "readwise_canuck_analysts_serial_acquirers"
+      ]
+    },
+    {
+      "name": "long-form investment writing",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_alice_schroeder_buffett",
+        "readwise_scott_investor_letters",
+        "readwise_canuck_analysts_serial_acquirers"
+      ]
     }
   ],
   "style_preferences": [
@@ -199,7 +247,9 @@
         "daily_scoring_jpmorgan_dimon",
         "daily_scoring_fda_rejections",
         "daily_scoring_veeva_1q26",
-        "daily_scoring_mckinsey_ai_lifesciences"
+        "daily_scoring_mckinsey_ai_lifesciences",
+        "readwise_scott_investor_letters",
+        "readwise_canuck_analysts_serial_acquirers"
       ]
     },
     {
@@ -210,7 +260,10 @@
         "email_biology_ai_fwd",
         "daily_scoring_epic_alerts",
         "daily_scoring_veeva_1q26",
-        "daily_scoring_isomorphic_labs"
+        "daily_scoring_isomorphic_labs",
+        "readwise_scott_investor_letters",
+        "readwise_canuck_analysts_serial_acquirers",
+        "readwise_alice_schroeder_buffett"
       ]
     },
     {
@@ -229,6 +282,15 @@
       "direction": "positive",
       "evidence_ids": [
         "daily_scoring_epic_alerts"
+      ]
+    },
+    {
+      "name": "practitioner perspective",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_alice_schroeder_buffett",
+        "readwise_scott_investor_letters"
       ]
     }
   ],
@@ -267,15 +329,16 @@
     }
   ],
   "evidence_summary": {
-    "total": 24,
+    "total": 27,
     "by_kind": {
-      "positive_exemplar": 12,
+      "positive_exemplar": 15,
       "daily_rating_3": 9,
       "daily_rating_1": 3
     },
     "by_channel": {
       "email": 12,
-      "daily_scoring": 12
+      "daily_scoring": 12,
+      "readwise": 3
     }
   },
   "score_scale": {
@@ -283,5 +346,5 @@
     "2": "Fine",
     "3": "Strong pick"
   },
-  "last_synthesis": "2026-06-20T13:30:32Z"
+  "last_synthesis": "2026-07-05T10:37:05Z"
 }
