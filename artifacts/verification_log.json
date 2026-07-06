@@ -5353,5 +5353,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article provides substantive KFF analysis with concrete cost modeling ($1.3B\u2013$10B range depending on participation), precise eligibility funnel data (13M \u2192 9.7M \u2192 3.8M), and immediate policy relevance with the program launching July 1 \u2014 making it actionable for investors in Novo Nordisk and Eli Lilly with clear volume and reimbursement implications."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+ subscribers only), meaning the actual content is inaccessible beyond the brief introduction \u2014 a known 'avoid' pattern in the reader's taste profile."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the actual Zoetis deep-dive content \u2014 it's a fragmented feed of Scuttleblurb teasers, podcast summaries, and upcoming post announcements, indicating the ZTS analysis either hasn't been published yet or the content was not successfully retrieved."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "Novartis puts $1.1B down to pick up ADC biotech Myricx",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled after a brief excerpt, providing only thin surface-level details about the Novartis/Myricx deal with no analytical depth, deal structure analysis, or pipeline specifics beyond what the shortlist summary already captured."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "[scuttleslops] Semiconductors and AI Infrastructure: AAPL, CRWV, NBIS, HPE, DELL, Analog Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is categorically mismatched for Slot 1 (Healthcare/Biotech) \u2014 it covers AI infrastructure, semiconductors, and e-commerce tickers (AAPL, CRWV, NBIS, HPE, DELL) with no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "FDA action on par in H1 despite chaos, churn \u2014 7 FDA decisions to watch in Q3",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX7b2t24Sr-pN7GLsGh5T6J1W35KrPN5R7s2BN28qGwW5nR3bW7Y9pgv6lZ3lqVPnwyZ5f9vwzW1SFZ805txrNXN2NZv5VPLQM5VlnJjn2dVKTpW6K4yx23S0fGcW4v6d0H4rbJZnW5-dXSd1dRzsvW7ZBl3x4Z9STmW78DqvN4QgGC0W7QZfkx1b8WR0W2hnj0N1H5hdfVjb5yb5vjMbXN25mFgT5dLcPW6cF2LM99QqL4W48dPdN7cf-9YW3Vzqnh4NFgm6W2w0kyT6B8GvpW21HLGq6kY200W7vPhLB2RLT5vW1kRfp38HkJDvW8WQMRy2mJ8m-VrlpRP1FmWG5W3T-3Zj6kgDfQW2GqTNv7BD-Z1W58RgNk7M80Z2W2snFbN59yqJcW8JSSCs7MkbG7W8tLL_G1Dz8CrW6GVkS45Sy8x6W3vBRd47rh_ZWW1K4L5k1j0N0VW8R92FS6DZWgjW2kdLKq8TPs7rW27vfgB5_6mLRW6WkDyL7mQjdzW1ZPkLR18yDP5W5rh_Gg9fSLHnW490GJ95lHCP9W3Zkk8n76v9wwW65-mVW4sTb2pN1CbjVcFNGkjW4rlvQf3mL-T0f589x8M04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article content is a thin newsletter digest with only teaser headlines and no substantive analysis \u2014 the full text of the '7 FDA decisions to watch in Q3' piece is not included, leaving just a one-sentence blurb, making it impossible to deliver the analytical depth this reader expects."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "Cancer, immune drugmakers dominate VC funding so far in 2026",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/cancer-immune-venture-funding-2026/824250/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides dataset-driven analysis of H1 2026 biotech VC flows with specific dollar figures, named deals, and expert commentary on structural drivers \u2014 matching the reader's preferences for venture capital insights, novel dataset coverage, and investment-relevant depth in the healthcare slot."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "McKinsey Top 10 articles this quarter: Building an agentic organization, the AI transformation manifesto, and more",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f2dbc8f9d9b5e369fea4b34/0003a9cad2c844df0000021ef3a0bcc2/0003a9ca-d2c8-44df-83cb-3958a913ad22",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is actually just McKinsey's website navigation/homepage shell with truncated links \u2014 there is no substantive article text about 'Building an Agentic Organization' or an 'AI Transformation Manifesto,' making the shortlist summary entirely unverifiable and the piece unsuitable for any slot."
+  },
+  {
+    "date": "2026-07-06",
+    "headline": "Elevance sues government over Medicare Advantage ratings",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW4NBp12wtzNW6CrxrY5gCmRFW7qxXbD5R04MTN8GDX6z3qgz0W7lCdLW6lZ3lYW5cdJX88BVX1MW3pjFpt6m1QHmW7lDmh_7jbdwZVWG-w01xTf2DW1-PbzR1r6-gXW5bsvMv8P2xnCW2q9B9L7G987DW2tcVwv1gl3V_W1w66mL6N6g34W44w2vL4XhCJMW3-hZdV5zYdvLW2wdwhT8D-_6pW4K4bMM9gSjDNW91lzDK6ZtKdKW7GFG1y2KkzrsN2bLY8Pt-6nBW88Q3q31t9VjlV57vYB1xWxKXW8cYxXl3_8g38W74sz6n5-wHQsN8tsBBxks80KW2VgK3V1SN-szV4XBXD1N__GSW3St1bG99nc--f68gPd004",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall page with no actual article content accessible \u2014 only subscription marketing copy \u2014 making it impossible to verify substance, depth, or accuracy of the shortlist summary."
   }
 ]

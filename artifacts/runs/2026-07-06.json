@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-07-06",
+  "generated_at": "2026-07-06T15:20:24Z",
+  "counts": {
+    "gmail_items": 86,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "ae2d13623d211c09",
+      "headline": "Cancer, immune drugmakers dominate VC funding so far in 2026",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/cancer-immune-venture-funding-2026/824250/",
+      "slot": 1,
+      "summary": "BioPharma Dive's proprietary data from 26 active investors shows oncology and immunology startups captured over $3.9 billion \u2014 more than 40% \u2014 of the $9B+ in biotech VC deployed in H1 2026, with immune disease alone drawing $2.1B. Key rounds include Isomorphic Labs ($2.1B, AI drug discovery), Beeline Medicines ($426M+, immune), and Parabilis Medicine ($305M Series F, oncology), with notable participation from tech-crossover investors like Google and Kleiner Perkins. Analysts flag patent cliff dynamics and pharma's appetite for pipeline optionality \u2014 particularly T-cell engagers bridging oncology and immunology \u2014 as catalysts for continued M&A activity in both sectors.",
+      "why_it_matters": "Understanding where private capital concentrates in oncology and immunology helps anticipate the next wave of M&A targets, public market comps, and valuation re-ratings as patent cliff pressures push large pharma to acquire pipeline optionality in these subsectors.",
+      "signal_tags": [
+        "venture_capital_insights",
+        "novel_dataset_coverage",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
