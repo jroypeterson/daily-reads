@@ -1,0 +1,65 @@
+{
+  "run_date": "2026-07-07",
+  "generated_at": "2026-07-07T14:17:16Z",
+  "counts": {
+    "gmail_items": 87,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "47fb50695bc5e377",
+      "headline": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/",
+      "slot": 1,
+      "summary": "Vertex Pharmaceuticals agreed to acquire Crinetics Pharmaceuticals for $85/share in cash (~$10B total), a 102% premium, marking Vertex's largest-ever deal and its entry into endocrine disorders. Crinetics brings PALSONIFY (paltusotine), an FDA-approved oral acromegaly therapy with early promising launch metrics, plus atumelnant, a late-stage CAH candidate competing against Neurocrine's already-launched Crenessity. Vertex projects the two assets could generate over $5B in combined peak annual sales, though analysts flag the rich valuation and execution risk given competition from Pfizer, Novartis, and Neurocrine.",
+      "why_it_matters": "The deal signals Vertex's aggressive pipeline diversification strategy beyond cystic fibrosis and sets a high M&A multiple benchmark for rare endocrine disease assets, with direct implications for sector valuation and competitive dynamics in the specialty rare-disease space.",
+      "signal_tags": [
+        "ticker_match:VRTX",
+        "ticker_match:CRNX",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "dbd4d528eff55afa",
+      "headline": "The Transcript 2Q26 Letter",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/07-07-2026-the-transcript-2q26-letter",
+      "slot": 2,
+      "summary": "The Transcript's Q2 2026 letter synthesizes earnings call commentary and executive quotes to map macro conditions: consumer resilience despite Iran conflict-driven energy shocks, S&P 500 earnings growing 25%+ YoY, unprecedented AI-driven data center capex, and a pivotal Fed regime shift under new chair Kevin Warsh who has dropped forward guidance in favor of data-dependency. The letter also covers China's consumer rebound, Europe's continued malaise, and emerging AI monetization themes across enterprise software and infrastructure. Each theme is grounded in direct executive quotes with source links, making it a primary-source macro digest rather than commentary on commentary.",
+      "why_it_matters": "As a quarterly periodic newsletter aggregating real-time C-suite signals on AI spend, capital allocation, and macro sentiment, this letter offers a uniquely actionable ground-level read on where corporate America is heading into H2 2026\u2014especially relevant given Fed uncertainty under Warsh and the AI infrastructure investment cycle.",
+      "signal_tags": [
+        "high_priority_source",
+        "analytical_depth",
+        "forward_looking_perspective",
+        "investment_relevant"
+      ],
+      "reading_time": "7 min"
+    },
+    {
+      "article_id": "7ab1464a47c01bd0",
+      "headline": "CMS floats new Medicare payment category for AI diagnostic software: 6 notes",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/finance/cms-floats-new-medicare-payment-category-for-ai-diagnostic-software-6-notes/",
+      "slot": 3,
+      "summary": "CMS released a proposed rule on July 2 that would create a first-ever dedicated Medicare payment category for AI-driven diagnostic software within the 2027 Hospital Outpatient Prospective Payment System. The proposal outlines eligibility criteria, scope, and a comment timeline, representing a significant regulatory shift that has been long-awaited by the health AI industry. If finalized, this structured reimbursement framework would address the primary commercial barrier \u2014 lack of predictable payment \u2014 that has constrained revenue growth for AI diagnostic companies.",
+      "why_it_matters": "A defined CMS reimbursement pathway is potentially the most important commercial unlock for AI diagnostics, and investors in health AI or digital health companies should assess which players are best positioned to capture reimbursement under the proposed eligibility criteria.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "actionability",
+        "novelty",
+        "ticker_match:SGRY"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}

@@ -5425,5 +5425,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The full article text is a STAT+ paywall page with no actual article content accessible \u2014 only subscription marketing copy \u2014 making it impossible to verify substance, depth, or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive M&A article covering a $10B acquisition with clear investment implications \u2014 ticker matches (VRTX, CRNX), analyst reactions, competitive context, and pipeline rationale \u2014 fitting Slot 1 criteria well."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "Exclusive: Anthropic releases Claude Science aimed at researchers, pharma industry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full content is inaccessible beyond a brief intro paragraph, making it impossible to verify depth or substance, and it matches a known avoid pattern (paywalled content)."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/from-linear-gates-to-learning-loops-rewiring-biopharma-r-and-d-with-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a strong McKinsey piece on AI/biopharma R&D strategy, but it belongs in Slot 3 (Tech/AI) or Slot 1 (Healthcare/Biopharma) \u2014 not Slot 2 (Finance/Macro), which requires macro moves, earnings, sector rotation, or payer/reimbursement dynamics."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "The Transcript 2Q26 Letter",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-07-2026-the-transcript-2q26-letter",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The Transcript's Q2 2026 quarterly letter is a substantive, periodic synthesis of C-suite commentary across dozens of companies, directly matching the Finance/Macro slot with strong alignment to the reader's preference for analytical depth, forward-looking perspective, and investment-relevant insights."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "CMS floats new Medicare payment category for AI diagnostic software: 6 notes",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/cms-floats-new-medicare-payment-category-for-ai-diagnostic-software-6-notes/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "CMS proposing a dedicated reimbursement pathway for AI diagnostic software is a genuine structural catalyst for the health AI sector, aligning with the reader's strong interest in AI impact, health technology, and regulatory affairs with clear investment relevance."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a content stub showing only teaser snippets, upcoming post announcements, and unrelated Scuttleblurb newsletter fragments \u2014 the actual Zoetis deep-dive has not been published or is not accessible in the provided text."
+  },
+  {
+    "date": "2026-07-07",
+    "headline": "Elevance Health sues CMS over MA star ratings recalculations",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/elevance-health-sues-cms-over-ma-star-ratings-recalculations",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin news brief on a single lawsuit with limited analytical depth, and while it has investment relevance for Slot 1 (healthcare/biopharma), it doesn't meet the Wildcard slot's 'would I forward this?' test \u2014 it lacks the cross-domain thinking, surprising science, or consulting-level insight the Wildcard slot requires."
   }
 ]
