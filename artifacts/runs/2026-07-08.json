@@ -1,0 +1,85 @@
+{
+  "run_date": "2026-07-08",
+  "generated_at": "2026-07-08T13:50:37Z",
+  "counts": {
+    "gmail_items": 84,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "47fb50695bc5e377",
+      "headline": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/",
+      "slot": 1,
+      "summary": "Vertex Pharmaceuticals announced a $10B acquisition of Crinetics Pharmaceuticals at $85/share (102% premium), its largest-ever deal, adding the newly approved acromegaly drug Palsonify and late-stage CAH/Cushing's candidate atumelnant to its portfolio. Vertex projects $5B+ in combined peak sales from these endocrine assets, framing the deal as a strategic expansion beyond its dominant cystic fibrosis franchise. Analyst reception is cautious, with Stifel and William Blair noting the deal assumes a bullish case scenario and faces competitive headwinds from Pfizer, Novartis, and Neurocrine's already-launched Crenessity.",
+      "why_it_matters": "The deal tests whether Vertex can successfully diversify beyond CF at a premium price \u2014 and the analyst debate over valuation versus peak sales achievability makes this directly actionable for investors holding VRTX or evaluating rare disease M&A multiples.",
+      "signal_tags": [
+        "ticker_match:VRTX",
+        "ticker_match:CRNX",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "b57875f66919769c",
+      "headline": "Health Insurance Giants Are Fighting Efforts to Break Them Up",
+      "source": "NYT Business",
+      "url": "https://www.nytimes.com/2026/07/08/business/health-insurance-cvs-unitedhealth-breakup.html",
+      "slot": 2,
+      "summary": "UnitedHealth Group, CVS Health, and Cigna are mounting legal challenges against state laws that would force them to divest or structurally separate their pharmacy benefit manager (PBM) operations. The lawsuits represent a significant escalation in the regulatory battle to unbundle vertically integrated health conglomerates, with multiple states now directly challenging business models that critics argue limit competition and inflate drug costs. The legal overhang creates near-term uncertainty for managed care stocks while raising longer-term questions about the viability of the vertical integration strategy these companies have spent years building.",
+      "why_it_matters": "With UNH, CVS, and CI all directly implicated, forced divestiture outcomes could fundamentally reprice these stocks and reshape competitive dynamics across managed care, pharmacy distribution, and drug pricing \u2014 making this a high-conviction, multi-year regulatory catalyst for anyone with exposure to the sector.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:CI",
+        "regulatory_affairs",
+        "corporate_governance",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "8ac395d6bc23a278",
+      "headline": "CMS floats new Medicare payment category for AI diagnostic software: 6 notes",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/financial/cms-floats-new-medicare-payment-category-for-ai-diagnostic-software-6-notes/",
+      "slot": 3,
+      "summary": "CMS released a proposed rule on July 2 as part of its 2027 Hospital Outpatient Prospective Payment System that would create a new dedicated payment category for algorithm-driven diagnostic software, including AI tools. This represents CMS's first formal attempt to build a structured reimbursement lane for AI diagnostics, a move that could meaningfully unlock commercial viability for companies developing AI-powered clinical tools. The rule is open for public comment and will shape the economic foundation of AI adoption in clinical settings.",
+      "why_it_matters": "A structured Medicare reimbursement pathway for AI diagnostics removes one of the largest barriers to commercial adoption \u2014 payment uncertainty \u2014 making this a foundational policy catalyst for the entire AI health diagnostics subsector.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "AI_biology_intersection",
+        "health_technology_datasets",
+        "actionability",
+        "novelty",
+        "ticker_match:SGRY"
+      ],
+      "reading_time": "3 min"
+    },
+    {
+      "article_id": "f649f5a2f16c0bf0",
+      "headline": "\"It's not a lie if you believe it\"",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/its-not-a-lie-if-you-believe-it",
+      "slot": 4,
+      "summary": "MBI recounts a costly (~1,000 bps loss) portfolio transition from Canadian to US equities triggered by his immigration, during which virtually all his positions (Meta, Veeva, Ryan Specialty, Airbnb, Floor & Decor) rallied sharply on what he argues was essentially random price movement rather than fundamental news. He uses the episode to reflect honestly on the psychology of conviction \u2014 distinguishing genuine analytical belief from post-hoc rationalization \u2014 and ultimately decided to buy back his positions rather than wait for mean reversion. The piece is a candid, self-aware examination of how investors deceive themselves about their own reasoning under pressure.",
+      "why_it_matters": "For a reader drawn to deep business diligence and competitive moat analysis, this piece offers a rare practitioner's honest autopsy of conviction under stress \u2014 a durable mental model for separating signal from noise in portfolio decision-making.",
+      "signal_tags": [
+        "high_priority_source",
+        "long_form_investment_writing",
+        "ticker_match:NOW",
+        "analytical_depth",
+        "practitioner_perspective"
+      ],
+      "reading_time": "7 min"
+    }
+  ]
+}

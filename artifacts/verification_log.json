@@ -5488,5 +5488,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a thin news brief on a single lawsuit with limited analytical depth, and while it has investment relevance for Slot 1 (healthcare/biopharma), it doesn't meet the Wildcard slot's 'would I forward this?' test \u2014 it lacks the cross-domain thinking, surprising science, or consulting-level insight the Wildcard slot requires."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a major $10B M&A deal involving two coverage-universe tickers (VRTX, CRNX) with substantive analyst commentary on valuation risk, competitive dynamics, and strategic rationale \u2014 meeting both the slot criteria and the reader's preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/from-linear-gates-to-learning-loops-rewiring-biopharma-r-and-d-with-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a strong Slot 3 (Tech/AI) candidate, not Slot 2 (Finance/Macro) \u2014 it covers AI applied to biopharma R&D infrastructure and organizational change, not macro moves, earnings, or payer/reimbursement dynamics."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "Health Insurance Giants Are Fighting Efforts to Break Them Up",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/07/08/business/health-insurance-cvs-unitedhealth-breakup.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article directly names three major coverage-universe tickers (UNH, CVS, CI) in a substantive regulatory/legal conflict with multi-year structural implications for the managed care and PBM landscape \u2014 a strong fit for Slot 2's healthcare-adjacent finance focus."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "[ZTS] Zoetis could use a booster shot",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is clearly a content fragment/teaser page from Scuttleblurb showing multiple unrelated post snippets and upcoming article lists \u2014 the actual Zoetis deep-dive has not been published yet (it appears in 'upcoming posts' lists), so there is no substantive content to evaluate."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "The Transcript 2Q26 Letter",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-07-2026-the-transcript-2q26-letter",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite being a well-curated quarterly earnings synthesis, this article is primarily a macro/finance recap (Fed policy, consumer sentiment, geopolitics) rather than a Tech/AI piece \u2014 it belongs in Slot 2, and its AI content appears truncated in the provided text, making it a poor fit for Slot 3."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "CMS floats new Medicare payment category for AI diagnostic software: 6 notes",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/cms-floats-new-medicare-payment-category-for-ai-diagnostic-software-6-notes/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "CMS proposing a dedicated reimbursement category for AI diagnostic software is a structurally significant policy development at the intersection of AI and healthcare commercialization, directly matching Slot 3's AI-applied-to-healthcare priority and the reader's strong interest in regulatory affairs and AI impact."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "Affordable Care Act Insurers Want More Premium Increases as Enrollment Sags",
+    "source": "KFF Health News",
+    "url": "https://kffhealthnews.org/insurance/priced-out-obamacare-affordable-care-act-aca-premium-increases-peterson-kff/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is solid policy journalism but lacks the analytical depth, investment-grade specificity, or 'would I forward this?' quality required for Slot 4 \u2014 it reads as a news summary of preliminary rate filings rather than a deep structural analysis of ACA market dynamics or insurer economics."
+  },
+  {
+    "date": "2026-07-08",
+    "headline": "\"It's not a lie if you believe it\"",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/its-not-a-lie-if-you-believe-it",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers genuine practitioner depth on the psychology of conviction versus rationalization in portfolio management, grounded in a real, costly personal experience that illustrates Brownian motion in markets and the difficulty of re-entry decisions \u2014 matching the reader's strong preference for analytical, investment-relevant long-form writing."
   }
 ]
