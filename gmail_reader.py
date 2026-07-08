@@ -6,6 +6,7 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parseaddr
+from html import unescape as unescape_html
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
@@ -238,6 +239,14 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
             if urls:
                 from url_resolver import resolve_urls
                 urls = resolve_urls(urls)
+            # Journal issue emails ARE the table of contents — nejm.org blocks
+            # scraping (all three extraction tiers fail), so the must-read
+            # picker reads the email body itself. Kept journal-only to avoid
+            # bloating every candidate artifact.
+            body_excerpt = ""
+            if source and source.get("category") == "journals" and html_body:
+                body_excerpt = _html_to_text_excerpt(html_body, limit=8000)
+
             results.append({
                 "sender": sender_raw,
                 "sender_email": sender_email,
@@ -249,6 +258,7 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
                 "tier": source["tier"] if source else 0,
                 "category": source["category"] if source else "unknown",
                 "priority": source["priority"] if source else "normal",
+                "body_excerpt": body_excerpt,
             })
 
         page_token = resp.get("nextPageToken")
@@ -341,6 +351,18 @@ def fetch_substack_emails(hours_back: int = 26) -> list[dict]:
             break
 
     return results
+
+
+def _html_to_text_excerpt(html: str, limit: int = 8000) -> str:
+    """Crude HTML→text for journal TOC emails: strip tags/styles, collapse
+    whitespace. Good enough for an LLM to read article titles/sections."""
+    text = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html)
+    text = re.sub(r"(?i)<br\s*/?>|</p>|</div>|</tr>|</h[1-6]>", "\n", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = unescape_html(text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text)
+    return text.strip()[:limit]
 
 
 def _extract_body(payload: dict) -> str | None:

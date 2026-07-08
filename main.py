@@ -24,7 +24,7 @@ from project_data import (
     save_json,
     triage_artifact_path,
 )
-from sources import SOURCES, get_always_read_names
+from sources import SOURCES, get_always_read_names, get_journal_source_names
 from health_report import Heartbeat, post_health_to_slack
 
 REPO = "jroypeterson/daily-reads"
@@ -321,6 +321,9 @@ def normalize_candidate(candidate: dict, source_type: str, run_date: str, ordina
         "sender_email": candidate.get("sender_email"),
         "sender": candidate.get("sender"),
         "published_at": candidate.get("date"),
+        # Journal TOC emails carry their own body text (see gmail_reader) —
+        # empty for every other source.
+        "body_excerpt": candidate.get("body_excerpt", ""),
     }
 
 
@@ -466,11 +469,16 @@ def build_triage_queue(
 ) -> list[dict]:
     selected_urls = {article.get("url") for article in selected_articles}
     always_read_names = get_always_read_names()
+    journal_names = get_journal_source_names()
     scored = []
     for candidate in structured_gmail + structured_tier2:
         if candidate.get("primary_url") in selected_urls:
             continue
         if candidate.get("source_name", "") in always_read_names:
+            continue
+        # Journal issue emails get their own digest section (build_journal_watch)
+        # — a raw TOC link in "Also considered" would be noise.
+        if candidate.get("source_name", "") in journal_names:
             continue
         # Skip candidates whose links were dropped as dead-end redirectors
         # (e.g. McKinsey/Atlantic tokens that resolve to publisher homepage
@@ -531,6 +539,94 @@ def build_always_read(
             continue
         results.append(candidate)
     return results
+
+
+def _journal_picks_from_toc(issue: dict, toc_text: str) -> list[dict]:
+    """Ask Claude to nominate 0-2 must-read articles from a journal issue TOC.
+
+    Returns [] on any failure (missing key, refusal, bad JSON) — the caller
+    degrades to listing the issue link, never dropping the section silently.
+    """
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    try:
+        client = anthropic.Anthropic()
+        resp = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=800,
+            messages=[{
+                "role": "user",
+                "content": (
+                    f"Today is {today}. Below is the table of contents of a medical/"
+                    f"health-policy journal issue ({issue.get('source_name', '')} — "
+                    f"{issue.get('headline', '')}).\n\n"
+                    "The reader is a healthcare-focused public-equity investor: he cares "
+                    "about clinical results that move drug/device markets (obesity/GLP-1, "
+                    "oncology, cardiology, gene therapy), healthcare policy & payment "
+                    "(CMS, Medicare Advantage, drug pricing), health-system economics, "
+                    "and durable scientific insight. He does NOT need clinical-practice "
+                    "minutiae, case images, or narrow specialty technique papers.\n\n"
+                    "Pick the 0-2 articles from this issue MOST worth his time. Fewer is "
+                    "better — pick zero if nothing clears the bar. Reply with ONLY a JSON "
+                    "array (no prose): "
+                    '[{"title": "...", "url": "...", "why": "one sentence"}] '
+                    "(url empty string if not visible in the TOC text).\n\n"
+                    f"TOC:\n{toc_text[:6000]}"
+                ),
+            }],
+        )
+        picks = _extract_json_array(resp.content)
+        clean = []
+        for p in picks[:2]:
+            if isinstance(p, dict) and p.get("title"):
+                clean.append({
+                    "title": str(p.get("title"))[:200],
+                    "url": str(p.get("url") or "")[:500],
+                    "why": str(p.get("why") or "")[:300],
+                })
+        return clean
+    except Exception as exc:  # noqa: BLE001 — non-gating by design
+        print(f"  [journals] pick failed for {issue.get('headline', '')!r}: {exc}")
+        return []
+
+
+def build_journal_watch(structured_gmail: list[dict]) -> list[dict]:
+    """Journals section (JP 2026-07-06): each journal-category email is an
+    ISSUE (NEJM TOC, Weekend Briefing; Health Affairs once subscribed).
+    For each issue, extract the TOC page and have Claude flag the 1-2
+    articles worth reading. Failures degrade to a bare issue link.
+    """
+    journal_names = get_journal_source_names()
+    if not journal_names:
+        return []
+    issues = [c for c in structured_gmail if c.get("source_name") in journal_names]
+    if not issues:
+        return []
+    section("JOURNAL WATCH")
+    out = []
+    for issue in issues:
+        toc_url = issue.get("primary_url") or ""
+        picks: list[dict] = []
+        # The email body IS the TOC (nejm.org blocks scraping, so the web
+        # fetch is only a fallback for e.g. re-processed artifacts that
+        # predate body_excerpt).
+        toc_text = issue.get("body_excerpt") or ""
+        tier = "email_body"
+        if not toc_text and toc_url:
+            toc_text, tier = fetch_article_text(toc_url, timeout=20)
+        if toc_text:
+            picks = _journal_picks_from_toc(issue, toc_text)
+            print(f"  {issue.get('source_name')}: {len(picks)} pick(s) "
+                  f"(TOC via {tier})")
+        else:
+            print(f"  {issue.get('source_name')}: no TOC text — "
+                  f"listing issue link only")
+        out.append({
+            "source_name": issue.get("source_name", ""),
+            "headline": issue.get("headline", "(untitled issue)"),
+            "url": toc_url,
+            "picks": picks,
+        })
+    return out
 
 
 def validate_delivery_urls(
@@ -1554,7 +1650,7 @@ def _alert_operator_slack(message: str) -> None:
         print(f"Operator alert post also failed: {e}")
 
 
-def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
+def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None, journal_watch: list[dict] | None = None):
     section("DELIVERY: SLACK")
     # The daily digest posts to its own #daily-reads channel when its
     # dedicated webhook is configured. Fall back to the #status-reports
@@ -1627,6 +1723,26 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
                 # chunk that slipped past the limit (e.g. one line > limit).
                 "text": {"type": "mrkdwn", "text": chunk[:2990]},
             })
+
+    if journal_watch:
+        # Journals — one line per issue + indented must-read picks (JP 2026-07-06).
+        journal_lines = [":microscope: *Journals — this week's issues*"]
+        for issue in journal_watch:
+            link = f"<{issue['url']}|{issue['headline']}>" if issue.get("url") else issue["headline"]
+            journal_lines.append(f"*{issue.get('source_name', '')}* — {link}")
+            if issue.get("picks"):
+                for pick in issue["picks"]:
+                    title = pick.get("title", "")
+                    url = pick.get("url", "")
+                    tline = f"<{url}|{title}>" if url else title
+                    why = f" — _{pick['why']}_" if pick.get("why") else ""
+                    journal_lines.append(f"    :point_right: {tline}{why}")
+            else:
+                journal_lines.append("    _no standout articles this issue_")
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": "\n".join(journal_lines)[:2990]},
+        })
 
     if always_read:
         # Always-read sources include Substack publications whose redirect URLs
@@ -2474,6 +2590,7 @@ def main():
         )
         triage_queue = build_triage_queue(structured_gmail, structured_tier2, articles)
         always_read = build_always_read(structured_gmail, articles)
+        journal_watch = build_journal_watch(structured_gmail)
         substack_items = substack_scan()
         save_candidate_artifact(today, gmail_items, tier2_items, tickers)
         save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
@@ -2492,7 +2609,7 @@ def main():
             deliver_gmail(articles, triage_queue, always_read, substack_items)
         else:
             print("⏸  deliver_gmail paused via DELIVER_GMAIL_ENABLED=false")
-        deliver_slack(articles, triage_queue, always_read, substack_items)
+        deliver_slack(articles, triage_queue, always_read, substack_items, journal_watch)
         deliver_pages(articles, triage_queue, always_read, substack_items)
         deliver_ticktick(articles, always_read)
         deliver_reader(articles, always_read)

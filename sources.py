@@ -293,6 +293,25 @@ SOURCES = {
             r"Counterpoint Global Insights",
         ],
     },
+    # --- Journals (JP 2026-07-06 ask: flag 1-2 must-read articles per issue).
+    # Health Affairs: no TOC subscription arrives yet — add its sender here
+    # once subscribed (validate_source.py to confirm the address).
+    "nejmtoc@n.nejm.org": {
+        "name": "NEJM",
+        "email": "nejmtoc@n.nejm.org",
+        "tier": 1,
+        "category": "journals",
+        "frequency": "weekly",
+        "priority": "high",
+    },
+    "webmaster@n.nejm.org": {
+        "name": "NEJM Weekend Briefing",
+        "email": "webmaster@n.nejm.org",
+        "tier": 1,
+        "category": "journals",
+        "frequency": "weekly",
+        "priority": "normal",
+    },
 }
 
 
@@ -309,3 +328,8 @@ def get_all_sender_emails() -> list[str]:
 def get_always_read_names() -> set[str]:
     """Return source names marked as always_read."""
     return {s["name"] for s in SOURCES.values() if s.get("always_read")}
+
+
+def get_journal_source_names() -> set[str]:
+    """Return source names in the journals category (NEJM, Health Affairs...)."""
+    return {s["name"] for s in SOURCES.values() if s.get("category") == "journals"}

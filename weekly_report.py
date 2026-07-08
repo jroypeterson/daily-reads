@@ -101,7 +101,20 @@ def build_report() -> dict:
     # against the total.
     active_configured = sources_seen & all_source_names
     missing_sources = sorted(all_source_names - sources_seen)
-    missing_always_read = sorted(always_read_names - sources_seen)
+    # Cadence-aware always-read alarm: a monthly/quarterly source (e.g.
+    # Consilient Observer) is EXPECTED to be silent most weeks — flagging it
+    # "MISSING ALWAYS-READ" every quiet week is a false alarm (fired 07-03; the
+    # June issue had arrived 06-18). Sub-weekly cadences keep the hard alarm;
+    # longer cadences are listed informationally. A genuinely dead slow source
+    # is still caught by the cadence-aware source audit (validate_source
+    # --audit, the "dead 21d" lane).
+    _slow_cadences = {"monthly", "quarterly"}
+    _name_freq = {m["name"]: (m.get("frequency") or "") for m in SOURCES.values()}
+    _missing_all = always_read_names - sources_seen
+    missing_always_read = sorted(
+        n for n in _missing_all if _name_freq.get(n, "") not in _slow_cadences)
+    quiet_slow_always_read = sorted(
+        n for n in _missing_all if _name_freq.get(n, "") in _slow_cadences)
 
     # Build the full source roster, grouped by category, sorted within each
     # group. One entry per unique source name (SOURCES may have multiple
@@ -143,6 +156,7 @@ def build_report() -> dict:
         "total_configured": len(all_source_names),
         "missing_sources": missing_sources,
         "missing_always_read": missing_always_read,
+        "quiet_slow_always_read": quiet_slow_always_read,
         "total_gmail_items": total_gmail,
         "total_tier2_items": total_tier2,
         "days_with_runs": days_with_runs,
@@ -299,6 +313,11 @@ def format_report_text(report: dict) -> str:
         lines.append(f"  Missing sources: {', '.join(sh['missing_sources'])}")
     if sh["missing_always_read"]:
         lines.append(f"  MISSING ALWAYS-READ: {', '.join(sh['missing_always_read'])}")
+    if sh.get("quiet_slow_always_read"):
+        lines.append(
+            "  Quiet this week (monthly/quarterly cadence — normal): "
+            + ", ".join(sh["quiet_slow_always_read"])
+        )
     # Full source roster grouped by category
     roster = sh.get("roster", [])
     if roster:
@@ -317,7 +336,8 @@ def format_report_text(report: dict) -> str:
     sq = report["selection_quality"]
     lines.append("SELECTION QUALITY")
     lines.append(f"  Articles delivered: {sq['total_selected']} ({sq['avg_articles_per_day']}/day avg)")
-    lines.append(f"  Verification: {sq['verified_pass']} passed, {sq['verified_fail']} failed")
+    lines.append(f"  Candidate verification: {sq['verified_pass']} approved, "
+                 f"{sq['verified_fail']} rejected (slot-fit/quality/paywall — rejections are the verifier working, not breakage)")
     tiers = sq["extraction_tiers"]
     lines.append(f"  Extraction: trafilatura={tiers['trafilatura']}, jina={tiers['jina']}, tavily={tiers['tavily']}, snippet={tiers['snippet_fallback']}")
     if sq["fail_reasons"]:
@@ -386,6 +406,8 @@ def format_report_html(report: dict) -> str:
         missing_html += f'<p style="color: #e94560;">Missing sources: {", ".join(sh["missing_sources"])}</p>'
     if sh["missing_always_read"]:
         missing_html += f'<p style="color: #e94560; font-weight: bold;">Missing always-read: {", ".join(sh["missing_always_read"])}</p>'
+    if sh.get("quiet_slow_always_read"):
+        missing_html += f'<p style="color: #888;">Quiet this week (monthly/quarterly cadence — normal): {", ".join(sh["quiet_slow_always_read"])}</p>'
 
     roster_html = ""
     roster = sh.get("roster", [])
@@ -466,7 +488,7 @@ def format_report_html(report: dict) -> str:
 <div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid #4caf50;">
   <h3 style="color: #4caf50; margin-top: 0;">Selection Quality</h3>
   <p>Delivered: <strong>{sq["total_selected"]}</strong> articles ({sq["avg_articles_per_day"]}/day avg)</p>
-  <p>Verification: {sq["verified_pass"]} passed, {sq["verified_fail"]} failed</p>
+  <p>Candidate verification: {sq["verified_pass"]} approved, {sq["verified_fail"]} rejected (slot-fit/quality/paywall)</p>
   <p>Extraction: trafilatura={tiers["trafilatura"]}, jina={tiers["jina"]}, tavily={tiers["tavily"]}, snippet={tiers["snippet_fallback"]}</p>
   {fail_html}
 </div>
@@ -523,6 +545,11 @@ def format_report_slack(report: dict) -> list[dict]:
         source_text += f"\n:warning: Missing: {', '.join(sh['missing_sources'])}"
     if sh["missing_always_read"]:
         source_text += f"\n:rotating_light: Missing always-read: {', '.join(sh['missing_always_read'])}"
+    if sh.get("quiet_slow_always_read"):
+        source_text += (
+            f"\n:zzz: Quiet this week (monthly/quarterly cadence — normal): "
+            f"{', '.join(sh['quiet_slow_always_read'])}"
+        )
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": source_text}})
 
     # Full source roster, one Slack section per category. Skip if roster
