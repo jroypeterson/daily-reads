@@ -321,9 +321,10 @@ def normalize_candidate(candidate: dict, source_type: str, run_date: str, ordina
         "sender_email": candidate.get("sender_email"),
         "sender": candidate.get("sender"),
         "published_at": candidate.get("date"),
-        # Journal TOC emails carry their own body text (see gmail_reader) —
-        # empty for every other source.
+        # Journal TOC emails carry their own body text + anchor-text/url pairs
+        # (see gmail_reader) — empty for every other source.
         "body_excerpt": candidate.get("body_excerpt", ""),
+        "link_titles": candidate.get("link_titles", []),
     }
 
 
@@ -589,6 +590,29 @@ def _journal_picks_from_toc(issue: dict, toc_text: str) -> list[dict]:
         return []
 
 
+def _resolve_pick_urls(picks: list[dict], link_titles: list[dict]) -> None:
+    """Fill each pick's url from the issue email's anchor-text->href pairs.
+
+    The TOC text Claude reads is tag-stripped (inlining ~400-char tracking URLs
+    would blow the prompt budget), so picked titles come back URL-less (codex
+    2026-07-08). Match by containment either way after lowercasing; leave the
+    url empty when nothing matches (the Slack render already handles that)."""
+    if not link_titles:
+        return
+    pairs = [(str(lt.get("text", "")).lower(), str(lt.get("url", "")))
+             for lt in link_titles if isinstance(lt, dict) and lt.get("url")]
+    for pick in picks:
+        if pick.get("url"):
+            continue
+        title = str(pick.get("title", "")).lower().strip()
+        if len(title) < 10:
+            continue
+        for text, url in pairs:
+            if title in text or text in title:
+                pick["url"] = url
+                break
+
+
 def build_journal_watch(structured_gmail: list[dict]) -> list[dict]:
     """Journals section (JP 2026-07-06): each journal-category email is an
     ISSUE (NEJM TOC, Weekend Briefing; Health Affairs once subscribed).
@@ -615,6 +639,7 @@ def build_journal_watch(structured_gmail: list[dict]) -> list[dict]:
             toc_text, tier = fetch_article_text(toc_url, timeout=20)
         if toc_text:
             picks = _journal_picks_from_toc(issue, toc_text)
+            _resolve_pick_urls(picks, issue.get("link_titles") or [])
             print(f"  {issue.get('source_name')}: {len(picks)} pick(s) "
                   f"(TOC via {tier})")
         else:
@@ -1871,6 +1896,32 @@ def _pages_substack_html(substack_items: list[dict] | None) -> str:
   </div>"""
 
 
+def _pages_journal_html(journal_watch: list[dict] | None) -> str:
+    if not journal_watch:
+        return ""
+    rows = ""
+    for issue in journal_watch:
+        link = (f'<a href="{issue.get("url", "#")}" target="_blank" '
+                f'style="color: #0fbcf9; text-decoration: none;">{issue.get("headline", "")}</a>'
+                if issue.get("url") else issue.get("headline", ""))
+        rows += (f'    <p style="margin: 6px 0; font-size: 14px;">'
+                 f'<strong>{issue.get("source_name", "")}</strong> — {link}</p>\n')
+        picks = issue.get("picks") or []
+        if picks:
+            for p in picks:
+                t = (f'<a href="{p.get("url")}" target="_blank" style="color: #0fbcf9; '
+                     f'text-decoration: none;">{p.get("title", "")}</a>'
+                     if p.get("url") else p.get("title", ""))
+                why = f' <span style="color: #888;">— {p.get("why", "")}</span>' if p.get("why") else ""
+                rows += (f'    <p style="margin: 4px 0 4px 18px; font-size: 13px;">👉 {t}{why}</p>\n')
+        else:
+            rows += ('    <p style="margin: 4px 0 4px 18px; font-size: 13px; color: #666;">'
+                     "no standout articles this issue</p>\n")
+    return f"""  <div style="border-top: 2px solid #e94560; margin-top: 24px; padding-top: 16px;">
+    <h3 style="color: #e94560; margin-bottom: 8px;">🔬 Journals</h3>
+{rows}  </div>"""
+
+
 def _pages_always_read_html(always_read: list[dict] | None) -> str:
     if not always_read:
         return ""
@@ -1886,7 +1937,7 @@ def _pages_always_read_html(always_read: list[dict] | None) -> str:
   </div>"""
 
 
-def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None):
+def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, always_read: list[dict] | None = None, substack_items: list[dict] | None = None, journal_watch: list[dict] | None = None):
     section("DELIVERY: PAGES")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     slot_emojis = {1: "🧬", 2: "📊", 3: "🤖", 4: "🌀"}
@@ -1985,6 +2036,7 @@ def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, 
 {cards_html if cards_html else '    <div class="empty"><p>No articles selected today. Check back tomorrow!</p></div>'}
   </div>
 {_pages_triage_html(triage_queue)}
+{_pages_journal_html(journal_watch)}
 {_pages_always_read_html(always_read)}
 {_pages_substack_html(substack_items)}
 </body>
@@ -2610,7 +2662,7 @@ def main():
         else:
             print("⏸  deliver_gmail paused via DELIVER_GMAIL_ENABLED=false")
         deliver_slack(articles, triage_queue, always_read, substack_items, journal_watch)
-        deliver_pages(articles, triage_queue, always_read, substack_items)
+        deliver_pages(articles, triage_queue, always_read, substack_items, journal_watch)
         deliver_ticktick(articles, always_read)
         deliver_reader(articles, always_read)
         deliver_log(articles)

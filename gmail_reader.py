@@ -241,11 +241,16 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
                 urls = resolve_urls(urls)
             # Journal issue emails ARE the table of contents — nejm.org blocks
             # scraping (all three extraction tiers fail), so the must-read
-            # picker reads the email body itself. Kept journal-only to avoid
-            # bloating every candidate artifact.
+            # picker reads the email body itself. link_titles keeps the anchor
+            # text -> href pairs so picked titles can be resolved back to real
+            # URLs (the text excerpt strips tags, and inlining ~400-char
+            # tracking URLs into the LLM prompt would blow its budget).
+            # Both kept journal-only to avoid bloating every candidate artifact.
             body_excerpt = ""
+            link_titles: list[dict] = []
             if source and source.get("category") == "journals" and html_body:
                 body_excerpt = _html_to_text_excerpt(html_body, limit=8000)
+                link_titles = _extract_link_titles(html_body, cap=40)
 
             results.append({
                 "sender": sender_raw,
@@ -259,6 +264,7 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
                 "category": source["category"] if source else "unknown",
                 "priority": source["priority"] if source else "normal",
                 "body_excerpt": body_excerpt,
+                "link_titles": link_titles,
             })
 
         page_token = resp.get("nextPageToken")
@@ -351,6 +357,28 @@ def fetch_substack_emails(hours_back: int = 26) -> list[dict]:
             break
 
     return results
+
+
+def _extract_link_titles(html: str, cap: int = 40) -> list[dict]:
+    """Anchor text -> href pairs for journal TOC emails. Only anchors whose
+    visible text looks like an article title (>= 15 chars) are kept, so
+    'View in browser' / 'SUBSCRIBE' chrome is skipped."""
+    soup = BeautifulSoup(html, "html.parser")
+    out: list[dict] = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        text = " ".join(a.get_text(" ", strip=True).split())
+        href = a["href"].strip()
+        if len(text) < 15 or not href.startswith("http"):
+            continue
+        key = text.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"text": text[:220], "url": href[:1000]})
+        if len(out) >= cap:
+            break
+    return out
 
 
 def _html_to_text_excerpt(html: str, limit: int = 8000) -> str:
