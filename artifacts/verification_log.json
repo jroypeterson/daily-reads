@@ -5560,5 +5560,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article offers genuine practitioner depth on the psychology of conviction versus rationalization in portfolio management, grounded in a real, costly personal experience that illustrates Brownian motion in markets and the difficulty of re-entry decisions \u2014 matching the reader's strong preference for analytical, investment-relevant long-form writing."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "Why Consumer AI Appears to be Lagging Enterprise",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/why-consumer-ai-appears-to-be-lagging",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI article about consumer vs. enterprise AI adoption and belongs in Slot 3, not Slot 1 (Healthcare/Biopharma), as it contains no healthcare, biopharma, FDA, clinical trial, or biotech content whatsoever."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f3931e924cad8f7369ff1d668/b1fd151ba82244320000021ef3a0bcc2/b1fd151b-a822-4432-a2ff-1d3292f7f9a5",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey consulting piece directly hits the AI-biology intersection and analytical depth preferences, offering a structural framework rather than generic commentary \u2014 strong fit for Slot 1 given the strategic R&D restructuring angle even if not a pure FDA/clinical catalyst."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "Vertex buys Crinetics for $10B, eyes endocrine blockbuster",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWFYf8439MsdW2DjjBG24J9DMW6N147h5Rbp7BN880g4g5nR3bW7Y9pgv6lZ3nMW8zdkmx7n6rfGW4S7x5l8ks7hLW3Gk0yd6D7c05W2WkDgK6hKlyyW7tmZRL8fq0RSW8Ym_RQ3XzxFDW2HMXWf5yJmS0W4NQJSW7tlvdtW5ZxPRs8l4tDnW5zSNMZ7gH7NKN1yv7hRdcbxYW2W2kSk5LWVXKW21v10v848-5mW5c87Md8BbST_W4vvV5q3p7t46N8XqWVm9kQxJN5ymHrYJf6m1W4WzBjN3D8M0nW28H-jd4VjBRJW8McX5K3bwGFhW7RSLwZ4PjZKvW6GCGqj2y-Qm2W6h6_Pd2YdR7PN4H9nsxGBLTDW24T4GT1cyYpQW6bkMtS1hRkknW4HWXkk7TYv0NW8FhqYZ2X9BlNW1VKJ5y3CXzdVW19ryQs7sCljSW8JyGn54YtjF9W2bRfLl5c7MptW78ZmBc7djl2dW1sLfJM1f2PrQW7KTfRX3K1lKgW4-pTJH7zyJ3BW3kPG-711pM7KW7s6wk-9fTvjTW7WdjWT92wC-bW18tqL8486nL7W235J4Y6CQK0PN4ZcgZGSpG3sf41SZnn04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter digest from BioSpace with thin summaries of multiple stories rather than a deep analytical piece, and it belongs in Slot 1 (Healthcare/Biopharma M&A) not Slot 2 (Finance/Macro), while also lacking the analytical depth this reader's taste profile demands."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "AstraZeneca, Ionis drug fails big heart disease study in major setback",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/astrazeneca-ionis-eplontersen-ttr-cardiomyopathy-study-results-failure/824799/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/Biopharma) article about a clinical trial failure, not a Slot 2 Finance/Macro article \u2014 the market-moving angle is derivative of the biotech news, not a finance or macro story in its own right, and the reader profile explicitly avoids niche therapeutics and short-term trading focus."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "[scuttlebits] CPRT, ADBE, FIG, NVDA, QCOM, FDS, Memory chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Scuttleblurb is a high-priority long-form analytical source matching the reader's strong preferences for deep business diligence, competitive moat analysis, and investment-relevant insights, and the Copart founder-return narrative is a substantive corporate governance catalyst."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "In Preliminary Rate Filings, ACA Marketplace Insurers Largely Propose Double-Digit Premium Increases For 2027",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VW4R7L7KMtYZVTH0wn59YkW1W74N_GZ5Rdg25N3NdJFT7mmznW5BWSxg6lZ3nkW2tdFDX3gQNr1W92HyCK96rfSXW67nHcg2FCPXpW5-XBR34tKbL4W3wJ99l18xQZTW5XN8_R7V9zb5W5b382545njY6W3ZW46c2LvL-FW71fyvY27pCX2VgZNP96q6b13W5yXC2_2wwY5wMtGpXhFn_hbW5DhMFk6H2fQ5VNTxQd5pvLyCW6qrqKk89n629W6H4g5c4QZ308W8CZ4L72TqmcxW3bwkKz11rJJgW8rny635CTn3QW1X6hCz8NknGMVL3_vz68F8KvW5TLLLK62r6X8V_WrkP3D3y73W6js62J1xrDHRW3YC_VP1hdsZ3W8SRMFt59PYK_W4b1-QV2KZ1r3W2Yy4008PS_1ZVzWZLq2RSvplW4xT27T1cRvGzW5lWPSL46HWDnW1Cnflh1SN_vzW5jd_f32Z2TnwW30pv6L8NpZndVSS5Xr3xRsmcW8tC6lw3frG65W7xTGzm1tFJyBW446pVG4WQFymW5G-cw13J0CysVwYDqD2gvYrhN8m1yhMkVG00W22HS1r1L9KVyW7HST093HCJRfW18mhzG27DtTXW84vQQZ1RyRwZW2YNPDN2znfYsW2HDqQh6bpcyVN972GzKMfTCyW7JhZpj396Xh_W3LjN5j2cY2-tf7cDm--04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy/finance article about ACA premium increases and belongs in Slot 1 or 2, not Slot 3 (Tech/AI), as it contains no AI, technology, or data infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "OpenEvidence launches medical AI copilot feature that grades medical evidence and unveils NewYork-Presbyterian collaboration",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-launches-medical-ai-copilot-feature-grades-medical-evidence",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance \u2014 it explains the technical architecture of EvidenceGrade (GRADE framework adaptation, scoring methodology, grading tiers), names the physician-scientist team behind it, and anchors the product launch with a concrete enterprise deal at NewYork-Presbyterian, making it a real signal about clinical AI productization rather than a press release rehash."
+  },
+  {
+    "date": "2026-07-09",
+    "headline": "The Transcript 2Q26 Letter",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-07-2026-the-transcript-2q26-letter",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive quarterly synthesis of C-suite primary sources covering macro resilience, Fed leadership transition, AI-driven capex, and consumer sentiment \u2014 matching the reader's strong preferences for analytical depth, investment-relevant insights, and forward-looking practitioner perspectives."
   }
 ]
