@@ -4,3 +4,6 @@ __pycache__/
 .health/
 *.tmp.*
 .env
+
+# Claude Code harness lock (runtime state, not config)
+.claude/scheduled_tasks.lock
