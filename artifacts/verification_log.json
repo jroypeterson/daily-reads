@@ -5632,5 +5632,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article is a substantive quarterly synthesis of C-suite primary sources covering macro resilience, Fed leadership transition, AI-driven capex, and consumer sentiment \u2014 matching the reader's strong preferences for analytical depth, investment-relevant insights, and forward-looking practitioner perspectives."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Vertex makes $10B deal for commercial endocrinology biotech Crinetics",
+    "source": "Fierce Biotech / Endpoints News",
+    "url": "https://endpoints.news/vertex-makes-10b-deal-for-commercial-endocrinology-biotech-crinetics/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, high-signal M&A article from endpoints.news with direct ticker relevance (VRTX, CRNX), clear strategic depth, and near-term investment implications that fit Slot 1 criteria perfectly."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/from-linear-gates-to-learning-loops-rewiring-biopharma-r-and-d-with-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a strong AI-biology intersection piece from a high-priority source, but it belongs in Slot 3 (Tech/AI) rather than Slot 2 (Finance/Macro), as it lacks macro, earnings, pricing, or market-movement content."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Why Consumer AI Appears to be Lagging Enterprise",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/why-consumer-ai-appears-to-be-lagging",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and reader taste alignment, this article belongs in Slot 3 (Tech/AI) not Slot 2 (Finance/Macro) \u2014 it covers AI product dynamics and adoption patterns, not macro moves, earnings, sector rotation, or healthcare-adjacent finance."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "HHS plan to speed drug research won't remove 'self-inflicted' delays",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/hhss-plan-speed-drug-rd-pharma-ai-drug/824759/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a moderately thin policy overview that lacks the financial/market depth required for Slot 2 \u2014 it reads more as a Slot 1 healthcare/regulatory piece, and while it touches on CRO/trial competitiveness themes, it doesn't provide actionable macro, earnings, or market-structure analysis that would satisfy the Finance/Markets slot criteria."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "The Salience of Data",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-salience-of-data",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has genuine analytical depth, directly engages the reader's strongest interest cluster (data infrastructure, 11 evidence points), and while it skews toward Slot 3 (Tech/AI), it carries clear investment-relevance framing around competitive moats and valuation that qualifies it for Slot 2 under the finance/macro lens of 'policy/structural impact on markets.'"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "The Transcript 2Q26 Letter",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-07-2026-the-transcript-2q26-letter",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite being a periodic newsletter with genuine depth, this article targets Slot 3 (Tech/AI) but is primarily a macro/finance quarterly letter \u2014 the AI content is one thread among many including consumer sentiment, Fed policy, geopolitics, and European/Chinese economies, making it a much stronger fit for Slot 2 (Finance/Markets) than Slot 3."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "In Preliminary Rate Filings, ACA Marketplace Insurers Largely Propose Double-Digit Premium Increases For 2027",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VW4R7L7KMtYZVTH0wn59YkW1W74N_GZ5Rdg25N3NdJFT7mmznW5BWSxg6lZ3nkW2tdFDX3gQNr1W92HyCK96rfSXW67nHcg2FCPXpW5-XBR34tKbL4W3wJ99l18xQZTW5XN8_R7V9zb5W5b382545njY6W3ZW46c2LvL-FW71fyvY27pCX2VgZNP96q6b13W5yXC2_2wwY5wMtGpXhFn_hbW5DhMFk6H2fQ5VNTxQd5pvLyCW6qrqKk89n629W6H4g5c4QZ308W8CZ4L72TqmcxW3bwkKz11rJJgW8rny635CTn3QW1X6hCz8NknGMVL3_vz68F8KvW5TLLLK62r6X8V_WrkP3D3y73W6js62J1xrDHRW3YC_VP1hdsZ3W8SRMFt59PYK_W4b1-QV2KZ1r3W2Yy4008PS_1ZVzWZLq2RSvplW4xT27T1cRvGzW5lWPSL46HWDnW1Cnflh1SN_vzW5jd_f32Z2TnwW30pv6L8NpZndVSS5Xr3xRsmcW8tC6lw3frG65W7xTGzm1tFJyBW446pVG4WQFymW5G-cw13J0CysVwYDqD2gvYrhN8m1yhMkVG00W22HS1r1L9KVyW7HST093HCJRfW18mhzG27DtTXW84vQQZ1RyRwZW2YNPDN2znfYsW2HDqQh6bpcyVN972GzKMfTCyW7JhZpj396Xh_W3LjN5j2cY2-tf7cDm--04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) but contains zero AI or technology content \u2014 it is a healthcare policy/payer analysis piece that belongs in Slot 1 or 2, not Slot 3."
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "AI-generated videos to maximally drive a target brain region",
+    "source": "Hacker News / NEVO Project (EPFL)",
+    "url": "https://nevo-project.epfl.ch/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has genuine scientific substance \u2014 a multi-step methodology combining brain encoding models, evolutionary prompt search, and two-stage video synthesis \u2014 and directly serves the reader's strongest preference cluster (AI-biology intersection) while fitting Slot 3's AI-applied-to-biology theme."
   }
 ]

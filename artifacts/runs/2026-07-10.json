@@ -1,0 +1,63 @@
+{
+  "run_date": "2026-07-10",
+  "generated_at": "2026-07-10T14:09:51Z",
+  "counts": {
+    "gmail_items": 94,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "ade282eb3fb79a93",
+      "headline": "Vertex makes $10B deal for commercial endocrinology biotech Crinetics",
+      "source": "Fierce Biotech / Endpoints News",
+      "url": "https://endpoints.news/vertex-makes-10b-deal-for-commercial-endocrinology-biotech-crinetics/",
+      "slot": 1,
+      "summary": "Vertex Pharmaceuticals is acquiring Crinetics Pharmaceuticals for ~$10B ($85/share, ~102% premium), marking Vertex's largest deal ever and a strategic pivot beyond its cystic fibrosis franchise into endocrinology. The deal brings Vertex the first once-daily oral acromegaly therapy (PALSONIFY) and late-stage congenital adrenal hyperplasia candidate atumelnant, with combined peak sales potential exceeding $5B. The transaction is expected to close Q3 2026 and is financed via cash plus $4.5B in bridge financing from BofA and Morgan Stanley.",
+      "why_it_matters": "The deal resets Vertex's long-term growth narrative post-CF dominance and sets a valuation benchmark for rare endocrine disease assets, with ripple effects for peers like Ipsen and Novartis competing in acromegaly.",
+      "signal_tags": [
+        "ticker_match:VRTX",
+        "ticker_match:CRNX",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min"
+    },
+    {
+      "article_id": "68c4c07a74e24dfd",
+      "headline": "The Salience of Data",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-salience-of-data",
+      "slot": 2,
+      "summary": "MBI Deep Dives examines why proprietary data \u2014 not compute, talent, or architecture \u2014 is the most defensible source of moat for AI model companies, using the Anthropic/Claude Code coding flywheel as the central case study. Drawing on OpenAI engineers James Betker and Will DePue, the piece argues that models trained on the same data converge to the same capability, making unique user-generated data the only durable differentiator. It then extends this logic to evaluate xAI's Cursor acquisition and Meta's new Muse Spark model as competitive responses to Anthropic's data flywheel.",
+      "why_it_matters": "For investors evaluating AI infrastructure and model-layer companies, this piece provides a rigorous framework for identifying which players can sustain moats \u2014 directly relevant to portfolio positioning in the AI stack.",
+      "signal_tags": [
+        "high_priority_source",
+        "data_infrastructure",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "10 min"
+    },
+    {
+      "article_id": "acea410dfbf9d602",
+      "headline": "AI-generated videos to maximally drive a target brain region",
+      "source": "Hacker News / NEVO Project (EPFL)",
+      "url": "https://nevo-project.epfl.ch/",
+      "slot": 3,
+      "summary": "EPFL's NEvo project builds a 'digital twin' encoding model that predicts how visual brain regions respond to any video, then uses an evolutionary algorithm to iteratively mutate and crossover text prompts \u2014 covering subject, lighting, motion, and mood \u2014 until a generated video maximally activates a target region. The system works in two stages: first optimizing a still image, then searching over motion to produce a 2-second clip, outperforming both handcrafted localizer stimuli and the best natural videos across known ROIs (FFA, PPA, EBA, MT, STS). A searchlight analysis across the lateral visual stream reveals a gradient from simple pattern/motion selectivity near V1 toward increasingly social and face-oriented representations near aSTS.",
+      "why_it_matters": "NEvo's closed-loop approach \u2014 generative AI steered by neural reward signals \u2014 is a methodological template with direct implications for neural interface companies, CNS drug developers using fMRI biomarkers, and any firm building foundation models for biological system understanding.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "novelty",
+        "wildcard_curiosity"
+      ],
+      "reading_time": "5 min"
+    }
+  ]
+}
