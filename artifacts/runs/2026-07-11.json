@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-07-11",
+  "generated_at": "2026-07-11T13:04:53Z",
+  "counts": {
+    "gmail_items": 101,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "fae7f2458b765265",
+      "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019f3931e924cad8f7369ff1d668/b1fd151ba82244320000021ef3a0bcc2/b1fd151b-a822-4432-a2ff-1d3292f7f9a5",
+      "slot": 1,
+      "summary": "McKinsey proposes replacing the traditional linear stage-gate R&D model in biopharma with AI-powered 'learning loops' centered on five key decision points, enabling continuous refinement rather than sequential checkpoints. The framework argues AI can compress development timelines and reduce costly late-stage attrition by making R&D cycles iterative and data-driven. This represents a structural rethinking of how biopharma organizations should organize their pipeline decision-making.",
+      "why_it_matters": "For investors and strategists evaluating biopharma R&D productivity, this framework offers a lens to assess which companies are structurally positioned to benefit from AI integration versus those still running legacy sequential pipelines \u2014 a meaningful differentiator for long-term capital allocation.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "ai_biology_intersection",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "68c4c07a74e24dfd",
+      "headline": "The Salience of Data",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-salience-of-data",
+      "slot": 2,
+      "summary": "MBI Deep Dives uses a veil-of-ignorance thought experiment to argue that proprietary data \u2014 not compute, talent, or architecture \u2014 is the primary source of sustainable moat for frontier AI model companies. The piece traces Anthropic's coding dominance to a data flywheel built on focused product-market fit, while examining whether xAI's Cursor acquisition could replicate or surpass that flywheel. It synthesizes perspectives from OpenAI engineers to argue that model behavior is fundamentally dataset-determined, making data accumulation the central strategic variable.",
+      "why_it_matters": "For an investor evaluating AI infrastructure and health data companies, this piece provides a rigorous mental model for assessing which data flywheels are defensible \u2014 directly applicable to diligence on AI-native platforms where proprietary data accumulation is the core moat thesis.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "analytical_depth",
+        "data_infrastructure"
+      ],
+      "reading_time": "8 min"
+    }
+  ]
+}

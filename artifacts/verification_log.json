@@ -5704,5 +5704,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article has genuine scientific substance \u2014 a multi-step methodology combining brain encoding models, evolutionary prompt search, and two-stage video synthesis \u2014 and directly serves the reader's strongest preference cluster (AI-biology intersection) while fitting Slot 3's AI-applied-to-biology theme."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "Vertex makes its biggest M&A bet with $10B Crinetics deal; US hawkishness on China trials could be 'huge distraction'",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text provided is essentially a navigation menu and article index from Fierce Biotech \u2014 the actual article body about the Vertex/Crinetics $10B deal is not present, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f3931e924cad8f7369ff1d668/b1fd151ba82244320000021ef3a0bcc2/b1fd151b-a822-4432-a2ff-1d3292f7f9a5",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's framework for AI-driven biopharma R&D restructuring aligns well with Slot 1 and strongly matches the reader's top interest areas (AI/biology intersection, data infrastructure, AI impact) with likely analytical depth from a high-priority consulting source."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "Why Consumer AI Appears to be Lagging Enterprise",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/why-consumer-ai-appears-to-be-lagging",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI article that belongs in Slot 3, not Slot 2 (Finance/Macro); it analyzes consumer vs. enterprise AI adoption dynamics without meaningful macro, earnings, or market/valuation content."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "In Preliminary Rate Filings, ACA Marketplace Insurers Largely Propose Double-Digit Premium Increases For 2027",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VW4R7L7KMtYZVTH0wn59YkW1W74N_GZ5Rdg25N3NdJFT7mmznW5BWSxg6lZ3nkW2tdFDX3gQNr1W92HyCK96rfSXW67nHcg2FCPXpW5-QW4D1g4R_5W5TPb0H6dBtgBW3JtqtS3-z-LsVBsH8l5Tl-WtW8_kvbh5rhWGfW3zVQz03v9R0wW55hKwT5xt-DxVRp5FQ3GsLKlW1wgbQf26zxmqW74-NpZ1t4-5GW7l44TL4qp0wqW5N25pm7Yw_7KW95Rwvq6JRG2HVbXzjc84MD-XW766Hv68N8JvLW7jL__t2-ZJ8SW4D69yQ8ZvJBlW2hYzRv10lt5QW87lRhs47CHlVW349c0n2qM_qlW31BqD544vF4tW5RZZxJ4pljPGW7Kjp2g29n9kMW8vNLF95yspjJW7RMrlp4nwflRW24bsc748FrRtW2jV9Wp2FCk-6W9dRZsy6chDQbW8x9zCX4LVpd1W4k_JfG3JGXx3N1X-YhQp7n1DW83srhJ18m4VLW4tDBRv5j6PHMW6jNDlN7g-dt9W326FXV5fCClmW8_mS0Z7r8yz1f3V8TWs04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returned a 400 error and no actual content could be retrieved, making it impossible to verify substance, depth, or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "The Salience of Data",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-salience-of-data",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers genuine analytical depth on data as a moat in AI model competition, drawing on primary sources and a thought experiment that connects directly to the reader's strong interests in data infrastructure, AI impact, and competitive moat analysis."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "Pearl Health banks $110M in fresh funding to build out tech and AI for Medicare providers",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/pearl-health-banks-110m-fresh-funding-build-out-ai-medicare-providers",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a funding announcement press release with limited analytical depth \u2014 it's primarily a CEO quote compilation about product roadmap without substantive insight into competitive moat, unit economics, or what differentiates Pearl from other VBC enablers, and it doesn't align with the reader's strong preference for analytical depth over thinly sourced news items."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "CVS' Omnicare unit agrees to $440M settlement with DOJ in ongoing fraud case",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/cvs-omnicare-unit-agrees-440m-settlement-doj-ongoing-fraud-case",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 3 Tech/AI article candidate but covers a DOJ fraud settlement with CVS/Omnicare \u2014 a healthcare legal/regulatory story with zero AI or technology content, making it entirely wrong for the target slot."
+  },
+  {
+    "date": "2026-07-11",
+    "headline": "U-Haul Bought at the Top",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article targets Slot 3 (Tech/AI) but the content is a business model deep-dive on U-Haul \u2014 a serial acquirer / competitive moat analysis \u2014 which belongs in Slot 4 (Wildcard) or possibly Slot 2 (Finance/Markets), not Tech/AI."
   }
 ]
