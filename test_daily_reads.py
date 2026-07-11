@@ -1091,5 +1091,31 @@ class ProcessReadwiseExemplarTests(unittest.TestCase):
         self.assertIn("token rejected", post.call_args.kwargs["json"]["text"])
 
 
+class PaywallStubTest(unittest.TestCase):
+    def test_statplus_teaser_is_flagged(self):
+        # STAT+ intro-teaser that clears the old <1500 generic gate but is gated.
+        teaser = ("Novartis CEO joins Anthropic board. " * 40 +
+                  " This article is exclusive to STAT+ subscribers. "
+                  "Subscribe to read the full story. Already a subscriber? Log in.")
+        self.assertGreater(len(teaser), 1500)
+        self.assertTrue(main._is_paywall_stub(teaser))
+
+    def test_full_article_mentioning_paywall_not_flagged(self):
+        # A genuinely-full body that merely mentions STAT+ once must NOT be nuked.
+        full = "Real article body sentence. " * 400 + " (mentions STAT+ once)"
+        self.assertGreater(len(full), 4000)
+        self.assertFalse(main._is_paywall_stub(full))
+
+    def test_generic_short_wall_still_flagged(self):
+        self.assertTrue(main._is_paywall_stub("Are you a robot? Please complete the captcha."))
+
+    def test_subscribers_only_teaser_flagged(self):
+        t = "Lead paragraph. " * 30 + " This content is for subscribers only."
+        self.assertTrue(main._is_paywall_stub(t))
+
+    def test_clean_short_text_not_flagged(self):
+        self.assertFalse(main._is_paywall_stub("A short but clean article with real content and no wall."))
+
+
 if __name__ == "__main__":
     unittest.main()

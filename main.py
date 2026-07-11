@@ -1278,10 +1278,29 @@ _PAYWALL_PATTERNS = re.compile(
     re.IGNORECASE,
 )
 
+# Strong paywall markers that reliably indicate the BODY is gated even when the
+# extractor grabbed a long-enough intro/teaser to clear the generic length gate —
+# the STAT+ case (JP's top HC source was being extracted as a teaser + CTA,
+# passing to the verifier, getting rejected as "no substance", and dropped
+# instead of falling back to the newsletter snippet). 2026-07-11.
+_HARD_PAYWALL_PATTERNS = re.compile(
+    r"(STAT\+|subscribers?[- ]only|already a subscriber|subscribe to read|"
+    r"unlock this (article|story)|to continue reading,|"
+    r"this (article|story|content) is (exclusive|for subscribers))",
+    re.IGNORECASE,
+)
+
 
 def _is_paywall_stub(text: str) -> bool:
     """Detect paywall, captcha, or bot-wall pages masquerading as article text."""
+    # Generic wall + short body.
     if len(text) < 1500 and _PAYWALL_PATTERNS.search(text):
+        return True
+    # Strong paywall markers (STAT+, "subscribers only") flag even a longer intro
+    # teaser. Length ceiling so a genuinely-full article that merely *mentions* a
+    # paywall isn't nuked — and a false positive here only routes to snippet-only
+    # verification (lighter bar), never a hard drop, so the bias is toward recovery.
+    if len(text) < 4000 and _HARD_PAYWALL_PATTERNS.search(text):
         return True
     return False
 
