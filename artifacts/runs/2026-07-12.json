@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-07-12",
+  "generated_at": "2026-07-12T13:08:22Z",
+  "counts": {
+    "gmail_items": 107,
+    "tier2_items": 77,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "34f96e731f2c420c",
+      "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/from-linear-gates-to-learning-loops-rewiring-biopharma-r-and-d-with-ai",
+      "slot": 1,
+      "summary": "McKinsey argues that layering AI onto traditional sequential stage-gate R&D captures only marginal efficiency gains; the real opportunity lies in restructuring R&D around five interconnected decision loops where each key decision generates data that continuously refines upstream assumptions. This compounding feedback architecture \u2014 rather than point-solution AI tools \u2014 is what enables meaningful compression of timelines and improvement in clinical success rates. Concrete examples include FutureHouse's Robin multiagent system and Google DeepMind's Co-Scientist, both of which produced validated drug-repurposing hypotheses in vitro.",
+      "why_it_matters": "This operating model framework shifts the investment evaluation lens for techbio platforms (Recursion, Absci, Insilico) from 'which AI tools do they use?' to 'is their R&D architecture built to compound learning?' \u2014 a more durable and defensible basis for competitive moat analysis.",
+      "signal_tags": [
+        "priority:high",
+        "high_priority_source",
+        "AI_biology_intersection",
+        "AI_impact",
+        "analytical_depth",
+        "forward_looking"
+      ],
+      "reading_time": "7 min"
+    },
+    {
+      "article_id": "b707395d75735153",
+      "headline": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "source": "Hacker News / IO Fund (Beth Kindig)",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "slot": 2,
+      "summary": "IO Fund's Beth Kindig dissects how neoclouds CoreWeave and Nebius are funded through a circular financing structure: Nvidia takes equity stakes in both ($2B each), which reinforces GPU supply relationships, while the neoclouds fund buildouts via GPU-backed debt (now $65B+ industry-wide) and massive hyperscaler commitments ($122B+ from Microsoft and Meta alone). The bearish case centers on hyperscalers' motivation to shift capex to opex via neocloud operating agreements, leaving CoreWeave and Nebius with soaring debt, limited operating cash flow, and contracted power capacity (3.5 GW each) that is largely not yet online. The piece quantifies the scale mismatch \u2014 CoreWeave's FY2026 estimated revenue is $12.6B against commitments an order of magnitude larger \u2014 and flags the circular financing as a systemic risk to monitor across NVDA, CRWV, and NBIS.",
+      "why_it_matters": "Understanding the circular financing loop between Nvidia and the neoclouds is essential for sizing AI infrastructure exposure and assessing contagion risk if neocloud debt loads become unsustainable \u2014 directly actionable for investors holding NVDA, CRWV, or NBIS.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "hn_score:297",
+        "data_infrastructure",
+        "AI_impact",
+        "analytical_depth",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "8 min"
+    }
+  ]
+}

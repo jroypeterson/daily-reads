@@ -5776,5 +5776,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article targets Slot 3 (Tech/AI) but the content is a business model deep-dive on U-Haul \u2014 a serial acquirer / competitive moat analysis \u2014 which belongs in Slot 4 (Wildcard) or possibly Slot 2 (Finance/Markets), not Tech/AI."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "Vertex makes $10B deal for commercial endocrinology biotech Crinetics",
+    "source": "Fierce Biotech / Fierce Pharma",
+    "url": "https://www.fiercepharma.com/premium/webinar/1381203?pk=PharmaForce-WB-071526-LSWD-NL-062926&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a promotional piece about AI-driven pharmaceutical marketing strategy ('share of answer' / optichannel engagement), completely unrelated to the Vertex/Crinetics M&A deal described in the shortlist summary."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "[scuttlebits] CPRT, ADBE, FIG, NVDA, QCOM, FDS, Memory chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/scuttlebits-7926",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and reader-aligned style, this article is explicitly a Finance/Markets and Tech piece covering CPRT, ADBE, NVDA, QCOM, and memory chips \u2014 none of which fit Slot 1's Healthcare/Biotech requirement (FDA decisions, clinical trials, biopharma M&A, pipeline news)."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "Meta On the Offense!",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-on-the-offense",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI article analyzing Meta's AI competitive strategy and infrastructure investments \u2014 it has no meaningful healthcare or biopharma content and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "From linear gates to learning loops: Rewiring biopharma R&D with AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/from-linear-gates-to-learning-loops-rewiring-biopharma-r-and-d-with-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey piece offers substantive analytical depth on AI operating model transformation in biopharma R&D \u2014 directly matching reader's strong interests in AI impact, AI/biology intersection, and competitive moat analysis, while fitting Slot 1's healthcare/biopharma theme."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+    "source": "Hacker News / IO Fund (Beth Kindig)",
+    "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides genuine analytical depth on a systemic structural risk in AI infrastructure financing, mapping the circular equity/debt loop between Nvidia, CoreWeave, and Nebius with specific figures, making it highly relevant to the reader's strong preferences for data infrastructure, AI impact, competitive moat analysis, and investment-relevant insights."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "Pearl Health banks $110M in fresh funding to build out tech and AI for Medicare providers",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/pearl-health-banks-110m-fresh-funding-build-out-ai-medicare-providers",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article covers AI in healthcare infrastructure (a reader interest), it's primarily a funding announcement with CEO quotes rather than analytical depth \u2014 it lacks the competitive moat analysis, data infrastructure insight, or VC thesis depth the reader profile requires, and Fierce Healthcare is a Slot 1 domain, not a priority Slot 3 source."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "In Preliminary Rate Filings, ACA Marketplace Insurers Largely Propose Double-Digit Premium Increase For 2027",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VW4R7L7KMtYZVTH0wn59YkW1W74N_GZ5Rdg25N3NdJFT7mmznW5BWSxg6lZ3nkW2tdFDX3gQNr1W92HyCK96rfSXW67nHcg2FCPXpW5-QW4D1g4R_5W5TPb0H6dBtgBW3JtqtS3-z-LsVBsH8l5Tl-WtW8_kvbh5rhWGfW3zVQz03v9R0wW55hKwT5xt-DxVRp5FQ3GsLKlW1wgbQf26zxmqW74-NpZ1t4-5GW7l44TL4qp0wqW5N25pm7Yw_7KW95Rwvq6JRG2HVbXzjc84MD-XW766Hv68N8JvLW7jL__t2-ZJ8SW4D69yQ8ZvJBlW2hYzRv10lt5QW87lRhs47CHlVW349c0n2qM_qlW31BqD544vF4tW5RZZxJ4pljPGW7Kjp2g29n9kMW8vNLF95yspjJW7RMrlp4nwflRW24bsc748FrRtW2jV9Wp2FCk-6W9dRZsy6chDQbW8x9zCX4LVpd1W4k_JfG3JGXx3N1X-YhQp7n1DW83srhJ18m4VLW4tDBRv5j6PHMW6jNDlN7g-dt9W326FXV5fCClmW8_mS0Z7r8yz1f3V8TWs04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) but covers ACA premium rate filings \u2014 a healthcare policy/finance topic with no AI or technology angle, and the article URL returned a 400 error making content verification impossible."
+  },
+  {
+    "date": "2026-07-12",
+    "headline": "AI Won't Create Advantage. Strategy Will.",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGi8D21luamG0d91NnTwGJleN_HI1dOHLtysWU693TYC6CTmRy-oqnZt_B2DBMlzHMeKFiMKLM=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially a BCG newsletter email shell with image links and truncated content \u2014 there is no substantive article body, data, or analytical depth to evaluate, making the shortlist summary unverifiable and the piece too thin for the digest."
   }
 ]
