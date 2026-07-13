@@ -1481,6 +1481,10 @@ Return ONLY valid JSON with these keys:
                 "why_it_matters": verdict.get("why_it_matters", candidate.get("why_it_matters", "")).strip(),
                 "signal_tags": [str(t).strip() for t in candidate.get("signal_tags", []) if str(t).strip()],
                 "reading_time": verdict.get("reading_time", candidate.get("reading_time", "N/A")),
+                # Carry the snippet-only status downstream so every delivered
+                # surface can mark a paywalled item as verified-on-summary rather
+                # than full-text (NO SILENT FALLBACKS — the reader must see it).
+                "snippet_only": snippet_only,
             })
             seen_sources.add(source.casefold())
             next_slot += 1
@@ -1544,7 +1548,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
             html += f"""
 <div style="background: #16213e; border-radius: 8px; padding: 16px; margin: 16px 0; border-left: 4px solid #e94560;">
   <h2 style="margin: 0 0 8px 0;">{emoji} <a href="{a.get('url', '#')}" style="color: #0fbcf9; text-decoration: none;">{a.get('headline', 'Untitled')}</a></h2>
-  <p style="color: #a8a8b3; margin: 4px 0; font-size: 13px;">{a.get('source', '')} · Slot {slot} · ⏱ {a.get('reading_time', 'N/A')} read</p>
+  <p style="color: #a8a8b3; margin: 4px 0; font-size: 13px;">{a.get('source', '')} · Slot {slot} · ⏱ {a.get('reading_time', 'N/A')} read{' · 🔒 snippet-only (paywalled, verified on summary)' if a.get('snippet_only') else ''}</p>
   <p style="margin: 8px 0;">{a.get('summary', '')}</p>
   <p style="color: #e94560; font-style: italic; margin: 8px 0;">💡 {a.get('why_it_matters', '')}</p>
   <p style="margin: 8px 0;">{feedback_html}</p>
@@ -1728,7 +1732,8 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
                 "type": "mrkdwn",
                 "text": (
                     f"{emoji} *<{a.get('url', '#')}|{a.get('headline', 'Untitled')}>*\n"
-                    f"_{a.get('source', '')} · Slot {slot} · :timer_clock: {a.get('reading_time', 'N/A')} read_\n\n"
+                    f"_{a.get('source', '')} · Slot {slot} · :timer_clock: {a.get('reading_time', 'N/A')} read_"
+                    f"{'  :lock: _snippet-only — paywalled, verified on summary_' if a.get('snippet_only') else ''}\n\n"
                     f"{a.get('summary', '')}\n\n"
                     f"💡 _{a.get('why_it_matters', '')}_\n\n"
                     f"<{strong_url}|:thumbsup: Strong pick>  "
@@ -1985,7 +1990,7 @@ def deliver_pages(articles: list[dict], triage_queue: list[dict] | None = None, 
           <span class="slot-label">Slot {slot}</span>
         </div>
         <h2><a href="{a.get('url', '#')}" target="_blank">{a.get('headline', 'Untitled')}</a></h2>
-        <p class="meta">{a.get('source', '')} · {today} · ⏱ {a.get('reading_time', 'N/A')} read</p>
+        <p class="meta">{a.get('source', '')} · {today} · ⏱ {a.get('reading_time', 'N/A')} read{' · 🔒 snippet-only (paywalled, verified on summary)' if a.get('snippet_only') else ''}</p>
         <p class="summary">{a.get('summary', '')}</p>
         <p class="why">💡 {a.get('why_it_matters', '')}</p>
         <p class="tags">{tags}</p>
@@ -2081,7 +2086,8 @@ def deliver_log(articles: list[dict]):
     for a in articles:
         slot = a.get("slot", 0)
         emoji = slot_emojis.get(slot, "📌")
-        print(f"\n{emoji} Slot {slot}: {a.get('headline', 'Untitled')}")
+        marker = "  [snippet-only — paywalled, verified on summary]" if a.get("snippet_only") else ""
+        print(f"\n{emoji} Slot {slot}: {a.get('headline', 'Untitled')}{marker}")
         print(f"   Source: {a.get('source', '')}")
         print(f"   Article ID: {a.get('article_id', '')}")
         print(f"   URL: {a.get('url', '')}")
@@ -2118,7 +2124,9 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
         fine = slack_mailto_feedback_url(today, slot, 2)
         miss = slack_mailto_feedback_url(today, slot, 1)
         reading_time = a.get("reading_time", "N/A")
+        paywall_note = "\n\n🔒 Snippet-only: full article was paywalled; verified on newsletter summary." if a.get("snippet_only") else ""
         desc = f"⏱ {reading_time} read · {a.get('source', '')}\n\n{summary}\n\nWhy it matters: {why}" if why else f"⏱ {reading_time} read · {a.get('source', '')}\n\n{summary}"
+        desc += paywall_note
         desc += f"\n\nRate this pick: [Strong]({strong}) · [Fine]({fine}) · [Miss]({miss})"
         desc += "\n\n---\nFound something great? Forward it to jroypeterson+taste@gmail.com to train my taste."
         tasks.append({
@@ -2212,13 +2220,17 @@ def deliver_reader(articles: list[dict], always_read: list[dict] | None = None):
         url = (a.get("url") or "").strip()
         if not url:
             continue
+        tags = ["daily-reads", "top-pick"]
+        if a.get("snippet_only"):
+            # Mark paywalled/verified-on-summary picks so they're filterable in Reader.
+            tags.append("snippet-only")
         payload = {
             "url": url,
             "title": a.get("headline") or "Untitled",
             "location": location,
             "category": "article",
             "saved_using": "daily-reads",
-            "tags": ["daily-reads", "top-pick"],
+            "tags": tags,
         }
         summary = a.get("summary") or ""
         if summary:
