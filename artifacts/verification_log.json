@@ -5848,5 +5848,59 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The full article text is essentially a BCG newsletter email shell with image links and truncated content \u2014 there is no substantive article body, data, or analytical depth to evaluate, making the shortlist summary unverifiable and the piece too thin for the digest."
+  },
+  {
+    "date": "2026-07-13",
+    "headline": "A breakthrough in pancreatic cancer has experts excited \u2014 and braced for what's to come",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "STAT News deep-dive on daraxonrasib's Phase 3 OS data is substantive, catalyst-proximate (NDA imminent), and directly relevant to Slot 1 with a clear ticker play in RVMD and broader KRAS pipeline implications."
+  },
+  {
+    "date": "2026-07-13",
+    "headline": "Stealing Alpha (The Transcript, July 13 2026)",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-13-2026-stealing-alpha",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text reveals only the free/macro section \u2014 which is thin consumer sentiment quotes from earnings calls \u2014 while the AI 'stealing alpha' debate (the core thesis from the shortlist summary) is locked behind a paywall, making the actual available content generic and misrepresented by the shortlist."
+  },
+  {
+    "date": "2026-07-13",
+    "headline": "U-Haul Bought at the Top",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/uhaul1",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's forensic accounting deep-dive into U-Haul's fleet depreciation crisis is exactly the kind of analytical, investment-relevant long-form business diligence the reader consistently rates highly, with clear structural narrative and actionable implications."
+  },
+  {
+    "date": "2026-07-13",
+    "headline": "Why Consumer AI Appears to be Lagging Enterprise",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/why-consumer-ai-appears-to-be-lagging",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers genuine analytical depth on the consumer vs. enterprise AI adoption gap, grounded in a concrete real-world experiment (Skift's travel booking test) and a compelling structural thesis about who owns failure in each context."
+  },
+  {
+    "date": "2026-07-13",
+    "headline": "Vertex makes its biggest M&A bet with $10B Crinetics deal; US hawkishness on China trials could be 'huge distraction'",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercepharma.com/premium/webinar/1381203",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely unrelated to the headline \u2014 it's a generic marketing/pharma commercial strategy piece about 'optichannel engagement' and 'share of answer,' with zero content about the Vertex/Crinetics acquisition or China trial regulatory concerns described in the shortlist summary."
+  },
+  {
+    "date": "2026-07-13",
+    "headline": "Anthropic's Claude now handles healthcare claims, care management",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/anthropics-claude-now-handles-healthcare-claims-care-management/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article covers a concrete enterprise AI deployment in payer/provider infrastructure \u2014 directly hitting the reader's strongest preferences (AI impact, data infrastructure, health technology) with an actionable angle on platform consolidation."
   }
 ]

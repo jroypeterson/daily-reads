@@ -1,0 +1,82 @@
+{
+  "run_date": "2026-07-13",
+  "generated_at": "2026-07-13T14:14:06Z",
+  "counts": {
+    "gmail_items": 113,
+    "tier2_items": 88,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6b85b3f20a9a9f92",
+      "headline": "A breakthrough in pancreatic cancer has experts excited \u2014 and braced for what's to come",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/",
+      "slot": 1,
+      "summary": "Revolution Medicines' daraxonrasib posted landmark Phase 3 RASolute 302 results showing median overall survival nearly doubling to 13.2 months versus 6.7 months on chemotherapy in pancreatic cancer \u2014 a 60% reduction in death risk \u2014 marking the first KRAS-targeting drug to show survival benefit in a historically undruggable target driving >90% of pancreatic cancers. STAT convenes expert perspectives on what follows: combination strategies with other RAS-pathway agents, sequencing questions, resistance mechanisms, and access challenges given the drug's expected high cost and the complexity of the patient population. With an NDA submission imminent, oncologists are simultaneously celebrating the breakthrough and stress-testing its real-world generalizability.",
+      "why_it_matters": "RVMD is the direct catalyst play with an FDA NDA submission imminent, but the broader KRAS franchise \u2014 spanning combination trials and competing pipeline assets \u2014 opens significant valuation questions across the RAS-pathway competitive landscape for investors tracking oncology.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "source:statnews"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "1c6bc47ab9c028e8",
+      "headline": "U-Haul Bought at the Top",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/uhaul1",
+      "slot": 2,
+      "summary": "Scuttleblurb dissects how U-Haul's pandemic-era decision to aggressively buy trucks and vans at peak prices \u2014 driven by a demand surge and OEM-induced shortages \u2014 has created a compounding depreciation problem as vehicle resale values collapse alongside normalized new-vehicle pricing. Equipment depreciation has risen from 13% of revenue in FY22 to 23% in FY26, and gains on vehicle sales have flipped to meaningful losses, with cargo vans particularly acute given their 1-2 year depreciation schedules and rapidly falling replacement costs. The piece explains the accounting mechanics (mark-to-market resale assumptions, gain/loss recognition at disposal) that make the margin collapse both mechanically understandable and potentially temporary as the fleet turns over.",
+      "why_it_matters": "For an investor focused on competitive moats and deep business diligence, this analysis maps the precise accounting and operational mechanism driving U-Haul's margin collapse and frames the fleet normalization timeline as the key variant perception \u2014 a classic misunderstood-cycle opportunity in a structurally advantaged business.",
+      "signal_tags": [
+        "priority:high",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "serial_acquirer_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min"
+    },
+    {
+      "article_id": "3bcba08974794581",
+      "headline": "Why Consumer AI Appears to be Lagging Enterprise",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/why-consumer-ai-appears-to-be-lagging",
+      "slot": 3,
+      "summary": "MBI Deep Dives analyzes why consumer AI adoption is stalling relative to enterprise, using Zuckerberg's internal admission and Skift's secret-shopper ChatGPT travel booking experiment as anchors. The core thesis: enterprises tolerate broken AI plumbing because fixing it is someone's job and ROI is verifiable, while consumers simply revert to Google when tools fail \u2014 meaning consumer AI failures generate no feedback loop or accountability. This structural asymmetry in persistence thresholds and failure ownership explains why enterprise AI compounds while consumer AI remains stuck at the chat layer.",
+      "why_it_matters": "For investors, this consumer-enterprise divergence has direct implications for app-layer SaaS multiples, consumer-facing AI valuations, and any digital health platform betting on patient-side AI adoption \u2014 the thesis suggests consumer AI TAM expansion will be slower and lumpier than enterprise.",
+      "signal_tags": [
+        "priority:high",
+        "ai_impact",
+        "novelty",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "5 min"
+    },
+    {
+      "article_id": "e508aa3cdc2af899",
+      "headline": "Anthropic's Claude now handles healthcare claims, care management",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/anthropics-claude-now-handles-healthcare-claims-care-management/",
+      "slot": 4,
+      "summary": "UST is integrating Anthropic's Claude into its CarePath platform, used by insurers and providers for claims processing, care management, and member services. Claude connects directly to underlying health systems to convert fragmented claims and care data into operational recommendations, moving AI from a supplementary analytics layer to core production infrastructure. This represents a meaningful step in AI becoming embedded in payer workflows rather than sitting alongside them.",
+      "why_it_matters": "Payer-side AI infrastructure deployment is a direct investable signal as health IT platforms consolidate under Medicaid cut pressures \u2014 this use case (claims + care management automation) is where near-term enterprise AI spend in healthcare is concentrating.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "data_infrastructure",
+        "health_software_saas",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min"
+    }
+  ]
+}
