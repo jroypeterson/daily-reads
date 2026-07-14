@@ -5902,5 +5902,50 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "The article covers a concrete enterprise AI deployment in payer/provider infrastructure \u2014 directly hitting the reader's strongest preferences (AI impact, data infrastructure, health technology) with an actionable angle on platform consolidation."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Freenome colorectal cancer test data improve on earlier results",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/freenome-colorectal-cancer-test-data-improve-on-earlier-results/825085/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive clinical data, clear competitive dynamics, ticker-relevant milestones, and a near-term FDA catalyst \u2014 meeting Slot 1 criteria with meaningful investment depth."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear ticker relevance (MSFT), this article fits Slot 3 (Tech/AI) far more naturally than Slot 2 (Finance/Macro), as its core substance is competitive moat analysis of AI platform dynamics rather than macro moves, earnings, sector rotation, or payer/reimbursement dynamics \u2014 and Slot 3 is the better home for this piece."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Digital health funding hits $7.4B in 2026 as AI investment reshapes the market",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/digital-health-brought-74b-vc-funding-ai-powered-rebound-fuels-market",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article delivers substantive Rock Health H1 2026 data with specific deal figures, named companies, and analytical frameworks around competitive moat-building in the AI era \u2014 directly relevant to healthcare-adjacent finance and the reader's strong interests in competitive moat analysis, AI impact, and venture capital insights."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million",
+    "source": "New York Times",
+    "url": "https://www.nytimes.com/2026/07/14/business/dealbook/chai-discovery-ai-drug-development.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Strong match for Slot 3 with substantive AI-biology intersection content \u2014 a 3x valuation step-up in seven months with named pharma partners and a differentiated pure-platform business model signals real institutional conviction worth tracking."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Letter #337: Angela Aldrich, Michael Mauboussin, and Tano Santos \u2014 Developing A Differentiated View",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-337-angela-aldrich-michael",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, tactical transcript of a conversation between Angela Aldrich, Michael Mauboussin, and Tano Santos on developing differentiated investment views, directly matching the reader's strong preferences for analytical depth, long-form investment writing, and practitioner perspectives."
   }
 ]

@@ -1,0 +1,86 @@
+{
+  "run_date": "2026-07-14",
+  "generated_at": "2026-07-14T13:18:05Z",
+  "counts": {
+    "gmail_items": 115,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "d689aaf80b49f416",
+      "headline": "Freenome colorectal cancer test data improve on earlier results",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/freenome-colorectal-cancer-test-data-improve-on-earlier-results/825085/",
+      "slot": 1,
+      "summary": "Freenome's updated SimpleScreen CRC blood test achieved 80.4% sensitivity for colorectal cancer and 18.2% for advanced precancerous lesions in a pivotal validation study, improving on its first-generation test. Abbott, which acquired Exact Sciences (and its Cologuard stool test) for $21B, holds exclusive commercialization rights and will owe Freenome a $70M milestone payment contingent on FDA approval of the next-gen test. The first-gen PMA is under FDA review with a mid-2026 expected completion, while a supplemental PMA for the updated test will follow \u2014 putting Abbott on a collision course with Guardant Health's already-approved Shield blood test.",
+      "why_it_matters": "The article directly implicates three tickers \u2014 ABT, GH, and EXAS \u2014 in a high-stakes, multi-billion-dollar CRC screening market with a concrete FDA timeline, milestone payment trigger, and Evercore ISI analyst commentary on competitive positioning, making it actionable for portfolio review.",
+      "signal_tags": [
+        "ticker_match:ABT",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8d0ee2ca8ba3f7fd",
+      "headline": "Digital health funding hits $7.4B in 2026 as AI investment reshapes the market",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/digital-health/digital-health-brought-74b-vc-funding-ai-powered-rebound-fuels-market",
+      "slot": 2,
+      "summary": "Rock Health's H1 2026 report shows U.S. digital health VC reached $7.4B across 244 deals, up $1B from H1 2025, with capital heavily concentrated \u2014 19 companies capturing 45% of all funding via megadeals of $100M+. Mental health and weight management/GLP-1 adjacencies lead by clinical indication, while AI has shifted from a differentiator to a baseline expectation, pushing startups to build moats through domain expertise, workflow ownership, hands-on delivery, and network effects. M&A hit 115 acquisitions in H1 led by RCM consolidation, with zero IPOs closed and several high-profile names (Oura, Whoop, Virta) preparing for public offerings.",
+      "why_it_matters": "The concentration of capital into megadeals, the AI-as-baseline shift, and the IPO drought pushing liquidity toward M&A collectively signal which digital health subsectors and moat-building strategies will command premium valuations and acquisition multiples in H2 2026.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "novelty",
+        "actionability",
+        "venture_capital_insights",
+        "data_infrastructure",
+        "health_technology_datasets"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8215ae67907cd277",
+      "headline": "Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/07/14/business/dealbook/chai-discovery-ai-drug-development.html",
+      "slot": 3,
+      "summary": "Chai Discovery has raised $400M at a $3.8B valuation, nearly tripling its $1.3B valuation from just seven months ago, backed by OpenAI and partnered with Eli Lilly and Pfizer on its Chai-2 foundation model for antibody and small molecule design. Unlike competitors Isomorphic Labs and Xaira, Chai operates as a pure platform \u2014 licensing model access rather than owning drug assets \u2014 a structural bet that AI infrastructure, not drug development risk, is the value driver. The round is the second-largest AI biotech raise in H1 2026, underscoring accelerating capital concentration in AI-native drug discovery.",
+      "why_it_matters": "The pure-platform business model distinction and rapid valuation step-up make this directly relevant to the reader's AI-biology intersection and VC insights theses, offering a lens into how institutional investors are pricing AI drug discovery infrastructure versus asset-owning competitors.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "AI_and_biology_intersection",
+        "venture_capital_insights",
+        "ticker_match:DRUG"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "0e3786dc5f3a3c0a",
+      "headline": "Letter #337: Angela Aldrich, Michael Mauboussin, and Tano Santos \u2014 Developing A Differentiated View",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-337-angela-aldrich-michael",
+      "slot": 4,
+      "summary": "This is a transcript of a Value Investing With Legends podcast conversation featuring Bayberry Capital founder Angela Aldrich (a Tiger grandcub who previously worked at Blue Ridge Capital under John Griffin) discussing how to develop differentiated analytical views with Columbia Business School professors Michael Mauboussin and Tano Santos. Aldrich brings a practitioner's perspective from running a concentrated long/short hedge fund, while Mauboussin contributes his consilient research framework that blends multiple disciplines to generate non-consensus insights. The conversation is described by the newsletter author as 'one of the more tactical interviews I've ever heard from a PM.'",
+      "why_it_matters": "For a reader who values analytical depth and investment-relevant insights, this offers rare access to the mental models and process of a high-pedigree long/short PM, with Mauboussin's multi-disciplinary consilient framework providing actionable scaffolding for building differentiated views \u2014 directly aligned with the reader's exemplar preference for deep business diligence and competitive moat analysis.",
+      "signal_tags": [
+        "priority:high",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
