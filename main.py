@@ -126,7 +126,7 @@ def notify_criteria_update(proposal: dict):
     reject_url = criteria_issue_url("reject", proposal["proposal_id"])
     modify_url = criteria_issue_url("modify", proposal["proposal_id"])
 
-    subject = f"Criteria Update Proposed — {proposal['proposal_id']}"
+    subject = f"[ClaudeFin] daily-reads — Criteria Update Proposed — {proposal['proposal_id']}"
     html = f"""<html><body style="font-family: -apple-system, sans-serif; max-width: 640px; margin: 0 auto; color: #222; padding: 20px;">
 <h1>Criteria Update Proposed</h1>
 <p><strong>Proposal ID:</strong> {proposal['proposal_id']}</p>
@@ -1606,7 +1606,7 @@ def deliver_gmail(articles: list[dict], triage_queue: list[dict] | None = None, 
 
         msg = MIMEText(html, "html")
         msg["to"] = "jroypeterson@gmail.com"
-        msg["subject"] = f"📰 Daily Reads — {today}"
+        msg["subject"] = f"[ClaudeFin] daily-reads — 📰 Daily digest ({today})"
         raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
         service.users().messages().send(

@@ -334,7 +334,7 @@ def _notify_synthesis(changes: list[str], preferences: dict):
     change_text = "\n".join(f"• {line}" for line in changes)
     change_html = "".join(f"<li>{line}</li>" for line in changes)
 
-    subject = f"Taste Preferences Updated — {datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
+    subject = f"[ClaudeFin] daily-reads — Taste Preferences Updated — {datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
     html = f"""<html><body style="font-family: -apple-system, sans-serif; max-width: 640px; margin: 0 auto; color: #222; padding: 20px;">
 <h1>Taste Preferences Updated</h1>
 <p>A synthesis run analyzed your taste evidence and updated learned preferences.</p>

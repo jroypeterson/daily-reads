@@ -631,7 +631,7 @@ def deliver_gmail(html: str, period: str):
     service = get_gmail_service()
     msg = MIMEText(html, "html")
     msg["to"] = "jroypeterson@gmail.com"
-    msg["subject"] = f"Daily Reads — Weekly Report ({period})"
+    msg["subject"] = f"[ClaudeFin] daily-reads — Weekly Report ({period})"
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
     service.users().messages().send(userId="me", body={"raw": raw}).execute()
     print("Weekly report sent via Gmail")
