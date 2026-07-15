@@ -5947,5 +5947,68 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article is a substantive, tactical transcript of a conversation between Angela Aldrich, Michael Mauboussin, and Tano Santos on developing differentiated investment views, directly matching the reader's strong preferences for analytical depth, long-form investment writing, and practitioner perspectives."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "HCA now expects up to $1.2B hit from ACA headwinds",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/hca-now-expects-up-to-1-2b-hit-from-aca-headwinds/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "HCA's quantified ACA headwind escalation ($600-900M to $1.0-1.2B) is substantive, actionable, and serves as a sector-wide bellwether read-through ahead of hospital earnings season."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear reader taste alignment, this article fits Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro) \u2014 it is fundamentally a competitive strategy and AI stack analysis piece, not a macro, earnings, or markets article."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Anthropic pushes deeper into healthcare with Optum tie-up, UST integration",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/tech-services-company-ust-integrates-anthropic-claude",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin on substance \u2014 the Optum partnership announcement is explicitly 'light on details about specific use cases or timeline,' and the UST/CarePath section is largely press release boilerplate, making it too shallow for a reader who values analytical depth."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Medicare Advantage insurers face new bipartisan scrutiny over AI and care denials",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth on a material regulatory risk for major managed care tickers (UNH, HUM, CVS), directly fits the Finance/Macro slot via payer dynamics and governance risk, and aligns strongly with the reader's interest in AI impact, regulatory affairs, and corporate governance."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "U-Haul Bought at the Top",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/uhaul1",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth, this article belongs in Slot 4 (Wildcard) or doesn't fit at all \u2014 it is a deep-dive on U-Haul's capital cycle and depreciation accounting, with zero relevance to Tech/AI (Slot 3's required theme)."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "BCG: AI Won't Create Advantage. Strategy Will.",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGi8D21luamG0d91NnTwGJleN_HI1dOHLtysWU693TYC6CTmRy-oqnZp_B2DBMlzHMeKFiMKLM=",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "BCG is a high-priority consulting source, the topic directly aligns with the reader's strong preferences for AI impact, data infrastructure, and competitive moat analysis, and the summary suggests substantive research-backed content distinguishing AI winners from laggards."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Letter #337: Angela Aldrich, Michael Mauboussin, and Tano Santos \u2014 Developing a Differentiated View",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-337-angela-aldrich-michael",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, tactically rich interview with a Tiger Cub PM (Angela Aldrich) moderated by Mauboussin, directly aligned with the reader's strong preferences for analytical depth, long-form investment writing, competitive moat analysis, and variant perception frameworks."
   }
 ]
