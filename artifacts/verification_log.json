@@ -6010,5 +6010,59 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a substantive, tactically rich interview with a Tiger Cub PM (Angela Aldrich) moderated by Mauboussin, directly aligned with the reader's strong preferences for analytical depth, long-form investment writing, competitive moat analysis, and variant perception frameworks."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "FDA Approves Merck's LIPFENDRA (enlicitide) \u2014 First Oral PCSK9 Inhibitor",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a legitimate, high-impact FDA approval from a priority source (STAT News) with a clear ticker match on MRK and category-defining significance \u2014 the first oral PCSK9 inhibitor reshaping a major cardiovascular drug market."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, analytically deep piece from MBI Deep Dives that directly addresses enterprise AI competitive moat dynamics with real data (OpenRouter token share) and primary source quotes from Nadella and Baker \u2014 fully matching Slot 2's finance/markets theme via the investment implications for MSFT and enterprise software."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Keeping Mergers Under the Radar",
+    "source": "Bloomberg (Money Stuff)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-07-15/keeping-mergers-under-the-radar",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) but is a finance/M&A regulatory piece about HSR premerger notification thresholds with no meaningful AI or technology content visible in the provided text."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Elevance Signals More Medicaid Pullbacks After D.C. Exit",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicaid/elevance-signals-more-medicaid-pullbacks-after-d-c-exit/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/payer finance article that belongs in Slot 1 or 2, not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Senators Press UnitedHealth, Humana, CVS on AI-Driven Medicare Advantage Coverage Decisions",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/senators-press-unitedhealth-humana-cvs-on-ai-driven-medicare-advantage-coverage-decisions/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a regulatory/governance story about AI misuse in healthcare \u2014 it belongs in Slot 1 (Healthcare/Biopharma) or possibly Slot 2, not Slot 3 (Tech/AI), as it covers congressional oversight and denial-rate data rather than AI technology itself, and the reader profile explicitly flags regulatory affairs as only moderate interest while the article lacks the analytical depth or investment-framework perspective the reader values."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "H1 IPO Surge Breaks Records, Doubles Last Year's Total",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWxv1T2fc2ZQW6xyPzt6QPlXvW5GRJ1L5RvLHyN3V8l9C5nR3bW7Y9pgv6lZ3ndVjdqv22cfGDqW5G_FXN5xqhxKW91nRzf2_ypDHW8kJTBZ5SDcRtW4966-S3GfhK5W5V7bKG9lF900W5TBZlx57bdL6W1WTp9t7npNKvN45dRvrPX0M0W8gXy2_7yTJP5W8vx1TS5l8ls1W8_C4JH8w5KgwW4_kCnK6dg-vMW1mxKVH7Z3Z91N1kc_HHQp3tbN2_8SRpmPg1FW5p-n3F60w9y3W1jl5TD3gxF3yW1S0QKg7RC9TcW3_sSgH2xdzldW6vS1p24DzQvRW7z5pnn2qlGYXV4yL9471Kc9hW5CPRSl6YrLjBW7L_gLx3P7nKcN2wlMxVw8PxfW59qHl79lhNRTW9dHGpT97qC_8W60w3Sl5KYBXxW47Q6X22K0lgTW10jl-b5_cdzvW6nk28y1Y50bwN6lBMHdFjv0tVm9Z3H25GQcLW3qg8MW4Y_7XsW3yvsLX7mH26dN3475XdqCWvmW4Z-XrS16tjYMW8QyZ2H2l78NzW74YDjS5w9wfpW7KHZ1P4Rv8XrW55j6Ly1Xdgv7d_pdgn04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter wrapper with virtually no substantive content \u2014 the full text contains only a single vague sentence about biotech IPOs ('roared back to life') plus ads, event listings, and job postings, making it unsuitable for any slot, let alone Tech/AI."
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-07-16",
+  "generated_at": "2026-07-16T13:28:37Z",
+  "counts": {
+    "gmail_items": 112,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "78a6f22b4ee9d005",
+      "headline": "FDA Approves Merck's LIPFENDRA (enlicitide) \u2014 First Oral PCSK9 Inhibitor",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/",
+      "slot": 1,
+      "summary": "The FDA approved Merck's LIPFENDRA (enlicitide) as the first oral PCSK9 inhibitor, demonstrating 56\u201359% placebo-adjusted LDL-C reduction in the CORALreef pivotal trials. The pill format represents a formulation breakthrough over the injectable incumbents (Amgen's Repatha, Sanofi/Regeneron's Praluent), with convenience advantages expected to significantly expand the addressable patient population. The approval sets up competitive read-throughs across cardiovascular pipelines and likely accelerates market share dynamics in the $15B+ PCSK9 class.",
+      "why_it_matters": "A first-in-class oral PCSK9 approval is a blockbuster catalyst for MRK and a structural threat to injectable PCSK9 incumbents, with downstream implications for AstraZeneca, Novartis, and Alnylam cardiovascular franchises.",
+      "signal_tags": [
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "afa051fb6c4e6c74",
+      "headline": "Defending the Enterprise Castle from the Model Layer",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+      "slot": 2,
+      "summary": "MBI Deep Dives analyzes how enterprise software incumbents \u2014 particularly Microsoft \u2014 are strategically positioning against OpenAI and Anthropic's encroachment at the model layer, framing Nadella's recent public writing as a deliberate 'commoditize your complement' playbook. OpenRouter token data showing frontier model share collapsing from 72% to ~33% of weekly tokens (displaced by open-weight models) is presented as a leading indicator of enterprise cost sensitivity and potential pricing power erosion at the model layer. Gavin Baker's 'mega bull case' for AI infrastructure is also cited: if margin dollars drain from frontier labs toward infrastructure, the winners will be low-cost inference providers \u2014 with direct implications for how to think about MSFT's positioning.",
+      "why_it_matters": "For investors in MSFT or any healthcare AI SaaS company relying on frontier model APIs, this piece sharpens the core question of where durable pricing power actually sits in the AI stack \u2014 and whether the model layer or the infrastructure/orchestration layer ultimately captures enterprise value.",
+      "signal_tags": [
+        "ticker_match:MSFT",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "data_infrastructure"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}
