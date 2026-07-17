@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-07-16T15:27:13Z",
+  "updated_at": "2026-07-17T19:38:20Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -9,7 +9,7 @@
       "evidence_ids": [
         "ev_c1f79a0309332bde"
       ],
-      "last_updated": "2026-07-16T15:27:13Z"
+      "last_updated": "2026-07-17T19:38:20Z"
     },
     {
       "name": "AI and biology intersection",
@@ -48,7 +48,7 @@
         "ev_2e87e7ed94e83b6c",
         "ev_2388bc9a1c26358d"
       ],
-      "last_updated": "2026-07-16T15:27:13Z"
+      "last_updated": "2026-07-17T19:38:20Z"
     },
     {
       "name": "corporate governance",
@@ -111,7 +111,7 @@
       "evidence_ids": [
         "ev_d708fbaadd2afdb4"
       ],
-      "last_updated": "2026-07-16T15:27:13Z"
+      "last_updated": "2026-07-17T19:38:20Z"
     },
     {
       "name": "AI drug discovery",
@@ -120,7 +120,7 @@
       "evidence_ids": [
         "ev_184418fa0b02520e"
       ],
-      "last_updated": "2026-07-16T15:27:13Z"
+      "last_updated": "2026-07-17T19:38:20Z"
     },
     {
       "name": "medical imaging technology",
@@ -223,7 +223,7 @@
       "evidence_ids": [
         "ev_f56f7dccb9f9a5d3"
       ],
-      "last_updated": "2026-07-16T15:27:13Z"
+      "last_updated": "2026-07-17T19:38:20Z"
     },
     {
       "name": "long-form investment writing",
