@@ -6064,5 +6064,41 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a thin newsletter wrapper with virtually no substantive content \u2014 the full text contains only a single vague sentence about biotech IPOs ('roared back to life') plus ads, event listings, and job postings, making it unsuitable for any slot, let alone Tech/AI."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Senate fights over Medicare AI prior authorization pilot",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive coverage of a consequential regulatory/policy development \u2014 the Senate's 46-50 party-line vote preserving the WISeR AI prior authorization pilot \u2014 with specific data points (wait times quadrupling, six-state scope, private vendor contracting) that have direct implications for managed care and health IT investors."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "UnitedHealth Group posts $5.5B Q2 profit, raises full-year outlook",
+    "source": "STAT News / Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/unitedhealth-posts-5-5b-profit-in-q2/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive Q2 earnings data for UNH with specific metrics (MLR, operating margins by segment, membership figures, EPS guidance) and forward-looking commentary on commercial cost trends extending recovery past 2027, making it relevant for managed care sector analysis."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Cost versus value: Managing agentic AI system performance",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/cost-versus-value-managing-agentic-ai-system-performance",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's agentic AI economics framework is substantive, analytically grounded, and directly matches the reader's strong preferences for data infrastructure, AI impact, and investment-relevant insights with actionable governance recommendations."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on the competitive moat dynamics between enterprise software incumbents and frontier model providers, directly hitting the reader's strongest taste signals: competitive moat analysis, deep business diligence, AI impact, and data infrastructure."
   }
 ]
