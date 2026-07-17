@@ -5,8 +5,8 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$RepoPath = "C:\Users\jroyp\Dropbox\Claude Folder\daily-reads"
-$Python = "C:\Users\jroyp\AppData\Local\Programs\Python\Python314\python.exe"
+$RepoPath = "$env:USERPROFILE\Dropbox\Claude Folder\daily-reads"
+$Python = "$env:LOCALAPPDATA\Programs\Python\Python314\python.exe"
 $Script = @"
 import subprocess, sys
 # Sync with remote first so local taste ingestion stacks on top of the latest
