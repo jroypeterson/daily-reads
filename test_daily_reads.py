@@ -111,7 +111,8 @@ class DailyReadsTests(unittest.TestCase):
                 mock_get_response.json.return_value = [issue]
 
                 with mock.patch.object(process_criteria_feedback.requests, "get", return_value=mock_get_response), \
-                     mock.patch.object(process_criteria_feedback.requests, "patch", return_value=mock.Mock()):
+                     mock.patch.object(process_criteria_feedback.requests, "patch", return_value=mock.Mock()), \
+                     mock.patch.object(process_criteria_feedback, "commit_durable_state", return_value=True):
                     process_criteria_feedback.main()
 
                 with open("criteria_update_state.json", "r", encoding="utf-8") as f:
@@ -1204,6 +1205,255 @@ class CheckUrlLiveDeadEndTests(unittest.TestCase):
             self.assertFalse(
                 url_resolver.check_url_live("https://trk1.publisher.example.com/T/tok")
             )
+
+
+class RssFeedHealthTests(unittest.TestCase):
+    """A total RSS outage must be distinguishable from a quiet zero-item day."""
+
+    def test_all_feeds_erroring_reports_zero_feeds_ok(self):
+        import rss_feeds
+
+        boom = SimpleNamespace(bozo=1, bozo_exception=Exception("down"), entries=[])
+        with mock.patch.object(rss_feeds.feedparser, "parse", return_value=boom):
+            items, health = rss_feeds.fetch_rss_feeds_with_health()
+
+        self.assertEqual(items, [])
+        self.assertEqual(health["feeds_ok"], 0)
+        self.assertEqual(health["feeds_total"], len(rss_feeds.RSS_FEEDS))
+
+    def test_healthy_feed_with_no_recent_items_still_counts_ok(self):
+        import rss_feeds
+
+        # Parses cleanly but every entry is older than the window -> 0 items,
+        # yet feeds_ok must be > 0 (a quiet day, NOT an outage).
+        old = SimpleNamespace(
+            bozo=0,
+            entries=[SimpleNamespace(get=lambda k, d=None: "", published_parsed=(2000, 1, 1, 0, 0, 0))],
+        )
+        with mock.patch.object(rss_feeds.feedparser, "parse", return_value=old):
+            items, health = rss_feeds.fetch_rss_feeds_with_health()
+
+        self.assertEqual(items, [])
+        self.assertGreater(health["feeds_ok"], 0)
+
+    def test_rss_scan_flags_partial_on_total_outage(self):
+        main._RUN_STATE["partial_reasons"].clear()
+        with mock.patch("rss_feeds.fetch_rss_feeds_with_health",
+                        return_value=([], {"feeds_ok": 0, "feeds_total": 30})):
+            items = main.rss_scan()
+        self.assertEqual(items, [])
+        self.assertTrue(
+            any("RSS total outage" in r for r in main._RUN_STATE["partial_reasons"]),
+            "a total feed outage should flag the run partial",
+        )
+        main._RUN_STATE["partial_reasons"].clear()
+
+    def test_rss_scan_quiet_day_is_not_partial(self):
+        main._RUN_STATE["partial_reasons"].clear()
+        with mock.patch("rss_feeds.fetch_rss_feeds_with_health",
+                        return_value=([], {"feeds_ok": 30, "feeds_total": 30})):
+            main.rss_scan()
+        self.assertFalse(
+            any("RSS total outage" in r for r in main._RUN_STATE["partial_reasons"]),
+            "a quiet day (all feeds OK, no items) must not be flagged an outage",
+        )
+        main._RUN_STATE["partial_reasons"].clear()
+
+
+class ResolverTransientCacheTests(unittest.TestCase):
+    """A transient transport failure must NOT be cached as a permanent no-op."""
+
+    def test_resolve_one_returns_transient_sentinel_on_network_error(self):
+        import url_resolver
+
+        with mock.patch.object(url_resolver.requests, "head",
+                               side_effect=url_resolver.requests.exceptions.Timeout()), \
+             mock.patch.object(url_resolver.requests, "get",
+                               side_effect=url_resolver.requests.exceptions.Timeout()):
+            result = url_resolver._resolve_one("https://links.example.com/T/tok")
+        self.assertIs(result, url_resolver.TRANSIENT_FAILURE)
+
+    def test_transient_failure_not_written_to_cache(self):
+        # Exercises the real _resolve_one + resolve_urls path: a genuine
+        # network timeout must leave the URL uncached so the next run retries
+        # (the OLD code cached url->url, permanently suppressing retries).
+        import url_resolver
+
+        url = "https://links.example.com/T/tok"
+        timeout = url_resolver.requests.exceptions.Timeout
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(tmpdir)
+                with mock.patch.object(url_resolver.requests, "head", side_effect=timeout()), \
+                     mock.patch.object(url_resolver.requests, "get", side_effect=timeout()):
+                    out = url_resolver.resolve_urls([url])
+                # Original URL preserved so the pipeline doesn't break...
+                self.assertEqual(out, [url])
+                # ...but nothing cached, so the next run retries.
+                cached = {}
+                if os.path.exists(url_resolver.CACHE_PATH):
+                    cached = json.loads(open(url_resolver.CACHE_PATH).read())
+                self.assertNotIn(url, cached, "a transient failure must not be cached")
+            finally:
+                os.chdir(original_cwd)
+
+    def test_real_resolution_is_cached(self):
+        import url_resolver
+
+        url = "https://links.example.com/T/tok"
+        final = "https://publisher.example.com/2026/07/18/story"
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(tmpdir)
+                with mock.patch.object(url_resolver, "_resolve_one", return_value=final):
+                    out = url_resolver.resolve_urls([url])
+                self.assertEqual(out, [final])
+                cache = json.loads(open(url_resolver.CACHE_PATH).read())
+                self.assertEqual(cache.get(url), final)
+            finally:
+                os.chdir(original_cwd)
+
+
+class DeliveredStateTests(unittest.TestCase):
+    """Rolling cross-run sent-state: bounded window + hard id cap."""
+
+    def test_record_and_recent_ids_roundtrip(self):
+        state = {"delivered": []}
+        state = project_data.record_delivered(state, ["a", "b"], "2026-07-18")
+        recent = project_data.recently_delivered_ids(state, "2026-07-18")
+        self.assertEqual(recent, {"a", "b"})
+
+    def test_window_prunes_old_ids(self):
+        state = {"delivered": [
+            {"id": "old", "date": "2026-06-01"},
+            {"id": "fresh", "date": "2026-07-17"},
+        ]}
+        # Re-record on a later day with a 14-day window -> "old" drops out.
+        state = project_data.record_delivered(state, [], "2026-07-18", window_days=14)
+        ids = {e["id"] for e in state["delivered"]}
+        self.assertIn("fresh", ids)
+        self.assertNotIn("old", ids)
+
+    def test_recent_ids_respects_window(self):
+        state = {"delivered": [
+            {"id": "old", "date": "2026-06-01"},
+            {"id": "fresh", "date": "2026-07-17"},
+        ]}
+        recent = project_data.recently_delivered_ids(state, "2026-07-18", window_days=14)
+        self.assertEqual(recent, {"fresh"})
+
+    def test_id_cap_bounds_growth(self):
+        state = {"delivered": []}
+        many = [f"id{i}" for i in range(50)]
+        state = project_data.record_delivered(state, many, "2026-07-18", max_ids=10)
+        self.assertLessEqual(len(state["delivered"]), 10)
+
+
+class CrossRunDedupEndToEndTests(unittest.TestCase):
+    """End-to-end: an article delivered today is excluded from the next run's
+    selection — and the recorded id matches the exclusion key even when Claude
+    returns a different-cased/relabelled source for the same URL."""
+
+    def test_delivered_article_excluded_next_run(self):
+        gmail_items = [{
+            "source_name": "Endpoints News",
+            "subject": "Big pharma buys biotech",
+            "snippet": "deal",
+            "urls": ["https://endpts.com/big-pharma-buys-biotech"],
+            "tier": 1,
+        }]
+
+        # Build the candidate exactly as the pipeline does to get its id.
+        gmail, _ = main.build_structured_candidates(gmail_items, [], "2026-07-18", {})
+        candidate_id = gmail[0]["candidate_id"]
+
+        # Simulate what got delivered: same URL, but Claude relabelled the
+        # source ("Endpoints" vs "Endpoints News") -> article_id_for(url,source)
+        # would diverge; delivered_candidate_ids must resolve back by URL.
+        delivered = [{
+            "url": "https://endpts.com/big-pharma-buys-biotech",
+            "source": "Endpoints",
+            "article_id": project_data.article_id_for(
+                "https://endpts.com/big-pharma-buys-biotech", "Endpoints"),
+        }]
+        recorded = main.delivered_candidate_ids(delivered, gmail)
+        self.assertIn(candidate_id, recorded,
+                      "recorded id must match the candidate/exclusion key")
+
+        # Next run: the candidate is filtered out before selection.
+        state = project_data.record_delivered({"delivered": []}, recorded, "2026-07-18")
+        exclude = project_data.recently_delivered_ids(state, "2026-07-19")
+        gmail2, _ = main.build_structured_candidates(gmail_items, [], "2026-07-19", {})
+        survivors = [c for c in gmail2 if c["candidate_id"] not in exclude]
+        self.assertEqual(survivors, [],
+                         "a just-delivered article should not survive to the next selection")
+
+
+class CriteriaCommitBeforeCloseTests(unittest.TestCase):
+    """The GitHub issue must only be closed AFTER durable state is committed."""
+
+    def _run(self, commit_ok):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            original_token = os.environ.get("GITHUB_TOKEN")
+            try:
+                os.chdir(tmpdir)
+                os.environ["GITHUB_TOKEN"] = "test-token"
+                with open("criteria_update_state.json", "w", encoding="utf-8") as f:
+                    json.dump({
+                        "pending": {"proposal_id": "p1", "status": "pending"},
+                        "history": [],
+                    }, f)
+                with open("selection_criteria.md", "w", encoding="utf-8") as f:
+                    f.write("old\n")
+                with open("selection_criteria_proposed.md", "w", encoding="utf-8") as f:
+                    f.write("new\n")
+
+                issue = {"number": 7, "title": "Criteria Update: accept p1", "body": ""}
+                get_resp = mock.Mock()
+                get_resp.raise_for_status.return_value = None
+                get_resp.json.return_value = [issue]
+
+                patch_mock = mock.Mock()
+                with mock.patch.object(process_criteria_feedback.requests, "get", return_value=get_resp), \
+                     mock.patch.object(process_criteria_feedback.requests, "patch", patch_mock), \
+                     mock.patch.object(process_criteria_feedback, "commit_durable_state", return_value=commit_ok):
+                    process_criteria_feedback.main()
+                return patch_mock
+            finally:
+                os.chdir(original_cwd)
+                if original_token is None:
+                    os.environ.pop("GITHUB_TOKEN", None)
+                else:
+                    os.environ["GITHUB_TOKEN"] = original_token
+
+    def test_issue_closed_when_commit_succeeds(self):
+        patch_mock = self._run(commit_ok=True)
+        patch_mock.assert_called_once()
+
+    def test_issue_left_open_when_commit_fails(self):
+        patch_mock = self._run(commit_ok=False)
+        patch_mock.assert_not_called()
+
+    def test_commit_durable_state_false_on_git_failure(self):
+        # No git repo in a bare tmpdir -> git add/commit fail -> returns False.
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(tmpdir)
+                with open("selection_criteria.md", "w", encoding="utf-8") as f:
+                    f.write("x\n")
+                with mock.patch.object(
+                    process_criteria_feedback.subprocess, "run",
+                    side_effect=Exception("not a git repo"),
+                ):
+                    ok = process_criteria_feedback.commit_durable_state(
+                        ["selection_criteria.md"], "msg")
+                self.assertFalse(ok)
+            finally:
+                os.chdir(original_cwd)
 
 
 if __name__ == "__main__":

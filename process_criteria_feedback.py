@@ -2,6 +2,7 @@
 
 import os
 import re
+import subprocess
 from datetime import datetime, timezone
 
 import requests
@@ -16,6 +17,39 @@ from main import (
 
 API = "https://api.github.com"
 TITLE_RE = re.compile(r"Criteria Update:\s*(accept|reject|modify)\s+(.+)", re.IGNORECASE)
+
+# Durable state touched by a criteria decision. Committed to git BEFORE the
+# GitHub issue is closed so a crash between the two can't leave the issue
+# closed (durable on GitHub) while the state change is lost on the ephemeral
+# runner — which would silently drop the decision forever.
+CRITERIA_DURABLE_PATHS = [
+    CRITERIA_STATE_PATH,
+    "selection_criteria.md",
+    PROPOSED_CRITERIA_PATH,
+]
+
+
+def commit_durable_state(paths, message: str) -> bool:
+    """Git add + commit + push the given state files. Returns True if the state
+    is durably persisted (committed, or nothing to commit), False on any git
+    failure — in which case the caller must NOT close the issue so the decision
+    is retried on the next run instead of being lost."""
+    existing = [p for p in paths if os.path.exists(p)]
+    if not existing:
+        return False
+    try:
+        subprocess.run(["git", "config", "user.name", "daily-reads-bot"], check=True)
+        subprocess.run(["git", "config", "user.email", "bot@daily-reads"], check=True)
+        subprocess.run(["git", "add", *existing], check=True)
+        # Nothing staged => already durable; treat as success.
+        if subprocess.run(["git", "diff", "--staged", "--quiet"]).returncode == 0:
+            return True
+        subprocess.run(["git", "commit", "-m", message], check=True)
+        subprocess.run(["git", "push"], check=True)
+        return True
+    except Exception as exc:
+        print(f"  criteria: durable-state commit failed ({exc}) — leaving issue open to retry")
+        return False
 
 
 def append_history(state: dict, pending: dict, resolution: str, note: str = ""):
@@ -98,6 +132,17 @@ def main():
             print(f"  Modification requested for {proposal_id}")
 
         save_criteria_state(state)
+
+        # Commit the durable state to git BEFORE closing the issue. If the
+        # commit fails, leave the issue OPEN so the decision is reprocessed
+        # next run rather than lost (issue closed on GitHub, state discarded
+        # on the ephemeral runner).
+        if not commit_durable_state(
+            CRITERIA_DURABLE_PATHS, f"criteria: {action} {proposal_id}"
+        ):
+            print(f"  Not closing issue #{issue['number']} — state not durably committed")
+            continue
+
         requests.patch(
             f"{API}/repos/{REPO}/issues/{issue['number']}",
             headers=headers,

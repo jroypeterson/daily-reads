@@ -19,8 +19,13 @@ from url_resolver import check_urls_live
 from project_data import (
     article_id_for,
     candidate_artifact_path,
+    load_delivered_state,
     load_json,
+    normalize_url,
+    recently_delivered_ids,
+    record_delivered,
     run_artifact_path,
+    save_delivered_state,
     save_json,
     triage_artifact_path,
 )
@@ -998,12 +1003,22 @@ def tier2_scan() -> list[dict]:
 def rss_scan() -> list[dict]:
     section("RSS SCAN")
     try:
-        from rss_feeds import fetch_rss_feeds
-        items = fetch_rss_feeds()
-        print(f"  Got {len(items)} RSS items")
+        from rss_feeds import fetch_rss_feeds_with_health
+        items, health = fetch_rss_feeds_with_health()
+        feeds_ok = health.get("feeds_ok", 0)
+        feeds_total = health.get("feeds_total", 0)
+        print(f"  Got {len(items)} RSS items ({feeds_ok}/{feeds_total} feeds OK)")
+        # A total feed outage (every feed errored) produces zero items that
+        # would otherwise look identical to a genuinely quiet news day. Flag
+        # the run partial so the outage is visible rather than swallowed.
+        if feeds_total and feeds_ok == 0:
+            _RUN_STATE["partial_reasons"].append(
+                f"RSS total outage — 0/{feeds_total} feeds fetched (all-feeds failure, not a quiet day)"
+            )
         return items
     except Exception as e:
         print(f"  RSS scan failed: {e}")
+        _RUN_STATE["partial_reasons"].append(f"RSS scan failed: {e}")
         return []
 
 
@@ -1096,6 +1111,7 @@ def select_articles(
     gmail_items: list[dict],
     tier2_items: list[dict],
     feedback_info: dict,
+    exclude_ids: set | None = None,
 ) -> list[dict]:
     section("ARTICLE SELECTION")
 
@@ -1110,6 +1126,26 @@ def select_articles(
         run_date,
         tickers,
     )
+
+    # Drop candidates already delivered in the recent rolling window so the
+    # same article isn't re-shipped on consecutive days. Guard: if excluding
+    # them would empty the candidate pool entirely, keep the full set — a
+    # genuinely quiet day shouldn't be turned into a false no-articles run.
+    if exclude_ids:
+        filtered_gmail = [c for c in structured_gmail if c["candidate_id"] not in exclude_ids]
+        filtered_tier2 = [c for c in structured_tier2 if c["candidate_id"] not in exclude_ids]
+        removed = (len(structured_gmail) - len(filtered_gmail)) + (
+            len(structured_tier2) - len(filtered_tier2)
+        )
+        if filtered_gmail or filtered_tier2:
+            if removed:
+                print(f"  Excluded {removed} recently-delivered candidate(s)")
+            structured_gmail, structured_tier2 = filtered_gmail, filtered_tier2
+        elif removed:
+            print(
+                f"  All {removed} candidate(s) were recently delivered — keeping full "
+                "set to avoid a false empty digest"
+            )
 
     taste_summary = load_learned_preferences_summary()
 
@@ -2619,6 +2655,39 @@ def _post_run_heartbeat(
         raise
 
 
+def delivered_candidate_ids(articles: list[dict], structured: list[dict]) -> list[str]:
+    """Map each delivered article back to the id used for cross-run exclusion.
+
+    Exclusion keys on ``candidate_id`` (= article_id_for(primary_url, source_name)),
+    but a delivered article carries the url/source Claude *returned*, which can
+    diverge from the candidate (URL rewrite, relabelled source). Recording
+    article_id_for(url, source) would then silently fail to match next run's
+    candidate_id and the dedup would no-op. So we resolve each article back to
+    its originating candidate by normalized URL (source-qualified first) and
+    record that candidate's id — guaranteeing record-key ≡ exclude-key. Only
+    when no candidate matches (Claude invented a URL) do we fall back to the
+    article's own id."""
+    by_url_source: dict[tuple[str, str], str] = {}
+    by_url: dict[str, str] = {}
+    for c in structured:
+        u = normalize_url(c.get("primary_url", ""))
+        if not u:
+            continue
+        by_url.setdefault(u, c["candidate_id"])
+        by_url_source.setdefault((u, str(c.get("source_name", "")).casefold()), c["candidate_id"])
+
+    ids: list[str] = []
+    for a in articles:
+        u = normalize_url(a.get("url", ""))
+        src = str(a.get("source", "")).casefold()
+        cid = by_url_source.get((u, src)) or by_url.get(u)
+        if not cid:
+            cid = article_id_for(a.get("url", ""), a.get("source", ""))
+        if cid:
+            ids.append(cid)
+    return ids
+
+
 def main():
     print("=" * 60)
     print("  📰 DAILY READS AGENT")
@@ -2661,10 +2730,15 @@ def main():
             )
             sys.exit(0)
 
-        articles = select_articles(gmail_items, tier2_items, feedback_info)
+        # Cross-run dedup: skip candidates delivered in the recent rolling
+        # window so a top pick isn't re-shipped on consecutive days.
+        delivered_state = load_delivered_state()
+        exclude_ids = recently_delivered_ids(delivered_state, today)
+
+        articles = select_articles(gmail_items, tier2_items, feedback_info, exclude_ids)
         if not articles:
             print("\nFirst selection attempt failed validation — retrying...")
-            articles = select_articles(gmail_items, tier2_items, feedback_info)
+            articles = select_articles(gmail_items, tier2_items, feedback_info, exclude_ids)
         if not articles:
             print("\nNo valid articles selected after 2 attempts. Exiting.")
             _post_run_heartbeat(
@@ -2716,6 +2790,14 @@ def main():
         deliver_log(articles)
         deliver_triage_log(triage_queue)
         artifacts_produced.append(f"docs/{today}.html")
+
+        # Persist the ids we just delivered so they're excluded from future
+        # runs' selection (bounded rolling window — see project_data). Record
+        # the CANDIDATE id (resolved by URL) so the recorded key matches the
+        # exclusion key exactly even if Claude rewrote the url/source.
+        delivered_ids = delivered_candidate_ids(articles, structured_gmail + structured_tier2)
+        record_delivered(delivered_state, delivered_ids, today)
+        save_delivered_state(delivered_state)
 
         print(f"\n{'='*60}")
         print(f"  ✅ Daily Reads complete — {len(articles)} articles delivered")

@@ -194,10 +194,22 @@ def check_urls_live(urls: list[str], timeout: int = 3) -> dict[str, bool]:
     return results
 
 
-def _resolve_one(url: str) -> str:
-    """Follow redirects on a single URL. Returns cleaned final URL, empty
-    string if the redirector resolves to a dead end, or the original URL on
-    transport failure."""
+# Sentinel returned by _resolve_one when the fetch failed for a transient
+# transport reason (timeout, DNS blip, connection reset). Distinct from a
+# genuine resolution so the caller can keep the original URL in the output
+# WITHOUT caching it — a transient blip must not become a permanent no-op
+# that suppresses every future retry of that redirector.
+TRANSIENT_FAILURE = object()
+
+
+def _resolve_one(url: str):
+    """Follow redirects on a single URL.
+
+    Returns the cleaned final URL on a genuine resolution, an empty string if
+    the redirector resolves to a dead end, or the ``TRANSIENT_FAILURE``
+    sentinel if the fetch failed for a transient transport reason. Callers
+    must NOT cache a ``TRANSIENT_FAILURE`` — only real resolutions are cached
+    so a network blip doesn't permanently poison the cache with a no-op."""
     headers = {"User-Agent": USER_AGENT}
     try:
         # HEAD is cheaper but some redirectors only honor GET. Try HEAD first.
@@ -214,7 +226,7 @@ def _resolve_one(url: str) -> str:
             return ""
         return clean_url(final)
     except Exception:
-        return url
+        return TRANSIENT_FAILURE
 
 
 def resolve_urls(urls: list[str]) -> list[str]:
@@ -241,11 +253,21 @@ def resolve_urls(urls: list[str]) -> list[str]:
         to_fetch.append((i, url))
 
     if to_fetch:
+        transient = 0
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
             futures = {pool.submit(_resolve_one, url): (i, url) for i, url in to_fetch}
             for fut in as_completed(futures):
                 i, original = futures[fut]
                 final = fut.result()
+                if final is TRANSIENT_FAILURE:
+                    # Transient transport blip (timeout / DNS / reset). Keep the
+                    # original URL in the output so the pipeline never breaks,
+                    # but do NOT cache it — caching a transient failure as a
+                    # permanent no-op would suppress every future retry of a
+                    # redirector that is merely temporarily unreachable.
+                    resolved[i] = original
+                    transient += 1
+                    continue
                 resolved[i] = final
                 # Cache regardless of whether resolution actually changed the URL —
                 # caching the no-op saves us from re-trying broken redirectors.
@@ -260,6 +282,7 @@ def resolve_urls(urls: list[str]) -> list[str]:
         print(
             f"url_resolver: resolved {changed}/{len(to_fetch)} redirector URLs"
             + (f" ({dead} dead-end dropped)" if dead else "")
+            + (f" ({transient} transient failures — not cached, will retry)" if transient else "")
         )
 
     # Drop dead-end URLs (empty strings) from the final list.

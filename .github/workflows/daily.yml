@@ -138,5 +138,9 @@ jobs:
           git config user.name "daily-reads-bot"
           git config user.email "bot@daily-reads"
           git add docs/ feedback_log.json selection_criteria.md selection_criteria_proposed.md criteria_update_state.json taste_profile.md taste_evidence.json readwise_state.json learned_preferences.json learned_preferences.md url_resolution_cache.json artifacts/
+          # delivered_state.json is the cross-run sent-article ledger — must be
+          # committed so consecutive-day dedup persists. Guarded because it may
+          # not exist yet on a first/no-articles run.
+          [ -f delivered_state.json ] && git add delivered_state.json || true
           git diff --staged --quiet || git commit -m "Daily reads $(date -u +%Y-%m-%d)"
           git push

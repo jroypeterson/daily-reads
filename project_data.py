@@ -3,6 +3,7 @@
 import hashlib
 import json
 import os
+from datetime import date, timedelta
 from urllib.parse import urlsplit, urlunsplit
 
 
@@ -40,6 +41,106 @@ def article_id_for(url: str, source: str = "") -> str:
 
 def exemplar_id_for(seed: str) -> str:
     return "ex_" + hashlib.sha1(seed.encode("utf-8")).hexdigest()[:16]
+
+
+# ---------------------------------------------------------------------------
+# Cross-run delivered-article state
+#
+# The 7-day Gmail scan window (and persistent RSS feeds) re-surface the same
+# candidates on consecutive days, so nothing stopped an already-delivered top
+# pick from being selected + shipped again the next morning (verified
+# 07-10 + 07-11). We persist the ids of recently delivered articles so the
+# selector can skip them. The window is bounded on BOTH axes — a rolling day
+# window AND a hard id cap — so the state file can never grow unbounded.
+# ---------------------------------------------------------------------------
+
+DELIVERED_STATE_PATH = "delivered_state.json"
+DELIVERED_WINDOW_DAYS = 14
+DELIVERED_MAX_IDS = 600
+
+
+def load_delivered_state(path: str = DELIVERED_STATE_PATH) -> dict:
+    """Load the rolling delivered-id state. Malformed/legacy files degrade to
+    an empty ledger rather than raising."""
+    data = load_json(path, {})
+    if not isinstance(data, dict):
+        return {"delivered": []}
+    entries = data.get("delivered")
+    if not isinstance(entries, list):
+        entries = []
+    clean = [
+        {"id": e["id"], "date": str(e.get("date", ""))}
+        for e in entries
+        if isinstance(e, dict) and e.get("id")
+    ]
+    return {"delivered": clean}
+
+
+def recently_delivered_ids(
+    state: dict, today: str, window_days: int = DELIVERED_WINDOW_DAYS
+) -> set:
+    """Ids delivered within the last ``window_days`` (inclusive). An entry with
+    an unparseable date is treated as recent (conservative: don't re-deliver)."""
+    try:
+        cutoff = date.fromisoformat(today[:10]) - timedelta(days=window_days)
+    except ValueError:
+        cutoff = None
+    ids: set = set()
+    for e in state.get("delivered", []):
+        try:
+            entry_date = date.fromisoformat(str(e.get("date", ""))[:10])
+        except ValueError:
+            ids.add(e["id"])
+            continue
+        if cutoff is None or entry_date >= cutoff:
+            ids.add(e["id"])
+    return ids
+
+
+def record_delivered(
+    state: dict,
+    ids,
+    today: str,
+    window_days: int = DELIVERED_WINDOW_DAYS,
+    max_ids: int = DELIVERED_MAX_IDS,
+) -> dict:
+    """Append today's delivered ids, then prune the ledger by BOTH the rolling
+    day window and the hard id cap so it stays bounded. Returns the state."""
+    entries = list(state.get("delivered", []))
+    known = {e["id"] for e in entries}
+    for _id in ids:
+        if _id and _id not in known:
+            entries.append({"id": _id, "date": today})
+            known.add(_id)
+
+    # Prune by day window.
+    try:
+        cutoff = date.fromisoformat(today[:10]) - timedelta(days=window_days)
+    except ValueError:
+        cutoff = None
+    if cutoff is not None:
+        kept = []
+        for e in entries:
+            try:
+                entry_date = date.fromisoformat(str(e.get("date", ""))[:10])
+            except ValueError:
+                kept.append(e)  # keep undated rather than silently drop
+                continue
+            if entry_date >= cutoff:
+                kept.append(e)
+        entries = kept
+
+    # Bound by id cap (keep the newest by date).
+    if len(entries) > max_ids:
+        entries.sort(key=lambda e: str(e.get("date", "")))
+        entries = entries[-max_ids:]
+
+    state["delivered"] = entries
+    return state
+
+
+def save_delivered_state(state: dict, path: str = DELIVERED_STATE_PATH) -> None:
+    save_json(path, state)
 
 
 def run_artifact_path(run_date: str) -> str:

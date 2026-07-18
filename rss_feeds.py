@@ -304,14 +304,21 @@ def _clean_summary(raw: str, limit: int = 300) -> str:
     return text[:limit]
 
 
-def fetch_rss_feeds(hours_back: int = 26) -> list[dict]:
-    """Fetch recent entries from all configured RSS feeds.
+def fetch_rss_feeds_with_health(hours_back: int = 26) -> tuple[list[dict], dict]:
+    """Fetch recent entries from all configured RSS feeds, plus a health dict.
 
-    Returns items in the same shape as tier2_scan() for seamless pipeline integration.
+    Returns ``(items, health)`` where ``items`` matches tier2_scan()'s shape and
+    ``health`` is ``{"feeds_ok": int, "feeds_total": int}``. ``feeds_ok`` counts
+    feeds that fetched+parsed successfully **regardless of item count**, so the
+    caller can distinguish a genuine zero-item day (all feeds OK, nothing recent)
+    from a total outage (every feed errored) — the latter must not masquerade as
+    a quiet news day.
     """
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     seen_urls: set[str] = set()
     items: list[dict] = []
+    feeds_ok = 0
+    feeds_total = len(RSS_FEEDS)
 
     for feed_config in RSS_FEEDS:
         feed_url = feed_config["url"]
@@ -328,6 +335,10 @@ def fetch_rss_feeds(hours_back: int = 26) -> list[dict]:
             print(f"  RSS parse error for {feed_name}: {parsed.bozo_exception}")
             continue
 
+        # Feed fetched + parsed cleanly (may still legitimately have 0 recent
+        # items). Count it as healthy so an all-zero day with every feed OK
+        # reads as "quiet", not "outage".
+        feeds_ok += 1
         count = 0
         for entry in parsed.entries:
             if count >= max_items:
@@ -365,4 +376,14 @@ def fetch_rss_feeds(hours_back: int = 26) -> list[dict]:
     if len(items) > MAX_TOTAL_ITEMS:
         items = items[:MAX_TOTAL_ITEMS]
 
+    return items, {"feeds_ok": feeds_ok, "feeds_total": feeds_total}
+
+
+def fetch_rss_feeds(hours_back: int = 26) -> list[dict]:
+    """Backwards-compatible wrapper returning just the item list.
+
+    Prefer :func:`fetch_rss_feeds_with_health` when the caller needs to tell a
+    total feed outage apart from a genuine zero-item day.
+    """
+    items, _health = fetch_rss_feeds_with_health(hours_back=hours_back)
     return items
