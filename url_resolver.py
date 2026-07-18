@@ -159,7 +159,17 @@ def check_url_live(url: str, timeout: int = 3) -> bool:
                 url, allow_redirects=True, timeout=timeout, headers=headers, stream=True
             )
             resp.close()
-        return resp.status_code not in HARD_FAILURE_CODES
+        if resp.status_code in HARD_FAILURE_CODES:
+            return False
+        # A live 2xx/3xx that lands on the bare publisher homepage (path '/')
+        # or a known ad-tracker host has lost the article reference — the same
+        # dead-end rule resolve_urls applies at ingest. Without this, an
+        # expired tracker that 200s onto the homepage sails through the
+        # pre-delivery liveness probe and ships a link to nowhere.
+        final_url = resp.url or url
+        if _is_dead_end(final_url):
+            return False
+        return True
     except requests.exceptions.Timeout:
         return True  # unknown — don't drop on bot-walled sites
     except requests.exceptions.ConnectionError:

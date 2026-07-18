@@ -405,16 +405,25 @@ def build_structured_candidates(
     # IDs but different Gmail-message metadata (date, message_id). Keep
     # the first occurrence — Gmail returns most-recent first.
     def _dedupe(candidates: list[dict]) -> list[dict]:
-        seen: set[str] = set()
+        seen: set[tuple[str, str]] = set()
         out: list[dict] = []
         for c in candidates:
             cid = c.get("candidate_id")
             if not cid:
                 out.append(c)
                 continue
-            if cid in seen:
+            # Key on (candidate_id, headline), not candidate_id alone. The
+            # candidate_id hashes only the first URL + source, so two distinct
+            # newsletter editions that share a first link (a common sponsor/ad
+            # URL, e.g. the same webinar promo atop consecutive Fierce issues)
+            # collapse to one id — deduping on id alone silently drops the
+            # later, genuinely-distinct edition. Plus-alias copies (the case
+            # this dedupe targets) share both id AND headline, so they still
+            # collapse correctly.
+            key = (cid, (c.get("headline") or "").casefold())
+            if key in seen:
                 continue
-            seen.add(cid)
+            seen.add(key)
             out.append(c)
         return out
 
@@ -913,6 +922,14 @@ def gmail_scan() -> list[dict]:
     except Exception as e:
         print(f"Gmail scan failed: {e}")
         print("Continuing with Tier 2 sources only...")
+        # NO SILENT FAILURES: a hard Gmail API failure (403/500/timeout/
+        # malformed message) throws before the canary can run, so it would
+        # otherwise degrade to an empty Gmail corpus with a clean "ok"
+        # heartbeat. Record a partial reason so the run is flagged while the
+        # digest still ships from RSS/HN (warn-and-proceed).
+        _RUN_STATE["partial_reasons"].append(
+            f"Gmail scan failed ({type(e).__name__}) — digest built from RSS/HN only"
+        )
         return []
 
 

@@ -1117,5 +1117,94 @@ class PaywallStubTest(unittest.TestCase):
         self.assertFalse(main._is_paywall_stub("A short but clean article with real content and no wall."))
 
 
+class GmailScanFailLoudTests(unittest.TestCase):
+    """A hard Gmail API failure must flag the run partial, not degrade silently."""
+
+    def test_gmail_scan_records_partial_on_hard_failure(self):
+        main._RUN_STATE["partial_reasons"].clear()
+        with mock.patch.object(main, "fetch_newsletters",
+                               side_effect=Exception("gmail 500")):
+            items = main.gmail_scan()
+        self.assertEqual(items, [])
+        self.assertTrue(
+            any("Gmail scan failed" in r for r in main._RUN_STATE["partial_reasons"]),
+            "expected a partial_reason to be recorded on hard Gmail failure",
+        )
+        main._RUN_STATE["partial_reasons"].clear()
+
+
+class DedupeDistinctHeadlineTests(unittest.TestCase):
+    """Distinct newsletter editions that share a first URL must not collapse."""
+
+    def test_shared_first_url_distinct_headlines_both_kept(self):
+        # Two distinct Fierce editions whose first extracted link is the same
+        # sponsor/webinar URL -> identical candidate_id. They must survive.
+        gmail_items = [
+            {
+                "source_name": "Fierce Biotech",
+                "subject": "| 04.14.26 | J&J dual powerhouse; Lilly ADC buyout",
+                "snippet": "edition one",
+                "urls": ["https://sponsor.example.com/webinar?pk=promo"],
+                "tier": 1,
+            },
+            {
+                "source_name": "Fierce Biotech",
+                "subject": "| 04.13.26 | Regeneron radiopharma; FDA update",
+                "snippet": "edition two",
+                "urls": ["https://sponsor.example.com/webinar?pk=promo"],
+                "tier": 1,
+            },
+        ]
+        gmail, _ = main.build_structured_candidates(gmail_items, [], "2026-04-14", {})
+        headlines = {c["headline"] for c in gmail}
+        self.assertEqual(len(gmail), 2, "distinct editions were collapsed by dedupe")
+        self.assertEqual(len(headlines), 2)
+
+    def test_true_duplicate_same_headline_and_url_collapses(self):
+        # Same article delivered to two plus-aliases: identical headline + URL.
+        dup = {
+            "source_name": "Fierce Biotech",
+            "subject": "| 04.14.26 | J&J dual powerhouse",
+            "snippet": "same article",
+            "urls": ["https://sponsor.example.com/webinar?pk=promo"],
+            "tier": 1,
+        }
+        gmail, _ = main.build_structured_candidates([dup, dict(dup)], [], "2026-04-14", {})
+        self.assertEqual(len(gmail), 1, "plus-alias duplicate should still collapse")
+
+
+class CheckUrlLiveDeadEndTests(unittest.TestCase):
+    """The pre-delivery liveness probe must reject homepage/ad-tracker dead ends."""
+
+    def _resp(self, status_code, final_url):
+        return SimpleNamespace(
+            status_code=status_code, url=final_url, close=lambda: None
+        )
+
+    def test_homepage_redirect_is_dead(self):
+        import url_resolver
+        resp = self._resp(200, "https://publisher.example.com/")
+        with mock.patch.object(url_resolver.requests, "head", return_value=resp):
+            self.assertFalse(
+                url_resolver.check_url_live("https://trk1.publisher.example.com/T/tok")
+            )
+
+    def test_real_article_path_is_live(self):
+        import url_resolver
+        resp = self._resp(200, "https://publisher.example.com/2026/04/14/real-story")
+        with mock.patch.object(url_resolver.requests, "head", return_value=resp):
+            self.assertTrue(
+                url_resolver.check_url_live("https://publisher.example.com/2026/04/14/real-story")
+            )
+
+    def test_ad_tracker_host_is_dead(self):
+        import url_resolver
+        resp = self._resp(200, "https://p.liadm.com/anything")
+        with mock.patch.object(url_resolver.requests, "head", return_value=resp):
+            self.assertFalse(
+                url_resolver.check_url_live("https://trk1.publisher.example.com/T/tok")
+            )
+
+
 if __name__ == "__main__":
     unittest.main()
