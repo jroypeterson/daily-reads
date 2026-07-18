@@ -1,0 +1,86 @@
+{
+  "run_date": "2026-07-15",
+  "generated_at": "2026-07-15T13:21:30Z",
+  "counts": {
+    "gmail_items": 111,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6a2de0f00ebb52d5",
+      "headline": "HCA now expects up to $1.2B hit from ACA headwinds",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/finance/hca-now-expects-up-to-1-2b-hit-from-aca-headwinds/",
+      "slot": 1,
+      "summary": "HCA Healthcare's preliminary Q2 2026 results show a sharp worsening in payer mix as patients lose ACA exchange coverage, with the full-year headwind now projected at $1.0\u2013$1.2B, up from a prior $600M\u2013$900M estimate. The Q2 impact alone was approximately $400M pre-tax. Despite solid volume growth in admissions and ER visits, HCA cut full-year guidance and reported declines in same-facility inpatient and outpatient surgical volumes.",
+      "why_it_matters": "As the largest for-profit hospital operator, HCA's guidance cut provides the most concrete data point yet on how ACA subsidy expiration is hitting hospital P&Ls, with direct read-through implications for the entire Hospitals and Managed Care subsectors entering earnings season.",
+      "signal_tags": [
+        "ticker_match:HCA",
+        "catalyst_proximity",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "8cf391f37f9d471c",
+      "headline": "Medicare Advantage insurers face new bipartisan scrutiny over AI and care denials",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/",
+      "slot": 2,
+      "summary": "Senators Blumenthal and Hawley have launched a rare bipartisan Senate probe into UnitedHealth Group, Humana, and CVS Health, demanding documents on their use of AI algorithms to deny or delay Medicare Advantage rehabilitative care. The inquiry follows a wave of class-action litigation alleging that tools like UnitedHealth's nH Predict systematically override physician recommendations, and arrives days after Optum disclosed its Anthropic AI partnership \u2014 heightening scrutiny of how AI is being operationalized in prior authorization. The congressional pressure adds a new regulatory and litigation risk layer to managed care operators already navigating elevated medical loss ratios and political headwinds on MA reimbursement.",
+      "why_it_matters": "Bipartisan congressional scrutiny creates compounding governance, litigation, and regulatory risk for UNH, HUM, and CVS at a structurally sensitive moment for Medicare Advantage profitability, making this directly relevant for managed care positioning.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "ticker_match:HUM",
+        "ticker_match:CVS",
+        "regulatory_affairs",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "6d3a6b013e93c5de",
+      "headline": "BCG: AI Won't Create Advantage. Strategy Will.",
+      "source": "BCG",
+      "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGi8D21luamG0d91NnTwGJleN_HI1dOHLtysWU693TYC6CTmRy-oqnZp_B2DBMlzHMeKFiMKLM=",
+      "slot": 3,
+      "summary": "BCG's latest enterprise AI research argues that competitive advantage in 2026 will stem from strategic coherence in AI deployment rather than tool selection. Drawing on its global client base, BCG identifies workforce strategy and data infrastructure as the primary differentiators between companies extracting measurable AI value and those trapped in pilot purgatory. The report positions AI commoditization of point solutions as a forcing function that exposes strategic gaps.",
+      "why_it_matters": "Provides a practical framework for evaluating which healthcare IT and digital health SaaS companies will sustain pricing power and moats as AI becomes table stakes \u2014 directly actionable for coverage universe analysis.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "data_infrastructure",
+        "actionability",
+        "forward_looking"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "0e3786dc5f3a3c0a",
+      "headline": "Letter #337: Angela Aldrich, Michael Mauboussin, and Tano Santos \u2014 Developing a Differentiated View",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-337-angela-aldrich-michael",
+      "slot": 4,
+      "summary": "A transcript of the Value Investing With Legends podcast featuring Bayberry Capital's Angela Aldrich in conversation with Michael Mauboussin and Columbia's Tano Santos on how to develop a genuinely differentiated investment view. Aldrich draws on her training at Blue Ridge Capital under John Griffin and her Tiger Cub lineage to discuss base rate thinking, the limits of consensus analysis, and constructing high-conviction positions where markets are mispriced at the margin. Mauboussin's consilient research framing and Aldrich's practitioner perspective combine to make this one of the more tactically grounded interviews on building investment edge.",
+      "why_it_matters": "Mauboussin's and Aldrich's frameworks on variant perception and differentiated analysis are directly applicable to sectors like biotech and healthcare where consensus is often anchored to surface-level readouts, making this highly relevant to the reader's investment process.",
+      "signal_tags": [
+        "high_priority_source",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "venture_capital_insights"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}

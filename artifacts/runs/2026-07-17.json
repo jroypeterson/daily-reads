@@ -1,0 +1,89 @@
+{
+  "run_date": "2026-07-17",
+  "generated_at": "2026-07-17T13:15:18Z",
+  "counts": {
+    "gmail_items": 111,
+    "tier2_items": 89,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "acc2bfa7187e28f5",
+      "headline": "Senate fights over Medicare AI prior authorization pilot",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/",
+      "slot": 1,
+      "summary": "The Senate voted 46-50 along party lines to block a Democratic Congressional Review Act resolution that would have ended the Trump administration's WISeR pilot, which contracts with private AI vendors to approve or deny select Medicare services across six states. Democrats cited data showing authorization wait times quadrupling from roughly two weeks to four-to-eight weeks, raising patient access concerns, while Republicans defended the program as an anti-fraud and cost-containment tool. The vote's outcome preserves a rare precedent of AI-driven utilization management in traditional Medicare, a program historically prohibited from such practices.",
+      "why_it_matters": "WISeR's survival signals a durable policy opening for AI-based utilization management in government payers, with direct revenue and regulatory implications for managed care operators (UNH/Optum), health IT vendors supplying the AI infrastructure, and providers whose reimbursement cycles depend on prior authorization timelines.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "ticker_match:HCAT",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "AI_impact",
+        "high_priority_source"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ded12f544c098da8",
+      "headline": "UnitedHealth Group posts $5.5B Q2 profit, raises full-year outlook",
+      "source": "STAT News / Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/financial/unitedhealth-posts-5-5b-profit-in-q2/",
+      "slot": 2,
+      "summary": "UnitedHealth Group reported Q2 2026 net profit of ~$5.5B with adjusted EPS of $6.38 against a $4.90 consensus, on $112B revenue and a consolidated operating margin of 7.1% (up from 4.6% YoY). The company raised full-year adjusted EPS guidance to $19.50\u2013$20.00, driven by strong Optum earnings growth (+32% YoY) and improved MLR of 86.7%. However, UnitedHealthcare CEO flagged commercial medical cost trend running 'modestly above 11%' with full margin recovery now expected to extend past 2027, driven by No Surprises Act arbitration pressure and higher provider coding intensity.",
+      "why_it_matters": "UNH's beat-and-raise with persistent commercial cost headwinds and a post-2027 recovery timeline reprices forward expectations for the entire managed care sector \u2014 directly signaling risk for Elevance, CVS/Aetna, and Humana \u2014 making this a sector-wide read-through with investment implications.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "catalyst_proximity",
+        "earnings",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "7ee21466797214b4",
+      "headline": "Cost versus value: Managing agentic AI system performance",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/cost-versus-value-managing-agentic-ai-system-performance",
+      "slot": 3,
+      "summary": "McKinsey finds that ~60% of agentic AI operating costs are consumed by verification and refinement loops rather than initial generation, and that per-token pricing is no longer a meaningful benchmark as agentic tasks can consume ~1,000x more tokens than conventional chat AI. The report reframes agent scaling as fundamentally an economics problem, not a technical one, requiring joint finance-engineering oversight structures. McKinsey recommends tying every material agent to a named business sponsor and building cost-accountability frameworks before scaling.",
+      "why_it_matters": "For healthcare and biotech technology leaders evaluating agentic AI vendors (clinical documentation, prior auth, drug discovery workflows), this cost-structure analysis provides a direct framework for vendor due diligence, budget modeling, and governance design before committing to scale.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "data_infrastructure",
+        "analytical_depth",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "afa051fb6c4e6c74",
+      "headline": "Defending the Enterprise Castle from the Model Layer",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+      "slot": 4,
+      "summary": "MBI Deep Dives analyzes Satya Nadella's public articulation of a defensive strategy for enterprise software against frontier model encroachment, framing it as a 'commoditize your complement' play where Microsoft benefits if enterprises treat OpenAI/Anthropic as swappable commodities behind model-agnostic orchestration layers. The piece uses OpenRouter token data showing Google/OpenAI/Anthropic falling from 72% to 33% of weekly token share in one year \u2014 absorbed by open-weight models \u2014 as a leading indicator that price-elastic enterprise workloads may bifurcate away from expensive frontier models. Gavin Baker's 'mega bull case' for AI infrastructure is also examined: if margin dollars drain from frontier labs toward infrastructure providers, the winners will be those with lowest per-token cost and highest token efficiency.",
+      "why_it_matters": "The frontier model vs. enterprise infrastructure power struggle directly determines the long-term moat of Microsoft's cloud and AI stack, with cascading implications for how healthcare and biopharma enterprises should structure their AI vendor relationships and IP ownership.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:MSFT",
+        "competitive_moat_analysis",
+        "AI_impact",
+        "deep_business_diligence",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}

@@ -5902,5 +5902,275 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "The article covers a concrete enterprise AI deployment in payer/provider infrastructure \u2014 directly hitting the reader's strongest preferences (AI impact, data infrastructure, health technology) with an actionable angle on platform consolidation."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Freenome colorectal cancer test data improve on earlier results",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/freenome-colorectal-cancer-test-data-improve-on-earlier-results/825085/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive clinical data, clear competitive dynamics, ticker-relevant milestones, and a near-term FDA catalyst \u2014 meeting Slot 1 criteria with meaningful investment depth."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear ticker relevance (MSFT), this article fits Slot 3 (Tech/AI) far more naturally than Slot 2 (Finance/Macro), as its core substance is competitive moat analysis of AI platform dynamics rather than macro moves, earnings, sector rotation, or payer/reimbursement dynamics \u2014 and Slot 3 is the better home for this piece."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Digital health funding hits $7.4B in 2026 as AI investment reshapes the market",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/digital-health-brought-74b-vc-funding-ai-powered-rebound-fuels-market",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article delivers substantive Rock Health H1 2026 data with specific deal figures, named companies, and analytical frameworks around competitive moat-building in the AI era \u2014 directly relevant to healthcare-adjacent finance and the reader's strong interests in competitive moat analysis, AI impact, and venture capital insights."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million",
+    "source": "New York Times",
+    "url": "https://www.nytimes.com/2026/07/14/business/dealbook/chai-discovery-ai-drug-development.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Strong match for Slot 3 with substantive AI-biology intersection content \u2014 a 3x valuation step-up in seven months with named pharma partners and a differentiated pure-platform business model signals real institutional conviction worth tracking."
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Letter #337: Angela Aldrich, Michael Mauboussin, and Tano Santos \u2014 Developing A Differentiated View",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-337-angela-aldrich-michael",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, tactical transcript of a conversation between Angela Aldrich, Michael Mauboussin, and Tano Santos on developing differentiated investment views, directly matching the reader's strong preferences for analytical depth, long-form investment writing, and practitioner perspectives."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "HCA now expects up to $1.2B hit from ACA headwinds",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/hca-now-expects-up-to-1-2b-hit-from-aca-headwinds/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "HCA's quantified ACA headwind escalation ($600-900M to $1.0-1.2B) is substantive, actionable, and serves as a sector-wide bellwether read-through ahead of hospital earnings season."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear reader taste alignment, this article fits Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro) \u2014 it is fundamentally a competitive strategy and AI stack analysis piece, not a macro, earnings, or markets article."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Anthropic pushes deeper into healthcare with Optum tie-up, UST integration",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/tech-services-company-ust-integrates-anthropic-claude",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin on substance \u2014 the Optum partnership announcement is explicitly 'light on details about specific use cases or timeline,' and the UST/CarePath section is largely press release boilerplate, making it too shallow for a reader who values analytical depth."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Medicare Advantage insurers face new bipartisan scrutiny over AI and care denials",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth on a material regulatory risk for major managed care tickers (UNH, HUM, CVS), directly fits the Finance/Macro slot via payer dynamics and governance risk, and aligns strongly with the reader's interest in AI impact, regulatory affairs, and corporate governance."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "U-Haul Bought at the Top",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/uhaul1",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth, this article belongs in Slot 4 (Wildcard) or doesn't fit at all \u2014 it is a deep-dive on U-Haul's capital cycle and depreciation accounting, with zero relevance to Tech/AI (Slot 3's required theme)."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "BCG: AI Won't Create Advantage. Strategy Will.",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGi8D21luamG0d91NnTwGJleN_HI1dOHLtysWU693TYC6CTmRy-oqnZp_B2DBMlzHMeKFiMKLM=",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "BCG is a high-priority consulting source, the topic directly aligns with the reader's strong preferences for AI impact, data infrastructure, and competitive moat analysis, and the summary suggests substantive research-backed content distinguishing AI winners from laggards."
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Letter #337: Angela Aldrich, Michael Mauboussin, and Tano Santos \u2014 Developing a Differentiated View",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-337-angela-aldrich-michael",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, tactically rich interview with a Tiger Cub PM (Angela Aldrich) moderated by Mauboussin, directly aligned with the reader's strong preferences for analytical depth, long-form investment writing, competitive moat analysis, and variant perception frameworks."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "FDA Approves Merck's LIPFENDRA (enlicitide) \u2014 First Oral PCSK9 Inhibitor",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a legitimate, high-impact FDA approval from a priority source (STAT News) with a clear ticker match on MRK and category-defining significance \u2014 the first oral PCSK9 inhibitor reshaping a major cardiovascular drug market."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, analytically deep piece from MBI Deep Dives that directly addresses enterprise AI competitive moat dynamics with real data (OpenRouter token share) and primary source quotes from Nadella and Baker \u2014 fully matching Slot 2's finance/markets theme via the investment implications for MSFT and enterprise software."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Keeping Mergers Under the Radar",
+    "source": "Bloomberg (Money Stuff)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-07-15/keeping-mergers-under-the-radar",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) but is a finance/M&A regulatory piece about HSR premerger notification thresholds with no meaningful AI or technology content visible in the provided text."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Elevance Signals More Medicaid Pullbacks After D.C. Exit",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicaid/elevance-signals-more-medicaid-pullbacks-after-d-c-exit/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/payer finance article that belongs in Slot 1 or 2, not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Senators Press UnitedHealth, Humana, CVS on AI-Driven Medicare Advantage Coverage Decisions",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/senators-press-unitedhealth-humana-cvs-on-ai-driven-medicare-advantage-coverage-decisions/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a regulatory/governance story about AI misuse in healthcare \u2014 it belongs in Slot 1 (Healthcare/Biopharma) or possibly Slot 2, not Slot 3 (Tech/AI), as it covers congressional oversight and denial-rate data rather than AI technology itself, and the reader profile explicitly flags regulatory affairs as only moderate interest while the article lacks the analytical depth or investment-framework perspective the reader values."
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "H1 IPO Surge Breaks Records, Doubles Last Year's Total",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWxv1T2fc2ZQW6xyPzt6QPlXvW5GRJ1L5RvLHyN3V8l9C5nR3bW7Y9pgv6lZ3ndVjdqv22cfGDqW5G_FXN5xqhxKW91nRzf2_ypDHW8kJTBZ5SDcRtW4966-S3GfhK5W5V7bKG9lF900W5TBZlx57bdL6W1WTp9t7npNKvN45dRvrPX0M0W8gXy2_7yTJP5W8vx1TS5l8ls1W8_C4JH8w5KgwW4_kCnK6dg-vMW1mxKVH7Z3Z91N1kc_HHQp3tbN2_8SRpmPg1FW5p-n3F60w9y3W1jl5TD3gxF3yW1S0QKg7RC9TcW3_sSgH2xdzldW6vS1p24DzQvRW7z5pnn2qlGYXV4yL9471Kc9hW5CPRSl6YrLjBW7L_gLx3P7nKcN2wlMxVw8PxfW59qHl79lhNRTW9dHGpT97qC_8W60w3Sl5KYBXxW47Q6X22K0lgTW10jl-b5_cdzvW6nk28y1Y50bwN6lBMHdFjv0tVm9Z3H25GQcLW3qg8MW4Y_7XsW3yvsLX7mH26dN3475XdqCWvmW4Z-XrS16tjYMW8QyZ2H2l78NzW74YDjS5w9wfpW7KHZ1P4Rv8XrW55j6Ly1Xdgv7d_pdgn04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter wrapper with virtually no substantive content \u2014 the full text contains only a single vague sentence about biotech IPOs ('roared back to life') plus ads, event listings, and job postings, making it unsuitable for any slot, let alone Tech/AI."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Senate fights over Medicare AI prior authorization pilot",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive coverage of a consequential regulatory/policy development \u2014 the Senate's 46-50 party-line vote preserving the WISeR AI prior authorization pilot \u2014 with specific data points (wait times quadrupling, six-state scope, private vendor contracting) that have direct implications for managed care and health IT investors."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "UnitedHealth Group posts $5.5B Q2 profit, raises full-year outlook",
+    "source": "STAT News / Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/unitedhealth-posts-5-5b-profit-in-q2/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive Q2 earnings data for UNH with specific metrics (MLR, operating margins by segment, membership figures, EPS guidance) and forward-looking commentary on commercial cost trends extending recovery past 2027, making it relevant for managed care sector analysis."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Cost versus value: Managing agentic AI system performance",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/cost-versus-value-managing-agentic-ai-system-performance",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's agentic AI economics framework is substantive, analytically grounded, and directly matches the reader's strong preferences for data infrastructure, AI impact, and investment-relevant insights with actionable governance recommendations."
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on the competitive moat dynamics between enterprise software incumbents and frontier model providers, directly hitting the reader's strongest taste signals: competitive moat analysis, deep business diligence, AI impact, and data infrastructure."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a legitimate, category-defining FDA approval for Merck (MRK) with clear competitive implications for AMGN and Regeneron/Sanofi, directly fitting Slot 1 criteria with ticker relevance and catalyst proximity."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source that aligns with the reader's strong preferences for analytical depth, data infrastructure, and AI impact \u2014 and TSMC's record-margin earnings are a high-signal macro read on AI capex health."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "Senate Republicans Block Effort to Repeal Medicare AI Prior Authorization Pilot (WISeR)",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article fits Slot 1 (Healthcare/Policy) far better than Slot 3 (Tech/AI) \u2014 it is primarily a Senate procedural vote story about Medicare prior authorization politics, not a substantive analysis of AI technology, infrastructure, or enterprise adoption."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "Cost versus value: Managing agentic AI system performance",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/cost-versus-value-managing-agentic-ai-system-performance",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article offers substantive, novel framing of agentic AI economics (60% refinement cost insight) from a credible practitioner source, aligning well with the reader's strong preferences for data infrastructure, AI impact, competitive moat analysis, and analytical depth."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "Mainframes and Main Characters (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/mainframes-and-main-characters",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a thin weekly digest/newsletter roundup with only brief teaser paragraphs \u2014 the substantive IBM mainframe analysis, OpenAI coverage, and Netflix piece are behind the paywall and not present in the text provided, making this a table of contents rather than a deep analytical piece."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "GSK Shelves Cough Drug Acquired in $2B Bellus Deal After Phase 3 Failure",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/gsk-camlipixant-cough-drug-shelved/825530/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 biopharma news article (GSK pipeline failure / M&A writedown) that doesn't belong in the Wildcard slot, and more critically it fails the reader taste profile \u2014 it covers niche therapeutics (P2X3 cough), lacks analytical depth beyond a brief Jefferies quote, and reads as a thin news summary rather than the deep business diligence or cross-domain thinking the Wildcard slot requires."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "How Well Are AI-Discovered Drugs Faring in the Clinic?",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/ai-drug-discovery-insilico-recursion-verge/825367/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is relatively thin \u2014 it covers only two companies (Insilico and Recursion) with limited clinical data points, lacks the systematic comparative analysis promised by the shortlist summary, and aligns with the reader's 'WEAK' preference for AI drug discovery while matching an explicit 'niche therapeutics' avoid pattern."
+  },
+  {
+    "date": "2026-07-18",
+    "headline": "Lilly Takes $2.8B Plunge into Psychedelic Mental Health; Sanofi Wages New mRNA Patent Battle with Pfizer, Moderna",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1381211?pk=West-WB-072126-LSWD-NL-071326&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely unrelated to the headline \u2014 it is a pharmaceutical packaging/aseptic manufacturing webinar advertisement, not coverage of Lilly's psychedelics acquisition or Sanofi's mRNA patent litigation."
   }
 ]

@@ -1096,5 +1096,71 @@
       "substack_dropped": 0
     },
     "warned_articles": []
+  },
+  {
+    "date": "2026-07-14",
+    "checked_unique": 63,
+    "checked_slots": 66,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-07-15",
+    "checked_unique": 63,
+    "checked_slots": 65,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-07-16",
+    "checked_unique": 62,
+    "checked_slots": 63,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-07-17",
+    "checked_unique": 71,
+    "checked_slots": 72,
+    "broken": {
+      "article_warnings": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": []
+  },
+  {
+    "date": "2026-07-18",
+    "checked_unique": 68,
+    "checked_slots": 69,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "FDA Press Releases",
+        "headline": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol",
+        "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol"
+      }
+    ]
   }
 ]
