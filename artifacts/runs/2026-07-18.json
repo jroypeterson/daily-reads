@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-07-18",
+  "generated_at": "2026-07-18T13:02:22Z",
+  "counts": {
+    "gmail_items": 107,
+    "tier2_items": 88,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "70948888f7b3e594",
+      "headline": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol in Adults with High Cholesterol",
+      "source": "FDA Press Releases",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
+      "slot": 1,
+      "summary": "The FDA approved Merck's Lipfendra (enlicitide) on July 16, 2026 as the first oral PCSK9 inhibitor, administered as a once-daily tablet for adults with hypercholesterolemia including HeFH. Phase 3 trials across 3,207 patients showed placebo-adjusted LDL-C reductions of 56\u201359% at Week 24, comparable to existing injectable PCSK9 inhibitors like Repatha and Praluent. The drug received Priority Review and was approved as an adjunct to maximally tolerated statin therapy, with a cardiovascular outcomes trial still ongoing.",
+      "why_it_matters": "Oral delivery removes the primary real-world adoption barrier that has constrained the injectable PCSK9 market, potentially unlocking a much larger patient population and directly threatening Amgen (AMGN) and Regeneron/Sanofi's franchise revenue while creating a significant new growth driver for Merck (MRK).",
+      "signal_tags": [
+        "ticker_match:MRK",
+        "ticker_match:AMGN",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "high_priority_source"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ee7d1f9ae06dab3b",
+      "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+      "slot": 2,
+      "summary": "TSMC reported Q2 2026 revenue of $40.2B (+33.7% YoY) with operating margins crossing 60% for the first time, driven by HPC/AI accelerators reaching 66% of revenue with 20% sequential growth. Management raised full-year 2026 USD revenue guidance to slightly above 40% YoY growth and signaled CapEx will be 'even more significantly higher' over the next three years, with demand visibility extending to 2029\u20132030. MBI's deep dive contextualizes these results within the broader AI super cycle and their implications for the semiconductor supply chain.",
+      "why_it_matters": "TSMC's blowout margins and accelerating CapEx guidance serve as the clearest real-time confirmation that AI infrastructure spend is structurally expanding, with direct investment implications for semiconductor tools (ASML, AMAT) and data infrastructure positioning.",
+      "signal_tags": [
+        "ticker_match:ASML",
+        "high_priority_source",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "7ee21466797214b4",
+      "headline": "Cost versus value: Managing agentic AI system performance",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/cost-versus-value-managing-agentic-ai-system-performance",
+      "slot": 3,
+      "summary": "McKinsey's Q&A with Pay-i CEO David Tepper unpacks the hidden economics of agentic AI, revealing that roughly 60% of token costs stem from refinement and re-verification loops rather than initial generation \u2014 a structural cost dynamic foreign to SaaS mental models. Tepper argues that context management is becoming an operating asset, and that enterprises lacking cross-functional finance/engineering governance will face compounding cost disadvantages as they scale agents. The piece reframes AI scaling as primarily an economics and governance challenge, not a technical one.",
+      "why_it_matters": "For investors and operators evaluating AI infrastructure moats \u2014 especially in healthcare contexts like prior auth automation or clinical ops \u2014 this cost structure insight changes the build-vs-buy calculus and surfaces a new diligence lens: who controls and optimizes context efficiently at scale.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "data_infrastructure",
+        "analytical_depth",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    }
+  ]
+}
