@@ -6172,5 +6172,131 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is entirely unrelated to the headline \u2014 it is a pharmaceutical packaging/aseptic manufacturing webinar advertisement, not coverage of Lilly's psychedelics acquisition or Sanofi's mRNA patent litigation."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "Merck Gets FDA Nod for First PCSK9 Pill (Lipfendra/enlicitide)",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1381516?pk=zs-wb-072126-FBPMT-nl-071326&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a webinar promotional page about co-promote partnership data governance \u2014 it contains no substantive reporting on Merck's Lipfendra/enlicitide FDA approval, making the shortlist summary entirely unsupported by the article text."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "Senate Fights Over Medicare AI Prior Authorization Pilot (WISeR)",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW6DTf51HVp_W7NyzC91fbwRpW3Z50n15RBhk9N31NNC23qgz0W7lCdLW6lZ3pWW7GtBpB94RwdFW5dg7hM83FzSpW1NFVRm59SWtwW3ZFYSs8rhS8gN1VnPCGHC2X0W5dLPJ67S-5H6W7jpXFr6tsdyZN4NkBTXxl9v-W8SnWsJ7nfSQZW76rTVX5x2ZM3N5NNKJP5bGN6W63Q4L98dBxf9W5DyB351s_2X6W6d9kgw7x_XBKMz8lW6jV4DwW2StPwM6cxHS2Vvvyb91Fv6pKVY_tln5YtdPfW6RfqnV8Jyl9_W29vZqv5gLjfvW5b9fgy4grzt3N39DQqvyG-2SW8w6ncz8VnMZbV5NKZb11z-FTf6jcSKC04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall landing page with no actual article content \u2014 only subscription marketing copy \u2014 making it impossible to verify substance, depth, or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "Mainframes and Main Characters (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/mainframes-and-main-characters?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L21haW5mcmFtZXMtYW5kLW1haW4tY2hhcmFjdGVycy8iXX0sImV4cCI6MTc4Njg5OTgwNSwiaWF0IjoxNzg0MzA3ODA1LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.i5vuck58a-0RVZbGPFfVFw5Z9DpAnx4Y83L2IMy1uiFrdxJeq75kqH-y8FMeYipHnRqQrxirLQpNkhEwQyWYwT7zsqsd7dmfjc93do9az5xelfsTEyjFhrrrmxkYxiU3pg4YTxfCRt8eT6w3baSJRrUmZlE-edkgOQOO1ceoMCxXtYlRvwJBhRPoQiNgVgrmbsZPDOIdoFCTMjnfBIxsdf-Dm5jxfnOHmzQvViAM2Pmt07VuJGlbaGbjghFihvmTWyhAIwlDhH0oTWebYpkW-cUF9IbRYux93RTw6a22PpD6QtdsnTkgDzBCc9LrwylH2PTNONKW8OYJc9J6GujinA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter digest/table-of-contents for Stratechery, not a substantive article \u2014 it contains only brief teasers for paywalled content and does not belong in Slot 1 (Healthcare/Biotech), which it has zero relevance to."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDczMzk3NDYsImlhdCI6MTc4NDMwMTY3MSwiZXhwIjoxNzg2ODkzNjcxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.fMcP-LnpW9-U3BCMLjBFAxOhylKpSGqIlZeRA3AZLE4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI infrastructure article about TSMC semiconductors, not a Healthcare/Biotech article \u2014 it has zero relevance to Slot 1's required themes of FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "ASML 2Q'26: Time to Flex Pricing Power",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/asml-2q26-time-to-flex-pricing-power?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDcxNzY5OTMsImlhdCI6MTc4NDIxMjgyOCwiZXhwIjoxNzg2ODA0ODI4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.-G53qJJruQ2Rbp35cIBqMCkNlMIeB3NnvFChGWixWuY",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about ASML's semiconductor lithography equipment pricing strategy \u2014 a Tech/AI infrastructure topic that belongs in Slot 3, not Slot 1 (Healthcare/Biotech), as it has no healthcare or biopharma relevance whatsoever."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "MBI Deep Dives: Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMDY3NDk2NTAsImlhdCI6MTc4Mzk1NTIxMSwiZXhwIjoxNzg2NTQ3MjExLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.VKHCD-vCcHedUXyx2PWj86B93aaN28KYvHGnbWn6b3w",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI enterprise software moat analysis article \u2014 it belongs in Slot 3, not Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "BCG Q2 Perspectives: When Everyone Uses AI, Companies Risk Losing Critical Skills",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGjFEqocbCGhmQW--hIdoABJOC36lWeEdRcYWFImM2uyIBPUwg6U7aRhN_cuTdmyY5SV1phDsY=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a BCG promotional email newsletter compiling 10 article thumbnails with one-line descriptions \u2014 it has no substantive article content, and it targets Slot 3 (Tech/AI) or Slot 4 (Wildcard) far more naturally than Slot 1 (Healthcare/Biopharma), which requires FDA decisions, clinical trials, M&A, or pipeline news."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "McKinsey: Cost versus Value \u2014 Managing Agentic AI System Performance",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f6c48ae01b80e66369ff0b33c/7c836801785947760000021ef3a0bcc2/7c836801-7859-4776-8532-f73f130c56e1?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8rC8BXxxlY42zQoX4-EgY_oh-IfRS7i-AIRiCPmcEv5ysNO3egKvTrvIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI article misassigned to the Healthcare/Biotech slot \u2014 it covers agentic AI economics broadly and has no primary healthcare or biopharma content, making it a poor fit for Slot 1 regardless of the healthcare adjacency argument."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "| 07.16.26 | Doudna's AI-designed gene editing enzymes; Merck gets FDA nod for first PCSK9 pill",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text provided is actually a Fierce Biotech homepage/navigation page with only headlines and bylines \u2014 there is no substantive article body to evaluate for depth or accuracy, making it impossible to verify the shortlist claims about Phase 3 data, 56-59% LDL reduction, or Doudna's AI enzyme details."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/Finance article about TSMC semiconductors, not Healthcare/Biotech \u2014 it does not belong in Slot 1 regardless of its quality."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "Mainframes and Main Characters (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/mainframes-and-main-characters",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest/table-of-contents from Stratechery, not a substantive article \u2014 it contains only brief teasers for paywalled content and does not belong in Slot 1 (Healthcare/Biotech), which it doesn't address at all."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "Senate strikes down Dems move to overturn CMS' WISeR AI prior auth pilot",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/legislators-introduce-resolution-seek-congressional-disapproval-cms-wiser-ai-prior-auth",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a concrete, resolved regulatory event \u2014 the Senate's 46-50 vote to preserve CMS's AI-driven WISeR prior authorization pilot \u2014 with direct investment implications for managed care and AI-in-healthcare reimbursement workflows, fitting Slot 1 criteria well."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "| 07.17.26 | Lilly takes $2.8B plunge into psychedelic mental health; Sanofi wages new mRNA patent battle with Pfizer, Moderna",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a navigation/index page from Fierce Biotech with only headlines and timestamps \u2014 there is no substantive article body covering the Lilly/AtaiBeckley acquisition or the Sanofi mRNA patent litigation in any depth, making it impossible to verify the shortlist claims or confirm analytical substance."
+  },
+  {
+    "date": "2026-07-19",
+    "headline": "[scuttleslops] CDNS, SNPS, TREX, WISE, Class I Rails, China",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article is a Scuttleblurb 'slops' aggregation with genuine analytical depth on CDNS/SNPS EDA competitive moats, matching the reader's strong preferences for competitive moat analysis, deep business diligence, and long-form investment writing from a top-rated source."
   }
 ]

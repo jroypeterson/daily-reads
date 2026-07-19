@@ -1162,5 +1162,23 @@
         "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol"
       }
     ]
+  },
+  {
+    "date": "2026-07-19",
+    "checked_unique": 41,
+    "checked_slots": 44,
+    "broken": {
+      "article_warnings": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [
+      {
+        "source": "Scuttleblurb",
+        "headline": "[scuttleslops] CDNS, SNPS, TREX, WISE, Class I Rails, China",
+        "url": "https://scuttleblurb.com"
+      }
+    ]
   }
 ]

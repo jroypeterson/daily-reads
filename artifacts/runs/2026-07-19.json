@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-07-19",
+  "generated_at": "2026-07-19T13:07:04Z",
+  "counts": {
+    "gmail_items": 105,
+    "tier2_items": 81,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "89b2c6a610dfe012",
+      "headline": "Senate strikes down Dems move to overturn CMS' WISeR AI prior auth pilot",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/regulatory/legislators-introduce-resolution-seek-congressional-disapproval-cms-wiser-ai-prior-auth",
+      "slot": 1,
+      "summary": "The Senate voted 46-50 along party lines to reject a Democratic resolution that would have rolled back CMS's WISeR model, a year-long, six-state pilot using AI to review prior authorizations for 13 Medicare services deemed low-value or misuse-prone. The vote, triggered after the GAO determined WISeR was subject to Congressional Review Act oversight, allows the program to continue operating in Arizona, New Jersey, Ohio, Oklahoma, Texas, and Washington. Provider groups including the AHA and AMA have raised concerns, and Washington state data showed procedure completion times doubling to quadrupling after implementation.",
+      "why_it_matters": "The WISeR pilot's survival is a pivotal regulatory precedent \u2014 the first federally sanctioned AI-driven coverage decision system in traditional Medicare \u2014 directly affecting managed care payers, prior-auth technology vendors, and investors tracking AI's expanding role in healthcare reimbursement.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "ai_biology_intersection",
+        "regulatory_affairs",
+        "health_technology_datasets",
+        "health_software_SaaS",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "493d324ae0ca85f3",
+      "headline": "[scuttleslops] CDNS, SNPS, TREX, WISE, Class I Rails, China",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.com",
+      "slot": 2,
+      "summary": "Scuttleblurb's latest 'scuttleslops' edition compiles expert interviews and proprietary notes across a range of names including Cadence (CDNS), Synopsys (SNPS), Trex, Wise, Class I Rails, and China-exposed businesses. The Synopsys piece centers on a former Senior Director's view that both EDA incumbents are protected by extraordinary switching costs, deep foundry relationships with TSMC, and the technical complexity of advanced chip design. The format aggregates InPractise interview insights with Scuttleblurb's own analytical framing, making it a practitioner-grade synthesis rather than a news summary.",
+      "why_it_matters": "For a reader focused on competitive moats and AI infrastructure, the CDNS/SNPS EDA analysis is directly relevant \u2014 these companies sit at the chokepoint of AI chip design, and understanding the front-end vs. back-end revenue dynamics and switching cost durability has clear long-term investment implications.",
+      "signal_tags": [
+        "priority:high",
+        "source:scuttleblurb",
+        "serial_acquirer_analysis",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}
