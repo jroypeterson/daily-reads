@@ -1456,5 +1456,237 @@ class CriteriaCommitBeforeCloseTests(unittest.TestCase):
                 os.chdir(original_cwd)
 
 
+class BrokenMainSlotSubstitutionTests(unittest.TestCase):
+    """A dead link in a main slot must be replaced from the also-considered
+    queue, not shipped to the reader on an otherwise-`ok` run (JP 2026-07-19)."""
+
+    def _article(self, slot, source, url):
+        return {
+            "article_id": f"a{slot}", "headline": f"Headline {slot}",
+            "source": source, "url": url, "slot": slot,
+            "summary": "s", "why_it_matters": "w",
+            "signal_tags": [], "reading_time": "5 min",
+        }
+
+    def _cand(self, name, url, score):
+        return {
+            "source_name": name, "headline": f"Triage {name}",
+            "primary_url": url, "triage_score": score,
+            "snippet": f"snippet for {name}", "category": "healthcare",
+        }
+
+    def _run(self, articles, triage, liveness, exclude_ids=None):
+        """Run validate_delivery_urls in a tmpdir with a stubbed liveness probe."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(tmpdir)
+                os.makedirs("artifacts", exist_ok=True)
+                with mock.patch.object(
+                    main, "check_urls_live",
+                    side_effect=lambda urls, timeout=3: {u: liveness.get(u, True) for u in urls},
+                ):
+                    arts, tri, always, subs = main.validate_delivery_urls(
+                        articles, triage, [], [], exclude_ids=exclude_ids
+                    )
+                log = json.load(open("artifacts/url_validation_log.json", encoding="utf-8"))
+                return arts, tri, log[-1]
+            finally:
+                os.chdir(original_cwd)
+
+    def test_recently_delivered_candidate_is_never_promoted(self):
+        """The cross-run dedupe filters select_articles() but NOT the triage
+        queue, so the promotion path has to re-apply it or a slot can silently
+        re-deliver yesterday's article (codex 2026-07-20)."""
+        articles = [self._article(1, "Alpha", "https://alpha.test/dead")]
+        triage = [
+            {**self._cand("Gamma", "https://gamma.test/ok", 9), "candidate_id": "cid-gamma"},
+            {**self._cand("Delta", "https://delta.test/ok", 1), "candidate_id": "cid-delta"},
+        ]
+        arts, tri, log = self._run(
+            articles, triage, {"https://alpha.test/dead": False},
+            exclude_ids={"cid-gamma"},
+        )
+        self.assertEqual(
+            arts[0]["source"], "Delta",
+            "Gamma scores higher but was delivered recently — must be skipped",
+        )
+
+    def test_all_candidates_excluded_falls_back_to_shipping_broken(self):
+        articles = [self._article(1, "Alpha", "https://alpha.test/dead")]
+        triage = [
+            {**self._cand("Gamma", "https://gamma.test/ok", 9), "candidate_id": "cid-gamma"},
+        ]
+        arts, tri, log = self._run(
+            articles, triage, {"https://alpha.test/dead": False},
+            exclude_ids={"cid-gamma"},
+        )
+        self.assertEqual(arts[0]["source"], "Alpha", "slot preserved")
+        self.assertEqual(log["broken"]["article_warnings"], 1)
+        self.assertEqual(log["broken"]["article_substituted"], 0)
+
+    def test_broken_slot_is_replaced_by_best_live_candidate(self):
+        articles = [
+            self._article(1, "Alpha", "https://alpha.test/dead"),
+            self._article(2, "Beta", "https://beta.test/ok"),
+        ]
+        triage = [
+            self._cand("Gamma", "https://gamma.test/ok", 5),
+            self._cand("Delta", "https://delta.test/ok", 9),
+        ]
+        arts, tri, log = self._run(
+            articles, triage, {"https://alpha.test/dead": False},
+        )
+        # Highest triage_score (Delta, 9) wins the slot, not queue order.
+        self.assertEqual(arts[0]["source"], "Delta")
+        self.assertEqual(arts[0]["url"], "https://delta.test/ok")
+        self.assertEqual(arts[0]["slot"], 1, "slot number must be preserved")
+        self.assertEqual(arts[1]["source"], "Beta", "healthy slot untouched")
+        # Promoted candidate must not also remain in the triage queue.
+        self.assertEqual([c["source_name"] for c in tri], ["Gamma"])
+        self.assertEqual(log["broken"]["article_substituted"], 1)
+        self.assertEqual(log["broken"]["article_warnings"], 0,
+                         "a rescued slot is not a 'shipped broken' warning")
+        self.assertEqual(log["warned_articles"], [])
+
+    def test_substitute_never_duplicates_a_surviving_source(self):
+        articles = [
+            self._article(1, "Alpha", "https://alpha.test/dead"),
+            self._article(2, "Delta", "https://delta.test/ok"),
+        ]
+        # Delta scores highest but is already in slot 2 — must be skipped.
+        triage = [
+            self._cand("Delta", "https://delta.test/other", 9),
+            self._cand("Gamma", "https://gamma.test/ok", 5),
+        ]
+        arts, tri, log = self._run(
+            articles, triage, {"https://alpha.test/dead": False},
+        )
+        self.assertEqual(arts[0]["source"], "Gamma")
+        self.assertEqual(log["broken"]["article_substituted"], 1)
+
+    def test_broken_triage_candidate_is_never_promoted(self):
+        articles = [self._article(1, "Alpha", "https://alpha.test/dead")]
+        triage = [
+            self._cand("Gamma", "https://gamma.test/dead", 9),
+            self._cand("Delta", "https://delta.test/ok", 1),
+        ]
+        arts, tri, log = self._run(
+            articles, triage,
+            {"https://alpha.test/dead": False, "https://gamma.test/dead": False},
+        )
+        self.assertEqual(arts[0]["source"], "Delta",
+                         "must not promote a candidate whose own URL is dead")
+        self.assertEqual(tri, [], "broken Gamma dropped, Delta promoted out")
+
+    def test_ships_broken_when_no_substitute_available(self):
+        """Fallback must still preserve the slot — an empty slot is worse."""
+        articles = [self._article(1, "Alpha", "https://alpha.test/dead")]
+        arts, tri, log = self._run(
+            articles, [], {"https://alpha.test/dead": False},
+        )
+        self.assertEqual(len(arts), 1, "slot preserved rather than emptied")
+        self.assertEqual(arts[0]["source"], "Alpha")
+        self.assertEqual(log["broken"]["article_warnings"], 1)
+        self.assertEqual(log["broken"]["article_substituted"], 0)
+        self.assertEqual(log["warned_articles"][0]["source"], "Alpha")
+
+    def test_clean_run_substitutes_nothing(self):
+        articles = [self._article(1, "Alpha", "https://alpha.test/ok")]
+        triage = [self._cand("Gamma", "https://gamma.test/ok", 5)]
+        arts, tri, log = self._run(articles, triage, {})
+        self.assertEqual(arts[0]["source"], "Alpha")
+        self.assertEqual([c["source_name"] for c in tri], ["Gamma"])
+        self.assertEqual(log["broken"]["article_substituted"], 0)
+        self.assertEqual(log["broken"]["article_warnings"], 0)
+
+    def test_two_broken_slots_get_distinct_substitutes(self):
+        articles = [
+            self._article(1, "Alpha", "https://alpha.test/dead"),
+            self._article(2, "Beta", "https://beta.test/dead"),
+        ]
+        triage = [
+            self._cand("Gamma", "https://gamma.test/ok", 9),
+            self._cand("Delta", "https://delta.test/ok", 5),
+        ]
+        arts, tri, log = self._run(
+            articles, triage,
+            {"https://alpha.test/dead": False, "https://beta.test/dead": False},
+        )
+        self.assertEqual(arts[0]["source"], "Gamma")
+        self.assertEqual(arts[1]["source"], "Delta")
+        self.assertEqual(tri, [], "both promoted out of the queue")
+        self.assertEqual(log["broken"]["article_substituted"], 2)
+
+
+class WeeklyReportCountsSubstitutionsTests(unittest.TestCase):
+    """A rescued main slot still means the source shipped a dead link. The
+    weekly URL-health report must not read as a clean week just because
+    substitution hid the breakage from the reader."""
+
+    def _report_for(self, entry):
+        """build_report() takes no args — it derives its window from
+        _past_7_days() and reads the log via _load_json. Stub both so the
+        report sees exactly this one entry."""
+        import weekly_report
+        with tempfile.TemporaryDirectory() as tmpdir:
+            original_cwd = os.getcwd()
+            try:
+                os.chdir(tmpdir)
+                os.makedirs("artifacts", exist_ok=True)
+                with mock.patch.object(
+                    weekly_report, "_past_7_days", return_value=[entry["date"]]
+                ), mock.patch.object(
+                    weekly_report, "_load_json",
+                    side_effect=lambda path, default=None: (
+                        [entry] if path == weekly_report.URL_VALIDATION_LOG
+                        else (default if default is not None else [])
+                    ),
+                ):
+                    report = weekly_report.build_report()
+                return report["url_validation"]
+            finally:
+                os.chdir(original_cwd)
+
+    def test_substituted_slots_count_as_broken_and_name_the_source(self):
+        uv = self._report_for({
+            "date": "2026-07-19",
+            "checked_slots": 12,
+            "broken": {
+                "article_warnings": 0,
+                "article_substituted": 2,
+                "triage_dropped": 0,
+                "always_read_dropped": 0,
+                "substack_dropped": 0,
+            },
+            "warned_articles": [],
+            "substituted_articles": [
+                {"broken_source": "Fierce Pharma", "slot": 1},
+                {"broken_source": "Fierce Pharma", "slot": 2},
+            ],
+        })
+        self.assertEqual(uv["total_broken"], 2,
+                         "rescued slots must still count as broken URLs")
+        self.assertEqual(uv["surfaces"]["article_substituted"], 2)
+        self.assertEqual(uv["top_warned_sources"], [("Fierce Pharma", 2)],
+                         "a chronically-broken source must still be named")
+
+    def test_legacy_log_entries_without_the_new_keys_still_work(self):
+        uv = self._report_for({
+            "date": "2026-07-19",
+            "checked_slots": 8,
+            "broken": {
+                "article_warnings": 1,
+                "triage_dropped": 1,
+                "always_read_dropped": 0,
+                "substack_dropped": 0,
+            },
+            "warned_articles": [{"source": "Old Source"}],
+        })
+        self.assertEqual(uv["surfaces"]["article_substituted"], 0)
+        self.assertEqual(uv["total_broken"], 2)
+        self.assertEqual(uv["top_warned_sources"], [("Old Source", 1)])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -258,6 +258,12 @@ def build_report() -> dict:
     total_checked = sum(e.get("checked_slots", 0) for e in week_url)
     surface_totals = {
         "article_warnings": 0,
+        # Main slots whose URL was dead but which we rescued by promoting an
+        # also-considered candidate (main.py, 2026-07-20). These MUST count
+        # toward total_broken: the link still died: we just hid it from the
+        # reader. Leaving it out would report a perfect URL-health week for a
+        # week in which several main-slot links were dead.
+        "article_substituted": 0,
         "triage_dropped": 0,
         "always_read_dropped": 0,
         "substack_dropped": 0,
@@ -269,6 +275,12 @@ def build_report() -> dict:
             surface_totals[key] += broken.get(key, 0)
         for warned in entry.get("warned_articles", []):
             src = warned.get("source", "") or "Unknown"
+            warned_by_source[src] = warned_by_source.get(src, 0) + 1
+        # A source that shipped a dead link is equally unhealthy whether or not
+        # we managed to substitute around it — this list exists to find sources
+        # with chronically bad URLs, so attribute the substituted ones too.
+        for sub in entry.get("substituted_articles", []):
+            src = sub.get("broken_source", "") or "Unknown"
             warned_by_source[src] = warned_by_source.get(src, 0) + 1
 
     total_broken = sum(surface_totals.values())
@@ -378,13 +390,15 @@ def format_report_text(report: dict) -> str:
     surf = uv.get("surfaces", {})
     lines.append(
         f"  Broken: {uv.get('total_broken', 0)} "
-        f"(main warnings={surf.get('article_warnings', 0)}, "
+        f"(main shipped broken={surf.get('article_warnings', 0)}, "
+        f"main substituted={surf.get('article_substituted', 0)}, "
         f"triage={surf.get('triage_dropped', 0)}, "
         f"always-read={surf.get('always_read_dropped', 0)}, "
         f"substack={surf.get('substack_dropped', 0)})"
     )
     if uv.get("top_warned_sources"):
-        lines.append("  Sources shipping broken main-slot URLs:")
+        lines.append("  Sources shipping broken main-slot URLs "
+                     "(incl. slots we substituted around):")
         for src, n in uv["top_warned_sources"]:
             lines.append(f"    - {src}: {n} day(s)")
     lines.append("")
@@ -509,7 +523,8 @@ def format_report_html(report: dict) -> str:
   <h3 style="color: {uv_color}; margin-top: 0;">URL Validation</h3>
   <p>Probed: <strong>{uv.get("checked_slots", 0)}</strong> slots across {uv.get("days_logged", 0)}/7 days</p>
   <p>Broken: <strong>{uv.get("total_broken", 0)}</strong>
-     (main warnings={surf.get("article_warnings", 0)},
+     (main shipped broken={surf.get("article_warnings", 0)},
+      main substituted={surf.get("article_substituted", 0)},
       triage dropped={surf.get("triage_dropped", 0)},
       always-read dropped={surf.get("always_read_dropped", 0)},
       substack dropped={surf.get("substack_dropped", 0)})</p>
@@ -607,7 +622,8 @@ def format_report_slack(report: dict) -> list[dict]:
         f"Probed: *{uv.get('checked_slots', 0)}* slots across {uv.get('days_logged', 0)}/7 days",
         (
             f"Broken: *{uv.get('total_broken', 0)}* "
-            f"(main warnings={surf.get('article_warnings', 0)}, "
+            f"(main shipped broken={surf.get('article_warnings', 0)}, "
+            f"main substituted={surf.get('article_substituted', 0)}, "
             f"triage={surf.get('triage_dropped', 0)}, "
             f"always-read={surf.get('always_read_dropped', 0)}, "
             f"substack={surf.get('substack_dropped', 0)})"

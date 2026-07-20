@@ -673,6 +673,7 @@ def validate_delivery_urls(
     triage_queue: list[dict],
     always_read: list[dict],
     substack_items: list[dict],
+    exclude_ids: set[str] | None = None,
 ) -> tuple[list[dict], list[dict], list[dict], list[dict]]:
     """Probe every URL that is about to ship. Drops broken URLs from
     triage/always_read/substack lists. For main-slot articles (which are
@@ -729,24 +730,145 @@ def validate_delivery_urls(
         elif surface == "substack":
             broken_substack.add(idx)
 
-    for idx in broken_articles:
-        a = articles[idx]
-        print(
-            f"  WARNING: main slot {a.get('slot', '?')} URL is broken — "
-            f"shipping anyway to preserve slot. Headline: {a.get('headline', '')[:60]}"
-        )
-        print(f"    URL: {a.get('url', '')}")
+    # A broken main-slot URL used to ship as-is with a warning, because dropping
+    # it would leave an empty slot. But a dead link in the top slot is a
+    # reader-visible failure on a run that still reports `ok` (JP, 2026-07-19).
+    # So: promote the best still-live "also considered" candidate into the slot
+    # instead. Shipping broken is now only the last resort when no eligible
+    # substitute exists — never a silent degradation either way.
+    promoted_triage: set[int] = set()
+    substituted: list[dict] = []
+    still_broken: list[int] = []
 
-    def _filter(items: list[dict], dropped: set[int], label: str) -> list[dict]:
+    # Sources already spoken for, so a substitute can't duplicate one (the same
+    # constraint validate_selected_articles enforces at selection time).
+    taken_sources = {
+        str(a.get("source", "")).strip().casefold()
+        for i, a in enumerate(articles)
+        if i not in broken_articles and str(a.get("source", "")).strip()
+    }
+    taken_urls = {
+        (a.get("url") or "").strip()
+        for i, a in enumerate(articles) if i not in broken_articles
+    }
+
+    # Best-first pool: live-URL triage candidates, highest triage_score first.
+    # build_triage_queue reorders for bucket coverage, so re-sort by score here.
+    #
+    # `exclude_ids` is load-bearing (codex 2026-07-20): select_articles() filters
+    # recently-delivered candidates, but build_triage_queue() does NOT — it is
+    # rebuilt from the full candidate set. Without this check a candidate that
+    # the cross-run dedupe deliberately kept out of today's selection could be
+    # promoted straight into a main slot and re-delivered.
+    _excluded = exclude_ids or set()
+    pool = sorted(
+        (
+            i for i in range(len(triage_queue))
+            if i not in broken_triage
+            and (triage_queue[i].get("primary_url") or "").strip()
+            and triage_queue[i].get("candidate_id") not in _excluded
+        ),
+        key=lambda i: -int(triage_queue[i].get("triage_score") or 0),
+    )
+
+    for idx in sorted(broken_articles, key=lambda i: articles[i].get("slot", 0)):
+        a = articles[idx]
+        slot = a.get("slot", "?")
+        sub_i = None
+        for i in pool:
+            if i in promoted_triage:
+                continue
+            c = triage_queue[i]
+            src = str(c.get("source_name", "")).strip()
+            url = (c.get("primary_url") or "").strip()
+            if not src or not url:
+                continue
+            if src.casefold() in taken_sources or url in taken_urls:
+                continue
+            sub_i = i
+            break
+
+        if sub_i is None:
+            still_broken.append(idx)
+            print(
+                f"  WARNING: main slot {slot} URL is broken and NO eligible "
+                f"substitute was available — shipping broken to preserve the "
+                f"slot. Headline: {a.get('headline', '')[:60]}"
+            )
+            print(f"    URL: {a.get('url', '')}")
+            continue
+
+        c = triage_queue[sub_i]
+        src = str(c.get("source_name", "")).strip()
+        url = (c.get("primary_url") or "").strip()
+        # Triage candidates carry no editorial summary/why-it-matters (those are
+        # written by the selection LLM). Rather than spend a second LLM call on
+        # a fallback path, use the candidate's own snippet and say plainly in
+        # the digest that this is a substitution — honest beats fabricated.
+        snippet = str(c.get("snippet") or c.get("body_excerpt") or "").strip()
+        snippet = re.sub(r"\s+", " ", snippet)[:400]
+        articles[idx] = {
+            "article_id": article_id_for(url, src),
+            "headline": str(c.get("headline") or "(untitled)").strip(),
+            "source": src,
+            "url": url,
+            "slot": a.get("slot"),
+            "summary": snippet or "(no summary available — promoted from the "
+                                  "also-considered queue)",
+            "why_it_matters": (
+                f"Promoted from 'also considered' because the original slot-{slot} "
+                f"pick ({a.get('source', 'unknown source')}) shipped a dead link."
+            ),
+            "signal_tags": [],
+            "reading_time": "N/A",
+        }
+        promoted_triage.add(sub_i)
+        taken_sources.add(src.casefold())
+        taken_urls.add(url)
+        substituted.append({
+            "slot": a.get("slot"),
+            "broken_source": a.get("source", ""),
+            "broken_url": a.get("url", ""),
+            "substitute_source": src,
+            "substitute_headline": str(c.get("headline") or "")[:120],
+            "substitute_url": url,
+        })
+        print(
+            f"  SUBSTITUTED main slot {slot}: broken link from "
+            f"{a.get('source', '?')} replaced with {src} — "
+            f"{str(c.get('headline') or '')[:60]}"
+        )
+
+    def _filter(
+        items: list[dict],
+        dropped: set[int],
+        label: str,
+        silent: set[int] | None = None,
+    ) -> list[dict]:
+        """Remove `dropped` indices. Indices in `silent` are removed without a
+        "URL failed liveness probe" line — used for promoted candidates, which
+        leave the queue for a different (non-failure) reason."""
         if not dropped:
             return items
+        skip_log = silent or set()
         for idx in sorted(dropped):
+            if idx in skip_log:
+                continue
             c = items[idx]
             headline = c.get("headline") or c.get("subject", "Untitled")
             print(f"  Dropping {label}: {headline[:60]} — URL failed liveness probe")
         return [c for i, c in enumerate(items) if i not in dropped]
 
-    triage_queue = _filter(triage_queue, broken_triage, "triage")
+    # Promoted candidates leave the triage queue so they don't appear twice in
+    # the digest (once in a main slot, once under "also considered").
+    for i in sorted(promoted_triage):
+        print(
+            f"  Removing from triage (promoted to a main slot): "
+            f"{str(triage_queue[i].get('headline') or '')[:60]}"
+        )
+    triage_queue = _filter(
+        triage_queue, broken_triage | promoted_triage, "triage", silent=promoted_triage
+    )
     always_read = _filter(always_read, broken_always_read, "always-read")
     substack_items = _filter(substack_items, broken_substack, "substack")
 
@@ -759,7 +881,8 @@ def validate_delivery_urls(
     else:
         print(
             f"Summary: {total_broken} broken URL(s) detected "
-            f"({len(broken_articles)} main warnings, "
+            f"({len(substituted)} main slots substituted, "
+            f"{len(still_broken)} main shipped broken, "
             f"{len(broken_triage)} triage dropped, "
             f"{len(broken_always_read)} always-read dropped, "
             f"{len(broken_substack)} substack dropped)."
@@ -775,21 +898,27 @@ def validate_delivery_urls(
         "checked_unique": len(unique_urls),
         "checked_slots": len(urls_to_check),
         "broken": {
-            "article_warnings": len(broken_articles),
+            # `article_warnings` now means "broken AND no substitute was
+            # available, so it shipped broken" — the genuinely bad case.
+            # Slots we rescued by promotion are counted separately.
+            "article_warnings": len(still_broken),
+            "article_substituted": len(substituted),
             "triage_dropped": len(broken_triage),
             "always_read_dropped": len(broken_always_read),
             "substack_dropped": len(broken_substack),
         },
-        # Main-slot warnings keep their slot in the digest but we log detail
-        # so the weekly report can name which sources are shipping broken URLs.
+        # Detail so the weekly report can name which sources ship broken URLs.
+        # `warned_articles` still reflects post-substitution state: these are
+        # the ones the reader actually received with a dead link.
         "warned_articles": [
             {
                 "source": articles[i].get("source", ""),
                 "headline": (articles[i].get("headline") or "")[:120],
                 "url": articles[i].get("url", ""),
             }
-            for i in broken_articles
+            for i in still_broken
         ],
+        "substituted_articles": substituted,
     })
     save_json(log_path, log)
     print(f"Logged validation stats to {log_path}")
@@ -2617,7 +2746,15 @@ def _read_url_validation_warnings(today: str) -> list[str]:
     broken = entry.get("broken", {}) or {}
     parts: list[str] = []
     if broken.get("article_warnings"):
-        parts.append(f"{broken['article_warnings']} main-slot URL(s) shipped broken")
+        parts.append(
+            f"{broken['article_warnings']} main-slot URL(s) shipped broken "
+            f"(no substitute available)"
+        )
+    if broken.get("article_substituted"):
+        parts.append(
+            f"{broken['article_substituted']} main-slot URL(s) were broken and "
+            f"replaced from the also-considered queue"
+        )
     triage_n = broken.get("triage_dropped", 0) + broken.get("always_read_dropped", 0) + broken.get("substack_dropped", 0)
     if triage_n:
         parts.append(f"{triage_n} non-slot URL(s) dropped (broken)")
@@ -2767,16 +2904,25 @@ def main():
         journal_watch = build_journal_watch(structured_gmail)
         substack_items = substack_scan()
         save_candidate_artifact(today, gmail_items, tier2_items, tickers)
+
+        # Step 4c: Pre-delivery URL liveness check — catch broken links before
+        # they ship. Drops broken URLs from triage/always_read/substack, and for
+        # main slots promotes a live also-considered candidate over a dead link.
+        articles, triage_queue, always_read, substack_items = validate_delivery_urls(
+            articles, triage_queue, always_read, substack_items,
+            exclude_ids=exclude_ids,
+        )
+
+        # The run + triage artifacts are saved AFTER validation, not before
+        # (codex 2026-07-20). enrich_feedback_entry() treats
+        # artifacts/runs/<date>.json as the source of truth for which article
+        # occupied which slot; saving pre-validation meant a substituted slot
+        # recorded the DEAD article, so "slot 1, score 3" feedback trained the
+        # taste model on a piece the reader never saw. Same reasoning for the
+        # triage artifact, which loses its broken + promoted entries here.
         save_run_artifact(today, gmail_items, tier2_items, articles, feedback_info)
         save_triage_artifact(today, triage_queue)
         artifacts_produced.append(str(run_artifact_path(today)))
-
-        # Step 4c: Pre-delivery URL liveness check — catch broken links before
-        # they ship. Drops broken URLs from triage/always_read/substack and logs
-        # warnings for main-slot articles (dropping those would leave empty slots).
-        articles, triage_queue, always_read, substack_items = validate_delivery_urls(
-            articles, triage_queue, always_read, substack_items
-        )
 
         # Step 5: Deliver to all channels
         if os.environ.get("DELIVER_GMAIL_ENABLED", "true").strip().lower() not in ("false", "0", "no", ""):
