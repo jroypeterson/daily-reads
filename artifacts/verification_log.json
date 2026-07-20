@@ -6298,5 +6298,59 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The article is a Scuttleblurb 'slops' aggregation with genuine analytical depth on CDNS/SNPS EDA competitive moats, matching the reader's strong preferences for competitive moat analysis, deep business diligence, and long-form investment writing from a top-rated source."
+  },
+  {
+    "date": "2026-07-20",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is not the Boston Scientific deep-dive \u2014 it is a Scuttleblurb table of contents/teaser page listing upcoming and recent posts, with BSX mentioned only as a forthcoming article, not yet published."
+  },
+  {
+    "date": "2026-07-20",
+    "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is about TSMC semiconductors and AI infrastructure, which fits Slot 3 (Tech/AI) but clearly does not match Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-07-20",
+    "headline": "Bristol Myers Squibb becomes latest company to claim it's building pharma's largest NVIDIA AI supercomputer",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/20/bms-nvidia-assembling-largest-pharma-ai-supercomputer/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth \u2014 it critically examines a pattern of competing 'largest AI supercomputer' claims from major pharma companies, questions whether the infrastructure investment translates to real R&D productivity, and is directly relevant to the reader's strongest interest area (AI-biology intersection) from a high-priority source (STAT News)."
+  },
+  {
+    "date": "2026-07-20",
+    "headline": "As Good As It Gets",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-20-2026-as-good-as-it-gets",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers genuine depth by aggregating forward-looking executive commentary from major bank CEOs and Fed officials into a coherent macro thesis \u2014 directly relevant to Slot 2 and the reader's preference for analytical, investment-relevant synthesis."
+  },
+  {
+    "date": "2026-07-20",
+    "headline": "Defending the Enterprise Castle from the Model Layer",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/defending-the-enterprise-castle-from",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers genuine analytical depth on the enterprise software moat question, using primary sources (Nadella's own writing, OpenRouter data, Gavin Baker commentary) to build a structured argument about value migration between model, orchestration, and infrastructure layers \u2014 directly matching the reader's strong preferences for competitive moat analysis and AI impact."
+  },
+  {
+    "date": "2026-07-20",
+    "headline": "Mainframes and Main Characters (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/mainframes-and-main-characters",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin weekly newsletter index/digest \u2014 it contains only brief teasers and bullet summaries linking to paywalled full articles, with no substantive analytical content actually present in the text."
   }
 ]
