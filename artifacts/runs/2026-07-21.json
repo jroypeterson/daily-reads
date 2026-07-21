@@ -1,0 +1,75 @@
+{
+  "run_date": "2026-07-21",
+  "generated_at": "2026-07-21T13:25:37Z",
+  "counts": {
+    "gmail_items": 104,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "043a2e99c9163018",
+      "headline": "Tempus to Buy Cancer Test-Maker Personalis for $1.5B",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/tempus-to-buy-cancer-test-maker-personalis-for-15b/825698/",
+      "slot": 1,
+      "summary": "Tempus AI is acquiring Personalis for $1.5B enterprise value at $16.25/share (~6% premium), integrating Personalis' tumor-informed MRD cancer test into Tempus' AI precision oncology platform. The deal builds on a 2023 co-commercialization partnership and is strategically motivated by a market shift toward tumor-informed assays, with Personalis posting 33% sequential test volume growth in Q2 and growing Medicare coverage across three indications. The transaction is expected to close late 2026 or early 2027, pending shareholder and regulatory approval.",
+      "why_it_matters": "With a $20B+ underpenetrated MRD market, two ticker-matched names (TEM, PSNL), and Tempus earnings due July 30, this deal is a live catalyst at the AI-driven oncology diagnostics intersection \u2014 directly relevant to portfolio positioning and competitive moat analysis in precision medicine.",
+      "signal_tags": [
+        "ticker_match:TEM",
+        "ticker_match:PSNL",
+        "catalyst_proximity",
+        "ai_biology_intersection",
+        "m_and_a",
+        "diagnostics",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "776914aa32dac767",
+      "headline": "As Good As It Gets",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/07-20-2026-as-good-as-it-gets",
+      "slot": 2,
+      "summary": "The Transcript's weekly newsletter synthesizes Q2 earnings call commentary from major bank and corporate executives (JPMorgan, Bank of America, Wells Fargo, Morgan Stanley, Citi) to frame a 'as good as it gets' macro thesis \u2014 strong consumer spending at 6-7% growth, resilient labor markets, AI-driven capital investment, and moderate impact from the Strait of Hormuz closure. However, the Fed (via Governor Waller) signals it does not view mission as accomplished, with inflation and monetary policy remaining key risks. The piece captures a market at peak constructive sentiment with unresolved uncertainty about duration.",
+      "why_it_matters": "For an investor doing sector rotation or risk positioning, this distillation of real-time executive sentiment across financials, airlines, and macro policy provides a rare ground-truth read on whether the current risk-on environment is sustainable heading into peak earnings season.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:CPRX",
+        "catalyst_proximity",
+        "forward_looking_perspective",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ee7d1f9ae06dab3b",
+      "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+      "slot": 3,
+      "summary": "MBI's deep-dive on TSMC's Q2 2026 earnings analyzes how the AI compute supercycle is driving pricing power and margin expansion at the foundry level. The piece interrogates whether TSMC management is willing to exercise that pricing power given demand significantly outstripping supply, and what stratospheric margins reveal about the durability of AI infrastructure capex cycles. It serves as a structural read on foundry economics rather than a surface-level earnings recap.",
+      "why_it_matters": "TSMC's margin trajectory is a bellwether for the entire AI infrastructure investment thesis \u2014 if foundry pricing power holds, it validates sustained capex from hyperscalers and strengthens the bull case for NVDA, ASML, and the broader AI hardware stack.",
+      "signal_tags": [
+        "high_priority_source",
+        "ai_impact",
+        "data_infrastructure",
+        "long_form_investment_writing",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "novelty"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": true
+    }
+  ]
+}

@@ -6352,5 +6352,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a thin weekly newsletter index/digest \u2014 it contains only brief teasers and bullet summaries linking to paywalled full articles, with no substantive analytical content actually present in the text."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the Boston Scientific deep-dive described in the shortlist summary \u2014 it appears the BSX piece has not yet been published, and the retrieved content is only Scuttleblurb's post index/table of contents listing upcoming and recent articles."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Tempus to Buy Cancer Test-Maker Personalis for $1.5B",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/tempus-to-buy-cancer-test-maker-personalis-for-15b/825698/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive M&A article with concrete deal mechanics, strategic rationale, and ticker-matched catalysts (TEM, PSNL) that sits squarely at the AI-biology intersection \u2014 the reader's strongest topic preference \u2014 with an imminent earnings catalyst on July 30."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Who's Afraid of Chinese Models?",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 3 (Tech/AI) article misassigned to Slot 2 (Finance/Macro) \u2014 it's a deep competitive dynamics piece about AI model economics from Stratechery, not a finance or macro article."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "As Good As It Gets",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-20-2026-as-good-as-it-gets",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive weekly macro synthesis from The Transcript that aggregates direct executive commentary from major bank CEOs and Fed officials into a coherent thesis about peak-cycle conditions, matching the Finance/Macro slot with analytical depth and forward-looking relevance."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source aligned with the reader's analytical depth preference, and TSMC margin dynamics as a leading indicator for AI infrastructure economics fits Slot 3 with high investment relevance."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Novo Nordisk Sues Eli Lilly Over GLP-1 Drug Ads It Calls 'Deceptive'",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a news brief about a corporate lawsuit that lacks the analytical depth, competitive moat analysis, or cross-domain insight the reader expects from a Wildcard slot \u2014 it reads as a thin news item rather than a forward-looking strategic piece, and better fits Slot 1 (Healthcare) where it would still be marginal given the reader's 'avoid niche therapeutics' and 'avoid short-term trading focus' patterns."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "BCG Top Ten Defining Reads Q2 2026: When Everyone Uses AI, Companies Risk Losing Critical Skills",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGjFEqocbCGhmQW--hIdoABJOC36lWeEdRcYWFImM2uyIBPUwg6U7aRhN_cuTdmyY5SV1phDsY=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is just a BCG email newsletter index with image links and one-line teasers \u2014 there is no substantive analytical content to evaluate, making it a thin promotional digest rather than a deep read worthy of the Wildcard slot."
+  },
+  {
+    "date": "2026-07-21",
+    "headline": "Something Weird Is Happening Beneath the Stock Market's Surface",
+    "source": "WSJ Markets A.M.",
+    "url": "https://www.wsj.com/finance/stocks/something-weird-is-happening-beneath-the-stock-markets-surface-e8a47ac4?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "While the topic has some analytical merit, it falls into the 'generic market indices' avoid pattern explicitly flagged in reader preferences, and the wildcard slot requires a stronger 'would I forward this?' test \u2014 market breadth analysis of the S&P is too standard a financial media topic to clear that bar for this reader."
   }
 ]
