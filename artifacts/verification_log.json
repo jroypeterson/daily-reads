@@ -6424,5 +6424,59 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "While the topic has some analytical merit, it falls into the 'generic market indices' avoid pattern explicitly flagged in reader preferences, and the wildcard slot requires a stronger 'would I forward this?' test \u2014 market breadth analysis of the S&P is too standard a financial media topic to clear that bar for this reader."
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the actual Boston Scientific deep-dive \u2014 it only shows a teaser/upcoming post announcement alongside unrelated content snippets, meaning the substantive article has not been retrieved."
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "The Geopolitics of Open Weights",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-geopolitics-of-open-weights",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is squarely a Tech/AI piece about open-weight AI model geopolitics and does not belong in Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, M&A, or biopharma pipeline news."
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Novo Sues Lilly Over 'False' GLP-1 Ads",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novo-lilly-lawsuit-obesity-drug-glp1-marketing/825772/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on the GLP-1 competitive dynamics between two major healthcare tickers (NVO, LLY), covering specific sales figures, clinical trial data, and legal strategy \u2014 well-suited for Slot 1."
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "TSMC 2Q'26: Stratospheric Margins Amidst the AI Super Cycle",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-2q26-stratospheric-margins-amidst",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source with demonstrated analytical depth, and TSMC margin analysis tied to the AI super-cycle directly matches the reader's strong preferences for data infrastructure, AI impact, and investment-relevant insights."
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Trump Plans Tariffs on Generics; Merck-Gilead HIV Pill",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/07/22/trump-plans-tariffs-on-generics-merck-gilead-hiv-pill/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a brief news roundup ('Pharmalittle') covering multiple disconnected topics \u2014 generic drug tariffs, an HIV pill, and more \u2014 with no depth or analytical substance, and it does not fit Slot 3 (Tech/AI) in any meaningful way."
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Hospitals' AI May Be Drifting. Who's Watching?",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a short opinion piece (First Opinion column) that makes a high-level governance argument without analytical depth, proprietary data, or actionable investment insight \u2014 it reads as a call-to-action essay rather than deep analysis, and the full text was truncated, suggesting possible paywall issues; it also mismatches the Slot 3 domain criteria (statnews.com is a Slot 1 domain, not a Slot 3 tech/AI domain like stratechery.com or importai.net)."
   }
 ]
