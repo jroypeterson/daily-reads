@@ -1,0 +1,90 @@
+{
+  "run_date": "2026-07-23",
+  "generated_at": "2026-07-23T13:39:19Z",
+  "counts": {
+    "gmail_items": 123,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "5ceac37d7de53846",
+      "headline": "Boston Scientific Has to Keep Buying the Future",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/bsx",
+      "slot": 1,
+      "summary": "Scuttleblurb traces Boston Scientific's origins from its 1979 founding through decades of acquisitive growth, documenting how the company built a vast interventional medicine portfolio through roll-ups and transformative deals. The piece examines BSX's historical dependence on blockbuster products like the TAXUS drug-eluting stent \u2014 which briefly drove explosive revenue growth before facing secular decline \u2014 as a lens for interrogating whether the company's current acquisition-driven strategy (including the $14.5B Penumbra deal) is structurally sound or masks underlying portfolio maturation. With organic growth guidance cut to 6.5\u20138% from 10\u201311% and the stock down ~60%, the analysis frames Q2 earnings (July 29) as a key test of whether BSX's model can generate returns without perpetual M&A.",
+      "why_it_matters": "With BSX near multi-year lows and Q2 earnings six days out, this deep historical and structural analysis provides the investment framework needed to evaluate whether the stock's selloff reflects a temporary reset or a permanent impairment of the company's acquisition-driven growth thesis.",
+      "signal_tags": [
+        "ticker_match:BSX",
+        "high_priority_source",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "serial_acquirer_analysis",
+        "deep_business_diligence"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "57c10893a1bb729c",
+      "headline": "AI Debt Is Crowding Out Treasuries",
+      "source": "Bloomberg Markets Daily",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-23/ai-debt-competing-with-treasuries-is-adding-to-lofty-us-yields",
+      "slot": 2,
+      "summary": "Hyperscalers including Alphabet, Amazon, Meta, Microsoft, and Oracle have issued over $300B in corporate bonds since 2025, with issuance projected to reach $570B in 2026, creating a structural crowding-out dynamic that is contributing to elevated Treasury yields. Investor appetite is visibly softening \u2014 Amazon recently had to offer 18\u201321bps of extra yield concession to place its latest deal \u2014 signaling that the market's capacity to absorb AI-driven debt supply is approaching limits. The piece frames this as an underappreciated macro risk: rising yields driven by AI capex financing could stress cash-flow-negative AI companies facing refinancing, and pressure rate-sensitive sectors including biotech and hospital systems.",
+      "why_it_matters": "For a reader with exposure to biotech and AI infrastructure names, this surfaces a second-order yield risk that is structurally distinct from typical Fed policy narratives \u2014 AI capex debt issuance itself is now a marginal driver of the rate environment that reprices growth and healthcare assets.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "data_infrastructure"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "241a6790617dd8b8",
+      "headline": "Is That AI Agent Worth It? Agentic Economics and the Modern Operating Model",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/agentic-ai-economics",
+      "slot": 3,
+      "summary": "McKinsey identifies 6 economic patterns governing agentic AI deployments, with a striking finding that 60% of operating costs stem from response verification and refinement loops rather than generation itself. The report pinpoints long-lived context windows, modification loops, and inefficient orchestration as key cost drivers, and maps which workflow archetypes justify agentic investment versus simpler automation. Enterprises are shifting from cost-reduction framing toward ROI demonstration, requiring more rigorous economic modeling before deploying agents at scale.",
+      "why_it_matters": "For healthcare operators and investors evaluating AI-enabled care management, prior auth automation, or clinical decision support, this framework provides a rigorous lens to distinguish genuine value creation from expensive token burn \u2014 directly applicable as payers like Cigna announce large AI savings targets.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "data_infrastructure",
+        "health_software_SaaS"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "14a84bfe53c04e4f",
+      "headline": "Vertex Was Sole Bidder in High-Premium Crinetics Acquisition",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquisition-deal-bidder-process/825952/",
+      "slot": 4,
+      "summary": "Vertex Pharmaceuticals was the sole serious bidder in its $10B acquisition of Crinetics Pharmaceuticals, paying a 102% premium ($85/share) after a months-long process in which Crinetics approached six other potential acquirers \u2014 all of whom dropped out, with the most interested capping interest below $6B. The detailed timeline reveals Vertex moved from an initial $78/share offer in March to a final $85 'best and final' in June, with Crinetics' board squeezing incremental improvements but ultimately accepting without competitive tension. Analysts at RBC argue the deal can be justified on peak sales potential north of $5B annually, but the single-bidder dynamic has reignited debate about whether Vertex overpaid on its largest-ever deal.",
+      "why_it_matters": "The granular deal-process anatomy \u2014 lone bidder dynamics, board countermove sequencing, and EPS dilution as a pricing ceiling signal \u2014 offers a reusable framework for evaluating capital allocation discipline and M&A process quality across the current biotech consolidation wave.",
+      "signal_tags": [
+        "ticker_match:CRNX",
+        "novelty",
+        "actionability",
+        "corporate_governance",
+        "deep_business_diligence"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    }
+  ]
+}

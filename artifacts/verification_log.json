@@ -6478,5 +6478,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a short opinion piece (First Opinion column) that makes a high-level governance argument without analytical depth, proprietary data, or actionable investment insight \u2014 it reads as a call-to-action essay rather than deep analysis, and the full text was truncated, suggesting possible paywall issues; it also mismatches the Slot 3 domain criteria (statnews.com is a Slot 1 domain, not a Slot 3 tech/AI domain like stratechery.com or importai.net)."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/bsx",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive Scuttleblurb deep-dive into Boston Scientific's serial M&A model, competitive moat, and organic growth sustainability \u2014 exactly matching the reader's strong preferences for serial acquirer analysis, competitive moat analysis, and analytical depth, with Q2 earnings in 6 days as a live catalyst."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "The Geopolitics of Open Weights",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-geopolitics-of-open-weights",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI article that fits Slot 3 far better than Slot 2 (Finance/Macro) \u2014 it analyzes open-weight model competition and geopolitical AI strategy, not macro moves, earnings, sector rotation, or healthcare-adjacent finance like drug pricing or reimbursement."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "AI Debt Is Crowding Out Treasuries",
+    "source": "Bloomberg Markets Daily",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-07-23/ai-debt-competing-with-treasuries-is-adding-to-lofty-us-yields",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "The article presents a substantive, data-driven macro thesis connecting AI hyperscaler bond issuance ($300B+ since 2025, projected $570B in 2026) to elevated Treasury yields, with concrete evidence of softening investor appetite (Amazon's 18\u201321bps yield concession), making it a genuinely novel and actionable second-order risk factor for rate-sensitive portfolios."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Is That AI Agent Worth It? Agentic Economics and the Modern Operating Model",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/agentic-ai-economics",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's agentic AI economics framework directly maps to reader's strong preferences for data infrastructure, AI impact, and analytical depth, with actionable enterprise deployment insights relevant to healthcare AI use cases."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "GSK Lung Cancer Drug Gets Speedy Approval Following $10.6B Deal",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/gsk-nuvalent-jideytro-fda-approve-ros1-lung-cancer/825967/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/Biopharma) story \u2014 a straightforward FDA approval news item \u2014 not a Wildcard/Curiosity piece, and it lacks the analytical depth, cross-domain thinking, or 'would I forward this?' quality required for Slot 4; it also sits squarely in the 'niche therapeutics' avoid pattern (ROS1+ NSCLC is a small 2% subpopulation) with thin commercial outlook discussion rather than the deep M&A valuation or roll-up strategy analysis the reader profile craves."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Trump Threatens Tariffs on Imported Generic Drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/trump-tariffs-generic-drugs-pharmaceuticals-impact/825879/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin news brief with limited analytical depth \u2014 it reports a Truth Social post with no implementation details, legal grounding, or meaningful downstream modeling, and the shortlist summary overstates the article's actual analytical content (there is no formulary/PBM/specialty pharmacy cost modeling in the piece)."
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Vertex Was Sole Bidder in High-Premium Crinetics Acquisition",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquisition-deal-bidder-process/825952/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive deal-process mechanics \u2014 specific dates, price moves, counterparty behavior, and board deliberations \u2014 that support genuine analytical depth on M&A governance and capital allocation quality, fitting the Wildcard slot's 'would I forward this?' test and aligning with the reader's strong interest in competitive moat analysis, deep business diligence, and corporate governance."
   }
 ]
