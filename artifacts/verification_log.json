@@ -6541,5 +6541,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The article provides substantive deal-process mechanics \u2014 specific dates, price moves, counterparty behavior, and board deliberations \u2014 that support genuine analytical depth on M&A governance and capital allocation quality, fitting the Wildcard slot's 'would I forward this?' test and aligning with the reader's strong interest in competitive moat analysis, deep business diligence, and corporate governance."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the Boston Scientific deep-dive promised by the headline \u2014 it is a Scuttleblurb table of contents/preview page listing upcoming and recent posts, with BSX only mentioned as a forthcoming article ('Upcoming posts: Gartner, Visa/Mastercard, Tractor Supply, Boston Scientific\u2026'), meaning the actual content has not yet been published."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "FDA advisory panel votes to allow compounding of unapproved peptides",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a substantive FDA advisory panel decision with direct regulatory and competitive implications for the compounding pharmacy industry and branded weight-loss/wellness drug makers, fitting Slot 1's FDA decision criteria from a high-priority source."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "The Geopolitics of Open Weights",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-geopolitics-of-open-weights",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and reader taste alignment, this article belongs in Slot 3 (Tech/AI) not Slot 2 (Finance/Macro) \u2014 it is fundamentally an AI competitive dynamics and geopolitics piece, not a finance or macro article, and the slot rules are strict about domain fit."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Alphabet 2Q'26: Google Cloud is On Cloud Nine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-2q26-google-cloud-is-on",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is partially paywalled \u2014 the substantive analysis of investor concerns, capex dynamics, and competitive positioning is locked behind a subscription wall, leaving only a thin intro with basic revenue/margin figures that don't meet the depth standard."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Is that AI agent worth it? Agentic economics and the modern operating model",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Slot 3 (Tech/AI) article misrouted to Slot 2 (Finance/Macro) \u2014 it lacks macro, earnings, or markets content \u2014 and while the McKinsey source and AI agent economics topic are relevant to reader interests, the full article text was not fetched, making depth unverifiable, and the framework-style consulting piece fits better as a Slot 4 wildcard or Slot 3 AI entry."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "For big payers, is insurance still the point?",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/for-big-payers-is-insurance-still-the-point/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The topic \u2014 structural business model transformation of major managed care companies away from pure insurance toward services \u2014 aligns strongly with Slot 2's healthcare-adjacent finance theme and matches the reader's preferences for competitive moat analysis and deep business diligence."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "OpenAI makes Health in ChatGPT widely available, moving deeper into consumer health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/openai-makes-health-chatgpt-widely-available-moving-deeper-consumer-health",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance covering OpenAI's Health in ChatGPT launch with specific technical details (EHR integrations with Epic/Oracle, new model versions GPT-5.5 Instant and GPT-5.6 Sol, HealthBench benchmarks, B.Well partnership), privacy architecture, and competitive displacement implications for health IT incumbents \u2014 directly matching Slot 3's AI-in-healthcare priority and the reader's strong interest in AI impact and data infrastructure."
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Iran War and Trump's Tariffs Threaten a Resilient U.S. Economy",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/07/24/business/iran-war-tariffs-economy.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a generic macro news article from NYT covering well-known geopolitical and tariff risks \u2014 the healthcare-specific framing in the summary appears to be editorial spin added during shortlisting, not content from the article itself, and it doesn't meet the 'would I forward this?' bar for the Wildcard slot given the reader's preference for analytical depth over broad news recaps."
   }
 ]

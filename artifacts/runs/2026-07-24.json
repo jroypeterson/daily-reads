@@ -1,0 +1,76 @@
+{
+  "run_date": "2026-07-24",
+  "generated_at": "2026-07-24T13:31:53Z",
+  "counts": {
+    "gmail_items": 125,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "249f34bf3006e597",
+      "headline": "FDA advisory panel votes to allow compounding of unapproved peptides",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/",
+      "slot": 1,
+      "summary": "An FDA advisory panel narrowly voted to allow compounding pharmacies to produce popular but clinically unproven peptides including BPC-157 and KPV, a decision aligned with RFK Jr.'s MAHA agenda despite limited safety and efficacy evidence. The vote sets a significant precedent for how the current FDA administration will weigh political pressure against evidence-based standards in regulatory decisions. The article also notes new data on Eli Lilly's triple-G drug retatrutide, with an NDA filing now targeting 2027.",
+      "why_it_matters": "The peptide compounding ruling signals a loosening of FDA evidence standards under RFK Jr. that could expand competition for branded GLP-1 and wellness drugs (relevant to LLY, NVO), while the retatrutide filing delay shifts the competitive timeline in the obesity market.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "ticker_match:DRUG",
+        "ticker_match:DGX",
+        "source:statnews",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "2659037ff12b7d11",
+      "headline": "For big payers, is insurance still the point?",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/finance/for-big-payers-is-insurance-still-the-point/",
+      "slot": 2,
+      "summary": "Becker's Hospital Review examines how UnitedHealth, CVS/Aetna, and Cigna have increasingly derived value from services businesses \u2014 PBMs, care delivery platforms, and data analytics \u2014 rather than traditional insurance underwriting. Q2 earnings are highlighting the divergence between struggling insurance segments (facing ACA and Medicaid headwinds) and growing services units. This raises the strategic question of whether 'payer' remains an accurate label for these conglomerates.",
+      "why_it_matters": "For investors in managed care, understanding which companies have successfully insulated themselves from insurance cycle risk through services diversification is essential to sector positioning amid ongoing Medicaid cuts and ACA exchange volatility.",
+      "signal_tags": [
+        "ticker_match:MOH",
+        "ticker_match:CI",
+        "subsector:Mgd_Care",
+        "catalyst_proximity",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "ec0809a85144a21e",
+      "headline": "OpenAI makes Health in ChatGPT widely available, moving deeper into consumer health",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/openai-makes-health-chatgpt-widely-available-moving-deeper-consumer-health",
+      "slot": 3,
+      "summary": "OpenAI has broadly launched Health in ChatGPT for U.S. users, enabling connection of medical records (via Epic, Oracle Health, One Medical, Function Health) and Apple Health wearable data through a B.Well partnership, transforming ChatGPT from a generic health Q&A tool into a personalized health data interface. The rollout introduces new model versions \u2014 GPT-5.5 Instant (free tier) and GPT-5.6 Sol (paid) \u2014 purpose-optimized for health reasoning, evaluated against HealthBench Professional benchmarks with input from 200+ physician advisors across 60 countries. Connected health data receives enhanced encryption and is explicitly excluded from model training, addressing a key adoption barrier.",
+      "why_it_matters": "OpenAI entering consumer health data aggregation at scale \u2014 with direct EHR integrations already live \u2014 is a category-defining competitive threat to health IT platforms (Epic's patient engagement layer, HCAT, Veradigm) and a significant validation signal for the AI-in-healthcare infrastructure thesis that warrants immediate portfolio review.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "AI_impact",
+        "AI_biology_intersection",
+        "health_technology_datasets",
+        "novelty",
+        "actionability",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
