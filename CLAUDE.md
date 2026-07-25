@@ -9,7 +9,9 @@ After making changes to this project, always commit and push to GitHub:
 
 Do not leave local changes uncommitted. The project should stay in sync with GitHub.
 
-Note: the local Windows scheduled task (daily Dropbox taste ingestion) commits to the same branch. If you encounter merge conflicts on rebase, they're almost always timestamp-only diffs in `learned_preferences.json`/`.md` — resolve by keeping `HEAD` (the newer remote version).
+Note: the local Windows scheduled task (daily Dropbox taste ingestion) commits to the same branch, so **two writers share `learned_preferences.json`/`.md`**.
+
+**Timestamp-churn conflicts were fixed at the source on 2026-07-25** — `preference_learning.apply_evidence()` now stamps `updated_at`/`last_updated` only when a strength or evidence-id set actually changes, so a no-op learning run produces a no-op diff and the two writers stop colliding over nothing. Before that fix the file was rewritten with a fresh clock every run; six local commits had accumulated that were byte-identical to the remote once timestamps were stripped (all 18 topics), and the standing advice here was to resolve by keeping `HEAD`. If you *do* still hit a conflict in these files, it now means a **real** preference divergence — look at the strengths and evidence ids, don't just take one side. Invariant guarded by `test_unchanged_preferences_do_not_restamp_timestamps`.
 
 ## Newsletter sources
 

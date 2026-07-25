@@ -46,8 +46,16 @@ def fast_update_preferences() -> dict:
     """
     evidence = load_taste_evidence()
     current = load_json(LEARNED_PREFERENCES_JSON_PATH, {})
-
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return apply_evidence(current, evidence, now)
+
+
+def apply_evidence(current: dict, evidence: list[dict], now: str) -> dict:
+    """Pure core of `fast_update_preferences` — no disk, no clock.
+
+    Split out so the no-op-run invariant is testable: identical evidence must
+    leave the model byte-identical (see the timestamp note below).
+    """
     summary = _evidence_summary(evidence)
 
     # If there are no existing v2 preferences, build a minimal shell
@@ -63,9 +71,20 @@ def fast_update_preferences() -> dict:
             "score_scale": {"1": "Miss", "2": "Fine", "3": "Strong pick"},
         }
 
-    # Update evidence summary
-    current["evidence_summary"] = summary
-    current["updated_at"] = now
+    # Timestamps are stamped ONLY when something actually changed.
+    #
+    # Until 2026-07-25 `updated_at` and `last_updated` were rewritten on every
+    # run regardless, so two writers (the GH Actions daily run and the local
+    # Dropbox taste-ingestion task) produced commits that differed by nothing
+    # but the clock -- and then conflicted with each other. That churn built up
+    # six local commits carrying zero information; verified by stripping the
+    # timestamps, at which point the two sides were byte-identical across all
+    # 18 topics. A no-op run should now produce a no-op diff.
+    changed = False
+
+    if current.get("evidence_summary") != summary:
+        current["evidence_summary"] = summary
+        changed = True
 
     # Adjust existing preference strengths based on evidence
     for pref_list_key in ("topic_preferences", "source_preferences", "style_preferences"):
@@ -88,9 +107,13 @@ def fast_update_preferences() -> dict:
                 elif kind == "daily_rating_1":
                     negative += 1
             if matched_ids:
-                pref["strength"] = _strength_for(positive, negative)
-                pref["evidence_ids"] = matched_ids
-                pref["last_updated"] = now
+                strength = _strength_for(positive, negative)
+                if (pref.get("strength") != strength
+                        or pref.get("evidence_ids") != matched_ids):
+                    pref["strength"] = strength
+                    pref["evidence_ids"] = matched_ids
+                    pref["last_updated"] = now
+                    changed = True
 
     # Same for avoid patterns
     for pref in current.get("avoid_patterns", []):
@@ -103,9 +126,13 @@ def fast_update_preferences() -> dict:
             note = (entry.get("note") or "").lower()
             if name_lower in title or name_lower in note:
                 matched_ids.append(entry.get("id"))
-        if matched_ids:
+        if matched_ids and pref.get("evidence_ids") != matched_ids:
             pref["evidence_ids"] = matched_ids
             pref["last_updated"] = now
+            changed = True
+
+    if changed:
+        current["updated_at"] = now
 
     return current
 

@@ -1690,3 +1690,56 @@ class WeeklyReportCountsSubstitutionsTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+# --- preference-model timestamp churn (2026-07-25) --------------------------
+
+def test_unchanged_preferences_do_not_restamp_timestamps():
+    """A no-op learning run must produce a no-op diff.
+
+    Stamping `updated_at`/`last_updated` unconditionally made the GH Actions
+    run and the local Dropbox taste task emit commits that differed by nothing
+    but the clock -- and then conflict. Six local commits accumulated carrying
+    zero information.
+    """
+    import copy
+    from preference_learning import apply_evidence
+
+    before = {
+        "version": 2,
+        "updated_at": "2026-07-20T10:00:00Z",
+        "topic_preferences": [{
+            "name": "corporate governance", "strength": "strong",
+            "evidence_ids": ["ev_1"], "last_updated": "2026-07-20T10:00:00Z",
+        }],
+        "source_preferences": [], "style_preferences": [], "avoid_patterns": [],
+        "evidence_summary": None,
+    }
+    evidence = [{"id": "ev_1", "title": "corporate governance piece",
+                 "note": "", "kind": "positive_exemplar"}]
+
+    first = apply_evidence(copy.deepcopy(before), evidence, "2026-07-25T10:00:00Z")
+    # Seed the summary the first pass computes, then re-run on identical input.
+    stable = copy.deepcopy(first)
+    second = apply_evidence(copy.deepcopy(stable), evidence, "2026-07-26T11:11:11Z")
+
+    assert second == stable, "identical evidence must leave the model byte-identical"
+
+
+def test_a_real_change_still_stamps():
+    from preference_learning import apply_evidence
+
+    base = {
+        "version": 2, "updated_at": "2026-07-20T10:00:00Z",
+        "topic_preferences": [{
+            "name": "biotech", "strength": "weak", "evidence_ids": [],
+            "last_updated": "2026-07-20T10:00:00Z",
+        }],
+        "source_preferences": [], "style_preferences": [], "avoid_patterns": [],
+        "evidence_summary": None,
+    }
+    out = apply_evidence(base, [{"id": "ev_9", "title": "biotech breakthrough",
+                                 "note": "", "kind": "positive_exemplar"}],
+                         "2026-07-25T10:00:00Z")
+    assert out["topic_preferences"][0]["evidence_ids"] == ["ev_9"]
+    assert out["updated_at"] != "2026-07-20T10:00:00Z"
