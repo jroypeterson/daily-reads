@@ -6613,5 +6613,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "This is a generic macro news article from NYT covering well-known geopolitical and tariff risks \u2014 the healthcare-specific framing in the summary appears to be editorial spin added during shortlisting, not content from the article itself, and it doesn't meet the 'would I forward this?' bar for the Wildcard slot given the reader's preference for analytical depth over broad news recaps."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/bsx",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive Scuttleblurb deep-dive into Boston Scientific's structural M&A dependency, with genuine historical analysis tracing the company's growth pattern from TAXUS through current EP/Watchman headwinds \u2014 exactly the kind of long-form, analytically deep MedTech diligence that matches both Slot 1 criteria and the reader's strong preference for competitive moat analysis and serial acquirer diligence."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "The Copium Wars (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-copium-wars",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a table-of-contents newsletter digest from Stratechery, not a substantive article \u2014 it contains only teaser blurbs linking to paywalled content, with no actual analytical depth accessible to evaluate or share."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "Introducing Claude Opus 5",
+    "source": "Anthropic (via Hacker News)",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement for Slot 3 (Tech/AI), not a Finance/Macro article \u2014 it contains no macro analysis, market impact framing, earnings data, or investment thesis, only benchmark comparisons and feature descriptions."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "HCA Healthcare's H1 ACA Volume Dropoffs 'Almost One for One' Shifted to Uninsurance",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/hca-healthcare-reports-203b-q2-revenue-amid-aca-coverage-disruptions",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive earnings detail and a concrete, data-backed finding \u2014 the near 100% exchange-to-uninsured conversion rate \u2014 that has systemic read-through to hospital economics, managed care, and health policy investing, fitting Slot 2's healthcare-adjacent finance theme well."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "Is That AI Agent Worth It? Agentic Economics and the Modern Operating Model",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f8b872e5e95f77f969125cd18/baf55b69cc2347a70000021ef3a0bcc2/baf55b69-cc23-47a7-88e9-a0b137dffa64",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's agentic AI economics framework is substantive, analytically deep, and directly matches the reader's strong preferences for AI impact, data infrastructure, and investment-relevant insights in the Tech/AI slot."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "Alphabet 2Q'26: Google Cloud is On Cloud Nine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-2q26-google-cloud-is-on",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the free preview \u2014 the substantive analysis (concerns about negative FCF, capex ROI, Chinese competition) is locked behind a subscription, leaving only surface-level earnings highlights that don't meet the depth standard required for Slot 4."
+  },
+  {
+    "date": "2026-07-25",
+    "headline": "White House's Pledge to Rebuild Science Has More AI, Less Life Sciences",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWRCPp42d9xvW319qw27gQL_7V1-ywc5RV8yDN8_nRGd3qgz0W7lCdLW6lZ3pVVKCBnR8tn2FTW2YCTd-6VB2N1W5wt8Rn1bNLvFW7HXcV-3RL_9sW8BXcmf8yyj7wW5mc2mD950gdNW4T5X2l8CS6SsW6d4l6b4dT79HW5pTnpl40rWy8W2_HcXX1xC7zpW13JtvD3R2zRDN7QK_d3tt4_yW8v_Kgy56RFZtW8Kdbhg8kq7l1W3w5c5W7SbyF6W8khqPp3HjCFkW7M_H0n3bBDGKW8pYvY11QLQjzW7-Mfwn8msYVRN13C9pcz0knZW2Llc8R8qZK6MW68LYTq2qxKbyW8S_q4C7rx3pBW5X0t-07jzmcMf7pwwJT04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a paywalled STAT+ subscription page with no actual article content accessible \u2014 it contains only marketing copy about subscription benefits, not the substantive reporting described in the headline."
   }
 ]

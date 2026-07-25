@@ -1,0 +1,74 @@
+{
+  "run_date": "2026-07-25",
+  "generated_at": "2026-07-25T13:17:29Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "5ceac37d7de53846",
+      "headline": "Boston Scientific Has to Keep Buying the Future",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/bsx",
+      "slot": 1,
+      "summary": "Scuttleblurb publishes a long-form deep-dive on Boston Scientific (BSX), tracing the company's origins from Medi-Tech's 1969 angiography catheters through its M&A-driven expansion across interventional medicine categories. The piece anchors its structural thesis in the TAXUS drug-eluting stent cycle of the early 2000s \u2014 when cardiovascular revenue doubled from $2.2bn to $4.5bn \u2014 as a template for how BSX repeatedly builds dependence on a single blockbuster franchise before needing to acquire its way to the next one. The article sets up the argument that BSX's current 50%+ YTD drawdown tied to Watchman and electrophysiology headwinds is a replay of this historical pattern, raising the question of whether the company can successfully acquire its next growth engine.",
+      "why_it_matters": "With BSX down 50%+ YTD and 27 of 31 analysts still rating it a Buy at a $78 consensus target implying 65% upside, this deep historical analysis of the company's structural M&A dependency is essential reading for any investor deciding whether the drawdown is a buying opportunity or a permanent de-rating of a business model that requires continuous acquisition to survive.",
+      "signal_tags": [
+        "ticker_match:BSX",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "deep_business_diligence",
+        "competitive_moat_analysis",
+        "serial_acquirer_analysis"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "e7f0422975b1b0fb",
+      "headline": "HCA Healthcare's H1 ACA Volume Dropoffs 'Almost One for One' Shifted to Uninsurance",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/finance/hca-healthcare-reports-203b-q2-revenue-amid-aca-coverage-disruptions",
+      "slot": 2,
+      "summary": "HCA Healthcare's Q2 2026 results reveal that patients dropping ACA marketplace coverage due to higher premiums converted to uninsured status 'almost one for one' rather than shifting to commercial coverage \u2014 a worse outcome than management's 80-85% assumption. The payer mix deterioration delivered a ~$400M pre-tax EBITDA headwind in Q2 alone, pushing the full-year ACA subsidy impact to $1.0\u2013$1.2B and forcing downward guidance revisions across net income, EBITDA, and EPS. Despite this, HCA still grew revenue 8.7% YoY and EPS 11.6% aided by share buybacks and solid insured volume trends outside exchanges.",
+      "why_it_matters": "The one-for-one exchange-to-uninsured conversion pattern is a systemic signal for the entire for-profit hospital sector and has direct read-through to managed care payers, health IT spending, and the broader investment thesis around ACA subsidy expiration risk.",
+      "signal_tags": [
+        "ticker_match:HCA",
+        "ticker_match:THC",
+        "ticker_match:CYH",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "regulatory_affairs"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9ace275aa088ce71",
+      "headline": "Is That AI Agent Worth It? Agentic Economics and the Modern Operating Model",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019f8b872e5e95f77f969125cd18/baf55b69cc2347a70000021ef3a0bcc2/baf55b69-cc23-47a7-88e9-a0b137dffa64",
+      "slot": 3,
+      "summary": "McKinsey identifies six ROI archetypes for evaluating agentic AI deployment, with a key finding that 60% of operating costs stem from verifying and refining responses \u2014 not compute. The piece examines cost drivers including long-lived context windows, inefficient orchestration, and response modification loops. It offers a decision framework for enterprises weighing whether to deploy, defer, or redesign agentic workflows.",
+      "why_it_matters": "This framework will directly shape how CFOs and CIOs at pharma companies, health systems, and health IT vendors approve or kill agentic AI programs, making it relevant to enterprise software adoption curves and digital health SaaS valuations.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "data_infrastructure",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}
