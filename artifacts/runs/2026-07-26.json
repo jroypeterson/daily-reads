@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-07-26",
+  "generated_at": "2026-07-26T13:13:12Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 77,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "60995fc033607be0",
+      "headline": "Patrick Finn on how tension can lead to healthcare's reinvention",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019f94fd3601aa2208f4bbc782e8/e8923d6b38de41790000021ef3a0bcc2/e8923d6b-38de-4179-a943-d0cc3b425e67",
+      "slot": 1,
+      "summary": "McKinsey's interview with Patrick Finn examines how compounding structural tensions among U.S. payers, providers, and technology disruptors are driving systemic healthcare reinvention rather than incremental adaptation. The discussion covers how AI, reimbursement pressure, and workforce shifts are converging to reshape care delivery models. Finn offers a forward-looking framework for identifying where durable competitive advantages will emerge in this disrupted landscape.",
+      "why_it_matters": "For investors and strategists, this provides a sector-level map of where structural winners and losers are likely to emerge across payers, providers, and health technology \u2014 actionable for portfolio positioning during peak policy disruption.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:HCAT",
+        "analytical_depth",
+        "forward_looking_perspective",
+        "AI_impact",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}

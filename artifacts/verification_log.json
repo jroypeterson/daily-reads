@@ -6676,5 +6676,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The full article text is a paywalled STAT+ subscription page with no actual article content accessible \u2014 it contains only marketing copy about subscription benefits, not the substantive reporting described in the headline."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the promised Boston Scientific deep-dive \u2014 it is a Scuttleblurb table-of-contents/preview page showing teasers for multiple upcoming posts, with BSX listed only as a forthcoming piece, not yet published."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "The Copium Wars (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-copium-wars",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents/digest email for Stratechery, not a substantive article \u2014 it contains only brief teasers for actual articles behind a paywall, and it targets Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "FDA advisory panel votes to allow compounding of unapproved peptides",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWQvrV7zN62MW6lttr062pfZ8W5n2k0f5RS5W9N1m0Frx3qgz0W7lCdLW6lZ3mzW6bTjsD8XDTgkW3x1H438-Hk3hW8cqbt08Rgb6gW594tf94xQvgKW2_4yTN20SHzsW8SYsxw5hPd-vW91sz1T6hrH2xN6PspY8kzv_9W8kHdR-3xCs47W2Z5mWn6Vcx-rW25KnSk8pGGnmN7dlKbvg78jVW1FHrDY5p_XZMW46LXcQ3h7Py5W86WPkV5skrzZW6P4XhN7w0GVpW8rd92_7XLz5ZW1ffGv61kHzhjW6sZBCV6qxbZmW91433Y85R0cWW2FVg3J1v9P4cW4g65ys4_FRdxW97pHHQ6KJpbQW4Dxc1989SN0xf8WHTdC04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall/subscription page with no accessible article content, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "Is that AI agent worth it? Agentic economics and the modern operating model",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f8b872e5e95f77f969125cd18/baf55b69cc2347a70000021ef3a0bcc2/baf55b69-cc23-47a7-88e9-a0b137dffa64",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI article misrouted to the Healthcare slot \u2014 it belongs in Slot 3 at best, and does not meet Slot 1 criteria which requires FDA decisions, clinical trial data, M&A, or biopharma pipeline news."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "MBI Deep Dives: Alphabet 2Q'26 \u2014 Google Cloud is On Cloud Nine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-2q26-google-cloud-is-on",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/Finance article about Alphabet (GOOGL) earnings, not a Healthcare/Biotech article \u2014 it has no meaningful connection to Slot 1's required themes of FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "Texas Instruments 2Q'26: Not Another Head Fake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/texas-instruments-2q26-not-another",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is paywalled \u2014 the full content is not accessible, only a teaser paragraph is visible \u2014 and it targets the semiconductor/analog cycle, not healthcare/biopharma as required for Slot 1."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "Patrick Finn on how tension can lead to healthcare's reinvention",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019f94fd3601aa2208f4bbc782e8/e8923d6b38de41790000021ef3a0bcc2/e8923d6b-38de-4179-a943-d0cc3b425e67",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority consulting source and the topic \u2014 structural reinvention of U.S. healthcare driven by AI, reimbursement pressure, and workforce dynamics \u2014 aligns well with the reader's strong preferences for competitive moat analysis, AI impact, and deep business diligence, even if the slot is nominally healthcare/biotech."
+  },
+  {
+    "date": "2026-07-26",
+    "headline": "The Geopolitics of Open Weights",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-geopolitics-of-open-weights",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and reader-profile alignment, this article belongs in Slot 3 (Tech/AI) \u2014 it is fundamentally an AI competitive dynamics and geopolitics piece, not a Finance/Macro piece \u2014 and the shortlist summary itself notes it 'complements the Stratechery Copium Wars piece,' suggesting it would duplicate the AI slot rather than fill the Finance slot."
   }
 ]
