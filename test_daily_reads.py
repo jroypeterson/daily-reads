@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import tempfile
 import unittest
@@ -1743,3 +1744,117 @@ def test_a_real_change_still_stamps():
                          "2026-07-25T10:00:00Z")
     assert out["topic_preferences"][0]["evidence_ids"] == ["ev_9"]
     assert out["updated_at"] != "2026-07-20T10:00:00Z"
+
+
+class VerifySlotDeferralTests(unittest.TestCase):
+    """A candidate that fails ONLY on slot fit must be re-offered to its own slot.
+
+    verify_shortlist walks the shortlist in rank order and verifies each
+    candidate against whichever slot is currently being filled, discarding
+    anything that fails. So an article excellent for Slot 1 that happens to
+    surface while Slot 3 is being filled is rejected as off-theme and burned --
+    it can never fill the slot it was right for.
+
+    Measured on artifacts/verification_log.json since 2026-05-01: 89 of 411
+    failures (21.7%) are this class, and the verifier's own reasons name the
+    slot the article belonged to. Casualties include "Sun Pharma signs $11.75B
+    Organon buyout" and a Biogen tau Phase 2 readout -- both rejected FOR SLOT 3
+    while the stated reason was that they belonged in Slot 1.
+    """
+
+    def _client(self, verdicts, seen_slots):
+        class _Msg:
+            def __init__(self, text):
+                self.content = [SimpleNamespace(type="text", text=text)]
+
+        class _Messages:
+            def create(_self, **kw):
+                prompt = kw["messages"][0]["content"]
+                m = re.search(r"TARGET SLOT: Slot (\d)", prompt)
+                seen_slots.append(int(m.group(1)) if m else None)
+                return _Msg(json.dumps(verdicts.pop(0)))
+
+        return SimpleNamespace(messages=_Messages())
+
+    @staticmethod
+    def _ok(reason):
+        return {"pass": True, "reason": reason, "summary": "a",
+                "why_it_matters": "b", "reading_time": "3 min"}
+
+    @staticmethod
+    def _no(reason, best_slot=None):
+        v = {"pass": False, "reason": reason, "summary": "",
+             "why_it_matters": "", "reading_time": ""}
+        if best_slot is not None:
+            v["best_slot"] = best_slot
+        return v
+
+    def _run(self, cands, verdicts):
+        import main
+        seen = []
+        client = self._client(verdicts, seen)
+        with mock.patch.object(main, "fetch_article_text",
+                               return_value=("full text " * 60, "trafilatura")) as fetch,              tempfile.TemporaryDirectory() as td:
+            cwd = os.getcwd()
+            os.chdir(td)
+            try:
+                out = main.verify_shortlist(cands, "crit", "", "", client)
+            finally:
+                os.chdir(cwd)
+        return out, seen, fetch
+
+    @staticmethod
+    def _c(rank, headline, source, url):
+        return {"rank": rank, "headline": headline, "source": source, "url": url,
+                "summary": "s" * 80, "why_it_matters": "w"}
+
+    def test_in_order_candidates_still_fill_slots_normally(self):
+        cands = [self._c(1, "Pharma M&A", "Endpoints", "https://x.test/p"),
+                 self._c(2, "Macro note", "FT", "https://x.test/m"),
+                 self._c(3, "Model release", "TechCo", "https://x.test/a")]
+        verdicts = [self._ok("hc"), self._ok("macro"), self._ok("ai"),
+                    self._no("no wildcard")]
+        out, _, _ = self._run(cands, verdicts)
+        self.assertEqual([a["slot"] for a in out], [1, 2, 3])
+
+    def test_article_rejected_for_the_current_slot_is_retried_on_its_best_slot(self):
+        cands = [self._c(1, "Model release", "TechCo", "https://x.test/a"),
+                 self._c(2, "Pharma M&A", "Endpoints", "https://x.test/p"),
+                 self._c(3, "Macro note", "FT", "https://x.test/m")]
+        verdicts = [self._no("targets Slot 3 (Tech/AI), not Slot 1", best_slot=3),
+                    self._ok("hc"), self._ok("macro"), self._ok("ai on retry"),
+                    self._no("no wildcard")]
+        out, seen, fetch = self._run(cands, verdicts)
+
+        by_slot = {a["slot"]: a["headline"] for a in out}
+        self.assertEqual(by_slot.get(3), "Model release",
+                         "the AI article must fill Slot 3, not be discarded")
+        self.assertIn(3, seen, "it must actually be re-verified against Slot 3")
+        self.assertEqual(fetch.call_count, 3,
+                         "one fetch per URL -- extraction is the expensive, "
+                         "fragile half and must not be repeated on retry")
+
+    def test_a_parked_article_is_not_retried_forever(self):
+        cands = [self._c(1, "AI thing", "TechCo", "https://x.test/a"),
+                 self._c(2, "Pharma", "Endpoints", "https://x.test/p"),
+                 self._c(3, "Macro", "FT", "https://x.test/m")]
+        verdicts = [self._no("belongs Slot 3", best_slot=3), self._ok("hc"),
+                    self._ok("macro"), self._no("thin on retry too", best_slot=3),
+                    self._no("no wildcard")]
+        out, _, _ = self._run(cands, verdicts)
+        self.assertNotIn("AI thing", [a["headline"] for a in out])
+        self.assertLessEqual(len(verdicts), 1,
+                             "must not loop re-verifying the same item")
+
+    def test_parked_article_does_not_bypass_source_dedup(self):
+        """A parked item still competes under the one-article-per-source rule."""
+        cands = [self._c(1, "AI thing", "TechCo", "https://x.test/a"),
+                 self._c(2, "Pharma", "Endpoints", "https://x.test/p"),
+                 self._c(3, "Macro", "FT", "https://x.test/m"),
+                 self._c(4, "Other AI", "TechCo", "https://x.test/a2")]
+        verdicts = [self._no("belongs Slot 3", best_slot=3), self._ok("hc"),
+                    self._ok("macro"), self._ok("ai on retry"),
+                    self._no("no wildcard")]
+        out, _, _ = self._run(cands, verdicts)
+        sources = [a["source"] for a in out]
+        self.assertEqual(len(sources), len(set(sources)), "no duplicate source")

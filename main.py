@@ -1539,9 +1539,37 @@ def verify_shortlist(
     seen_sources = set()
     next_slot = 1
 
-    for candidate in shortlist:
-        if next_slot > 4:
-            break
+    # Articles rejected ONLY because they were offered to the wrong slot, parked
+    # for the slot they actually belong to. Without this, the shortlist is walked
+    # in rank order against whichever slot is currently being filled, so a strong
+    # Slot-1 story that happens to surface while Slot 3 is open is rejected as
+    # off-theme and BURNED — it can never fill the slot it was right for.
+    # Measured on artifacts/verification_log.json since 2026-05-01: 89 of 411
+    # failures (21.7%) were this, and the verifier's own reasons named the right
+    # slot. Casualties included "Sun Pharma signs $11.75B Organon buyout" and a
+    # Biogen tau Phase 2 readout — both rejected FOR SLOT 3.
+    # Each entry keeps its already-extracted text: extraction is the expensive and
+    # fragile half, so a retry costs one cheap verification call and no refetch.
+    parked: dict[int, list[dict]] = {}
+    retried: set[str] = set()   # URLs already given a second chance — retry once, never loop
+
+    queue = list(shortlist)
+    while next_slot <= 4:
+        # Anything parked for the slot now being filled goes first: it was held
+        # precisely because it belongs here, so it outranks a fresh candidate.
+        pending = parked.pop(next_slot, [])
+        if pending:
+            candidate = pending.pop(0)
+            if pending:
+                parked[next_slot] = pending
+        elif queue:
+            candidate = queue.pop(0)
+        else:
+            # Nothing fresh and nothing parked for this slot. Advance rather than
+            # stop, so a candidate parked for a LATER slot still gets its turn —
+            # the queue emptying must not strand the thing we deliberately held.
+            next_slot += 1
+            continue
 
         url = (candidate.get("url") or "").strip()
         headline = candidate.get("headline", "Untitled")
@@ -1559,8 +1587,13 @@ def verify_shortlist(
         print(f"\n  Reading #{candidate.get('rank', '?')}: {headline[:60]}")
         print(f"    URL: {url}")
 
-        article_text, extraction_tier = fetch_article_text(url)
-        snippet_only = False
+        # A parked candidate already paid for extraction; reuse it.
+        cached_text = candidate.get("_article_text")
+        if cached_text:
+            article_text, extraction_tier = cached_text, candidate.get("_extraction_tier")
+        else:
+            article_text, extraction_tier = fetch_article_text(url)
+        snippet_only = bool(candidate.get("_snippet_only"))
         if not article_text:
             # Fall back to newsletter snippet for paywalled/unfetchable articles
             snippet = candidate.get("summary", "")
@@ -1617,6 +1650,7 @@ Based on the actual article content (not just the headline), evaluate:
 Return ONLY valid JSON with these keys:
 - "pass": true or false
 - "reason": one sentence explaining your verdict
+- "best_slot": if the article is substantive but belongs to a DIFFERENT slot than the target, the slot number it fits best (1 Healthcare/Biotech, 2 Finance/Macro, 3 Tech/AI, 4 Wildcard). Use null when it fits the target slot, or when it is too thin/generic for any slot. Judge this on topic fit alone — an article rejected for lacking substance has no best slot.
 - "summary": an accurate 2-3 sentence summary based on the actual content (rewrite if the original was inaccurate)
 - "why_it_matters": why this matters for the reader, based on actual content
 - "reading_time": estimated minutes to read (e.g. "4 min")
@@ -1672,6 +1706,22 @@ Return ONLY valid JSON with these keys:
             next_slot += 1
         else:
             print(f"    FAIL: {reason}")
+            # Rejected only on slot fit? Hold it for the slot it belongs to
+            # rather than discarding a good article for arriving out of order.
+            try:
+                best = int(verdict.get("best_slot") or 0)
+            except (TypeError, ValueError):
+                best = 0
+            if (best in (1, 2, 3, 4) and best != next_slot and best >= next_slot
+                    and url not in retried):
+                retried.add(url)
+                parked.setdefault(best, []).append({
+                    **candidate,
+                    "_article_text": article_text,
+                    "_extraction_tier": extraction_tier,
+                    "_snippet_only": snippet_only,
+                })
+                print(f"    -> held for slot {best}")
 
     # Persist verification log for weekly reporting
     log_path = Path("artifacts/verification_log.json")
