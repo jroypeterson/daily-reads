@@ -1278,5 +1278,19 @@
     },
     "warned_articles": [],
     "substituted_articles": []
+  },
+  {
+    "date": "2026-07-27",
+    "checked_unique": 55,
+    "checked_slots": 56,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": []
   }
 ]

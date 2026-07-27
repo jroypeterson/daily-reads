@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-07-27",
+  "generated_at": "2026-07-27T14:26:38Z",
+  "counts": {
+    "gmail_items": 138,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e2b92036f3f54707",
+      "headline": "Tenet Healthcare shrugs off ACA headwinds with sweeping Q2 outperformance, boosts 2026 guidance",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/providers/tenet-healthcare-shrugs-aca-headwinds-sweeping-q2-outperformance-boosts-2026-guidance",
+      "slot": 1,
+      "summary": "Tenet Healthcare posted Q2 2026 revenues of $5.62B (~$180M beat) and adjusted EPS of $6.12 ($1.86 beat), with adjusted EBITDA of $1.3B, all well above guidance and consensus. Unlike peers HCA and Community Health Systems, which revised guidance down due to ACA exchange enrollment declines, Tenet absorbed a 17% drop in exchange revenue by pivoting to higher-acuity services, technology-driven cost management, and supplemental Medicaid revenue gains. Management raised FY2026 adjusted EBITDA guidance by $295M to a $4.83\u2013$5.03B range and authorized a $2B share repurchase program, sending shares up ~22%.",
+      "why_it_matters": "THC's ability to offset ACA headwinds through acuity mix shifts and ambulatory expansion creates a meaningful quality differentiator among for-profit hospital operators, making this a high-signal data point for repositioning across the hospitals subsector amid ongoing Medicaid/exchange uncertainty.",
+      "signal_tags": [
+        "ticker_match:THC",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ae1d32e6f60b7ce4",
+      "headline": "HCA turns physician control into competitive edge",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/finance/hca-turns-physician-control-into-competitive-edge/",
+      "slot": 2,
+      "summary": "HCA Healthcare's acquisition of Valesco\u2014initially losing ~$50M/quarter\u2014has been turned into a strategic asset by integrating hospital-based emergency medicine and hospitalist services into HCA's commercial payer contracts, reducing out-of-network exposure and improving reimbursement leverage. The platform gives HCA unified control over physician staffing, scheduling, and contracting across nearly all its facilities, with anesthesia and radiology now the next targets for the same operating model. With $7B+ in capital projects planned over three years and 1,000\u20131,200 new inpatient beds coming online, Valesco's scalable physician coverage model becomes increasingly critical to HCA's growth execution.",
+      "why_it_matters": "HCA's vertical integration of physician services into payer contracts is a durable structural moat\u2014directly relevant for assessing whether HCA can sustain margin resilience against Medicaid/ACA headwinds that will pressure less-integrated hospital operators.",
+      "signal_tags": [
+        "ticker_match:HCA",
+        "novelty",
+        "actionability",
+        "competitive_moat_analysis",
+        "deep_business_diligence"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}

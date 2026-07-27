@@ -6748,5 +6748,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "Despite strong analytical depth and reader-profile alignment, this article belongs in Slot 3 (Tech/AI) \u2014 it is fundamentally an AI competitive dynamics and geopolitics piece, not a Finance/Macro piece \u2014 and the shortlist summary itself notes it 'complements the Stratechery Copium Wars piece,' suggesting it would duplicate the AI slot rather than fill the Finance slot."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Tenet Healthcare shrugs off ACA headwinds with sweeping Q2 outperformance, boosts 2026 guidance",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/providers/tenet-healthcare-shrugs-aca-headwinds-sweeping-q2-outperformance-boosts-2026-guidance",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive earnings detail, management commentary, and peer differentiation analysis that makes it actionable for hospital sector positioning\u2014a direct ticker match (THC) with clear catalyst (guidance raise) and sector read-through value."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the Boston Scientific deep-dive described in the shortlist summary \u2014 it shows only Scuttleblurb's homepage/feed snippets listing upcoming posts (including BSX as forthcoming), meaning the actual BSX analysis has not yet been published."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Freely Flowing Cash (Alphabet 2Q'26 FCF turns negative for first time)",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-27-2026-freely-flowing-cash",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after the macro section, leaving only thin aggregated earnings quotes with no analytical depth on the Alphabet FCF-negative story that was the primary rationale for selection."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Kimi-K3 Releases on HuggingFace 7/27 \u2014 World's First Open 3T-Class Model",
+    "source": "Hacker News / HuggingFace (moonshotai)",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is essentially a pre-release teaser/countdown page with no substantive content\u2014it contains only marketing bullet points and a waiting list, offering no analysis, data, or depth that would merit Slot 2 inclusion."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Alphabet 2Q'26: Google Cloud is On Cloud Nine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-2q26-google-cloud-is-on",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The substantive analysis (FCF concerns, capex sustainability, competitive positioning vs. AWS/Azure) is locked behind a paywall\u2014the freely visible content is essentially a teaser with surface-level revenue/margin figures, making it too thin to deliver the analytical depth the reader requires."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "A blueprint for enterprise-wide AI reinvention",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Slot 3 (Tech/AI) article misrouted to Slot 2 (Finance/Macro) \u2014 it covers enterprise AI transformation frameworks, not finance, markets, or macro topics, and while McKinsey is a high-priority source, the content doesn't fit the target slot and likely offers generic consulting framework depth rather than actionable investment insight."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "The Geopolitics of Open Weights",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-geopolitics-of-open-weights",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI article (geopolitics of open-weight models, AI value chain analysis) that belongs in Slot 3, not Slot 2 Finance/Macro \u2014 it lacks macro, earnings, sector rotation, or payer/pricing content that defines the Finance slot."
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "HCA turns physician control into competitive edge",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/hca-turns-physician-control-into-competitive-edge/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has genuine analytical depth on HCA's vertical integration strategy\u2014covering the Valesco acquisition arc from financial drag to strategic asset, payer contracting implications, and capital deployment context\u2014matching both the Finance/Macro slot and the reader's strong preferences for competitive moat analysis and deep business diligence."
   }
 ]
