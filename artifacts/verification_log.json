@@ -6820,5 +6820,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article has genuine analytical depth on HCA's vertical integration strategy\u2014covering the Valesco acquisition arc from financial drag to strategic asset, payer contracting implications, and capital deployment context\u2014matching both the Finance/Macro slot and the reader's strong preferences for competitive moat analysis and deep business diligence."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Evolving Drug Discovery: AI, Infrastructure, and the Speed of Learning",
+    "source": "Life Sciences VC (LifeSciVC)",
+    "url": "https://lifescivc.com/2026/07/evolving-drug-discovery-ai-infrastructure-and-the-speed-of-learning/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thoughtful, CEO-authored essay with genuine depth, but it fits Slot 3 (Tech/AI) or Slot 4 (Wildcard) far better than Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, M&A, or pipeline news \u2014 this is a strategic/philosophical reflection on AI in drug discovery with no specific catalyst, ticker, or near-term investment event."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Anthropic's Position on Open-Weights Models",
+    "source": "Hacker News / Anthropic",
+    "url": "https://www.anthropic.com/news/position-open-weights-models",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI policy article from Anthropic's CEO about open-weights AI models \u2014 it has zero relevance to the Healthcare/Biotech slot, which requires FDA decisions, clinical trial data, M&A, or biopharma pipeline news."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Capricor's Duchenne Drug Thrown Into Question by FDA",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW5Mzw8zKgG1W5wcGF58BhTjMW1h36Dw5R_KHrMcSJRP3qgz0W7lCdLW6lZ3pDW3xWhJK41gfkLN4VY5JPBTFQ5W8bn4Hb9hDFTfN7z1-Dr57pp0N3SfsnM4GLpSW3fhNZf195H8dM2ljcrDBqKCW6tXVX45BMkZWW8BQJPS33gjXcW8v9z7w7DSTFmW9cpb6327fgGMW8XJtTF8s63K3W4WB3562wDCwMW2cgPJc5d_gBQN29M6XtG_WlWW1zzGCY7_qKhZW3p57qj1s1RsfVlm6sP18PgGfW2LNRLM3dv2YzW1lzTjB78q9rlW53Vd5q20wLllW4cSln837sB4-W8xzmkm5lS1mJW5nQN5p2qnb0DdwwytT04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is entirely a STAT+ subscription marketing page with no accessible article content, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Centene Boosts Guidance Amid $1.1B Q2 Profit, ACA Membership Drop",
+    "source": "Becker's Payer Issues / Fierce Healthcare",
+    "url": "https://www.beckerspayer.com/financial/centene-boosts-guidance-amid-1-1b-q2-profit-aca-membership-drop/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides concrete Q2 earnings data for Centene (CNC) including revenue, EPS, membership shifts, and guidance revisions \u2014 directly relevant to managed care dynamics and the healthcare slot, with actionable investment implications."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Freely Flowing Cash \u2014 Alphabet's FCF Turned Negative for the First Time Ever",
+    "source": "The Transcript (Substack)",
+    "url": "https://thetranscript.substack.com/p/07-27-2026-freely-flowing-cash",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after the macro section, and the actual visible content is a collection of generic earnings call quotes about consumer resilience and inflation \u2014 the headline hook about Alphabet's negative FCF is mentioned only in the editor's summary blurb and is locked behind the premium paywall, making the substance thin and inaccessible."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "The Hidden IP Risk in China's Biotech Boom",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVpmtS50YSQfN2G5Yz8hFBLqW8cYYgJ5S0C4mN6TZ7sP5nR3bW7Y9pgv6lZ3pFW4qrCR26bf8ppV4tyXb3PylcRW8j_rRq5h7R4jW3BZ5Vz20FfcTW46tjXw56sQ9kW8XvPrv2W_zRXW1Pv-rl8kjkTfW6MfG_h3GM86MW2yT85798cyzsW7gJrvf81lqR2W36WwJh8LxLsSW2qfkZj3Yyj1dW2GGN_272qvRBW8RDGMT8clC-tW1KBH4w4HRTHVVnZ49d5-6w_ZW9fFr9-1RwdGRW22H5FY4_mNDKN5HDYvgFT9WLW4qn2fZ5cNZNGW3xrZNF7P4QFsW81j70k1JM4r2W5jKpyB91nYbtW6vf1_B2nRSZsW2hvBRw7f437pW8ZmtHh2SqBHYW8njHW87KPwhfW5L2d7h3M60P4N8WSh8vMHv9WW2ZByLk2YnTDgV5TNhW1BDnXSW14FnQl7-_CyHW8z0b5v68pbwXW6CVyty1-YdbFW5FMn1J62JQwvW6nzZ372Ms3DbW2h7ZyG1ybfcxV4HhB31bP4TWW7_grM72m6WLYW5VCjHb25KqRbW5bYKws6yKjd3VZyF1_6y2nR0f84Dynx04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is actually a newsletter digest with only a headline and one-line teaser for the IP risk story \u2014 there is no substantive article content to evaluate, making it too thin for the analytical depth this reader requires."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "McKinsey Blueprint for Enterprise-Wide AI Reinvention",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fa00e4edac3af1e6e9666b528/e56164dd25604fba0000021ef3a0bcc2/e56164dd-2560-4fba-8b69-48191db50a61",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article couldn't be fetched and the 'full article text' is just a restatement of the shortlist summary with no actual content \u2014 making it impossible to verify substance, and the slot target is Finance/Macro while the content is clearly a Tech/AI consulting framework piece better suited for Slot 3 or 4."
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Argenx to Acquire Forte Biosciences in $2.2B Deal for 'Differentiated' Immune Drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/argenx-acquire-forte-biosciences-immune-drug-CD122/826221/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a biopharma M&A story that belongs in Slot 1 (Healthcare/Biopharma), not Slot 2 (Finance/Macro), and lacks the macro, earnings, sector rotation, or payer dynamics focus required for the finance slot."
   }
 ]
