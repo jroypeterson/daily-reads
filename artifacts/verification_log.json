@@ -6892,5 +6892,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a biopharma M&A story that belongs in Slot 1 (Healthcare/Biopharma), not Slot 2 (Finance/Macro), and lacks the macro, earnings, sector rotation, or payer dynamics focus required for the finance slot."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "STAT+ FDA Expert Committee Reviews Capricor Therapeutics' Duchenne Drug (Live Blog)",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a live-blog adcomm coverage from STAT News on a binary FDA catalyst (PDUFA August 22) for CAPR, a named ticker, fitting Slot 1 perfectly with genuine near-term investment relevance."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "The FDA Was All In on AI. Will That Change?",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/AI-guidance-in-question-FDA/826217/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/Biopharma regulatory) article, not a Slot 2 (Finance/Macro) article \u2014 it covers FDA internal AI governance and leadership transitions, not macro moves, earnings, sector rotation, or payer dynamics, and the substance, while solid, is practitioner-oriented rather than investment-actionable at the finance/markets level."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "The Copium Wars (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-copium-wars",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents/digest email, not a substantive article \u2014 the actual analytical content (Thompson's AI framework, cybersecurity argument) sits behind links to paywalled Stratechery pieces, making the article itself thin and unreadable."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "ACA Subsidy Fallout Boosts Insurers, Pressures Hospitals' Payer Mix",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/aca/aca-subsidy-fallout-boosts-some-payer-margins-pressures-hospitals-payer-mix/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, data-rich earnings-season analysis of the ACA subsidy expiration's asymmetric impact across hospital operators and managed care insurers, with specific guidance figures and CEO quotes that make it highly actionable for healthcare services investing."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Alphabet 2Q'26: Google Cloud Is On Cloud Nine",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-2q26-google-cloud-is-on",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The substantive analysis is locked behind a paywall \u2014 the publicly visible portion is essentially a teaser with top-line metrics, leaving the actual depth (capex concerns, FCF analysis, competitive dynamics) inaccessible to the reader."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Markets Daily: Warsh's Wildcard",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-07-29/markets-brace-for-one-of-the-most-uncertain-fed-days-in-years",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a markets/macro brief that belongs in Slot 2, not Slot 3 (Tech/AI), and the content is a thin daily markets newsletter rather than substantive analytical depth on AI or technology."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "WSJ Markets A.M.: China Shock Just Came for Your Portfolio",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/finance/stocks/china-shock-just-came-for-your-portfolio-367eb097",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The actual article text is essentially a paywall stub with only a 2-sentence teaser \u2014 there is no substantive analysis, no China shock framework, and no examination of AI stack commoditization risk; the shortlist summary describes content that does not exist in the article."
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Boston Scientific Has to Keep Buying the Future",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a Scuttleblurb table-of-contents/preview page listing upcoming posts and scuttleslops summaries \u2014 the Boston Scientific deep-dive does not actually appear in the content, meaning the shortlist summary is entirely fabricated or based on a paywalled/unavailable article."
   }
 ]

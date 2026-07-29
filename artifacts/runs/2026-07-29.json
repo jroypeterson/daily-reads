@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-07-29",
+  "generated_at": "2026-07-29T13:58:53Z",
+  "counts": {
+    "gmail_items": 149,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "42de7b75a30691b0",
+      "headline": "STAT+ FDA Expert Committee Reviews Capricor Therapeutics' Duchenne Drug (Live Blog)",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/",
+      "slot": 1,
+      "summary": "The FDA's Cellular, Tissue, and Gene Therapies Advisory Committee is meeting July 29 to review Capricor Therapeutics' BLA for deramiocel, an allogeneic cardiosphere-derived cell therapy for cardiomyopathy in Duchenne muscular dystrophy patients. The review follows a contentious regulatory history including a prior complete response letter that was later rescinded, and is supported by Phase 3 HOPE-3 data showing 54% slowing of disease progression on the primary endpoint along with supportive cardiac function data. The PDUFA date is August 22, 2026, making the adcomm vote a critical near-term signal for approval odds.",
+      "why_it_matters": "A positive adcomm recommendation would be a major binary catalyst for CAPR stock with the FDA decision only ~24 days away, and a favorable outcome would also establish meaningful regulatory precedent for allogeneic cell therapies in rare neuromuscular diseases.",
+      "signal_tags": [
+        "ticker_match:CAPR",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "737ef05247fd5ed2",
+      "headline": "ACA Subsidy Fallout Boosts Insurers, Pressures Hospitals' Payer Mix",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/aca/aca-subsidy-fallout-boosts-some-payer-margins-pressures-hospitals-payer-mix/",
+      "slot": 2,
+      "summary": "The expiration of ACA enhanced premium tax credits at end-2025 is creating a bifurcated earnings landscape: hospital operators like HCA (now guiding to $1.0\u20131.2B in full-year headwinds, up from $600\u2013900M), CHS, and UHS are absorbing a near 1-for-1 shift from exchange patients to uninsured self-pay, while insurers like Centene (MLR improved from 90.6% to 79.2%) and Elevance are reporting margin outperformance as healthier members dropped coverage and improved their remaining risk pools. Tenet was a partial outlier, offsetting a 17% exchange revenue decline through cost initiatives and ambulatory surgery mix, though it too faces volume pressure. Nationwide ACA enrollment fell 12% to 19.2M by February, with the sickest patients disproportionately remaining insured.",
+      "why_it_matters": "The divergence between hospital operators absorbing uninsured volume hits and managed care insurers benefiting from favorable risk selection is the most material near-term earnings driver in healthcare services, creating a clear relative-value trade between names like HCA/UHS on one side and CNC/ELV on the other heading into the back half of 2026.",
+      "signal_tags": [
+        "ticker_match:HCA",
+        "ticker_match:CNC",
+        "ticker_match:UHS",
+        "catalyst_proximity",
+        "health_policy_impact",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
