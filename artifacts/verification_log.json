@@ -6964,5 +6964,50 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is a Scuttleblurb table-of-contents/preview page listing upcoming posts and scuttleslops summaries \u2014 the Boston Scientific deep-dive does not actually appear in the content, meaning the shortlist summary is entirely fabricated or based on a paywalled/unavailable article."
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Breaking: FDA expert panel recommends against approval of Capricor's Duchenne drug",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/30/capricor-fda-panel-vote-duchenne-drug/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 'Page Not Found' error, meaning there is no actual article content to evaluate \u2014 only a navigation shell with no substantive text."
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Capricor Duchenne cell therapy voted down by FDA panel",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/capricor-fda-vote-deramiocel-duchenne-cardiomyopathy/826465/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on an active FDA regulatory saga with a clear near-term catalyst (Aug. 22 decision deadline), covering the statistical dispute, panel dynamics, and broader implications for rare disease accelerated approvals."
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Warsh needs to do better than 'I won't tell you'",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-07-30/warsh-needs-to-do-better-than-i-won-t-tell-you",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "John Authers provides analytical depth on Fed communication failures under Warsh, with specific market signals (CDS spreads, dissenting votes, PCE data) that have direct implications for growth equity and biotech discount rates."
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "The Copium Wars (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-copium-wars?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1jb3BpdW0td2Fycy8iXX0sImV4cCI6MTc4NzUwNDU4MywiaWF0IjoxNzg0OTEyNTgzLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.I9qaEUfhufhtWniV7sT87h9g4GEXpOYhOjydczFF35JqW1V_pOQajqJpQN4Xkvv7T_73cjhgsc7iQmeo1IcW-SqxnUhmhoWSedCm8At_V_bgAIRErJhBt_gl7VI-lR2gq7LHkQ7KyRmwAzV0qW7SEquOjRciQWifdS1oBgXr56v0Tb4rSD94pcW64g5Ypju0b8XD_eHvhN7dCzkkbhlwMTpzEhAQLYpqF4NiXZsq37dl8iB0VTkXmuknarcepe8-85_5T7pwDRAZhfDWCY5k31IbOE8yMIUjN_00K2Iy41jbOTXidA1PdCCN9VNgHBEB8nngPLFZzvOu4t73Wh2a6w",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Stratechery is a high-priority source and the digest covers substantive frontier AI topics (Chinese model parity, OpenAI/Hugging Face security incident) directly relevant to AI infrastructure investment theses, matching Slot 3 criteria and the reader's strong interest in AI impact and competitive moat analysis."
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Letter #338: Mala Gaonkar and Nicolai Tangen (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-338-mala-gaonkar-and-nicolai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxODU2OTcxNTcsImlhdCI6MTc4NTM2Mjg5OCwiZXhwIjoxNzg3OTU0ODk4LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.NCq8VtdOtprldsCDAiyZZ0q77Ojk76sbjjOU0GO1XFE",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantive investment philosophy from two elite long-term investors, with Gaonkar articulating a differentiated framework around moat duration, tech-stack analysis of non-tech businesses, and small-team discipline \u2014 directly aligned with the reader's strong preferences for competitive moat analysis, deep business diligence, and analytical depth."
   }
 ]

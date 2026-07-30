@@ -1,0 +1,83 @@
+{
+  "run_date": "2026-07-30",
+  "generated_at": "2026-07-30T13:39:25Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "85f0511712721406",
+      "headline": "Capricor Duchenne cell therapy voted down by FDA panel",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/capricor-fda-vote-deramiocel-duchenne-cardiomyopathy/826465/",
+      "slot": 1,
+      "summary": "An FDA advisory panel voted 9-3 against Capricor's cell therapy deramiocel for Duchenne-related cardiomyopathy, finding the evidence insufficient due to disputed statistical analysis changes that reviewers called scientifically unsupported. The vote is a significant barometer given the FDA's recent trend of reviving previously rejected drugs under new leadership, and the agency must issue a final decision by August 22. Notably, a same-day Lancet publication revealed deramiocel missed statistical significance on key cardiac endpoints, prompting Capricor to issue a regulatory clarification mid-meeting.",
+      "why_it_matters": "With the FDA decision due August 22, this panel outcome and its underlying statistical controversy set a meaningful precedent for how the agency will weigh fragile evidence in rare pediatric indications \u2014 directly relevant to any biotech holding with orphan drug or accelerated approval exposure.",
+      "signal_tags": [
+        "ticker_match:CAPR",
+        "ticker_match:RARE",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f765909b559dcb21",
+      "headline": "Warsh needs to do better than 'I won't tell you'",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-07-30/warsh-needs-to-do-better-than-i-won-t-tell-you",
+      "slot": 2,
+      "summary": "John Authers critiques Fed Chair Warsh's opaque communication style following an FOMC meeting where rates were held but three members dissented in favor of a hike \u2014 an unusually hawkish split that markets struggle to interpret. Bond traders are already pricing in uncertainty about Warsh's policy resolve, with knock-on effects visible in rising CDS spreads on big tech. A surprising June PCE decline complicates the inflation narrative further, leaving investors without clear guidance on the rate path.",
+      "why_it_matters": "Fed communication opacity under Warsh creates elevated discount rate uncertainty that disproportionately pressures long-duration assets including biotech and high-multiple healthcare names, making this a must-read for positioning ahead of the next FOMC.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "490ce0c526764cef",
+      "headline": "The Copium Wars (This Week in Stratechery)",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/the-copium-wars?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1jb3BpdW0td2Fycy8iXX0sImV4cCI6MTc4NzUwNDU4MywiaWF0IjoxNzg0OTEyNTgzLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IjFlZTEyYTM0LTU4ZGItNGNjNi04NjU5LWJmNGY3OTA4OTgwNyIsInVzZSI6ImFjY2VzcyJ9.I9qaEUfhufhtWniV7sT87h9g4GEXpOYhOjydczFF35JqW1V_pOQajqJpQN4Xkvv7T_73cjhgsc7iQmeo1IcW-SqxnUhmhoWSedCm8At_V_bgAIRErJhBt_gl7VI-lR2gq7LHkQ7KyRmwAzV0qW7SEquOjRciQWifdS1oBgXr56v0Tb4rSD94pcW64g5Ypju0b8XD_eHvhN7dCzkkbhlwMTpzEhAQLYpqF4NiXZsq37dl8iB0VTkXmuknarcepe8-85_5T7pwDRAZhfDWCY5k31IbOE8yMIUjN_00K2Iy41jbOTXidA1PdCCN9VNgHBEB8nngPLFZzvOu4t73Wh2a6w",
+      "slot": 3,
+      "summary": "Ben Thompson's weekly Stratechery digest covers two major AI stories: the rise of Chinese models (specifically Kimi K3) and what it means for U.S. frontier lab positioning, and OpenAI's accidental hacking of Hugging Face via a sandboxing failure\u2014with the latter framed as paradoxically reassuring for AI alignment concerns. The 'copium wars' framing critiques how Western labs are rationalizing Chinese model parity, while Thompson argues the real risk is U.S. cybersecurity policy rather than model capability gaps. The digest is a newsletter-style roundup linking to full articles rather than a single deep-dive, but the substance of the linked pieces is analytically rich.",
+      "why_it_matters": "The Chinese model parity debate and the Hugging Face security incident together stress-test the moats of leading U.S. AI infrastructure players (OpenAI, Anthropic, Hugging Face), with direct implications for AI infrastructure investment theses and competitive positioning in the open vs. closed model landscape.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "233d153090234e07",
+      "headline": "Letter #338: Mala Gaonkar and Nicolai Tangen (2026)",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-338-mala-gaonkar-and-nicolai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxODU2OTcxNTcsImlhdCI6MTc4NTM2Mjg5OCwiZXhwIjoxNzg3OTU0ODk4LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.NCq8VtdOtprldsCDAiyZZ0q77Ojk76sbjjOU0GO1XFE",
+      "slot": 4,
+      "summary": "Mala Gaonkar (SurgoCap Partners, formerly Lone Pine Capital) discusses her investment philosophy with Norges Bank CEO Nicolai Tangen, focusing on identifying a small handful of businesses with 'very long-duration moats.' She emphasizes that every business is fundamentally a technology business, and her edge lies in mapping tech stacks of non-tech companies and identifying how old technologies (lithium-ion batteries, GPUs) disrupt industries in new ways. SurgoCap maintains a deliberately small, one-pizza-box investment team to preserve collaborative, cross-border thinking.",
+      "why_it_matters": "Gaonkar's framework for evaluating moat duration and technology disruption in non-tech sectors offers directly applicable mental models for long-term portfolio construction, particularly relevant for the reader's healthcare and medtech coverage where tech-stack differentiation increasingly drives competitive advantage.",
+      "signal_tags": [
+        "high_priority_source",
+        "analytical_depth",
+        "venture_capital_insights",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}
