@@ -7009,5 +7009,50 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article delivers substantive investment philosophy from two elite long-term investors, with Gaonkar articulating a differentiated framework around moat duration, tech-stack analysis of non-tech businesses, and small-team discipline \u2014 directly aligned with the reader's strong preferences for competitive moat analysis, deep business diligence, and analytical depth."
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "Replimune melanoma drug wins support of FDA panel",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/replimune-rp1-fda-vote-advisory-committee-melanoma-drug/826619/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This article covers a concrete, time-sensitive FDA advisory committee outcome with a binary catalyst (PDUFA date August 2) and substantive detail on the trial design controversy, panel deliberations, and investment implications for REPL."
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "What a Hedge Fund's Implosion Says About the A.I. Trade",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/07/31/business/dealbook/situational-awareness-ai-hedge-fund.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 only a preview teaser and login prompt are visible, meaning there is no substantive content to evaluate beyond what the shortlist summary already provided."
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "[OTCM] Listings for the rest of us",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the actual OTCM deep dive \u2014 it only shows Scuttleblurb's teaser/upcoming posts list and unrelated scuttleslops snippets, meaning the substantive content is paywalled or not yet published."
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "Waystar boosts 2026 outlook as AI-powered RCM solutions gain traction with providers",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/waystar-boosts-2026-outlook-after-solid-q2-performance",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive earnings coverage of a coverage universe ticker (WAY) at the health software/AI intersection, with specific financial metrics, guidance raise, AI bookings mix data, and analyst commentary that supports investment-relevant analysis."
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "How AI will reshape the economics of insurance: A CEO's guide to strategy",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/financial-services/our-insights/how-ai-will-reshape-the-economics-of-insurance-a-ceos-guide-to-strategy",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "Despite McKinsey's authoritative framing and real data points, this article targets insurance CEOs with strategic frameworks rather than delivering the analytical depth on AI infrastructure, data economics, or healthcare-specific payer dynamics that the reader's taste profile strongly favors \u2014 and it fits Slot 4 (consulting/wildcard) better than Slot 3 (Tech/AI breakthroughs)."
   }
 ]

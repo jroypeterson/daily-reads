@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-07-31",
+  "generated_at": "2026-07-31T13:56:29Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "730ad185151778bd",
+      "headline": "Replimune melanoma drug wins support of FDA panel",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/replimune-rp1-fda-vote-advisory-committee-melanoma-drug/826619/",
+      "slot": 1,
+      "summary": "An FDA advisory committee voted 10-3 on July 30 that efficacy data from Replimune's RP1 (vusolimogene oderparepvec) plus nivolumab in advanced melanoma were 'evaluable and clinically meaningful,' overriding FDA staff skepticism about the single-arm trial design and survival analysis reliability. The favorable panel vote dramatically increases the probability of approval after two prior rejections, with the FDA's binding PDUFA action date set for August 2. The article details both the bull case (unmet need, meaningful response/CR rates, ongoing confirmatory trial) and the bear case (no control arm, difficulty attributing benefit to RP1 vs. Opdivo, unreliable responder/non-responder survival comparison).",
+      "why_it_matters": "With the PDUFA date on August 2, this is an immediate binary catalyst where the adcom vote materially shifts the approval probability, making REPL one of the most time-sensitive investable events in the healthcare space right now.",
+      "signal_tags": [
+        "ticker_match:REPL",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "d392acccae1f940c",
+      "headline": "Waystar boosts 2026 outlook as AI-powered RCM solutions gain traction with providers",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/finance/waystar-boosts-2026-outlook-after-solid-q2-performance",
+      "slot": 2,
+      "summary": "Waystar (WAY) beat Q2 2026 consensus with $319.7M revenue (+18% YoY) and $136.7M adjusted EBITDA, while raising full-year revenue guidance to $1.28-1.29B. AI-enabled solutions are driving 'double-digit $1M+ ACV bookings' and the company reports net revenue retention of 108%, reflecting strong cross-sell from its Iodine acquisition and platform consolidation wins replacing multiple point vendors. CEO Matt Hawkins framed the company's strategic direction around an 'autonomous revenue cycle,' emphasizing that its AI is 'embedded and monetized' rather than experimental.",
+      "why_it_matters": "Waystar's beat-and-raise quarter with ~40% AI bookings mix and expanding large-deal pipeline is a direct signal for health IT SaaS valuation multiples and the broader AI-in-RCM investment thesis.",
+      "signal_tags": [
+        "ticker_match:WAY",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "health_software_saas",
+        "ai_impact"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    }
+  ]
+}
