@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-08-01",
+  "generated_at": "2026-08-01T13:10:30Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "996a5e3f376e8d1d",
+      "headline": "Novo Nordisk inflammation-targeting drug misses mark in heart disease study",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/",
+      "slot": 1,
+      "summary": "Novo Nordisk's ziltivekimab, an IL-6 inhibitor tested in over 6,300 patients with heart disease, kidney disease, and elevated inflammation, failed its pivotal ZEUS Phase 3 cardiovascular outcomes trial. Despite successfully lowering inflammation markers, the drug did not reduce the risk of major cardiovascular events including death, heart attack, or stroke. The failure raises significant questions about the broader hypothesis that targeting inflammation can prevent cardiovascular complications \u2014 a thesis multiple companies have staked pipeline assets on.",
+      "why_it_matters": "The ZEUS trial failure is a sector-wide repricing event: it challenges the inflammation-as-cardio-target hypothesis and may negatively impact pipeline valuations at AstraZeneca, Agepha, and other companies with similar mechanistic bets, while simultaneously creating potential short opportunities and forcing portfolio reassessment across cardiovascular drug development.",
+      "signal_tags": [
+        "ticker_match:REPL",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "015c04b2b0650640",
+      "headline": "How AI will reshape the economics of insurance: A CEO's guide to strategy",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019fb512dd0dc2ec83369fb45280/1f4dc1b08fa1442d0000021ef3a0bcc2/1f4dc1b0-8fa1-442d-863f-df7bd481f71d",
+      "slot": 2,
+      "summary": "McKinsey examines how AI is fundamentally reshaping insurance economics \u2014 not as incremental automation but as a structural force compressing cost curves across underwriting, claims processing, and customer engagement. The piece is framed as a strategic guide for CEOs navigating competitive repositioning in an AI-transformed landscape. For healthcare investors, the managed care and payer implications are direct, as the same dynamics apply to UNH, CNC, and value-based care platforms.",
+      "why_it_matters": "Payer-side AI adoption is a critical structural variable for managed care valuations \u2014 this McKinsey framework helps investors assess whether incumbent insurers can defend moats or face margin compression from AI-native entrants.",
+      "signal_tags": [
+        "priority:high",
+        "AI_impact",
+        "health_software_SaaS",
+        "analytical_depth",
+        "forward_looking"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    }
+  ]
+}

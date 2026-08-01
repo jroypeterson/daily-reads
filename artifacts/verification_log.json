@@ -7054,5 +7054,77 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "Despite McKinsey's authoritative framing and real data points, this article targets insurance CEOs with strategic frameworks rather than delivering the analytical depth on AI infrastructure, data economics, or healthcare-specific payer dynamics that the reader's taste profile strongly favors \u2014 and it fits Slot 4 (consulting/wildcard) better than Slot 3 (Tech/AI breakthroughs)."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "Novo Nordisk inflammation-targeting drug misses mark in heart disease study",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a pivotal Phase 3 trial failure for a major biopharma (Novo Nordisk) with clear sector-wide implications for the inflammation-cardiovascular thesis, fitting Slot 1 criteria with genuine investment relevance."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "Amazon 2Q'26: AWS Gets the Love",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/amazon-2q26-aws-gets-the-love",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The substantive AWS analysis \u2014 the core reason this article was shortlisted \u2014 is paywalled, leaving only a thin non-AWS retail segment recap that lacks the analytical depth required for Slot 2."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "Scuttleblurb: [OTCM] Listings for the rest of us",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the actual OTCM deep-dive content \u2014 only a truncated teaser sentence and unrelated excerpts from other Scuttleblurb posts \u2014 so the substance cannot be verified and the article appears paywalled or not yet published."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "How AI will reshape the economics of insurance: A CEO's guide to strategy",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fb512dd0dc2ec83369fb45280/1f4dc1b08fa1442d0000021ef3a0bcc2/1f4dc1b0-8fa1-442d-863f-df7bd481f71d",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's CEO-level strategic framing of AI's structural impact on insurance economics aligns well with Slot 2's focus on policy/macro impact on markets and the reader's strong preferences for competitive moat analysis, AI impact, and payer dynamics."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "How Leopold Aschenbrenner built a $45 billion AI hedge fund \u2014 and lost most of it in days",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a personality-driven narrative profile of Aschenbrenner's rise and fall, not a substantive tech/AI analysis \u2014 it lacks the analytical depth on AI infrastructure crowding, leverage mechanics, or structural market risks that would make it genuinely actionable for the reader's investment thesis."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "CMS finalizes 2.3% hospital pay bump, mandatory joint replacement model: 9 things to know",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/cms-finalizes-2-3-hospital-pay-bump-mandatory-joint-replacement-model-9-things-to-know/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare regulatory/reimbursement article that belongs in Slot 1, not Slot 3 (Tech/AI) \u2014 it contains no meaningful AI or technology content beyond a brief mention of electronic prior authorization and interoperability measures."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "The Transcript: Freely Flowing Cash (Alphabet's FCF turned negative for the first time ever)",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-27-2026-freely-flowing-cash",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 only the macro/consumer section is visible, with the AI infrastructure content (the core premise of the shortlist summary) locked behind a premium subscription, making the actual substance inaccessible and the shortlist summary unverifiable."
+  },
+  {
+    "date": "2026-08-01",
+    "headline": "Function Health lands $450M in growth financing to scale tech-enabled preventive health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/function-health-lands-450m-growth-financing-scale-tech-enabled-preventive-health",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is a thin press-release-style funding announcement with no analytical depth, no data on unit economics or platform metrics, and minimal substance beyond the raise size and CEO quotes \u2014 it does not meet the depth standard for Slot 3 (Tech/AI) and better fits a healthcare/biopharma slot even then."
   }
 ]
