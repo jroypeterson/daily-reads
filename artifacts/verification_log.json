@@ -7126,5 +7126,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This article is a thin press-release-style funding announcement with no analytical depth, no data on unit economics or platform metrics, and minimal substance beyond the raise size and CEO quotes \u2014 it does not meet the depth standard for Slot 3 (Tech/AI) and better fits a healthcare/biopharma slot even then."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article belongs in Slot 3 (Tech/AI) \u2014 it is a deep analysis of hyperscaler vs. AI lab competitive dynamics, not a healthcare/biopharma article, and has no meaningful connection to the Slot 1 theme of FDA decisions, clinical trials, M&A, or biopharma pipeline."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "[OTCM] Listings for the rest of us",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/otcm",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and reader-relevant themes (competitive moat, financial infrastructure), this article is about OTC Markets Group \u2014 a financial infrastructure business \u2014 which does not fit Slot 1's Healthcare/Biotech criteria (FDA decisions, clinical trials, biopharma M&A, pipeline news)."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "Function Health lands $450M in growth financing to scale tech-enabled preventive health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/function-health-lands-450m-growth-financing-scale-tech-enabled-preventive-health",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press-release-style funding announcement with minimal analytical depth \u2014 it lacks financial details, competitive analysis, unit economics, or substantive insight beyond the headline raise, making it a poor fit for a reader who strongly prefers analytical depth and investment-relevant insights over surface-level news."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "How Montefiore Einstein turned technology into enterprise value",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/healthcare/how-we-help-clients/how-montefiore-einstein-turned-technology-into-enterprise-value",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey practitioner case study on health system digital transformation aligns with reader preferences for analytical depth, health software SaaS, AI impact, and buy-vs-build decision frameworks \u2014 strong fit for Slot 1 given the AI-in-healthcare angle and consulting source."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "Amazon 2Q'26: AWS Gets the Love",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/amazon-2q26-aws-gets-the-love",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The substantive AWS analysis \u2014 the core investment thesis \u2014 is paywalled, leaving only the non-AWS retail segment discussion visible, which makes the article too thin to justify the slot given the reader's stated aversion to paywalled content."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "Novo plunges after IL-6 inhibitor fails cardio Ph. 3; Replimune drug survives FDA adcomm despite 'messy data'",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VV_VXD2Vhb_xW9jzGTT94wJ5gW4KxtYX5S7QB3M7WCRK5nR3bW7Y9pgv6lZ3n6W4CB9CL2fNgjwW1HMdpQ6GQZ52N1K2h5hz9Dx2W3D_Kmc60QFd2W2kXc0q4Fklk6N3d30nsr0FRZW3bSlbX65cP-tW2fSG8F3x9FDQW4_xkz87gvpbYW67T3nh2CRcFfW7Jp6Dd7fD1KxW1b4_hp233lLwW2y8-K67NSRHcW77mJXj7MyHCbN3JQxfY9641NW7-4JYL4w4WZkW6b_jsl3W3kF3W58m7Qm7K3bsXN862c1NWT9McVQS6S628FTS9W9kX1Kd1xlgBMW4rC7JQ5MM5nRW2jH1RB8xPhh-N96Q0Bz-5Mz_V149S58B1ttgW1-_hyW9995_BW73qHVq4zcVLNW6MNXTq2FTpnWW2M0gv36clPL3W3pvSxn5190W6W5lDcvr2ZWjkBW8Y4RYN6zzFP1W4qMmmH3XxSr0W7sq-bk1_6MZ4W5HF-Yp1CNpZKW43Z5N05w06VKW8QSCXP3N5_CYW5p6khc2CS777W2m-R5W6f1CRzW4D6C4F7gGCrPD52g_YrpdrW8KYyBD8qH8Lrf2Q4bLg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially a newsletter shell with minimal substantive content \u2014 just a single teaser sentence about ziltivekimab's failure and promotional filler (40 Under 40 nominations, job listings, ads), with no depth on trial data, financial implications, or the Replimune adcomm story mentioned in the headline."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "The Transcript: Freely Flowing Cash \u2014 Alphabet's FCF Turned Negative for the First Time Ever",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/07-27-2026-freely-flowing-cash",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is largely paywalled after the macro section, revealing only thin aggregated earnings call quotes with no deep analysis of Alphabet's FCF turning negative \u2014 the core thesis from the headline is not substantiated in the available content."
+  },
+  {
+    "date": "2026-08-02",
+    "headline": "GSK unveils $2.5B global restructuring; Sanofi CEO gives first glimpse at pipeline revamp",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/research/study-yescarta-patients-reveals-genetic-red-flags-car-t-therapy-side-effects",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is entirely about CAR-T cell genomic toxicity research (a niche therapeutics science story), bearing no relation to the shortlist summary about GSK restructuring and Sanofi pipeline strategy \u2014 the wrong article was submitted for evaluation."
   }
 ]

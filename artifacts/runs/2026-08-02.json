@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-08-02",
+  "generated_at": "2026-08-02T13:15:01Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 80,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "05f7a2f17517fc8a",
+      "headline": "How Montefiore Einstein turned technology into enterprise value",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/healthcare/how-we-help-clients/how-montefiore-einstein-turned-technology-into-enterprise-value",
+      "slot": 1,
+      "summary": "McKinsey examines how Montefiore Einstein repositioned its IT function from a cost center to a strategic enterprise partner by embedding AI into clinical workflows, unifying its digital roadmap, and tying technology investments to measurable patient access and operational ROI outcomes. The case study details the governance and prioritization frameworks used to build internal investment capacity while focusing on capabilities most valued by clinicians. Bryan Herd\u00e9 emphasizes that the highest-value health IT transformations are those explicitly connected to business and clinical priorities rather than technology for its own sake.",
+      "why_it_matters": "Provides a rare practitioner blueprint for how large academic health systems evaluate and deploy health IT \u2014 directly informing buy-vs-build dynamics relevant to digital health SaaS vendors and AI clinical workflow companies in the coverage universe.",
+      "signal_tags": [
+        "high_priority_source",
+        "health_software_SaaS",
+        "AI_impact",
+        "analytical_depth",
+        "practitioner_perspective",
+        "forward_looking"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}
