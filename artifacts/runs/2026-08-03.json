@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-08-03",
+  "generated_at": "2026-08-03T14:30:35Z",
+  "counts": {
+    "gmail_items": 139,
+    "tier2_items": 89,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "86f1ed5d33ebc91a",
+      "headline": "Is there a pharma mega-merger in the making? AstraZeneca-BMS talks surface",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/03/biotech-news-is-there-a-pharma-mega-merger-coming-astrazeneca-bms/?utm_campaign=rss",
+      "slot": 1,
+      "summary": "Reports have surfaced of preliminary merger talks between AstraZeneca and Bristol Myers Squibb that could create one of the world's largest pharmaceutical companies, with AZN shares falling and BMY rising on the news. Analysts are skeptical about the strategic rationale given overlapping oncology portfolios and integration complexity, calling the pairing 'odd.' The newsletter also briefly covers Moderna's imminent FDA vaccine decision and the launch of a $400M Asia-focused biotech fund (TCGX).",
+      "why_it_matters": "A potential AZN-BMY combination would be the largest pharma M&A in years, fundamentally reshaping competitive moats in oncology and immunology and triggering a sector-wide re-rating of large-cap pharma valuations with direct implications for portfolio positioning.",
+      "signal_tags": [
+        "ticker_match:AZN",
+        "ticker_match:BMY",
+        "ticker_match:MRNA",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ae5437b72ba4ba34",
+      "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+      "slot": 2,
+      "summary": "MBI's analyst uses Microsoft's Q2 2026 earnings as a launchpad to examine the structural power dynamics between hyperscalers (AWS, Azure, GCP) and frontier AI labs, arguing that as labs mature and gain the ability to self-build compute infrastructure, their bargaining power over cloud landlords will increase\u2014compressing hyperscaler margins toward a 'convenience premium.' The piece grapples with counterarguments around AWS's lack of internal compute sinks (unlike Google's 1P workloads), the composition of contracted backlog being more lab-heavy than current revenue mix, and real-world constraints like power availability that could preserve hyperscaler leverage. The author concludes with deliberate ambivalence, noting current multiples leave little room for error and favoring an observational stance over the next few quarters.",
+      "why_it_matters": "For investors sizing positions in MSFT, GOOG, and AMZN, this piece crystallizes the core long-term risk\u2014whether hyperscalers are durable infrastructure landlords or transitional middlemen\u2014and offers a framework for thinking about when and how AI lab bargaining power might actually show up in financials.",
+      "signal_tags": [
+        "ticker_match:MSFT",
+        "priority:high",
+        "analytical_depth",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "89a621eb1f86add8",
+      "headline": "How Montefiore Einstein turned technology into enterprise value",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019fb9c47e1f95e4c5f4bbcf6cc0/ea792607c70b423a0000021ef3a0bcc2/ea792607-c70b-423a-a042-86a256d730d4",
+      "slot": 3,
+      "summary": "McKinsey examines how Montefiore Einstein Health System converted technology investments into measurable enterprise value, covering data infrastructure buildout, workflow automation, and ROI realization timelines. The case study contextualizes the paradox facing health systems that are cutting IT headcount while accelerating AI capital deployment. It offers a practitioner-grounded framework for evaluating which technology bets in health systems actually compound into durable value.",
+      "why_it_matters": "For investors evaluating health IT and digital health SaaS companies, this case study provides a real-world benchmark for how technology investments translate into enterprise value at a major academic medical center \u2014 directly informing due diligence on health system customer economics.",
+      "signal_tags": [
+        "priority:high",
+        "analytical_depth",
+        "AI_and_biology_intersection",
+        "health_technology_datasets",
+        "actionability"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "c33e2ef064752252",
+      "headline": "What Are Companies Getting for All That A.I. Spending? \u2014 The rise of 'tokenomics'",
+      "source": "NYT Business",
+      "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html",
+      "slot": 4,
+      "summary": "The NYT examines how enterprises are beginning to measure AI ROI through 'tokenomics' \u2014 tracking token consumption, cost per outcome, and productivity yield as AI spend becomes a distinct budget line item. The framework helps organizations distinguish whether AI investment is generating compounding returns or simply consuming capital. With hospitals and health systems now reporting token costs explicitly, this conceptual infrastructure is increasingly relevant for evaluating AI vendor contracts across sectors.",
+      "why_it_matters": "As health systems and enterprises formalize AI ROI measurement through tokenomics, this framework will directly shape vendor selection and competitive moats for health IT and AI infrastructure companies.",
+      "signal_tags": [
+        "novelty",
+        "data_infrastructure",
+        "AI_impact",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    }
+  ]
+}

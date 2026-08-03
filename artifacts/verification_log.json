@@ -7198,5 +7198,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The actual article content is entirely about CAR-T cell genomic toxicity research (a niche therapeutics science story), bearing no relation to the shortlist summary about GSK restructuring and Sanofi pipeline strategy \u2014 the wrong article was submitted for evaluation."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Is there a pharma mega-merger in the making? AstraZeneca-BMS talks surface",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/03/biotech-news-is-there-a-pharma-mega-merger-coming-astrazeneca-bms/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a high-impact potential mega-merger between AstraZeneca and BMS from a priority source (STAT News), with clear investment relevance across oncology competitive dynamics and large-cap pharma valuation \u2014 fitting Slot 1 well and aligning with the reader's preference for competitive moat analysis and deep business diligence."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on hyperscaler vs. AI lab economics, grounded in Microsoft Q2 earnings and a substantive back-and-forth with a critic, directly relevant to infrastructure and cloud positioning."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Reaction Functions \u2014 Markets try to understand Fed Chair Warsh's policy stance",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/08-03-2026-reaction-functions",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article belongs in Slot 2 (Finance/Markets) as a macro/Fed policy piece, not Slot 3 (Tech/AI) \u2014 it covers Fed Chair Warsh's monetary policy reaction function and earnings-driven macro synthesis, with only a passing mention of AI demand/capex that is secondary to the core Fed narrative."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Bloomberg Markets Daily: Why is the US acting on the yen?",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-03/the-us-has-a-lot-at-stake-in-rare-intervention-to-prop-up-yen",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a macro/FX article targeting Slot 2 (Finance/Markets), not Slot 3 (Tech/AI) \u2014 the semiconductor supply chain mention appears to be a thin justification for placement, and the core content is currency diplomacy, not AI or technology."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "How Montefiore Einstein turned technology into enterprise value",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fb9c47e1f95e4c5f4bbcf6cc0/ea792607c70b423a0000021ef3a0bcc2/ea792607-c70b-423a-a042-86a256d730d4",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey case study on health system technology ROI aligns with the reader's strong preferences for data infrastructure, AI impact, and deep business diligence, and fits the Slot 3 tech/AI criteria with healthcare application relevance."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "Boston Scientific cuts outlook again; GSK inks $110M AI datasets pact; Labcorp lifts outlook",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text does not contain the actual content described in the shortlist summary \u2014 the page appears to be a Fierce Biotech homepage/navigation page with article headlines and links, not the substantive digest covering Boston Scientific, GSK's $110M AI dataset pact, and Labcorp's outlook raise."
+  },
+  {
+    "date": "2026-08-03",
+    "headline": "What Are Companies Getting for All That A.I. Spending? \u2014 The rise of 'tokenomics'",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article introduces a substantive analytical framework ('tokenomics') directly aligned with the reader's strong preferences for data infrastructure, AI impact, and competitive moat analysis, and the Wildcard slot fits its cross-domain enterprise AI angle."
   }
 ]
