@@ -7261,5 +7261,95 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "The article introduces a substantive analytical framework ('tokenomics') directly aligned with the reader's strong preferences for data infrastructure, AI impact, and competitive moat analysis, and the Wildcard slot fits its cross-domain enterprise AI angle."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Exclusive: Lilly to allow applications for unapproved obesity drug special access",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article is a thin Pharmalittle news roundup (bullet-point digest format) rather than a deep, standalone analysis of Lilly's retatrutide expanded access program \u2014 the shortlist summary overstates the substance, which is a brief item among several unrelated news bullets."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive Tech/AI article analyzing hyperscaler vs. AI lab competitive dynamics, not a Healthcare/Biotech article \u2014 it has zero relevance to Slot 1's required themes of FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Meta's 'True' ROIC, and Some Notes from Meta and Alphabet's 10-Qs",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-true-roic-and-some-notes-from",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantive and analytically deep but is firmly a Finance/Markets piece about Meta and Alphabet's ROIC and capex dynamics \u2014 it has no healthcare or biotech content and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Reaction Functions",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/08-03-2026-reaction-functions",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro/monetary policy article about Fed Chair Warsh's reaction function and tech earnings, with no healthcare or biopharma content \u2014 it clearly belongs to Slot 2 (Finance/Macro), not Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "STAT+: Are AI scribes medical devices? UK regulator weighs in.",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was not retrieved \u2014 only navigation chrome and metadata are visible, making it impossible to verify substance or depth, and paywalled content is explicitly flagged as an avoid pattern."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "'Unlikely' AstraZeneca-BMS merger could reset deal landscape",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/astrazeneca-bristol-myers-acquisition-rumors-deal-megamerger/826843/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive analyst commentary, financial context, and strategic implications of a potential AZN-BMY megamerger, directly fitting Slot 1 M&A criteria with clear investment relevance."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Meta's 'True' ROIC, and Some Notes from Meta and Alphabet's 10-Qs",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-true-roic-and-some-notes-from",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine forensic accounting depth \u2014 correcting lease-adjusted ROIC, stripping Construction in Progress, normalizing taxes \u2014 and frames the AI capex debate with real numbers and investment implications for META and GOOG, squarely fitting the Finance/Macro slot."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "QuantHealth raises $45M series B to accelerate AI-driven clinical trial simulations",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/quanthealth-raises-45m-series-b-accelerate-ai-driven-clinical-trial-simulations",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin funding announcement with little analytical depth \u2014 it consists largely of promotional quotes from the CEO and a list of investors, without substantive discussion of the technology, competitive landscape, or verifiable evidence for the claimed 90% predictive accuracy."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Letter #339: Oscar Hattink (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a closing investor letter from a long-only equity fund manager \u2014 substantive and well-written, but it covers fund wind-down, value investing philosophy, and market irrationality, with no meaningful Tech/AI content; it belongs in Slot 4 (Wildcard) at best, not Slot 3."
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Letter #339: Oscar Hattink (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, candid closing investor letter from a concentrated long-only fund manager with deep roots at TCI and Theleme, offering genuine reflections on strategy failure, capital allocation discipline, and the limits of value-based investing in momentum-driven markets \u2014 directly aligned with the reader's exemplar taste for Buffett/Scott-style practitioner letters."
   }
 ]

@@ -1,0 +1,69 @@
+{
+  "run_date": "2026-08-04",
+  "generated_at": "2026-08-04T14:02:14Z",
+  "counts": {
+    "gmail_items": 141,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "355c33657130785c",
+      "headline": "'Unlikely' AstraZeneca-BMS merger could reset deal landscape",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/astrazeneca-bristol-myers-acquisition-rumors-deal-megamerger/826843/",
+      "slot": 1,
+      "summary": "Reports of exploratory merger talks between AstraZeneca and Bristol Myers Squibb sent both stocks lower, with AstraZeneca shedding ~$22B in market cap as Wall Street analysts questioned the strategic rationale given AZN's strong organic growth trajectory. Key concerns include antitrust exposure (especially in the UK), patent cliff pressures on BMY's top products, and difficulty reaching price alignment. Beyond the deal itself, analysts note the rumor signals a potential shift back toward transformational megamergers after years of bolt-on biotech acquisitions dominating big pharma M&A.",
+      "why_it_matters": "Whether or not the deal closes, the AZN-BMY rumor is recalibrating expectations around large-cap pharma M&A strategy \u2014 potentially pulling two major acquirers off the market while signaling that transformational deals may re-enter the playbook, with direct implications for pipeline and valuation dynamics across oncology and cardiovascular names.",
+      "signal_tags": [
+        "ticker_match:AZN",
+        "ticker_match:BMY",
+        "novelty",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f7043c74d745300b",
+      "headline": "Meta's 'True' ROIC, and Some Notes from Meta and Alphabet's 10-Qs",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/metas-true-roic-and-some-notes-from",
+      "slot": 2,
+      "summary": "MBI Deep Dives corrects its prior Meta ROIC calculation by properly netting out operating lease liabilities, long-term income taxes, equity investments, and Construction in Progress from the capital base, revealing a mid-50s 'true' ROIC that will mechanically compress as ~$80B of CIP comes online over the next 18-24 months. The piece contextualizes why declining incremental ROIC doesn't necessarily compress multiples if AI capex unlocks a massive reinvestment runway \u2014 drawing parallels to Amazon's historically premium multiple despite lower ROIC. It also flags relevant disclosures from Meta and Alphabet's freshly filed 10-Qs to support the analysis.",
+      "why_it_matters": "For investors long META or GOOG, the corrected ROIC framework clarifies whether the AI capex cycle is value-accretive or dilutive \u2014 a live debate with direct implications for how to think about multiple compression risk as the depreciation wave hits in 2027-2028.",
+      "signal_tags": [
+        "ticker_match:META",
+        "ticker_match:GOOG",
+        "high_priority_source",
+        "analytical_depth",
+        "deep_business_diligence"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c898add0e9837ca5",
+      "headline": "Letter #339: Oscar Hattink (2026)",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-339-oscar-hattink-2026",
+      "slot": 4,
+      "summary": "Oscar Hattink, founder of BlueDrive Global and former partner at TCI and Theleme, writes a candid closing letter to investors after deciding to return all external capital and wind down the fund. The letter traces BlueDrive's arc from $10M in 2017 to $500M AUM in 2021, through the meme-stock collapse that cost them 19% while the MSCI World rose 20%, and into a multi-year underperformance driven by a heavy cash position and tail-hedge strategy as AI-driven momentum overwhelmed their value discipline. Hattink reflects honestly on the difference between knowing investment principles intellectually and having the wisdom to apply them under pressure \u2014 and chooses integrity over strategy-drift.",
+      "why_it_matters": "For a reader drawn to competitive moat analysis, corporate governance, and deep business diligence, this letter offers a rare first-person account of how a disciplined concentrated manager navigates \u2014 and ultimately loses to \u2014 irrational markets, surfacing timeless lessons about when conviction becomes stubbornness.",
+      "signal_tags": [
+        "high_priority_source",
+        "venture_capital_insights",
+        "analytical_depth",
+        "long_form_investment_writing",
+        "corporate_governance"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}
