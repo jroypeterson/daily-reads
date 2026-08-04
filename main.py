@@ -31,6 +31,7 @@ from project_data import (
 )
 from sources import SOURCES, get_always_read_names, get_journal_source_names
 from health_report import Heartbeat, post_health_to_slack
+import slack_blocks_client
 
 REPO = "jroypeterson/daily-reads"
 
@@ -2101,15 +2102,30 @@ def deliver_slack(articles: list[dict], triage_queue: list[dict] | None = None, 
 
     blocks = _split_oversized_section_blocks(blocks)
 
+    # `_split_oversized_section_blocks` fixes the 3000-chars-PER-SECTION ceiling. The
+    # 50-blocks-PER-MESSAGE ceiling is a different limit with the same opaque
+    # `invalid_blocks` error, and nothing was checking it. The digest's block count
+    # scales with how many articles were found, so the payload is largest exactly on
+    # the days worth reading — the worst possible correlation. Named before sending,
+    # then split rather than truncated: a shorter digest would silently drop articles.
+    for _problem in slack_blocks_client.problems(blocks):
+        print(f"Block Kit: {_problem}")
+    _chunks = slack_blocks_client.chunk(blocks)
+    if len(_chunks) > 1:
+        print(f"Slack: splitting {len(blocks)} blocks into {len(_chunks)} messages")
+
     try:
-        resp = requests.post(webhook_url, json={"blocks": blocks}, timeout=10)
-        if not resp.ok:
-            # Slack returns useful detail in the body (e.g. invalid_blocks, no_text)
-            err = f"HTTP {resp.status_code} — body: {resp.text[:500]} (had {len(blocks)} blocks)"
-            print(f"Slack delivery failed: {err}")
-            _alert_operator_slack(err)
-        else:
-            print("Slack message sent")
+        for _n, _chunk in enumerate(_chunks, 1):
+            resp = requests.post(webhook_url, json={"blocks": _chunk}, timeout=10)
+            if not resp.ok:
+                # Slack returns useful detail in the body (e.g. invalid_blocks, no_text)
+                err = (f"HTTP {resp.status_code} — body: {resp.text[:500]} "
+                       f"(message {_n}/{len(_chunks)}, {len(_chunk)} of "
+                       f"{len(blocks)} blocks)")
+                print(f"Slack delivery failed: {err}")
+                _alert_operator_slack(err)
+                break
+            print(f"Slack message sent ({_n}/{len(_chunks)})")
     except Exception as e:
         print(f"Slack delivery failed: {e}")
         _alert_operator_slack(str(e))
