@@ -23,6 +23,30 @@ import subprocess
 import sys
 from collections import Counter
 from datetime import datetime, timedelta, timezone
+
+# The Windows console is cp1252, and newsletter subjects are FULL of smart quotes,
+# em-dashes and emoji. Without this the tool dies with UnicodeEncodeError partway
+# through its own output -- which is exactly what happened when it was run to diagnose
+# the Bloomberg outage on 2026-08-04: it printed a dozen senders, hit a curly
+# apostrophe in a Ritholtz subject line, and crashed before reaching the answer.
+#
+# Reconfiguring stdout is only half the fix. The DATA is vendor text and can carry
+# anything, so `_p()` also degrades to ASCII rather than raising -- the fleet rule is
+# that a console encoding must never be able to kill a diagnostic.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, OSError, ValueError):
+    pass
+
+
+def _p(*parts) -> None:
+    """print() that cannot die on vendor text."""
+    line = " ".join(str(x) for x in parts)
+    try:
+        print(line)
+    except UnicodeEncodeError:
+        print(line.encode("ascii", "replace").decode("ascii"))
 from email.utils import parseaddr
 
 from sources import SOURCES
@@ -102,8 +126,8 @@ def discover(keyword: str):
         example = sender_examples[addr]
         in_sources = "  [ALREADY IN sources.py]" if addr in SOURCES else ""
         print(f"  {addr}  ({count} emails){in_sources}")
-        print(f"    From: {example['from_raw']}")
-        print(f"    Example: {example['subject']}")
+        _p(f"    From: {example['from_raw']}")
+        _p(f"    Example: {example['subject']}")
         print()
 
     # Suggest what to add
@@ -264,7 +288,7 @@ def check_staged():
         msgs = gmail_search(service, query, max_results=1)
         if msgs:
             print(f"  OK  {name:30s} {addr}")
-            print(f"       Last: {msgs[0]['subject'][:60]}")
+            _p(f"       Last: {msgs[0]['subject'][:60]}")
         else:
             print(f"  FAIL {name:30s} {addr}")
             print(f"       No emails from this address in the last 30 days.")

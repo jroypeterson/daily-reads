@@ -115,12 +115,23 @@ SOURCES = {
         "frequency": "daily",
         "priority": "normal",
     },
+    # NOT a daily newsletter — this is Bloomberg's subscription/marketing stream
+    # ("Welcome to Bloomberg.com", "Final Reminder: Save 60%"), which started at a
+    # 2026-07-22 signup and went quiet on 07-24 when the promo ended. Declaring it
+    # `daily` made the Source Audit fire a stale warning every single day (board #273,
+    # identically on 08-01/02/03) for a source that is behaving exactly as expected.
+    #
+    # The audit is already cadence-aware; the bug was purely this declaration. The REAL
+    # Bloomberg feed is `noreply@news.bloomberg.com` below, which is healthy — 40
+    # messages in the 8 days to 2026-08-04, max gap 1 day, Money Stuff and the rest.
+    # So #273's "broken subscription, re-subscribe" reading was wrong in both halves:
+    # nothing is broken, and re-subscribing would have changed nothing.
     "subscriptions@message.bloomberg.com": {
-        "name": "Bloomberg",
+        "name": "Bloomberg (subscription notices)",
         "email": "subscriptions@message.bloomberg.com",
         "tier": 1,
         "category": "finance_macro",
-        "frequency": "daily",
+        "frequency": "monthly",
         "priority": "normal",
     },
     "access@interactive.wsj.com": {
