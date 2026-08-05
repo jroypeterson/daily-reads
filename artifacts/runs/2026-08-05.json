@@ -1,0 +1,63 @@
+{
+  "run_date": "2026-08-05",
+  "generated_at": "2026-08-05T13:58:47Z",
+  "counts": {
+    "gmail_items": 138,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c8021bf6b0c51db8",
+      "headline": "Biogen beats on Apellis deal, leaving analysts leery",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWBdRl3Jt-KLN8c6vwch2JRzW5j5c_V5S3sM3N46-8JW5nR3bW7Y9pgv6lZ3mDW153hFF8W0hBcW64WLY-1KVPrrW2N2Y8t5rr-gqW8jszKF1mGRVtW4SD5S52TpLRrW5PZ7Wq5NfRscW3SRzGb2tZxQyW4WKcMC1kW_KXW4X7fw08JfFGnW6l36pb3sLp2wW7g18RD5cy303W7-3Tcn4qbkBvW7yNp7b31YnfCW7llN0p331PrrW99xZ8f43LxbyW2SpMM41yxsL_W5dc9gb2svVzBW3wJ0MT4p25c4VnYgNh3j5L-wVsD9gw5xfztgN1xRN_DySNdTW8whNJ8179bTqW5RXSRb4htv4HW1zJfgr6cJyXyVb0LdB3r9ZpHW23ttYp5cJYvRW8B5Ycj8l7qsNW7_PvqZ3dMQp4VyzZnW5jr6xMW1GBrrv3_-8TSW5QTl6F2y19KMVf0nb14gKYNzN8zmNv251n66W84-Hfy780zB2W5WCWkH1c7KPlW6gTjB-65GJgWW3M4NfT1tfWQFW7Lv4YK6fZR0nW2WqBsQ4JRrxyW2D8Yth5v7bK7W5W38c66XfPgMVRS4cR1zQj5Yf2ZV3XK04",
+      "slot": 1,
+      "summary": "Plus, 5 biotech earnings catalysts to watch \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-1 pick (Fierce Biotech) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    },
+    {
+      "article_id": "8c599d0749ed6f67",
+      "headline": "FICO FY 3Q'26: Welcome to 'Gaming'",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/fico-fy-3q26-welcome-to-gaming",
+      "slot": 2,
+      "summary": "MBI's fiscal Q3 2026 earnings deep-dive on FICO covers a quarter where revenue grew +26% YoY but missed consensus, triggering a ~24% stock decline that signals something beyond a routine miss. The 'Gaming' framing points to structural concerns around FICO Score manipulation by consumers or lenders \u2014 undermining the predictive value of the score itself \u2014 alongside competitive and regulatory pressure on FICO's pricing power. MBI unpacks the financial model context and whether this represents a durable re-rating or an overreaction.",
+      "why_it_matters": "FICO's monopoly moat in credit scoring is one of the most defensible in financial infrastructure, so a 24% drop demands serious diligence on whether the 'gaming' dynamic is a temporary noise or a secular erosion of the score's utility and FICO's pricing leverage.",
+      "signal_tags": [
+        "ticker_match:FICO",
+        "priority:high",
+        "analytical_depth",
+        "competitive_moat_analysis",
+        "actionability"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "bee27601e96d1ee8",
+      "headline": "Bayer's Sai Jasti on Driving Productivity in R&D with Data Science and AI",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/bayers-sai-jasti-on-driving-productivity-in-r-and-d-with-data-science-and-ai",
+      "slot": 3,
+      "summary": "Sai Jasti, Bayer's SVP and Head of Data Science and AI, details how Bayer has spent four-plus years transitioning from opportunistic AI experimentation to a committed, AI-first R&D strategy targeting a 40% productivity improvement by 2030. The interview covers the mindset shift required to embed data science across discovery and clinical workflows, the infrastructure and talent adaptations needed, and how Bayer is uniting technical, scientific, and clinical teams around shared productivity goals. Jasti draws on prior experience at GSK Vaccines and AstraZeneca to contextualize where AI is generating measurable gains versus where it remains aspirational.",
+      "why_it_matters": "Provides rare practitioner-level insight into how large-cap biopharma is operationalizing AI in R&D \u2014 directly relevant to assessing the competitive data/AI moat of BAYN and peers, and evaluating the ROI thesis for healthcare AI vendors and infrastructure players.",
+      "signal_tags": [
+        "ticker_match:BAYN",
+        "priority:high",
+        "ai_biology_intersection",
+        "data_infrastructure",
+        "analytical_depth",
+        "practitioner_perspective"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}

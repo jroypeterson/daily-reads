@@ -1404,5 +1404,28 @@
     },
     "warned_articles": [],
     "substituted_articles": []
+  },
+  {
+    "date": "2026-08-05",
+    "checked_unique": 66,
+    "checked_slots": 70,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 1,
+        "broken_source": "Fierce Biotech",
+        "broken_url": "https://www.fiercebiotech.com/medtech/kkr-integer-private-57b",
+        "substitute_source": "BioSpace",
+        "substitute_headline": "Biogen beats on Apellis deal, leaving analysts leery",
+        "substitute_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWBdRl3Jt-KLN8c6vwch2JRzW5j5c_V5S3sM3N46-8JW5nR3bW7Y9pgv6lZ3mDW153hFF8W0hBcW64WLY-1KVPrrW2N2Y8t5rr-gqW8jszKF1mGRVtW4SD5S52TpLRrW5PZ7Wq5NfRscW3SRzGb2tZxQyW4WKcMC1kW_KXW4X7fw08JfFGnW6l36pb3sLp2wW7g18RD5cy303W7-3Tcn4qbkBvW7yNp7b31YnfCW7llN0p331PrrW99xZ8f43LxbyW2SpMM41yxsL_W5dc9gb2svVzBW3wJ0MT4p25c4VnYgNh3j5L-wVsD9gw5xfztgN1xRN_DySNdTW8whNJ8179bTqW5RXSRb4htv4HW1zJfgr6cJyXyVb0LdB3r9ZpHW23ttYp5cJYvRW8B5Ycj8l7qsNW7_PvqZ3dMQp4VyzZnW5jr6xMW1GBrrv3_-8TSW5QTl6F2y19KMVf0nb14gKYNzN8zmNv251n66W84-Hfy780zB2W5WCWkH1c7KPlW6gTjB-65GJgWW3M4NfT1tfWQFW7Lv4YK6fZR0nW2WqBsQ4JRrxyW2D8Yth5v7bK7W5W38c66XfPgMVRS4cR1zQj5Yf2ZV3XK04"
+      }
+    ]
   }
 ]

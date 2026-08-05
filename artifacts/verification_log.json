@@ -7351,5 +7351,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a substantive, candid closing investor letter from a concentrated long-only fund manager with deep roots at TCI and Theleme, offering genuine reflections on strategy failure, capital allocation discipline, and the limits of value-based investing in momentum-driven markets \u2014 directly aligned with the reader's exemplar taste for Buffett/Scott-style practitioner letters."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "KKR to Take Integer Holdings Private in $5.7B Deal; Curium Places Up to $8B Bet on Lantheus",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/medtech/kkr-integer-private-57b",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Two concrete, named M&A transactions with deal size, premium, and ticker-level detail (ITGR, LNTH) in a rapidly consolidating MedTech/diagnostics space \u2014 substantive and directly actionable for healthcare portfolio positioning."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "STAT+ AI Prognosis: Why Schr\u00f6dinger CEO Ramy Farid Changed How He's Thinking About AI",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/05/they-changed-their-minds-on-ai-whos-next-ai-prognosis/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text is truncated to navigation boilerplate with no substantive article body available \u2014 and it belongs to Slot 3 (Tech/AI) or Slot 1 (Healthcare/Biotech) rather than Slot 2 (Finance/Macro), as it covers an AI-biology strategic pivot at a computational drug discovery firm, not macro, earnings, or market-moving finance topics."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "FICO FY 3Q'26: Welcome to 'Gaming'",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/fico-fy-3q26-welcome-to-gaming",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment analysis source that aligns perfectly with the reader's preferences for analytical depth, competitive moat analysis, and deep business diligence \u2014 and a 24% post-earnings drop on a monopoly-moat business is exactly the kind of re-rating event worth dissecting."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "STAT+ AI Prognosis: Why Schr\u00f6dinger CEO Ramy Farid Changed How He's Thinking About AI",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/05/they-changed-their-minds-on-ai-whos-next-ai-prognosis/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text is truncated to navigation chrome with no substantive article body accessible, making it impossible to verify depth, and it likely fails the 'no paywalled content' avoid pattern."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "Bayer's Sai Jasti on Driving Productivity in R&D with Data Science and AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/bayers-sai-jasti-on-driving-productivity-in-r-and-d-with-data-science-and-ai",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "The article is a substantive practitioner interview with Bayer's SVP of Data Science and AI covering real strategic commitments (40% R&D productivity target by 2030), workflow transformation philosophy, and the shift from opportunistic to systematic AI adoption \u2014 well-matched to Slot 3 and the reader's strong interests in AI/biology intersection and data infrastructure."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "Bloomberg Markets Daily: Tech Meltup \u2014 Nasdaq 100's Four-Day, $3.5 Trillion Rally",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-05/tech-euphoria-has-come-back-in-just-four-days",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a generic markets recap covering a broad index rally \u2014 exactly the pattern flagged as a 'recent miss' (avoid generic index articles unless they have significant forward-looking depth), and the Wildcard slot requires cross-domain thinking or surprising insights that pass the 'would I forward this?' test, which a Nasdaq momentum summary does not."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "UnitedHealthcare to Tighten Reimbursement for Lab Tests",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/policy-updates/unitedhealthcare-to-tighten-lab-tests-reimbursement/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin policy update listing five lab test categories facing reimbursement tightening, with no analytical depth, no quantitative impact estimates, and no discussion of competitive dynamics or investment implications that would satisfy the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-05",
+    "headline": "Hinge Health to Acquire Cylinder Health in a $105M Deal to Expand into GI Care",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/hinge-health-acquire-cylinder-health-105m-deal-expand-digestive-healthcare",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a solid corporate news piece about Hinge Health's acquisition and earnings, but it lacks the analytical depth, cross-domain insight, or 'would I forward this?' quality required for the Wildcard slot \u2014 it reads as a straightforward M&A/earnings report rather than a deep strategic analysis, and better fits Slot 1 (Healthcare) where it would also face headwinds from the reader's avoidance of thin news summaries."
   }
 ]
