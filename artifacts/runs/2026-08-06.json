@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-08-06",
+  "generated_at": "2026-08-06T13:55:11Z",
+  "counts": {
+    "gmail_items": 137,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1d49bed41ca66f95",
+      "headline": "Breaking: FDA approves Moderna's mRNA flu vaccine",
+      "source": "STAT News",
+      "url": "https://www.biopharmadive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/826864/",
+      "slot": 1,
+      "summary": "The FDA has approved Moderna's mFlusiva (mRNA-1010), the first mRNA-based influenza vaccine in the U.S., for adults 50 and older \u2014 with accelerated approval for those 65+ contingent on a postmarketing confirmatory study. The approval follows a turbulent regulatory path that included an unusual FDA refusal to review the application under Makary and Prasad, a subsequent reversal, and unanimous advisory committee support in June. Moderna expects the vaccine to be commercially available for the 2026-2027 flu season, with international reviews ongoing.",
+      "why_it_matters": "This is a direct near-term catalyst for MRNA, validating the mRNA platform's commercial viability beyond COVID and opening a large flu vaccine market, while also signaling a broader shift in FDA posture toward previously stalled mRNA applications.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "638c320dfef5ca95",
+      "headline": "Markets Daily: The Bessent-Warsh 'double whammy'",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/bonds-dollar-weighed-down-by-washington-policy-decisions",
+      "slot": 2,
+      "summary": "Bloomberg's Markets Daily analyzes the 'double whammy' created by Treasury Secretary Bessent and incoming Fed Chair Warsh, with markets pricing in reduced Fed independence \u2014 producing the unusual and bearish combination of a weakening dollar alongside rising yields. Gold surged 4% for its best single-day performance in six months as investors sought safe-haven exposure amid the policy uncertainty. This tandem move is atypical and signals elevated concern about the institutional credibility of U.S. monetary policy.",
+      "why_it_matters": "A rising-yield, weaker-dollar environment compresses biotech valuations and raises financing costs across the healthcare coverage universe, making this a key macro backdrop for near-term portfolio positioning.",
+      "signal_tags": [
+        "macro_markets",
+        "catalyst_proximity",
+        "actionability",
+        "novelty",
+        "geopolitical_risks"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "ae5437b72ba4ba34",
+      "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+      "slot": 3,
+      "summary": "MBI Deep Dives analyzes the long-term bargaining power dynamics between hyperscalers (AWS, Azure, GCP) and frontier AI labs, arguing that as labs mature and potentially insource compute, the hyperscalers' margin advantage will compress to a 'convenience premium.' The piece uses Microsoft's Q2 2026 earnings as a jumping-off point, dissecting Satya Nadella's comments on customer IP ownership as a signal that hyperscalers are not complacent about the threat. The author remains deliberately ambivalent on the 5-10 year outcome, noting real constraints (power, capital markets) that could preserve hyperscaler leverage even as lab bargaining power structurally grows.",
+      "why_it_matters": "For investors with cloud or AI lab exposure, this piece sharpens the core moat question: whether hyperscalers retain pricing power as AI labs scale, or whether insourcing turns them into commodity landlords \u2014 directly relevant to portfolio positioning across GOOGL, MSFT, AMZN, and frontier AI names.",
+      "signal_tags": [
+        "ticker_match:MSFT",
+        "high_priority_source",
+        "ai_impact",
+        "data_infrastructure",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "d09c1a7a5b4ebeba",
+      "headline": "A digital health company became an insurance carrier under the thin veil of a product launch",
+      "source": "The Health Care Blog",
+      "url": "https://thehealthcareblog.com/blog/2026/08/06/a-digital-health-company-became-an-insurance-carrier-under-the-thin-veil-of-a-product-launch/",
+      "slot": 4,
+      "summary": "The author reverse-engineers how Progyny quietly transformed from a third-party fertility benefits administrator into a licensed insurance carrier over three years, using a trail of public signals \u2014 an actuary hire in 2023, a Washington state name reservation in August 2024, an insurance license granted by mid-2025, and active product filings \u2014 all predating the April 2026 'product launch' PR. The piece argues Progyny's decade of proprietary fertility claims data, Milliman-validated outcomes, and in-house PBM give it a credible actuarial edge to underwrite small employer fertility plans that incumbent insurers avoid. The author frames this as a generalizable framework for spotting stealth business model shifts in digital health companies before the market reprices them.",
+      "why_it_matters": "Progyny's move from TPA margins to underwriter margins represents a structural valuation re-rating event that markets are still misreading as a simple downmarket expansion, and the four-signal detection framework (actuary hire, name reservation, insurance license, product filing) is directly reusable across other digital health SaaS names in the coverage universe.",
+      "signal_tags": [
+        "ticker_match:PGNY",
+        "high_priority_source",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "health_software_SaaS",
+        "novelty"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

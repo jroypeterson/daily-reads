@@ -7423,5 +7423,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a solid corporate news piece about Hinge Health's acquisition and earnings, but it lacks the analytical depth, cross-domain insight, or 'would I forward this?' quality required for the Wildcard slot \u2014 it reads as a straightforward M&A/earnings report rather than a deep strategic analysis, and better fits Slot 1 (Healthcare) where it would also face headwinds from the reader's avoidance of thin news summaries."
+  },
+  {
+    "date": "2026-08-06",
+    "headline": "Breaking: FDA approves Moderna's mRNA flu vaccine",
+    "source": "STAT News",
+    "url": "https://www.biopharmadive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/826864/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering the regulatory history, clinical trial data, political controversy, and commercial implications of the first mRNA flu vaccine approval, directly matching Slot 1 criteria with a clear ticker catalyst for MRNA."
+  },
+  {
+    "date": "2026-08-06",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth on hyperscaler vs. AI lab competitive dynamics, this article fits Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro), as its core content is infrastructure competitive analysis rather than macro moves, earnings framing, or market/policy impact."
+  },
+  {
+    "date": "2026-08-06",
+    "headline": "Markets Daily: The Bessent-Warsh 'double whammy'",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/bonds-dollar-weighed-down-by-washington-policy-decisions",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article covers a substantive and novel macro theme \u2014 simultaneous dollar weakness and yield rises driven by Fed independence risk repricing \u2014 with direct implications for biotech financing costs and risk asset valuations, fitting Slot 2 well."
+  },
+  {
+    "date": "2026-08-06",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers substantive analytical depth on the hyperscaler vs. AI lab competitive dynamics, directly addressing the reader's strongest topic preferences (data infrastructure, AI impact, competitive moat analysis) with actionable portfolio framing."
+  },
+  {
+    "date": "2026-08-06",
+    "headline": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+    "source": "Hacker News / Google Blog",
+    "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a corporate internal memo rehash \u2014 essentially a PR announcement with little analytical depth, no investment thesis, and no forward-looking strategic analysis that would satisfy this reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-06",
+    "headline": "A digital health company became an insurance carrier under the thin veil of a product launch",
+    "source": "The Health Care Blog",
+    "url": "https://thehealthcareblog.com/blog/2026/08/06/a-digital-health-company-became-an-insurance-carrier-under-the-thin-veil-of-a-product-launch/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article is a deeply analytical, original piece of investigative business diligence that reconstructs a stealth business model transformation at Progyny using public records \u2014 actuarial hires, state incorporation filings, insurance licensure, and SERFF product filings \u2014 well ahead of market recognition, perfectly matching the reader's strong preferences for analytical depth, competitive moat analysis, and deep business diligence."
   }
 ]
