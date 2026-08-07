@@ -277,6 +277,24 @@ SOURCES = {
         "priority": "high",
         "always_read": True,
     },
+    # Apollo's Daily Spark (Torsten Slok). Added 2026-08-07 on JP's go, filling
+    # the one gap the 2026-08-06 commentary audit found: 22 configured sources
+    # and ZERO institutional market commentary — no sell-side summary, no
+    # asset-manager letter, no bank economics.
+    #
+    # It was ALREADY ARRIVING and simply unregistered — 25 messages in a 90-day
+    # window, so the digest has been ignoring it. Address discovered with
+    # `validate_source.py "Slok"`, not guessed: the From header is
+    # `Torsten Slok <agm@apollo.com>`, which no amount of reasoning about
+    # apollo.com would have produced.
+    "agm@apollo.com": {
+        "name": "Apollo Daily Spark (Torsten Slok)",
+        "email": "agm@apollo.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "daily",
+        "priority": "normal",
+    },
     "theprimer@biotechprimer.com": {
         "name": "Biotech Primer",
         "email": "theprimer@biotechprimer.com",
