@@ -36,6 +36,41 @@ def _past_7_days() -> list[str]:
     return [(today - timedelta(days=i)).isoformat() for i in range(7)]
 
 
+SLOW_CADENCES = {"monthly", "quarterly"}
+
+
+def classify_missing_sources(all_names, seen, always_read, name_freq):
+    """Split unseen sources into real alarms and expected quiet.
+
+    Returns `(missing_sources, missing_always_read, quiet_slow,
+    quiet_slow_always_read)`.
+
+    A monthly or quarterly source is EXPECTED to be silent most weeks. The
+    always-read alarm already knew that (fixed 07-03, after Consilient
+    Observer's June issue arrived 06-18 and was reported missing anyway), but
+    the general `missing_sources` list did not — it was a plain set difference
+    over every configured source. So the same source was rendered TWICE in one
+    report: once under `Missing sources` in alarm red (`#e94560`) / a Slack
+    `:warning:`, and again under "Quiet this week (monthly/quarterly cadence —
+    normal)". Flagged and excused in the same breath, which is board row #261
+    and the reason its one genuinely dead source (#72 Fierce Pharma, 8 alerts
+    since 07-04) reads as noise.
+
+    A slow source that is genuinely dead is still caught — by the cadence-aware
+    audit (`validate_source --audit`, the "dead 21d" lane), which measures
+    against the source's own cadence instead of the calendar week.
+    """
+    missing_all = set(all_names) - set(seen)
+    slow = {n for n in missing_all if name_freq.get(n, "") in SLOW_CADENCES}
+    always = set(always_read)
+    return (
+        sorted(missing_all - slow),
+        sorted((missing_all & always) - slow),
+        sorted(slow),
+        sorted(slow & always),
+    )
+
+
 def build_report() -> dict:
     """Collect all metrics for the weekly report."""
     dates = _past_7_days()
@@ -100,21 +135,10 @@ def build_report() -> dict:
     # can exceed the configured total. Only count configured sources
     # against the total.
     active_configured = sources_seen & all_source_names
-    missing_sources = sorted(all_source_names - sources_seen)
-    # Cadence-aware always-read alarm: a monthly/quarterly source (e.g.
-    # Consilient Observer) is EXPECTED to be silent most weeks — flagging it
-    # "MISSING ALWAYS-READ" every quiet week is a false alarm (fired 07-03; the
-    # June issue had arrived 06-18). Sub-weekly cadences keep the hard alarm;
-    # longer cadences are listed informationally. A genuinely dead slow source
-    # is still caught by the cadence-aware source audit (validate_source
-    # --audit, the "dead 21d" lane).
-    _slow_cadences = {"monthly", "quarterly"}
     _name_freq = {m["name"]: (m.get("frequency") or "") for m in SOURCES.values()}
-    _missing_all = always_read_names - sources_seen
-    missing_always_read = sorted(
-        n for n in _missing_all if _name_freq.get(n, "") not in _slow_cadences)
-    quiet_slow_always_read = sorted(
-        n for n in _missing_all if _name_freq.get(n, "") in _slow_cadences)
+    missing_sources, missing_always_read, quiet_slow, quiet_slow_always_read = (
+        classify_missing_sources(all_source_names, sources_seen,
+                                 always_read_names, _name_freq))
 
     # Build the full source roster, grouped by category, sorted within each
     # group. One entry per unique source name (SOURCES may have multiple
@@ -155,6 +179,9 @@ def build_report() -> dict:
         "active_sources": len(active_configured),
         "total_configured": len(all_source_names),
         "missing_sources": missing_sources,
+        # every slow-cadence source that was quiet, not just the always-reads —
+        # so a monthly source can never appear in the alarm list as well
+        "quiet_slow": quiet_slow,
         "missing_always_read": missing_always_read,
         "quiet_slow_always_read": quiet_slow_always_read,
         "total_gmail_items": total_gmail,
@@ -325,10 +352,10 @@ def format_report_text(report: dict) -> str:
         lines.append(f"  Missing sources: {', '.join(sh['missing_sources'])}")
     if sh["missing_always_read"]:
         lines.append(f"  MISSING ALWAYS-READ: {', '.join(sh['missing_always_read'])}")
-    if sh.get("quiet_slow_always_read"):
+    if sh.get("quiet_slow") or sh.get("quiet_slow_always_read"):
         lines.append(
             "  Quiet this week (monthly/quarterly cadence — normal): "
-            + ", ".join(sh["quiet_slow_always_read"])
+            + ", ".join(sh.get("quiet_slow") or sh["quiet_slow_always_read"])
         )
     # Full source roster grouped by category
     roster = sh.get("roster", [])
@@ -420,8 +447,8 @@ def format_report_html(report: dict) -> str:
         missing_html += f'<p style="color: #e94560;">Missing sources: {", ".join(sh["missing_sources"])}</p>'
     if sh["missing_always_read"]:
         missing_html += f'<p style="color: #e94560; font-weight: bold;">Missing always-read: {", ".join(sh["missing_always_read"])}</p>'
-    if sh.get("quiet_slow_always_read"):
-        missing_html += f'<p style="color: #888;">Quiet this week (monthly/quarterly cadence — normal): {", ".join(sh["quiet_slow_always_read"])}</p>'
+    if sh.get("quiet_slow") or sh.get("quiet_slow_always_read"):
+        missing_html += f'<p style="color: #888;">Quiet this week (monthly/quarterly cadence — normal): {", ".join(sh.get("quiet_slow") or sh["quiet_slow_always_read"])}</p>'
 
     roster_html = ""
     roster = sh.get("roster", [])
@@ -560,10 +587,10 @@ def format_report_slack(report: dict) -> list[dict]:
         source_text += f"\n:warning: Missing: {', '.join(sh['missing_sources'])}"
     if sh["missing_always_read"]:
         source_text += f"\n:rotating_light: Missing always-read: {', '.join(sh['missing_always_read'])}"
-    if sh.get("quiet_slow_always_read"):
+    if sh.get("quiet_slow") or sh.get("quiet_slow_always_read"):
         source_text += (
             f"\n:zzz: Quiet this week (monthly/quarterly cadence — normal): "
-            f"{', '.join(sh['quiet_slow_always_read'])}"
+            f"{', '.join(sh.get('quiet_slow') or sh['quiet_slow_always_read'])}"
         )
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": source_text}})
 

@@ -1858,3 +1858,51 @@ class VerifySlotDeferralTests(unittest.TestCase):
         out, _, _ = self._run(cands, verdicts)
         sources = [a["source"] for a in out]
         self.assertEqual(len(sources), len(set(sources)), "no duplicate source")
+
+
+# --- #261: a source must never be alarmed and excused in the same report ----
+
+def test_slow_cadence_source_is_not_in_the_alarm_list():
+    """Board #261. Consilient Observer is monthly and was rendered TWICE:
+    under `Missing sources` in alarm red / a Slack :warning:, and again under
+    "Quiet this week (monthly/quarterly cadence - normal)"."""
+    from weekly_report import classify_missing_sources
+    all_names = {"Consilient Observer", "Value Investors Insight", "MBI"}
+    seen = set()
+    always = {"Consilient Observer", "Value Investors Insight", "MBI"}
+    freq = {"Consilient Observer": "monthly",
+            "Value Investors Insight": "monthly",
+            "MBI": "weekly"}
+    missing, missing_ar, quiet, quiet_ar = classify_missing_sources(
+        all_names, seen, always, freq)
+    assert missing == ["MBI"], "a monthly source is not a missing source"
+    assert missing_ar == ["MBI"]
+    assert quiet == ["Consilient Observer", "Value Investors Insight"]
+    assert quiet_ar == ["Consilient Observer", "Value Investors Insight"]
+    # the actual defect: no name may appear in both lists
+    assert not (set(missing) & set(quiet))
+
+
+def test_a_weekly_source_going_quiet_still_alarms():
+    """The fix must not silence the alarm it exists to raise (#72 Fierce)."""
+    from weekly_report import classify_missing_sources
+    missing, missing_ar, quiet, _ = classify_missing_sources(
+        {"Fierce Pharma"}, set(), {"Fierce Pharma"}, {"Fierce Pharma": "daily"})
+    assert missing == ["Fierce Pharma"]
+    assert missing_ar == ["Fierce Pharma"]
+    assert quiet == []
+
+
+def test_a_source_with_no_declared_cadence_still_alarms():
+    """An unknown frequency is not evidence of a slow cadence."""
+    from weekly_report import classify_missing_sources
+    missing, _, quiet, _ = classify_missing_sources(
+        {"Mystery"}, set(), set(), {})
+    assert missing == ["Mystery"] and quiet == []
+
+
+def test_a_seen_source_is_neither_missing_nor_quiet():
+    from weekly_report import classify_missing_sources
+    missing, missing_ar, quiet, quiet_ar = classify_missing_sources(
+        {"MBI"}, {"MBI"}, {"MBI"}, {"MBI": "weekly"})
+    assert missing == [] and missing_ar == [] and quiet == [] and quiet_ar == []
