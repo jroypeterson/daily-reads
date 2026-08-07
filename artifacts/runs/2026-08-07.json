@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-08-07",
+  "generated_at": "2026-08-07T12:53:54Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "0377be9382278221",
+      "headline": "'Volatility they now expect to be the norm': Insurers' financial issues are getting worse",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/financial/volatility-they-now-expect-to-be-the-norm-insurers-financial-issues-are-getting-worse/",
+      "slot": 1,
+      "summary": "A HealthScape Advisors report finds that 73% of health plans posted operating losses in 2025, up from 54% in 2023, with more than two-thirds logging at least three consecutive years of losses \u2014 a dramatic worsening from just 12% in the 2020-2022 period. Medical cost growth is outpacing premium increases across commercial, Medicare, and Medicaid lines (e.g., 12.2% vs. 11.8% in Medicaid), driven by provider consolidation, specialty pharmacy, and higher-acuity utilization. Medicaid plans face additional headwinds from HR 1 work requirements and more frequent eligibility checks set to take effect.",
+      "why_it_matters": "The structural and accelerating nature of these losses \u2014 particularly among Blues and regional plans \u2014 has direct read-through to managed care valuations (CNC, ELV, CVS/Aetna) and frames why premium hikes and network restrictions are intensifying, making this essential context for payer sector positioning.",
+      "signal_tags": [
+        "ticker_match:CNC",
+        "ticker_match:ELV",
+        "novelty",
+        "actionability",
+        "regulatory_affairs"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ae5437b72ba4ba34",
+      "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+      "slot": 3,
+      "summary": "MBI Deep Dives analyzes the long-term power struggle between hyperscalers (AWS, Azure, GCP) and frontier AI labs, arguing that as labs mature and can self-build infrastructure, the hyperscalers' margin shrinks to a 'convenience premium' that will compress over time. The piece uses Microsoft's Q2 2026 earnings and a debate with another analyst to examine why AWS faces more asymmetric risk than Google Cloud (which has internal 1P workloads as a shock absorber). The author remains deliberately ambivalent about the 5\u201310 year outcome given current compute constraints masking bargaining power shifts, but flags Satya Nadella's own remarks as signaling awareness of this threat.",
+      "why_it_matters": "For any investor holding hyperscaler positions, this piece reframes the bull case stress test \u2014 not as a near-term revenue concern but as a structural moat question about whether cloud margins compress as AI labs mature into 'full adults' at the negotiating table.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:MSFT",
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}

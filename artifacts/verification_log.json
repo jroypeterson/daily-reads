@@ -7477,5 +7477,95 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The article is a deeply analytical, original piece of investigative business diligence that reconstructs a stealth business model transformation at Progyny using public records \u2014 actuarial hires, state incorporation filings, insurance licensure, and SERFF product filings \u2014 well ahead of market recognition, perfectly matching the reader's strong preferences for analytical depth, competitive moat analysis, and deep business diligence."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "FDA Approves New Engineered Viral Immunotherapy for Patients with Treatment-Resistant Advanced Melanoma",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin FDA press release \u2014 formulaic regulatory boilerplate with no analytical depth, no pipeline context, no competitive positioning, and no investment thesis beyond confirming the approval event itself; it adds nothing beyond what the shortlist summary already captured."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantively about hyperscaler vs. AI lab competitive dynamics (Slot 3 Tech/AI), not healthcare or biopharma, and has zero relevance to the target Slot 1 criteria."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Medicare quietly gave blockbuster AbbVie drug seven extra years before price negotiations, advocacy group asserts",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is essentially just a byline and a brief paragraph \u2014 it lacks the substantive detail (specific drug named, policy mechanism explained, CMS rationale, advocacy group analysis) needed to meet the depth standard, making it too thin for selection despite a compelling headline and strong topical fit."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Jobs Report Poses New Test for Warsh and the Fed",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/08/07/business/dealbook/jobs-warsh-fed-rates.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is a macro Fed/jobs article that does not belong in the Healthcare/Biotech slot \u2014 it covers interest rate expectations and labor market data with no healthcare or biopharma content whatsoever."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Bayer's Sai Jasti on driving productivity in R&D with data science and AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fcd1a4ae8b373b3f4bbcf76f8/6d9cfcd64c7a43c00000021ef3a0bcc2/6d9cfcd6-4c7a-43c0-bc53-b7557bce6dab",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article fits Slot 3 (Tech/AI) better than Slot 1 (Healthcare/Biotech), as it is primarily an AI/data science implementation story with a pharma backdrop rather than a pipeline, FDA, M&A, or clinical data story."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Takeda approval ushers in new wave of sleep drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/takeda-fda-sleep-drug-approval-orexin-orzeyful-narcolepsy/827190/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article covers a genuine FDA approval catalyst for TAK and the orexin class, but it is a relatively thin news summary without the analytical depth, competitive moat analysis, or investment-relevant diligence this reader profile strongly prefers \u2014 and the reader's AVOID patterns flag niche therapeutics and short-term trading focus, both of which apply here."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "'Volatility they now expect to be the norm': Insurers' financial issues are getting worse",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/volatility-they-now-expect-to-be-the-norm-insurers-financial-issues-are-getting-worse/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article presents substantive, data-driven analysis of structural deterioration in health plan financials using NAIC filings, with specific metrics on loss rates, cost trends, and capital positioning that are directly actionable for managed care sector analysis."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Jobs Report Poses New Test for Warsh and the Fed",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/08/07/business/dealbook/jobs-warsh-fed-rates.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled after a brief preview, offering only a thin summary of jobs report expectations and Fed rate-hike debate with no analytical depth, and it is time-sensitive event coverage (same-day jobs report) that will be stale immediately \u2014 failing the depth and actionability standards for Slot 2."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+    "source": "Hacker News / The Register",
+    "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content provided is just a navigation/headline listing page from The Register with no actual article body \u2014 the Taalas acquisition story is only present as a headline link, so there is no substantive content to evaluate or summarize."
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on the hyperscaler vs. AI lab competitive dynamics, using Microsoft's earnings as a concrete anchor while exploring moat erosion, bargaining power shifts, and insourcing risk \u2014 all directly relevant to Slot 3's AI infrastructure theme and the reader's strong interest in competitive moat analysis and data infrastructure."
   }
 ]
