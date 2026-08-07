@@ -295,6 +295,37 @@ SOURCES = {
         "frequency": "daily",
         "priority": "normal",
     },
+    # Oaktree Insights (Howard Marks memos + the firm's market commentary).
+    # JP subscribed 2026-08-07 and confirmed the double opt-in himself.
+    #
+    # ⚠ The address is INFERRED, not observed on a real issue — the only Oaktree
+    # mail that exists so far is the subscription confirmation, from
+    # `EmailNotifications@oaktreecapital.com`. That is an alert-SYSTEM address
+    # ("Oaktree Email Alert Subscription"), not a one-off transactional sender,
+    # so it is the right guess — but it IS a guess, which the Apollo entry above
+    # deliberately is not.
+    #
+    # Safe to register on inference because being wrong is LOUD — but NOT via
+    # the weekly report, which is the obvious wrong guess: `monthly` is in
+    # `SLOW_CADENCES`, so `classify_missing_sources()` files it under "quiet
+    # this week (normal)" every week and never alarms. The lane that catches a
+    # genuinely wrong address is the cadence-aware
+    # `python validate_source.py --audit`, where monthly means stale at 45 days
+    # and **dead at 80**. So a bad address here surfaces in ~3 months, not
+    # never — and not next week either. If it fires, re-run
+    # `python validate_source.py "Oaktree"` and take the OBSERVED From header,
+    # the way Apollo's was found.
+    #
+    # `monthly` is the closest value the vocabulary has; memos are genuinely
+    # irregular (weeks to months apart), so a missed month is not a fault.
+    "emailnotifications@oaktreecapital.com": {
+        "name": "Oaktree Insights (Howard Marks)",
+        "email": "EmailNotifications@oaktreecapital.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "monthly",
+        "priority": "normal",
+    },
     "theprimer@biotechprimer.com": {
         "name": "Biotech Primer",
         "email": "theprimer@biotechprimer.com",
