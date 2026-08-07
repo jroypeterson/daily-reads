@@ -296,6 +296,7 @@ def build_report() -> dict:
         "substack_dropped": 0,
     }
     warned_by_source: dict[str, int] = {}
+    dropped_detail: list[dict] = []
     for entry in week_url:
         broken = entry.get("broken", {})
         for key in surface_totals:
@@ -309,6 +310,17 @@ def build_report() -> dict:
         for sub in entry.get("substituted_articles", []):
             src = sub.get("broken_source", "") or "Unknown"
             warned_by_source[src] = warned_by_source.get(src, 0) + 1
+        # Dropped always-read / triage / substack items belong in the same
+        # attribution: a source whose link died is unhealthy whether the item
+        # shipped broken, was substituted around, or was dropped outright.
+        # Excluding drops made this list blind to exactly the population #261
+        # is about — `always_read_dropped` fired on 10 of 37 runs since
+        # 2026-07-01 and never named a source. Entries predating `dropped_items`
+        # simply contribute nothing, so old logs still render.
+        for drop in entry.get("dropped_items", []):
+            src = drop.get("source", "") or "Unknown"
+            warned_by_source[src] = warned_by_source.get(src, 0) + 1
+        dropped_detail.extend(entry.get("dropped_items", []))
 
     total_broken = sum(surface_totals.values())
     top_warned_sources = sorted(
@@ -320,6 +332,8 @@ def build_report() -> dict:
         "total_broken": total_broken,
         "surfaces": surface_totals,
         "top_warned_sources": top_warned_sources,
+        # named, so a dropped URL can actually be fixed (#261)
+        "dropped_items": dropped_detail,
     }
 
     return report
@@ -428,6 +442,21 @@ def format_report_text(report: dict) -> str:
                      "(incl. slots we substituted around):")
         for src, n in uv["top_warned_sources"]:
             lines.append(f"    - {src}: {n} day(s)")
+    # Name the dropped URLs. Counting them without naming them is why #261's
+    # "6 broken always-read URLs" were visible for weeks and never fixable.
+    dropped = uv.get("dropped_items") or []
+    if dropped:
+        seen_urls = set()
+        lines.append("  Dropped for a dead URL (fix or retire these):")
+        for d in dropped:
+            key = (d.get("surface"), d.get("url"))
+            if key in seen_urls:
+                continue
+            seen_urls.add(key)
+            lines.append(
+                f"    - [{d.get('surface','?')}] {d.get('source') or 'Unknown'}: "
+                f"{d.get('url') or '(no url)'}"
+            )
     lines.append("")
 
     return "\n".join(lines)

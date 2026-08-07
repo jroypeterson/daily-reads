@@ -669,6 +669,34 @@ def build_journal_watch(structured_gmail: list[dict]) -> list[dict]:
     return out
 
 
+def _dropped_detail(surfaces) -> list[dict]:
+    """Name every item a liveness probe is about to drop.
+
+    `surfaces` is `[(items, dropped_indices, surface_label), ...]`, read BEFORE
+    the lists are filtered — afterwards the indices address different items.
+
+    The three drop buckets (`always_read`, `triage`, `substack`) recorded only
+    a COUNT. Measured on the stored log, `always_read_dropped: 1` appears on 10
+    of the 37 runs since 2026-07-01 and every one is anonymous, so the "6 broken
+    always-read URLs" on board row #261 could be counted and never fixed. An
+    out-of-range index is skipped rather than raised on: this runs inside
+    delivery, and a logging detail must never be able to take the digest down.
+    """
+    out = []
+    for items, dropped, surface in surfaces:
+        for idx in sorted(dropped or ()):
+            if not (0 <= idx < len(items)):
+                continue
+            item = items[idx] or {}
+            out.append({
+                "surface": surface,
+                "source": item.get("source") or item.get("source_name") or "",
+                "headline": (item.get("headline") or item.get("title") or "")[:120],
+                "url": item.get("url") or "",
+            })
+    return out
+
+
 def validate_delivery_urls(
     articles: list[dict],
     triage_queue: list[dict],
@@ -867,6 +895,14 @@ def validate_delivery_urls(
             f"  Removing from triage (promoted to a main slot): "
             f"{str(triage_queue[i].get('headline') or '')[:60]}"
         )
+    # Capture WHICH items are about to be dropped, before `_filter` reindexes
+    # the lists — afterwards the indices no longer address the same items.
+    dropped_detail = _dropped_detail([
+        (always_read, broken_always_read, "always_read"),
+        (triage_queue, broken_triage - promoted_triage, "triage"),
+        (substack_items, broken_substack, "substack"),
+    ])
+
     triage_queue = _filter(
         triage_queue, broken_triage | promoted_triage, "triage", silent=promoted_triage
     )
@@ -920,6 +956,13 @@ def validate_delivery_urls(
             for i in still_broken
         ],
         "substituted_articles": substituted,
+        # The three DROP buckets carried a count and nothing else, so a
+        # dropped item was unidentifiable after the fact. Measured on the
+        # stored log: `always_read_dropped: 1` on 10 of the 37 runs since
+        # 2026-07-01, every one of them anonymous — which is why the "6 broken
+        # always-read URLs" on board row #261 could be counted but never fixed.
+        # A count you cannot act on is not an observation.
+        "dropped_items": dropped_detail,
     })
     save_json(log_path, log)
     print(f"Logged validation stats to {log_path}")

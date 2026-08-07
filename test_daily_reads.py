@@ -1906,3 +1906,37 @@ def test_a_seen_source_is_neither_missing_nor_quiet():
     missing, missing_ar, quiet, quiet_ar = classify_missing_sources(
         {"MBI"}, {"MBI"}, {"MBI"}, {"MBI": "weekly"})
     assert missing == [] and missing_ar == [] and quiet == [] and quiet_ar == []
+
+
+# --- #261 half 2: a dropped URL must be identifiable ------------------------
+
+def test_dropped_items_are_named_not_just_counted():
+    """Board #261's "6 broken always-read URLs" could be counted but never
+    fixed: the three drop buckets logged a count and no identity."""
+    from main import _dropped_detail
+    always = [{"source": "Consilient Observer", "headline": "H1",
+               "url": "https://dead.example/1"},
+              {"source": "MBI", "headline": "H2", "url": "https://ok.example"}]
+    triage = [{"source_name": "Stratechery", "title": "T1", "url": "https://x/2"}]
+    out = _dropped_detail([(always, {0}, "always_read"),
+                           (triage, {0}, "triage"),
+                           ([], set(), "substack")])
+    assert len(out) == 2
+    ar = [d for d in out if d["surface"] == "always_read"][0]
+    assert ar["source"] == "Consilient Observer"
+    assert ar["url"] == "https://dead.example/1"
+    tr = [d for d in out if d["surface"] == "triage"][0]
+    assert tr["source"] == "Stratechery"      # reads source_name too
+    assert tr["headline"] == "T1"             # reads title too
+
+
+def test_dropped_detail_is_empty_when_nothing_dropped():
+    from main import _dropped_detail
+    assert _dropped_detail([([{"url": "u"}], set(), "always_read")]) == []
+
+
+def test_dropped_detail_never_raises_on_a_bad_index():
+    """This runs inside delivery; a logging detail must not take the digest down."""
+    from main import _dropped_detail
+    out = _dropped_detail([([{"url": "u"}], {0, 5, -1}, "always_read")])
+    assert len(out) == 1 and out[0]["url"] == "u"
