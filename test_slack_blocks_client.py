@@ -44,29 +44,57 @@ def test_a_small_payload_is_one_message():
     assert c.chunk(blocks) == [blocks]
 
 
-def test_it_degrades_to_sending_unchunked_when_the_package_is_missing(monkeypatch):
-    """The digest going out matters more than the guard running."""
+def test_the_guard_is_ACTIVE_without_the_shared_sibling(monkeypatch):
+    """The CI condition, and the whole reason the guard was vendored.
+
+    `actions/checkout@v5` fetches this repo only; `<workspace>/_shared/` is a
+    Dropbox sibling that does not exist on the runner. The previous shim
+    imported from there, so on every CI run the guard silently did nothing —
+    `problems()` returned `[]` and `chunk()` returned the payload whole — while
+    the fleet docs recorded this project as covered.
+
+    Simulates the runner by removing any `_shared` path and the cached shared
+    module, then asserts the guard still WORKS rather than still degrades.
+    """
     monkeypatch.setattr(c, "_mod", None)
     monkeypatch.setattr(c, "_warned", False)
-    monkeypatch.setattr(c, "_PKG_PARENT", c.Path("/nonexistent/slack_blocks"))
-    # An earlier test in this session already put the REAL package directory on
-    # sys.path and imported it, so patching _PKG_PARENT alone is not enough —
-    # `import slack_blocks` would still succeed and the test would silently pass
-    # for the wrong reason. Remove both the cached module and the path.
     saved_mod = sys.modules.pop("slack_blocks", None)
-    real_parent = str((c.Path(__file__).resolve().parent.parent
-                       / "_shared" / "slack_blocks"))
     saved_path = list(sys.path)
-    sys.path[:] = [p for p in sys.path if p != real_parent]
+    sys.path[:] = [p for p in sys.path if "_shared" not in p]
+    try:
+        blocks = [sec(i) for i in range(137)]
+        assert c.problems(blocks), "the 50-block ceiling must be REPORTED in CI"
+        chunks = c.chunk(blocks)
+        assert len(chunks) > 1, "137 blocks must be split, not sent whole"
+        assert all(len(ch) <= 50 for ch in chunks)
+        assert sum(len(ch) for ch in chunks) == 137, "split, never truncate"
+        assert c.to_text(blocks), "text fallback must be available in CI too"
+    finally:
+        sys.path[:] = saved_path
+        if saved_mod is not None:
+            sys.modules["slack_blocks"] = saved_mod
+
+
+def test_it_still_degrades_rather_than_gating_if_the_guard_cannot_load(monkeypatch):
+    """The digest going out matters more than the guard running.
+
+    Unchanged contract from the shim era: a safety net that becomes a new
+    single point of failure is worse than the bug it catches. Only the failure
+    mode is now genuinely exceptional — the module ships in this repo.
+    """
+    monkeypatch.setattr(c, "_mod", None)
+    monkeypatch.setattr(c, "_warned", False)
+    saved = sys.modules.pop("block_ceiling", None)
+    sys.modules["block_ceiling"] = None   # force the import to raise
     try:
         blocks = [sec(i) for i in range(137)]
         assert c.chunk(blocks) == [blocks]   # unchunked, but NOT dropped
         assert c.problems(blocks) == []      # no false alarm either
         assert c.to_text(blocks) == ""
     finally:
-        sys.path[:] = saved_path
-        if saved_mod is not None:
-            sys.modules["slack_blocks"] = saved_mod
+        sys.modules.pop("block_ceiling", None)
+        if saved is not None:
+            sys.modules["block_ceiling"] = saved
 
 
 def test_text_fallback_is_available():

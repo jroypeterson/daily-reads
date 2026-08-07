@@ -20,27 +20,33 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-_WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
-_PKG_PARENT = _WORKSPACE_ROOT / "_shared" / "slack_blocks"
-
 _mod = None
 _warned = False
 
 
 def _get():
-    """Import the shared package once; warn (once) and return None if absent."""
+    """Return the VENDORED guard. See `block_ceiling.py` for why it is vendored.
+
+    This used to insert `<workspace>/_shared/slack_blocks` on `sys.path`. That
+    import succeeds on JP's laptop and fails on **every GitHub Actions run** —
+    `actions/checkout@v5` fetches this repo only, and `_shared/` is a Dropbox
+    sibling. So in CI, which is where this lane actually posts on schedule,
+    `_get()` returned None, `problems()` returned `[]` and `chunk()` handed the
+    payload back whole: the ceiling guard was inert precisely where it was
+    needed, while the fleet recorded this project as covered.
+
+    Importing a module that ships inside this repo cannot do that.
+    """
     global _mod, _warned
     if _mod is not None:
         return _mod
     try:
-        if str(_PKG_PARENT) not in sys.path:
-            sys.path.insert(0, str(_PKG_PARENT))
-        import slack_blocks  # type: ignore
+        import block_ceiling  # vendored, same directory
 
-        _mod = slack_blocks
+        _mod = block_ceiling
     except Exception as e:  # noqa: BLE001 — degrade loudly, never gate
         if not _warned:
-            print(f"[WARN] shared slack_blocks unavailable ({e}); "
+            print(f"[WARN] vendored block_ceiling unavailable ({e}); "
                   f"posting unchunked (Slack may reject >50 blocks)", file=sys.stderr)
             _warned = True
     return _mod
