@@ -7567,5 +7567,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article delivers genuine analytical depth on the hyperscaler vs. AI lab competitive dynamics, using Microsoft's earnings as a concrete anchor while exploring moat erosion, bargaining power shifts, and insourcing risk \u2014 all directly relevant to Slot 3's AI infrastructure theme and the reader's strong interest in competitive moat analysis and data infrastructure."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "FDA Approves Replimune Melanoma Drug Previously Rejected Twice",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is too thin \u2014 it is essentially a brief news bulletin reporting the FDA approval decision without analytical depth on commercial launch strategy, competitive positioning, Phase 3 confirmation risk, or investment implications that would satisfy this reader's strong preference for analytical depth."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Breaking: FDA Approves Moderna's mRNA Flu Vaccine",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWNg4p42D-15W5V3VDX4jnNW3W8LzBkh5SmtGkN5JQGlz3qgz0W7lCdLW6lZ3m-N4KTc5QZmh7_N8Z-FmYq5DG5N4mwSLqYc7mKW7R7_dT7rddzWW2J0YHf71LgZZN87r8S74C60tW47QN-N8fQXPVW4mzXtC7hzRfrW3TlLKB69pmJZW7TrQyY1mj4-GW7yFTMw1B3yd-W3qhPHH5839zcW7cwdfd7FXWmVN68GmjDtrCVqN2vxTC3tPdRQW6HCjyB5M3-ZMW5Ywkxq5dn5JsW4yHMYK47Vm1pV85Q9-6ThpsnW2jcDrB8S4ztJW6My0YK3C_FtzW4T-4Bf3m1j53W3PwtKJ9c08S6W5qp1wB76phBVdSF46R04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The FDA approval of Moderna's mRNA flu vaccine is a landmark regulatory event with direct investment implications for MRNA, strong platform validation significance, and meaningful political/regulatory context around the current administration's mRNA hostility \u2014 substantive and well-suited to Slot 1."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "2026.32: Earnings and Learnings (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/earnings-and-learnings",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter table-of-contents/digest from Stratechery \u2014 it is a thin index of links and brief teasers with no substantive analysis included in the full text, making it too shallow to serve as a standalone Finance/Macro article despite the strong underlying topics."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Bayer's Sai Jasti on Driving Productivity in R&D with Data Science and AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/bayers-sai-jasti-on-driving-productivity-in-r-and-d-with-data-science-and-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a McKinsey interview piece that fits Slot 3 (Tech/AI) or Slot 4 (Wildcard) far better than Slot 2 (Finance/Macro), and while the topic is strong for the reader's interests, it's being evaluated for the wrong slot."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Hyperscalers vs AI Labs Debate, and the Moving AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/hyperscalers-vs-ai-labs-debate-and",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on hyperscaler vs. AI lab competitive dynamics, including specific earnings commentary, bargaining power analysis, and capital structure considerations \u2014 directly aligned with the reader's strong preferences for competitive moat analysis and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "2026.32: Earnings and Learnings (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/earnings-and-learnings",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a newsletter table-of-contents/digest wrapper with only brief teasers \u2014 the actual analytical depth on hyperscaler AI capex differentials and OpenAI/Apple is locked behind paywalled Stratechery episodes and updates, making the full article itself thin and not directly readable."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Bayer's Sai Jasti on Driving Productivity in R&D with Data Science and AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/bayers-sai-jasti-on-driving-productivity-in-r-and-d-with-data-science-and-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "A practitioner-level McKinsey interview with Bayer's Head of Data Science and AI offers substantive depth at the AI-biology intersection, matching Slot 3 criteria and the reader's strong preferences for analytical depth, AI impact, and competitive moat analysis in pharma R&D."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "Fierce Biotech Weekly Digest: FDA Hands Key Approvals to Replimune, Moderna, Takeda; Dissecting the AZ-BMS Megamerger Hubbub",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1382252?pk=fujifilm-wb-081926-FBPMT-nl-072026&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a webinar advertisement for allogeneic cell therapy commercialization, not the multi-topic weekly digest described in the headline and shortlist summary \u2014 the actual content has no substance relevant to FDA approvals, the AZ-BMS merger, or IPO activity."
+  },
+  {
+    "date": "2026-08-08",
+    "headline": "The AI Boom Could Boost Epic's Position, Execs Say \u2014 Here's Where AI Startups Can Still Win",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-boom-could-strengthen-epics-position-health-system-execs-say-heres-where",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article delivers substantive competitive moat analysis of Epic's AI expansion with concrete survey data (112 senior health system leaders), specific budget allocation figures (57/43 Epic/vendor split), and five actionable startup opportunity categories \u2014 well above the thin/generic threshold."
   }
 ]
