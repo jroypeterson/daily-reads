@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-08-09",
+  "generated_at": "2026-08-09T12:43:33Z",
+  "counts": {
+    "gmail_items": 141,
+    "tier2_items": 79,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "579fbf9a1ccd2b61",
+      "headline": "Bayer's Sai Jasti on Driving Productivity in R&D with Data Science and AI",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019fcd1a4ae8b373b3f4bbcf76f8/6d9cfcd64c7a43c00000021ef3a0bcc2/6d9cfcd6-4c7a-43c0-bc53-b7557bce6dab",
+      "slot": 1,
+      "summary": "Bayer's chief data and AI officer Sai Jasti discusses how the company is embedding data science into core R&D workflows\u2014spanning trial design, target selection, and pipeline prioritization. The interview addresses not just the technology but the organizational and data infrastructure changes required to make AI adoption real rather than superficial. It offers a practitioner-level view into how a major pharma is restructuring its R&D operating model around AI.",
+      "why_it_matters": "For investors and strategists tracking AI's real-world penetration into biopharma, this provides a rare inside view of the operational and structural changes that separate genuine AI transformation from marketing\u2014relevant to evaluating which large pharma players are building durable R&D productivity advantages.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:BAYN",
+        "ai_and_biology_intersection",
+        "data_infrastructure",
+        "practitioner_perspective"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "d95b07c222137111",
+      "headline": "Insurers See Positive Results in Managing Health Costs in Q2",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/payers/payer-2026-q2-earnings-unitedhealth-cvs-cigna-elevance-health",
+      "slot": 2,
+      "summary": "Major managed care insurers posted a strong Q2 2026 rebound, with UnitedHealth earning $5.5B and CVS nearly $3B in quarterly profit, both beating analyst expectations after a difficult 2025. However, analysts at Leerink Partners caution that Medicaid margins remain under pressure\u2014with MLRs near 94% at Centene\u2014and upcoming state-level work requirement rollouts could create fresh headwinds in early 2027. Medicare Advantage shows structural improvement through repricing and footprint exits, but star ratings litigation is creating investor uncertainty around forward guidance.",
+      "why_it_matters": "The Medicaid-to-MA cost trajectory and pending regulatory changes (work requirements, star ratings) are the key swing factors for payer earnings into 2027, directly affecting covered tickers CVS, CI, ELV, HUM, and CNC with meaningful near-term investment implications.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:CI",
+        "ticker_match:ELV",
+        "healthcare_adjacent_finance",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    }
+  ]
+}

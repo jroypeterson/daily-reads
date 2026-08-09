@@ -1485,5 +1485,27 @@
         "url": ""
       }
     ]
+  },
+  {
+    "date": "2026-08-09",
+    "checked_unique": 39,
+    "checked_slots": 42,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "The Transcript",
+        "headline": "Your payment receipt from The Transcript #JFBETEYM-0011",
+        "url": ""
+      }
+    ]
   }
 ]

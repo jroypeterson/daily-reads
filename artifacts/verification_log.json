@@ -7648,5 +7648,104 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The article delivers substantive competitive moat analysis of Epic's AI expansion with concrete survey data (112 senior health system leaders), specific budget allocation figures (57/43 Epic/vendor split), and five actionable startup opportunity categories \u2014 well above the thin/generic threshold."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "FDA hands key approvals to Replimune, Moderna, Takeda and more; Dissecting the AZ-BMS megamerger hubbub",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a navigation/sidebar page from Fierce Biotech with no substantive content \u2014 the actual newsletter analysis of FDA approvals and the AZ-BMS merger discussion is not present in the provided text, only headlines and timestamps."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Turning AI Adoption into Enterprise Value, the CEO's Role in New-Venture Building, and More",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fe1fb23ed9cac85f4bbe5c7c0/eec68e876d6648260000021ef3a0bcc2/eec68e87-6d66-4826-8c77-356fdb326ca3",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a McKinsey weekly digest covering AI enterprise value and CEO venture-building \u2014 substantive and well-aligned to reader preferences, but it belongs to Slot 3 (Tech/AI) or Slot 4 (Wildcard), not Slot 1 (Healthcare/Biotech), as there is no healthcare or biopharma content indicated."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Earnings and Learnings (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/earnings-and-learnings",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter index/table-of-contents from Stratechery with no substantive article content \u2014 it lists episode titles and one-line descriptions of tech earnings coverage, sports podcasts, and geopolitics, none of which relate to Healthcare/Biotech and the article itself contains almost no analytical depth to evaluate."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "NIH to Block International Scientists on Visas from Accessing [Federal Research Data]",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWqNV311RqmrW7wyNwC3131lhW2dmkKk5SrbfJN6ybcXR3qgz0W7lCdLW6lZ3mTW1ZFlWH8LGFKBW4n7fsG5-VBwzW1ckGTN8P_gdBW1tV2nB4NgfYpVj5Ng94bM7hdN1x4L02PgQCJW46RJzx2rpWfTW95Zxxy3Kj5xGW2S4wJv1sPFS1W3LmMrb6MX_qjW9kdxNC8yPMhVW8m_hGC8BPgq8W4T9hpC1PngbgW8fzWR96PTh89W6pLBW07m4Y5fW2NGcyr981qc0W84hpv96D-lSZW8QBPWM3g03C8W3vKg-j5x7j1-F8bsghYrkfHW1H2yzS4R3KJ4W1v7rlQ6p87SjW8r7-Wr8pvdsmW759qx26h3h_Nf3ytHYx04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article text is a STAT+ paywall/subscription page with no actual article content \u2014 there is no substantive reporting accessible to evaluate or summarize."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Shopify 2Q'26: Sustained Miraculous Growth",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/shopify-2q26-sustained-miraculous",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about Shopify's e-commerce GMV growth and commerce infrastructure \u2014 it has no relevance to Healthcare/Biotech (Slot 1) and the paywalled full content limits depth assessment, making it unsuitable for that slot."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Bayer's Sai Jasti on Driving Productivity in R&D with Data Science and AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fcd1a4ae8b373b3f4bbcf76f8/6d9cfcd64c7a43c00000021ef3a0bcc2/6d9cfcd6-4c7a-43c0-bc53-b7557bce6dab",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article offers substantive practitioner depth on AI/data infrastructure in biopharma R&D from a credible McKinsey source, aligning strongly with the reader's top preferences for AI-biology intersection, data infrastructure, and analytical depth."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Shopify 2Q'26: Sustained Miraculous Growth",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/shopify-2q26-sustained-miraculous",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly available article text is largely a teaser \u2014 the substantive analysis of margins, competitive moat mechanics, and earnings call takeaways is locked behind a paywall, making it too thin to meet the 'depth over breadth' standard and matching the 'avoid paywalled content' pattern in the reader profile."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Insurers See Positive Results in Managing Health Costs in Q2",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/payer-2026-q2-earnings-unitedhealth-cvs-cigna-elevance-health",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article delivers substantive sector-wide Q2 earnings analysis across UNH, CVS, Centene, and Humana with named analyst commentary, specific financial figures, and forward-looking risk flags (Medicaid work requirements, MA star ratings litigation) that give it genuine investment depth beyond a thin earnings recap."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Earnings and Learnings (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/earnings-and-learnings",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter index/table-of-contents with only brief teaser blurbs \u2014 it contains no substantive analysis itself, just links and one-paragraph summaries of paywalled content, making it too thin for meaningful inclusion despite Stratechery being a high-priority source."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Taxi Drivers Rarely Die of Alzheimer's\u2014How Complex Mental Maps and Spatial Reasoning Protect Your Brain",
+    "source": "Nautilus",
+    "url": "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a well-written science piece from a high-priority source (Nautilus) but belongs in Slot 4 (Wildcard/Curiosity), not Slot 3 (Tech/AI) \u2014 it has no meaningful connection to AI breakthroughs, infrastructure, enterprise adoption, or AI applied to healthcare/biotech."
+  },
+  {
+    "date": "2026-08-09",
+    "headline": "Taxi Drivers Rarely Die of Alzheimer's\u2014How Complex Mental Maps and Spatial Reasoning Protect Your Brain",
+    "source": "Nautilus",
+    "url": "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article has genuine scientific depth and passes the 'would I forward this?' test superficially, it is ultimately a popular science piece about personal brain health with only tenuous investment relevance, and the reader taste profile explicitly avoids niche therapeutics and weak topics like self-improvement \u2014 this reads closer to lifestyle/wellness science than the cross-domain strategic thinking the Wildcard slot is meant to surface."
   }
 ]
