@@ -7747,5 +7747,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "While the article has genuine scientific depth and passes the 'would I forward this?' test superficially, it is ultimately a popular science piece about personal brain health with only tenuous investment relevance, and the reader taste profile explicitly avoids niche therapeutics and weak topics like self-improvement \u2014 this reads closer to lifestyle/wellness science than the cross-domain strategic thinking the Wildcard slot is meant to surface."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a Scuttleblurb deep-dive on Visa and Mastercard's payment network moats \u2014 clearly a Finance/Markets topic with no meaningful healthcare or biotech content, making it entirely wrong for Slot 1."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Icon inks Anthropic partnership to deploy Claude into clinical trials",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive detail on a meaningful AI-CRO partnership with specific use cases, deployment architecture, and broader industry context (BMS, Novartis, Coefficient Bio acquisition), directly matching the reader's strongest preferences for AI+biology intersection and data infrastructure."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text provided is only a table of contents / preview snippet from Scuttleblurb's site \u2014 the actual V/MA deep-dive content is not present, making it impossible to verify substance, and what is visible is too thin to stand alone as a digest article."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "The 10-Point: Private Credit Stress Mounts as Returns Fall",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/politics/policy/behind-private-credits-upbeat-claims-loan-health-is-worsening-7b860bc7?mod=djem10point",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article offers substantive structural analysis of private credit deterioration with specific data points (6% default rate, PIK loan surge from 5% to 11%, BDCs trading below NAV, lengthening redemption queues) that directly align with the reader's strong preferences for private markets risk, competitive moat analysis, and investment-relevant analytical depth."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Steady as She Goes",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/08-10-2026-steady-as-she-goes",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after the brief macro summary, making it too thin in actual substance \u2014 the visible content is a handful of short earnings call quotes with no deep analysis \u2014 and it covers macro/finance themes rather than Tech/AI."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Same Knee Surgery, Twice the Price: Hospital Monopolies Push Up Healthcare Costs",
+    "source": "KFF Health News",
+    "url": "https://kffhealthnews.org/health-industry/hospital-mergers-monopolies-drive-healthcare-costs-asheville-north-carolina/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive investigative piece but belongs firmly in Slot 1 (Healthcare) covering hospital consolidation and pricing dynamics, not Slot 3 (Tech/AI) \u2014 while it references Serif Health's price transparency database, the article is not about AI, data infrastructure, or technology in any meaningful sense."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Digital Advertising Industry Snapshot 2Q'26",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/digital-advertising-industry-snapshot-921",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a brief quarterly market share snapshot with limited analytical depth \u2014 it contains a single data table and a few high-level observations about share shifts, with no substantive discussion of AI-driven targeting, data infrastructure, or competitive moat analysis that would satisfy the reader's strong style preferences for analytical depth."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "McKinsey CFO Briefing: McKinsey's CFO has a warning on AI costs",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-09/mckinsey-cfo-has-a-warning-on-ai-costs-cfo-briefing",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article text is entirely navigation/boilerplate content from Bloomberg's website \u2014 the actual article body failed to load or was truncated, leaving no substantive content to evaluate beyond the headline and shortlist summary."
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Meta's 'True' ROIC, and Some Notes from Meta and Alphabet's 10-Qs",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-true-roic-and-some-notes-from",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Finance/Markets article focused on ROIC methodology and capital allocation analysis for Meta and Alphabet \u2014 it belongs in Slot 2, not Slot 3 (Tech/AI), despite the AI capex angle being a secondary theme."
   }
 ]

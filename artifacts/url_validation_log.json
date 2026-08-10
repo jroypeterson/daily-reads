@@ -1507,5 +1507,39 @@
         "url": ""
       }
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "checked_unique": 50,
+    "checked_slots": 53,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 2
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "The Transcript",
+        "headline": "Your payment receipt from The Transcript #JFBETEYM-0011",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg2.substack.com/c/eJxskD1u4zAQRk8jdhb4L7FgsY2vIQzJkcxdiRT4Y69z-sBOkRSpB_Pew-eh4ZbL01afC14cVAyXflbcdxKsDGxWM0HLpllzo7UwBA-I-7JhwgINwwLtx1VISW52WpVyyq3e82maqFagYWWMrVxKuWpKouWUazpTwyZBhRnFqAQaQx0KNQUDjI9u1frj_30fJD02PtbuagP_b_T5ILEua8F3iW2lI9ntrbWzDuLPwK8Dvz4ej7EghBgQXOnJ315_A7-Ss7vF5-PoKbbnggncjuELcna3Rw8t5rTEYKWRs-Ck2L8lP09sWGpOg6TbS_vOqN2FfEBM9ttD2m9T9orlxWTSaCVncrf8MwAA__-xF3yR"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskLuSrCAYhJ9GsrHwB0ECgpPMa1hcfh3OqFBc1nWffmtmg0027u6vu9qZimvMl65Lup2Iz-265dgO3xLxWjCzjJ6gHuQkGB0nmAjuJmzzigdmU9HPpv6qUilGHtq5QYzKyskxQSVKwxRXkiEM3FOnOAkaKAg6UQWUAow963EaF6nAAgorwYl-_Eqf6xl4x-m-3jztS7OlGvfsXdxJKPOS8b1F19yQbPpRayod-9fBvYP7eZ59feCS3vbU7Ozivrcj1GvGw9gN_U8wNbsFZ2qIxxy8BkEZlyTr_zleCSvmEo-O0_VV9WaVZn3cTTi0NTmcGEoh9a__WsH8Qg5ciZFP5EPDdwAAAP__7X55PA"
+      }
+    ]
   }
 ]

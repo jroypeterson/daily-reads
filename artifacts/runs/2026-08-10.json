@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-08-10",
+  "generated_at": "2026-08-10T12:59:35Z",
+  "counts": {
+    "gmail_items": 150,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "7ae0391c6a31b2ea",
+      "headline": "Icon inks Anthropic partnership to deploy Claude into clinical trials",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/cro/icon-inks-anthropic-partnership-deploy-claude-clinical-trials",
+      "slot": 1,
+      "summary": "ICON plc has announced a multi-year partnership with Anthropic to embed Claude across its Orbis agentic AI platform, targeting four specific clinical trial pain points: site selection, enrollment-risk prediction, protocol optimization, and ecosystem integration for sponsor clients. The deployment includes role-differentiated Claude products org-wide (Claude Code for developers, Claude Science for clinical staff), and positions Orbis as a multi-vendor AI stack alongside ICON's existing Microsoft partnership. The deal comes amid deepening biopharma-Anthropic ties, including a prior BMS enterprise deal and Novartis CEO Vas Narasimhan joining Anthropic's board.",
+      "why_it_matters": "This is a concrete signal of frontier AI being operationalized inside the CRO data infrastructure layer \u2014 the exact convergence of AI impact, clinical data infrastructure, and health technology that dominates this reader's strongest topic preferences \u2014 but its primary framing is a Tech/AI enterprise deployment story rather than a healthcare catalyst or biopharma pipeline event.",
+      "signal_tags": [
+        "ticker_match:IQV",
+        "ticker_match:HCAT",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "catalyst_proximity",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "18cdbacc1c902acd",
+      "headline": "The 10-Point: Private Credit Stress Mounts as Returns Fall",
+      "source": "WSJ Newsletters",
+      "url": "https://www.wsj.com/politics/policy/behind-private-credits-upbeat-claims-loan-health-is-worsening-7b860bc7?mod=djem10point",
+      "slot": 2,
+      "summary": "WSJ investigates a growing disconnect between private credit managers' optimistic marketing and the actual health of underlying loans, with Fitch data showing U.S. private credit default rates hitting 6% in April 2026 \u2014 with distressed exchanges masking the true severity. PIK loan usage has nearly doubled to 11% of the market, a classic sign of borrower stress being deferred rather than resolved. Major BDCs are trading below NAV and semi-liquid fund redemption queues are lengthening, raising structural liquidity concerns across a $1.7\u20132T asset class.",
+      "why_it_matters": "Private credit's deep exposure to sponsor-backed healthcare and software borrowers means deteriorating credit quality and tightening liquidity could trigger broad repricing with direct portfolio implications for the reader's coverage universe.",
+      "signal_tags": [
+        "private_markets_risks",
+        "priority:source_bloomberg_wsj",
+        "analytical_depth",
+        "forward_looking",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    }
+  ]
+}
