@@ -7828,5 +7828,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is a Finance/Markets article focused on ROIC methodology and capital allocation analysis for Meta and Alphabet \u2014 it belongs in Slot 2, not Slot 3 (Tech/AI), despite the AI capex angle being a secondary theme."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Pfizer's $2.5B in new cuts hit manufacturing; BMS is choosing Texas for $2.3B campus",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWmCxJ20gn1XVFRshp6NHH1lW4YmM-15SzCX8N6hnpq65nR3bW8wM7ks6lZ3kXW4DdKSg4_-ZCHW2hnsBL3wJ01cW2vXgK25bwNR_W4X-9lq7-CKNrW8J7ZJQ2Fx8xpVlv_mB4DlRVQW37FH3C8PT8nlN91khylCBGdKW7ghKVm7-zqTKW2M-YTC1s4dY-W4p_f6B1fD7mHW4xG1wK70q5N0W503ccN38QGpGN2BGbYGZkvM7W7rmjMv35xG_7W4z6gVT3-gcs2W49ywdb7Bzcy3W55wcXR2cnPNxVYKYks397c-SW4ZMJ9c4CzPj1W5kJgv26s7KmbW8d9QkL2mKZ4FW5JmJGR70LxBbW2pnfCH68rLFnW94_vDH5H9RTJW57_xgn37hck6VBZ-XY2ZyHZpW5qyN63393LZvW4_6T-f7sZynVW8rmm786LsRw1W7K1zQ_1hj76MW15z_Tt4Zwsn-W6VfKnk94DRJdW8Hltcc2Tc4YyN7sxVstc1TMdW8jmDQw8kpTm9W36BKlG5LyShPW2R7t6R4jHlSKW4C4d-C1lLltLN21lLcFpd6p0W9h2Lkp1xBC4SW3S8m5q8h4cByW7yjT122pR97ZN2gpwTTk6Wxwf3V-vZK04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text contains virtually no substantive content \u2014 it is a newsletter shell with promotional banners, a nominator call-out, and a job listings section, with no actual reporting on Pfizer's cuts or BMS's Texas campus investment."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are 'investable asset'",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/Finance story about Nvidia's GPU financing structure \u2014 it has no meaningful connection to healthcare or biotech and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Trump's new executive order hands vaccine skeptics a big win",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWrKQW1w6PQVW4QBmGn36gP4HVGwS3m5SyHrxN2z6H2F3qgz0W7lCdLW6lZ3mgW30RJGW19yRqPMbZDQw67Xy6W2NbbKv5kp8xCW2Ltf-G2Wbd1SW1G2TT55KYpvQW9067FX1jD55ZW68JWSr2GGFXbVH760f3KDB31W3YK1PM7tWqh9W26B0yP1-j_9xW32W_Yv1FHLDgW6fnjnV15md5dW5CNkw75WBqWZW2yPYdk7PVZtWW5MCTdj1NDzCWW3VGc495TK970W5Gx9SK57cr-FW3WfBW08H341BW8gQ36N4ylp8pW52NknX7zPp2RW8JpX0w4PX--PW1_Fy067SknHQW4XNxCX9k7sH-W2gg7j14mK_x1dZtbd804",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is paywalled \u2014 only a STAT+ subscription upsell page is accessible, providing zero substantive content to evaluate depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Doximity bets big on hospital adoption of enterprise AI as it ramps up tech spending",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/doximity-bets-big-hospital-enterprise-ai-platforms-it-ramps-tech-investment",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering Doximity's Q1 earnings, enterprise AI strategy, competitive positioning against Epic/UpToDate/OpenEvidence, and specific financial metrics \u2014 directly relevant to the health tech SaaS and AI-in-healthcare themes the reader strongly favors."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are 'investable asset'",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article has moderate substance but skews toward Tech/AI infrastructure financing rather than Finance/Macro, lacks healthcare-adjacent relevance, and reads more like a corporate announcement recap than deep analytical finance coverage \u2014 mismatching the reader's preference for analytical depth and investment-relevant insight over press-release-driven stories."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "MBI Deep Dives: Figma 2Q'26 \u2014 Near-Term Re-acceleration vs. Long-Term Durability",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/figma-2q26-near-term-re-acceleration",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly visible article text is largely a teaser \u2014 the substantive analysis of AI risk, key metrics, and long-term durability is explicitly gated behind a paywall, leaving only a thin setup paragraph and two revenue growth charts visible."
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "McKinsey: Turning AI adoption into enterprise value, the CEO's role in new-venture building, and more",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v710000019fe1fb23ed9cac85f4bbe5c7c0/eec68e876d6648260000021ef3a0bcc2/eec68e87-6d66-4826-8c77-356fdb326ca3",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's digest on AI-to-enterprise-value translation and CEO-led venture building aligns with the reader's strong preferences for AI impact, management consulting research, and analytical depth \u2014 and fits Slot 4 (Wildcard) better than Slot 2, though it has cross-slot relevance."
   }
 ]

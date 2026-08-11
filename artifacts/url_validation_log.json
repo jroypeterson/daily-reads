@@ -1541,5 +1541,39 @@
         "url": "https://email.mg-d0.substack.com/c/eJxskLuSrCAYhJ9GsrHwB0ECgpPMa1hcfh3OqFBc1nWffmtmg0027u6vu9qZimvMl65Lup2Iz-265dgO3xLxWjCzjJ6gHuQkGB0nmAjuJmzzigdmU9HPpv6qUilGHtq5QYzKyskxQSVKwxRXkiEM3FOnOAkaKAg6UQWUAow963EaF6nAAgorwYl-_Eqf6xl4x-m-3jztS7OlGvfsXdxJKPOS8b1F19yQbPpRayod-9fBvYP7eZ59feCS3vbU7Ozivrcj1GvGw9gN_U8wNbsFZ2qIxxy8BkEZlyTr_zleCSvmEo-O0_VV9WaVZn3cTTi0NTmcGEoh9a__WsH8Qg5ciZFP5EPDdwAAAP__7X55PA"
       }
     ]
+  },
+  {
+    "date": "2026-08-11",
+    "checked_unique": 61,
+    "checked_slots": 63,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 2
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "The Transcript",
+        "headline": "Your payment receipt from The Transcript #JFBETEYM-0011",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJx0kMHSoyAMgJ9GbnUAEfHAYS99DSeaoOwqOhA60z79TruX7uE_Z_J9X7IA03rmp68pxBTLRngrdS5LjhfHMwn0toPQoyCvBmc7Z_thFHRA3KeVEmVgwgn4a2q0EZtXBhFQg-plILBOWofd4DQ5kBbsIqLXUlvplFROj93Ydi0NM2GvhxBoNGEc20f34oNfe2Pksd5Qtu82huVPu5yHiGUKmT4tnnMlsfuN-SpN96vR90bftzBT4YgE5f_Nq87Tch5HTZGfEyWYd8J_jKvOe1zgffwU0StnpVZKZP87n8-LmHI5U2Pk-tZ-YKXOeB4Qk__yCf7xpbVQ_qDNaHvjxMPrvwEAAP__XNaEgQ"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxskE2OnDAQRk-Dd438A8YsvMimr4HK5QKcBoz8E4WcPqJHGs1Isy7V-54eQqElpsvm6jKmcJYQj0cipHAW5q0aHTeoGVkxGK2MGXjPaIewTQsdlKCQn6B8uUqt2WoBB9VzICmlmI0bsTeOSyH9IMxoJLJgJZeaG8HFyLtet6rVMxgzeM7RgQcS7TX_w_R3xqbj-_Lwor0lC-CrxbizkKc50dvFllSJbXYt5cyN-tXIZyOfr5V2SMGv3__O6iaM-16PUK6JDnAb-Q_CWd0WEO4GU_BWKa16qVmyv1O8TiqUcjyaji_36BuWq_Nxh3DYzzVWfo5ZM6WbKrpR951hf6z8HwAA__9SZn_k"
+      }
+    ]
   }
 ]

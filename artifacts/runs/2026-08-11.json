@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-08-11",
+  "generated_at": "2026-08-11T12:55:29Z",
+  "counts": {
+    "gmail_items": 145,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6b8f482a5a699777",
+      "headline": "Doximity bets big on hospital adoption of enterprise AI as it ramps up tech spending",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/doximity-bets-big-hospital-enterprise-ai-platforms-it-ramps-tech-investment",
+      "slot": 1,
+      "summary": "Doximity reported Q1 FY2027 revenue of $156.6M (beating consensus) while declaring 2027 its 'AI investment year,' with 165 health systems now signed as AI clients including Northwestern and Penn Medicine. The company is pivoting from individual physician tools to enterprise hospital contracts, positioning its Scribe and Ask (DoxGPT) products as a privacy-compliant clinical AI layer competing with UpToDate and OpenEvidence. Full-year revenue guidance was raised to $671-681M, though near-term margin pressure from AI spending caused an EPS miss, sending shares up 33% on the day.",
+      "why_it_matters": "Doximity's enterprise AI pivot and rapid health system client growth (165 signed) represents a concrete monetization blueprint for health tech SaaS platforms in the AI cycle, with direct read-through for competitive moat analysis of DOCS and adjacent players.",
+      "signal_tags": [
+        "ticker_match:DOCS",
+        "AI_biology_intersection",
+        "health_software_SaaS",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ee3b5fe53314d73e",
+      "headline": "McKinsey: Turning AI adoption into enterprise value, the CEO's role in new-venture building, and more",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v710000019fe1fb23ed9cac85f4bbe5c7c0/eec68e876d6648260000021ef3a0bcc2/eec68e87-6d66-4826-8c77-356fdb326ca3",
+      "slot": 2,
+      "summary": "McKinsey's latest multi-topic digest addresses how organizations can move beyond AI adoption metrics to measurable enterprise value creation, the strategic role CEOs play in new-venture building, and how talent development frameworks must evolve in an AI-augmented workplace. The frameworks are practitioner-facing and grounded in cross-sector client work, with explicit healthcare relevance. This is a consulting synthesis piece rather than a market-moving news item.",
+      "why_it_matters": "For investors evaluating health tech and digital health companies, McKinsey's enterprise AI value-creation framing offers a structured lens for distinguishing AI adopters generating real economic returns from those still in pilot-stage theater.",
+      "signal_tags": [
+        "priority:high",
+        "AI_impact",
+        "management_consulting_research",
+        "forward_looking",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}
