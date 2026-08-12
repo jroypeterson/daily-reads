@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-08-12",
+  "generated_at": "2026-08-12T12:58:03Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "746f3078d6fe1539",
+      "headline": "Inside a $7 billion Silicon Valley startup's mad dash to automate the business of health care",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/",
+      "slot": 1,
+      "summary": "STAT's investigative piece goes inside Commure (formerly Athelas), a $7B AI-driven health admin startup, revealing that the company has been paying satisfied customers to serve as sales references while some clinics report that its AI tools failed to deliver on promises. The investigation surfaces tension between Commure's rapid go-to-market push and the messy realities of integrating AI into complex clinical and billing workflows. The piece raises questions about sales ethics, product maturity, and whether the company's valuation is supported by sustainable customer outcomes.",
+      "why_it_matters": "Commure's struggles and tactics are a leading indicator for how the AI admin automation category is evolving \u2014 with direct implications for incumbents like Epic and Oracle Health and for investors evaluating health SaaS moats and AI-in-healthcare hype vs. reality.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "ai_biology_intersection",
+        "health_software_saas",
+        "data_infrastructure",
+        "analytical_depth"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "7b8fd0451e2dbef5",
+      "headline": "License to Chase the AI Frontier",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/license-to-chase-the-ai-frontier",
+      "slot": 3,
+      "summary": "MBI Deep Dives analyzes the Artificial Analysis Intelligence Index and observes that virtually all top-ranked frontier AI model developers are founder-led companies, arguing this is not coincidental but structural: founders have voting control, cultural capital, and a 'relevance' motivation that lets them absorb uncertain, capital-intensive R&D that manager-run companies (Apple, Microsoft, Amazon) cannot credibly sustain. The piece updates the author's prior skepticism of frontier lab economics, now centering on proprietary data accumulation \u2014 illustrated by Meta giving away its coding model free in exchange for user data \u2014 as the likely source of durable competitive advantage. It concludes that investors face a genuine underwriting challenge in modeling the payoff curve across frontier tiers, which is why many prefer selling compute capacity to laggards over backing frontier leaders.",
+      "why_it_matters": "Investors sizing positions in AI infrastructure or model providers need a framework for distinguishing which companies have earned a credible 'license to spend' at the frontier \u2014 this piece offers exactly that, with implications for how to weight hyperscalers vs. pure-play frontier labs in a portfolio.",
+      "signal_tags": [
+        "priority:high",
+        "ai_impact",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}

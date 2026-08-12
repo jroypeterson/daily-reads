@@ -7891,5 +7891,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's digest on AI-to-enterprise-value translation and CEO-led venture building aligns with the reader's strong preferences for AI impact, management consulting research, and analytical depth \u2014 and fits Slot 4 (Wildcard) better than Slot 2, though it has cross-slot relevance."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "Inside a $7 billion Silicon Valley startup's mad dash to automate the business of health care",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "STAT investigation with real depth \u2014 monthslong reporting on Commure's aggressive sales tactics, unhappy clinic customers, and the gap between AI automation promises and clinical workflow reality, directly relevant to health IT SaaS competitive dynamics."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "License to Chase the AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/license-to-chase-the-ai-frontier",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and reader taste alignment, this article is fundamentally a Tech/AI piece analyzing AI model competitive dynamics and frontier AI investment thesis \u2014 it belongs in Slot 3, not Slot 2 Finance/Macro."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "OpenAI's head of ethics leaves less than a year after joining",
+    "source": "Financial Times (via Hacker News)",
+    "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is inaccessible, leaving only a headline and navigation chrome, which is too thin to evaluate substance or slot fit, and paywalled content is explicitly in the AVOID patterns."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a table of contents / teaser for upcoming Scuttleblurb posts \u2014 the actual V/MA deep-dive content has not been published yet, so there is no substantive analysis to evaluate or deliver to readers."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "source": "Hacker News / stolen-thoughts.com",
+    "url": "https://stolen-thoughts.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is raw, truncated LLM reasoning trace output from a code-sanitization task \u2014 not an article about stealing reasoning traces \u2014 making the shortlist summary entirely fabricated and the content itself devoid of analytical substance."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "AI computing power is becoming a tradable asset class as CME launches futures contracts",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin and announcement-driven \u2014 it lacks the analytical depth on price discovery mechanics, contract structure, or investment implications that would make it substantive for a finance/macro slot, and reads more like a press release than a deep analysis."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "UnitedHealth paid $3B for benefits platform Alegeus",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/m-and-a/unitedhealth-paid-3b-for-benefits-platform-alegeus/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is extremely thin \u2014 it consists almost entirely of navigation boilerplate with no substantive body text about the Alegeus acquisition beyond what's in the headline, making it too sparse to meet the depth standard despite the topic being relevant."
+  },
+  {
+    "date": "2026-08-12",
+    "headline": "License to Chase the AI Frontier",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/license-to-chase-the-ai-frontier",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is substantive long-form investment analysis with genuine analytical depth \u2014 examining founder vs. manager dynamics at frontier AI labs, the data moat thesis, and the asymmetric payoff structure of frontier AI investment \u2014 directly matching Slot 3 and the reader's strong preferences for competitive moat analysis and investment-relevant insights."
   }
 ]
