@@ -7963,5 +7963,68 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is substantive long-form investment analysis with genuine analytical depth \u2014 examining founder vs. manager dynamics at frontier AI labs, the data moat thesis, and the asymmetric payoff structure of frontier AI investment \u2014 directly matching Slot 3 and the reader's strong preferences for competitive moat analysis and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "STAT Investigation: A startup's mad dash to automate the business of health care",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, months-long investigative piece from STAT News with depth, primary sourcing (internal documents, legal filings, 30+ interviews), and direct relevance to health tech SaaS competitive dynamics, AI in healthcare operations, and venture-backed growth-at-all-costs culture \u2014 all strong reader interest signals."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is actually a feed of multiple brief scuttleslops summaries and upcoming post teasers \u2014 the actual V/MA deep-dive content is not present in the article body, only referenced as a forthcoming or just-published piece, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers genuine analytical depth on Constellation Software's Q2 2026 earnings \u2014 dissecting organic growth deceleration, management's one-off explanations, AI's non-impact on revenue, margin cohort progression, and accelerating capital deployment \u2014 exactly the kind of serial-acquirer diligence the reader prizes."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "DeepSeek V4 Pro 0813",
+    "source": "Hacker News / OpenRouter",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article text is a thin OpenRouter product/pricing page with no analytical depth \u2014 it's a routing and API documentation page, not a substantive article about DeepSeek V4 Pro's capabilities or implications; the substance in the shortlist summary is not supported by the article content."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "[scuttleslops] ZTS, APO, FISV, TTD, RELY",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is a multi-company earnings call digest (Zoetis, Apollo, Fiserv, The Trade Desk, Rely) that belongs to Finance/Markets or Healthcare slots \u2014 it has no meaningful Tech/AI content and does not fit Slot 3 criteria."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "Warsh gets breathing room, but not enough to cut",
+    "source": "Bloomberg (John Authers)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-08-13/warsh-gets-breathing-room-but-not-enough-to-cut",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Finance/Macro article analyzing the July CPI print and Fed rate path \u2014 it clearly belongs in Slot 2, not Slot 3 (Tech/AI), and was submitted to the wrong slot."
+  },
+  {
+    "date": "2026-08-13",
+    "headline": "56% of employers using Big 3 PBMs consider switch",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/research-analysis/56-of-employers-using-big-3-pbms-consider-switch/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a thin news brief about PBM switching intent and belongs to healthcare/payer dynamics (Slot 1), not Tech/AI (Slot 3), and lacks the analytical depth the reader profile requires."
   }
 ]

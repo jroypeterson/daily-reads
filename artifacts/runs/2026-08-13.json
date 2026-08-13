@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-08-13",
+  "generated_at": "2026-08-13T13:01:33Z",
+  "counts": {
+    "gmail_items": 140,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "746f3078d6fe1539",
+      "headline": "STAT Investigation: A startup's mad dash to automate the business of health care",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/",
+      "slot": 1,
+      "summary": "A STAT investigation into Commure, the $7B General Catalyst-backed health AI startup formed from the 2023 merger of Commure and Athelas, exposes a high-pressure sales culture that left some clinic customers with AI tools that reportedly didn't work \u2014 including a referral program that paid satisfied customers thousands of dollars to recruit new business. Drawing on internal documents, legal filings, and interviews with over three dozen ex-employees, partners, and customers, the piece raises serious questions about whether Commure's agentic AI administrative tools \u2014 which process tens of billions in claims annually and target a $250B market \u2014 are delivering real value or papering over gaps with aggressive sales tactics. The investigation puts a spotlight on the broader tension in health tech between venture-scale growth ambitions and the operational realities of deploying AI in fragile clinical workflows.",
+      "why_it_matters": "For investors evaluating health tech SaaS peers like Veeva, Oracle Health, or ambient AI players, this investigation surfaces execution and trust risks that could define which platforms actually achieve durable enterprise adoption versus those that churn \u2014 directly relevant to competitive moat analysis in the administrative AI stack.",
+      "signal_tags": [
+        "ai_and_biology_intersection",
+        "health_software_saas",
+        "data_infrastructure",
+        "ai_impact",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "venture_capital_insights"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "dffe051fe3232d32",
+      "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+      "slot": 2,
+      "summary": "Constellation Software's Q2 2026 was a study in contrasts: recurring organic revenue growth hit its weakest level in nearly six years (just +2% FXN including Altera drag), while acquisition deployment pace is running hot and free cash flow surges. Management attributed the organic softness to a cluster of one-offs \u2014 Altera comp distortions, Dark Matter turnaround noise, Lumine digestion, and a single large customer loss \u2014 and guided toward a normalized ~5% organic growth rate. Meanwhile, the standard CSU playbook of buying low-margin businesses and marching them up the curve is playing out on schedule, with AI delivering internal productivity gains but zero revenue impact in either direction so far.",
+      "why_it_matters": "For investors studying CSU as the canonical serial acquirer, the organic-growth-vs.-deployment tension is the central valuation question: MBI's cohort-level margin analysis and AI framing (CSU as potential 'faster fast-follower') provide the forward-looking, investment-relevant insight needed to distinguish noise from signal.",
+      "signal_tags": [
+        "ticker_match:CSU",
+        "high_priority_source",
+        "serial_acquirer_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}
