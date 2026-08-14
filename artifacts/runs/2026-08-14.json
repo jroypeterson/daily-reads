@@ -1,0 +1,69 @@
+{
+  "run_date": "2026-08-14",
+  "generated_at": "2026-08-14T12:56:20Z",
+  "counts": {
+    "gmail_items": 136,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "746f3078d6fe1539",
+      "headline": "Inside a $7 billion startup's mad dash to automate the business of health care",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/",
+      "slot": 1,
+      "summary": "A STAT investigation into Commure, the $7B General Catalyst-backed health AI startup, exposes a pattern of aggressive and ethically questionable sales tactics, a since-terminated referral payment program, and a trail of unhappy clinic customers who say the AI tools failed to deliver promised financial returns. The reporting draws on internal communications, legal filings, and interviews with over 30 former employees and customers, painting a picture of a company prioritizing rapid growth over clinical and operational reliability. The piece raises serious questions about whether Commure's revenue durability and customer retention can support its valuation.",
+      "why_it_matters": "For investors in health AI SaaS, this investigation is a critical diligence input on the gap between AI commercialization hype and ground-level customer outcomes \u2014 with direct read-across to governance risk and moat sustainability across the sector.",
+      "signal_tags": [
+        "health_software_SaaS",
+        "AI_impact",
+        "corporate_governance",
+        "deep_business_diligence",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "e14c3bb85349f17e",
+      "headline": "OpenAI's Revenue Run Rate Tops $40 Billion, Bolstering IPO Case",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-14/openai-s-revenue-run-rate-tops-40-billion-bolstering-ipo-case",
+      "slot": 2,
+      "summary": "OpenAI has crossed a $40B annualized revenue run rate, roughly doubling its pace from end of 2025, driven by AI coding tools (Codex), enterprise ChatGPT Work subscriptions, and an emerging advertising business \u2014 with monthly revenue growing 20%+ in July alone. Anthropic claims $47B by a potentially different methodology, and both companies are accelerating toward IPOs. The revenue trajectory bolsters the investment case for continued AI infrastructure spending.",
+      "why_it_matters": "The OpenAI/Anthropic revenue race sets a valuation floor for the AI infrastructure buildout and has direct read-through implications for hyperscaler capex commitments, AI chip demand (NVDA), and the competitive pressure facing enterprise software incumbents.",
+      "signal_tags": [
+        "AI_impact",
+        "venture_capital_insights",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "dffe051fe3232d32",
+      "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+      "slot": 4,
+      "summary": "Constellation Software's Q2 2026 saw organic recurring revenue growth fall to +2% FXN \u2014 the weakest in ~6 years \u2014 driven by idiosyncratic headwinds at Altera, Dark Matter, Lumine, and a South American customer churn event; management argues normalized organic growth is still ~5%. Capital deployment, however, is running hot at ~$2.5B in 7.5 months (surpassing all of 2025), with larger deals like DerbySoft (~4x revenue) signaling a deliberate shift toward bigger, messier acquisitions that depress near-term reported margins but follow CSU's proven 'buy cheap and fix it' playbook. On AI, management offered a nuanced vertical SaaS perspective: productivity gains are real internally, but revenue impact is nil in either direction because selling \u2014 not building \u2014 is the hard part in vertical market software.",
+      "why_it_matters": "For anyone benchmarking roll-up strategies or underwriting vertical SaaS moats, this analysis clarifies the structural tension between CSU's decelerating organic growth and accelerating M&A pace \u2014 and whether the canonical serial acquirer thesis remains intact at scale.",
+      "signal_tags": [
+        "ticker_match:CSU",
+        "serial_acquirer_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "priority:high"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}

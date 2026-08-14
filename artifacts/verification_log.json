@@ -8026,5 +8026,86 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This article is a thin news brief about PBM switching intent and belongs to healthcare/payer dynamics (Slot 1), not Tech/AI (Slot 3), and lacks the analytical depth the reader profile requires."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Inside a $7 billion startup's mad dash to automate the business of health care",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deep, monthslong investigative piece from STAT News with primary sourcing (30+ interviews, internal communications, legal filings) that goes well beyond surface-level coverage \u2014 directly relevant to health AI SaaS governance, competitive moat durability, and the General Catalyst investment thesis."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text provided is just the Scuttleblurb homepage/archive page, not the actual article content \u2014 there is no substantive text to evaluate beyond the headline and a one-line teaser, making it impossible to confirm depth, accuracy of the shortlist summary, or analytical substance."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "OpenAI's Revenue Run Rate Tops $40 Billion, Bolstering IPO Case",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-14/openai-s-revenue-run-rate-tops-40-billion-bolstering-ipo-case",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Bloomberg article on OpenAI's $40B revenue run rate is substantive, actionable, and fits Slot 2 well given its read-through implications for hyperscaler capex, NVDA chip demand, and enterprise software disruption \u2014 all investment-relevant themes."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive earnings analysis of Constellation Software that fits the reader's strong preferences for serial acquirer analysis and analytical depth, but it belongs in Slot 4 (Wildcard) or Slot 2 (Finance/Markets) \u2014 not Slot 3 (Tech/AI), as the article's core subject is M&A deployment pace, organic growth, and vertical SaaS business fundamentals, not AI breakthroughs, infrastructure, or AI applied to healthcare/biotech (AI is a brief tangential section)."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Gemini 3.7 Flash \u2014 Google's latest low-cost model for coding and agents",
+    "source": "Google / Hacker News (HN score: 892)",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a product launch press release with no analytical depth \u2014 it lists benchmark numbers and pricing without examining competitive dynamics, infrastructure implications, or strategic context that would make it investment-relevant or intellectually substantive for this reader profile."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Payers ranked by prior authorization denial rates",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/rankings-ratings/payers-ranked-by-prior-authorization-denial-rates/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a data table summary of prior authorization denial rates with minimal analytical depth \u2014 it belongs to the Healthcare/Payer slot at best, and does not remotely fit the Tech/AI slot."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "[scuttleslops] ZTS, APO, FISV, TTD, RELY",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is just the Scuttleblurb homepage/index page with no substantive content \u2014 it lists recent post titles and snippets but contains none of the actual analysis on ZTS, APO, FISV, TTD, or RELY, making it impossible to assess depth or verify the shortlist summary."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "WISeR's high-stakes first year, in 8 questions",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/academic-medical-center/finance-academic-medical-center/wisers-high-stakes-first-year-in-8-questions/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite genuine policy substance, this is a healthcare regulatory/policy article about CMS prior authorization mechanics that fits Slot 1 (Healthcare) far better than Slot 3 (Tech/AI) \u2014 the AI angle is incidental rather than the analytical focus, and the source (Becker's Hospital Review) is not a tech/AI domain."
+  },
+  {
+    "date": "2026-08-14",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers genuine analytical depth on Constellation Software's Q2 earnings \u2014 dissecting organic growth decomposition, acquisition cohort margin progression, AI's non-impact on vertical SaaS revenue, and the DerbySoft deal's implications for CSU's evolving capital deployment strategy \u2014 all highly relevant to the reader's strong interest in serial acquirer analysis and competitive moat analysis."
   }
 ]
