@@ -8107,5 +8107,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "MBI Deep Dives delivers genuine analytical depth on Constellation Software's Q2 earnings \u2014 dissecting organic growth decomposition, acquisition cohort margin progression, AI's non-impact on vertical SaaS revenue, and the DerbySoft deal's implications for CSU's evolving capital deployment strategy \u2014 all highly relevant to the reader's strong interest in serial acquirer analysis and competitive moat analysis."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Epic's Alleged Anti-Competitive Practices Under FTC Scrutiny",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has real investigative depth \u2014 sourced from multiple FTC contacts, state AG involvement, and specific allegations around NDA use and data access restrictions \u2014 directly addressing health data infrastructure monopoly dynamics that align strongly with the reader's taste profile and Slot 1 criteria."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article is a thin newsletter table-of-contents/digest format with no substantive analysis \u2014 it contains only brief paragraph-length teasers pointing to paywalled Stratechery articles, not the deep CapEx/financing analysis the shortlist summary implies."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "The AI Compute Squeeze",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-ai-compute-squeeze",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite genuine analytical depth on GPU economics and compute pricing, this article is fundamentally a Tech/AI infrastructure piece \u2014 examining CoreWeave and Nebius earnings, GPU depreciation, and neocloud supply dynamics \u2014 not a Finance/Macro piece, making it a poor fit for Slot 2 but a strong candidate for Slot 3."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Bristol Myers Wins 'Milestone' FDA Approval of Myeloma Drug Acquired from Celgene",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/bristol-myers-zenbexus-fda-multiple-myeloma-celmod-celgene/827912/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare/biopharma FDA approval story that belongs squarely in Slot 1, not Slot 2 Finance/Macro \u2014 it lacks macro, earnings, pricing policy, or market-structure content that would justify a Finance slot placement."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "[V, MA] The More Things Change, The More They Stay The Same",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a Scuttleblurb table of contents / preview page showing multiple post teasers, not the actual Visa/Mastercard deep-dive analysis described in the shortlist summary \u2014 the V/MA piece is listed only as 'upcoming' and has not yet been published or included here."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a substantive, analytically deep earnings teardown of Constellation Software that directly engages the serial acquirer thesis \u2014 parsing organic deceleration, margin cohort dynamics, Altera IRR tracking, and AI impact \u2014 all highly relevant to the reader's strong preference for serial acquirer analysis, competitive moat analysis, and long-form investment writing."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter digest/table of contents linking to paywalled Stratechery content, not a substantive piece itself \u2014 it contains only brief 2-3 sentence teasers for each article rather than the actual analysis, making it too thin to deliver the analytical depth the reader requires."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Prior Authorization Metrics Provide New Insights into Insurer Practices",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VWc-0W7BpChsVbW_Lk8dZNSnW2L--MX5SJS1DN74Pqvb5nR3bW8wM7ks6lZ3l3W24LVtB8MvZtRW6tc_gQ960CqBW40WHmC25NWZyW50DM_-49lqKgW3GSbSp61R1xrN2JDtcCCtrYXW5Cf9Pc3R6_B6W2pJ-Qd1HH3fLW7q_8C74H0Bp6N2KQghBsn7qwVF6FgW5k0HCCW2DgS7Y767N13W4Qhz0p1q_gNHW7J0-X295RQfGW2SKdC18x7DMGW3GDKJs2SLQZBW6gvQHv1d9bp0W2c_1m38c2g-0W8zLGcV7hhcXgW1MTftX3Fvs_yW29GlgC750-GmW94vlm84sP3_NW3C1bcD98dG3xN4CHHGjGMFNJW3tMWTg2SZgPyW6C_h9-48ZLRkW5dgpjy4qgW0TW6-gKTn4K0w4MW7_TZQC7srsSgW2zYlXx6rSW_jW2vvngs22X0HJW71Hc8w5CZsx8W323trn8PMz_DW4fz2hG6Wf92jW6Cqyrr1--CndW2fLg2v180tTxW298F7n19wm9NW3tq5Nz2yBwWrW6wZp8Q5dXC4YV_Py2H30Zdc0W6wrXJF6tr6QqW5NGPBG89vkrVVGyWXZ5ynrMsW5X8_yj58kc-sf8Z2cLv04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy/regulatory analysis article that belongs in Slot 1 (Healthcare) at best, not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-08-15",
+    "headline": "Google Is Making Private AI Practical with Homomorphic Encryption",
+    "source": "Hacker News / Google Security Blog",
+    "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a Google engineering blog post announcing an open-source compiler tool (HEIR) with real but moderate technical substance \u2014 it reads more as a product announcement with demo descriptions than a deep analytical piece, and lacks the investment-relevant depth, competitive moat analysis, or forward-looking strategic insight that this reader's taste profile strongly demands."
   }
 ]

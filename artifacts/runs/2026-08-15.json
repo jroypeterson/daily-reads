@@ -1,0 +1,59 @@
+{
+  "run_date": "2026-08-15",
+  "generated_at": "2026-08-15T12:33:12Z",
+  "counts": {
+    "gmail_items": 130,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "d3a4d0cad49b1098",
+      "headline": "Epic's Alleged Anti-Competitive Practices Under FTC Scrutiny",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/",
+      "slot": 1,
+      "summary": "The FTC is conducting a broad antitrust inquiry into Epic Systems, the dominant EHR vendor covering 280+ million Americans, focusing on whether Epic uses NDAs and data access controls to suppress competition in the health IT market. State attorneys general have joined the investigation, issuing demands to companies that interface with Epic's systems. The probe is early-stage but represents serious regulatory pressure on the structural gatekeeper of U.S. health data interoperability.",
+      "why_it_matters": "Any regulatory fracture in Epic's data moat reshapes the competitive landscape for health IT vendors \u2014 from interoperability middleware players to AI-in-healthcare companies dependent on EHR data access \u2014 creating meaningful re-rating opportunities across the health tech stack.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "ticker_match:HR",
+        "subsector:HIT",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "regulatory_affairs",
+        "data_infrastructure",
+        "health_software_SaaS"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "dffe051fe3232d32",
+      "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+      "slot": 2,
+      "summary": "Constellation Software's 2Q'26 showed its weakest organic growth in nearly six years (~2% FXN on recurring revenue), driven by a confluence of one-offs including Altera's tough comp, Dark Matter's post-turnaround hangover, Lumine digesting acquisitions, and a known customer departure. Management argues normalized organic growth remains ~5%, while the more compelling story is accelerating capital deployment \u2014 recent acquisition cohorts are being marched up the margin curve from negative teens to the high-20s/30s over time, consistent with the core CSU playbook. On AI, CSU sees productivity gains in development but no revenue impact yet, with management framing vertical software's moat as customer relationships and problem-solving continuity, not codebase complexity.",
+      "why_it_matters": "For investors benchmarking roll-up and vertical software compounders, this analysis is essential for distinguishing cyclical organic softness from structural deterioration \u2014 and the Altera IRR-ahead-of-underwrite data point materially reinforces the capital allocation thesis despite headline revenue decline.",
+      "signal_tags": [
+        "ticker_match:CSU",
+        "high_priority_source",
+        "priority:high",
+        "novelty",
+        "actionability",
+        "serial_acquirer_analysis",
+        "deep_business_diligence",
+        "competitive_moat_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}
