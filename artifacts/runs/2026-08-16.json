@@ -1,0 +1,74 @@
+{
+  "run_date": "2026-08-16",
+  "generated_at": "2026-08-16T12:31:04Z",
+  "counts": {
+    "gmail_items": 124,
+    "tier2_items": 75,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "d3a4d0cad49b1098",
+      "headline": "Breaking: Epic's alleged anti-competitive practices under FTC scrutiny",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/",
+      "slot": 1,
+      "summary": "The FTC is conducting a broad antitrust inquiry into Epic Systems, the dominant EHR vendor whose software covers providers treating over 280 million Americans, probing alleged data-access restrictions and NDA practices that lock healthcare organizations in and shut out rivals. Multiple state attorneys general are joining the inquiry, and a Texas AG lawsuit already alleges Epic holds patient data hostage to foreclose competition. The investigation is still early-stage but signals intensifying regulatory scrutiny of Epic's platform control, which could force data-portability mandates that reshape the entire health IT ecosystem.",
+      "why_it_matters": "Any forced unbundling or interoperability mandates stemming from this probe would structurally alter competitive dynamics for listed health software vendors (Oracle Health, Veeva, Doximity, etc.), analytics firms, and AI health startups that depend on or compete with Epic's data infrastructure.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "regulatory_affairs",
+        "data_infrastructure",
+        "competitive_moat_analysis",
+        "health_software_SaaS",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "dffe051fe3232d32",
+      "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+      "slot": 2,
+      "summary": "Constellation Software's Q2 2026 printed its weakest organic recurring revenue growth (~+2% FXN) in nearly six years, driven by a confluence of one-offs including tough comps at Altera and Dark Matter, a large customer churn in South America, and Lumine digesting acquisitions \u2014 management argues normalized organic growth remains ~5%. Capital deployment is running hot, with the 2026 acquisition cohort already swinging from -16% to +16% EBITA margins within a single quarter, illustrating the classic CSU buy-cheap-and-fix playbook. On AI, management's message is consistent: development productivity gains are spreading across the portfolio but revenue impact \u2014 positive or negative \u2014 remains absent, with the notable insight that AI could accelerate CSU's ability to fast-follow horizontal AI players into its verticals.",
+      "why_it_matters": "For investors tracking whether the decentralized serial-acquirer model scales at CSU's size, this quarter's Rorschach-test dynamic \u2014 soft organic growth explained away as transient mix-shift versus structural friction from larger, lower-growth acquisitions \u2014 is exactly the tension that determines long-term compounder thesis integrity.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:CSU",
+        "serial_acquirer_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "cd0140793c4a1631",
+      "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+      "slot": 3,
+      "summary": "This week's Stratechery digest centers on Thompson's analysis of AI's emerging capital constraint problem: with hyperscalers burning ~94% of operating cash flow on CapEx, Nvidia has introduced a long-duration capital financing mechanism to bridge AI infrastructure demand before revenues materialize \u2014 a move Thompson frames as both a lifeline and a bubble amplifier that expands Nvidia's risk exposure. The digest also covers Anthropic's EU-mandated AI watermarking, which Thompson argues is philosophically misguided, and a network-effects analysis explaining why New York City's finance cluster is structurally more durable than Hollywood's film industry.",
+      "why_it_matters": "Nvidia's financial engineering to fund customer AI buildouts is a critical signal about the sustainability and systemic risk of the AI infrastructure boom, with direct implications for positioning across hyperscaler, semiconductor, and AI infrastructure names.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:NVDA",
+        "data_infrastructure",
+        "AI_impact",
+        "forward_looking_perspective",
+        "analytical_depth",
+        "novelty"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

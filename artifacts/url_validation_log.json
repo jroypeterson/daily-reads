@@ -1635,5 +1635,20 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-08-16",
+    "checked_unique": 40,
+    "checked_slots": 43,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": []
   }
 ]

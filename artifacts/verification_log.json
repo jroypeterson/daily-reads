@@ -8188,5 +8188,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a Google engineering blog post announcing an open-source compiler tool (HEIR) with real but moderate technical substance \u2014 it reads more as a product announcement with demo descriptions than a deep analytical piece, and lacks the investment-relevant depth, competitive moat analysis, or forward-looking strategic insight that this reader's taste profile strongly demands."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Breaking: Epic's alleged anti-competitive practices under FTC scrutiny",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth on the FTC antitrust inquiry into Epic Systems, covering data-access restrictions, NDA practices, multi-state AG involvement, and a concrete Texas AG lawsuit \u2014 directly relevant to health IT competitive dynamics and the reader's strong interest in data infrastructure, regulatory affairs, and competitive moat analysis."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents/digest email from Stratechery, not the actual substantive article \u2014 the full text contains only brief teasers and links to the real pieces (e.g., 'Nvidia's Risky Business'), meaning there is no depth to evaluate and the actual analysis is behind a paywall."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "The AI Compute Squeeze",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-ai-compute-squeeze",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite substantive analysis of GPU compute dynamics and earnings call data, this article is fundamentally AI infrastructure/Tech content and belongs in Slot 3, not Slot 2 Finance/Macro \u2014 it lacks macro, earnings, sector rotation, pricing, or reimbursement framing appropriate for the Finance slot."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is just the Scuttleblurb Substack homepage listing recent posts \u2014 the actual V/MA deep-dive content is behind a paywall and not present in the provided text, making it impossible to verify substance or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives provides genuine analytical depth on Constellation Software's Q2 results \u2014 dissecting organic growth deceleration, acquisition cohort margin dynamics, and AI positioning \u2014 directly matching the reader's documented strong interest in serial acquirer analysis and competitive moat analysis with the analytical depth style they prize."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Ben Thompson's weekly Stratechery digest contains substantive, analytically deep coverage of AI infrastructure capital constraints and Nvidia's financial engineering \u2014 directly matching Slot 3 Tech/AI criteria and the reader's strong preferences for data infrastructure, AI impact, and investment-relevant analytical depth."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "KFF Analysis: Insurers denied between 12% to 18% of prior authorization requests in 2025",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/insurers-denied-between-12-18-prior-auth-requests-2025-kff",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin data summary with limited analytical depth \u2014 it reports headline denial-rate statistics without contextualizing insurer strategy, competitive moat implications, or forward-looking investment angles that would satisfy the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-16",
+    "headline": "Anthropic Research: Patterns and problems in emerging multi-agent systems",
+    "source": "Hacker News / Anthropic",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite genuine technical depth, this is a Slot 3 Tech/AI article \u2014 a primary Anthropic research paper on multi-agent system architectures and failure modes \u2014 not a cross-domain curiosity or consulting insight that fits the Wildcard slot."
   }
 ]
