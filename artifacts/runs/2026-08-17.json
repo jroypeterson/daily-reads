@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-08-17",
+  "generated_at": "2026-08-17T12:35:57Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "8f790a7bd5df73e3",
+      "headline": "UnitedHealth faces IRS probe over potential tax avoidance",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/17/unitedhealth-irs-probe-audit-targets-foreign-subsidiary-transfers/",
+      "slot": 1,
+      "summary": "UnitedHealth Group disclosed it is contesting an IRS audit targeting its use of foreign subsidiary transfer pricing during 2017-2020, with the agency alleging potential tax avoidance through overseas entity structures. The probe carries a potentially significant tax liability overhang at a time when UNH is already navigating pressure from the Change Healthcare breach fallout, managed care margin compression, and heightened regulatory scrutiny. The company is contesting the audit, but the disclosure adds another layer of financial uncertainty to the largest payer in the U.S. market.",
+      "why_it_matters": "UNH is the sector bellwether for managed care, and a confirmed IRS liability on top of existing headwinds could pressure sector multiples broadly and reset earnings expectations for payer-adjacent names in the coverage universe.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "regulatory_affairs",
+        "investment_relevant_insights",
+        "catalyst_proximity"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "dffe051fe3232d32",
+      "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+      "slot": 2,
+      "summary": "Constellation Software's 2Q'26 results present a tension between near-6-year-low organic growth (recurring revenue up just +2% FXN, or +4% excluding the troubled Altera unit) and an accelerating capital deployment pace, which management attributes to a cluster of idiosyncratic one-offs rather than structural deceleration. The analysis walks through the margin cohort progression \u2014 new acquisitions entering at negative margins and marching toward the high-20s/30s over years \u2014 as evidence the classic 'buy cheap and fix' playbook is intact even as large deals create near-term reported margin drag. On AI, management's framing is notable: development productivity is spreading across the portfolio, but vertical software's sales cycle means no revenue impact in either direction yet, while CSU sees potential to become a faster fast-follower if horizontal AI players validate demand in their niches.",
+      "why_it_matters": "Constellation's deployment pace and deal IRR trends (e.g., Altera generating ~$400M cumulative FCF on a ~$700M purchase even as revenue shrank) are a benchmark for vertical software M&A underwriting discipline, directly informing valuation expectations for health IT serial acquirers like Waystar and the broader SMB software roll-up landscape.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:CSU",
+        "serial_acquirer_analysis",
+        "deep_business_diligence",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}

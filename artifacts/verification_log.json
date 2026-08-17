@@ -8260,5 +8260,104 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "Despite genuine technical depth, this is a Slot 3 Tech/AI article \u2014 a primary Anthropic research paper on multi-agent system architectures and failure modes \u2014 not a cross-domain curiosity or consulting insight that fits the Wildcard slot."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Epic confronts unprecedented challenges as it prepares to address customers and unveil road map",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/17/ugm-epic-confronts-challenges-succession-ai-strategy-antitrust/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was truncated, providing insufficient substance to evaluate depth, but the topic \u2014 Epic's AI strategy, antitrust scrutiny, and succession \u2014 is genuinely substantive and aligns better with the Tech/AI or Wildcard slot than Healthcare/Biotech Slot 1, which prioritizes FDA decisions, clinical trial data, M&A, and pipeline news."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest/table-of-contents from Stratechery covering AI infrastructure economics, watermarking regulation, and urban network effects \u2014 substantive content for Slot 3 (Tech/AI), but entirely mismatched for Slot 1 (Healthcare/Biotech) and the article itself is a shallow link roundup rather than a deep analytical piece."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is a Scuttleblurb landing/feed page showing brief blurbs of multiple unrelated earnings recaps and upcoming posts \u2014 it does not contain the full V/MA deep-dive analysis described in the shortlist summary, and has no substantive healthcare/biotech content to qualify for Slot 1."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "The AI Compute Squeeze",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-ai-compute-squeeze",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantive and analytically deep, but it is clearly a Tech/AI infrastructure piece about GPU compute economics and cloud pricing dynamics \u2014 it has no meaningful connection to healthcare or biopharma and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "AI debt sales are keeping US Treasury yields high",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-17/ai-debt-sales-are-keeping-us-treasury-yields-high",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is clearly mismatched for Slot 1 (Healthcare/Biotech) \u2014 it covers macro rate dynamics driven by AI debt issuance, with no substantive healthcare or biopharma content, and the full article text is essentially a Bloomberg navigation shell with truncated body content, making it impossible to verify depth or substance."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive analysis of Constellation Software's earnings \u2014 well-matched to the reader's serial acquirer and competitive moat preferences \u2014 but it belongs in Slot 2 (Finance/Markets) or Slot 4 (Wildcard), not Slot 1 (Healthcare/Biotech), as CSU is a diversified vertical software conglomerate with only indirect healthcare relevance via Altera."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "UnitedHealth faces IRS probe over potential tax avoidance",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/17/unitedhealth-irs-probe-audit-targets-foreign-subsidiary-transfers/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth on UNH's IRS audit over foreign subsidiary transfer pricing for 2017-2020 taxes, with material financial implications for a bellwether managed care company already under multiple stress vectors, fitting Slot 1's focus on healthcare/biopharma with direct investment relevance."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a content aggregation page showing teasers and 'scuttleslops' earnings call summaries from multiple unrelated companies \u2014 the actual Visa/Mastercard deep-dive content is not present, making it impossible to verify the substance claimed in the shortlist summary."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "AI debt sales are keeping US Treasury yields high",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-17/ai-debt-sales-are-keeping-us-treasury-yields-high",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content was not actually retrieved \u2014 the full text is just Bloomberg's navigation/menu HTML with no substantive article body, making it impossible to verify depth, accuracy of the shortlist summary, or analytical substance."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a substantive, analytically rigorous earnings breakdown of Constellation Software that directly engages the serial-acquirer framework, capital deployment dynamics, and margin trajectory \u2014 all strong reader preference signals \u2014 and fits Slot 2's finance/markets mandate with actionable investment-relevant depth."
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter index/table-of-contents with brief teasers, not a substantive piece \u2014 the actual analytical depth on AI infrastructure economics lives in linked articles (e.g., 'Nvidia's Risky Business') that are not included here, making this too thin to stand alone as a Slot 3 selection."
   }
 ]
