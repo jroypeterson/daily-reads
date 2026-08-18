@@ -8359,5 +8359,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a weekly newsletter index/table-of-contents with brief teasers, not a substantive piece \u2014 the actual analytical depth on AI infrastructure economics lives in linked articles (e.g., 'Nvidia's Risky Business') that are not included here, making this too thin to stand alone as a Slot 3 selection."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Ahead of its annual meeting, Epic stares down antitrust lawsuits and leadership exits",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantial depth \u2014 corroborated by four FTC sources \u2014 covering Epic's antitrust exposure, NDA practices, data access restrictions, and leadership transition, all of which are directly relevant to health IT infrastructure investors."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Bond market jitters / Global bond selloff: 30-Year Treasury yield hits highest since 2007",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/bond-yields-are-hitting-multidecade-highs-around-the-world",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article content is effectively inaccessible \u2014 the full text is truncated to Bloomberg's navigation/menu boilerplate with no substantive article body, making depth assessment impossible and suggesting paywalled content, which matches the reader's 'avoid paywalled content' pattern."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a weekly newsletter digest (table of contents with brief teasers) rather than a substantive analytical piece \u2014 the real analysis lives behind paywalled individual articles like 'Nvidia's Risky Business,' making this too thin and navigational for Slot 2, and the railway/capex framework cited in the shortlist summary does not appear in the actual text provided."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Constellation Software 2Q'26: Soft Organic Growth, but Encouraging Deployment Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-2q26-soft",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment research source, and this article delivers substantive, analytically deep coverage of Constellation Software's Q2 2026 \u2014 directly matching the reader's strong interests in serial acquirer diligence, competitive moat analysis, and deep business research, with actionable insights on deployment cadence, margin dynamics, and AI impact on vertical market software."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article is a newsletter table-of-contents digest with brief editorial teasers \u2014 it lacks substantive depth on any single topic and the full text contains no real analysis, only promotional summaries pointing to paywalled content elsewhere."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "[V, MA] The more things change, the more they stay the same",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text reveals only a teaser/preview snippet about the V/MA piece ('Like the Blob, they swallow every innovation\u2026') with no actual substantive content \u2014 the page is a Scuttleblurb homepage feed of multiple earnings call summaries and upcoming post previews, not the full deep-dive analysis described in the shortlist summary."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Make US INDs Great Again",
+    "source": "LifeSciVC (Atlas Venture)",
+    "url": "https://lifescivc.com/2026/08/make-us-inds-great-again/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite being substantive and analytically deep, this article belongs to Slot 1 (Healthcare/Biopharma) \u2014 it is a regulatory/clinical trial infrastructure piece from a biotech VC, not a Tech/AI article, and has no meaningful AI or technology content."
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Lantheus nabs FDA OK for tau Alzheimer's imaging agent",
+    "source": "Fierce Biotech (MedTech)",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1382786",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a webinar promotional advertisement for cell sorting workflows \u2014 completely unrelated to the headline about Lantheus's FDA approval, and contains no substantive reporting or analysis suitable for any digest slot."
   }
 ]
