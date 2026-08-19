@@ -8431,5 +8431,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The actual article content is a webinar promotional advertisement for cell sorting workflows \u2014 completely unrelated to the headline about Lantheus's FDA approval, and contains no substantive reporting or analysis suitable for any digest slot."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "BREAKING: Moderna and Merck say mRNA cancer vaccine succeeded in late-stage melanoma trial",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a high-substance Phase 3 clinical readout from STAT News covering a landmark oncology milestone with direct investment implications for MRNA and MRK, fitting Slot 1 criteria precisely."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite a compelling headline, the actual article content is primarily a synthesis of two AI researcher podcasts/talks about algorithmic progress and data curation in LLM training \u2014 it does not substantively analyze the 'data moat' concept for investors or finance/macro purposes, making it a poor fit for Slot 2 and only a marginal fit for Slot 3."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "FDA Seeks Public Feedback to Inform Regulatory Approach for Generative AI-Enabled Medical Devices",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press release announcing a public comment period with no substantive regulatory framework detail, investment analysis, or actionable insight \u2014 it signals a future process rather than delivering depth on the actual regulatory approach."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents/digest, not a substantive article \u2014 it contains only brief paragraph-length teasers for multiple pieces with no actual analysis, data, or depth on any topic, including the CapEx/capital markets angle highlighted in the shortlist."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Epic expands AI ambitions with agent platform, Cosmos-powered predictions and workflow automation",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/epic-expands-ai-ambitions-agent-platform-cosmos-powered-predictions-and-deeper-workflow",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement/conference recap that belongs in Slot 1 (Healthcare/Health IT) or Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), as it covers Epic's AI feature rollout with no macro, earnings, pricing, or market structure analysis."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Novo wins 1st oral GLP-1 round against Lilly. What now?",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWd6Z32WT-JpW85wcdm5FTMYWVkMXxJ5SVMCpN6L2Zs25nR3bW7Y9pgv6lZ3kwW8SgFlb8FVYclW6-QHgk3mBtfKW1XhzWK98XbFVW1j4SWX6HvpRMW8GQ1K94xpCTyW1zmGLl7rt-JHW6wH1Ft4vF368W6t4yX357zqtrVNk3d72F6wXnW4_xf9N2YpR0vW4GlGxJ76Vq8yW254T4Z1DBFYnN6W85rZmt8zGVdBXJS65BdcrW2G_0P-8GDTDjW5fyB5R68Jz8tW6SJslh1T92zpN3q1Thp4J6S1W6FJvQr4jF4DhW8K0sGR60mRxpW2r5QkX69KB7vN1Ldvt1-zdvwW2_0qcW4BHc5pW2ZnNjY8Q3ctmW8cRn8Q7ZWjxCW4sZNYF8pJLVSW30W05T8tS0PMW5J91HY8y-TvWW2sJ0wz8XqHPzVWffyp2yjYD3W5XV3b61t3V5GW8v6ZTR71CBYwW7-8dcT72xLJ6W38S6Nb7FkMN0W5-55NC6kxm0SW4l90866JLGtxW8mYGWP5M6Y8xW1yJ6PN28sT9KW5CKjxG4rX2TSW73fTjL42BSwJW2WhbN_561nHRW6r-BF61BfGW2f5msj6R04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article content is essentially a newsletter shell \u2014 it contains only a single-sentence teaser about Novo Nordisk's oral GLP-1 win over Lilly, surrounded by ads, event listings, job postings, and editor contact info, with no substantive analysis of competitive dynamics, pipeline implications, or market share data."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "A New Era in the Bond Market (The 10-Point)",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/world/why-wall-street-thinks-the-brutal-bond-rout-is-just-getting-started-c84e9131",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The actual article content is extremely thin \u2014 just a two-paragraph newsletter blurb with no substantive analysis of the bond rout, its drivers, or investment implications; the depth described in the shortlist summary exists in linked articles, not in this piece itself."
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has genuine analytical depth, synthesizing perspectives from two leading AI researchers on whether algorithmic progress \u2014 not proprietary data \u2014 is the primary driver of model improvement, directly challenging the 'data moat' thesis with substantive arguments and concrete examples."
   }
 ]

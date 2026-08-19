@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-08-19",
+  "generated_at": "2026-08-19T12:38:29Z",
+  "counts": {
+    "gmail_items": 130,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "0ded89e5c695ed86",
+      "headline": "BREAKING: Moderna and Merck say mRNA cancer vaccine succeeded in late-stage melanoma trial",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+      "slot": 1,
+      "summary": "Moderna and Merck announced that their personalized mRNA cancer vaccine (mRNA-4157/V940), combined with Merck's Keytruda (pembrolizumab), met its primary endpoint in a Phase 3 trial in high-risk resectable melanoma, reducing recurrence or death compared to Keytruda alone. This marks the first positive Phase 3 result for a personalized neoantigen mRNA cancer vaccine, validating a platform that could extend to other tumor types. The data represent a major inflection point for Moderna's post-COVID pipeline and could support an FDA filing.",
+      "why_it_matters": "A confirmed Phase 3 win de-risks Moderna's diversification thesis and opens a potentially multi-billion dollar commercial opportunity in adjuvant oncology, with read-across implications for mRNA platforms broadly and Merck's Keytruda combination strategy.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "cbfda07a1d81f825",
+      "headline": "Rethinking the Data Moat",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+      "slot": 3,
+      "summary": "MBI Deep Dives synthesizes insights from Redwood Research's Ryan Greenblatt and Meta's Shuchao Bi to argue that algorithmic progress in data curation and RL environment design \u2014 not proprietary human expert data \u2014 has been the dominant driver of recent AI model improvements. Greenblatt's thought experiment (GPT-3-level compute trained today would exceed GPT-4) illustrates how dramatically curation science has advanced independent of raw data access. This reframes the conventional 'data moat' thesis: the defensible advantage lies in knowing *how* to process and filter data, not merely in owning it.",
+      "why_it_matters": "For investors in health data platforms and analytics firms whose valuations rest on proprietary dataset moats, this analytical framework suggests the durable competitive advantage may reside in data curation methodology and RL pipeline design rather than data ownership alone \u2014 a meaningful distinction for assessing long-term moat durability.",
+      "signal_tags": [
+        "priority:high",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "topic:data_infrastructure",
+        "topic:competitive_moat_analysis"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}
