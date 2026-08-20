@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-08-20",
+  "generated_at": "2026-08-20T12:40:53Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "cdcb4e59ff9c9a37",
+      "headline": "BREAKING: mRNA cancer vaccine succeeds in late-stage trial",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/20/cancer-vaccine-merck-moderna-biotech-observations/",
+      "slot": 1,
+      "summary": "STAT News' Matthew Herper argues that 2026 is shaping up as one of the most consequential years in cancer treatment history, anchored by two pivotal readouts: Moderna and Merck's mRNA neoantigen personalized cancer vaccine succeeding in a late-stage melanoma trial (with MRNA shares surging ~91%), and Revolution Medicines' RAS(ON) inhibitor showing meaningful survival benefit in pancreatic cancer. The piece contextualizes these results within the broader mRNA platform thesis \u2014 validating its extension from infectious disease into personalized oncology \u2014 and frames near-term regulatory filings as the next catalyst to watch. Both results are presented not as incremental advances but as potential inflection points in how oncology is practiced.",
+      "why_it_matters": "With MRNA and MRK ticker matches, a confirmed Phase 3 win, and a regulatory filing likely on the horizon, this is the highest-priority catalyst type for healthcare investors reassessing the mRNA platform's long-term revenue potential beyond COVID.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "fd80dfe0c89bdff7",
+      "headline": "McKinsey Global Private Markets Report 2026",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a01b8cd7ed9d30a4f4bbe5be50/54d5bf2d5c2c49020000021ef3a0bcc2/54d5bf2d-5c2c-4902-b079-4182e2c67f8b",
+      "slot": 2,
+      "summary": "McKinsey's Global Private Markets Report 2026 delivers comprehensive data on fundraising trends, deal activity, valuations, and LP dynamics across private equity, private credit, real assets, and venture capital. The analysis is particularly timely given macro pressures from elevated rates and $40T in US debt, with private credit's expanding role as a key theme. Healthcare PE and growth equity are typically featured sections, adding direct relevance to the reader's coverage universe.",
+      "why_it_matters": "This annual benchmark report provides the kind of deep, data-driven private markets analysis the reader prizes \u2014 actionable for portfolio positioning, LP strategy assessment, and understanding structural shifts in capital allocation across healthcare and broader PE.",
+      "signal_tags": [
+        "priority:high",
+        "source:mckinsey",
+        "private_markets_risks",
+        "analytical_depth",
+        "forward_looking"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "cbfda07a1d81f825",
+      "headline": "Rethinking the Data Moat",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+      "slot": 3,
+      "summary": "MBI Deep Dives synthesizes arguments from Redwood Research's Ryan Greenblatt and Meta's Shuchao Bi to challenge the assumption that proprietary human expert data is the dominant driver of AI model improvement. Greenblatt argues that 'algorithmic progress' \u2014 better understanding of how to curate and filter data distributions \u2014 accounts for more model gains than the raw data itself, while Bi frames the issue as moving toward 'equalizing intelligence per token' rather than scaling raw data volume. Together, these perspectives suggest that data moats may be less durable than investors assume, as the compounding edge lies in the science of data processing rather than data ownership.",
+      "why_it_matters": "For investors with positions in data-rich businesses (health IT, labs, diagnostics) where proprietary data is a core thesis, this piece raises a structurally important question about whether that moat is being hollowed out by algorithmic and synthetic data advances \u2014 directly actionable for portfolio thesis review.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "competitive_moat_analysis",
+        "AI_impact",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0ddbde66d74a648e",
+      "headline": "Epic expands AI ambitions with agent platform, Cosmos-powered predictions and workflow automation",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/epic-expands-ai-ambitions-agent-platform-cosmos-powered-predictions-and-deeper-workflow",
+      "slot": 4,
+      "summary": "At its annual Users Group Meeting, Epic unveiled a comprehensive agentic AI platform called Agent Factory, enabling health systems to build, deploy, and monitor AI agents across clinical and administrative workflows without writing code. The platform is anchored by Ergo, an AI intelligence layer built on Epic's Cosmos real-world data asset (325M patient records), and integrates three named AI copilots \u2014 Art (clinical), Emmie (patient-facing), and Penny (revenue cycle) \u2014 now live across 300+ health systems. Adoption metrics shared include 1,000+ call center hours saved at Ochsner and 73% fewer billing messages at Community Health Network, signaling measurable workflow impact.",
+      "why_it_matters": "Epic's Agent Factory and Cosmos-powered Ergo platform represent a credible bid to become the default AI operating system for U.S. health systems, creating a deep data moat that could structurally disadvantage point-solution health IT vendors and AI startups lacking comparable real-world clinical data scale.",
+      "signal_tags": [
+        "ticker_match:ORCL",
+        "AI_impact",
+        "health_software_SaaS",
+        "data_infrastructure",
+        "competitive_moat_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

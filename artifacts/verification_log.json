@@ -8503,5 +8503,68 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article has genuine analytical depth, synthesizing perspectives from two leading AI researchers on whether algorithmic progress \u2014 not proprietary data \u2014 is the primary driver of model improvement, directly challenging the 'data moat' thesis with substantive arguments and concrete examples."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "BREAKING: mRNA cancer vaccine succeeds in late-stage trial",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/20/cancer-vaccine-merck-moderna-biotech-observations/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, analytically deep piece from STAT News covering two landmark late-stage cancer trial results (Moderna/Merck mRNA neoantigen vaccine and Revolution Medicines' RAS inhibitor for pancreatic cancer), with direct ticker relevance and near-term regulatory filing implications \u2014 a textbook Slot 1 catalyst."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "CCC is in the Middle of the Wreckage",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text provided is only a fragment (the opening sentence is cut off) and the rest of the content is unrelated teasers and earnings call summaries for other companies, providing no actual substantive analysis of CCC Intelligent Solutions to evaluate."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article's actual content is a synthesis of two AI researcher conversations about algorithmic progress and data curation in model training \u2014 it is a Tech/AI piece, not a Finance/Macro piece, and the shortlist summary overstates its investment thesis framing around data moats and health IT, which barely appears in the actual text."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "The CapEx Train Keeps Rolling (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article is a newsletter table-of-contents/digest with only brief paragraph teasers for each piece \u2014 it lacks substantive analysis on AI CapEx or macro themes and is too thin to stand alone as a Finance/Macro article."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "McKinsey Global Private Markets Report 2026",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a01b8cd7ed9d30a4f4bbe5be50/54d5bf2d5c2c49020000021ef3a0bcc2/54d5bf2d-5c2c-4902-b079-4182e2c67f8b",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual private markets report is a high-priority consulting source with comprehensive, data-rich coverage of PE, private credit, and venture dynamics that directly matches the reader's strong interest in analytical depth, private markets risks, and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers substantive analytical depth on how algorithmic progress and data curation science may be displacing raw proprietary data as the primary moat in AI, directly relevant to the reader's strong interests in data infrastructure, competitive moat analysis, and AI impact."
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Epic expands AI ambitions with agent platform, Cosmos-powered predictions and workflow automation",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/epic-expands-ai-ambitions-agent-platform-cosmos-powered-predictions-and-deeper-workflow",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance \u2014 specific product names, adoption metrics, named health system deployments, and a clear strategic narrative about Epic building a vertically integrated AI platform on its Cosmos data moat \u2014 directly hitting the reader's strong interests in data infrastructure, health software SaaS competitive dynamics, and AI impact."
   }
 ]
