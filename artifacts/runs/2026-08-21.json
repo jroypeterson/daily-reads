@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-08-21",
+  "generated_at": "2026-08-21T12:41:45Z",
+  "counts": {
+    "gmail_items": 131,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c80f1147e6074180",
+      "headline": "GLP-1s Are Forcing a Strategic Reset Across Healthcare: Wells Fargo Report",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/providers/glp-1s-forcing-strategic-reset-across-healthcare-well-fargo-report",
+      "slot": 1,
+      "summary": "A Wells Fargo report argues that GLP-1 drugs are structurally disrupting a healthcare system built around treating obesity-related complications, with bariatric surgery volumes already down 34.1% from 2022\u20132024 while GLP-1 use surged 140%. The report catalogs sector-specific impacts: cardiology service lines and chronic disease management face volume headwinds, orthopedics face ambiguous net effects, and specialty pharmacy and outpatient longitudinal care stand to benefit. Near-term payer cost pressure is real \u2014 Medicare Part D GLP-1 spending hit $27.5B in 2024 \u2014 even as long-run acute utilization is expected to fall.",
+      "why_it_matters": "The cross-sector analysis provides a structured framework for repositioning across the healthcare ticker universe \u2014 from device makers (Stryker) to payers and hospital systems \u2014 as GLP-1 adoption accelerates and reshapes utilization economics.",
+      "signal_tags": [
+        "ticker_match:WELL",
+        "analytical_depth",
+        "actionability",
+        "forward_looking",
+        "deep_business_diligence"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "cbfda07a1d81f825",
+      "headline": "MBI Deep Dives: Rethinking the Data Moat",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+      "slot": 3,
+      "summary": "MBI Deep Dives revisits the 'data moat' thesis by synthesizing arguments from Redwood Research's Ryan Greenblatt and ex-OpenAI/Meta researcher Shuchao Bi, both of whom suggest algorithmic progress and data curation methodology matter more than raw proprietary data or human expert data in driving AI model improvements. Greenblatt's thought experiment \u2014 that today's algorithms could train a GPT-3-compute model to GPT-4+ quality \u2014 implies the defensibility of data advantages is eroding faster than many investors assumed. The piece connects this to a real-world signal: Google bidding on Spirit Airlines' bankruptcy data, suggesting labs still value novel data distributions even as the analytical edge in processing matters more.",
+      "why_it_matters": "For investors underwriting data-heavy businesses on the assumption that proprietary data is a durable moat, this piece offers a well-sourced challenge to that thesis \u2014 with direct implications for how to assess competitive defensibility in AI-adjacent SaaS, health data platforms, and data infrastructure companies.",
+      "signal_tags": [
+        "priority:high",
+        "analytical_depth",
+        "data_infrastructure",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "actionability"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}
