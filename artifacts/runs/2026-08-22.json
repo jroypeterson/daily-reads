@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-08-22",
+  "generated_at": "2026-08-22T12:35:09Z",
+  "counts": {
+    "gmail_items": 134,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "0ded89e5c695ed86",
+      "headline": "BREAKING: mRNA Cancer Vaccine Succeeds in Late-Stage Trial",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+      "slot": 1,
+      "summary": "Moderna and Merck's personalized mRNA cancer vaccine intismeran, combined with Keytruda, met both primary endpoints \u2014 recurrence-free survival and distant metastasis-free survival \u2014 in the Phase 3 INTerpath-001 trial across 1,100+ melanoma patients, marking the first late-stage success for an mRNA cancer vaccine. Moderna shares surged ~177% on the news while Merck rose ~12%, with Leerink analysts projecting ~$1.4B in average annual revenue by 2032. The result accelerates a broader platform thesis, with major trials now underway in lung, bladder, kidney, and pancreatic cancers.",
+      "why_it_matters": "This is a definitive Phase 3 catalyst for MRNA and MRK with near-term regulatory filing implications and a platform-validation story that could reshape the oncology treatment landscape across multiple high-prevalence tumor types.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "b0e8f41b9cba8d54",
+      "headline": "CCC Is in the Middle of the Wreckage",
+      "source": "Scuttleblurb (Substack)",
+      "url": "https://scuttleblurb.substack.com/p/ccc",
+      "slot": 2,
+      "summary": "Scuttleblurb publishes a detailed analysis of CCC Intelligent Solutions (CCCS), tracing its evolution from a 1980s used-car valuation database to a dominant SaaS coordination layer embedded across auto insurers, collision repairers, parts suppliers, and OEMs. CCC commands ~80% share of auto physical damage estimating, with software embedded in 27 of the top 30 insurers and ~31k repair shops, giving it structural network-effect advantages that are difficult to displace. The piece is written assuming CCC remains independent despite active M&A takeout rumors with multiple reported bidders.",
+      "why_it_matters": "CCC's entrenched network position and active takeout process make this a timely, actionable read for investors evaluating vertical SaaS moats and M&A optionality in insurance-adjacent software.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "catalyst_proximity"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9e9d513dda81b555",
+      "headline": "Rethinking the Data Moat",
+      "source": "MBI Deep Dives (Substack)",
+      "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+      "slot": 3,
+      "summary": "MBI Deep Dives interrogates the assumption that proprietary human expert data is the primary driver of AI model improvements, drawing on Ryan Greenblatt (Redwood Research) and Shuchao Bi (Meta Superintelligence Labs) to argue that algorithmic curation and data processing science matter more than raw data ownership. Greenblatt's thought experiment \u2014 that GPT-3-level compute trained today would yield a model better than GPT-4 \u2014 illustrates how much improvement comes from algorithmic progress rather than data accumulation. The author concludes that data moats may be weaker than investors assume, urging epistemic humility about AI landscape views.",
+      "why_it_matters": "Directly challenges the valuation logic used to justify data-moat premiums in health data platforms, diagnostics companies, and AI-native healthcare businesses \u2014 with implications for how investors should underwrite proprietary dataset advantages.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "data_infrastructure"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8f87298680c6d4b4",
+      "headline": "How Big Bet Brought Moderna Back From the Brink",
+      "source": "WSJ Newsletters",
+      "url": "https://www.wsj.com/articles/investors-thought-moderna-was-left-for-dead-then-came-a-cancer-breakthrough-464255d3?mod=djem10point",
+      "slot": 4,
+      "summary": "WSJ traces how Moderna's long-term commitment to mRNA cancer vaccines, viewed as a costly distraction post-COVID, culminated in a Phase 3 breakthrough that validates the company's high-conviction strategic bet. The piece examines internal decision-making and the investor skepticism Moderna navigated during lean years, offering a corporate strategy lens on how the company survived and potentially reestablished its pipeline credibility. It contextualizes the clinical win within the broader narrative of Moderna's post-COVID identity and capital allocation choices.",
+      "why_it_matters": "For MRNA investors and healthcare analysts, this is the defining narrative heading into regulatory filing discussions \u2014 understanding the strategic and governance choices that produced the breakthrough is essential for assessing whether Moderna's pipeline discipline can be sustained.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "novelty",
+        "actionability",
+        "catalyst_proximity",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    }
+  ]
+}

@@ -8647,5 +8647,59 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article has genuine analytical depth, engaging primary sources (Greenblatt and Bi) to meaningfully challenge the 'data moat' investment thesis, directly hitting the reader's strongest preferences: data infrastructure, competitive moat analysis, and AI impact through long-form investment writing."
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "BREAKING: mRNA Cancer Vaccine Succeeds in Late-Stage Trial",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a landmark Phase 3 readout for a ticker-matched catalyst (MRNA, MRK) with immediate regulatory and platform-broadening implications, covered in depth by a priority healthcare source."
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantive and analytically interesting but belongs in Slot 3 (Tech/AI) \u2014 it is fundamentally about AI model training dynamics, data curation vs. raw data ownership in AI development, and the mechanics of algorithmic progress, not Finance/Macro."
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "CCC Is in the Middle of the Wreckage",
+    "source": "Scuttleblurb (Substack)",
+    "url": "https://scuttleblurb.substack.com/p/ccc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's deep-dive on CCC Intelligent Solutions is analytically rich, covering the company's historical evolution, competitive moat (80% APD estimating share), network effects spanning 27 top-30 insurers and 31k repair shops, and near-term M&A catalyst \u2014 all strongly matching the reader's taste for competitive-moat analysis, vertical SaaS, and investment-relevant depth."
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has genuine analytical depth, synthesizing multiple expert perspectives (Greenblatt, Bi) to challenge the prevailing 'data moat' thesis with specific technical arguments about algorithmic progress vs. raw data ownership \u2014 directly relevant to AI infrastructure and valuation frameworks."
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "Lessons From Our Alliances: What AWS's Agentic Journey Can Teach CEOs About Rewiring for AI",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/about-us/new-at-mckinsey-blog/lessons-from-our-alliances-what-aws-agentic-journey-can-teach-ceo-about-rewiring-for-ai",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a McKinsey promotional piece centered on its AWS alliance partnership, offering generic CEO-level agentic AI transition advice with little analytical depth \u2014 the full text is truncated and what exists reads as marketing content rather than the practitioner framework promised in the shortlist summary."
+  },
+  {
+    "date": "2026-08-22",
+    "headline": "How Big Bet Brought Moderna Back From the Brink",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/articles/investors-thought-moderna-was-left-for-dead-then-came-a-cancer-breakthrough-464255d3?mod=djem10point",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article offers substantive corporate strategy and governance depth \u2014 tracing Moderna's internal decision-making and investor skepticism around mRNA cancer vaccines \u2014 which aligns well with the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant insights."
   }
 ]
