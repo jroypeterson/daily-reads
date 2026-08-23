@@ -1,0 +1,72 @@
+{
+  "run_date": "2026-08-23",
+  "generated_at": "2026-08-23T12:35:06Z",
+  "counts": {
+    "gmail_items": 133,
+    "tier2_items": 80,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "0ded89e5c695ed86",
+      "headline": "BREAKING: mRNA Cancer Vaccine Succeeds in Late-Stage Trial",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+      "slot": 1,
+      "summary": "Moderna and Merck announced that their personalized mRNA cancer vaccine (intismeran autogene) combined with Keytruda met both primary (recurrence-free survival) and secondary (distant metastasis-free survival) endpoints in a 1,137-patient Phase 3 trial in resected stage IIB\u2013IV melanoma. This marks the first Phase 3 success for a personalized mRNA cancer vaccine, validating the neoantigen therapeutic paradigm that Moderna has been building toward since its COVID-19 platform success. Regulatory submissions are expected imminently, with full data to be presented at an upcoming oncology conference.",
+      "why_it_matters": "A confirmed Phase 3 win for personalized mRNA cancer vaccines represents a potential inflection point for Moderna's commercial pipeline beyond COVID and carries blockbuster revenue implications for both MRNA and MRK, with near-term FDA filing catalysts that investors need to track.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "high_priority_source"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f667cd72d2e45190",
+      "headline": "Who Will Win as AI Rewrites Competitive Advantage?",
+      "source": "BCG",
+      "url": "https://www.bcg.com/publications/2026/which-companies-capture-value-from-ai",
+      "slot": 2,
+      "summary": "BCG's flagship 2026 strategy report reframes AI not as a productivity story but as a structural redistribution of value pools across industries, analogous to the railway boom or internet revolution. The report introduces a five-factor framework \u2014 task substitutability, market concentration, data defensibility, compute intensity, and regulatory friction \u2014 to explain why the same AI technology produces opposite competitive outcomes across sectors. Key findings include: legacy enterprise software has already lost ~$2 trillion in market cap, the compute layer has become a permanent new cost line for every adopter, and midscale incumbents face the most compression while true-scale data-flywheel players and AI-native attackers advance.",
+      "why_it_matters": "The sector-specific value-pool analysis (pharma shareholders benefit from AI-reduced discovery costs; health care value flows to consumers; financial services oligopoly retains surplus longest) gives portfolio managers a structured lens to assess which holdings are moat-strengtheners versus slow-motion compression candidates before the P&L damage becomes visible.",
+      "signal_tags": [
+        "priority_high",
+        "novelty",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "analytical_depth",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "fd80dfe0c89bdff7",
+      "headline": "McKinsey Global Private Markets Report 2026",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a01b8cd7ed9d30a4f4bbe5be50/54d5bf2d5c2c49020000021ef3a0bcc2/54d5bf2d-5c2c-4902-b079-4182e2c67f8b",
+      "slot": 4,
+      "summary": "McKinsey's 2026 Global Private Markets Report provides a comprehensive annual assessment of PE, VC, private credit, infrastructure, and real assets, with particular focus on dealmaking dynamics in what it characterizes as a rapidly rebounding market. The report spans fundraising trends, return dispersion, and capital deployment patterns across asset classes. It serves as the broadest available framework for understanding private capital conditions heading into the year.",
+      "why_it_matters": "Private markets conditions set the ceiling on healthcare M&A activity, CDMO/CRO deal multiples, and PE-backed roll-up valuations \u2014 making this annual McKinsey report a foundational reference for contextualizing the capital environment around the biopharma and health-tech coverage universe.",
+      "signal_tags": [
+        "priority_high",
+        "novelty",
+        "private_markets_risks",
+        "serial_acquirer_analysis",
+        "analytical_depth",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "15 min",
+      "snippet_only": true
+    }
+  ]
+}

@@ -8701,5 +8701,95 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "The article offers substantive corporate strategy and governance depth \u2014 tracing Moderna's internal decision-making and investor skepticism around mRNA cancer vaccines \u2014 which aligns well with the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant insights."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "BREAKING: mRNA Cancer Vaccine Succeeds in Late-Stage Trial",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a landmark Phase 3 clinical trial readout from a high-priority source (STAT News) with direct ticker relevance (MRNA, MRK), near-term FDA filing implications, and paradigm-validating significance for the entire mRNA oncology therapeutic category."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "CCC Is in the Middle of the Wreckage",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is not the actual CCC deep-dive \u2014 it is a Scuttleblurb index/preview page showing excerpts from multiple other posts (Adyen, Zoetis, Booking Holdings, Visa/Mastercard, etc.), with CCC only mentioned in a brief bracketed disclaimer noting it is subject to takeout rumors and that the post assumes it remains independent; the substantive CCC analysis is not present in the provided text."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "Despite genuine analytical depth and strong reader profile alignment, this article is paywalled (marked '\u2219 Paid' on Substack) and fits Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro), as its core content is about AI training methodology and algorithmic progress rather than finance, markets, or macro dynamics."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Who Will Win as AI Rewrites Competitive Advantage?",
+    "source": "BCG",
+    "url": "https://www.bcg.com/publications/2026/which-companies-capture-value-from-ai",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "BCG's framework for AI-driven competitive advantage redistribution is substantive, analytically deep, and directly maps to the reader's strong preferences for competitive moat analysis and AI impact \u2014 with sector-specific value-pool logic (financial services, retail, pharma, health care) that is genuinely investment-relevant rather than generic."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled (marked '\u2219 Paid' on Substack) and the available text is truncated, so the full substance cannot be verified, and it conflicts with the explicit 'avoid paywalled content' rule in the reader's taste profile."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Epic's Seth Howard on Leadership Changes and the Company's Vision to Power AI Across the Health System",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/epics-seth-howard-leadership-shifts-and-companys-strategy-power-ai-across-health-system",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a soft interview-style piece with limited analytical depth \u2014 it surfaces interesting themes (Epic's data moat, Agent Factory, succession) but stays at a surface level with executive talking points rather than offering the rigorous competitive or strategic analysis the reader profile demands."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "Software Lending Is Concentrated Where AI Hits Hardest",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://www.apollo.com/homepage",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely a generic Apollo Global Management marketing/homepage page with no actual substantive content about software lending concentration or AI disruption \u2014 the shortlist summary describes an article that does not exist in the provided text."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "As AI Advances, a Debate Grows Over the Future Role of Physicians",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-advances-debate-grows-over-future-role-physicians",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a journalistic summary of a public debate between the AMA and a JAMA opinion piece, lacking the analytical depth or investment-specific insight required for the Tech/AI slot \u2014 it covers the surface-level 'AI vs. physicians' debate without examining competitive dynamics, software stack economics, or data infrastructure implications that would resonate with this reader's taste profile."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "McKinsey Global Private Markets Report 2026",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a01b8cd7ed9d30a4f4bbe5be50/54d5bf2d5c2c49020000021ef3a0bcc2/54d5bf2d-5c2c-4902-b079-4182e2c67f8b",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Slot 4 Wildcard/consulting piece, not a Tech/AI article \u2014 it covers private markets (PE, VC, credit, infrastructure) with no evident AI-specific focus, making it a poor fit for Slot 3."
+  },
+  {
+    "date": "2026-08-23",
+    "headline": "McKinsey Global Private Markets Report 2026",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a01b8cd7ed9d30a4f4bbe5be50/54d5bf2d5c2c49020000021ef3a0bcc2/54d5bf2d-5c2c-4902-b079-4182e2c67f8b",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual flagship private markets report is a high-signal, substantive annual reference that aligns with the reader's moderate interest in private markets risks, serial acquirer analysis, and PE-backed roll-up dynamics \u2014 and fits the Wildcard slot's 'would I forward this?' test as a cross-domain strategic framework."
   }
 ]
