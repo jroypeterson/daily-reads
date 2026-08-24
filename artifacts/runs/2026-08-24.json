@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-08-24",
+  "generated_at": "2026-08-24T12:43:56Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "02af68d8db9de695",
+      "headline": "Inside Moderna and Merck's cancer vaccine triumph",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/",
+      "slot": 1,
+      "summary": "STAT News provides an inside account of how Moderna and Merck's personalized mRNA cancer vaccine (mRNA-4157/V940) achieved a pivotal Phase 3 success after nearly a decade of scientific skepticism, pandemic-era disruptions, and complex manufacturing hurdles. The piece traces the partnership's origins, the behind-the-scenes friction and breakthroughs, and how the trial's positive readout \u2014 which sent MRNA shares up ~91% \u2014 positions the program for an imminent FDA filing. The story also contextualizes what this means for the broader mRNA-beyond-COVID thesis and the emerging personalized oncology platform.",
+      "why_it_matters": "A Phase 3 win for a personalized mRNA cancer vaccine is a platform-defining moment for Moderna and Merck, with an FDA filing imminent and direct implications for how investors should price the mRNA oncology pipeline across both tickers.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0c4376a6164de838",
+      "headline": "Advancing American healthcare: An interview with Seema Verma",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a025f57bb689654cf4bbcfbb48/121b9e17e5c640ce0000021ef3a0bcc2/121b9e17-e5c6-40ce-835d-e6eb54c5e71a",
+      "slot": 2,
+      "summary": "McKinsey interviews Seema Verma, former CMS administrator, on the trajectory of U.S. healthcare reform under the current administration, including Medicaid restructuring, value-based payment model evolution, and payer-provider dynamics. The conversation also addresses data interoperability challenges and AI's emerging role in care delivery and administrative efficiency. As a key regulatory architect, Verma offers a practitioner perspective on where federal payment policy is heading.",
+      "why_it_matters": "Understanding Medicaid reimbursement trajectories and value-based care policy direction from a former CMS administrator is directly actionable for investors in managed care (e.g., UNH, CVS, ELV) and digital health companies whose revenue models depend on federal payment structures.",
+      "signal_tags": [
+        "high_priority_source",
+        "regulatory_affairs",
+        "ticker_match:HCAT",
+        "ticker_match:AMWL",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "cbfda07a1d81f825",
+      "headline": "Rethinking the Data Moat",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+      "slot": 3,
+      "summary": "MBI Deep Dives synthesizes recent arguments from Redwood Research's Ryan Greenblatt and former OpenAI/Meta researcher Shuchao Bi to challenge the idea that proprietary data is the primary driver of AI progress. Both researchers argue that algorithmic improvements \u2014 better data curation, filtering pipelines, and RL environment design \u2014 matter more than raw data accumulation or human expert data. This reframes the competitive moat question: the durable advantage may lie in the *process* of data refinement rather than data ownership itself.",
+      "why_it_matters": "For investors evaluating software and platform businesses on data moat durability, this piece provides a well-reasoned framework for distinguishing genuinely defensible data advantages from those that will erode as algorithmic curation and AI labor commoditize raw data collection.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "competitive_moat_analysis",
+        "data_infrastructure",
+        "AI_impact"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}

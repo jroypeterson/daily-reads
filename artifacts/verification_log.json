@@ -8791,5 +8791,77 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's annual flagship private markets report is a high-signal, substantive annual reference that aligns with the reader's moderate interest in private markets risks, serial acquirer analysis, and PE-backed roll-up dynamics \u2014 and fits the Wildcard slot's 'would I forward this?' test as a cross-domain strategic framework."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Inside Moderna and Merck's cancer vaccine triumph",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "STAT News deep-dive with genuine narrative depth on the Moderna/Merck mRNA cancer vaccine Phase 3 win, covering a decade of scientific and logistical challenges, partnership dynamics, and near-term FDA filing implications \u2014 strong ticker matches (MRNA, MRK) and clear catalyst proximity make this a natural Slot 1 fit."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth, this article is fundamentally a Tech/AI piece exploring algorithmic progress in AI model training and data curation \u2014 not a Finance/Macro article \u2014 and belongs in Slot 3, not Slot 2."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "CCC is in the Middle of the Wreckage",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is not the CCC piece itself but rather a Scuttleblurb table-of-contents/preview page showing snippets of multiple unrelated earnings call summaries (Adyen, Zoetis, Booking Holdings, etc.), with CCC only mentioned as 'upcoming' \u2014 the actual deep-dive on CCC has not been published or is not included here."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Epic's Seth Howard on leadership changes and the company's vision to power AI across the health system",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/epics-seth-howard-leadership-shifts-and-companys-strategy-power-ai-across-health-system",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a lightly-edited conference Q&A with thin analytical depth \u2014 it covers Epic's AI messaging and leadership philosophy in broad, PR-friendly strokes without the competitive moat analysis, data infrastructure detail, or investment-relevant substance that would justify Slot 2 or any slot for this reader."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Treasury Buybacks",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/08-24-2026-treasury-buybacks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after a thin free section \u2014 the actual substance on Treasury buybacks is limited to a single Bessent quote, with the rest being generic earnings-call snippets on consumer spending that lack the analytical depth the reader profile demands."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Advancing American healthcare: An interview with Seema Verma",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a025f57bb689654cf4bbcfbb48/121b9e17e5c640ce0000021ef3a0bcc2/121b9e17-e5c6-40ce-835d-e6eb54c5e71a",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey interview with a former CMS administrator covering Medicaid dynamics, value-based care, payer-provider tension, and AI in care delivery is substantive and directly relevant to reimbursement and managed care investment themes \u2014 though it fits Slot 1 (Healthcare/Biopharma) better than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth by synthesizing arguments from two credible AI researchers (Greenblatt and Bi) to challenge the conventional data moat thesis, directly aligning with the reader's strong interests in data infrastructure, competitive moat analysis, and AI impact \u2014 and the full text confirms the shortlist summary is substantially accurate."
+  },
+  {
+    "date": "2026-08-24",
+    "headline": "As AI advances, a debate grows over the future role of physicians",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ai-advances-debate-grows-over-future-role-physicians",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a well-structured news summary of an ongoing debate but lacks the analytical depth, proprietary framing, or novel data that would pass the 'would I forward this?' test \u2014 it essentially recaps a JAMA opinion piece and AMA response without adding structural investment insight, deployment evidence, or actionable takeaways beyond what's in the original sources."
   }
 ]

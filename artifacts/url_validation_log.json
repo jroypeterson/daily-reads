@@ -1788,5 +1788,39 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-08-24",
+    "checked_unique": 50,
+    "checked_slots": 54,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 2
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxskDmu4zAQBU8jZha4iUvAYBJfQ-DSkjkjigQXA7r9wHbiD_y40fUK5W2HPdfLtOGar7H0mM9bBQ-xdBQM0w4rLxAYIpVciOaaIUg2HusOJ1TbIay2f12JXNDDeAoLxZpt3G5MSY2p0sqBFZRg54GjaCimAivKKCGEsZnNwXMISi4gmNCSkVlslpXGr4njtN8CmV-S3fp_s88JxbZuFd4uptcB6DCP3kub2J-J3id6Ty4GgBLiE9rP1zLc6nNK44z9WuG07oDwgZThjujtK8MagyGccyIVquZvzVeBDrXlc-J4f-2-YW24kJONp_keRP33pKNB_YC1WLhCT0P_BwAA__94QoFF"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskDuShCAYhE8j2Vj481ADgk3mGhbIj8OMAsVjLW-_NbPBJht399ddveqKW8yXqi7dTsTXft1ybMG2RKySTDthCaphnEYxiHGSBA_t92XDgFlXtIuuf6rgHMhDOSetYYOzYp4ccCpgYmD0OINd5cAG4hVQkHQCBpQCyJ71OAk3zmAApRlhlf1zQK65aR2nx3aztC_NlKrXV7_Gg_iyuIyfLarmhmRXj1pT6dhXB_cO7ud59vWBLn3sqZlljcfRgq_XgkGbHe1vMDWz-1VXH8PirQJJGR9JVs8cr4QVc4mh43R7V31YpRkbD-2DMjr7E30ppP73XyuY38iBz1LwiXwr-AkAAP__7eZ5Hg"
+      }
+    ]
   }
 ]
