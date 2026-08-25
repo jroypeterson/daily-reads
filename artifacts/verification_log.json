@@ -8863,5 +8863,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a well-structured news summary of an ongoing debate but lacks the analytical depth, proprietary framing, or novel data that would pass the 'would I forward this?' test \u2014 it essentially recaps a JAMA opinion piece and AMA response without adding structural investment insight, deployment evidence, or actionable takeaways beyond what's in the original sources."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "How Moderna and Merck brought an anti-cancer dream closer to reality",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MW3TTwHYYqHW6P9T6v1Z27WGW8tMMP_5T5L5GN67vcnP3qgz0W7lCdLW6lZ3pGVx_gb95kM-ymN5mkYBtHb4TgW4FgtZ82f1XXyW9d1WTT71GQB5V4kSzg57lqg8W94pt8t53t95CN6WdnVcFnBJ2W1j7lxW3KpKxlW1zNx2r82-G7wW6gsKwt1RLdX6W18kpqW6D8lB0W7_0ZCN6-1gQGW849Spb8Gf9_dW16DHtV3TSMvvW8ZLL6d2mYq8pW1bSzpB5wtS-xW8F9D0Z4GN7P7W3gR9751S_xvqN4J9T4gvgDtkW5SC12W7l-KD9W2KCVn-8qYGkjN2xdfTvXtyd8W2Hwrq93wVVczW4lBG892H53F6f6dvrdd04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is just a STAT+ subscription upsell page with no substantive content accessible, matching the reader's documented 'avoid paywalled content' preference."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Where AI agents pay off: A practical guide to the economics of agentic workflows",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a035aa7a949ffe93f4bbe5c7c0/68fd6c3b986f40900000021ef3a0bcc2/68fd6c3b-986f-4090-bc19-f6467ab510d1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI article from McKinsey, not a Healthcare/Biotech article \u2014 it has no meaningful connection to Slot 1's required themes of FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Stripe's 'Singularity' and the Divergence from Adyen",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/stripes-singularity-and-the-divergence",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a fintech/payments deep dive on Stripe vs. Adyen with no meaningful connection to healthcare or biotech, making it entirely unsuitable for Slot 1."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Bessent against the world",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-25/bessent-s-buyback-plan-draws-criticism",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro finance/debt management story about Treasury bond buybacks \u2014 it has no meaningful healthcare or biotech content and is too generic for Slot 1, belonging instead to Slot 2 if it had sufficient depth, but the article text is largely navigation boilerplate with truncated content."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Rethinking the Data Moat",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/rethinking-the-data-moat",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantive and well-suited to the reader's interests in data infrastructure and competitive moat analysis, but it is firmly a Tech/AI piece about LLM training data and algorithmic progress \u2014 not Healthcare/Biotech \u2014 making it a mismatch for Slot 1."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "CDMO growth expected on back of biotech funding rebound",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW75228fQB1JW8pbHDy7xx5wqW7MhRLh5T6DqyN8DGmD-5nR3bW8wM7ks6lZ3nWW1CQSCP2dGTQ0W5GWh-n7LTYf5VrgNt587ZcTJW7TSf1h3ydypVW4SzTmL1PLGzZVDwPYj5LkjGMV1QFdl24RFhgW9b787r5l4JN-W3XQ_w55tLq0GW2-6dTQ1N8KQXW8sHlkt2KVQkdW4t0dd97p-vgyW6DFD4h48nCyLW1xQ1K61k2w8GW6fnfjD59-5bvN27qFNywWD1KW1GnR4y5kNgDXW5QJjn73cXfQ5N2jwb6CJwX_MW26MLWC8Jkg_4N917gR6MVZlSW97GkFt8LwdGhW1sZRV62sxCZ9VmGKrb3DhZ9xN4bq2Nc8k0WTW4RGzR96bM_xwW3v-mq97Qg98XN4qkkrKWXttyW1swBjv8Z2-H6W3xCHVC1Bt2WRVSbztb2TL4Y8W225z_T5GsMlLN7p-m4ZxDNPrW6Dspm459CXC3VxJbxK76NJ22W10KsJd29NCkcW85SHZ_9fKhvkW64rXtl2B147mVT_wNB7VTzJ6W50_Yv481ZbwkW6RczPd5TC5qjW7MzBTk4HZ7-1W1J_Lw43NGy84VrKNj67HrsTcf5xHWhq04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a newsletter digest with multiple thin headlines rather than a single deep analysis \u2014 the CDMO growth piece itself offers only a forward-looking analyst consensus (late 2026/early 2027 uptick) with no proprietary data, specific company-level detail, or actionable depth beyond what's already widely known."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "How Trump's cuts are reshaping America's health system",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/08/25/rural-hospitals-response-medicaid-cuts-part-1-unraveled-series/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantial investigative depth with on-the-ground reporting from Maine health systems, specific financial data (1% revenue drop tipping sub-1% margin hospitals into loss), and concrete operational strategies being deployed \u2014 directly relevant to Slot 1 as a policy catalyst with real investment implications for hospital operators and managed care payers."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Stripe's 'Singularity' and the Divergence from Adyen",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/stripes-singularity-and-the-divergence",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-priority long-form investment analysis source, and this piece offers genuine analytical depth on Stripe's strategic divergence from Adyen, competitive moat dynamics, and the investment implications of embedding AI infrastructure into payments \u2014 all strongly matching the reader's taste profile for competitive moat analysis, data infrastructure, and AI impact."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Where AI agents pay off: A practical guide to the economics of agentic workflows",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a035aa7a949ffe93f4bbe5c7c0/68fd6c3b986f40900000021ef3a0bcc2/68fd6c3b-986f-4090-bc19-f6467ab510d1",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's practical economic framework for agentic AI ROI aligns strongly with the reader's top preferences for AI impact and data infrastructure, and the source and topic fit Slot 3 well with substantive, actionable depth."
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Who Should Control Anthropic?",
+    "source": "Bloomberg (Money Stuff)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-08-24/who-should-control-anthropic",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "Matt Levine's Money Stuff provides characteristic analytical depth on Anthropic's novel governance structure \u2014 the Long-Term Benefit Trust, competing investor/founder control rights, and implications for a potential IPO \u2014 directly matching the reader's strong interests in corporate governance, venture capital dynamics, and AI impact."
   }
 ]

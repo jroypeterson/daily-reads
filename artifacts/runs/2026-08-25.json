@@ -1,0 +1,87 @@
+{
+  "run_date": "2026-08-25",
+  "generated_at": "2026-08-25T12:44:54Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a74296aa9984e4c0",
+      "headline": "How Trump's cuts are reshaping America's health system",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/25/rural-hospitals-response-medicaid-cuts-part-1-unraveled-series/",
+      "slot": 1,
+      "summary": "STAT News opens its 'Unraveled' investigative series with a ground-level examination of how Maine's rural health systems \u2014 among the most Medicaid-dependent in the country \u2014 are restructuring operations in anticipation of $1 trillion in Medicaid cuts over the next decade. Northern Light Health and MaineHealth are shifting care to lower-cost settings, accelerating AI adoption, building Medicaid navigation capacity, and contemplating service closures and consolidations to offset projected revenue losses. Maine serves as a national 'canary in the coal mine,' with hospitals operating on sub-1% margins facing potential tipping into losses from even a 1% revenue decline.",
+      "why_it_matters": "Medicaid funding cuts represent the most consequential near-term policy risk for hospital operators, managed care payers, and rural health service companies \u2014 this piece provides specific, actionable intelligence on how systems are adapting operationally and financially before the cuts fully materialize.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "novelty",
+        "actionability",
+        "source_match:statnews"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "239806e21c469d81",
+      "headline": "Stripe's 'Singularity' and the Divergence from Adyen",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/stripes-singularity-and-the-divergence",
+      "slot": 2,
+      "summary": "MBI Deep Dives analyzes Stripe's acquisition of OpenRouter and the investor letter invoking 'singularity,' dissecting what the move signals about Stripe's strategic ambition to embed AI model routing into its payments infrastructure. The piece contrasts Stripe's AI-native trajectory with Adyen's more traditional approach, examining 2025 as the year Stripe began pulling away in total payment volume. The author critically interrogates Stripe's grand economic framing \u2014 including its use of Ireland's GDP \u2014 while grounding the analysis in competitive moat and unit economics.",
+      "why_it_matters": "Stripe acquiring the leading AI model gateway signals a structural shift in how fintech incumbents are building durable data infrastructure moats, with direct implications for competitive dynamics in adjacent sectors like healthcare payments and digital health SaaS.",
+      "signal_tags": [
+        "high_priority_source",
+        "competitive_moat_analysis",
+        "ai_impact",
+        "data_infrastructure",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c367583847254a8b",
+      "headline": "Where AI agents pay off: A practical guide to the economics of agentic workflows",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a035aa7a949ffe93f4bbe5c7c0/68fd6c3b986f40900000021ef3a0bcc2/68fd6c3b-986f-4090-bc19-f6467ab510d1",
+      "slot": 3,
+      "summary": "McKinsey lays out a decision-oriented framework for evaluating where agentic AI workflows generate real economic returns, analyzing task types, cost structures, and the organizational conditions that determine payoff. The piece moves beyond hype to offer concrete criteria for prioritizing agentic deployments. It functions as a practical tool for enterprise leaders and investors assessing AI-driven transformation.",
+      "why_it_matters": "For a reader evaluating AI-driven healthcare and SaaS investments, this framework offers a structured lens to assess which AI agent deployments are likely to generate durable competitive advantages versus those that are speculative or cost-inefficient.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "ai_impact",
+        "data_infrastructure"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "d7375d6485e0d858",
+      "headline": "Who Should Control Anthropic?",
+      "source": "Bloomberg (Money Stuff)",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-08-24/who-should-control-anthropic",
+      "slot": 4,
+      "summary": "Matt Levine dissects Anthropic's unusual hybrid governance structure, which layers a Public Benefit Corporation with a Long-Term Benefit Trust designed to represent humanity's interests rather than shareholders', while founders retain significant control rights. The piece analyzes the tensions between profit-seeking investors (Google, Amazon, and others who have poured in billions), the mission-driven trust, and the founding team as Anthropic approaches a potential landmark IPO. Levine draws parallels to dual-class share structures and questions whether public markets can accommodate a company whose stated governance priority is explicitly not shareholder returns.",
+      "why_it_matters": "As Anthropic approaches a potential record IPO, understanding its governance architecture is essential for investors evaluating AI infrastructure exposure \u2014 the structure could set precedent for how frontier AI companies handle the tension between mission and capital returns.",
+      "signal_tags": [
+        "corporate_governance",
+        "ai_impact",
+        "venture_capital_insights",
+        "novelty",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}
