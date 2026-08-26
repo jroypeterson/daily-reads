@@ -8953,5 +8953,86 @@
     "extraction_tier": "tavily",
     "passed": true,
     "reason": "Matt Levine's Money Stuff provides characteristic analytical depth on Anthropic's novel governance structure \u2014 the Long-Term Benefit Trust, competing investor/founder control rights, and implications for a potential IPO \u2014 directly matching the reader's strong interests in corporate governance, venture capital dynamics, and AI impact."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "OpenAI Jalape\u00f1o: Better than Nvidia Blackwell",
+    "source": "SemiAnalysis (via Hacker News)",
+    "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a deep, substantive Tech/AI article about OpenAI's custom inference chip architecture and its competitive implications for Nvidia \u2014 it has no connection to healthcare or biopharma and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "FDA Authorizes First Wearable Device That Continuously Monitors Both Ketone Levels and Blood Sugar",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin FDA press release announcing Abbott's Libre Duo authorization \u2014 it covers the regulatory fact competently but lacks the analytical depth, competitive context, market sizing, or investment implications the reader profile demands."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "BioSpace Special Edition: How AI Is Now Essential in Biopharma",
+    "source": "BioSpace",
+    "url": "https://www.biospace.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a generic BioSpace newsletter homepage \u2014 a fragmented collection of headlines, blurbs, podcast summaries, and event listings with no substantive deep-dive on AI in biopharma; the promised 'special edition' analysis does not appear in the provided text."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "MBI Deep Dives: Big Tech Off-Balance Sheet Concerns",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/big-tech-off-balance-sheet-concerns",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantive and analytically deep but is firmly a Tech/Finance piece about Big Tech AI infrastructure financing \u2014 it has no healthcare or biopharma relevance and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "McKinsey: Where AI Agents Pay Off \u2014 A Practical Guide to the Economics of Agentic Workflows",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The full article text is just McKinsey's homepage navigation and promotional content \u2014 there is no actual article about AI agent economics or agentic workflow ROI frameworks, making the shortlist summary entirely fabricated relative to the actual content retrieved."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Scuttleblurb: CCC Is in the Middle of the Wreckage",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content shown is not the actual CCC deep-dive \u2014 it's a feed of Scuttleblurb's other recent posts (Adyen, Zoetis, Booking Holdings, Visa/Mastercard, etc.), meaning the CCC piece is either paywalled or not yet published, and there is no substantive content to evaluate for any slot."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Roche and Eli Lilly Get FDA Nod for New Alzheimer's Blood Test",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/roche-eli-lilly-get-fda-nod-for-new-alzheimers-blood-test/828720/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a concrete FDA clearance event with named ticker-matched companies (LH, DGX), competitive market context, and near-term commercial catalysts, fitting Slot 1 well despite being moderately thin on analytical depth."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Health Plan Underwriting Losses Balloon to $10.4B: Report",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/health-plan-underwriting-losses-balloon-to-10-4b-report/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, data-rich analysis of structural insurer underwriting losses across all major segments with carrier-level detail, directly relevant to managed care sector positioning and payer-provider dynamics."
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "OpenAI Jalape\u00f1o: Better than Nvidia Blackwell",
+    "source": "SemiAnalysis (via Hacker News)",
+    "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "SemiAnalysis provides a technically deep, first-hand benchmarked analysis of OpenAI's Jalape\u00f1o inference chip with specific performance data, architectural details, and honest caveats \u2014 directly relevant to the data infrastructure and AI compute thesis the reader strongly favors."
   }
 ]

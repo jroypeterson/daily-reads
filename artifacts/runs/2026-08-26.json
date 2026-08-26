@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-08-26",
+  "generated_at": "2026-08-26T12:47:13Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1b6093eff5b1cf9f",
+      "headline": "Roche and Eli Lilly Get FDA Nod for New Alzheimer's Blood Test",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/roche-eli-lilly-get-fda-nod-for-new-alzheimers-blood-test/828720/",
+      "slot": 1,
+      "summary": "The FDA cleared Roche and Eli Lilly's Elecsys pTau217 blood test to help rule in and rule out Alzheimer's disease in patients 55+ with cognitive decline, adding to a rapidly crowding field that now includes recently cleared tests from Fujirebio and C2N Diagnostics. Labcorp plans a nationwide rollout in the coming months, while Quest Diagnostics will introduce the test under its AD-Detect brand in Q4 2025, with panel integration planned for 2027. Leerink Partners flagged rising competition among Alzheimer's diagnostics assays but noted the broader market is finally seeing meaningful momentum.",
+      "why_it_matters": "Near-term revenue catalyst for Labcorp (LH) and Quest Diagnostics (DGX) as Alzheimer's blood testing scales from specialty centers to primary care, with reimbursement and standardization dynamics now becoming the key competitive differentiators.",
+      "signal_tags": [
+        "ticker_match:LH",
+        "ticker_match:DGX",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "subsector:Labs",
+        "subsector:Diagnostics"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "2e2af4b998e57fd0",
+      "headline": "Health Plan Underwriting Losses Balloon to $10.4B: Report",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/financial/health-plan-underwriting-losses-balloon-to-10-4b-report/",
+      "slot": 2,
+      "summary": "U.S. health insurers collectively lost $10.4 billion on underwriting in 2025, a six-fold deterioration from $1.7 billion in 2024, according to Mark Farrah Associates analysis of NAIC filings covering ~80% of the market. The individual market was hardest hit, with average medical expense ratios jumping to 93.2% from 85.3% as medical costs grew 12% per-member-per-month against only 2.5% premium growth; Medicare Advantage also deteriorated while managed Medicaid was the sole segment showing improvement. Carrier-level data highlights significant divergence, with Centene and UnitedHealthcare underperforming peers in the individual market while CVS Health showed meaningful MA margin recovery through aggressive premium repricing.",
+      "why_it_matters": "Losses of this magnitude signal durable structural pressure on managed care multiples, with cascading implications for payer-provider contract renegotiations, high-cost drug coverage decisions (including GLP-1s), and the viability of current Medicare Advantage growth strategies heading into 2027 benefit design cycles.",
+      "signal_tags": [
+        "ticker_match:ELV",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "payer_dynamics",
+        "novelty"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c6820df4c84347c5",
+      "headline": "OpenAI Jalape\u00f1o: Better than Nvidia Blackwell",
+      "source": "SemiAnalysis (via Hacker News)",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "slot": 3,
+      "summary": "SemiAnalysis received lab access to benchmark OpenAI's custom inference chip 'Jalape\u00f1o,' built in partnership with Broadcom in just ~16 months using AI-accelerated chip design. Benchmarks show Jalape\u00f1o outperforms Nvidia Blackwell on performance-per-watt across multiple open-source models including DeepSeek R1, though the authors note a fairer comparison would be against Nvidia's newer Vera Rubin architecture (which uses the same HBM4 memory). The piece includes important caveats: numbers were provided by OpenAI, full benchmark suites weren't independently run, and Jalape\u00f1o remains in engineering sample stage while Rubin is already shipping.",
+      "why_it_matters": "A credible, benchmarked first-generation inference chip from OpenAI that outperforms Blackwell on perf/W has direct implications for Nvidia's competitive moat, hyperscaler capex allocation, and the broader data infrastructure investment thesis \u2014 especially with Nvidia earnings imminent.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
