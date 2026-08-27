@@ -1,0 +1,69 @@
+{
+  "run_date": "2026-08-27",
+  "generated_at": "2026-08-27T21:47:00Z",
+  "counts": {
+    "gmail_items": 157,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "244c160aee2d7e55",
+      "headline": "Breaking: FDA approves groundbreaking pancreatic cancer drug",
+      "source": "STAT News",
+      "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MWrsTwqsM4TVWzv1L2fTtTSW2XSKgS5T9v9WN5GS5Sn3qgz0W7lCdLW6lZ3pTW45L_S25f9BppW3361hm5fK0ljW8XL1D38BKmcQW4qFFlz5Qm0HPW42KdBD7QMYPnW2Dm2yK6rZ4nWW3G404g5sPn81W62M56l4Cp5NfW46Snn-4C2T2YW5ktg951jvP9GW7tNK611ZsLRjN60XfRtX9-YKW6269l254HmDqW7YYzCD8hvBnBVV1Wn-96km1mN1rYlhjKYGQjW6D1b8l3RxXLCW72Hd1z3FNbpcW8sB6cj7s1f51W4qdwYc5R4nTGW5gBpLs2lYRY2W3SyCSt2vKqB9W7HqN3M7FW3gpN3_NgJr40gm-f50wN2M04",
+      "slot": 1,
+      "summary": "The FDA approved Revolution Medicines' Rasonque (a RAS(ON) inhibitor) for advanced pancreatic cancer approximately 6.5 months ahead of its PDUFA date, marking the first approval in a new class of KRAS-targeted therapies. The pivotal trial showed the drug nearly doubled overall survival versus chemotherapy. The monthly list price of ~$39,800 exceeded Wall Street consensus, prompting upward revisions to peak sales estimates.",
+      "why_it_matters": "RVMD receives a major de-risking catalyst with above-consensus pricing and an accelerated approval timeline, making near-term launch execution and peak sales trajectory the central investment question for the stock.",
+      "signal_tags": [
+        "ticker_match:RVMD",
+        "ticker_match:DRUG",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "30a68f061eab9909",
+      "headline": "Nvidia Climbing the Wall of Worries",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/nvidia-climbing-the-wall-of-worries?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTI5MzIwNzcsImlhdCI6MTc4Nzg0NTAyMCwiZXhwIjoxNzkwNDM3MDIwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.bLuyryLmvIezWvZO0_zMP6NsNnkJWdlBcFoXit9XCFA",
+      "slot": 2,
+      "summary": "MBI Deep Dives unpacks Nvidia's latest earnings, noting that FY2028 sell-side revenue estimates were off by ~$400B just a year ago, and that management's ~70% guided growth may represent a floor given supply constraints. The piece dissects a key tension: Nvidia is actively cultivating neoclouds to commoditize hyperscalers, while hyperscalers are simultaneously the primary customers filling neocloud backlogs \u2014 a structural risk if hyperscalers close the capacity gap. Despite staggering operating outperformance, NVDA has barely outperformed the S&P 500, reflecting a buy-side skepticism that the stock must 'climb the wall of worries' to re-rate.",
+      "why_it_matters": "For investors, the article reframes NVDA not as a momentum trade but as a structural thesis stress-test \u2014 the neocloud dependency, frontier lab concentration risk, and margin sustainability questions are the real valuation variables that will determine whether the stock catches up to its fundamentals.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "priority_source:MBI",
+        "catalyst_proximity",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "babb9d8f53eaa556",
+      "headline": "Where AI agents pay off: A practical guide to the economics of agentic workflows",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a035aa7a949ffe93f4bbe5c7c0/68fd6c3b986f40900000021ef3a0bcc2/68fd6c3b-986f-4090-bc19-f6467ab510d1?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pPBmjZKnBFtzYW-WVLhf586GlmlRZuSCgmmZeepDMkbZMvj8JU6576Iku-X8Mf0Jg%3D",
+      "slot": 3,
+      "summary": "McKinsey presents a practical economic framework for evaluating where AI agentic workflows generate measurable ROI versus hype, examining task complexity thresholds, human-in-the-loop cost structures, and industry-specific deployment patterns. The piece is forward-looking and rigorous, aimed at enterprise decision-makers assessing autonomous AI agent adoption. It has particular relevance to biopharma and health systems navigating AI investment decisions.",
+      "why_it_matters": "This framework equips investors to distinguish which AI-in-drug-discovery and health tech companies have durable economic moats from those selling commodity automation \u2014 directly actionable for portfolio positioning in the AI-healthcare intersection.",
+      "signal_tags": [
+        "priority_source:McKinsey",
+        "ai_impact",
+        "analytical_depth",
+        "forward_looking",
+        "actionability"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    }
+  ]
+}

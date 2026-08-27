@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-07-24T13:19:04Z",
+  "updated_at": "2026-08-27T21:28:21Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -106,21 +106,24 @@
     },
     {
       "name": "gene therapy development",
-      "strength": "weak",
+      "strength": "moderate",
       "direction": "positive",
       "evidence_ids": [
+        "daily_scoring_fda_genome_editing",
         "ev_d708fbaadd2afdb4"
       ],
-      "last_updated": "2026-07-24T13:19:04Z"
+      "last_updated": "2026-08-27T00:00:00Z"
     },
     {
       "name": "AI drug discovery",
-      "strength": "weak",
+      "strength": "strong",
       "direction": "positive",
       "evidence_ids": [
+        "daily_scoring_isomorphic_labs",
+        "daily_scoring_mckinsey_ai_lifesciences",
         "ev_184418fa0b02520e"
       ],
-      "last_updated": "2026-07-24T13:19:04Z"
+      "last_updated": "2026-08-27T00:00:00Z"
     },
     {
       "name": "medical imaging technology",
@@ -172,6 +175,24 @@
         "readwise_alice_schroeder_buffett",
         "readwise_scott_investor_letters"
       ]
+    },
+    {
+      "name": "hedge fund PM process",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_balyasny_pm_process",
+        "readwise_citadel_point72_pm"
+      ]
+    },
+    {
+      "name": "factor risk and shorting",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_balyasny_pm_process",
+        "readwise_citadel_point72_pm"
+      ]
     }
   ],
   "source_preferences": [
@@ -218,12 +239,13 @@
     },
     {
       "name": "investor letters",
-      "strength": "weak",
+      "strength": "moderate",
       "direction": "positive",
       "evidence_ids": [
+        "readwise_scott_investor_letters",
         "ev_f56f7dccb9f9a5d3"
       ],
-      "last_updated": "2026-07-24T13:19:04Z"
+      "last_updated": "2026-08-27T00:00:00Z"
     },
     {
       "name": "long-form investment writing",
@@ -233,6 +255,15 @@
         "readwise_alice_schroeder_buffett",
         "readwise_scott_investor_letters",
         "readwise_canuck_analysts_serial_acquirers"
+      ]
+    },
+    {
+      "name": "elite fund practitioner content",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_balyasny_pm_process",
+        "readwise_citadel_point72_pm"
       ]
     }
   ],
@@ -288,7 +319,19 @@
       "direction": "positive",
       "evidence_ids": [
         "readwise_alice_schroeder_buffett",
-        "readwise_scott_investor_letters"
+        "readwise_scott_investor_letters",
+        "readwise_balyasny_pm_process",
+        "readwise_citadel_point72_pm"
+      ]
+    },
+    {
+      "name": "structural market insight",
+      "strength": "moderate",
+      "direction": "positive",
+      "evidence_ids": [
+        "readwise_balyasny_pm_process",
+        "readwise_citadel_point72_pm",
+        "readwise_canuck_analysts_serial_acquirers"
       ]
     }
   ],
@@ -327,16 +370,16 @@
     }
   ],
   "evidence_summary": {
-    "total": 27,
+    "total": 29,
     "by_kind": {
-      "positive_exemplar": 15,
+      "positive_exemplar": 17,
       "daily_rating_3": 9,
       "daily_rating_1": 3
     },
     "by_channel": {
       "email": 12,
       "daily_scoring": 12,
-      "readwise": 3
+      "readwise": 5
     }
   },
   "score_scale": {
@@ -344,5 +387,5 @@
     "2": "Fine",
     "3": "Strong pick"
   },
-  "last_synthesis": "2026-07-05T10:37:05Z"
+  "last_synthesis": "2026-08-27T21:28:21Z"
 }

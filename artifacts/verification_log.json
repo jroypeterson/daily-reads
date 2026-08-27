@@ -9034,5 +9034,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "SemiAnalysis provides a technically deep, first-hand benchmarked analysis of OpenAI's Jalape\u00f1o inference chip with specific performance data, architectural details, and honest caveats \u2014 directly relevant to the data infrastructure and AI compute thesis the reader strongly favors."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Breaking: FDA approves groundbreaking pancreatic cancer drug",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MWrsTwqsM4TVWzv1L2fTtTSW2XSKgS5T9v9WN5GS5Sn3qgz0W7lCdLW6lZ3pTW45L_S25f9BppW3361hm5fK0ljW8XL1D38BKmcQW4qFFlz5Qm0HPW42KdBD7QMYPnW2Dm2yK6rZ4nWW3G404g5sPn81W62M56l4Cp5NfW46Snn-4C2T2YW5ktg951jvP9GW7tNK611ZsLRjN60XfRtX9-YKW6269l254HmDqW7YYzCD8hvBnBVV1Wn-96km1mN1rYlhjKYGQjW6D1b8l3RxXLCW72Hd1z3FNbpcW8sB6cj7s1f51W4qdwYc5R4nTGW5gBpLs2lYRY2W3SyCSt2vKqB9W7HqN3M7FW3gpN3_NgJr40gm-f50wN2M04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a landmark FDA approval for Revolution Medicines' KRAS-targeted pancreatic cancer drug (RVMD ticker), with substantive details on trial data, pricing, and analyst projections \u2014 a clear, high-impact Slot 1 catalyst."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia agrees to acquire Hugging Face for $13B",
+    "source": "Hacker News / Business Insider",
+    "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin breaking-news report with no analytical depth \u2014 it is essentially a rumor piece with a single anonymous source, no deal terms confirmed, no strategic analysis, and explicit caveats that talks may fall apart, making it too speculative and insubstantial for any slot given the reader's strong preference for analytical depth over thin summaries."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia Climbing the Wall of Worries",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/nvidia-climbing-the-wall-of-worries?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTI5MzIwNzcsImlhdCI6MTc4Nzg0NTAyMCwiZXhwIjoxNzkwNDM3MDIwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.bLuyryLmvIezWvZO0_zMP6NsNnkJWdlBcFoXit9XCFA",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a substantive, analytically rich post-earnings breakdown of Nvidia that goes beyond price commentary \u2014 quantifying the $400B consensus miss, dissecting the hyperscaler vs. neocloud dynamic, and framing the structural 'wall of worries' that explains why NVDA stock has barely outperformed despite historic operating results, all of which aligns strongly with the reader's preference for deep investment analysis and structural market insight."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia agrees to acquire Hugging Face for $13B",
+    "source": "Hacker News / Business Insider",
+    "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin breaking-news report with little analytical depth \u2014 it's essentially a rumor piece with no confirmed deal, no strategic analysis, and no discussion of implications for AI infrastructure or biopharma workflows that would satisfy this reader's strong preference for analytical depth."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "McKinsey's Fangning Zhang on China's growing role in life sciences R&D",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a03f06df77c89abc6e96c569c8/fc99ff41288749ef0000021ef3a0bcc2/fc99ff41-2887-49ef-918b-526f1087192e?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qL7-hJma_Y-QS818oEHBBDGlroO9U7gCBFA_LaBVrUxRsv6GyuLU2UIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article targets Slot 3 (Tech/AI) but its content \u2014 China's life sciences R&D competitive positioning, CRO/CDMO dynamics, and geopolitical risk \u2014 is a better fit for Slot 1 (Healthcare/Biopharma) or Slot 4 (Wildcard), with no clear AI/tech angle evident from the available content."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Where AI agents pay off: A practical guide to the economics of agentic workflows",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a035aa7a949ffe93f4bbe5c7c0/68fd6c3b986f40900000021ef3a0bcc2/68fd6c3b-986f-4090-bc19-f6467ab510d1?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8pPBmjZKnBFtzYW-WVLhf586GlmlRZuSCgmmZeepDMkbZMvj8JU6576Iku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source delivering a structured economic framework on AI agentic workflows with direct relevance to enterprise adoption decisions, matching the reader's strong interest in AI impact, data infrastructure, and competitive moat analysis."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Revolution pancreatic cancer drug should quickly become a blockbuster, analysts say",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/revolution-rasonque-price-pancreatic-cancer-drug-launch-sales/828918/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin news aggregation of analyst reactions to RVMD's approval and pricing \u2014 it lacks the analytical depth, structural insight, or cross-domain curiosity required for the Wildcard slot, and the reader profile explicitly flags niche therapeutics and short-term trading focus as patterns to avoid."
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Letter #341: Jeff Dean and Dawn Song (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-341-jeff-dean-and-dawn-song?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTE5NjY4NDAsImlhdCI6MTc4Nzc5MjQ2OCwiZXhwIjoxNzkwMzg0NDY4LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.9_kx3UnRSUZxVy1FN_stUxV1YZ4vNMJsqpUC4YAqpSQ",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a fireside chat transcript that, based on the visible content, is largely conversational and anecdotal (conference memories, MoE architecture history) rather than analytically deep \u2014 it lacks the investment-relevant, practitioner-level insight the reader profile demands, and fits Slot 3 (Tech/AI) better than Slot 4 Wildcard, but the truncated content and newsletter-wrapper format suggest thin depth rather than the 'would I forward this?' caliber required."
   }
 ]

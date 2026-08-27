@@ -1866,5 +1866,27 @@
         "url": ""
       }
     ]
+  },
+  {
+    "date": "2026-08-27",
+    "checked_unique": 83,
+    "checked_slots": 86,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      }
+    ]
   }
 ]

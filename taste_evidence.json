@@ -556,5 +556,49 @@
       "extracted_at": "2026-07-04T18:52:22Z"
     },
     "created_at": "2026-07-04T18:52:22Z"
+  },
+  {
+    "id": "ev_16644bd276570b50",
+    "kind": "positive_exemplar",
+    "source_channel": "readwise",
+    "title": "The Best Balyasny PM Made $250m in 2024: Deep Dive Into His Investment Process",
+    "url": "https://phoenixlearning.substack.com/p/the-best-balyasny-pm-made-250m-in",
+    "local_path": "",
+    "note": "",
+    "score": null,
+    "content_status": "extracted",
+    "metadata": {
+      "readwise_user_book_id": 63068838,
+      "readwise_category": "articles",
+      "readwise_source": "reader",
+      "author": "Phoenix Learning",
+      "highlight_count": 5,
+      "latest_highlighted_at": "2026-08-26T20:20:59.340Z",
+      "extracted_text_preview": "He warns against shorting: 1. **Current or potential compounders -** a tiny subset of companies drive nearly all the long-term returns. This group includes secular winners with massive long-term tailwinds. 2. **Companies with durable moats -** here, the key isn\u2019t just growth, but durability. Even if these don\u2019t grow explosively, their stability and market dominance over time provide long alpha. A moat company might not be growing at 30% a year, but it has structural competitive advantages that protect profits for decades. Things like structural barriers to entry (regulation, patents, network effects, switching costs, economies of scale) and pricing power (can raise prices without losing share). 3. **\u201cSh*t to OK\u201d businesses undergoing positive chang** [\u2026] Even if Tesla\u2019s valuation looks insane at times, narrative always keeps expanding. [\u2026] Going back to his core investment philosophy that stocks are priced on narrative, not on valuation or multiples [\u2026] Another area he thinks good investors can exploit is that everyone is \u201cobsessed with the right side of the decimal point this quarter\u201d. [\u2026] **This is what Schurr is referring to - you need to have ideas in the book that are creating",
+      "extracted_at": "2026-08-27T21:28:20Z"
+    },
+    "created_at": "2026-08-27T21:28:20Z"
+  },
+  {
+    "id": "ev_95e7b34f773d27cd",
+    "kind": "positive_exemplar",
+    "source_channel": "readwise",
+    "title": "Lessons From a Top Citadel and Point72 PM",
+    "url": "https://phoenixlearning.substack.com/p/lessons-from-a-top-citadel-and-point72?r=3i2vjn&utm_campaign=post-expanded-share&utm_medium=web&utm_source=substack",
+    "local_path": "",
+    "note": "",
+    "score": null,
+    "content_status": "extracted",
+    "metadata": {
+      "readwise_user_book_id": 63068324,
+      "readwise_category": "articles",
+      "readwise_source": "reader",
+      "author": "Phoenix Learning",
+      "highlight_count": 2,
+      "latest_highlighted_at": "2026-08-26T19:27:22.072Z",
+      "extracted_text_preview": "In fact, Cameron explains how having high idiosyncratic volatility can create a false sense of safety. Say momentum is extended, so investors want to reduce their exposure to the momentum factor. Since they are all looking at roughly the same model and the same factor loadings, they end up picking the same stocks that appear \u201csafe\u201d because there is no near-term event risk. **Ironically, the risk model itself ends up creating crowding.** [\u2026] ameron also really emphasizes the importance of identifying the regime you are operating in. Some years have strong thematic tailwinds, allowing you to have more duration",
+      "extracted_at": "2026-08-27T21:28:20Z"
+    },
+    "created_at": "2026-08-27T21:28:20Z"
   }
 ]
