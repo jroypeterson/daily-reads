@@ -1,0 +1,385 @@
+{
+  "period_start": "2026-08-22",
+  "period_end": "2026-08-28",
+  "generated_at": "2026-08-28T21:51:40.630431+00:00",
+  "source_health": {
+    "active_sources": 19,
+    "total_configured": 24,
+    "missing_sources": [
+      "Biotech Primer",
+      "Fierce Pharma"
+    ],
+    "quiet_slow": [
+      "Bloomberg (subscription notices)",
+      "Consilient Observer",
+      "Oaktree Insights (Howard Marks)"
+    ],
+    "missing_always_read": [
+      "Biotech Primer"
+    ],
+    "quiet_slow_always_read": [
+      "Consilient Observer"
+    ],
+    "total_gmail_items": 1007,
+    "total_tier2_items": 617,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 10
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 22
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Consilient Observer",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 13
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 25
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Apollo Daily Spark (Torsten Slok)",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 64
+          },
+          {
+            "name": "Bloomberg (subscription notices)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 8
+          },
+          {
+            "name": "Oaktree Insights (Howard Marks)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 24
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 22
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 28
+          }
+        ]
+      ],
+      [
+        "journals",
+        [
+          {
+            "name": "NEJM",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "NEJM Weekend Briefing",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 24,
+    "articles_per_day": [
+      4,
+      3,
+      3,
+      4,
+      3,
+      3,
+      4
+    ],
+    "avg_articles_per_day": 3.4,
+    "verified_pass": 24,
+    "verified_fail": 34,
+    "fail_reasons": [
+      "The article is substantive and analytically interesting but belongs in Slot 3 (Tech/AI) \u2014 it is fundamentally about AI model training dynamics, data curation vs. raw data ownership in AI development, and the mechanics of algorithmic progress, not Finance/Macro.",
+      "The article is a McKinsey promotional piece centered on its AWS alliance partnership, offering generic CEO-level agentic AI transition advice with little analytical depth \u2014 the full text is truncated and what exists reads as marketing content rather than the practitioner framework promised in the shortlist summary.",
+      "The full article text is not the actual CCC deep-dive \u2014 it is a Scuttleblurb index/preview page showing excerpts from multiple other posts (Adyen, Zoetis, Booking Holdings, Visa/Mastercard, etc.), with CCC only mentioned in a brief bracketed disclaimer noting it is subject to takeout rumors and that the post assumes it remains independent; the substantive CCC analysis is not present in the provided text.",
+      "Despite genuine analytical depth and strong reader profile alignment, this article is paywalled (marked '\u2219 Paid' on Substack) and fits Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro), as its core content is about AI training methodology and algorithmic progress rather than finance, markets, or macro dynamics.",
+      "The article is paywalled (marked '\u2219 Paid' on Substack) and the available text is truncated, so the full substance cannot be verified, and it conflicts with the explicit 'avoid paywalled content' rule in the reader's taste profile.",
+      "The article is a soft interview-style piece with limited analytical depth \u2014 it surfaces interesting themes (Epic's data moat, Agent Factory, succession) but stays at a surface level with executive talking points rather than offering the rigorous competitive or strategic analysis the reader profile demands.",
+      "The full article text is entirely a generic Apollo Global Management marketing/homepage page with no actual substantive content about software lending concentration or AI disruption \u2014 the shortlist summary describes an article that does not exist in the provided text.",
+      "The article is a journalistic summary of a public debate between the AMA and a JAMA opinion piece, lacking the analytical depth or investment-specific insight required for the Tech/AI slot \u2014 it covers the surface-level 'AI vs. physicians' debate without examining competitive dynamics, software stack economics, or data infrastructure implications that would resonate with this reader's taste profile.",
+      "This is a Slot 4 Wildcard/consulting piece, not a Tech/AI article \u2014 it covers private markets (PE, VC, credit, infrastructure) with no evident AI-specific focus, making it a poor fit for Slot 3.",
+      "Despite strong analytical depth, this article is fundamentally a Tech/AI piece exploring algorithmic progress in AI model training and data curation \u2014 not a Finance/Macro article \u2014 and belongs in Slot 3, not Slot 2."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 20,
+      "jina": 22,
+      "tavily": 6,
+      "snippet_fallback": 10
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 2
+  },
+  "always_read": {
+    "delivered": {
+      "MBI": 7,
+      "Scuttleblurb": 7,
+      "Value Investors Insight": 7,
+      "The Transcript": 7,
+      "A Letter a Day": 7
+    },
+    "missing": [
+      "Biotech Primer",
+      "Consilient Observer"
+    ]
+  },
+  "url_validation": {
+    "days_logged": 7,
+    "checked_slots": 462,
+    "total_broken": 7,
+    "surfaces": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 5,
+      "substack_dropped": 2
+    },
+    "top_warned_sources": [
+      [
+        "MBI",
+        5
+      ],
+      [
+        "Unknown",
+        2
+      ]
+    ],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxskDmu4zAQBU8jZha4iUvAYBJfQ-DSkjkjigQXA7r9wHbiD_y40fUK5W2HPdfLtOGar7H0mM9bBQ-xdBQM0w4rLxAYIpVciOaaIUg2HusOJ1TbIay2f12JXNDDeAoLxZpt3G5MSY2p0sqBFZRg54GjaCimAivKKCGEsZnNwXMISi4gmNCSkVlslpXGr4njtN8CmV-S3fp_s88JxbZuFd4uptcB6DCP3kub2J-J3id6Ty4GgBLiE9rP1zLc6nNK44z9WuG07oDwgZThjujtK8MagyGccyIVquZvzVeBDrXlc-J4f-2-YW24kJONp_keRP33pKNB_YC1WLhCT0P_BwAA__94QoFF"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskDuShCAYhE8j2Vj481ADgk3mGhbIj8OMAsVjLW-_NbPBJht399ddveqKW8yXqi7dTsTXft1ybMG2RKySTDthCaphnEYxiHGSBA_t92XDgFlXtIuuf6rgHMhDOSetYYOzYp4ccCpgYmD0OINd5cAG4hVQkHQCBpQCyJ71OAk3zmAApRlhlf1zQK65aR2nx3aztC_NlKrXV7_Gg_iyuIyfLarmhmRXj1pT6dhXB_cO7ud59vWBLn3sqZlljcfRgq_XgkGbHe1vMDWz-1VXH8PirQJJGR9JVs8cr4QVc4mh43R7V31YpRkbD-2DMjr7E30ppP73XyuY38iBz1LwiXwr-AkAAP__7eZ5Hg"
+      },
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      }
+    ]
+  }
+}

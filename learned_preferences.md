@@ -1,5 +1,5 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-08-27T21:28:21Z
+> Structured preference model. Last updated: 2026-08-28T21:36:06Z
 
 ## Evidence Snapshot
 - Total evidence records: 29
@@ -21,8 +21,8 @@
 - **AI impact** [strong, positive] (5 evidence points)
 - **labor market dynamics** [moderate, positive] (1 evidence points)
 - **health technology datasets** [moderate, positive] (1 evidence points)
-- **gene therapy development** [moderate, positive] (2 evidence points)
-- **AI drug discovery** [strong, positive] (3 evidence points)
+- **gene therapy development** [weak, positive] (1 evidence points)
+- **AI drug discovery** [weak, positive] (1 evidence points)
 - **medical imaging technology** [moderate, positive] (1 evidence points)
 - **health software SaaS** [moderate, positive] (1 evidence points)
 - **private markets risks** [moderate, positive] (1 evidence points)
@@ -38,7 +38,7 @@
 - **regulatory reporting** [moderate, positive] (2 evidence points)
 - **management consulting research** [moderate, positive] (1 evidence points)
 - **equity research reports** [moderate, positive] (1 evidence points)
-- **investor letters** [moderate, positive] (2 evidence points)
+- **investor letters** [weak, positive] (1 evidence points)
 - **long-form investment writing** [moderate, positive] (3 evidence points)
 - **elite fund practitioner content** [moderate, positive] (2 evidence points)
 

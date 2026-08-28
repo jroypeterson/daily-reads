@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-08-28",
+  "generated_at": "2026-08-28T21:51:23Z",
+  "counts": {
+    "gmail_items": 155,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b037b2ebeffa9e43",
+      "headline": "In autopsy of failed heart disease study, AstraZeneca raises broader questions about silencer drugs",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/",
+      "slot": 1,
+      "summary": "AstraZeneca and Ionis presented full Phase 3 data from CARDIO-TTRansform at ESC 2026, revealing that Wainua (eplontersen) failed to meet its primary endpoint in ATTR-CM patients, the majority of whom were already on tafamidis stabilizer therapy. The autopsy raises a broader mechanistic question: whether RNA silencers, which reduce TTR production, can add meaningful benefit on top of stabilizers that stabilize existing TTR tetramers \u2014 a hypothesis that could reframe the entire silencer-vs-stabilizer debate in ATTR-CM. The competitive read-through strengthens the moat for BridgeBio's Attruby and Alnylam's Amvuttra while casting doubt on whether any silencer can differentiate in a stabilizer-dominant treatment landscape.",
+      "why_it_matters": "This trial failure is a rare single data point that simultaneously deflates AZN/Ionis's ATTR-CM ambitions and reinforces the bull theses for ALNY and BBIO, making it directly actionable for anyone holding positions across the ATTR competitive landscape.",
+      "signal_tags": [
+        "ticker_match:ALNY",
+        "ticker_match:AZN",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ab887e3d434493d7",
+      "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/scuttleslops-82726",
+      "slot": 2,
+      "summary": "A former AWS data center executive breaks down the ROI challenges of hyperscaler AI campus builds, estimating fully loaded one-gigawatt deployments at $40\u2013$45B upfront with base-case IRRs of 15\u201320%, potentially rising to 35\u201340% by 2028 as inference scales. He details the cost stack across land/power infrastructure (~$18\u201323B) and accelerators/networking (~$25\u201330B), noting the industry is paying 30\u201340% premiums for power to avoid idle GPU depreciation. AWS's custom silicon roadmap \u2014 particularly Trainium 3 \u2014 is framed as the key lever to materially improve compute-per-megawatt and thus the return on already-committed land and power.",
+      "why_it_matters": "Rare practitioner unit economics on hyperscaler AI infrastructure provide actionable context for evaluating the sustainability of AI capex cycles and the competitive moats of custom silicon plays like AWS Trainium versus NVIDIA \u2014 directly relevant to positions in NVDA, ADI, and cloud infrastructure broadly.",
+      "signal_tags": [
+        "ticker_match:ADI",
+        "ticker_match:IDXX",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "1b6de21bf36fa1b8",
+      "headline": "Nvidia's Long-Term Margin Question",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/nvidias-long-term-margin-question",
+      "slot": 3,
+      "summary": "Published coinciding with Nvidia's earnings, MBI Deep Dives dissects whether Nvidia's ~63\u201375% gross margins are structurally defensible as AI workloads shift from training to inference and hyperscalers (Google, Amazon, Microsoft, Meta) accelerate custom silicon development. The piece contends that buy-side expectations already embed a materially worse long-run margin trajectory than sell-side consensus, meaning Nvidia can 'climb the wall of worries' even as structural margin compression risks grow. With ~70% FY28 revenue growth guidance implying ~$700B in revenue, the central question is how much of today's pricing power persists when inference commoditizes and custom ASICs scale.",
+      "why_it_matters": "For investors with exposure to AI infrastructure, this is a disciplined framework for stress-testing Nvidia's long-term competitive moat against the consensus, directly relevant to position sizing and valuation assumptions.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "high_priority_source",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "f8b000d8f0157338",
+      "headline": "McKinsey's Fangning Zhang on China's growing role in life sciences R&D",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a03f06df77c89abc6e96c569c8/fc99ff41288749ef0000021ef3a0bcc2/fc99ff41-2887-49ef-918b-526f1087192e",
+      "slot": 4,
+      "summary": "McKinsey's Fangning Zhang details how China has transitioned from low-cost contract manufacturing to genuine innovation leadership in life sciences, with particular strength emerging in oncology, metabolic disease, and biologics. The piece situates this shift within broader structural trends \u2014 talent, capital, and government policy \u2014 that have accelerated China's clinical and R&D competitiveness. It connects to concurrent reporting on Chinese biotechs outpacing US peers on clinical trial execution, framing this as a durable competitive dynamic rather than a one-off.",
+      "why_it_matters": "China's rise as a life sciences R&D power is a structural headwind for US CROs (IQV, CRL) and a geopolitical risk/opportunity for oncology pipelines, making this a strategically relevant read for portfolio positioning across the coverage universe.",
+      "signal_tags": [
+        "ticker_match:IQV",
+        "ticker_match:CRL",
+        "high_priority_source",
+        "novelty",
+        "analytical_depth"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    }
+  ]
+}

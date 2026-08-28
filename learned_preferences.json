@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-27T21:28:21Z",
+  "updated_at": "2026-08-28T21:36:06Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -106,24 +106,21 @@
     },
     {
       "name": "gene therapy development",
-      "strength": "moderate",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_fda_genome_editing",
         "ev_d708fbaadd2afdb4"
       ],
-      "last_updated": "2026-08-27T00:00:00Z"
+      "last_updated": "2026-08-28T21:36:06Z"
     },
     {
       "name": "AI drug discovery",
-      "strength": "strong",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "daily_scoring_isomorphic_labs",
-        "daily_scoring_mckinsey_ai_lifesciences",
         "ev_184418fa0b02520e"
       ],
-      "last_updated": "2026-08-27T00:00:00Z"
+      "last_updated": "2026-08-28T21:36:06Z"
     },
     {
       "name": "medical imaging technology",
@@ -239,13 +236,12 @@
     },
     {
       "name": "investor letters",
-      "strength": "moderate",
+      "strength": "weak",
       "direction": "positive",
       "evidence_ids": [
-        "readwise_scott_investor_letters",
         "ev_f56f7dccb9f9a5d3"
       ],
-      "last_updated": "2026-08-27T00:00:00Z"
+      "last_updated": "2026-08-28T21:36:06Z"
     },
     {
       "name": "long-form investment writing",
