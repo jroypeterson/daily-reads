@@ -9169,5 +9169,86 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey is a high-priority source, the topic (China's structural rise in life sciences R&D) is substantive and geopolitically relevant with clear investment implications for CROs, CDMOs, and oncology pipelines in the coverage universe."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Veeva 2Q'26: \"SaaSpocalypse\" Cancelled",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-2q26-saaspocalypse-cancelled",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the actual analytical content (key takeaways from the earnings call) is locked behind a subscription, leaving only a brief intro, top-line metrics, and personal anecdote, which is too thin to meet the depth standard required for Slot 1."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/scuttleslops-82726",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantive and highly relevant to the reader's interests in AI infrastructure economics and data infrastructure, but it does not match Slot 1 (Healthcare/Biotech) \u2014 it covers AI data center capex, hyperscaler IRRs, and custom silicon (AWS Trainium), with only incidental mention of IDXX alongside ADI and INTU earnings notes."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "AstraZeneca, Ionis data spark debate about RNA drugs' impact on deadly heart disease",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/astrazeneca-ionis-eplontersen-nejm-cardio-ttransform-results/829057/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine analytical depth, covers a Phase 3 readout with direct competitive implications for ALNY, AZN, and IONS, and includes substantive analyst commentary on portfolio positioning and trial design pivots \u2014 squarely fitting Slot 1."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Internet Hype and Real World Change (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/internet-hype-and-real-world-change",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents digest with only teasers and no substantive analysis \u2014 the actual article text contains no real depth, just one-sentence descriptions of content that lives elsewhere behind a paywall."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "FDA Approves First Drug of Its Kind for Polycythemia Vera, a Rare Blood Disorder",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-its-kind-polycythemia-vera-rare-blood-disorder",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a standard FDA press release with no financial analysis, market context, or investment depth \u2014 it belongs in Slot 1 (Healthcare/Biotech) as a catalyst event, not Slot 2 (Finance/Macro), and even there it is a thin regulatory announcement rather than substantive analysis."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "The long-shot push to roll back $1 trillion in Medicaid cuts",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VXcNfQ8Nv4v-W9jyNsw5P3m91W7-75Mp5Tgf8RN7WbryH3qgz0W7lCdLW6lZ3nxW458fJ188r_pkW7h3Bld8d3fLSW26WrSr5M4Tr0W1BZdD51Qr8MtN1BVBJDNf6vGW5H31X94HkTGzW5y5t393mb1yFW1nHbpd6L5KY4W3J_D2v4wFktmW2wJ63s7m7Db5W66-316365DPjW1k6MGg5SwK3hW5j_bVZ18T1ZgW6MWS_B19WgdjW3GqTjg2P96vVW81ZHtp53gXtqW5WpzGq8w6VDcW3YqzM37jmK2mVs57j86ZFDwtW2CTFxz5VwfB2N2rszZqGzxY-W8gNYWm3XYDKvW7KwZvy2g518LW5XwVpV2QG0z_f1KZbd804",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text is just a subscription marketing page with no substantive article content accessible, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "McKinsey's Fangning Zhang on China's growing role in life sciences R&D",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a03f06df77c89abc6e96c569c8/fc99ff41288749ef0000021ef3a0bcc2/fc99ff41-2887-49ef-918b-526f1087192e",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey analysis of China's life sciences R&D expansion is substantive and structurally relevant, fitting the reader's moderate preferences for competitive moat analysis, deep business diligence, and geopolitical risks \u2014 though it fits Slot 1 (Healthcare/Biopharma) better than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/scuttleslops-82726",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb provides rare, analytically deep practitioner economics on AI data center infrastructure \u2014 exact cost breakdowns, IRR ranges, and custom silicon implications \u2014 that directly maps to the reader's strong interest in data infrastructure, AI impact, and investment-relevant insights with structural depth."
+  },
+  {
+    "date": "2026-08-29",
+    "headline": "Special edition: How AI is now essential in biopharma",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWdd-h7_pm4tN5FT5X2bdynTVVm64t5T8MHDN6WXHZ-5nR3bW7Y9pgv6lZ3pSW7B0lM85MM7hbW96CSG45Zh3KyW1TW2Vc6tQJdhW7H4p1b5HhrsPW6DxzyC2TBlPkW4C731s7Cb9L7W79DDrX3JkyXVW5Py7k-3PvB-pW55Y8L64RYD4BVvP4br9h8TCSW47kXC54TfSV1W239VDj5PtGmfW4vwjJw1f-zm2W6QQgnH6tv5J0VtxvWs8W4crrW1KSx8J1QtxwYW2dNG7d8Tf2lyVyZPDs2pBGDGV3lnrf5DkBn_W4SdvrF1MFX2fW3m3dW81YRlytW1LHBPB4St-0BW1x6ffb7XF51KW1Szl5w7ZswKNV8vLwV7Rhck0W7t3MMv9gYnGSN4NLyw_2RZqqN6qDGz4Np6kWVH-cYq3vDh4KW5k37_v17gjblW3_0lKl8Cv4DwW5-QbR51LDc3-TxKj820k-hYW3ZXcdy1015RGW5FtyWk4jYWkkW4VB0-W4zGh_4N25lJM8dc7jPW1xh7-K23JfkbN79F2g7L6N0MW9c4FBH47D9hnVJLWXv2vrF5HW7TTb8q45-h2Lf8Yq08C04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a marketing newsletter compilation \u2014 thin on analytical depth, heavy on executive quotes and promotional content \u2014 failing the 'would I forward this?' test and lacking the structural insight, data, or practitioner-level analysis the reader requires."
   }
 ]

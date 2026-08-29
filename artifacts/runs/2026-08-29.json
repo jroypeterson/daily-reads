@@ -1,0 +1,73 @@
+{
+  "run_date": "2026-08-29",
+  "generated_at": "2026-08-29T16:10:52Z",
+  "counts": {
+    "gmail_items": 140,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "19975baafc93085d",
+      "headline": "AstraZeneca, Ionis data spark debate about RNA drugs' impact on deadly heart disease",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/astrazeneca-ionis-eplontersen-nejm-cardio-ttransform-results/829057/",
+      "slot": 1,
+      "summary": "Full Phase 3 CARDIO-TTRansform data published in NEJM confirmed eplontersen (Wainua) missed its primary endpoint in ATTR-CM patients on standard of care, with event rates of 29% vs. 32% \u2014 a statistically non-significant difference. The failure raises questions about whether RNA 'silencers' like eplontersen and Alnylam's Amvuttra provide meaningful additive benefit on top of TTR 'stabilizers' (Vyndamax, Attruby), which now dominate standard of care. Analysts see limited direct commercial damage to Amvuttra but flag material risk to Alnylam's next-generation asset nucresiran, whose pivotal trial design may need to be restructured toward monotherapy.",
+      "why_it_matters": "The trial failure reshapes the ATTR-CM competitive landscape and introduces a credible overhang on Alnylam's long-term pipeline thesis, making it actionable for investors holding or evaluating ALNY, AZN, IONS, or emerging TTR 'depleter' programs at AstraZeneca, Novo Nordisk, and Attralus.",
+      "signal_tags": [
+        "ticker_match:ALNY",
+        "ticker_match:RNA",
+        "catalyst_proximity",
+        "clinical_trial_data_readout",
+        "regulatory_affairs",
+        "novelty"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f8b000d8f0157338",
+      "headline": "McKinsey's Fangning Zhang on China's growing role in life sciences R&D",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a03f06df77c89abc6e96c569c8/fc99ff41288749ef0000021ef3a0bcc2/fc99ff41-2887-49ef-918b-526f1087192e",
+      "slot": 2,
+      "summary": "McKinsey's Fangning Zhang analyzes China's rapidly growing competitiveness in global life sciences R&D, highlighting advantages in clinical trial execution speed, patient enrollment scale, and cost efficiency. The piece examines strategic implications for Western pharma companies evaluating whether to partner with, compete against, or source innovation from Chinese biotechs. It frames China's biotech surge as a structural shift rather than a cyclical trend, with portfolio and pipeline valuation implications for Western incumbents.",
+      "why_it_matters": "For investors in Western biopharma and CRO names, China's expanding R&D capability represents both a competitive threat to pipeline valuations and a potential source of partnering optionality \u2014 making this McKinsey framing useful for long-term risk assessment.",
+      "signal_tags": [
+        "priority:high",
+        "geopolitical_risks",
+        "management_consulting_research",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "novelty"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "ab887e3d434493d7",
+      "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/scuttleslops-82726",
+      "slot": 3,
+      "summary": "A former AWS data center executive, via InPractise, breaks down the unit economics of hyperscaler AI infrastructure: a fully loaded 1-GW AI campus runs $40\u201345B (roughly $12\u201315B for physical infrastructure, $6\u20138B for power/transmission, and $25\u201330B for compute hardware), with current base-case IRRs of 15\u201320% that could reach 35\u201340% by 2028 if inference scales. He explains AWS's strategy of building ahead of demand to lock up scarce land and power, even at 30\u201340% power cost premiums. The key forward-looking insight is that Trainium 3 \u2014 not Trainium 2 \u2014 is expected to materially shift the return equation by pushing 3\u20134x more useful compute through each constrained megawatt.",
+      "why_it_matters": "This ground-level cost curve analysis is directly actionable for sizing hyperscaler capex theses, evaluating power infrastructure investments, and understanding when AI infrastructure economics inflect \u2014 critical inputs for any investor with exposure to cloud, semiconductor, or data center names.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "AI_impact",
+        "ticker_match:IDXX",
+        "analytical_depth",
+        "practitioner_perspective",
+        "elite_fund_practitioner_content"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
