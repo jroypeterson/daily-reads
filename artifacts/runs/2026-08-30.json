@@ -1,0 +1,72 @@
+{
+  "run_date": "2026-08-30",
+  "generated_at": "2026-08-30T15:56:39Z",
+  "counts": {
+    "gmail_items": 137,
+    "tier2_items": 79,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "4cfdfaa54747a3ea",
+      "headline": "NCQA to use Komodo data, AI tool to develop future HEDIS measures",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/ncqa-use-komodo-platform-future-development-hedis-measures",
+      "slot": 1,
+      "summary": "NCQA has entered a multi-year strategic partnership with Komodo Health to modernize HEDIS quality measure development using Komodo's Healthcare Map (330M+ de-identified patient journeys) and its Marmot AI platform. The partnership allows NCQA to evaluate measures across Medicare, Medicaid, and commercial populations from a single longitudinal data source, cutting testing time roughly in half \u2014 from two to three months to approximately one month, as demonstrated in the already-completed COF-E colorectal cancer screening measure. Komodo is now positioned as a key platform supporting HEDIS measure testing broadly across NCQA's portfolio going forward.",
+      "why_it_matters": "Embedding Komodo's proprietary data infrastructure into the regulatory standard-setting backbone of managed care quality measurement represents a durable, compounding moat \u2014 with downstream implications for payers, providers, and competing health analytics platforms as HEDIS compliance shapes reimbursement and performance benchmarking across the industry.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "AI_and_biology_intersection",
+        "health_technology_datasets",
+        "data_infrastructure",
+        "regulatory_affairs",
+        "AI_impact"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "e127cf113815ad16",
+      "headline": "Veeva 2Q'26: \"SaaSpocalypse\" Cancelled",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/veeva-2q26-saaspocalypse-cancelled?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTMxNzM3ODQsImlhdCI6MTc4ODAxNzQ4NiwiZXhwIjoxNzkwNjA5NDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.mtRP036mv9rpriWzO6Aza4aGmvNpmf-qOfOXdaRpdEE",
+      "slot": 2,
+      "summary": "MBI Deep Dives author initiated a position in Veeva at $198/share during peak 'SaaSpocalypse' fears that AI would cannibalize life sciences SaaS, and documents the 40% gain following Veeva's 2Q'26 earnings beat \u2014 $928M revenue vs. $905M guide, 17.6% YoY growth (fastest in nine quarters), and GAAP EBIT margins hitting an all-time high of 29.9% LTM. The piece tracks the Vault CRM competitive scoreboard in detail: Veeva now holds 12 of the top 20 biopharma CRM decisions with two remaining, while Salesforce implementations are reportedly 'having troubles.' Management expressed confidence in winning back defectors by 2027-2028 and maintaining 70%+ life sciences CRM share.",
+      "why_it_matters": "For investors holding or evaluating VEEV, this deep dive offers practitioner-level thesis validation that the AI-disruption bear case was overstated, with concrete CRM win-rate data and margin trajectory that directly informs position sizing and long-term conviction.",
+      "signal_tags": [
+        "ticker_match:VEEV",
+        "priority:high",
+        "health_software_SaaS",
+        "deep_business_diligence",
+        "analytical_depth",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "a220708875fda327",
+      "headline": "The state of AI in 2026: On the road to ROI",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+      "slot": 3,
+      "summary": "McKinsey's 2026 State of AI report benchmarks enterprise AI adoption across industries, focusing on which organizations are converting AI investment into measurable ROI versus those still in experimentation mode. The report covers sector-level breakdowns including healthcare and life sciences, identifying the use cases and organizational capabilities that separate AI leaders from laggards. It serves as the single most-cited annual benchmark for enterprise AI maturity.",
+      "why_it_matters": "Understanding where healthcare and biopharma sit on the AI ROI curve is directly actionable for evaluating health-tech SaaS and AI-native drug discovery investment theses, and the structural gap between leaders and laggards signals where durable competitive moats are forming.",
+      "signal_tags": [
+        "priority:high",
+        "high_priority_source",
+        "AI_impact",
+        "data_infrastructure",
+        "management_consulting_research",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": true
+    }
+  ]
+}

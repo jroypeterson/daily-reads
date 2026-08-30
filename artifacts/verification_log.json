@@ -9250,5 +9250,95 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a marketing newsletter compilation \u2014 thin on analytical depth, heavy on executive quotes and promotional content \u2014 failing the 'would I forward this?' test and lacking the structural insight, data, or practitioner-level analysis the reader requires."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "Veeva 2Q'26: \"SaaSpocalypse\" Cancelled",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-2q26-saaspocalypse-cancelled?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTMxNzM3ODQsImlhdCI6MTc4ODAxNzQ4NiwiZXhwIjoxNzkwNjA5NDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.mtRP036mv9rpriWzO6Aza4aGmvNpmf-qOfOXdaRpdEE",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear relevance to health software SaaS, this article is partially paywalled (key takeaways from the earnings call are behind a paywall), and its primary fit is Slot 2 (Finance/Markets) as a post-earnings investment deep dive on a health IT company, not Slot 1 which prioritizes FDA decisions, clinical trial data, biopharma M&A, and pipeline news."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI slot article, not Healthcare/Biotech \u2014 it covers enterprise AI adoption broadly with healthcare as one sector among many, and lacks any FDA, clinical trial, pipeline, or biopharma-specific content required for Slot 1."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a stub/preview page showing only brief teasers for multiple Scuttleblurb posts \u2014 there is no substantive content on IDXX, ADI, INTU, or AI data center economics actually present in the extracted text, and what little appears is about unrelated companies (Adyen, Zoetis, Booking Holdings, etc.), making it impossible to evaluate depth or slot fit for Healthcare/Biotech."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "Letter #341: Jeff Dean and Dawn Song (2026)",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-341-jeff-dean-and-dawn-song",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI article \u2014 a fireside chat transcript between Jeff Dean and Dawn Song on AI architecture, scaling, and foundational model history \u2014 with no meaningful healthcare or biopharma content visible in the provided text, making it a poor fit for Slot 1 Healthcare/Biotech."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "\"We're not doing 30 bets a year\": Vijay Pande on betting small after running $4 billion at a16z",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite genuine depth and strong alignment with the reader's AI-biology and VC practitioner preferences, this is a TechCrunch interview that belongs in Slot 3 (Tech/AI) or Slot 4 (Wildcard) rather than Slot 1 Healthcare/Biotech, and it does not fit the slot's required focus on FDA decisions, clinical trial data readouts, M&A, or pipeline news."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "Wainua flop 'worse than expected,' confuses ATTR-CM space; Lilly joins Novo in cardio with Mounjaro expansion",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVw0lR7SpP6_W1vnYHc2Bdz6rW6D6W6y5TfQrXN54gmPK5nR3bW7Y9pgv6lZ3lHN8xL_1WsbjFNW1Lp-tg1KsBxHN1JzY35PptXcW4Md2rT7jV_gfW811fjw4L6klPW46xZyj20sJ2lW8bd-P97HNkJHW3TxMX46yWn4XW2_LRx-8-NwQ5W6xmp0s15F1GXW2_gv8X96ZCc1W3WJPwj8np4pKW4wlTz-9gJt3CW8tBpmR1wd3l-W13F64g73gL3wW1zK7DY15j1FBW7TGR7n1PV2NHW8500Ds7hwyNSW6rCsPR94J2S8W43pKb-40pWmFW42mTK_7l-w_0VktbC25vzDTgVD6cr33Dk2VdW6mWhyV5_NmfrW7YXtLf22-6N0W4ZVn452LpT07W8wMYXC7rhlvNW8_W3Pg4Lf9pLW9d9Z123J5Tm4W9jJs6J2Lh8MSW6N3hVR5HgLQgW3bQxQf8GsCKxW5THzgM3bsS2vW3N32Xz3bSwFMW7m_rLW2bTW5tW5ck53f8rLkhCN7PRnd2TgTWzW9hdRq4675bW4W87Dgx_5lb5-8W8w9pFp5LMm2zN8NKqxJXY95pW7gpxVw5DL8Bxf7Q789204",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially a newsletter shell with no substantive content \u2014 just a headline, a one-sentence analyst quote teaser, ads, and promotional links, with no actual clinical data, competitive analysis, or investment depth."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "NCQA to use Komodo data, AI tool to develop future HEDIS measures",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/ncqa-use-komodo-platform-future-development-hedis-measures",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance \u2014 detailing a multi-year partnership with specific operational mechanics (330M patient journeys, AI platform access, HEDIS measure testing timelines cut nearly in half), a real-world proof point (COF-E measure), and forward-looking institutional implications for health data infrastructure, squarely matching Slot 1's healthcare/biopharma criteria and the reader's strong interest in health data infrastructure and AI applications."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "Veeva 2Q'26: \"SaaSpocalypse\" Cancelled",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/veeva-2q26-saaspocalypse-cancelled?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTMxNzM3ODQsImlhdCI6MTc4ODAxNzQ4NiwiZXhwIjoxNzkwNjA5NDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.mtRP036mv9rpriWzO6Aza4aGmvNpmf-qOfOXdaRpdEE",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, analytically deep post-earnings deep dive from a long-form investment practitioner on a core health IT holding (VEEV), with specific data on CRM win rates, margin expansion, and competitive moat resilience \u2014 directly matching the reader's strong preferences for analytical depth, competitive moat analysis, and health software SaaS."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's flagship annual AI survey is a high-priority periodic report with strong analytical depth on enterprise AI ROI \u2014 a strong match for Slot 3 given the reader's strong preferences for AI impact, data infrastructure, and investment-relevant structural insights."
+  },
+  {
+    "date": "2026-08-30",
+    "headline": "AI isn't eating software after all \u2014 and the sector's 'epic' rally could run through October",
+    "source": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin, news-aggregating summary of software earnings beats with surface-level analyst quotes \u2014 it lacks the analytical depth, structural market insight, or 'would I forward this?' quality required for the Wildcard slot, and aligns more with the reader's AVOID patterns (generic market indices, short-term trading focus)."
   }
 ]
