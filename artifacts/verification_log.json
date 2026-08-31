@@ -9340,5 +9340,86 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a thin, news-aggregating summary of software earnings beats with surface-level analyst quotes \u2014 it lacks the analytical depth, structural market insight, or 'would I forward this?' quality required for the Wildcard slot, and aligns more with the reader's AVOID patterns (generic market indices, short-term trading focus)."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a teaser/preview snippet from Scuttleblurb's subscription feed \u2014 the actual Waystar deep-dive content is not present, making it impossible to verify substance or depth beyond the headline and a single introductory sentence."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "The Left Tail of AI",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-left-tail-of-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is clearly a Tech/AI investment analysis piece, not Healthcare/Biotech \u2014 it does not fit Slot 1 by topic, and belongs in Slot 3 (Tech/AI) or Slot 2 (Finance/Macro) instead."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Hall of Mirrors",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/08-31-2026-hall-of-mirrors",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro/markets newsletter covering consumer sentiment, Fed policy, and inflation dynamics \u2014 it has no meaningful healthcare or biotech content and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI article (McKinsey's annual AI survey) misassigned to the Healthcare/Biotech slot \u2014 it belongs in Slot 3 or Slot 4, not Slot 1."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "ESC '26: Cytokinetics' sell-off, Arrowhead's edge and a heart drug autopsy",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/esc-congress-2026-results-eplontersen-alnylam-cytokinetics/829139/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive, analyst-cited clinical data analysis across three major cardiovascular readouts from ESC 2026, with direct investment implications for multiple tickers (CYTK, ARWR, ALNY, AZN, IONS) and competitive dynamics in the RNA therapeutics and HCM spaces."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Hall of Mirrors",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/08-31-2026-hall-of-mirrors",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The Transcript's weekly macro synthesis has genuine depth \u2014 aggregating primary-source executive quotes across retail, consumer staples, and financials to triangulate the economy's state, with a clear structural thesis (Fed/market reflexivity) that is directly actionable ahead of the September FOMC meeting."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "The Left Tail of AI",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-left-tail-of-ai",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment research source with demonstrated analytical depth, and a framework stress-testing AI bull cases aligns squarely with the reader's strong preferences for AI impact analysis, contrarian investment insights, and structural market thinking."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Hackers claim millions of patient records stolen during data breach at healthcare giant McKesson",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a straightforward cybersecurity incident report with thin analytical depth \u2014 it recounts the breach facts, identifies the hacking group, and lists affected data types, but offers no structural insight into healthcare cyber risk, no investment implications beyond the obvious, and doesn't pass the 'would I forward this?' test for a reader who prizes analytical depth and investment-relevant insights over news summaries."
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a content index/table of contents for Scuttleblurb's recent posts with only snippet-level previews \u2014 there is no substantive analysis of AI data center economics, ADI, INTU, or IDXX visible in the provided text, making it impossible to verify depth or substance."
   }
 ]

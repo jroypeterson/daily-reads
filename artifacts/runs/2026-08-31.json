@@ -1,0 +1,70 @@
+{
+  "run_date": "2026-08-31",
+  "generated_at": "2026-08-31T18:41:43Z",
+  "counts": {
+    "gmail_items": 147,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "d890baf2b08c772f",
+      "headline": "ESC '26: Cytokinetics' sell-off, Arrowhead's edge and a heart drug autopsy",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/esc-congress-2026-results-eplontersen-alnylam-cytokinetics/829139/",
+      "slot": 1,
+      "summary": "BioPharma Dive breaks down three major ESC 2026 cardiovascular data presentations: Cytokinetics' Myqorzo showed robust efficacy in non-obstructive HCM but a heart failure safety signal drove a 7%+ stock sell-off that analysts largely called an overreaction; Arrowhead's plozasiran posted comparable efficacy but potentially superior safety versus Ionis' Tryngolza in hypertriglyceridemia, positioning it for best-in-class status in a projected $6B market; and the eplontersen failure from AstraZeneca/Ionis is prompting Wall Street to reassess Alnylam's Amvuttra and its pipeline drug nucresiran in ATTR-CM. Multiple sell-side analysts from Leerink, Stifel, Mizuho, Cantor, and William Blair are cited with specific data points and positioning arguments.",
+      "why_it_matters": "The ATTR-CM and HCM competitive landscapes are being actively repriced post-ESC, with relative positioning across CYTK, ARWR, IONS, and ALNY all shifting simultaneously \u2014 creating near-term actionable opportunities for healthcare-focused investors reassessing RNA therapeutics exposure.",
+      "signal_tags": [
+        "ticker_match:ALNY",
+        "ticker_match:ARWR",
+        "catalyst_proximity",
+        "conference_presentation",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "4ce7d7ddbbfc928b",
+      "headline": "Hall of Mirrors",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/08-31-2026-hall-of-mirrors",
+      "slot": 2,
+      "summary": "The Transcript's weekly digest synthesizes earnings call commentary from executives at Urban Outfitters, Dollar General, Burlington Stores, Affirm, and others to paint a bifurcated consumer picture: upper-income consumers remain resilient, while lower-income households face compounding pressure from persistent inflation, elevated fuel prices, and rising memory-driven electronics costs. Fed Chair Kevin Warsh's Jackson Hole speech is framed as hawkish, with inflation expectations remaining a key focus. The piece introduces a 'hall of mirrors' reflexivity thesis \u2014 that markets and the Fed are each using the other as their primary signal, creating a shared blind spot to new macroeconomic developments.",
+      "why_it_matters": "The Fed/market reflexivity framing and Warsh's hawkish tilt have direct implications for rate-sensitive healthcare and biotech valuations heading into the September FOMC meeting, making this a high-priority read for portfolio positioning.",
+      "signal_tags": [
+        "high_priority_source",
+        "structural_market_insight",
+        "catalyst_proximity",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f95d5a56fa7bb1b8",
+      "headline": "The Left Tail of AI",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-left-tail-of-ai",
+      "slot": 3,
+      "summary": "MBI Deep Dives constructs an analytical framework for the downside scenarios of the AI investment cycle, examining what could go wrong structurally and competitively even if AI proves genuinely transformational. The piece stress-tests the consensus bull case by exploring risks such as value capture failure, commoditization of models, and misallocation of capital across the AI stack. It offers a non-consensus, forward-looking lens for investors weighing AI exposure.",
+      "why_it_matters": "For investors long AI infrastructure or platform names, understanding the left-tail scenarios is essential portfolio risk management \u2014 this piece provides the analytical scaffolding to identify which parts of the AI value chain are most vulnerable to disruption or margin compression.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "analytical_depth",
+        "forward_looking_perspective",
+        "novelty"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    }
+  ]
+}
