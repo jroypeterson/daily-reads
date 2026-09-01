@@ -9421,5 +9421,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is essentially a content index/table of contents for Scuttleblurb's recent posts with only snippet-level previews \u2014 there is no substantive analysis of AI data center economics, ADI, INTU, or IDXX visible in the provided text, making it impossible to verify depth or substance."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is just a fragment (the opening sentences of a paywall-gated Scuttleblurb piece) plus a list of other recent posts \u2014 there is no substantive content about Waystar's business model, competitive moat, or revenue cycle dynamics to evaluate."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "The Left Tail of AI",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-left-tail-of-ai",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled with only a brief teaser paragraph visible \u2014 there is no substantive content to evaluate, making it too thin for any slot regardless of topic fit."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "STAT+: 5 burning questions on Trump's latest deals with drugmakers",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/01/trump-pharma-deals-analysis-latest-round-most-favored-nation-drug-pricing/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is effectively a byline/author bio section with no substantive content \u2014 the actual analysis of the five burning questions is paywalled and not present, making it too thin to evaluate or include."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Global bond selloff sends yields to the highest since 2008",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-09-01/global-bond-selloff-sends-yields-to-the-highest-since-2008",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a generic Bloomberg morning briefing about macro bond market moves and does not belong in Slot 1 (Healthcare/Biotech); its actual content is thin navigation/boilerplate with no substantive healthcare-specific analysis."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "[scuttleslops] AI Data Center Economics, ADI, INTU, IDXX",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a fragmented Scuttleblurb feed of multiple unrelated blurbs (Adyen, Zoetis, Booking Holdings, UMG, CCC, Visa/Mastercard) with no substantive content on IDXX or healthcare specifically accessible \u2014 the IDXX/healthcare angle is asserted in the shortlist summary but absent from the actual article text provided."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Novartis, Bristol Myers pause autoimmune CAR-T trials due to safety concerns",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novartis-bristol-myers-autoimmune-cell-therapy-trial-halt/829218/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a straightforward safety news report with adequate depth for a news item, but the reader's taste profile explicitly flags 'niche therapeutics' as an avoid pattern and 'gene therapy development' as weak preference \u2014 autoimmune CAR-T safety pauses fit squarely in that avoided niche, and the article lacks the analytical depth, investment process insight, or structural market analysis this reader consistently rates highly."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI slot article, not Healthcare/Biotech \u2014 it covers broad enterprise AI adoption trends across sectors and does not focus on FDA decisions, clinical trials, biopharma pipelines, or healthcare-specific content required for Slot 1."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "FDA OKs Takeda, Protagonist drug for rare blood cancer",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-approve-mimrylo-takeda-protagonist-polycythemia-vera/829153/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a concrete FDA approval with a broader-than-expected label, quantified revenue projections ($2B peak sales), Phase 3 efficacy data, and deal economics \u2014 substantive and directly relevant to Slot 1 healthcare/biopharma with clear investment implications for PRTG and Takeda."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Global bond selloff sends yields to the highest since 2008",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-09-01/global-bond-selloff-sends-yields-to-the-highest-since-2008",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially empty \u2014 only Bloomberg navigation/boilerplate HTML was retrieved, with no substantive content about the bond selloff beyond the headline, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual State of AI survey is a high-priority periodic publication with strong analytical depth on enterprise AI ROI \u2014 directly relevant to evaluating digital health and health IT positions, matching both the target slot and the reader's strong preferences for AI impact and data infrastructure topics."
   }
 ]

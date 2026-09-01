@@ -1976,5 +1976,20 @@
         "url": "https://email.mg-d1.substack.com/c/eJxskL2u3CAUhJ_GdGvhA8Z2QZHmvgbi59hL1gYEh1j79tHdFGluPaNvPo23hEeub017edyIr_P9qLmn0AsLWmyOr14x1NOyrhPwWSmGl42nOTBhtYTBWPqfSsEn9tQwiwXCJHAPfEc7IygvVXATbErOm2dRAwfFV8GBc5B8FCOu875s4ACVW8Cr0cntLJlokPw6HmEaW3eNrH-NPl8sNrNX_Lhoqh3ZqZ9EpQ3i1wBfA3zd9z3SE_fyqeeCyVC1_hXTYVovpWJrGDQr3Rmfr6unSG-DyboTwz9k6e6M3lLMycSgQXEhF1b175rfBQlry2mQ_PiW-Ky07kK-bEza2RpvjK0x-una3rB-Iye5qVmu7I-GvwEAAP__u22EBw"
       }
     ]
+  },
+  {
+    "date": "2026-09-01",
+    "checked_unique": 74,
+    "checked_slots": 78,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": []
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-09-01",
+  "generated_at": "2026-09-01T15:59:47Z",
+  "counts": {
+    "gmail_items": 144,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "73dca7c1ea76eb02",
+      "headline": "FDA OKs Takeda, Protagonist drug for rare blood cancer",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/fda-approve-mimrylo-takeda-protagonist-polycythemia-vera/829153/",
+      "slot": 1,
+      "summary": "The FDA approved Mimrylo (rusfertide), a first-in-class hepcidin-mimetic developed by Protagonist Therapeutics and licensed to Takeda, for polycythemia vera \u2014 a rare blood cancer affecting ~150,000 U.S. patients. The label arrived ahead of its PDUFA date and without a mandatory prior-therapy requirement, prompting Jefferies to project $2B in peak annual sales. Protagonist receives $275M in approval-related payouts from Takeda and remains eligible for up to $875M more in milestones plus royalties.",
+      "why_it_matters": "The broader-than-expected label removes a key adoption hurdle and could materially lift consensus revenue estimates for both PRTG (royalty/milestone beneficiary) and Takeda, while validating the hepcidin-mimetic mechanism for potential read-across to other rare hematology programs.",
+      "signal_tags": [
+        "ticker_match:RARE",
+        "catalyst_proximity",
+        "FDA_decision",
+        "investment_relevant_insights",
+        "novelty"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "a220708875fda327",
+      "headline": "The state of AI in 2026: On the road to ROI",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+      "slot": 3,
+      "summary": "McKinsey's 2026 State of AI survey examines enterprise adoption trends, tracking which sectors are successfully converting AI investments into measurable ROI versus which remain in pilot purgatory. The report focuses on the maturation inflection point where AI moves from experimentation to value capture, with sector-level breakdowns of where returns are materializing. It serves as a benchmark for understanding the structural gap between AI narrative and demonstrated business impact.",
+      "why_it_matters": "For healthcare investors, this report provides critical context to distinguish between digital health and health IT companies genuinely capturing AI ROI versus those still riding the hype cycle \u2014 directly actionable for portfolio positioning.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "analytical_depth",
+        "practitioner_perspective",
+        "structural_market_insight"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    }
+  ]
+}
