@@ -9511,5 +9511,95 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's annual State of AI survey is a high-priority periodic publication with strong analytical depth on enterprise AI ROI \u2014 directly relevant to evaluating digital health and health IT positions, matching both the target slot and the reader's strong preferences for AI impact and data infrastructure topics."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a paywall-gated teaser from Scuttleblurb showing only an upcoming posts list and unrelated earnings call excerpts \u2014 there is no actual substantive content about Waystar or healthcare billing complexity available to evaluate."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI article from McKinsey, not a Healthcare/Biotech article \u2014 it covers enterprise AI ROI across industries and functions broadly, with no specific healthcare or biopharma focus warranting Slot 1."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "STAT+: How a former ARPA-H director's startup is tackling AI's 'dumb problems'",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/02/why-transfyr-tackles-dumb-problems-intersection-bio-ai-prognosis/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text is not accessible and the article body is truncated to navigation/header boilerplate, providing no substantive content to evaluate or summarize."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "WSJ Markets A.M.: \ud83e\udd16 Too Much of a Good AI Thing \u2014 Broadcom's AI Success Story Gets Complicated",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/tech/ai/broadcoms-ai-success-story-gets-complicated-e54a798f?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI and Finance/Macro story about Broadcom's semiconductor business \u2014 it has no meaningful connection to Healthcare/Biotech and belongs in a different slot entirely."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "WSJ 10-Point: U.S., Allies Clash Amid Global Bond Selloff \u2014 Treasury Yields Hit New Highs",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/world/treasury-yields-hit-new-highs-as-world-leaders-squabble-at-fractured-g-20-bfad9027?mod=djem10point",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a macro/finance story about global bond yields and geopolitical tensions \u2014 it belongs in Slot 2 (Finance/Macro), not Slot 1 (Healthcare/Biotech), and the healthcare connection is only tangential inference rather than substantive content."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Novartis, BMS pause CAR T trials following deaths, safety concerns",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWkdBv2ygL-SW5-FDVq8RptFDW5q0Twr5Tqp8KN4Pt_Nx5nR3bW8wM7ks6lZ3mMW1kKD846rwKM_W5KwVvm567G16W4TGsG02YGnhwW6m7D5B38mK-BW1V4d_65tj3wdW1qVvdP1sXWSRN1zTNFZS3fS-W843yC-4W5zKRW2YRdyd3r7DwwW38jR-B3vqxRrW5LkvtL4tHdYJW86Q4xZ2z-L94W8PHKcR41FvTvW4tyXSt5l8_3CVFTZ4N5dsZp1W8N9c-C7GTlkYW4PQpTQ6NZnRHW75b-358QlGdNN5wqWB3fxXrMW3gsWYL3S34fJW13fmB-17JhF3W7WXjzL1C_LsmW2BMFrW8l1Yk9W6YmtcQ5zhTzpW5mcxDs8kkLb9W7jGy835b_z1zW7ZHZQ985ZWcTW5lGb5r6qsxBDW3P42K08_Xy6vW6Zs-Hc5CVPkpW9bwTVr3gDgkSW3ydxhl2sNY49W7SmRTJ8DfQ4BW2VtRDV5zdmfvW3Wv22w3RcN8hW2S7MZZ4sbDtqW4mtLrF1Wp5F8W5JSHj39fLDSHW6bYFHP2ntT1pW7wm8928Y-3jTN8CSDS4ZrQShW8PdCXt7S8_3dW7JM16v8-zR58W31HrtT8WDtfjf8DMbLg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter blurb with only 2-3 sentences of actual content on the CAR-T trial pauses, lacking the analytical depth, mechanistic detail, or competitive landscape analysis that would make it actionable for the reader."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "STAT+: How Trump's latest pharma deals may undermine efforts to rein in drug costs",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was not accessible, making it impossible to verify substance or depth beyond the truncated navigation/header content."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "ChatGPT for Healthcare unveils new integrations with Epic EHR and public health data sources",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/chatgpt-healthcare-unveils-new-integrations-epic-ehr-public-health-data",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a product announcement / press release rehash with no analytical depth \u2014 it summarizes OpenAI's blog post and vendor quotes without examining competitive dynamics, adoption barriers, clinical evidence quality, or investment implications in any meaningful way."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "WSJ 10-Point: U.S., Allies Clash Amid Global Bond Selloff \u2014 Treasury Yields Hit New Highs",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/world/treasury-yields-hit-new-highs-as-world-leaders-squabble-at-fractured-g-20-bfad9027?mod=djem10point",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The WSJ 10-Point is a daily news briefing format \u2014 inherently broad and shallow \u2014 and this article is paywalled with no full text available, making it impossible to verify depth; the summary describes a generic macro recap that matches the 'generic market indices' avoid pattern noted in reader taste."
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual State of AI report is a high-priority, data-rich source that directly matches the reader's strong interest in AI impact, data infrastructure, and investment-relevant structural insights about enterprise AI adoption."
   }
 ]

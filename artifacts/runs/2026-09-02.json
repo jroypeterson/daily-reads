@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-09-02",
+  "generated_at": "2026-09-02T15:52:28Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a220708875fda327",
+      "headline": "The state of AI in 2026: On the road to ROI",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+      "slot": 3,
+      "summary": "McKinsey's 2026 State of AI report benchmarks enterprise AI adoption and ROI across industries and functions, identifying where deployments are generating measurable value versus stalling. It tracks adoption curves and value creation patterns, making it one of the most comprehensive annual datasets on where AI investment is actually paying off. The report serves as a definitive industry snapshot for assessing which sectors and use cases are translating AI spend into real returns.",
+      "why_it_matters": "For investors evaluating AI infrastructure and application vendors, this report provides the most data-rich annual benchmark on where enterprise AI is generating genuine ROI versus hype \u2014 directly actionable for portfolio positioning in AI-adjacent names.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "data_infrastructure",
+        "analytical_depth",
+        "management_consulting_research",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    }
+  ]
+}
