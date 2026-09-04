@@ -9601,5 +9601,50 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's annual State of AI report is a high-priority, data-rich source that directly matches the reader's strong interest in AI impact, data infrastructure, and investment-relevant structural insights about enterprise AI adoption."
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "UPDATED: Novartis halts autoimmune CAR-T trials after 3 deaths, as BMS also pauses studies",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/novartis-bristol-myers-squibb-halt-car-t-cell-trials-due-immune-events",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering a significant safety signal across two major pharma pipelines, includes specific trial identifiers, mechanistic hypotheses about rapid manufacturing platforms driving toxicity, and names competing programs \u2014 all directly relevant to Slot 1 healthcare/biotech criteria."
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "GPT-6 Astra",
+    "source": "OpenAI (via Hacker News)",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI article (OpenAI GPT-6 product announcement) that belongs in Slot 3, not Slot 2 Finance/Macro, and its finance/macro implications are only implied rather than substantively analyzed."
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/way",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's deep-dive on Waystar offers exactly the kind of analytical depth, competitive moat analysis, and data-infrastructure framing that matches the reader's strongest preferences, with a direct ticker match and practitioner-style writing that fits Slot 2's focus on healthcare-adjacent finance and payer dynamics."
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "GPT-6 Astra",
+    "source": "OpenAI (via Hacker News)",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "GPT-6 Astra is a substantive, landmark AI release with deep technical detail on capabilities, safety frameworks, and deployment \u2014 directly relevant to Slot 3 and the reader's strong interest in AI impact and foundational model advances."
+  },
+  {
+    "date": "2026-09-04",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's large-scale 2026 AI survey surfaces a genuinely investment-relevant tension \u2014 widespread adoption versus flat ROI penetration \u2014 with specific, quantified findings that go beyond generic market commentary and align with the reader's strong interest in AI impact and data infrastructure."
   }
 ]

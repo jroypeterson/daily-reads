@@ -1,0 +1,373 @@
+{
+  "period_start": "2026-08-29",
+  "period_end": "2026-09-04",
+  "generated_at": "2026-09-04T15:43:39.110577+00:00",
+  "source_health": {
+    "active_sources": 20,
+    "total_configured": 24,
+    "missing_sources": [
+      "Biotech Primer",
+      "Fierce Pharma"
+    ],
+    "quiet_slow": [
+      "Bloomberg (subscription notices)",
+      "Oaktree Insights (Howard Marks)"
+    ],
+    "missing_always_read": [
+      "Biotech Primer"
+    ],
+    "quiet_slow_always_read": [],
+    "total_gmail_items": 852,
+    "total_tier2_items": 527,
+    "days_with_runs": 6,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 19
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 11
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 20
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Consilient Observer",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 13
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 15
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Apollo Daily Spark (Torsten Slok)",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 63
+          },
+          {
+            "name": "Bloomberg (subscription notices)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 8
+          },
+          {
+            "name": "Oaktree Insights (Howard Marks)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 24
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 28
+          }
+        ]
+      ],
+      [
+        "journals",
+        [
+          {
+            "name": "NEJM",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "NEJM Weekend Briefing",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 16,
+    "articles_per_day": [
+      4,
+      1,
+      2,
+      3,
+      3,
+      3
+    ],
+    "avg_articles_per_day": 2.7,
+    "verified_pass": 16,
+    "verified_fail": 37,
+    "fail_reasons": [
+      "The article is substantially paywalled \u2014 the actual analytical content (key takeaways from the earnings call) is locked behind a subscription, leaving only a brief intro, top-line metrics, and personal anecdote, which is too thin to meet the depth standard required for Slot 1.",
+      "This article is substantive and highly relevant to the reader's interests in AI infrastructure economics and data infrastructure, but it does not match Slot 1 (Healthcare/Biotech) \u2014 it covers AI data center capex, hyperscaler IRRs, and custom silicon (AWS Trainium), with only incidental mention of IDXX alongside ADI and INTU earnings notes.",
+      "This is a newsletter table-of-contents digest with only teasers and no substantive analysis \u2014 the actual article text contains no real depth, just one-sentence descriptions of content that lives elsewhere behind a paywall.",
+      "This is a standard FDA press release with no financial analysis, market context, or investment depth \u2014 it belongs in Slot 1 (Healthcare/Biotech) as a catalyst event, not Slot 2 (Finance/Macro), and even there it is a thin regulatory announcement rather than substantive analysis.",
+      "The article is paywalled STAT+ content \u2014 the full text is just a subscription marketing page with no substantive article content accessible, making it impossible to verify depth or accuracy of the shortlist summary.",
+      "The article is a marketing newsletter compilation \u2014 thin on analytical depth, heavy on executive quotes and promotional content \u2014 failing the 'would I forward this?' test and lacking the structural insight, data, or practitioner-level analysis the reader requires.",
+      "Despite strong analytical depth and clear relevance to health software SaaS, this article is partially paywalled (key takeaways from the earnings call are behind a paywall), and its primary fit is Slot 2 (Finance/Markets) as a post-earnings investment deep dive on a health IT company, not Slot 1 which prioritizes FDA decisions, clinical trial data, biopharma M&A, and pipeline news.",
+      "This is a Tech/AI slot article, not Healthcare/Biotech \u2014 it covers enterprise AI adoption broadly with healthcare as one sector among many, and lacks any FDA, clinical trial, pipeline, or biopharma-specific content required for Slot 1.",
+      "The article text is a stub/preview page showing only brief teasers for multiple Scuttleblurb posts \u2014 there is no substantive content on IDXX, ADI, INTU, or AI data center economics actually present in the extracted text, and what little appears is about unrelated companies (Adyen, Zoetis, Booking Holdings, etc.), making it impossible to evaluate depth or slot fit for Healthcare/Biotech.",
+      "This is a Tech/AI article \u2014 a fireside chat transcript between Jeff Dean and Dawn Song on AI architecture, scaling, and foundational model history \u2014 with no meaningful healthcare or biopharma content visible in the provided text, making it a poor fit for Slot 1 Healthcare/Biotech."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 20,
+      "jina": 18,
+      "tavily": 1,
+      "snippet_fallback": 14
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Scuttleblurb": 6,
+      "Consilient Observer": 1,
+      "A Letter a Day": 6,
+      "MBI": 6,
+      "Value Investors Insight": 6,
+      "The Transcript": 6
+    },
+    "missing": [
+      "Biotech Primer"
+    ]
+  },
+  "url_validation": {
+    "days_logged": 6,
+    "checked_slots": 412,
+    "total_broken": 5,
+    "surfaces": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 3,
+      "substack_dropped": 2
+    },
+    "top_warned_sources": [
+      [
+        "MBI",
+        2
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "The Transcript",
+        1
+      ]
+    ],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0003",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxskL2u3CAUhJ_GdGvhA8Z2QZHmvgbi59hL1gYEh1j79tHdFGluPaNvPo23hEeub017edyIr_P9qLmn0AsLWmyOr14x1NOyrhPwWSmGl42nOTBhtYTBWPqfSsEn9tQwiwXCJHAPfEc7IygvVXATbErOm2dRAwfFV8GBc5B8FCOu875s4ACVW8Cr0cntLJlokPw6HmEaW3eNrH-NPl8sNrNX_Lhoqh3ZqZ9EpQ3i1wBfA3zd9z3SE_fyqeeCyVC1_hXTYVovpWJrGDQr3Rmfr6unSG-DyboTwz9k6e6M3lLMycSgQXEhF1b175rfBQlry2mQ_PiW-Ky07kK-bEza2RpvjK0x-una3rB-Iye5qVmu7I-GvwEAAP__u22EBw"
+      },
+      {
+        "surface": "always_read",
+        "source": "The Transcript",
+        "headline": "Your payment receipt from The Transcript #JFBETEYM-0012",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxs0LvO4yAQBeCnMV0sczHGBcU2eQ3EZeywsQHBsFL26VdOmo3016M5883xFmHP9aVbd83XWDDmdKvgIRYkQfPVTcpLApouSgklxDIROG08zA4JqkUIxuJ_UykX8tBymx34QGfOaFCOb5Z5zmahvFB2oTOJmk1MTuskJkoFW0c-WrpsYvZOLFIGJunIVe9_bU2DmM79Fuh4IdH65-jzSWIzW4W3RWPtQA79QCxt4L8Gdh_YHR-A1abPW9-7uUAyWK1_xrSb1kup0BoETUp3xufz7Cniy0Cy7oDwyS_dHdHbqyETg-ZMzJRU_bvmVwGE2vIl3S_Q-0jrLuTTxqS_JAR_Lrs3qFcuFauchSJ_NPsXAAD__3l9jO4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "run_date": "2026-09-04",
+  "generated_at": "2026-09-04T15:43:32Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 89,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "72d4e094dc7aadff",
+      "headline": "UPDATED: Novartis halts autoimmune CAR-T trials after 3 deaths, as BMS also pauses studies",
+      "source": "Fierce Biotech",
+      "url": "https://www.fiercebiotech.com/biotech/novartis-bristol-myers-squibb-halt-car-t-cell-trials-due-immune-events",
+      "slot": 1,
+      "summary": "Novartis has halted eight autoimmune CAR-T clinical trials of rapcabtagene autoleucel (rap-cel) after three patient deaths from immune effector cell-associated hemophagocytic syndrome (IEC-HS) across indications including lupus, RA, MS, and myasthenia gravis. Bristol Myers Squibb simultaneously enacted a voluntary pause on its own autoimmune CAR-T program (zola-cel) due to transient inflammatory events. William Blair analysts highlighted that both halted programs use rapid manufacturing platforms, raising the hypothesis that accelerated manufacturing \u2014 rather than CAR-T biology in autoimmune disease broadly \u2014 may be responsible for the toxicity signal.",
+      "why_it_matters": "The dual halts create meaningful pipeline risk for NVS and BMS while the manufacturing-platform hypothesis could reshape competitive dynamics in the autoimmune cell therapy space, potentially benefiting players using conventional or in-vivo CAR-T approaches such as Cabaletta Bio and Fate Therapeutics.",
+      "signal_tags": [
+        "ticker_match:NVS",
+        "ticker_match:PSG",
+        "high_priority_source",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9bf5104419a6dfc9",
+      "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/way",
+      "slot": 2,
+      "summary": "Scuttleblurb dissects Waystar (WAY), a revenue cycle management software company embedded in the notoriously complex US healthcare billing system, where ~18% of claims are initially denied and administrative costs consume 15-25% of total healthcare spending. The piece explains the structural friction in healthcare payments \u2014 thousands of codes, multi-payer encounters, insurer-specific denial patterns \u2014 and frames why software sitting at this workflow bottleneck commands durable value. It positions Waystar's competitive moat relative to outsourced RCM players like R1 RCM and Ensemble, who serve only 10-20% of the market.",
+      "why_it_matters": "For investors, this is a high-quality moat analysis of a healthcare payments infrastructure company operating in a structurally sticky, underpenetrated market \u2014 precisely the kind of deep-diligence, investment-relevant writing the reader rates most highly.",
+      "signal_tags": [
+        "ticker_match:WAY",
+        "ticker_match:HCAT",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "deep_business_diligence",
+        "competitive_moat_analysis"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "51f7439dc2c1a9e6",
+      "headline": "GPT-6 Astra",
+      "source": "OpenAI (via Hacker News)",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "slot": 3,
+      "summary": "OpenAI has released GPT-6 Astra, its largest-ever training run, achieving near-saturation on FrontierMath Tier 4 (98%), ARC-AGI-3 (99.9%), and ExploitBench (100%), positioning it as a potential AGI milestone. The model sets new benchmarks in computer use, software engineering, and professional work \u2014 completing OSWorld 2.0 tasks 47% faster than its predecessor \u2014 while introducing novel safety mechanisms, including a 0% rate of unauthorized scope expansion versus 48% for GPT-5.6 Sol. Rollout is staged, beginning with vetted Daybreak Access partners before broad availability via ChatGPT tiers and API; advanced cybersecurity features are deliberately restricted under OpenAI's Preparedness Framework due to a 'Critical' threshold rating.",
+      "why_it_matters": "As the most capable foundational model released to date, GPT-6 Astra materially accelerates AI adoption curves across enterprise software and healthcare tech \u2014 directly affecting valuation assumptions for AI-enabled health tech companies (VEEV, HCAT) and the competitive moats of every portfolio company building on or competing with OpenAI's platform.",
+      "signal_tags": [
+        "novelty",
+        "high_hn_score:2000",
+        "catalyst_proximity",
+        "actionability",
+        "AI_impact"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "a220708875fda327",
+      "headline": "The state of AI in 2026: On the road to ROI",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f",
+      "slot": 4,
+      "summary": "McKinsey's 2026 State of AI report, drawing on 1,719 executives across 97 countries, finds 89% of organizations now deploy AI in at least one function and 44% have scaled enterprise-wide, yet only 6% qualify as true 'AI high performers' attributing 5%+ of EBIT to AI \u2014 a share flat year-over-year despite surging investment. A striking productivity paradox emerges: 80% of individual workers report gains, but only 37% of organizations see measurable EBIT impact. Agentic coding tools and tokenomics are flagged as the next frontier where high performers are pulling ahead.",
+      "why_it_matters": "The stubborn ROI gap quantified here is the central valuation question for every AI-enabled SaaS and health tech company in the portfolio, offering a data-backed framework for separating genuine compounders from adoption-story hype.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "data_infrastructure",
+        "structural_market_insight"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    }
+  ]
+}
