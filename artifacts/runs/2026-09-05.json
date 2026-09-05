@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-09-05",
+  "generated_at": "2026-09-05T14:30:36Z",
+  "counts": {
+    "gmail_items": 134,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "9bf5104419a6dfc9",
+      "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/way",
+      "slot": 1,
+      "summary": "Scuttleblurb dissects Waystar (WAY), a healthcare revenue cycle management platform that processes over 6 billion payment transactions annually and touches ~60% of U.S. providers. The piece explains why healthcare billing is structurally complex \u2014 with ~18% of claims initially denied, thousands of procedure codes, and payer-specific contract pricing \u2014 and how that complexity creates deep switching costs and workflow stickiness for RCM software vendors. The analysis frames Waystar's competitive positioning within the 80-90% of RCM activity that remains in-house at provider organizations, where AI-enabled automation is increasingly central.",
+      "why_it_matters": "Waystar is a direct ticker match in the health IT subsector, and this analysis provides the kind of structural moat and competitive positioning clarity that informs long-term investment conviction in a business with durable, complexity-driven switching costs.",
+      "signal_tags": [
+        "ticker_match:WAY",
+        "high_priority_source",
+        "analytical_depth",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "health_software_SaaS"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "1c39ceaf82763b08",
+      "headline": "Private equity confirms a timeless principle: Purchase price matters",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a06ccfe933b228e5f4bbcf76f8/824c98355444416c0000021ef3a0bcc2/824c9835-5444-416c-9ced-396243593897",
+      "slot": 2,
+      "summary": "McKinsey's analysis uses its proprietary private equity performance database to argue that entry valuation is the single strongest predictor of realized returns \u2014 outweighing operational improvements and exit multiple expansion. Top-quartile funds are shown to systematically avoid overpaying even in competitive deal environments. The piece contextualizes this finding against currently elevated buyout multiples in healthcare assets, raising questions about value creation in recent vintages.",
+      "why_it_matters": "For investors evaluating healthcare M&A or biopharma deal activity, this framework provides a rigorous, data-backed lens for assessing whether current deal multiples are structurally destructive to returns \u2014 directly actionable for portfolio valuation discipline.",
+      "signal_tags": [
+        "high_priority_source",
+        "private_markets_risks",
+        "deep_business_diligence",
+        "analytical_depth",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}

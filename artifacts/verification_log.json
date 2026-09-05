@@ -9646,5 +9646,86 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's large-scale 2026 AI survey surfaces a genuinely investment-relevant tension \u2014 widespread adoption versus flat ROI penetration \u2014 with specific, quantified findings that go beyond generic market commentary and align with the reader's strong interest in AI impact and data infrastructure."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/way",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb delivers a practitioner-level deep-dive into Waystar (WAY) with genuine analytical substance \u2014 structural complexity of healthcare billing, competitive moat framing, and AI-enabled automation tailwinds \u2014 that aligns squarely with Slot 1 healthcare/HIT criteria and the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Ionis' rare neurology drug Zanvastro approved by FDA \u2014 first disease-modifying therapy for Alexander disease",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/ionis-rare-neurology-drug-approved-pfizer-inks-an-adc-deal/829639/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a biopharma news roundup (Slot 1 territory) with thin, brief blurbs on multiple topics \u2014 it lacks the financial/macro depth required for Slot 2, and the Zanvastro approval story itself, while newsworthy, is a standard FDA approval notice without meaningful market structure, pricing, reimbursement, or macro analysis."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "The state of AI in 2026: On the road to ROI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a04e72a0b493c406369ff0b384/982d0fe31b2547ac0000021ef3a0bcc2/982d0fe3-1b25-47ac-a134-6c247cd8486f?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qic53L2KHxbpiqsiz0hjgDhIRtvEqPjpSeadTLL01QbgQKOhTgPaNkIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI slot article misassigned to Finance/Macro \u2014 McKinsey's State of AI report is substantive and data-rich but belongs in Slot 3, not Slot 2."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Spare a Thought for Broadcom Shareholders",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/spare-a-thought-for-broadcom-shareholders",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin teaser \u2014 the actual analytical substance (the NVDA/AVGO divergence breakdown) is locked behind a paywall, leaving only a setup paragraph and a cliffhanger, which violates the 'avoid paywalled content' rule and fails the depth requirement."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Friction and Feedback (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/friction-and-feedback",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter digest/table of contents with only brief teasers for each piece \u2014 it lacks substantive analysis and is essentially a promotional index of Stratechery content rather than a deep article suitable for Slot 2 Finance/Macro."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "UPDATED: Novartis halts autoimmune CAR-T trials after 3 deaths; Alnylam's silencer silver linings at ESC",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/premium/webinar/1382786?pk=biotechne-wb-090926-FBPMT-nl-081726&adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a promotional webinar advertisement about cell sorting techniques in neuroscience and genome engineering \u2014 it has no relation to the headline, the Novartis CAR-T safety halt, or Alnylam's ESC data, making the shortlist summary entirely fabricated relative to the delivered content."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Private equity confirms a timeless principle: Purchase price matters",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a06ccfe933b228e5f4bbcf76f8/824c98355444416c0000021ef3a0bcc2/824c9835-5444-416c-9ced-396243593897",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's proprietary PE performance database analysis on entry price as the dominant return driver is substantive, analytically deep, and directly relevant to the reader's strong interest in private markets, competitive moat analysis, and investment-relevant insights \u2014 and fits Slot 2's finance/macro mandate well."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Friction and Feedback (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/friction-and-feedback",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter table-of-contents/digest \u2014 a shallow summary of links with no substantive analysis included in the actual text, making it too thin to provide the analytical depth the reader profile requires."
+  },
+  {
+    "date": "2026-09-05",
+    "headline": "Oura files to go public, pitching investors on AI-driven preventive health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article has meaningful financial detail from the S-1 filing, it reads as a factual IPO news summary rather than the deep analytical or AI-technical content the reader profile demands for Slot 3 \u2014 it lacks insight into the actual AI/ML architecture, data moat quality, or competitive differentiation beyond S-1 marketing language, and the source (Fierce Healthcare) is not a priority Tech/AI domain."
   }
 ]
