@@ -794,6 +794,65 @@ class DailyReadsTests(unittest.TestCase):
         self.assertEqual(always_body["title"], "Always Item")  # falls back to subject
         self.assertIn("always-read", always_body["tags"])
 
+    def test_deliver_reader_skips_urls_already_in_reader(self):
+        """Reader does not dedupe by URL (measured 2026-09-06: two saves of one
+        URL return two ids), and the rolling delivered-id window ages out exactly
+        the long-lived always-read URLs that recur. The permanent reader_pushed
+        record is the only thing that prevents a duplicate push."""
+        resp = mock.Mock(status_code=201, headers={}, text="")
+        state = {"delivered": [], "reader_pushed": {"https://example.com/always": "2026-09-01"}}
+        with mock.patch.dict(os.environ, {"READWISE_TOKEN": "tok"}, clear=True):
+            with mock.patch.object(main.requests, "post", return_value=resp) as post:
+                main.deliver_reader(
+                    [{"url": "https://example.com/top", "headline": "Top Pick"}],
+                    [{"primary_url": "https://example.com/always", "subject": "Seen Before"}],
+                    state=state, today="2026-09-06",
+                )
+        self.assertEqual(post.call_count, 1)
+        self.assertEqual(post.call_args_list[0].kwargs["json"]["url"],
+                         "https://example.com/top")
+
+    def test_deliver_reader_records_what_it_pushed(self):
+        """And it must RECORD the push, or the skip above never engages. The
+        success branch used a local named `state`, which shadowed the ledger —
+        that would have left the fix looking correct and doing nothing."""
+        resp = mock.Mock(status_code=201, headers={}, text="")
+        state = {"delivered": [], "reader_pushed": {}}
+        with mock.patch.dict(os.environ, {"READWISE_TOKEN": "tok"}, clear=True):
+            with mock.patch.object(main.requests, "post", return_value=resp):
+                main.deliver_reader(
+                    [{"url": "https://example.com/a", "headline": "A"}],
+                    [{"primary_url": "https://example.com/b", "subject": "B"}],
+                    state=state, today="2026-09-06",
+                )
+        self.assertEqual(state["reader_pushed"],
+                         {"https://example.com/a": "2026-09-06",
+                          "https://example.com/b": "2026-09-06"})
+        self.assertIsInstance(state, dict)      # not rebound to a status string
+
+    def test_load_delivered_state_preserves_reader_pushed(self):
+        """load_delivered_state rebuilds a NEW dict, so a key it forgets to carry
+        is destroyed on the next save. reader_pushed must survive a round trip."""
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "delivered_state.json")
+            with open(p, "w", encoding="utf-8") as fh:
+                json.dump({"delivered": [{"id": "x", "date": "2026-09-01"}],
+                           "reader_pushed": {"https://e.com/1": "2026-08-01"}}, fh)
+            st = project_data.load_delivered_state(p)
+        self.assertEqual(st["reader_pushed"], {"https://e.com/1": "2026-08-01"})
+        self.assertTrue(project_data.reader_already_pushed(st, "https://e.com/1"))
+        self.assertFalse(project_data.reader_already_pushed(st, "https://e.com/2"))
+
+    def test_legacy_state_without_reader_pushed_loads_clean(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "delivered_state.json")
+            with open(p, "w", encoding="utf-8") as fh:
+                json.dump({"delivered": [{"id": "x", "date": "2026-09-01"}]}, fh)
+            st = project_data.load_delivered_state(p)
+        self.assertEqual(st["reader_pushed"], {})
+
     def test_deliver_reader_skips_items_without_url(self):
         resp = mock.Mock(status_code=200, headers={}, text="")
         with mock.patch.dict(os.environ, {"READWISE_TOKEN": "tok"}, clear=True):

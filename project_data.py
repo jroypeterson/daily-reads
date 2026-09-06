@@ -60,11 +60,18 @@ DELIVERED_MAX_IDS = 600
 
 
 def load_delivered_state(path: str = DELIVERED_STATE_PATH) -> dict:
-    """Load the rolling delivered-id state. Malformed/legacy files degrade to
-    an empty ledger rather than raising."""
+    """Load the delivered state: the rolling id ledger AND the permanent
+    Reader-push record. Malformed/legacy files degrade to empty rather than
+    raising, and a file written before `reader_pushed` existed simply has none.
+
+    Both keys are rebuilt explicitly. This function returns a NEW dict rather
+    than the parsed file, so anything it forgets to carry across is destroyed
+    on the next save -- which is exactly how `reader_pushed` would have been
+    lost had it been added to the writer alone.
+    """
     data = load_json(path, {})
     if not isinstance(data, dict):
-        return {"delivered": []}
+        return {"delivered": [], "reader_pushed": {}}
     entries = data.get("delivered")
     if not isinstance(entries, list):
         entries = []
@@ -73,7 +80,43 @@ def load_delivered_state(path: str = DELIVERED_STATE_PATH) -> dict:
         for e in entries
         if isinstance(e, dict) and e.get("id")
     ]
-    return {"delivered": clean}
+    pushed = data.get("reader_pushed")
+    if not isinstance(pushed, dict):
+        pushed = {}
+    pushed = {str(k): str(v) for k, v in pushed.items() if k}
+    return {"delivered": clean, "reader_pushed": pushed}
+
+
+# ---------------------------------------------------------------------------
+# Permanent record of what has been pushed to Readwise Reader
+#
+# SEPARATE FROM THE ROLLING LEDGER ABOVE, AND DELIBERATELY UNBOUNDED.
+#
+# Reader does NOT dedupe by URL -- measured 2026-09-06 with a controlled probe,
+# two saves of one URL return two different document ids. The rolling window
+# cannot stand in for that: an always-read source keeps listing the same URL
+# (a quarterly letter sits on a fund's page for months), so it ages out of the
+# window and would be pushed again.
+#
+# This is PREVENTIVE. A sweep on the day it was added found no duplicates in the
+# library -- the window had held so far. It is here because the window's cover is
+# accidental and fails on exactly the long-lived items always-read is made of.
+#
+# Pruning this by date would reintroduce the bug on exactly the items it
+# exists to protect -- the long-lived ones. It grows by at most a handful of
+# URLs a day, which is nothing next to the duplicates it prevents.
+# ---------------------------------------------------------------------------
+
+
+def reader_already_pushed(state: dict, url: str) -> bool:
+    return bool(url) and str(url) in (state.get("reader_pushed") or {})
+
+
+def record_reader_push(state: dict, url: str, today: str) -> dict:
+    """Remember that `url` is now in Reader. Never pruned -- see above."""
+    if url:
+        state.setdefault("reader_pushed", {})[str(url)] = today
+    return state
 
 
 def recently_delivered_ids(

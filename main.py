@@ -22,8 +22,10 @@ from project_data import (
     load_delivered_state,
     load_json,
     normalize_url,
+    reader_already_pushed,
     recently_delivered_ids,
     record_delivered,
+    record_reader_push,
     run_artifact_path,
     save_delivered_state,
     save_json,
@@ -2478,7 +2480,8 @@ def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None
     print(f"\nCreated {created}/{len(tasks)} tasks in TickTick.")
 
 
-def deliver_reader(articles: list[dict], always_read: list[dict] | None = None):
+def deliver_reader(articles: list[dict], always_read: list[dict] | None = None,
+                   state: dict | None = None, today: str | None = None):
     """Push the day's top picks + always-read items into Readwise Reader so
     they're queued to read in the app.
 
@@ -2487,10 +2490,21 @@ def deliver_reader(articles: list[dict], always_read: list[dict] | None = None):
     interactive MCP servers. Auth is the static personal token in READWISE_TOKEN
     (header `Authorization: Token <token>`), distinct from the OAuth/Bearer MCP.
 
-    The save endpoint is idempotent on URL (200 = already saved, 201 = created),
-    so re-running the same day does not create duplicates. Both lists land in
-    `location` (default 'later'); items are tagged so they're filterable in
-    Reader ('daily-reads' + 'top-pick'/'always-read').
+    **READER DOES NOT DEDUPE BY URL — this docstring claimed it did, and it is
+    false.** Measured 2026-09-06 with a controlled probe: saving one URL twice
+    returns two different document ids, for a real https URL and a synthetic one
+    alike. The 200-vs-201 reading was wrong.
+
+    Nothing has actually duplicated yet: a full sweep the same day found 0
+    repeated source_urls across the 316 daily-reads documents. The hole is real
+    but latent, because the delivered-id ledger excludes on a ROLLING WINDOW and
+    has so far covered it. It cannot be relied on to: an always-read source that
+    keeps listing the same URL (a quarterly letter sitting on a fund's page for
+    months) ages out of the window and would be pushed again. `reader_pushed`
+    below is the permanent record that closes it.
+
+    Both lists land in `location` (default 'later'); items are tagged so they're
+    filterable in Reader ('daily-reads' + 'top-pick'/'always-read').
     """
     section("DELIVERY: READWISE READER")
     token = os.environ.get("READWISE_TOKEN")
@@ -2541,6 +2555,15 @@ def deliver_reader(articles: list[dict], always_read: list[dict] | None = None):
             "tags": ["daily-reads", "always-read"],
         })
 
+    # Drop anything already in Reader. This is the ONLY thing preventing
+    # duplicates: Reader does not dedupe by URL, and the rolling delivered-id
+    # window ages out exactly the long-lived always-read URLs that recur.
+    if state is not None:
+        before = len(saves)
+        saves = [p for p in saves if not reader_already_pushed(state, p["url"])]
+        if before != len(saves):
+            print(f"  Skipped {before - len(saves)} URL(s) already in Reader.")
+
     if not saves:
         print("No URLs to push to Reader.")
         return
@@ -2581,8 +2604,13 @@ def deliver_reader(articles: list[dict], always_read: list[dict] | None = None):
 
         if resp.status_code in (200, 201):
             saved += 1
-            state = "created" if resp.status_code == 201 else "exists"
-            print(f"  ✓ ({state}) {payload['title']}")
+            # NOT named `state`: that name holds the ledger in this scope now,
+            # and rebinding it here would silently disable the dedupe after the
+            # first successful save — the bug would look fixed and not be.
+            outcome = "created" if resp.status_code == 201 else "exists"
+            if state is not None:
+                record_reader_push(state, payload["url"], today or "")
+            print(f"  ✓ ({outcome}) {payload['title']}")
         elif resp.status_code in (401, 403):
             bad_token = True
             print(f"  ✗ {resp.status_code} — READWISE_TOKEN rejected.")
@@ -3041,7 +3069,9 @@ def main():
         deliver_slack(articles, triage_queue, always_read, substack_items, journal_watch)
         deliver_pages(articles, triage_queue, always_read, substack_items, journal_watch)
         deliver_ticktick(articles, always_read)
-        deliver_reader(articles, always_read)
+        # `delivered_state` is loaded above and saved below, so the permanent
+        # reader_pushed record this fills in is persisted by the same write.
+        deliver_reader(articles, always_read, state=delivered_state, today=today)
         deliver_log(articles)
         deliver_triage_log(triage_queue)
         artifacts_produced.append(f"docs/{today}.html")
