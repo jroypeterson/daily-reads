@@ -9727,5 +9727,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "While the article has meaningful financial detail from the S-1 filing, it reads as a factual IPO news summary rather than the deep analytical or AI-technical content the reader profile demands for Slot 3 \u2014 it lacks insight into the actual AI/ML architecture, data moat quality, or competitive differentiation beyond S-1 marketing language, and the source (Fierce Healthcare) is not a priority Tech/AI domain."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Ionis wins FDA approval for first drug for Alexander disease, a rare and deadly neurological disorder",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a concrete FDA approval catalyst for IONS with meaningful investment angles \u2014 solo commercial launch strategy, antisense RNA platform validation, Rare Pediatric Disease PRV voucher optionality, and the Recordati licensing deal \u2014 all substantive and actionable for a biopharma-focused reader."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "UPDATED: Novartis halts autoimmune CAR-T trials after 3 deaths, as BMS also pauses studies",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/novartis-bristol-myers-squibb-halt-car-t-cell-trials-due-immune-events",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive healthcare/biotech story with real depth, but it belongs squarely in Slot 1 (Healthcare/Biopharma), not Slot 2 (Finance/Macro), as it covers clinical trial safety events and pipeline news rather than macro moves, earnings, or market-level dynamics."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "[scuttleslops] VEEV, CRM, WDAY, SNPS, NVDA",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/scuttleslops-9326",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb provides deep, practitioner-level earnings analysis on VEEV with a structurally important thesis about Falcon's agentic AI shifting revenue from IT budgets to labor/outsourcing budgets \u2014 directly actionable for health-tech investors and highly aligned with the reader's strong preferences for analytical depth, data infrastructure, and AI impact."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Bypassing RevenueBench to Buy the Feedback Loop",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/bypassing-revenuebench-to-buy-the",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on Meta's data-for-access strategy, grounding its thesis in concrete metrics (token share, 5T tokens/day) and benchmarking against Google's own stated feedback loop numbers \u2014 directly relevant to AI competitive moat analysis in Slot 3."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Novartis, Ionis drug failure spurs questions about an emerging class of heart medicines",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novartis-ionis-pelacarsen-lpa-horizon-study-results-fail/829736/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive healthcare/biotech article but belongs squarely in Slot 1 (Healthcare/Biopharma), not the Wildcard slot \u2014 it covers a major Phase 3 clinical trial failure with direct ticker implications for IONS, NVS, Amgen, and Eli Lilly, and lacks the cross-domain, curiosity-driven, or consulting-insight character required for Slot 4."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "AI Ambition Is Universal. Winning Isn't. \u2014 The Agentic Leadership Playbook",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGkBlhGuHWgSYGrY0ZlmtxqnTz0SEbUy85777SjjvrORLN5jr5qIvHNji4qRTSdaQ9MxH3fcEU=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a BCG marketing email/newsletter wrapper with only surface-level teaser copy and tracked redirect links \u2014 there is no substantive analytical content visible, just headlines, one-line descriptions, and CTAs like 'RETHINK THE COO ROLE' pointing to gated or tracked destinations."
+  },
+  {
+    "date": "2026-09-06",
+    "headline": "Smart ring maker Oura files to go public, pitching investors on AI-driven preventive health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a straightforward IPO news report with solid financial detail but lacks the analytical depth, investment framework, or cross-domain insight required to pass the 'would I forward this?' test for the Wildcard slot \u2014 it reads as a well-reported news item rather than a deep business analysis or surprising insight."
   }
 ]

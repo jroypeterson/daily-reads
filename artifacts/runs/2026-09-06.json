@@ -1,0 +1,68 @@
+{
+  "run_date": "2026-09-06",
+  "generated_at": "2026-09-06T14:52:45Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 75,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6bd9f4f9f9552dba",
+      "headline": "Ionis wins FDA approval for first drug for Alexander disease, a rare and deadly neurological disorder",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/",
+      "slot": 1,
+      "summary": "The FDA approved Ionis Pharmaceuticals' Zanvastro (zilganersen) as the first disease-modifying treatment for Alexander disease, a rare and often fatal progressive neurological disorder, arriving more than two weeks ahead of its September 22 PDUFA date. The approval marks Ionis's first independent neurology commercial launch, testing the company's solo go-to-market strategy after previously partnering with AstraZeneca and Biogen. Ionis also stands to receive a Rare Pediatric Disease Priority Review Voucher, which can be sold on the open market for hundreds of millions of dollars, and has already licensed ex-U.S. rights to Recordati for $30M upfront plus royalties.",
+      "why_it_matters": "The early approval de-risks IONS's solo-launch pivot and unlocks a potentially high-value PRV voucher sale, making this a near-term binary catalyst with meaningful balance sheet and platform-credibility implications for investors watching the antisense RNA space.",
+      "signal_tags": [
+        "ticker_match:IONS",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8c2c8d7b1b8c5111",
+      "headline": "[scuttleslops] VEEV, CRM, WDAY, SNPS, NVDA",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/scuttleslops-9326",
+      "slot": 2,
+      "summary": "Scuttleblurb's earnings digest leads with Veeva Systems, where commercial and CRM revenue are growing better than feared post-Salesforce split, with 180+ customers live on Vault CRM versus zero live on Salesforce's competing offering. More consequentially, Veeva's new 'Falcon' agentic AI product repositions the company from selling software tools to selling agentic labor in regulated life-sciences functions \u2014 competing against salary and outsourcing budgets in clinical, safety, and regulatory workflows rather than IT budgets. Management argues Falcon's deployment is faster than conventional enterprise software since it requires no system cutover or data migration, potentially accelerating time-to-value for early customers.",
+      "why_it_matters": "The Falcon framing \u2014 software-as-labor rather than software-as-tool \u2014 is a material thesis shift for VEEV's long-term revenue ceiling and competitive moat, with direct implications for position sizing in health-tech and AI-in-enterprise portfolios.",
+      "signal_tags": [
+        "ticker_match:VEEV",
+        "ticker_match:NVDA",
+        "high_priority_source",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9874c32f18045f97",
+      "headline": "Bypassing RevenueBench to Buy the Feedback Loop",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/bypassing-revenuebench-to-buy-the",
+      "slot": 3,
+      "summary": "MBI Deep Dives argues that Meta is deliberately bypassing near-term revenue metrics by offering its frontier coding models free in exchange for training data rights, resulting in its token share on OpenCode surging from 25% to 40% and exceeding 5 trillion tokens per day \u2014 nearly double what Google reported for its internal coding harness just months ago. The piece contextualizes this as a rational long-term strategy: proprietary feedback loops from high-quality coding data may compound model quality faster than monetization, and Meta also saves billions in API costs to Anthropic and OpenAI by improving its own models. The author frames a broader thesis that in an era of saturating benchmarks, 'RevenueBench' and data feedback loops are becoming the more reliable signal of AI competitive positioning.",
+      "why_it_matters": "For investors evaluating AI platform durability, this piece offers a sharp analytical framework for why data flywheel strategies \u2014 not near-term API revenue \u2014 may determine which AI companies compound versus commoditize, with direct implications for Meta, Anthropic, and Google positioning.",
+      "signal_tags": [
+        "high_priority_source",
+        "analytical_depth",
+        "AI_impact",
+        "data_infrastructure",
+        "novelty"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
