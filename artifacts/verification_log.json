@@ -9790,5 +9790,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a straightforward IPO news report with solid financial detail but lacks the analytical depth, investment framework, or cross-domain insight required to pass the 'would I forward this?' test for the Wildcard slot \u2014 it reads as a well-reported news item rather than a deep business analysis or surprising insight."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/way",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb delivers practitioner-grade, analytically deep competitive moat analysis of Waystar (WAY) in healthcare RCM software, directly matching the reader's strong preferences for competitive moat analysis, health software SaaS, AI impact, and analytical depth \u2014 and fitting Slot 1 as a health IT/SaaS coverage-universe name."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Ionis wins FDA approval for first drug for Alexander disease, a rare and deadly neurological disorder",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Slot 1 Healthcare/Biopharma article (FDA approval of an IONS drug) with no macro or finance angle \u2014 it does not belong in the Finance/Macro slot."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Bypassing RevenueBench to Buy the Feedback Loop",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/bypassing-revenuebench-to-buy-the",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and clear reader taste alignment, this article belongs squarely in Slot 3 (Tech/AI) rather than Slot 2 (Finance/Macro) \u2014 it is fundamentally about AI competitive dynamics, data feedback loops, and model strategy, not macro, earnings, or market structure."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Friction and Feedback (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/friction-and-feedback",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter index/table-of-contents with only brief teaser blurbs for each piece \u2014 it lacks substantive depth on any topic and contains no real analysis, data, or actionable insight in the article itself."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Spare a Thought for Broadcom Shareholders",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/spare-a-thought-for-broadcom-shareholders",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely a teaser/preview with the substantive analysis locked behind a paywall \u2014 the free portion is thin, consisting mainly of two charts and a rhetorical setup without delivering the actual analytical depth promised."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Healthcare Dealmakers\u2014UHS closes Talkspace acquisition, Sanford's North Memorial deal clears and more",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/healthcare-dealmakers-uhs-closes-talkspace-acquisition-sanfords-north-memorial-deal-clears",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a broad M&A roundup with thin summaries of 20+ deals \u2014 it lacks the analytical depth, structural insight, or forward-looking investment thesis that the reader profile strongly favors, functioning more as a news aggregator than a substantive finance/macro piece."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Smart ring maker Oura files to go public, pitching investors on AI-driven preventive health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a solid IPO filing summary but fits Slot 1 (Healthcare/Digital Health) or Slot 4 (Wildcard) more naturally than Slot 2 Finance/Macro, and while substantive, it reads as a news summary of an S-1 rather than the deep analytical or macro-oriented content the reader profile favors \u2014 lacking the structural market insight, investment process depth, or macro framing that would earn a Slot 2 selection."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Bypassing RevenueBench to Buy the Feedback Loop",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/bypassing-revenuebench-to-buy-the",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth on a structurally important AI competitive dynamics insight \u2014 Meta's strategy of trading free model access for training data feedback loops \u2014 with concrete data points (OpenCode token share, 5T tokens/day) and clear investment implications for Meta, Anthropic, and frontier model players."
+  },
+  {
+    "date": "2026-09-07",
+    "headline": "Smart ring maker Oura files to go public, pitching investors on AI-driven preventive health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/digital-health/smart-ring-maker-oura-files-go-public-pitching-investors-ai-driven-preventive-health",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article contains real S-1 financial detail and is substantive, it reads as a straightforward IPO news summary rather than deep analytical content \u2014 it lacks the investment thesis depth, competitive moat analysis, or cross-domain insight required to pass the 'would I forward this?' wildcard test for a reader who prizes analytical depth and structural market insight over news recaps."
   }
 ]

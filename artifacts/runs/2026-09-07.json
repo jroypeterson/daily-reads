@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-09-07",
+  "generated_at": "2026-09-07T17:06:36Z",
+  "counts": {
+    "gmail_items": 138,
+    "tier2_items": 86,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "9bf5104419a6dfc9",
+      "headline": "[WAY \u2013 Waystar] Healthcare is a very complicated invoice",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/way",
+      "slot": 1,
+      "summary": "Scuttleblurb provides a deep-dive into Waystar (WAY), examining the extraordinary complexity of US healthcare billing \u2014 where ~18% of claims are initially denied, procedures carry dozens of different prices across payers, and administrative costs consume 15-25% of total healthcare spend. The piece dissects how Waystar's clearinghouse network and AI-powered denial management tools sit at the center of the claim-to-cash (RCM) workflow, processing a data-rich, high-stakes process that creates meaningful switching costs. The analysis frames Waystar's competitive moat as a function of network effects, workflow embeddedness, and the structural intractability of the billing problem itself.",
+      "why_it_matters": "For investors, this is the definitive independent moat assessment of WAY at a pivotal moment in the AI-RCM narrative, offering actionable insight into whether Waystar's competitive position is durable or vulnerable to disruption.",
+      "signal_tags": [
+        "ticker_match:WAY",
+        "ticker_match:HCAT",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "deep_business_diligence",
+        "competitive_moat_analysis",
+        "health_software_SaaS"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9874c32f18045f97",
+      "headline": "Bypassing RevenueBench to Buy the Feedback Loop",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/bypassing-revenuebench-to-buy-the",
+      "slot": 3,
+      "summary": "MBI Deep Dives introduces 'RevenueBench' as the emerging true benchmark for AI model quality \u2014 real-world wallet share \u2014 while arguing traditional benchmarks are becoming noisy and saturated. Meta is deliberately bypassing RevenueBench by giving away its latest models free in exchange for developer training data, rapidly capturing ~40% of tokens on OpenCode (5 trillion tokens/day), approaching twice Google's internal coding harness volume. This feedback loop strategy lets Meta compound model quality without charging for it, while also reducing its ~$10B annual spend on Anthropic and OpenAI APIs.",
+      "why_it_matters": "For investors, this reframes the AI competitive moat question away from benchmark performance toward data flywheel accumulation \u2014 with direct implications for Meta's long-term AI cost structure, Anthropic's revenue durability, and the viability of frontier model pricing power.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "data_infrastructure",
+        "AI_and_biology_intersection"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
