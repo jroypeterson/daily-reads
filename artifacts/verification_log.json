@@ -9871,5 +9871,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "While the article contains real S-1 financial detail and is substantive, it reads as a straightforward IPO news summary rather than deep analytical content \u2014 it lacks the investment thesis depth, competitive moat analysis, or cross-domain insight required to pass the 'would I forward this?' wildcard test for a reader who prizes analytical depth and structural market insight over news recaps."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Novartis RNA Drug Falls Short in Rare Muscle Disease Study ($12B Avidity Flop)",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novartis-rna-drug-failure-dm1-avidity-del-desiran/829778/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering a major Phase 3 failure with direct M&A due diligence implications, competitive landscape read-throughs to Dyne Therapeutics, analyst reactions from multiple banks, and platform-level risk assessment \u2014 all clearly fitting Slot 1 Healthcare/Biotech."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "AI Bottlenecks \u2014 Only ~5GW of Roughly 16GW of Announced US 2026 AI Capacity Has Been Delivered",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article content is a thin executive-quote aggregator with only a brief public summary visible \u2014 the substantive AI bottleneck analysis (5GW vs 16GW, transformer backlogs, hyperscaler capex) is locked behind a paywall and not present in the article text, making the shortlist summary materially inaccurate and the piece too thin to justify selection."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "AlphaGenome Atlas: Predictive Map of Every DNA Letter Change in the Human Genome",
+    "source": "Google DeepMind (via Hacker News / blog.google)",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI or Healthcare/Biology article about a genomics AI tool \u2014 it has no Finance/Macro content and does not belong in Slot 2, and its best home is Slot 3 (Tech/AI) given it centers on a Google DeepMind foundational model release."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Bypassing RevenueBench to Buy the Feedback Loop",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/bypassing-revenuebench-to-buy-the",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite genuine analytical depth and strong reader taste alignment, this article is fundamentally a Tech/AI piece about Meta's data flywheel strategy \u2014 not a Finance/Macro piece \u2014 and belongs in Slot 3."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "Mistral Raises \u20ac3B in Europe's Largest-Ever Tech Funding Round at \u20ac21B Valuation",
+    "source": "Hacker News / Mistral.ai",
+    "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a press release / funding announcement with thin analytical substance \u2014 it reads as corporate marketing copy celebrating the round rather than offering macro insight, competitive analysis, or investment-relevant depth that would serve Slot 2."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "FDA Approves AstraZeneca Breast Cancer Drug (SERD) \u2014 Overcomes Adcomm Defeat",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/08/biotech-news-fda-approves-astrazeneca-breast-cancer-drug/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a thin newsletter roundup from STAT News covering multiple biopharma items with no analytical depth, and it belongs in Slot 1 (Healthcare/Biotech) rather than Slot 2 (Finance/Macro), as it reports a regulatory approval event rather than market structure, reimbursement, or macro finance themes."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "[scuttleslops] VEEV, CRM, WDAY, SNPS, NVDA",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a fragmented feed of scuttleslops snippet previews \u2014 brief earnings call summaries for Zoetis, Adyen, Booking Holdings, and others \u2014 rather than the substantive comparative analysis of VEEV, CRM, WDAY, SNPS, and NVDA described in the shortlist summary, making the actual content too thin and mismatched to justify selection."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "The Market Forces Quietly Adding Thousands to Patient Bills (Vertical Integration in Healthcare)",
+    "source": "KFF Health News",
+    "url": "https://kffhealthnews.org/news/vertical-integration-high-health-costs-prices-hospital-mergers-pharmacies-pbms/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a well-reported investigative piece but fits Slot 1 (Healthcare/Biopharma) better than Slot 2 (Finance/Macro), and while substantive, it reads as policy/consumer advocacy journalism rather than the structural market analysis or investment-oriented depth the reader profile demands for a finance slot."
+  },
+  {
+    "date": "2026-09-08",
+    "headline": "AlphaGenome Atlas: Predictive Map of Every DNA Letter Change in the Human Genome",
+    "source": "Google DeepMind (via Hacker News / blog.google)",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "AlphaGenome Atlas is a substantive, foundational AI-biology infrastructure announcement with direct relevance to genomics-driven drug discovery and the reader's strong interest in the AI-biology intersection and data infrastructure."
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-09-08",
+  "generated_at": "2026-09-08T15:55:48Z",
+  "counts": {
+    "gmail_items": 129,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "7fe85724f3a5b5a8",
+      "headline": "Novartis RNA Drug Falls Short in Rare Muscle Disease Study ($12B Avidity Flop)",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/novartis-rna-drug-failure-dm1-avidity-del-desiran/829778/",
+      "slot": 1,
+      "summary": "Novartis's del-desiran, the lead asset from its $12B Avidity Biosciences acquisition, failed its Phase 3 HARBOR trial in myotonic dystrophy type 1, missing the primary endpoint of video hand-opening time. The failure \u2014 Novartis's third clinical setback in a week \u2014 sent shares down over 13% and prompted Jefferies to question both the AOC platform thesis and Novartis's M&A due diligence, given that alternative DM1 approaches were available at the time of acquisition. Dyne Therapeutics also fell 22% on read-through risk, with Cantor Fitzgerald cutting its probability of success on Dyne's DM1 candidate from 50% to 25% due to shared endpoint variability concerns.",
+      "why_it_matters": "The failure undermines the antibody-oligonucleotide conjugate platform thesis that underpinned a $12B bet and reshuffles DM1 competitive dynamics, with direct valuation implications for RNA/oligo platform companies across the sector and pressure on Novartis to accelerate further M&A ahead of its 2030 patent cliff.",
+      "signal_tags": [
+        "ticker_match:NVS",
+        "ticker_match:DRUG",
+        "ticker_match:RARE",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "dff4df6693595c68",
+      "headline": "AlphaGenome Atlas: Predictive Map of Every DNA Letter Change in the Human Genome",
+      "source": "Google DeepMind (via Hacker News / blog.google)",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "slot": 3,
+      "summary": "Google DeepMind has launched AlphaGenome Atlas, a free 1-petabyte database pre-computing the predicted molecular effects of all 9 billion possible single-nucleotide variants in the human genome, covering the previously intractable 98% noncoding region. The platform introduces an AlphaGenome Variant Impact (AVI) score to help researchers prioritize variants without coding skills, and early results show a 22% increase in non-coding genetic associations discovered in 54,000+ UK Biobank participants. Real-world applications already include solving rare disease cases at the Broad Institute and identifying 19 BMI-linked genetic regions.",
+      "why_it_matters": "This is a foundational AI-biology infrastructure event that dramatically lowers the cost of noncoding variant interpretation, accelerating target identification and rare disease diagnostics for precision medicine and genomics-driven drug discovery companies across the coverage universe.",
+      "signal_tags": [
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "novelty",
+        "health_technology_datasets",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    }
+  ]
+}

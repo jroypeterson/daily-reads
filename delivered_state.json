@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "02af68d8db9de695",
-      "date": "2026-08-24"
-    },
-    {
-      "id": "0c4376a6164de838",
-      "date": "2026-08-24"
-    },
-    {
       "id": "a74296aa9984e4c0",
       "date": "2026-08-25"
     },
@@ -123,6 +115,14 @@
     {
       "id": "9874c32f18045f97",
       "date": "2026-09-06"
+    },
+    {
+      "id": "7fe85724f3a5b5a8",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "ac6e26fea5164694",
+      "date": "2026-09-08"
     }
   ],
   "reader_pushed": {
@@ -140,6 +140,10 @@
     "https://aletteraday.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Faletteraday.substack.com%2Fp%2Fanthology-5-tim-cook": "2026-09-07",
     "https://valueinvestorinsight.com/Content_Premium/investor-insight-living-with-uncertainty-august-2026.aspx": "2026-09-07",
     "https://mbideepdives.substack.com/p/the-left-tail-of-ai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTI4NzExOTEsImlhdCI6MTc4ODE5MDcyOSwiZXhwIjoxNzkwNzgyNzI5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.WsbY5wLm0TjAbmbPKYHro_oHON0bj15MmEx2oZ6QvCo": "2026-09-07",
-    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F08-31-2026-hall-of-mirrors": "2026-09-07"
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F08-31-2026-hall-of-mirrors": "2026-09-07",
+    "https://www.biopharmadive.com/news/novartis-rna-drug-failure-dm1-avidity-del-desiran/829778/": "2026-09-08",
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/": "2026-09-08",
+    "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ3MTUxNzcsImlhdCI6MTc4ODg2OTg4NSwiZXhwIjoxNzkxNDYxODg1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ZXn8FBqM74rG8TBc9VODNDxBvu__8XC_1o4-QIgPL18": "2026-09-08",
+    "https://aletteraday.substack.com/p/letter-342-eileen-gu-and-jay-shetty?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTM3ODMwODYsImlhdCI6MTc4ODgzMzMwNiwiZXhwIjoxNzkxNDI1MzA2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.gdSz0hK9TOHLfRBQARMxExhzMCKRG4tqjHxcqe9hPv0": "2026-09-08"
   }
 }

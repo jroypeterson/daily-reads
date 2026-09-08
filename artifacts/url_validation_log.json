@@ -2112,5 +2112,27 @@
         "url": "https://email.mg-d1.substack.com/c/eJxskLuu3SAURL_GdMfC2OZRUKS5v4E2sO1DbAPiEcv5-uieFGlSz2jN0jhouKfy6Lbl1414nM-rpB59z8TrWVkqHSeoJyGlYOu0coIXhNPsGLFAQ2-g_UsXpTh5a_ACBM4bzBuXs7fb5IWX4LgFJWECEjSjjFNFOaOUMTXOI8p1E4pZhtwK5viI5cDfl72HhV77y09j7bY2cMfo0kVCNVvBj4tupSM59bu1XIf5x8C-BvZ13_fY3rjlTz1ljKYVcEeIu6k954K1otckd2tcuq4eQ3sMRrAn-r_I3O0ZHLSQogleM07nRZCif5b0ZGxYaorDQvdvic9K7danC0LUFkq4MdRK2v-u7RXLN3JaFF8XSX5p9icAAP__lzaFtw"
       }
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "checked_unique": 49,
+    "checked_slots": 53,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "The Transcript",
+        "headline": "Your payment receipt from The Transcript #JFBETEYM-0012",
+        "url": ""
+      }
+    ]
   }
 ]
