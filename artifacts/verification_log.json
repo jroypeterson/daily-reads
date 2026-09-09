@@ -9952,5 +9952,95 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "AlphaGenome Atlas is a substantive, foundational AI-biology infrastructure announcement with direct relevance to genomics-driven drug discovery and the reader's strong interest in the AI-biology intersection and data infrastructure."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "UnitedHealth's Optum enters 'strategic partnership' for Florida clinics",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/m-and-a/unitedhealths-optum-enters-strategic-partnership-for-florida-clinics/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief relying heavily on a Bloomberg report, offering little original depth or analytical substance beyond a few quotes and basic financial figures \u2014 insufficient for Slot 1 given the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "AI Bottlenecks",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a paywalled weekly digest with only a thin public section of earnings call quotes; it does not match the Healthcare/Biotech slot, and the shortlist summary overstates the article's actual content (the full text visible does not contain the specific 5GW/16GW data center capacity figures described)."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "[scuttleslops] UNP-NSC merger, HEI, NVDA, AVGO, DG, DLTR",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a multi-topic 'scuttleslops' roundup covering railroads (UNP-NSC), semiconductors (NVDA, AVGO), payments (Adyen, Visa/Mastercard), animal health (Zoetis), and software (Veeva), with no meaningful healthcare/biotech content that would qualify for Slot 1."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Can AI fix health care? In the chaos of emergency rooms, the technology comes up short",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "While the article raises a genuinely important structural critique of AI-in-healthcare hype, it fits Slot 3 (Tech/AI) more naturally than Slot 1 (Healthcare/Biotech), which prioritizes FDA decisions, clinical trial data, M&A, and pipeline news with near-term investment catalysts \u2014 and the reader's AVOID patterns flag niche operational pieces without clear ticker-level actionability."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "FDA gains 'continuity' as Mikhail, Davis named permanent CBER, CDER leaders",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-mikhail-davis-cber-cder-director-hhs/829886/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance \u2014 it names specific permanent appointees, includes analyst commentary from RBC's Brian Abrahams with investment implications, contextualizes the turbulent leadership history, and flags forward-looking signals (commissioner confirmation risk, psychedelics angle for Lilly) that are directly actionable for biopharma investors."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "AI Bottlenecks",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The visible article content is a thin digest of earnings call quotes with no analytical depth \u2014 the substantive AI bottleneck analysis (the 5GW vs. 16GW data) is gated behind a premium paywall, leaving only a surface-level macro summary that doesn't meet the depth standard or match the shortlist's claims."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "[scuttleslops] UNP-NSC merger, HEI, NVDA, AVGO, DG, DLTR",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is a fragment-laden preview page of multiple Scuttleblurb posts with only teaser-level content for each topic (UNP-NSC, NVDA, AVGO, DG, DLTR), none of which contain substantive analytical depth \u2014 the full paywalled content is inaccessible, making the article effectively too thin to evaluate or deliver value to the reader."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Oil tops $100",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-09-09/brent-oil-hits-100-as-us-iran-war-shows-little-sign-of-abating",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The full article text is effectively a paywall stub \u2014 it contains only Bloomberg's navigation boilerplate and a brief headline teaser, with no substantive analysis of oil markets, inflation dynamics, or macro implications, making it too thin for any slot."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is an opinion/editorial piece on clinical AI capabilities and fits Slot 1 (Healthcare) or Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro), and while substantive, it lacks the investment-thesis depth, market structure analysis, or financial implications needed for the finance slot."
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Can AI fix health care? In the chaos of emergency rooms, the technology comes up short",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth \u2014 grounded in a real study from Brigham and Women's Hospital \u2014 and delivers a nuanced, evidence-based critique of AI ambient scribes in the ER, directly relevant to evaluating health IT and AI-in-healthcare investment theses."
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-09-09",
+  "generated_at": "2026-09-09T15:49:34Z",
+  "counts": {
+    "gmail_items": 129,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "ee6cac23add11bc0",
+      "headline": "FDA gains 'continuity' as Mikhail, Davis named permanent CBER, CDER leaders",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/fda-mikhail-davis-cber-cder-director-hhs/829886/",
+      "slot": 1,
+      "summary": "HHS has named Michael Davis and Karim Mikhail as permanent directors of CDER and CBER respectively, ending a prolonged period of FDA leadership instability marked by five CDER directors in one year and Vinay Prasad's controversial tenure at CBER. RBC analyst Brian Abrahams interprets the appointments as a return to 'business as usual,' with both directors seen as industry-friendly and unlikely to pursue major policy disruptions. A new deputy commissioner for AI and technology was also created, and the industry now watches a potentially rocky Senate confirmation for acting FDA commissioner nominee Heidi Overton.",
+      "why_it_matters": "Permanent leadership at CDER and CBER reduces the regulatory risk premium that has weighed on clinical-stage biopharma names \u2014 particularly those with near-term PDUFA dates \u2014 while Davis's interest in psychedelics and Mikhail's pro-accelerated-development stance offer sector-specific tailwinds worth monitoring at the pipeline level.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "regulatory_affairs",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "36b8b0cd882fe45c",
+      "headline": "Can AI fix health care? In the chaos of emergency rooms, the technology comes up short",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/",
+      "slot": 3,
+      "summary": "A study at Brigham and Women's Hospital found that while AI scribes reduced ER physicians' documentation time, those saved minutes did not translate into shorter patient wait times, faster lab or imaging turnaround, or improved throughput \u2014 because the bottleneck is physical capacity (61 rooms for 152 patients), not documentation speed. The piece uses this finding to challenge the broader 'AI will transform healthcare' narrative, drawing a sharp distinction between workflow-layer efficiency gains and system-level outcomes. It argues that AI tools optimizing individual tasks face hard limits when structural resource constraints dominate the rate-limiting step.",
+      "why_it_matters": "For investors evaluating ambient scribe and clinical AI companies (e.g., Nuance/Microsoft, Abridge, Suki), this is essential due diligence context: workflow efficiency gains may not generate the measurable ROI \u2014 reduced length of stay, throughput, staffing savings \u2014 that health system buyers ultimately require for sustained enterprise adoption.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "novelty",
+        "actionability",
+        "AI_biology_intersection",
+        "health_technology"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

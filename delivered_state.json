@@ -1,22 +1,6 @@
 {
   "delivered": [
     {
-      "id": "a74296aa9984e4c0",
-      "date": "2026-08-25"
-    },
-    {
-      "id": "239806e21c469d81",
-      "date": "2026-08-25"
-    },
-    {
-      "id": "c367583847254a8b",
-      "date": "2026-08-25"
-    },
-    {
-      "id": "ada90c9109403ff8",
-      "date": "2026-08-25"
-    },
-    {
       "id": "1b6093eff5b1cf9f",
       "date": "2026-08-26"
     },
@@ -123,6 +107,14 @@
     {
       "id": "ac6e26fea5164694",
       "date": "2026-09-08"
+    },
+    {
+      "id": "ee6cac23add11bc0",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "36b8b0cd882fe45c",
+      "date": "2026-09-09"
     }
   ],
   "reader_pushed": {
@@ -144,6 +136,9 @@
     "https://www.biopharmadive.com/news/novartis-rna-drug-failure-dm1-avidity-del-desiran/829778/": "2026-09-08",
     "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/": "2026-09-08",
     "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ3MTUxNzcsImlhdCI6MTc4ODg2OTg4NSwiZXhwIjoxNzkxNDYxODg1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ZXn8FBqM74rG8TBc9VODNDxBvu__8XC_1o4-QIgPL18": "2026-09-08",
-    "https://aletteraday.substack.com/p/letter-342-eileen-gu-and-jay-shetty?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTM3ODMwODYsImlhdCI6MTc4ODgzMzMwNiwiZXhwIjoxNzkxNDI1MzA2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.gdSz0hK9TOHLfRBQARMxExhzMCKRG4tqjHxcqe9hPv0": "2026-09-08"
+    "https://aletteraday.substack.com/p/letter-342-eileen-gu-and-jay-shetty?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTM3ODMwODYsImlhdCI6MTc4ODgzMzMwNiwiZXhwIjoxNzkxNDI1MzA2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.gdSz0hK9TOHLfRBQARMxExhzMCKRG4tqjHxcqe9hPv0": "2026-09-08",
+    "https://www.biopharmadive.com/news/fda-mikhail-davis-cber-cder-director-hhs/829886/": "2026-09-09",
+    "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/": "2026-09-09",
+    "https://mbideepdives.substack.com/p/pultes-bag-of-tricks?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ1OTQ5NjgsImlhdCI6MTc4ODg4NDQ2MCwiZXhwIjoxNzkxNDc2NDYwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Gl6SlCiugg_BWwvLyODBiu83Vxe9oItUmiT__rvf_RY": "2026-09-09"
   }
 }
