@@ -10042,5 +10042,95 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article has substantive depth \u2014 grounded in a real study from Brigham and Women's Hospital \u2014 and delivers a nuanced, evidence-based critique of AI ambient scribes in the ER, directly relevant to evaluating health IT and AI-in-healthcare investment theses."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "TransDigm is still in it for the money",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a stub/teaser with no substantive content \u2014 it's a list of upcoming posts and brief scuttleslops excerpts, not an actual deep-dive on TransDigm, and it does not belong in the Healthcare/Biotech slot regardless."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "AI Bottlenecks",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a paywalled earnings-call synthesis newsletter with only a brief free teaser visible \u2014 the actual AI bottleneck analysis is behind a paywall \u2014 and the visible content is a generic macro/consumer/AI-GDP summary with no healthcare or biotech relevance whatsoever."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "FDA slaps hold on Biohaven's pivotal epilepsy program",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWn02N5vDhTKW5m782d2TkwjyW9fbdmV5TNyRDN2_Qd585nR3bW7Y9pgv6lZ3lqN1xKbW05WzCHW4vcRNM60BCVCVRk1vF19DHx7W8dsgHY54ZqHgVvyP4P86TlDJMjyGfShFQckW8lFh1g7mn_bxW5LFqxr5KSwq_MTyNJ1LF4yMW1Chb2H8_P6ZYN700lByWdFSxW15fCnw2NLlDwW4y04C16XhzgLTZm3M6nv9-PW7WlXX96D2ckXW4CdCKf8b9TxVN5BcDLZ_p3MBN53v6PW5zvDFN6WXjHff2xf1N2jm8Z1ZqJB3W2kq0yB8Npr86W3yWDWl2ycczCW79sKBn26ntyRW3HYC9g3WrWDpW56_6h_3gMwFLW6xCl9X5nzK7JMlDr5LbBbjsW1DLPxw71MfDtW29KvQv71lN4CW7yHN5N1WRq-XW9lsjdJ1S-pGLW74V8Bf47kcVDN5_wXZjKGSw5V6VCc31Cbwg0W386GrG8gv-JxW7-rFNC8XKrk8W50F4qj2G0mSzW3MThcT4Sv_ScW7vyQXQ8LlSG3V3b0jH1_fH96W2M9lg-2StyZ6W2brMsR1FsqlWf2lFWsC04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter digest with minimal depth on the BHVN clinical hold \u2014 it offers only a brief mention that enrollment was paused after BHV-7000 failed in a midstage depression trial, with no analysis of the safety signal, competitive read-across, or investment implications that would satisfy the reader's preference for analytical depth."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "First Impression of Muse",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/first-impression-of-muse",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a hands-on product review of Meta's Muse AI agent with no meaningful connection to healthcare, biotech, or even deep strategic analysis \u2014 it fails the target slot entirely and is too thin/experiential for the reader's preference for analytical depth."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Roivant is one of the savviest dealmakers in biotech. It also has a secret weapon",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was not loaded \u2014 only navigation chrome and truncated boilerplate were returned, providing no substantive content to evaluate beyond the headline."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "GPT-6 Astra, looped transformers, and hidden reasoning",
+    "source": "Hacker News / Sebastian Raschka",
+    "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI article about GPT-6 Astra's architecture and benchmarks \u2014 it has no healthcare/biotech content and does not belong in Slot 1, though it has real substance for Slot 3."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Optum Health CEO pulls back curtain on turnaround",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/optum-health-ceo-pulls-back-curtain-turnaround",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance from a direct CEO conference presentation, covering specific operational metrics, contract renegotiation progress, and a clear multi-year margin recovery roadmap for the largest value-based care operator \u2014 directly relevant to the UNH/managed care investment thesis."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "First Impression of Muse",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/first-impression-of-muse",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a first-person user experience review of Meta's Muse agent \u2014 engaging but thin on strategic or investment-grade analysis, lacking the analytical depth, competitive moat assessment, or structural market insight the reader profile demands; it reads more like a product blog post than the deep-dive investment writing this reader values."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "GPT-6 Astra, looped transformers, and hidden reasoning",
+    "source": "Hacker News / Sebastian Raschka",
+    "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides technically rigorous, substantive analysis of GPT-6 Astra's architecture \u2014 looped transformers, benchmark performance, and hidden reasoning chains \u2014 with depth and novelty that aligns well with the reader's strong preferences for analytical depth and AI foundational model advances."
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "TransDigm is still in it for the money",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a teaser/preview snippet announcing a forthcoming TransDigm update, not the actual deep-dive analysis itself \u2014 the substantive content is absent, making it too thin to evaluate or include."
   }
 ]

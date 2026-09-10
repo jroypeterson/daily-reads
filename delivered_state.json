@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "1b6093eff5b1cf9f",
-      "date": "2026-08-26"
-    },
-    {
-      "id": "2e2af4b998e57fd0",
-      "date": "2026-08-26"
-    },
-    {
-      "id": "02c3c32b9c9a2620",
-      "date": "2026-08-26"
-    },
-    {
       "id": "244c160aee2d7e55",
       "date": "2026-08-27"
     },
@@ -115,6 +103,14 @@
     {
       "id": "36b8b0cd882fe45c",
       "date": "2026-09-09"
+    },
+    {
+      "id": "6235cdfae5746a83",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "6e4ce2e776b6ec45",
+      "date": "2026-09-10"
     }
   ],
   "reader_pushed": {
@@ -139,6 +135,10 @@
     "https://aletteraday.substack.com/p/letter-342-eileen-gu-and-jay-shetty?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTM3ODMwODYsImlhdCI6MTc4ODgzMzMwNiwiZXhwIjoxNzkxNDI1MzA2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.gdSz0hK9TOHLfRBQARMxExhzMCKRG4tqjHxcqe9hPv0": "2026-09-08",
     "https://www.biopharmadive.com/news/fda-mikhail-davis-cber-cder-director-hhs/829886/": "2026-09-09",
     "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/": "2026-09-09",
-    "https://mbideepdives.substack.com/p/pultes-bag-of-tricks?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ1OTQ5NjgsImlhdCI6MTc4ODg4NDQ2MCwiZXhwIjoxNzkxNDc2NDYwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Gl6SlCiugg_BWwvLyODBiu83Vxe9oItUmiT__rvf_RY": "2026-09-09"
+    "https://mbideepdives.substack.com/p/pultes-bag-of-tricks?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ1OTQ5NjgsImlhdCI6MTc4ODg4NDQ2MCwiZXhwIjoxNzkxNDc2NDYwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Gl6SlCiugg_BWwvLyODBiu83Vxe9oItUmiT__rvf_RY": "2026-09-09",
+    "https://www.fiercehealthcare.com/payers/optum-health-ceo-pulls-back-curtain-turnaround": "2026-09-10",
+    "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and": "2026-09-10",
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F09-10-2026-catalyst-watch": "2026-09-10",
+    "https://mbideepdives.substack.com/p/first-impression-of-muse?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ4MDE2NDIsImlhdCI6MTc4ODk3MzU5NCwiZXhwIjoxNzkxNTY1NTk0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.3ee4vrti9EZrDGFNBJ9441b9TjjTtgtepe1T3UBpvMA": "2026-09-10"
   }
 }
