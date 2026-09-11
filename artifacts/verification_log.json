@@ -10132,5 +10132,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article text provided is only a teaser/preview snippet announcing a forthcoming TransDigm update, not the actual deep-dive analysis itself \u2014 the substantive content is absent, making it too thin to evaluate or include."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "AI Bottlenecks",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the macro teaser section, making the actual AI bottleneck content inaccessible, and the visible portion is a thin collection of executive quote snippets on broad macro themes with no substantive analysis on AI infrastructure constraints as the shortlist summary claims."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Muse Implications for Consumer Internet",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is clearly a Tech/AI piece about Meta's Muse agent and consumer internet disruption \u2014 it has no relevance to the Healthcare/Biotech slot."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "TransDigm is still in it for the money",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is about TransDigm, an aerospace/defense serial acquirer, which has no relevance to the Healthcare/Biotech slot, and the full article text is essentially a teaser/index page with fragments from multiple unrelated Scuttleblurb posts rather than the actual TransDigm deep-dive itself."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Novartis, Novo Nordisk drug failures will likely 'pop a hole in the balloon' of the field",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth, covers a sector-wide catalyst with direct ticker relevance (NVS, NVO), and fits Slot 1 precisely \u2014 examining mechanism-level failures in cardiovascular drug development and their chilling effect on competing pipeline programs."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Bessent Takes on the Bond Vigilantes",
+    "source": "NYT DealBook",
+    "url": "https://www.nytimes.com/2026/09/11/business/dealbook/bessent-bond-vigilantes.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The actual article content is almost entirely a 9/11 anniversary reflection with only a single-paragraph stub on the bond sell-off, offering no analytical depth, data, or substantive macro argument \u2014 the shortlist summary dramatically overstates what the article contains."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "At CTA event, federal health officials outline AI ambitions as clinicians debate risks",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/ctas-dc-healthcare-event-federal-officials-outline-ai-ambitions-clinicians-debate-risks",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is substantive but fits Slot 3 (Tech/AI) or Slot 1 (Healthcare/Biopharma) far better than Slot 2 (Finance/Macro) \u2014 it covers federal AI regulatory posture and CMS reimbursement strategy for health AI, not macro moves, earnings, or payer market dynamics in the finance sense."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Optum Insight names Amazon alum as chief AI officer",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/executive-moves/optum-insight-names-amazon-alum-as-chief-ai-officer/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a thin executive hire announcement \u2014 it lacks the financial depth, market analysis, or structural insight required for Slot 2, and the source (Becker's Payer Issues) is not a finance/macro domain; the story is better suited as a Tech/AI signal but even then lacks substantive analysis beyond the hire itself."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Muse Implications for Consumer Internet",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source with demonstrated reader preference, and this analysis of agentic AI's structural impact on consumer internet business models aligns well with the reader's interests in AI impact, competitive moat analysis, and deep business diligence."
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "TransDigm is still in it for the money",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is actually a preview/teaser snippet announcing a forthcoming TransDigm update, not the substantive long-form analysis itself \u2014 the actual deep-dive content is absent, making it too thin to meet the depth standard required for any slot."
   }
 ]

@@ -2184,5 +2184,51 @@
         "url": "https://email.mg-d0.substack.com/c/eJx00LtuwyAUxvGnMVsszC1mYOiS10BcjjGNDYhLo7x9lXSpVHU-0vl--jvTIeT6VCNtMcW2g7-0YZursfSYE_JKULNxj0At13WVQhIsEZwmHjpAgmo6eG36ryteKdqV5d4YRuHqjJUM0-0qBWzYrpxYQglHURFMBJZYLpwTwmc6b5Rgj9kq6QqUk2UWIqTAaZkYPsPF4_ll68bdZ5dPFJveKrwtqtcB6FB776VN9GMit4ncHo_H3HdoAL7lrbkIycFchkW5QNK9GnePKeg2SqnQGniFyrDa5fMcKfanhmTsAf7nfRn2iM68uujo1YIFZ2JBVX3W_CzQobacJobDS_QWtmF9Pk1M6g8D9X-bjwb1PcCk4GxFX4p8BwAA__8SzZAf"
       }
     ]
+  },
+  {
+    "date": "2026-09-11",
+    "checked_unique": 81,
+    "checked_slots": 83,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 1,
+      "substack_dropped": 3
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "The Transcript",
+        "headline": "Your payment receipt from The Transcript #JFBETEYM-0012",
+        "url": ""
+      },
+      {
+        "surface": "triage",
+        "source": "Fierce Biotech",
+        "headline": "| 09.08.26 | Psilocybin\u2019s promise in pain; Silver linings for Alnylam\u2019s heart disease silencers",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://insidemedicine.substack.com/p/what-we-spent-to-prevent-another?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUxNTU2ODMsImlhdCI6MTc4OTEyNTgwNCwiZXhwIjoxNzkxNzE3ODA0LCJpc3MiOiJwdWItMTE4MzUyNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.eIcP0ecrTS5G_ekk9BEYS7FxrhsMFT33Q6BXYPqLYDY"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://newslit.substack.com/p/apples-foldable-iphone-duo-anthropics?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUwMzA1ODAsImlhdCI6MTc4OTA1MzU5MywiZXhwIjoxNzkxNjQ1NTkzLCJpc3MiOiJwdWItMzM5ODIiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.qc6cXYrJ13aYg3t8-7fpo4NyKQ-9Uh-QHlrfKhz-HHs"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxs0E2O3CAQBeDTmN1YgAHDgkU2cw1UhmqbtA2In5E6p4_ckaJEmnWp3vv0PHTcc33ZNrbmayw95vRR0WMsnQS7mI1qrwhatmpD1cooJXhBPN2OCSt0DA76P1cjV3JYoyRIwZGLhxGBUtCLCKtXRuqgAAOJllOuqGGUGSokm5dZPUDrNVDqNwiAbP6iUv9q6z4Jeu0fgc03soN_zj5fJDb3qPi22F4HktMevZc2LT8m_jnxz-eBF9QYjv__csHkegX_jGl3bZRSsTUMlpSxOZ-va6TYXw4TbCeGP9llbGf0cK_jYrDLohbJFan2Z82vgh1ry2kSdL8575o2tpAviMn-dZD-_cyjYb1TmTBKCk2-LP8dAAD__72ZibQ"
+      }
+    ]
   }
 ]

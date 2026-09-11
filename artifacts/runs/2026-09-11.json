@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-09-11",
+  "generated_at": "2026-09-11T15:45:08Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 64,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "44ea3c36a2e8f528",
+      "headline": "Novartis, Novo Nordisk drug failures will likely 'pop a hole in the balloon' of the field",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/",
+      "slot": 1,
+      "summary": "Back-to-back cardiovascular trial failures from Novartis and Novo Nordisk are prompting a broad reassessment of the cardiovascular drug development field, with experts warning that investment and enthusiasm in the space will cool significantly. The article examines what shared mechanistic assumptions may have underpinned both failures and what the fallout means for other companies with competing programs still in development. Analysts describe the failures as likely to 'pop a hole in the balloon' of a field that had seen renewed optimism in recent years.",
+      "why_it_matters": "For investors with cardiovascular pipeline exposure across the coverage universe, these high-profile failures reset competitive landscapes, raise questions about mechanism validity for related programs, and signal a near-term headwind for capital allocation into the space.",
+      "signal_tags": [
+        "ticker_match:NVS",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "regulatory_affairs"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8d9dcedf31147fb1",
+      "headline": "Muse Implications for Consumer Internet",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet",
+      "slot": 3,
+      "summary": "MBI's follow-up analysis on Meta's Muse examines how personal AI agents could structurally disrupt consumer internet incumbents by collapsing the discovery-to-action funnel and bypassing traditional ad-supported surfaces. The piece identifies which business models are most vulnerable and which platforms could benefit from agentic distribution, extending a prior first-impression post with deeper subscriber-level elaboration. This is a practitioner-level assessment of platform shift dynamics with direct portfolio implications for tech holdings.",
+      "why_it_matters": "Agentic AI represents a potential structural disruption to ad-supported internet moats \u2014 understanding which incumbents are fragile vs. durable is directly actionable for any portfolio with consumer internet or big tech exposure.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:META",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    }
+  ]
+}
