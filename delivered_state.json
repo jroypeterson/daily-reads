@@ -1,22 +1,6 @@
 {
   "delivered": [
     {
-      "id": "b037b2ebeffa9e43",
-      "date": "2026-08-28"
-    },
-    {
-      "id": "ab887e3d434493d7",
-      "date": "2026-08-28"
-    },
-    {
-      "id": "1b6de21bf36fa1b8",
-      "date": "2026-08-28"
-    },
-    {
-      "id": "f8b000d8f0157338",
-      "date": "2026-08-28"
-    },
-    {
       "id": "19975baafc93085d",
       "date": "2026-08-29"
     },
@@ -107,6 +91,22 @@
     {
       "id": "8d9dcedf31147fb1",
       "date": "2026-09-11"
+    },
+    {
+      "id": "8c4abf5c901ad94c",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "f48ad18e2e271094",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "7150ae7d41ecb934",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "57ef473e524df006",
+      "date": "2026-09-12"
     }
   ],
   "reader_pushed": {
@@ -138,6 +138,11 @@
     "https://mbideepdives.substack.com/p/first-impression-of-muse?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ4MDE2NDIsImlhdCI6MTc4ODk3MzU5NCwiZXhwIjoxNzkxNTY1NTk0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.3ee4vrti9EZrDGFNBJ9441b9TjjTtgtepe1T3UBpvMA": "2026-09-10",
     "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/": "2026-09-11",
     "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet": "2026-09-11",
-    "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ5MzkxMjAsImlhdCI6MTc4OTA1ODQ1OSwiZXhwIjoxNzkxNjUwNDU5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.pMjfClidkoiiMtVBdN-0gdVEgY8urQs186NcmwGPYzM": "2026-09-11"
+    "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ5MzkxMjAsImlhdCI6MTc4OTA1ODQ1OSwiZXhwIjoxNzkxNjUwNDU5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.pMjfClidkoiiMtVBdN-0gdVEgY8urQs186NcmwGPYzM": "2026-09-11",
+    "https://www.fiercehealthcare.com/ai-and-machine-learning/arpa-h-launches-63m-cardiovascular-ai-initiative-naming-updoc-tempus-ai": "2026-09-12",
+    "https://scuttleblurb.substack.com/p/tdg2": "2026-09-12",
+    "https://darioamodei.com/post/we-must-pace-the-frontier": "2026-09-12",
+    "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUxMTQ2MzgsImlhdCI6MTc4OTIxODU0MiwiZXhwIjoxNzkxODEwNTQyLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.hm8-2C2dSs7YwiduJkFojM6XzDn0u4THznr71WXe-2A": "2026-09-12",
+    "https://mbideepdives.substack.com/p/why-affordable-luxury-doesnt-compound?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUyMDk4MDYsImlhdCI6MTc4OTE0MjkzMSwiZXhwIjoxNzkxNzM0OTMxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.zQDMUnHhLGfDyFgGEGJN8i4TiD4-7XkQIXYNDqvE-SA": "2026-09-12"
   }
 }

@@ -10213,5 +10213,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article text is actually a preview/teaser snippet announcing a forthcoming TransDigm update, not the substantive long-form analysis itself \u2014 the actual deep-dive content is absent, making it too thin to meet the depth standard required for any slot."
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "ARPA-H launches $63M effort to build FDA-authorized AI agents for heart failure care",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/arpa-h-launches-63m-cardiovascular-ai-initiative-naming-updoc-tempus-ai",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering a novel regulatory pathway, specific awardees with dollar amounts, clinical trial design details, and structural market implications \u2014 directly relevant to Slot 1 with a ticker match (TEM) and AI-in-healthcare theme that aligns strongly with reader preferences."
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "We Must Pace the Frontier",
+    "source": "Dario Amodei / darioamodei.com (via Hacker News)",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive, high-quality essay but belongs firmly in Slot 3 (Tech/AI) as a foundational AI governance piece \u2014 it has no meaningful Finance/Macro content such as earnings, sector rotation, macro moves, or payer dynamics."
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "TransDigm is still in it for the money",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/tdg2",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's long-form update on TransDigm is exactly the kind of deep moat analysis and capital allocation deep-dive that matches the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant insights, with catalyst proximity from imminent Q3 FY26 earnings."
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "We Must Pace the Frontier",
+    "source": "Dario Amodei / darioamodei.com (via Hacker News)",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Dario Amodei's essay is a substantive, first-person policy argument from a sitting frontier-lab CEO proposing a concrete three-step governance framework, directly relevant to AI infrastructure valuations and regulatory trajectory \u2014 strong fit for Slot 3 with analytical depth the reader profile prizes."
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The substantive 4,500-word analytical section on stack selection, capital flows, and geopolitical implications is paywalled, leaving only the ~8,000-word memo intro visible \u2014 but the article is cut off mid-sentence in the truncation, making it impossible to verify depth; however, the framing, Jensen Huang exchange, and open-weights-as-wedge thesis are genuinely substantive and well-argued, yet the Substack source ('A Letter a Day') is not a high-priority domain per criteria, and the most actionable content is locked behind a paywall, which is an explicit AVOID pattern."
+  },
+  {
+    "date": "2026-09-12",
+    "headline": "Muse Implications for Consumer Internet",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form analytical source aligned with the reader's proven taste for competitive moat analysis and structural market insight, and the Muse framing \u2014 as a behavioral data flywheel threatening digital advertising economics \u2014 offers genuine depth beyond a generic AI chatbot take."
   }
 ]

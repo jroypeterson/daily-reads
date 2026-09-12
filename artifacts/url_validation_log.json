@@ -2230,5 +2230,33 @@
         "url": "https://email.mg-d1.substack.com/c/eJxs0E2O3CAQBeDTmN1YgAHDgkU2cw1UhmqbtA2In5E6p4_ckaJEmnWp3vv0PHTcc33ZNrbmayw95vRR0WMsnQS7mI1qrwhatmpD1cooJXhBPN2OCSt0DA76P1cjV3JYoyRIwZGLhxGBUtCLCKtXRuqgAAOJllOuqGGUGSokm5dZPUDrNVDqNwiAbP6iUv9q6z4Jeu0fgc03soN_zj5fJDb3qPi22F4HktMevZc2LT8m_jnxz-eBF9QYjv__csHkegX_jGl3bZRSsTUMlpSxOZ-va6TYXw4TbCeGP9llbGf0cK_jYrDLohbJFan2Z82vgh1ry2kSdL8575o2tpAviMn-dZD-_cyjYb1TmTBKCk2-LP8dAAD__72ZibQ"
       }
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "checked_unique": 63,
+    "checked_slots": 68,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "triage",
+        "source": "Hacker News",
+        "headline": "A misalignment of AI in mathematics",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJx0kDnO2zAQRk8jdr_AVUvBIo2vQYzIkcRYXMDFhm8fyGnSpB588x6ehYZHKh_d4-6jrye6n9q3aovPzadInJ4E7MoR1GxeVjZNs-AEA_jLHBixQENnoP1z5YKRU2_SUsrossAy74vYwVq1s3UWCMoyaYnXnPKJroxxLpXgoxj5JGc6gRVKrsCFGg-IS4hpHyQNx4-j4-3WwD5HmwLx1ewFvy66lY7k0mdruQ7i18AfA3-83--xnegwY3QY2wuKh-3C7zpljKYVsE8fD1N7zgVrRadJ7puxKYQeffsYjPfE_SXkvl3ewp3GeKdXKZmikhT9u6RPxoalpjhIetxSX0ztm0sBfNTehoZgTx8P0v4bvFcs92sm10nJhbw0_xMAAP__xNePSg"
+      }
+    ]
   }
 ]
