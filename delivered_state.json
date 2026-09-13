@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "19975baafc93085d",
-      "date": "2026-08-29"
-    },
-    {
       "id": "4cfdfaa54747a3ea",
       "date": "2026-08-30"
     },
@@ -107,6 +103,10 @@
     {
       "id": "57ef473e524df006",
       "date": "2026-09-12"
+    },
+    {
+      "id": "cf8295b28f5e80be",
+      "date": "2026-09-13"
     }
   ],
   "reader_pushed": {
@@ -143,6 +143,7 @@
     "https://scuttleblurb.substack.com/p/tdg2": "2026-09-12",
     "https://darioamodei.com/post/we-must-pace-the-frontier": "2026-09-12",
     "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUxMTQ2MzgsImlhdCI6MTc4OTIxODU0MiwiZXhwIjoxNzkxODEwNTQyLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.hm8-2C2dSs7YwiduJkFojM6XzDn0u4THznr71WXe-2A": "2026-09-12",
-    "https://mbideepdives.substack.com/p/why-affordable-luxury-doesnt-compound?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUyMDk4MDYsImlhdCI6MTc4OTE0MjkzMSwiZXhwIjoxNzkxNzM0OTMxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.zQDMUnHhLGfDyFgGEGJN8i4TiD4-7XkQIXYNDqvE-SA": "2026-09-12"
+    "https://mbideepdives.substack.com/p/why-affordable-luxury-doesnt-compound?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUyMDk4MDYsImlhdCI6MTc4OTE0MjkzMSwiZXhwIjoxNzkxNzM0OTMxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.zQDMUnHhLGfDyFgGEGJN8i4TiD4-7XkQIXYNDqvE-SA": "2026-09-12",
+    "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas": "2026-09-13"
   }
 }

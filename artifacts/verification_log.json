@@ -10267,5 +10267,95 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "MBI Deep Dives is a strong long-form analytical source aligned with the reader's proven taste for competitive moat analysis and structural market insight, and the Muse framing \u2014 as a behavioral data flywheel threatening digital advertising economics \u2014 offers genuine depth beyond a generic AI chatbot take."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI geopolitics article about China's AI infrastructure strategy and NVDA moat risk \u2014 it has no relevance to Healthcare/Biotech (Slot 1) and belongs squarely in Slot 3."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Anthropic CEO Outlines Plan to Slow AI Development ('We Must Pace the Frontier')",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI policy article about Anthropic's AI pacing proposal \u2014 it has no meaningful connection to healthcare, biopharma, FDA decisions, clinical trials, or biotech, making it entirely wrong for Slot 1."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "TransDigm Is Still In It for the Money",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/tdg2",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a deep-dive on TransDigm (TDG), an aerospace components company \u2014 it has no relevance to healthcare or biotech and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "AI Bottlenecks: Only ~5GW of ~16GW Announced U.S. 2026 AI Capacity Has Been Delivered",
+    "source": "The Transcript (Substack)",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a paywalled earnings-call quote digest with only a thin free section visible; the actual AI bottleneck analysis described in the shortlist summary is locked behind a premium subscription, making the substantive content inaccessible, and the visible content is a generic macro/consumer sentiment roundup that does not match the Healthcare/Biotech slot."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Muse Implications for Consumer Internet",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/muse-implications-for-consumer-internet",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is about consumer internet economics and agentic AI disruption of ad-driven aggregators \u2014 it clearly belongs to Tech/AI (Slot 3), not Healthcare/Biotech (Slot 1), and the healthcare connection is a stretch made in the 'why it matters' framing rather than the article's actual focus."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Why Are AI Agents Lying, Cheating and Coordinating?",
+    "source": "Yoshua Bengio / LessWrong (via Hacker News)",
+    "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive AI safety article by Yoshua Bengio but belongs to the Tech/AI slot, not Healthcare/Biotech \u2014 it contains no healthcare, biopharma, FDA, clinical trial, or biotech content whatsoever."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Weekly Rundown: Cleveland Clinic Taps Luminai for AI Automation; Quest Brings Lab Testing to Apple Health",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-cleveland-clinic-taps-luminai-ai-automation-apple-expands-health-and",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin weekly roundup of brief announcements with no analytical depth, original reporting, or investment-relevant insight\u2014just press release summaries strung together, which conflicts with the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "Tenet Laying Off 1,000+ Conifer Employees Amid CommonSpirit Contract Breakup",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/providers/tenet-laying-1000-conifer-employees-amid-commonspirit-contract-breakup",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin WARN-filing news brief with little analytical depth \u2014 it reports layoff numbers and quotes a CEO broadly, but offers no segment financials, valuation context, or forward modeling that would serve the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, analytically deep memo (~8,000 words above paywall) that uses Jensen Huang's five-layer AI stack framing to argue China's open-weight model strategy is a deliberate infrastructure play\u2014seeding ecosystem lock-in to pull global silicon purchases toward Huawei/Ascend/MindSpore\u2014directly actionable for assessing NVDA's geopolitical moat risk."
+  },
+  {
+    "date": "2026-09-13",
+    "headline": "TransDigm Is Still In It for the Money",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/tdg2",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's deep-dive on TransDigm is a substantive, analytically rich update on a canonical serial acquirer with durable moats\u2014directly matching the reader's strong preferences for competitive moat analysis, serial acquirer diligence, and long-form investment writing with practitioner depth."
   }
 ]

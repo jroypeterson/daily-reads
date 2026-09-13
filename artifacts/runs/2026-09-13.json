@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-09-13",
+  "generated_at": "2026-09-13T15:30:06Z",
+  "counts": {
+    "gmail_items": 119,
+    "tier2_items": 83,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "cf8295b28f5e80be",
+      "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+      "source": "A Letter a Day (Substack)",
+      "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+      "slot": 3,
+      "summary": "The memo argues that China's embrace of open-weight frontier models (DeepSeek et al.) is not altruism or ideology but a calculated platform strategy: release models freely to win the global developer base, then pull silicon and infrastructure purchases onto the Chinese AI stack (Huawei Ascend, MindSpore). It traces the inversion of the historical US-open/China-closed paradigm and grounds the thesis in Jensen Huang's five-layer AI stack framework, showing that model optimization for a given chip architecture is the real lock-in mechanism. Recent developments\u2014Saudi Arabia's national AI platform built on MiniMax, DeepSeek's newest model\u2014are cited as early evidence the wedge is working.",
+      "why_it_matters": "For investors long NVDA or US hyperscaler capex, this is a structural risk framework: if open-weight models become optimized for Huawei silicon and pull emerging-market AI infrastructure spend outside the US stack, it is a long-duration threat to NVDA's moat that earnings calls and near-term capex data will not reveal.",
+      "signal_tags": [
+        "high_priority_source",
+        "AI_impact",
+        "geopolitical_risks",
+        "competitive_moat_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f48ad18e2e271094",
+      "headline": "TransDigm Is Still In It for the Money",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/tdg2",
+      "slot": 4,
+      "summary": "Seven years after an initial writeup, Scuttleblurb revisits TransDigm to assess whether its core value-creation mechanics\u2014sole-source proprietary parts, aftermarket pricing power, and an acquisition flywheel\u2014have survived a pandemic, inflation shock, and CEO transition. The piece argues the model remains structurally intact: ~80% of revenue from sole-source parts, ~90% from proprietary IP, and 52.8% EBITDA margins with 13% organic growth in Q3 FY26. The key insight is that TransDigm's 'forgettable but essential' low-dollar components are precisely what insulates it from customer pushback\u2014nobody halts aircraft production over a $500 hinge.",
+      "why_it_matters": "For investors tracking serial acquirers with pricing power, this is a live stress-test of whether TDG's moat framework holds post-pandemic and post-inflation\u2014with fresh Q3 earnings data making it immediately actionable for portfolio positioning.",
+      "signal_tags": [
+        "high_priority_source",
+        "serial_acquirer_analysis",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
