@@ -10357,5 +10357,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "Scuttleblurb's deep-dive on TransDigm is a substantive, analytically rich update on a canonical serial acquirer with durable moats\u2014directly matching the reader's strong preferences for competitive moat analysis, serial acquirer diligence, and long-form investment writing with practitioner depth."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Meta's Trojan Horse for the Consumer Internet",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-trojan-horse-for-the-consumer",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article is clearly about Meta's AI platform strategy (Tech/AI topic), not Healthcare/Biotech, and does not belong in Slot 1 regardless of its substantive quality."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI geopolitical strategy article about China's open-weight AI model strategy and stack dominance \u2014 it has no relevance to Slot 1's Healthcare/Biotech criteria (FDA decisions, clinical trials, biopharma M&A, pipeline news)."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "The A.I. Slowdown Debate Goes Global",
+    "source": "NYT Business / DealBook",
+    "url": "https://www.nytimes.com/2026/09/14/business/dealbook/ai-slowdown-dc-beijing.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is clearly a Tech/AI and macro markets piece with no relevance to healthcare or biopharma, and the article text itself is thin \u2014 essentially a newsletter teaser without substantive depth beyond a few paragraphs of framing."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Labcorp snaps up MLM Medical Labs; Abbott nabs FDA green light for new Afib tech",
+    "source": "Fierce Biotech MedTech",
+    "url": "https://www.fiercebiotech.com/medtech/labcorp-snaps-mlm-medical-labs-boost-laboratory-footprint",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press-release summary covering only the Labcorp/MLM deal with minimal financial detail or analytical depth, and the shortlist summary overstates the content by referencing Abbott and GE items that do not appear in the actual article text."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "AI Bottlenecks",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/09-08-2026-ai-bottlenecks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the macro section, so the substantive AI bottleneck analysis (the 5GW vs 16GW capacity gap) is not actually accessible in the full text, making the article thin for selection purposes; additionally, it is a Finance/Macro or Tech/AI piece with no healthcare/biotech relevance, so it does not fit Slot 1."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Scholar Rock SMA drug approved by FDA",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/scholar-rock-sma-drug-isemblyd-fda-approve/830232/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive coverage of a clean FDA approval catalyst for SRRK with specific pricing ($310,000/year), peak sales projections ($2B from Leerink), manufacturing backstory, safety signal nuances (unexpected fracture warning), and strategic context \u2014 well above a thin news brief."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "10-Year Treasury Yield Touches 5%, Highest Level in Years",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/09/14/business/10-year-treasury-yield-5-percent.html",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin, largely generic news report on the 10-year yield touching 5% with no analytical depth, no portfolio-level insight, and no actionable framework \u2014 matching the reader's 'avoid' pattern for generic macro index articles without forward-looking structural insight."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Abridge expands into revenue cycle with AI-powered pre-bill claim review",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-expands-revenue-cycle-ai-powered-pre-bill-claim-review",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement for a private company (Abridge) with no ticker match, no macro/finance angle, and while substantive as a health tech story, it lacks the investment-relevant depth, financial data, or market structure analysis required for Slot 2 \u2014 it reads more as a trade press product launch piece than a finance/markets article."
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Meta's Trojan Horse for the Consumer Internet",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-trojan-horse-for-the-consumer",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment writing source that aligns strongly with reader preferences for analytical depth, competitive moat analysis, and platform strategy, and the META ticker match plus AI-agent platform thesis fits Slot 3 well."
   }
 ]

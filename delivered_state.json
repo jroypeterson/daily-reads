@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "4cfdfaa54747a3ea",
-      "date": "2026-08-30"
-    },
-    {
-      "id": "fb4ef103d6a1c13f",
-      "date": "2026-08-30"
-    },
-    {
-      "id": "a220708875fda327",
-      "date": "2026-08-30"
-    },
-    {
       "id": "d890baf2b08c772f",
       "date": "2026-08-31"
     },
@@ -107,6 +95,14 @@
     {
       "id": "cf8295b28f5e80be",
       "date": "2026-09-13"
+    },
+    {
+      "id": "896bb6734500eb31",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "6c25b22be2d7d8bc",
+      "date": "2026-09-14"
     }
   ],
   "reader_pushed": {
@@ -144,6 +140,10 @@
     "https://darioamodei.com/post/we-must-pace-the-frontier": "2026-09-12",
     "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUxMTQ2MzgsImlhdCI6MTc4OTIxODU0MiwiZXhwIjoxNzkxODEwNTQyLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.hm8-2C2dSs7YwiduJkFojM6XzDn0u4THznr71WXe-2A": "2026-09-12",
     "https://mbideepdives.substack.com/p/why-affordable-luxury-doesnt-compound?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUyMDk4MDYsImlhdCI6MTc4OTE0MjkzMSwiZXhwIjoxNzkxNzM0OTMxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.zQDMUnHhLGfDyFgGEGJN8i4TiD4-7XkQIXYNDqvE-SA": "2026-09-12",
-    "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas": "2026-09-13"
+    "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas": "2026-09-13",
+    "https://www.biopharmadive.com/news/scholar-rock-sma-drug-isemblyd-fda-approve/830232/": "2026-09-14",
+    "https://mbideepdives.substack.com/p/metas-trojan-horse-for-the-consumer": "2026-09-14",
+    "https://mbideepdives.substack.com/p/metas-trojan-horse-for-the-consumer?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU0OTc4NTAsImlhdCI6MTc4OTQwMDI4MywiZXhwIjoxNzkxOTkyMjgzLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvlIDc6DBu2fj_zRNJZ-V9LGZ8GvvBlNO4u3qDMxk68": "2026-09-14",
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F09-14-2026-slow-down": "2026-09-14"
   }
 }

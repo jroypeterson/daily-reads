@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-09-14",
+  "generated_at": "2026-09-14T17:27:40Z",
+  "counts": {
+    "gmail_items": 130,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "896bb6734500eb31",
+      "headline": "Scholar Rock SMA drug approved by FDA",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/scholar-rock-sma-drug-isemblyd-fda-approve/830232/",
+      "slot": 1,
+      "summary": "The FDA approved Scholar Rock's apitegromab (Isembyld) as the first muscle-targeted therapy for spinal muscular atrophy, cleared for use alongside existing SMN2-targeted treatments in adults and children 2+. The approval follows a prior rejection due to manufacturing facility issues, which Scholar Rock resolved by switching fill-finish sites. Analysts at Leerink Partners project peak annual sales of ~$2 billion, and the company also received a priority review voucher that can be sold for nine-figure sums.",
+      "why_it_matters": "This is a binary catalyst resolved in SRRK's favor \u2014 the first approval for a novel mechanism in an established rare disease market \u2014 with a clear commercial launch underway, blockbuster revenue potential, and a monetizable PRV providing additional near-term upside.",
+      "signal_tags": [
+        "ticker_match:SRRK",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "6c25b22be2d7d8bc",
+      "headline": "Meta's Trojan Horse for the Consumer Internet",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/metas-trojan-horse-for-the-consumer",
+      "slot": 3,
+      "summary": "MBI Deep Dives revisits Meta's Muse AI agent after a month of real-world usage, analyzing how it could embed Meta's AI layer into core consumer internet workflows and entrench platform dominance. The piece examines competitive moat implications for Meta and adjacent players in an AI-agent world. It builds on prior first-impression coverage with deeper strategic and usage-informed analysis.",
+      "why_it_matters": "Platform-level analysis of how Meta's AI agent strategy could reshape consumer attention and data dynamics is directly relevant to investors assessing META's moat and the displacement risk for health-tech and digital health companies competing in the same consumer layer.",
+      "signal_tags": [
+        "ticker_match:META",
+        "priority:high",
+        "analytical_depth",
+        "AI_impact",
+        "competitive_moat_analysis"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    }
+  ]
+}
