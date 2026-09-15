@@ -10438,5 +10438,104 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "MBI Deep Dives is a high-quality long-form investment writing source that aligns strongly with reader preferences for analytical depth, competitive moat analysis, and platform strategy, and the META ticker match plus AI-agent platform thesis fits Slot 3 well."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "STAT+: New documents reveal problems with Medicare's prior-authorization pilot",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/15/medicare-ai-prior-authorization-pilot-problems-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text is not available \u2014 only navigation chrome and metadata loaded, providing no substantive content to evaluate beyond the headline."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a substantive geopolitical/tech strategy essay about China's AI platform ambitions and belongs in Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "The Transcript: Slow Down \u2014 AI Leaders Are Calling for Slowing Frontier Progress",
+    "source": "The Transcript (Substack)",
+    "url": "https://thetranscript.substack.com/p/09-14-2026-slow-down",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is an earnings call transcript digest covering macro consumer spending, labor markets, and AI capex \u2014 it has no healthcare/biotech content and clearly does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Global Bond Yields Hit 2008 Highs, Raising Stakes for Big Borrowers",
+    "source": "Reuters (via Hacker News)",
+    "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin, generic macro news brief about rising bond yields with no healthcare or biotech-specific analysis, no ticker mentions, and insufficient depth for any slot given the reader's strong preference for analytical depth over generic market commentary."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "mRNA Picks Up Momentum After Tumultuous 2 Years \u2014 Plus 5 Companies Chasing Merck and Moderna in the Cancer Vax Race",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWXgwl9bLtTMW27JvnB1tgZtSW44_bnN5TXtW0N1-yX_-5nR3bW7Y9pgv6lZ3pmW6QWwWd3KkGc7W8w4VJr1J2kcZW3CrphQ7Hkln_W4c1HTZ1Dr28xW23Qm2R99cCr6VfK3kn7X_PSRW1RPxwm6rPWr-N1W24-WJ-nd5W2cFn_Z1KnvxpW733MfN2mXzVnN5PBNMrBl5djW8FcpTJ3J937sW2bvR187WGXHXW1PyyPZ2nvjDmW62VbqF7S6KW9W6pDSdZ1PYB-SW6lzb1q8Y_QLjW6lRBVn5JWvgPW3TR9503Drv1HVGF2g41dz-PZW8J4kKN3rqYvCW4xKhw41_4Xt9W1JrDXk4qMHYLW346qXt6z7PqmW4wR1WX4WbmlWW9g_m_n1TwGrBW52CBch1vMgD-W6pBY2Z8-LR5FW52SPb93YypKtW20nv_j430RmfN4z8dgnJwBxbVZJ00_1kvjKzW4hCKjR7nlGjwW93n7561p9mpmW80nNnj3FJBj9W5J23mN71jl0vW3zBSfs3GKzsbW2Pd1kx5LsyF0W4QHHWw5KKcl8W243HrY6fb-yPW83m77w5pxF3lW56jbRw113LXKf7kdvK404",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article content is essentially a newsletter shell \u2014 it contains only a brief two-paragraph teaser about mRNA momentum and the Moderna/Merck Phase 3 results, with the rest being navigation links, ads, job listings, and editor contact info, offering none of the promised depth on the five challenger companies or competitive landscape analysis."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "MBI Deep Dives: Meta's Trojan Horse for the Consumer Internet",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/metas-trojan-horse-for-the-consumer",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled with no substantive content visible \u2014 the full text is locked behind a subscription, making it impossible to verify depth, accuracy, or slot fit, and it clearly belongs to Tech/AI (Meta's AI strategy) rather than Healthcare/Biotech."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "FDA Launches Expedited IND Pilot, Begins Accepting Applications",
+    "source": "FDA Press Releases / STAT News",
+    "url": "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a substantive, structural regulatory change (Operation Trialblazer expedited IND pilot) with broad biopharma investment implications, sourced from STAT News and aligned squarely with Slot 1 healthcare/regulatory criteria."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "The Transcript: Slow Down \u2014 AI Leaders Are Calling for Slowing Frontier Progress",
+    "source": "The Transcript (Substack)",
+    "url": "https://thetranscript.substack.com/p/09-14-2026-slow-down",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a broad earnings-call digest covering consumer spending, labor markets, and inflation \u2014 substantive in aggregate but too diffuse and generic for the Finance/Macro slot, and the shortlist summary materially misrepresents the content: the 'AI slowdown' theme appears only in the truncated portion and is not the dominant or well-developed thread in the visible text."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Global Bond Yields Hit 2008 Highs, Raising Stakes for Big Borrowers",
+    "source": "Reuters (via Hacker News)",
+    "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin, wire-service brief with no analytical depth \u2014 it catalogues yield levels across markets and quotes a single analyst, offering no structural insight into capital costs, sector implications, or forward-looking analysis that would satisfy this reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Letter #343: Bill Oberndorf (2025) \u2014 Value Investing, Educational Equity, and Purpose-Driven Leaders",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/letter-343-bill-oberndorf-2025",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a biographical interview with Bill Oberndorf focused almost entirely on his childhood, schooling, and personal background rather than delivering substantive investment frameworks, portfolio insights, or analytical depth that would meet the Finance/Macro slot or the reader's stated preferences for practitioner investment thinking."
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantive analytical depth on China's open-weight AI strategy as a geopolitical platform play, directly matching Slot 3 (Tech/AI) and the reader's strong preferences for competitive moat analysis, AI impact, and structural market insight."
   }
 ]

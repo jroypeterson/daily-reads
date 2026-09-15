@@ -1,0 +1,54 @@
+{
+  "run_date": "2026-09-15",
+  "generated_at": "2026-09-15T16:07:56Z",
+  "counts": {
+    "gmail_items": 145,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b50b6ec22c9c7c98",
+      "headline": "FDA Launches Expedited IND Pilot, Begins Accepting Applications",
+      "source": "FDA Press Releases / STAT News",
+      "url": "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/",
+      "slot": 1,
+      "summary": "The FDA has formally launched 'Operation Trialblazer,' a new pilot program designed to accelerate the investigational new drug (IND) application process by pairing drug developers with academic research institutions, explicitly framed as a competitiveness response to faster clinical trial environments in China and Australia. The program is now accepting applications and represents a structural shift in how early-stage human trials are initiated in the U.S. Coverage is confirmed across FDA press releases, STAT News, and BioPharma Dive, lending credibility to the scope and significance of the change.",
+      "why_it_matters": "By lowering the barrier and compressing timelines to first-in-human trials, this program structurally improves the risk/return profile for preclinical biotech investments and could accelerate pipeline value creation across the coverage universe \u2014 particularly relevant for small/mid-cap biotechs where IND delays are a key de-risking milestone.",
+      "signal_tags": [
+        "priority:high",
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "ticker_match:DRUG"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "cf8295b28f5e80be",
+      "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+      "source": "A Letter a Day (Substack)",
+      "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+      "slot": 3,
+      "summary": "The essay argues that China's embrace of open-weight AI models (e.g., DeepSeek) is not idealism but a deliberate strategy to shift the world's default AI stack from US-controlled platforms to Chinese ones \u2014 using openness as a wedge to win developers and ecosystem lock-in before closing at the frontier. The author frames Jensen Huang's 'horrible outcome' warning as prescient: the real risk isn't chip export controls but which hardware and software stack the world's AI optimizes for. The piece connects geopolitical strategy, platform economics, and open vs. closed source dynamics in a ~8,000-word memo.",
+      "why_it_matters": "China's platform stack ambitions have direct investment implications for NVIDIA's moat durability, US hyperscaler positioning (AWS, Azure, GCP), and the long-term value capture of closed vs. open AI infrastructure plays.",
+      "signal_tags": [
+        "priority:high",
+        "geopolitical_risks",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "data_infrastructure",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    }
+  ]
+}
