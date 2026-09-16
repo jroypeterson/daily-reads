@@ -35,6 +35,8 @@ $DailyTrigger = New-ScheduledTaskTrigger -Daily -At $Time
 $CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $LogonTrigger = New-ScheduledTaskTrigger -AtLogOn -User $CurrentUser
 $Settings = New-ScheduledTaskSettingsSet `
+  -RestartCount 2 `
+  -RestartInterval (New-TimeSpan -Minutes 10) `
   -StartWhenAvailable `
   -WakeToRun `
   -MultipleInstances IgnoreNew
