@@ -1999,3 +1999,76 @@ def test_dropped_detail_never_raises_on_a_bad_index():
     from main import _dropped_detail
     out = _dropped_detail([([{"url": "u"}], {0, 5, -1}, "always_read")])
     assert len(out) == 1 and out[0]["url"] == "u"
+
+
+# ---------------------------------------------------------------------------
+# A delivery surface that fails WHOLESALE must not report `ok`.
+#
+# Provenance (2026-09-16): the retired TickTick push degraded the run on HTTP
+# 401 and nothing else. From 2026-07-10 its list was full, every task came back
+# `500 project_task_limit_exceeded`, and 69 consecutive runs delivered 0 tasks
+# while posting `health/v1 ok`. 114 tests were green throughout — none of them
+# touched the degrade path, so the suite could not have caught it either.
+#
+# Readwise Reader is now the only token-dependent delivery surface. These pin
+# its degrade behaviour so the same hole cannot reopen silently. They assert on
+# `_RUN_STATE["partial_reasons"]`, which is what the heartbeat actually reads —
+# not on the log line, which was never the thing that was wrong.
+# ---------------------------------------------------------------------------
+
+class _FakeResp:
+    def __init__(self, status_code, text="err", headers=None):
+        self.status_code = status_code
+        self.text = text
+        self.headers = headers or {}
+
+
+def _run_reader_push(status_code):
+    """Push two items through deliver_reader with every POST returning
+    `status_code`; give back the partial_reasons it recorded."""
+    main._RUN_STATE["partial_reasons"].clear()
+    articles = [{"url": "https://a.example/1", "headline": "A"},
+                {"url": "https://b.example/2", "headline": "B"}]
+    env = {"READWISE_TOKEN": "t0ken", "READWISE_READER_LOCATION": "later"}
+    try:
+        with mock.patch.dict(os.environ, env, clear=False), \
+             mock.patch.object(main.requests, "post",
+                               return_value=_FakeResp(status_code)):
+            main.deliver_reader(articles, [], state=None, today="2026-09-16")
+        return list(main._RUN_STATE["partial_reasons"])
+    finally:
+        main._RUN_STATE["partial_reasons"].clear()
+
+
+def test_reader_push_failing_on_every_item_degrades_the_run():
+    """The TickTick shape: auth is fine, every write is refused, 0 delivered.
+
+    A 500 is not 401, so a token-only guard would report `ok` here. That is the
+    exact 69-day outage this test exists to prevent.
+    """
+    reasons = _run_reader_push(500)
+    assert reasons, "0/2 items saved must record a partial_reason, not pass as ok"
+    assert any("Readwise" in r for r in reasons)
+    assert any("2/2" in r or "2 items" in r for r in reasons), reasons
+
+
+def test_reader_push_rejected_token_degrades_the_run():
+    reasons = _run_reader_push(401)
+    assert any("token rejected" in r for r in reasons), reasons
+
+
+def test_reader_push_all_succeeding_stays_ok():
+    """The negative side of the classifier: a clean push must NOT degrade.
+
+    Without this, a guard that always fires would pass the two tests above and
+    make every run `partial` — a flag that is always true tells you nothing.
+    """
+    assert _run_reader_push(201) == []
+
+
+def test_no_delivery_surface_still_writes_to_ticktick():
+    """TickTick was retired 2026-09-16. Assert the negative, so a copy-paste
+    from an older lane cannot quietly reintroduce the dead surface."""
+    import io as _io
+    src = _io.open("main.py", encoding="utf-8").read()
+    assert "ticktick" not in src.lower(), "main.py must not reference TickTick"

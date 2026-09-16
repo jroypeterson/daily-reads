@@ -4,7 +4,7 @@
 - **Status:** live
 - **Runtime/trigger:** Python via GitHub Actions (daily 12:00 UTC / 7am ET) + manual dispatch
 - **Reads:** Gmail newsletters (7-day window) · Hacker News · web search · email-reply / GitHub-issue feedback · `learned_preferences.json`
-- **Writes:** Slack `#daily-reads` (digest) · GitHub Pages archive · TickTick · Readwise Reader (top picks + always-read → `later`) · `#status-reports` (heartbeat) · `artifacts/runs/<date>.json` (Gmail email digest currently paused)
+- **Writes:** Slack `#daily-reads` (digest) · GitHub Pages archive · Readwise Reader (top picks + always-read → `later`) · `#status-reports` (heartbeat) · `artifacts/runs/<date>.json` (Gmail email digest currently paused)
 - **Run:** `python main.py`  ·  **Entry points:** `main.py`, `gmail_reader.py`, `url_resolver.py`, `preference_learning.py`
 
 AI-curated daily article digest — 4 articles across healthcare/biotech, finance, tech/AI, and wildcard topics.
@@ -40,7 +40,7 @@ Web search ─────────┘                                → Git
 5. **Article Shortlist**: Claude ranks top 8 candidates from headlines/snippets
 6. **Article Verification**: For each shortlisted candidate, fetch the actual article text (trafilatura → Jina Reader → Tavily fallback chain), then Claude verifies it has real substance and matches criteria. Skipped candidates are replaced with the next-ranked one. Paywalled articles fall back to verifying against the newsletter summary.
 7. **URL validation**: Pre-delivery `validate_delivery_urls` probes every URL about to ship. Broken URLs (404/410, DNS failures, dead-end trackers) are dropped from triage/always-read/substack; main-slot breakages log a loud warning. `url_resolver.py` unwraps tracker redirects generically (shape-based, not per-host) and drops ones that resolve to publisher homepages. Substack `redirect/2/<token>` URLs are decoded to canonical publication URLs so desktop clicks work.
-8. **Delivery**: Sends 4 verified articles to Gmail, Slack (dedicated `#daily-reads` channel via `SLACK_WEBHOOK_URL_DAILY_READS`), TickTick, GitHub Pages, and Actions log. Digest includes an "Always read" section for paid subscriptions and a "Substack — today's inbox" section listing every `@substack.com` email in the last 26h. **Note (paused 2026-05-18):** outbound Gmail digest is currently disabled in the scheduled run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. Slack/TickTick/Pages remain on. Remove the env line to resume.
+8. **Delivery**: Sends 4 verified articles to Gmail, Slack (dedicated `#daily-reads` channel via `SLACK_WEBHOOK_URL_DAILY_READS`), Readwise Reader, GitHub Pages, and Actions log. Digest includes an "Always read" section for paid subscriptions and a "Substack — today's inbox" section listing every `@substack.com` email in the last 26h. **Note (paused 2026-05-18):** outbound Gmail digest is currently disabled in the scheduled run via `DELIVER_GMAIL_ENABLED: "false"` in `.github/workflows/daily.yml`. Slack/Reader/Pages remain on. Remove the env line to resume.
 9. **Criteria Review**: When enough feedback accumulates, Claude proposes a criteria update and notifies via Gmail + Slack for accept/reject/modify review
 10. **Taste Intake**: Positive exemplars come from a dedicated Gmail alias/label, a local Dropbox watch folder, GitHub `Taste:` issues, or **Readwise article highlights** (`process_readwise_exemplars.py` + reusable fetch-only `readwise_client.py`) — an article JP highlighted is treated as a strong positive exemplar. Only `category=articles` documents enter the article-taste loop (books/tweets/podcasts excluded); the incremental sync cursor lives in `readwise_state.json` (committed by the workflow, max 25 new exemplars/run with overflow draining on later runs). All paths append `positive_exemplar` records to `taste_evidence.json`, which feed learned preferences
 11. **Source Audit**: Daily check that every newsletter source in `sources.py` has produced emails recently; Slack alert if any go stale/dead. Not `continue-on-error` — a broken audit fails the workflow visibly.
@@ -57,7 +57,7 @@ Layers guard against silent ingest misses *and* silent delivery failures (see `m
 5. **Weekly roster** — full source status list in Friday's report
 6. **Slack section auto-splitter** — `_split_oversized_section_blocks` in `main.py` walks the assembled payload before posting and splits any section block exceeding Slack's 3000-char limit. Catches new sections that someone forgets to chunk manually.
 7. **Operator alert on delivery failure** — `_alert_operator_slack` posts a one-line failure summary to `#status-reports` (`SLACK_WEBHOOK_STATUS_REPORTS`) when the daily-reads webhook returns non-2xx. Also flags the run as `partial` in the end-of-run heartbeat. Skipped when both webhooks point at the same channel.
-8. **End-of-run health/v1 heartbeat** — every run posts a Block Kit status message to `#status-reports` per `HEALTH_REPORTING.md`. `ok` on clean completion, `partial` if a delivery surface degraded (Slack digest failed, TickTick token expired), `error` on uncaught exception. The workflow's `if: always()` final step posts a generic error heartbeat if `main.py` died before reaching its own posting code.
+8. **End-of-run health/v1 heartbeat** — every run posts a Block Kit status message to `#status-reports` per `HEALTH_REPORTING.md`. `ok` on clean completion, `partial` if a delivery surface degraded (Slack digest failed, Readwise token rejected, or any Reader item failed to save), `error` on uncaught exception. The workflow's `if: always()` final step posts a generic error heartbeat if `main.py` died before reaching its own posting code.
 
 ## GitHub Secrets Required
 
@@ -65,14 +65,12 @@ Layers guard against silent ingest misses *and* silent delivery failures (see `m
 |--------|-------------|
 | `ANTHROPIC_API_KEY` | Claude API key |
 | `GMAIL_OAUTH_JSON` | Gmail OAuth token JSON (see setup below) |
-| `SLACK_WEBHOOK_STATUS_REPORTS` | Slack incoming webhook for `#status-reports` — end-of-run `health/v1` heartbeat plus operator alerts (weekly report, source audit, criteria proposals, TickTick-expired warnings, taste synthesis, digest delivery failure) |
+| `SLACK_WEBHOOK_STATUS_REPORTS` | Slack incoming webhook for `#status-reports` — end-of-run `health/v1` heartbeat plus operator alerts (weekly report, source audit, criteria proposals, Readwise-token warnings, taste synthesis, digest delivery failure) |
 | `SLACK_WEBHOOK_URL_DAILY_READS` | Optional — Slack webhook for the daily digest itself (e.g. `#daily-reads`). Falls back to `SLACK_WEBHOOK_STATUS_REPORTS` when unset. |
 | `GITHUB_TOKEN` | Auto-provided by GitHub Actions |
 | `TASTE_EMAIL_ALIAS` | Optional override for exemplar intake alias, defaults to `jroypeterson+taste@gmail.com` |
 | `TASTE_GMAIL_LABEL` | Optional Gmail label used as a backup exemplar intake path, defaults to `taste` |
 | `TAVILY_API_KEY` | Optional — enables Tavily extract as last-resort fallback for paywalled/JS-heavy articles that trafilatura and Jina can't extract |
-| `TICKTICK_ACCESS_TOKEN` | Optional — enables TickTick delivery |
-| `TICKTICK_LIST_DAILY_READS` | Optional — TickTick list ID for daily digest |
 | `READWISE_TOKEN` | Optional — static Readwise token (readwise.io/access_token). Enables (a) the Reader push of top picks + always-read (unset = skipped cleanly) and (b) the Readwise highlight → taste-exemplar ingest (unset = loud Slack warning to `#status-reports`, digest proceeds without fresh exemplars). |
 | `READWISE_READER_LOCATION` | Optional — Reader shelf for pushed items (`later` default; e.g. `shortlist`) |
 

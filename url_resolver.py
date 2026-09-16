@@ -2,7 +2,7 @@
 
 Some newsletter senders (e.g. BioSpace via HubSpot, Endpoints via SendGrid)
 wrap every link in a click-tracking redirector. The wrapped URLs are 600+
-chars and clutter every downstream surface — Slack, Pages, Gmail, TickTick.
+chars and clutter every downstream surface — Slack, Pages, Gmail, Reader.
 
 This module follows redirects exactly once per URL, caches the result, and
 returns the cleaned canonical URL. On any failure (timeout, non-2xx, network

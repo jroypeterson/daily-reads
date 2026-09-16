@@ -2389,97 +2389,6 @@ def deliver_log(articles: list[dict]):
         print(f"   Signals: {', '.join(a.get('signal_tags', []))}")
 
 
-def deliver_ticktick(articles: list[dict], always_read: list[dict] | None = None):
-    section("DELIVERY: TICKTICK")
-    access_token = os.environ.get("TICKTICK_ACCESS_TOKEN")
-    list_id = os.environ.get("TICKTICK_LIST_DAILY_READS")
-    if not access_token or not list_id:
-        print("TickTick credentials not configured — skipping.")
-        return
-
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "Content-Type": "application/json",
-    }
-
-    due_date = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000+0000")
-
-    tasks = []
-    for a in articles:
-        url = a.get("url", "")
-        headline = a.get("headline", "Untitled")
-        slot = a.get("slot", "?")
-        title = f"[{headline}]({url})" if url else headline
-        summary = a.get("summary", "")
-        why = a.get("why_it_matters", "")
-        strong = slack_mailto_feedback_url(today, slot, 3)
-        fine = slack_mailto_feedback_url(today, slot, 2)
-        miss = slack_mailto_feedback_url(today, slot, 1)
-        reading_time = a.get("reading_time", "N/A")
-        paywall_note = "\n\n🔒 Snippet-only: full article was paywalled; verified on newsletter summary." if a.get("snippet_only") else ""
-        desc = f"⏱ {reading_time} read · {a.get('source', '')}\n\n{summary}\n\nWhy it matters: {why}" if why else f"⏱ {reading_time} read · {a.get('source', '')}\n\n{summary}"
-        desc += paywall_note
-        desc += f"\n\nRate this pick: [Strong]({strong}) · [Fine]({fine}) · [Miss]({miss})"
-        desc += "\n\n---\nFound something great? Forward it to jroypeterson+taste@gmail.com to train my taste."
-        tasks.append({
-            "title": title,
-            "content": desc,
-            "dueDate": due_date,
-            "projectId": list_id,
-        })
-
-    for item in (always_read or []):
-        headline = item.get("headline") or item.get("subject", "Untitled")
-        url = item.get("primary_url", "")
-        source = item.get("source_name", "")
-        title = f"[{headline}]({url})" if url else headline
-        tasks.append({
-            "title": title,
-            "content": f"Source: {source}",
-            "dueDate": due_date,
-            "projectId": list_id,
-        })
-
-    created = 0
-    token_expired = False
-    for task in tasks:
-        resp = requests.post(
-            "https://api.ticktick.com/open/v1/task",
-            headers=headers,
-            json=task,
-        )
-        if resp.status_code == 200:
-            created += 1
-            print(f"  ✓ {task['title']}")
-        elif resp.status_code == 401:
-            token_expired = True
-            print(f"  ✗ 401 Unauthorized — TickTick token has expired.")
-            break
-        else:
-            print(f"  ✗ Failed ({resp.status_code}): {task['title']}")
-            print(f"    {resp.text}")
-
-    if token_expired:
-        print("\n⚠️ TickTick access token expired. Re-run the OAuth flow to get a new token.")
-        _RUN_STATE["partial_reasons"].append("TickTick token expired — push to TickTick skipped")
-        slack_url = os.environ.get("SLACK_WEBHOOK_STATUS_REPORTS")
-        if slack_url:
-            alert = (
-                ":warning: *TickTick token expired* — Daily Reads can't push to TickTick. "
-                "Re-run the OAuth flow at developer.ticktick.com to get a new access token, "
-                "then update the `TICKTICK_ACCESS_TOKEN` GitHub secret."
-            )
-            requests.post(slack_url, json={
-                "blocks": [
-                    {"type": "section", "text": {"type": "mrkdwn", "text": alert}},
-                ],
-                "text": "TickTick token expired — push skipped",
-            })
-
-    print(f"\nCreated {created}/{len(tasks)} tasks in TickTick.")
-
-
 def deliver_reader(articles: list[dict], always_read: list[dict] | None = None,
                    state: dict | None = None, today: str | None = None):
     """Push the day's top picks + always-read items into Readwise Reader so
@@ -3068,7 +2977,6 @@ def main():
             print("⏸  deliver_gmail paused via DELIVER_GMAIL_ENABLED=false")
         deliver_slack(articles, triage_queue, always_read, substack_items, journal_watch)
         deliver_pages(articles, triage_queue, always_read, substack_items, journal_watch)
-        deliver_ticktick(articles, always_read)
         # `delivered_state` is loaded above and saved below, so the permanent
         # reader_pushed record this fills in is persisted by the same write.
         deliver_reader(articles, always_read, state=delivered_state, today=today)
@@ -3115,8 +3023,8 @@ def main():
         raise
 
     # Success / partial path. partial_reasons populated by deliver_slack
-    # (digest fan-out failed) or deliver_ticktick (token expired); URL drops
-    # surface as informational warnings.
+    # (digest fan-out failed) or deliver_reader (token rejected, or any item
+    # failing to save); URL drops surface as informational warnings.
     url_warnings = _read_url_validation_warnings(today)
     warnings_all = list(_RUN_STATE["warnings"]) + url_warnings
     partial_reasons = list(_RUN_STATE["partial_reasons"])

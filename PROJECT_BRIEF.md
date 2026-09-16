@@ -47,10 +47,10 @@ picks, and reads them — and the few he rates teach the selector.
 | 5 | Taste learning from feedback | 🟡 Partial | Email-reply + GitHub-issue ratings → `feedback_log.json`; `preference_learning.py` / `learned_preferences.*`. Working, but the rich signal is the seeded `taste_profile.md`, not yet much earned feedback |
 | 6 | Earn-not-guess taste model | 🟡 Seeded | `taste_profile.md` seeded 2026-06-04 from ~3,860 Readwise highlights; `process_taste.py::rebuild_profile()` only fires at **3+** GitHub taste-issue exemplars — currently 0 earned, so refinement loop is unexercised |
 | 7 | Criteria evolve with human sign-off | ✅ Done | After 7+ feedback days Claude proposes to `selection_criteria_proposed.md`; accept/reject/modify via GitHub issue; applied next run (not auto-applied) |
-| 8 | Feed top picks into the reading workflow | ✅ Done | `deliver_reader` pushes top picks + always-read to Readwise Reader (`later`), idempotent, token-gated; TickTick + GitHub Pages archive |
+| 8 | Feed top picks into the reading workflow | ✅ Done | `deliver_reader` pushes top picks + always-read to Readwise Reader (`later`), idempotent, token-gated; GitHub Pages archive |
 | 9 | No silent failures; operator visibility | ✅ Done | 8-layer resilience model (canary, daily source audit, pre-commit hook, section auto-splitter, operator alert, `health/v1` heartbeat to `#status-reports`); see README "Resilience model" |
 | 10 | Weekly self-report on health/quality | ✅ Done | `weekly_report.py` Fridays — source health roster, selection quality, feedback trends, URL stats |
-| 11 | Outbound email digest | ⬜ Paused | `deliver_gmail` gated off in scheduled run since 2026-05-18 (`DELIVER_GMAIL_ENABLED:"false"`); Slack/TickTick/Pages carry delivery. Deliberate, reversible |
+| 11 | Outbound email digest | ⬜ Paused | `deliver_gmail` gated off in scheduled run since 2026-05-18 (`DELIVER_GMAIL_ENABLED:"false"`); Slack/Reader/Pages carry delivery. Deliberate, reversible |
 
 **Overall verdict: v1 goal is met and the pipeline is live and well-hardened.**
 The honest soft spot is the *learning* half (§5–6): the taste model is strong but
@@ -97,10 +97,21 @@ time" is unproven in production.
 - **Not** a real-time feed — one batch run a day. Fine for a long-form reading habit.
 - **Not** a Reader→digest pull; the integration is push-only (see §3.6).
 - **Not** auto-evolving criteria — proposals always wait for human sign-off (§3.5).
-- **Outbound HTML email is intentionally paused** (not broken); Slack/TickTick/Pages
+- **Outbound HTML email is intentionally paused** (not broken); Slack/Reader/Pages
   are the live surfaces. One env line resumes it.
 - Uses headless Gmail OAuth + Readwise REST token (not interactive connectors)
   because everything must run unattended under GH Actions.
+- **TickTick delivery was removed 2026-09-16** (`deliver_ticktick`, its two
+  secrets, and the workflow env lines). Readwise Reader is the reading surface
+  now. **Why it matters beyond the retirement:** the push had delivered
+  **0 tasks since 2026-07-10** — 69 consecutive runs — because the TickTick
+  project hit its 999-task limit and the API answered `500
+  project_task_limit_exceeded` on every single task. Every one of those runs
+  reported `health/v1 ok`, because the function degraded the run on **`401`
+  only**. The guard covered the failure mode someone had thought of (token
+  expiry — there was even a calendar reminder for it) and was blind to the one
+  that happened. `deliver_reader` does not share the defect: it degrades on a
+  rejected token *and* on `failures` > 0. Checked at removal, not assumed.
 
 ## 5. Known gaps / candidate next steps (feedback welcome here)
 
@@ -108,8 +119,10 @@ time" is unproven in production.
   earned ratings/exemplars exist, so criteria-evolution and `rebuild_profile()`
   have rarely (if ever) fired in anger. Is the friction the email-reply scoring
   UX? Worth lowering the bar to generate signal?
-- **Two delivery surfaces depend on tokens that expire** (TickTick especially);
-  expiry degrades to `partial` with an alarm, but there's no auto-refresh.
+- **Readwise Reader is now the only token-dependent delivery surface.** A
+  rejected token *or* any item failing to save degrades the run to `partial`
+  with an alarm, but there's no auto-refresh. (TickTick delivery was removed
+  2026-09-16 — see the retirement note below.)
 - **Wake-time network race** (fleet-wide): a caught-up scheduled run can fire
   before DNS is up. This is a GH-Actions-hosted job (less exposed than the local
   Windows taste-ingestion task), but the local task could still hit it — a
