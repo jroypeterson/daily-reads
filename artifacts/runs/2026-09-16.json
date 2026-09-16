@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-09-16",
+  "generated_at": "2026-09-16T16:02:20Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "880ef5e101043748",
+      "headline": "Humana, UnitedHealthcare received $178M in combined Medicare Advantage overpayments: OIG",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/medicare-advantage/humana-received-130-9m-in-medicare-advantage-overpayments-oig/",
+      "slot": 1,
+      "summary": "The HHS Office of Inspector General published audit reports finding Humana and UnitedHealthcare received a combined $177.8 million in Medicare Advantage overpayments, with error rates of 81% and 73% respectively across sampled diagnosis codes unsupported by medical records. The pattern was strikingly consistent across both plans \u2014 patients who had survived strokes or cancer were coded as still having active conditions. Both insurers contested the findings and rejected the OIG's recommendations, challenging extrapolation methodology and arguing the audits were structurally one-sided; the OIG rejected all objections, though CMS retains final authority on recoupment.",
+      "why_it_matters": "With MA profitability already under pressure from elevated utilization and CMS rate headwinds, these OIG findings \u2014 showing systematic, high-error-rate coding practices at HUM and UNH \u2014 signal escalating audit and clawback risk that could further compress MA margins across the managed care sector.",
+      "signal_tags": [
+        "ticker_match:HUM",
+        "ticker_match:HCAT",
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "actionability",
+        "health_technology_datasets"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c3f9c82f45ef21c1",
+      "headline": "My Last Financial Model",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+      "slot": 3,
+      "summary": "MBI Deep Dives author declares he has built his last financial model from scratch after Claude Fable 5.1 demonstrated it could replicate and iterate on his proprietary modeling style across companies like Uber and OpenAI. The piece details the human-AI collaboration loop required to get high-quality outputs \u2014 emphasizing that knowing what 'good' looks like remains a durable edge, for now. It frames this shift through Terence Tao's 'proof abundance' lens, suggesting financial modeling is moving from scarce artisanal skill to abundant commodity.",
+      "why_it_matters": "For an investor deeply engaged in fundamental research, this is a direct signal that the moat around spreadsheet-based analysis is collapsing, shifting the premium toward judgment, sourcing, and knowing what questions to ask \u2014 exactly the kind of structural workflow insight the reader values.",
+      "signal_tags": [
+        "priority:high",
+        "ai_impact",
+        "ai_biology_intersection",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "practitioner_perspective"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

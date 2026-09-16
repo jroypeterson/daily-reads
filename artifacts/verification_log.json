@@ -10537,5 +10537,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article delivers substantive analytical depth on China's open-weight AI strategy as a geopolitical platform play, directly matching Slot 3 (Tech/AI) and the reader's strong preferences for competitive moat analysis, AI impact, and structural market insight."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "A rushed AI Medicare pilot resulted in patient care crises, documents reveal",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW-r656XjQSKVTBZyj3_C-1hVQq1455T-Tp7N1sYgZ43qgz0W7lCdLW6lZ3kJW986MQq5g4mg8W43jGJT79bLX9W5nFPqC61pcVDW2-q3X49bVjfDW1xFymW6RT1_VW36gz7l5pZKs9W33gt_c15kyTwW9k9QnN8L3sXxN1wWsKl65C2fW5WrhsB1VGdq4W5dM61864jbqvW71L38J3748cVW1RFbzq3tpDRfW32hqZY8JThfkW6pBLVD4zcRDwW6Jtgqb4s0hfYW2clPY05-02l4W40lkrZ4V8psKW3nR98l57DjvnW4FCfh04lcB67W6hwZ7f4nyCCqW2MssBN9d6GHJW4lVv667bs27XN22-dDZH6FX3f88QYCW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text is inaccessible \u2014 only a subscription marketing page was retrieved, providing no substantive content to evaluate."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "J&J looking to offload orthopedics unit in $20B deal to Apollo: report",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/medtech/jj-looking-offload-orthopedics-unit-20b-deal-apollo-bloomberg",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin news brief based entirely on unconfirmed Bloomberg sourcing with no analytical depth \u2014 it rehashes a rumor without financials, strategic analysis, or competitive implications beyond a single paragraph of context, making it too generic to merit a slot despite the large deal size."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantively about AI replacing financial modeling workflows \u2014 a Tech/AI or Finance topic \u2014 and has no meaningful connection to Healthcare or Biotech, making it a clear mismatch for Slot 1."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Novo looks to Anthropic's AI models to 'supercharge' drug development",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novo-anthropic-ai-drug-discovery-development-deal/830540/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press release summary with no financial details, no pipeline specifics, and no analytical depth \u2014 it reads as corporate announcement coverage rather than substantive analysis of AI-drug discovery implications."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "The AI Economy: Interconnected Forces, Feedback Loops, and Speeds of Change",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0a6b981ce9581d8f4bbcfbb48/6188d009e7f146120000021ef3a0bcc2/6188d009-e7f1-4612-a26a-54eb58faab6b",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI macro framework piece from McKinsey, not a Healthcare/Biotech article \u2014 it has no relevance to FDA decisions, clinical trials, biopharma M&A, or pipeline news required for Slot 1."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI geopolitics article about China's open-weight AI model strategy and platform lock-in dynamics \u2014 it has no meaningful connection to healthcare or biopharma and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Humana, UnitedHealthcare received $178M in combined Medicare Advantage overpayments: OIG",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/humana-received-130-9m-in-medicare-advantage-overpayments-oig/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, data-rich detail on OIG audit findings against HUM and UNH \u2014 including error rates, contested cases, insurer rebuttals, and methodology disputes \u2014 making it a genuine regulatory catalyst piece with direct investment relevance for two major managed care tickers."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "FDA launches pilot program to speed up early US drug research",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-operation-trialblazer-ind-pilot-program-drug-trials/830372/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 healthcare/regulatory story about FDA policy, not a Slot 2 finance/macro article \u2014 it lacks market-moving data, earnings context, or macro framing, and while substantive, it reads as industry news rather than investment-grade financial analysis."
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, practitioner-level reflection on how frontier AI models (specifically Claude) are displacing traditional financial modeling workflows, grounded in a concrete real-world example (building an OpenAI model), and raises pointed questions about where human analyst edge remains \u2014 directly matching the reader's strong preferences for AI impact, analytical depth, and investment-relevant insights."
   }
 ]

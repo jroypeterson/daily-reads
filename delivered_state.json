@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "73dca7c1ea76eb02",
-      "date": "2026-09-01"
-    },
-    {
       "id": "72d4e094dc7aadff",
       "date": "2026-09-04"
     },
@@ -95,6 +91,14 @@
     {
       "id": "b50b6ec22c9c7c98",
       "date": "2026-09-15"
+    },
+    {
+      "id": "880ef5e101043748",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "c3f9c82f45ef21c1",
+      "date": "2026-09-16"
     }
   ],
   "reader_pushed": {
@@ -139,6 +143,9 @@
     "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F09-14-2026-slow-down": "2026-09-14",
     "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/": "2026-09-15",
     "https://thetranscript.substack.com/p/09-15-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU4MDI0ODAsImlhdCI6MTc4OTQ4MjEzNiwiZXhwIjoxNzkyMDc0MTM2LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.DIf3cHVylu-rb9khq62L_49YSGx30w-_hgkfSrr74uk": "2026-09-15",
-    "https://aletteraday.substack.com/p/letter-343-bill-oberndorf-2025?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTE4MjgzMzQsImlhdCI6MTc4OTQzNDE2NiwiZXhwIjoxNzkyMDI2MTY2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.bUgBg9D61DzA2-33heT7ZUKDPBO7-kPXU9xAy8dt5mw": "2026-09-15"
+    "https://aletteraday.substack.com/p/letter-343-bill-oberndorf-2025?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTE4MjgzMzQsImlhdCI6MTc4OTQzNDE2NiwiZXhwIjoxNzkyMDI2MTY2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.bUgBg9D61DzA2-33heT7ZUKDPBO7-kPXU9xAy8dt5mw": "2026-09-15",
+    "https://www.beckerspayer.com/payer/medicare-advantage/humana-received-130-9m-in-medicare-advantage-overpayments-oig/": "2026-09-16",
+    "https://mbideepdives.substack.com/p/my-last-financial-model": "2026-09-16",
+    "https://mbideepdives.substack.com/p/my-last-financial-model?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU3MjU5NDksImlhdCI6MTc4OTQ4ODc0OCwiZXhwIjoxNzkyMDgwNzQ4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.lEku81WEokgrL9IVJWumqdPppZhhvqKDlMReuHuN8QQ": "2026-09-16"
   }
 }
