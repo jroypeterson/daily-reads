@@ -10618,5 +10618,104 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article is a substantive, practitioner-level reflection on how frontier AI models (specifically Claude) are displacing traditional financial modeling workflows, grounded in a concrete real-world example (building an OpenAI model), and raises pointed questions about where human analyst edge remains \u2014 directly matching the reader's strong preferences for AI impact, analytical depth, and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "A rushed AI Medicare pilot resulted in patient care crises, documents reveal",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW-r656XjQSKVTBZyj3_C-1hVQq1455T-Tp7N1sYgZ43qgz0W7lCdLW6lZ3kJW986MQq5g4mg8W43jGJT79bLX9W5nFPqC61pcVDW2-q3X49bVjfDW1xFymW6RT1_VW36gz7l5pZKs9W33gt_c15kyTwW9k9QnN8L3sXxN1wWsKl65C2fW5WrhsB1VGdq4W5dM61864jbqvW71L38J3748cVW1RFbzq3tpDRfW32hqZY8JThfkW6pBLVD4zcRDwW6Jtgqb4s0hfYW2clPY05-02l4W40lkrZ4V8psKW3nR98l57DjvnW4FCfh04lcB67W6hwZ7f4nyCCqW2MssBN9d6GHJW4lVv667bs27XN22-dDZH6FX3f88QYCW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is not accessible, only a STAT+ subscription page is visible, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "What You Have to Believe for OpenAI to Break Even in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-you-have-to-believe-for-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU4NzU0MjgsImlhdCI6MTc4OTU4MDQ4NiwiZXhwIjoxNzkyMTcyNDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.VV3Q57AzKTZnHcbbevnRwWn53BXBqSLVlBj4ffm0-oc",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI and Finance article about OpenAI's unit economics and path to profitability \u2014 it has no meaningful connection to healthcare or biopharma and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Novo looks to Anthropic's AI models to 'supercharge' drug development",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/novo-anthropic-ai-drug-discovery-development-deal/830540/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press release recap with no financial details, no mechanistic depth on how Claude Science will be applied, and no differentiated insight beyond what's already covered in the BMS-Anthropic deal announced in May \u2014 it reads as a war-of-superlatives roundup rather than substantive analysis."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "[scuttleslops] Chatbot advertising, AMZN, ROP, China EVs and Humanoid Robots, APH",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a collection of stub/teaser entries from Scuttleblurb's scuttleslops roundup format \u2014 there is no substantive healthcare or biopharma content, and the full article does not deliver depth on any single topic relevant to Slot 1."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "The AI economy: Interconnected forces, feedback loops, and speeds of change",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0a6b981ce9581d8f4bbcfbb48/6188d009e7f146120000021ef3a0bcc2/6188d009-e7f1-4612-a26a-54eb58faab6b",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI macro piece from McKinsey, not a Healthcare/Biotech article \u2014 it has no specific healthcare clinical, regulatory, or biopharma content and belongs in Slot 3 or Slot 4, not Slot 1."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "FDA still haunted by DOGE cuts",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWfhsy31qtL5W2B6Kpv4gqJ3BW1WCq9G5V29jwN4313Jd3qgz0W7lCdLW6lZ3llW1Rlwwr7nzVX1W1V8Fhf3c57SVW3D1V_c5v92pxW27p7p73gJtwsW8H7LJX6Qgns4W6cJ7YZ4H_3bLW3Y0yNW2ZYxPNW6xKGbG951sMCW7M5Nrd3243zPW3hqb4r296XPlN30Jjg1Dlr0KW5cV2BV2t_xKwW6xkK_L5-PcTkW2zqlJG3lDHT1Vnn4Ms65TGRrW8Tdt9g4MSMCmW5xHg2C7qNTFjW3BgtYh7g_dBvW8KTZMW6l-4dgN8n8c23NrkpNW3-hFwM3mdr_fW1dMSYj6qQnwPW5JXFxt1Ss7mBW7cwXlq5YnRHnf3Jbhwl04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall/subscription page with no substantive content accessible \u2014 the actual article body is not present, making it impossible to verify depth, accuracy, or substance."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Warsh's Fed soars like a hawk into a hiking cycle",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro/monetary policy opinion piece about Fed Chair Warsh's hawkish rate-hiking stance \u2014 it belongs to Slot 2 (Finance/Macro), not Slot 1 (Healthcare/Biotech), and the full article text is largely navigation boilerplate with no substantive content visible."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTUxMTQ2MzgsImlhdCI6MTc4OTIxODU0MiwiZXhwIjoxNzkxODEwNTQyLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.hm8-2C2dSs7YwiduJkFojM6XzDn0u4THznr71WXe-2A",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Tech/AI geopolitical strategy piece about China's open-weight AI model ecosystem ambitions, not a Healthcare/Biotech article \u2014 it has no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "[scuttleslops] Chatbot advertising, AMZN, ROP, China EVs and Humanoid Robots, APH",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is actually a collection of brief teaser blurbs and podcast/earnings call excerpts rather than a substantive deep-dive on ROP, AMZN, China EVs, or humanoid robots \u2014 the actual content is thin preview snippets with no analytical depth on the advertised topics."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Warsh's Fed soars like a hawk into a hiking cycle",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is entirely navigation/boilerplate content from Bloomberg's website \u2014 the actual article body was truncated and never loaded, so there is no substantive content to evaluate beyond the headline and shortlist summary."
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "What You Have to Believe for OpenAI to Break Even in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-you-have-to-believe-for-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU4NzU0MjgsImlhdCI6MTc4OTU4MDQ4NiwiZXhwIjoxNzkyMTcyNDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.VV3Q57AzKTZnHcbbevnRwWn53BXBqSLVlBj4ffm0-oc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers rigorous bottom-up financial modeling of OpenAI's path to breakeven by 2030, grounding assumptions in disclosed capacity data, audited financials, and compute budget commitments \u2014 exactly the kind of deep business diligence and AI infrastructure analysis this reader consistently rewards."
   }
 ]

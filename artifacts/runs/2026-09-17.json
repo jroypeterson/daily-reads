@@ -1,0 +1,35 @@
+{
+  "run_date": "2026-09-17",
+  "generated_at": "2026-09-17T16:09:54Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b8638a7d9792b64f",
+      "headline": "What You Have to Believe for OpenAI to Break Even in 2030",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/what-you-have-to-believe-for-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU4NzU0MjgsImlhdCI6MTc4OTU4MDQ4NiwiZXhwIjoxNzkyMTcyNDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.VV3Q57AzKTZnHcbbevnRwWn53BXBqSLVlBj4ffm0-oc",
+      "slot": 3,
+      "summary": "MBI Deep Dives constructs a sourced, bottom-up model of OpenAI's cost base through 2030 \u2014 anchored to disclosed GW capacity plans, $750B compute spending commitments, leaked audited financials, and equity comp data \u2014 then back-solves for the inference revenue per gigawatt required to reach EBIT breakeven. The model finds OpenAI likely ends 2030 with ~22 GW of live capacity (haircut from the 30 GW ambition due to budget constraints), and quantifies the revenue targets needed under different capacity and pricing scenarios. A downloadable spreadsheet with sourced assumptions is provided for readers to stress-test their own views.",
+      "why_it_matters": "With OpenAI reportedly pursuing a pre-IPO round at $1.2T and a likely public offering on the horizon, understanding the unit economics of inference revenue per gigawatt is essential for sizing the AI infrastructure investment thesis and evaluating downstream exposure across cloud, enterprise SaaS, and healthcare AI plays.",
+      "signal_tags": [
+        "priority:high",
+        "ai_impact",
+        "deep_business_diligence",
+        "competitive_moat_analysis",
+        "analytical_depth",
+        "long_form_investment_writing",
+        "elite_fund_practitioner_content"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
