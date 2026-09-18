@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-09-18",
+  "generated_at": "2026-09-18T15:41:46Z",
+  "counts": {
+    "gmail_items": 137,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c3f9c82f45ef21c1",
+      "headline": "My Last Financial Model",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+      "slot": 3,
+      "summary": "MBI Deep Dives author reflects on building his last financial model from scratch after discovering that Claude Fable 5.1 can replicate and extend his modeling style across companies like Uber and OpenAI. He argues that while AI is now top-1% in Excel proficiency, the analyst's edge shifts to knowing what 'good' looks like \u2014 framing the right questions, probing assumptions, and guiding the feedback loop with the model. The piece connects this shift to Terence Tao's 'era of proof abundance' thesis, suggesting knowledge work broadly is entering a similar inflection point.",
+      "why_it_matters": "For an investor focused on analytical depth and AI impact, this is a first-person, practitioner account of how agentic AI is restructuring the core workflow of equity research \u2014 with direct implications for where human judgment retains durable value.",
+      "signal_tags": [
+        "priority:high",
+        "ai_impact",
+        "analytical_depth",
+        "practitioner_perspective",
+        "forward_looking",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

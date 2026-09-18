@@ -10717,5 +10717,113 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article delivers rigorous bottom-up financial modeling of OpenAI's path to breakeven by 2030, grounding assumptions in disclosed capacity data, audited financials, and compute budget commitments \u2014 exactly the kind of deep business diligence and AI infrastructure analysis this reader consistently rewards."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "A rushed AI Medicare pilot resulted in patient care crises, documents reveal",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW-r656XjQSKVTBZyj3_C-1hVQq1455T-Tp7N1sYgZ43qgz0W7lCdLW6lZ3kJW986MQq5g4mg8W43jGJT79bLX9W5nFPqC61pcVDW2-q3X49bVjfDW1xFymW6RT1_VW36gz7l5pZKs9W33gt_c15kyTwW9k9QnN8L3sXxN1wWsKl65C2fW5WrhsB1VGdq4W5dM61864jbqvW71L38J3748cVW1RFbzq3tpDRfW32hqZY8JThfkW6pBLVD4zcRDwW6Jtgqb4s0hfYW2clPY05-02l4W40lkrZ4V8psKW3nR98l57DjvnW4FCfh04lcB67W6hwZ7f4nyCCqW2MssBN9d6GHJW4lVv667bs27XN22-dDZH6FX3f88QYCW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is entirely a STAT+ paywall/subscription page with no accessible article content \u2014 there is no substantive reporting to evaluate."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Ultragenyx prices Sanfilippo gene therapy at $4M; Bristol Myers shelves Orum drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/ultragenyx-fayuvi-orum-bristol-lunsumio-longeveron-rocket-danon/830512/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin news roundup of five brief items with minimal analytical depth, no investment framework, and covers niche therapeutics (Sanfilippo, Danon disease) that match the reader's avoid patterns \u2014 it lacks the structural insight or actionable depth the taste profile demands."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantive and well-written but is clearly about AI's impact on financial modeling workflows \u2014 not healthcare or biotech \u2014 making it a poor fit for Slot 1 (Healthcare/Biopharma)."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is clearly a Tech/AI geopolitical strategy piece about China's open-weight AI platform ambitions \u2014 it has zero relevance to the Healthcare/Biotech slot and belongs in Slot 3."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "[scuttleslops] Chatbot advertising, AMZN, ROP, China EVs and Humanoid Robots, APH",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Scuttleblurb 'scuttleslops' roundup covering chatbot advertising, Amazon grocery, TransDigm, Union Pacific, Veeva, ROP, and AI data centers \u2014 none of which are healthcare/biotech content, and the article is a teaser/link aggregator with no substantive depth on any single topic."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Warsh's Fed soars like a hawk into a hiking cycle",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Finance/Macro article about Fed rate policy under Warsh and its bond market implications \u2014 it does not belong in Slot 1 (Healthcare/Biotech), and the article text is largely truncated navigation boilerplate with no substantive content visible to evaluate depth."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Trump's secretive pharma deals may undermine 'most-favored nation' pricing, analysis suggests",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MW2dqqD_wT4W8s_7WV9gBkVXW9k7knf5TYK2KN5BW0S03qgz0W7lCdLW6lZ3nzM4vvCFjW68hVL8HTg5P-nNvW5__3HC7xXZRgW5mX0lq7Kz1StW3CF8GY1TBJ__N9h16lKbRm1JW6pZkx95FF9-HW6mKWDw66R0VxW3Jj5LH5q_twGW8_tmrP6bs0XdN76S2RjNn93fW51JVvB3PnXYlW8-0TbS6vLy0JW95DdNP2XCDJWW7C5g7p55xH2tW6CcwjK3l3SfmW8WPyV47lkTXgW5jgkdr1Gfn5sW72Yz-F1m2WsTN63dDJVQpGFxW2gLpJB2PbT3fW2L74Jb3PHlMQMq4Y-RbvD3lW2ff3mr3SyvzVf8J-YyP04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is entirely a STAT+ subscription upsell page with no substantive content accessible, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Oura, Counsel Health join CMS ACCESS model to test whether wearables and AI can improve chronic care at scale",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/oura-counsel-health-cms-access-model",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is essentially a press release rehash announcing a partnership with preliminary engagement metrics but lacks analytical depth on financial structure, reimbursement mechanics, or investment implications \u2014 too thin and promotional for the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Warsh's Fed soars like a hawk into a hiking cycle",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content was not actually retrieved \u2014 the full text is entirely Bloomberg navigation/menu boilerplate with no substantive article body, making it impossible to verify depth, accuracy of the shortlist summary, or investment relevance."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article offers genuine practitioner depth on how frontier AI models (specifically Claude) are reshaping financial modeling workflows, grounded in a real hands-on case study building an OpenAI financial model, which directly aligns with the reader's strong interests in AI impact, analytical depth, and investment process."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "[scuttleslops] Chatbot advertising, AMZN, ROP, China EVs and Humanoid Robots, APH",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a thin aggregation of teaser snippets and podcast/earnings call excerpts from Scuttleblurb's 'scuttleslops' roundup \u2014 there is no substantive deep-dive content visible, only brief one-to-two sentence summaries of disparate topics (chatbot advertising, Amazon grocery, TransDigm, Union Pacific, Veeva, healthcare billing, AI data centers, Adyen), making it impossible to verify the analytical depth claimed in the shortlist summary."
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Oura, Counsel Health join CMS ACCESS model to test whether wearables and AI can improve chronic care at scale",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/oura-counsel-health-cms-access-model",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a press-release-style announcement with thin analytical depth \u2014 it reports early vanity metrics (satisfaction scores, onboarding numbers) and partnership framing without substantive data on outcomes, reimbursement economics, or competitive differentiation that would satisfy this reader's strong preference for analytical depth and investment-relevant insight."
   }
 ]
