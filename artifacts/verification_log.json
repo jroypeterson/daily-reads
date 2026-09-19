@@ -10825,5 +10825,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a press-release-style announcement with thin analytical depth \u2014 it reports early vanity metrics (satisfaction scores, onboarding numbers) and partnership framing without substantive data on outcomes, reimbursement economics, or competitive differentiation that would satisfy this reader's strong preference for analytical depth and investment-relevant insight."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about AI-assisted financial modeling for consumer internet companies (Uber, Booking, Airbnb, OpenAI) and has no connection to healthcare or biotech \u2014 it belongs in Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Doomforce (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/doomforce",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter index/digest from Stratechery covering AI and tech themes \u2014 it has no relevance to Healthcare/Biotech and belongs to Slot 3 (Tech/AI), though the actual article text is a thin table of contents rather than substantive analysis."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is clearly a Tech/AI or Finance story about Anthropic's IPO plans \u2014 it has zero relevance to Slot 1 (Healthcare/Biotech), covering no FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Prior authorization disputes reach another legal boiling point",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth covering both the HCA-Independence Blue Cross lawsuit ($345M+ in denied claims) and the CMS WISeR AI prior authorization pilot's documented patient care delays, providing structural insight into managed care litigation and AI-in-healthcare regulatory risk relevant to ELV, CVS/Aetna, and HUM."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "What 14 tech trends mean for business in 2026",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0b0b7f1db9cd081369ff0b384/d16f2d7be50f41400000021ef3a0bcc2/d16f2d7b-e50f-4140-b191-e9b8317b45a7",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a broad McKinsey annual trends listicle that matches the Wildcard/Slot 4 profile better than Finance/Macro, but even there it lacks the analytical depth and investment specificity the reader profile demands \u2014 it reads as a C-suite orientation deck rather than actionable investment insight."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Groceries, Aggregators, and Agents",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment research source that delivers substantial analytical depth on competitive moat dynamics \u2014 tracing Walmart's grocery dominance, the structural shift to fill-in trips, and the aggregator-disruption-by-AI-agents thesis \u2014 all of which align strongly with the reader's demonstrated preferences for competitive moat analysis, deep business diligence, and AI impact."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Doomforce (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/doomforce",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a newsletter table-of-contents digest with only brief editor blurbs \u2014 it lacks the analytical depth and substantive content required for the slot; the actual Salesforce/AGI analysis lives in paywalled linked articles, not here."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is thin on substance \u2014 it offers no financial detail beyond high-level revenue figures, no structural analysis of Anthropic's moat, governance structure, or IPO mechanics, and the 'safety vs. growth tension' framing is surface-level rather than analytically developed, making it a news brief rather than the deep AI infrastructure or enterprise adoption analysis the slot requires."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "From Supplier to Platform: China's Bid to Be the World's AI Stack",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/from-supplier-to-platform-chinas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The substantive analysis (the ~4,500-word investment-relevant section covering stack selection frameworks, capital flows, and geopolitical implications) is behind a paywall, leaving only the freely available ~8,000-word memo which is truncated in the article text \u2014 the reader taste profile explicitly flags paywalled content as an AVOID pattern."
+  },
+  {
+    "date": "2026-09-19",
+    "headline": "What 14 tech trends mean for business in 2026",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0b0b7f1db9cd081369ff0b384/d16f2d7be50f41400000021ef3a0bcc2/d16f2d7b-e50f-4140-b191-e9b8317b45a7",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual tech trends report covering agentic AI, data infrastructure, and quantum readiness aligns strongly with the reader's strong preferences for data infrastructure and AI impact, and fits the Wildcard slot as a high-priority consulting source with C-suite strategic relevance."
   }
 ]

@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "72d4e094dc7aadff",
-      "date": "2026-09-04"
-    },
-    {
-      "id": "9bf5104419a6dfc9",
-      "date": "2026-09-04"
-    },
-    {
-      "id": "07e21502a0d216f2",
-      "date": "2026-09-04"
-    },
-    {
       "id": "1c39ceaf82763b08",
       "date": "2026-09-05"
     },
@@ -103,6 +91,18 @@
     {
       "id": "9cea38ede6eb7082",
       "date": "2026-09-17"
+    },
+    {
+      "id": "8393fd90c09ec40e",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "0261bc6dc6c7b406",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "0f17603a53a5f599",
+      "date": "2026-09-19"
     }
   ],
   "reader_pushed": {
@@ -152,6 +152,10 @@
     "https://mbideepdives.substack.com/p/my-last-financial-model": "2026-09-16",
     "https://mbideepdives.substack.com/p/my-last-financial-model?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU3MjU5NDksImlhdCI6MTc4OTQ4ODc0OCwiZXhwIjoxNzkyMDgwNzQ4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.lEku81WEokgrL9IVJWumqdPppZhhvqKDlMReuHuN8QQ": "2026-09-16",
     "https://mbideepdives.substack.com/p/what-you-have-to-believe-for-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTU4NzU0MjgsImlhdCI6MTc4OTU4MDQ4NiwiZXhwIjoxNzkyMTcyNDg2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.VV3Q57AzKTZnHcbbevnRwWn53BXBqSLVlBj4ffm0-oc": "2026-09-17",
-    "https://hedgefundalpha.com/wp-content/uploads/2026/08/Greenlight_Capital_Q2_2026_Letter.pdf": "2026-09-18"
+    "https://hedgefundalpha.com/wp-content/uploads/2026/08/Greenlight_Capital_Q2_2026_Letter.pdf": "2026-09-18",
+    "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/": "2026-09-19",
+    "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents": "2026-09-19",
+    "https://email.mckinsey.com/T/v71000001a0b0b7f1db9cd081369ff0b384/d16f2d7be50f41400000021ef3a0bcc2/d16f2d7b-e50f-4140-b191-e9b8317b45a7": "2026-09-19",
+    "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTYxNDUwMTksImlhdCI6MTc4OTc0OTI0OSwiZXhwIjoxNzkyMzQxMjQ5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.p6JzoeOA6xAMxh3mjg8oa8JOtZ3e0DchaDq2j_NvHew": "2026-09-19"
   }
 }

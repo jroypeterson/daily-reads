@@ -1,0 +1,73 @@
+{
+  "run_date": "2026-09-19",
+  "generated_at": "2026-09-19T15:16:37Z",
+  "counts": {
+    "gmail_items": 133,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "8393fd90c09ec40e",
+      "headline": "Prior authorization disputes reach another legal boiling point",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/",
+      "slot": 1,
+      "summary": "HCA Healthcare's Texas hospitals have filed suit against Independence Blue Cross over more than $345 million in denied claims spanning four years, centering on disputes over 'medical necessity' standards applied by an out-of-state payer to in-network care. The case exposes a systemic tension between large hospital systems and commercial insurers, with HCA alleging Blue Cross applied inappropriate criteria to deny or underpay legitimate claims. Separately, CMS's AI-assisted WISeR prior authorization pilot, launched in January 2026, has itself drawn scrutiny after documented instances of delayed patient care, complicating the narrative around AI as a solution to prior authorization burdens.",
+      "why_it_matters": "Rising litigation between hospital systems and managed care payers, combined with regulatory backlash against AI-driven prior authorization tools, signals compounding headwinds for ELV, CVS/Aetna, and HUM on both legal liability and policy fronts \u2014 while creating opportunities for health IT vendors focused on claims transparency and interoperability.",
+      "signal_tags": [
+        "ticker_match:HCA",
+        "ticker_match:ELV",
+        "regulatory_affairs",
+        "healthcare_adjacent_finance",
+        "AI_impact",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0261bc6dc6c7b406",
+      "headline": "Groceries, Aggregators, and Agents",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents",
+      "slot": 2,
+      "summary": "MBI Deep Dives traces Walmart's rapid ascent to US grocery leadership after entering in 1988, then analyzes how pandemic-driven behavioral shifts are replacing weekly stock-up trips with frequent fill-in deliveries \u2014 benefiting demand aggregators like DoorDash and Instacart. The piece then extrapolates to how LLM-powered AI agents could fundamentally disintermediate today's search and discovery aggregators, drawing a parallel to Walmart's own supply chain verticalization as a model for thinking about durable platform moats. The author argues that whoever controls the agent layer \u2014 whether retailers, marketplaces, or new entrants \u2014 will capture the rent currently extracted by aggregators.",
+      "why_it_matters": "The AI-agent-as-aggregator-disruptor thesis is a high-conviction structural insight with broad investable implications across retail platforms, digital health navigation, and any business whose moat depends on being the discovery or comparison layer between consumers and suppliers.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:WMT",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "structural_market_insight"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0f17603a53a5f599",
+      "headline": "What 14 tech trends mean for business in 2026",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0b0b7f1db9cd081369ff0b384/d16f2d7be50f41400000021ef3a0bcc2/d16f2d7b-e50f-4140-b191-e9b8317b45a7",
+      "slot": 4,
+      "summary": "McKinsey's 2026 technology trends report identifies 14 vectors \u2014 including agentic AI, data infrastructure, quantum readiness, and spatial computing \u2014 benchmarked against enterprise adoption and value-creation data from their survey base. The report maps each trend to near-term business impact versus longer-horizon bets, giving C-suite leaders a prioritization framework. It is positioned as a canonical reference for enterprise technology investment decisions across sectors.",
+      "why_it_matters": "For investors in health IT and AI infrastructure, understanding which trends McKinsey elevates helps anticipate where enterprise software and infrastructure spending will concentrate in 2026 \u2014 particularly relevant given the reader's strong interest in data infrastructure and AI impact themes.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "AI_impact",
+        "management_consulting_research",
+        "forward_looking",
+        "ticker_match:TECH"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    }
+  ]
+}

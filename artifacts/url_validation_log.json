@@ -2355,5 +2355,33 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-09-19",
+    "checked_unique": 68,
+    "checked_slots": 70,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 2
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://blog.riskgaming.com/p/riskgaming-events-nyc-on-wed-sf-on?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTYzMDUyMDIsImlhdCI6MTc4OTczOTg2OCwiZXhwIjoxNzkyMzMxODY4LCJpc3MiOiJwdWItNDA3ODc1MyIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.9HZuVQF1Msq8dPZPfYaU_X34krHu_IwVLRZG9YKjVx4"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxskbuO5CAQRb-mybB4GZuAYJP5DasoCg8zbYwAb6v_frXdWmmCjetxj86Fa5wHjHyWjQ7I9y1Hb41TWjrHkWTiRirLnU2SqwRakw4pzob9OMzRS1RuFtpyoGXhRpHhIFDx4AyZGFJISTOEQfvZnj62XDnCUSHvhb9yWfTaBbGiZeTlsrplXvRs2Btqp0INBsUNxo-p0oJ9egUS3WLQCrtY0CEYwrgoZyEYR8Gy7JVQVji5ytWss530ZHVcEBEtJmO1hAkbFvE155sRx86jnPoV-gD8nvA8WO5bavRi8aNdxO7-c4zab_rXTX3c1Mfj8ZjGJ6X6Wi_nyCnj2854VvIHtG8auezsrFS20QC_c9m3ftXaqHeKntUrbHgex1XyeG5UINwpvuPqFe7__uXolRXaLKz5r3Y-Kw1q_Sw3I_a_gC-CfoV4HpCLD9Dyg3LvbPzX-9WpvRo0zs5mZb-9-hMAAP__prCw_g"
+      }
+    ]
   }
 ]
