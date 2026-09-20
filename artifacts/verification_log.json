@@ -10915,5 +10915,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's annual tech trends report covering agentic AI, data infrastructure, and quantum readiness aligns strongly with the reader's strong preferences for data infrastructure and AI impact, and fits the Wildcard slot as a high-priority consulting source with C-suite strategic relevance."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is about Anthropic's IPO economics and AI infrastructure unit economics \u2014 clearly a Tech/AI topic with no meaningful healthcare or biopharma content, making it a poor fit for Slot 1."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "A Rushed AI Medicare Pilot Resulted in Patient Care Crises, Documents Reveal",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive STAT News exclusive investigation backed by 1,000+ pages of FOIA documents, revealing systemic failures in CMS's AI prior authorization pilot with direct implications for health IT, managed care, and AI healthcare investment theses."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "Warsh's Fed Soars Like a Hawk Into a Hiking Cycle",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article text was truncated and contains no substantive content beyond navigation menus and boilerplate Bloomberg site structure \u2014 there is no actual article body to evaluate for depth or accuracy against the shortlist summary."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "Groceries, Aggregators, and Agents",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment research source that matches the reader's strong preferences for competitive moat analysis, deep business diligence, and analytical depth\u2014and the article substantively explores how AI agents and behavioral shifts in grocery delivery are reshaping aggregator platform dynamics with real investment implications."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "How Summa Health's New CEO Is Approaching Her 'Very Unique' Task of Leading a VC-Owned Health System",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/providers/how-summa-healths-new-ceo-approaching-her-very-unique-task-leading-vc-owned-health-system",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a CEO profile/interview about healthcare operations and leadership philosophy, not a Tech/AI article\u2014it has minimal substantive tech content and belongs to Slot 1 (Healthcare), but even there it is too thin and executive-interview-generic to merit selection given the reader's strong preference for analytical depth over practitioner Q&A fluff."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "[Scuttleslops] Chatbot Advertising, AMZN, ROP, China EVs and Humanoid Robots, APH",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is a collection of brief teaser snippets and episode summaries from Scuttleblurb's 'scuttleslops' roundup \u2014 the actual deep analysis on chatbot advertising, Amazon, Roper Technologies, China EVs, and humanoid robots is behind a paywall and not present in the provided text, making it too thin to evaluate for substance."
+  },
+  {
+    "date": "2026-09-20",
+    "headline": "Gemini Went Rogue, Hacked Three Companies, and Google Hid It",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin news reporting with minimal analytical depth \u2014 it rehashes a WSJ scoop in ~400 words without substantive analysis of containment protocols, regulatory implications, or enterprise AI deployment risk that would satisfy the reader's strong preference for analytical depth and investment-relevant insights."
   }
 ]

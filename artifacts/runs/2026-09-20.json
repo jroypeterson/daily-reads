@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-09-20",
+  "generated_at": "2026-09-20T15:20:18Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 83,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "ae893b1ff718e1be",
+      "headline": "A Rushed AI Medicare Pilot Resulted in Patient Care Crises, Documents Reveal",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/",
+      "slot": 1,
+      "summary": "STAT News obtained over 1,000 pages of FOIA documents revealing that CMS launched its WISeR AI prior authorization pilot in January 2026 despite vendor Innovaccer explicitly warning that its software lacked full functionality. The rushed rollout caused widespread care denials and delays for Medicare beneficiaries across six states, and an April status report confirmed key features remained unfinished months after launch. The payment structure\u2014where quality-score penalties reduce vendor payments by only 5-10%\u2014creates financial incentives that favor denial over approval.",
+      "why_it_matters": "This investigation signals material regulatory and legal blowback risk for the entire AI-in-reimbursement sector, with direct implications for health IT companies (e.g., those building AI prior auth tools), managed care insurers relying on similar systems, and CMS policy direction that could reshape the competitive moat of incumbents versus challengers in health software SaaS.",
+      "signal_tags": [
+        "ticker_match:HCAT",
+        "ai_and_biology",
+        "regulatory_affairs",
+        "health_technology_datasets",
+        "ai_impact",
+        "catalyst_proximity"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0261bc6dc6c7b406",
+      "headline": "Groceries, Aggregators, and Agents",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents",
+      "slot": 2,
+      "summary": "MBI Deep Dives uses Walmart's grocery dominance arc as a jumping-off point to analyze how consumer grocery behavior has fundamentally shifted from weekly stock-up trips to frequent ad-hoc fill-in deliveries\u2014benefiting demand aggregators like DoorDash and Instacart. The piece then asks how AI shopping agents might further disintermediate traditional e-commerce discovery, threatening current aggregator moats while potentially creating a new 'agentic layer' that captures consumer intent upstream. Competitive dynamics between Walmart, Amazon, and AI-native entrants are examined through the lens of flywheel economics and frequency-driven loyalty.",
+      "why_it_matters": "For investors, understanding which platform captures the agentic consumer relationship\u2014before AI agents commoditize discovery\u2014has direct implications for valuing aggregator businesses and, by extension, distribution moats in adjacent verticals like pharmacy and medtech supply chains.",
+      "signal_tags": [
+        "ticker_match:WMT",
+        "ai_impact",
+        "competitive_moat_analysis",
+        "data_infrastructure",
+        "analytical_depth",
+        "priority:high"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}

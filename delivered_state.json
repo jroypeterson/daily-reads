@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "1c39ceaf82763b08",
-      "date": "2026-09-05"
-    },
-    {
       "id": "6bd9f4f9f9552dba",
       "date": "2026-09-06"
     },
@@ -103,6 +99,10 @@
     {
       "id": "0f17603a53a5f599",
       "date": "2026-09-19"
+    },
+    {
+      "id": "ae893b1ff718e1be",
+      "date": "2026-09-20"
     }
   ],
   "reader_pushed": {
@@ -156,6 +156,9 @@
     "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/": "2026-09-19",
     "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents": "2026-09-19",
     "https://email.mckinsey.com/T/v71000001a0b0b7f1db9cd081369ff0b384/d16f2d7be50f41400000021ef3a0bcc2/d16f2d7b-e50f-4140-b191-e9b8317b45a7": "2026-09-19",
-    "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTYxNDUwMTksImlhdCI6MTc4OTc0OTI0OSwiZXhwIjoxNzkyMzQxMjQ5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.p6JzoeOA6xAMxh3mjg8oa8JOtZ3e0DchaDq2j_NvHew": "2026-09-19"
+    "https://mbideepdives.substack.com/p/groceries-aggregators-and-agents?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTYxNDUwMTksImlhdCI6MTc4OTc0OTI0OSwiZXhwIjoxNzkyMzQxMjQ5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.p6JzoeOA6xAMxh3mjg8oa8JOtZ3e0DchaDq2j_NvHew": "2026-09-19",
+    "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/": "2026-09-20",
+    "https://mbideepdives.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fmbideepdives.substack.com%2Fp%2Fa-few-changes-to-my-publishing-schedule": "2026-09-20",
+    "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTY0Mzk3NjEsImlhdCI6MTc4OTgzNjMyOSwiZXhwIjoxNzkyNDI4MzI5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.LkJ6GeQXHZw5BU8vG0N0Q54VdScxXilWSynUpljLrKY": "2026-09-20"
   }
 }
