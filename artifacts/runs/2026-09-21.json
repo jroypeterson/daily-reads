@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-09-21",
+  "generated_at": "2026-09-21T17:40:34Z",
+  "counts": {
+    "gmail_items": 138,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "4a0502700be6feff",
+      "headline": "Telix buys ITM in bid to create a 'radiopharmaceutical powerhouse'",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/telix-itm-radiopharmaceuticals-deal-acquire-lutetium-novartis/830859/",
+      "slot": 1,
+      "summary": "Telix Pharmaceuticals is acquiring German radiopharmaceutical company ITM for $1.65 billion upfront (plus up to $700M in milestones), combining two large pipelines and a manufacturing/distribution network spanning 65+ countries. ITM's lead therapeutic ITM-11, a Lutathera rival, was recently rejected by the FDA on manufacturing grounds \u2014 not clinical data \u2014 with Telix expressing confidence in overcoming those hurdles and pointing to a Phase 3 readout in a second indication by 2027. The deal is expected to give the combined entity over $1.3 billion in revenue and, per William Blair, positions Telix to 'corner the industry' through vertical integration of the full radiopharmaceutical value chain.",
+      "why_it_matters": "This deal reshapes competitive dynamics in the fastest-consolidating oncology sub-sector \u2014 radiopharmaceuticals \u2014 with direct implications for pipeline valuations of peers and for assessing whether ITM-11's manufacturing setback is surmountable ahead of a 2027 data catalyst.",
+      "signal_tags": [
+        "ticker_match:TLX",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "M&A"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c3f9c82f45ef21c1",
+      "headline": "My Last Financial Model",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+      "slot": 3,
+      "summary": "MBI Deep Dives author declares he has built his last financial model from scratch after Claude Fable 5.1 demonstrated it could replicate and extend his modeling methodology across companies like Uber and OpenAI with minimal prompting. The piece details the collaborative workflow \u2014 iterative feedback loops, assumption probing, scenario building \u2014 and argues that while AI handles execution, the analyst's edge now lies in knowing what 'good' looks like and how to interrogate the model's reasoning. The author frames this as a broader shift in knowledge work analogous to Terence Tao's 'proof abundance' thesis, where scarcity of analytical output gives way to abundance, reshuffling where human judgment adds value.",
+      "why_it_matters": "For fundamental investors, this is a concrete, practitioner account of how the analytical moat is shifting from modeling execution to modeling judgment \u2014 with direct implications for how to allocate research time and where durable edge will reside in an AI-saturated investment process.",
+      "signal_tags": [
+        "priority:high",
+        "AI_impact",
+        "AI_biology_intersection",
+        "practitioner_perspective",
+        "analytical_depth",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

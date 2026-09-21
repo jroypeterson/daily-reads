@@ -2398,5 +2398,27 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-09-21",
+    "checked_unique": 54,
+    "checked_slots": 56,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg2.substack.com/c/eJxskLvO3CAUhJ_GdGvhY2xDQZFmXwNxOXjJ2oC4xPLbR7sp0vz1jL75NFY33FO5ZfP5cSG-j_tRUo-uZ-IkcxNfOEE5bVyIeaFMEDx1ONSOEYtu6JRu_1O-wERekk-rZZ4K5xlfPQWnrede02nDRcx2I0EChZUKoEApMDrOI_LFbwIM4Go2sOsYLsu74OfA6LnDWLupTdv3aNNJQlW-4NdEttKRHPLVWq7D_GuA5wDP67rG9kKfv_WUMapWtH2HuKvacy5YKzpJcjfKpvPsMbRbYdTmQPcPmbs5gtUtpKiCk7DSmW2kyN8l3RkblpriwOj-kfiu1G5cOnWI0ugSLgy1kvbTr71i-SAnJtaFcfJHwt8AAAD__35Pgzk"
+      }
+    ]
   }
 ]

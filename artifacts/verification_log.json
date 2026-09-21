@@ -10978,5 +10978,113 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is thin news reporting with minimal analytical depth \u2014 it rehashes a WSJ scoop in ~400 words without substantive analysis of containment protocols, regulatory implications, or enterprise AI deployment risk that would satisfy the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a Tech/AI financial analysis of Anthropic's compute economics and IPO prospects \u2014 it has no connection to healthcare or biotech and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "STAT+: With new strategy, Novo outlines plans for obesity, direct-to-consumer work",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/21/novo-nordisk-capital-markets-day-obesity-strategy/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text is not available \u2014 the truncated content contains only navigation boilerplate with no substantive article body, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Doomforce (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/doomforce",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents digest from Stratechery, not a substantive article \u2014 it contains only brief editorial blurbs linking to paywalled content, with no depth on any single topic, and is entirely focused on AI governance and enterprise software (Salesforce/Anthropic), bearing zero relevance to Healthcare/Biotech (Slot 1)."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "AIndicators: Hiking cycle is a red-flag moment",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-21/aindicators-fed-hiking-cycle-is-a-red-flag-moment",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro credit/rates article from Bloomberg squarely fitting Slot 2 (Finance/Macro), not Slot 1 (Healthcare/Biotech), and the full article content is largely truncated navigation boilerplate with no substantive analysis visible to confirm depth."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantive and well-written but is clearly a Tech/AI or Finance piece about AI replacing financial modeling workflows \u2014 it has no connection to Healthcare/Biotech and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "How Summa Health's new CEO is approaching her 'very unique' task of leading a VC-owned health system",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/providers/how-summa-healths-new-ceo-approaching-her-very-unique-task-leading-vc-owned-health-system",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a soft CEO profile interview with thin operational detail \u2014 it lacks the investment-grade depth, specific metrics, or actionable insight the reader profile demands, and reads more like a press release than analysis of General Catalyst's healthcare thesis."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "HCA CFO on claims AI: 'We're behind the payers'",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/hca-cfo-on-claims-ai-were-behind-the-payers/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is thin \u2014 essentially a brief conference quote summary with minimal analytical depth, no data, and no actionable detail beyond a single CFO soundbite acknowledging payer AI advantage."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Telix buys ITM in bid to create a 'radiopharmaceutical powerhouse'",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/telix-itm-radiopharmaceuticals-deal-acquire-lutetium-novartis/830859/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on a major $1.65B radiopharmaceutical M&A deal, covering strategic rationale, pipeline implications (ITM-11 FDA rejection and path forward), vertical integration of isotope manufacturing, and analyst commentary \u2014 directly fitting Slot 1 M&A criteria."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "AIndicators: Hiking cycle is a red-flag moment",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-21/aindicators-fed-hiking-cycle-is-a-red-flag-moment",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is not actually accessible \u2014 the full text was truncated to only Bloomberg's navigation/menu boilerplate, providing zero substantive content to evaluate depth, accuracy of the summary, or analytical quality."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the visible content is only a brief preamble explaining the framing and teasing the model, with the actual financial analysis, unit economics, and spreadsheet locked behind a subscription, making it too thin to deliver the analytical depth the reader profile demands."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Doomforce (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/doomforce",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter index/digest \u2014 a table of contents linking to other Stratechery pieces \u2014 with only brief editorial blurbs rather than substantive analysis; the actual depth lives behind paywalled articles that aren't included here."
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "My Last Financial Model",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/my-last-financial-model",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, practitioner-level reflection on how frontier AI models (specifically Claude) are already displacing manual financial modeling work, grounded in a real workflow example building an OpenAI model \u2014 directly hitting the reader's strong preferences for AI impact, analytical depth, and investment-relevant insights at the AI-finance intersection."
   }
 ]
