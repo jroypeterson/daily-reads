@@ -11086,5 +11086,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article is a substantive, practitioner-level reflection on how frontier AI models (specifically Claude) are already displacing manual financial modeling work, grounded in a real workflow example building an OpenAI model \u2014 directly hitting the reader's strong preferences for AI impact, analytical depth, and investment-relevant insights at the AI-finance intersection."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about frontier AI lab economics (Anthropic/OpenAI unit economics and IPO prospects), which fits Slot 3 Tech/AI, not Slot 1 Healthcare/Biotech \u2014 and the full text is largely behind a paywall, making the visible content too thin to evaluate substance."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "STAT+: Epic's mortality model, and Omada's future products",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) with no substantive content visible beyond navigation chrome and metadata, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "A hidden tradeoff in Trump's drug pricing deals",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/trump-mfn-drug-deals-medicare-savings/830922/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive policy analysis with quantified impact estimates (80% reduction in Medicare savings, $11.6B annual figure), expert sourcing, and exposes a genuine structural tension between MFN deals and GLOBE/GUARD models that has direct revenue implications for large-cap pharma."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "What AI has done to your portfolio",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-09-22/the-ai-rally-has-left-investors-with-a-dearth-of-diversification",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a lightly written retail-investor newsletter piece with thin analytical depth \u2014 it recycles well-known concentration statistics without original data, portfolio construction rigor, or actionable structural insight that matches the reader's strong preference for deep, practitioner-level finance analysis."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Backbones and networks: A blueprint for the biopharma plant of the future",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0c96c68328e7058969125ccc4/ea450e00e1b740120000021ef3a0bcc2/ea450e00-e1b7-4012-ab28-7ee213d25ccd",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a McKinsey consulting report on biopharma manufacturing strategy \u2014 it fits Slot 4 (Wildcard/Consulting) or possibly Slot 1, not Slot 2 (Finance/Macro), and while the topic aligns with the reader's data infrastructure and competitive moat interests, it's a strategic/operational framework piece rather than a finance or macro article."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "A rushed AI Medicare pilot resulted in patient care crises, documents reveal",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is truncated and appears to be primarily about Novo's Medicare Bridge program economics (a Slot 1 healthcare/pharma story), not a Finance/Macro piece, and the full text is inaccessible enough to confirm substantive depth on the AI Medicare governance angle described in the shortlist summary."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Doomforce (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/doomforce",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter index/table-of-contents article with only brief teasers for each piece \u2014 it lacks substantive analysis on any topic and does not meet the depth standard required for any slot."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely a teaser/preview behind a paywall \u2014 the publicly visible content is thin setup text with no actual financial modeling, break-even analysis, or substantive data, making it too thin to justify selection despite a compelling premise."
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Backbones and networks: A blueprint for the biopharma plant of the future",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0c96c68328e7058969125ccc4/ea450e00e1b740120000021ef3a0bcc2/ea450e00-e1b7-4012-ab28-7ee213d25ccd",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's blueprint on biopharma manufacturing digitization aligns well with the reader's strong interest in data infrastructure and competitive moat analysis, and fits the Wildcard slot as a consulting-sourced strategic framework with actionable implications for CDMO and bioprocessing investment thesis development."
   }
 ]

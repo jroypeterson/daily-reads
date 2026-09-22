@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-09-22",
+  "generated_at": "2026-09-22T16:10:50Z",
+  "counts": {
+    "gmail_items": 131,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "009d9880079615d7",
+      "headline": "A hidden tradeoff in Trump's drug pricing deals",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/trump-mfn-drug-deals-medicare-savings/830922/",
+      "slot": 1,
+      "summary": "Trump's MFN pricing agreements with 26 pharma companies may undermine separate Medicare drug pricing models (GLOBE and GUARD), with one Lancet study author estimating that exempting participating companies could eliminate nearly 80% of the projected $11.6B in annual Medicare savings. The deals' actual savings impact is further muddied by the complexity of existing contractual arrangements between manufacturers, PBMs, insurers, and pharmacies, meaning lower manufacturer prices don't automatically translate to patient savings. The TrumpRx direct-to-consumer platform covers only 12% of participating companies' branded drugs, limiting its practical reach.",
+      "why_it_matters": "The structural conflict between MFN exemptions and statutory Medicare pricing mechanisms creates material uncertainty for pharma revenue trajectories and managed care dynamics, making this a key policy variable for investors modeling drug pricing reform outcomes.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "drug_pricing",
+        "actionability",
+        "analytical_depth",
+        "forward_looking"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "d8e3c8d042686625",
+      "headline": "Backbones and networks: A blueprint for the biopharma plant of the future",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0c96c68328e7058969125ccc4/ea450e00e1b740120000021ef3a0bcc2/ea450e00-e1b7-4012-ab28-7ee213d25ccd",
+      "slot": 4,
+      "summary": "McKinsey outlines a strategic blueprint for next-generation biopharma manufacturing, centered on digital backbone architecture and networked plant operations that integrate data flows across biomanufacturing workflows. The report argues that integrated automation and data infrastructure are key levers for driving operational efficiency and supply chain resilience in biologics production. This framework has direct relevance for evaluating capital allocation strategies and competitive positioning among CDMOs and bioprocessing companies.",
+      "why_it_matters": "For investors tracking CDMO and bioprocessing players, this McKinsey framework provides a structured lens for assessing which manufacturers are building durable operational moats through digital infrastructure investment versus those at risk of falling behind on modernization.",
+      "signal_tags": [
+        "priority:high",
+        "management_consulting_research",
+        "data_infrastructure",
+        "bioprocessing",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}
