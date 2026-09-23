@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-09-23",
+  "generated_at": "2026-09-23T16:01:40Z",
+  "counts": {
+    "gmail_items": 126,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "d8e3c8d042686625",
+      "headline": "Backbones and networks: A blueprint for the biopharma plant of the future",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0c96c68328e7058969125ccc4/ea450e00e1b740120000021ef3a0bcc2/ea450e00-e1b7-4012-ab28-7ee213d25ccd",
+      "slot": 1,
+      "summary": "McKinsey outlines a framework for next-generation biomanufacturing centered on integrated 'backbone' data networks that connect modular plant systems, reduce batch failure rates, and enable digital twin adoption to compress cycle times. The piece examines the CDMO vs. in-house manufacturing trade-off and layers of automation required to build resilient, scalable biopharma operations. It positions manufacturing infrastructure investment as a defining competitive variable for GLP-1 and cell/gene therapy pipelines through 2030.",
+      "why_it_matters": "For investors in GLP-1 leaders (Novo, Lilly) and bioprocessing/CDMO plays, this framework provides a structured lens to assess which operators are building durable infrastructure moats versus those exposed to capacity bottlenecks that could cap market share gains.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "subsector:CDMO",
+        "subsector:Bioprocessing",
+        "deep_business_diligence"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "3738398ce99e3eaa",
+      "headline": "New memo: Shall We Repeal the Laws of Economics (Part III)",
+      "source": "Howard Marks / Oaktree (via Brookfield newsletter)",
+      "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii",
+      "slot": 2,
+      "summary": "Howard Marks argues that the Treasury's August 2025 announcement to double long-dated bond buybacks (up to $4B per operation) is a cosmetic intervention that cannot solve the structural drivers of rising long-term rates: persistent inflation (PCE at 3.7%), chronic fiscal deficits during prosperity, and multi-trillion-dollar capital demand from AI infrastructure and routine economic needs. Drawing on Druckenmiller's critique and the 1992 Soros/BOE trade as historical proof that markets ultimately defeat governments defending prices against fundamentals, Marks contends the 30-year yield's 19-year high reflects genuine economic forces that only fiscal discipline \u2014 not market manipulation \u2014 can durably address. He concludes that the confluence of federal deficits, private capital needs, and AI investment creates a structurally higher cost of capital that investors must price in.",
+      "why_it_matters": "A credible, data-grounded case from one of fixed income's most respected practitioners that the rate-higher-for-longer regime is structural \u2014 not cyclical \u2014 has direct implications for biotech/healthcare valuations, leveraged health system financing, and any growth-oriented portfolio exposed to duration risk.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "structural_market_insight"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": false
+    }
+  ]
+}

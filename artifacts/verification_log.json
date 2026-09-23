@@ -11167,5 +11167,104 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's blueprint on biopharma manufacturing digitization aligns well with the reader's strong interest in data infrastructure and competitive moat analysis, and fits the Wildcard slot as a consulting-sourced strategic framework with actionable implications for CDMO and bioprocessing investment thesis development."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Viking shares surge on updated obesity drug data",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/viking-obesity-drug-maintenance-study-results/831004/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a relatively thin news brief reporting Phase 2 top-line data and stock price movement without the analytical depth, competitive landscape modeling, or investment process insight that matches the reader's strong preference for analytical depth and investment-relevant insights \u2014 it reads as a standard press-release summary rather than a deep catalyst analysis."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "New memo: Shall We Repeal the Laws of Economics (Part III)",
+    "source": "Howard Marks / Oaktree (via Brookfield newsletter)",
+    "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a high-quality macro/fixed-income memo by Howard Marks arguing against government yield suppression, but it is firmly a Finance/Macro article with no meaningful healthcare or biotech content \u2014 the healthcare connection in the shortlist summary is a stretch added post-hoc, not present in the article itself."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "GPT-6 Sol and Luna \u2014 OpenAI expands GPT-6 family with 50% lower API pricing",
+    "source": "OpenAI (via Hacker News / TechCrunch)",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI article about OpenAI's GPT-6 model pricing and capabilities \u2014 it has no direct healthcare or biopharma content and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the visible content is only a brief intro teaser with no actual financial model, data, or analysis \u2014 and it belongs to the Tech/AI or Finance slot, not Healthcare/Biotech."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "A private equity-owned hospital chain is becoming a nonprofit. Is it just a bailout for investors?",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text is not accessible, providing no substantive content beyond navigation boilerplate \u2014 making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "UnitedHealth, CVS push back on Medicare plan to curb remote patient monitoring",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content was truncated and did not load substantively beyond navigation menus and metadata, making it impossible to verify depth or accuracy \u2014 and the reader taste profile deprioritizes managed care reimbursement policy without a strong AI, data infrastructure, or deep analytical angle."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Backbones and networks: A blueprint for the biopharma plant of the future",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0c96c68328e7058969125ccc4/ea450e00e1b740120000021ef3a0bcc2/ea450e00-e1b7-4012-ab28-7ee213d25ccd",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's structural blueprint on biopharma manufacturing infrastructure has strong analytical depth, aligns with the reader's preferences for competitive moat analysis and data infrastructure, and is directly relevant to evaluating GLP-1 and CDMO investment theses \u2014 fitting Slot 1 well given the manufacturing-as-strategic-constraint angle."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "New memo: Shall We Repeal the Laws of Economics (Part III)",
+    "source": "Howard Marks / Oaktree (via Brookfield newsletter)",
+    "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Howard Marks delivers a substantive, analytically deep macro argument \u2014 grounded in specific data points (30-year at 5.3%, PCE at 3.7%, $40T federal debt), historical precedent (Soros/Druckenmiller 1992 pound trade), and structural reasoning about capital demand \u2014 that directly fits Slot 2 and aligns with the reader's strong preferences for analytical depth, investment-relevant insights, and long-form practitioner perspectives."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "GPT-6 Sol and Luna \u2014 OpenAI expands GPT-6 family with 50% lower API pricing",
+    "source": "OpenAI (via Hacker News / TechCrunch)",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a product announcement/marketing release from OpenAI with benchmark comparisons and pricing details, but lacks the analytical depth, structural market insight, or investment-relevant framing the reader profile strongly demands \u2014 it reads as a press release rather than a deep analysis of what token price compression means for AI adoption curves, enterprise economics, or competitive dynamics."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a teaser/preview with the actual financial model and substantive analysis locked behind a paywall \u2014 the publicly visible content is only an introductory framing paragraph, making it too thin to evaluate on substance."
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Oracle deepens life sciences push with AI agents, real-world data analytics",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/oracle-rolls-out-ai-agents-analytics-tools-advance-life-sciences-research",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press-release-style product announcement with no analytical depth, competitive benchmarking, or investment-relevant insight \u2014 it reads as marketing copy for Oracle's platform rebranding rather than substantive coverage of AI infrastructure in life sciences."
   }
 ]
