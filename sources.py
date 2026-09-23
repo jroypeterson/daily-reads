@@ -318,9 +318,35 @@ SOURCES = {
     #
     # `monthly` is the closest value the vocabulary has; memos are genuinely
     # irregular (weeks to months apart), so a missed month is not a fault.
-    "emailnotifications@oaktreecapital.com": {
-        "name": "Oaktree Insights (Howard Marks)",
-        "email": "EmailNotifications@oaktreecapital.com",
+    # ✅ RESOLVED 2026-09-22 — the inference above was WRONG, and the escalation
+    # designed for it worked exactly as written. The `--audit` staleness alert
+    # fired at 45 days; `python validate_source.py "Oaktree"` was re-run as the
+    # comment instructed, and the OBSERVED From headers are these two. Neither is
+    # `EmailNotifications@`, which is what the subscription CONFIRMATION came
+    # from — an alert-system address that never carries the content.
+    #
+    # Both are registered because they are genuinely two senders, not one moved:
+    #   - Howard Marks's memos now come from BROOKFIELD (which holds the majority
+    #     of Oaktree). Observed: "New memo: Shall we repeal the laws of economics
+    #     (Part III)". A domain-based guess would never have found this one.
+    #   - The Oaktree Insights newsletter is a different publication from a
+    #     different address. Observed: "The Insight: Conversations – Crossroads
+    #     with Bob O'Leary and Armen Panossian".
+    #
+    # Cost of the wrong guess: BOTH were dark from 2026-08-07 to 2026-09-22.
+    # `frequency` stays `monthly` for both — memos are irregular by nature and the
+    # vocabulary has nothing closer, so a missed month remains not-a-fault.
+    "howard.marks2@brookfield.com": {
+        "name": "Howard Marks memos (Brookfield)",
+        "email": "howard.marks2@brookfield.com",
+        "tier": 1,
+        "category": "finance_macro",
+        "frequency": "monthly",
+        "priority": "high",
+    },
+    "oaktreeinsights@oaktreecapital.com": {
+        "name": "Oaktree Insights",
+        "email": "OaktreeInsights@oaktreecapital.com",
         "tier": 1,
         "category": "finance_macro",
         "frequency": "monthly",
