@@ -11266,5 +11266,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a thin press-release-style product announcement with no analytical depth, competitive benchmarking, or investment-relevant insight \u2014 it reads as marketing copy for Oracle's platform rebranding rather than substantive coverage of AI infrastructure in life sciences."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "source": "Anthropic / Hacker News",
+    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "While the article has genuine substance and scientific depth, it belongs in Slot 3 (Tech/AI) as its primary focus is Claude's autonomous research capabilities and Anthropic's new life sciences group \u2014 the biology finding is the proof-of-concept, but the story is fundamentally about AI-as-scientist infrastructure, not a healthcare/biotech investment catalyst."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Lilly ups Novo rivalry with FDA nod for weekly insulin",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVTNCf7Pl8F4W2N0Zg87d7DRrW6cqVBw5VkBX0N33Mk5x5nR3bW7Y9pgv6lZ3m9N5qpw9t4k8SGW1v9-w2117rMLW5VWjLp66DVH3W7X2CJh1WXF67VHjh_k4qb9BkW3VTrf-8Glvs4W3jHjLf82vhZrW2CLZQt9fSTPCV41CPT4kt9K4W2wZPYJ1hsjt6W4HGkXc8_Lw3tW6cl7Qc6bFZQTN5NK2yRkzqq0W3Dgb-f4Mw-GgW2Pj1P17HK_xNW6zzTMc6q1Z89W7yzMpJ5gwQBwW597YKg2Ldf6kW8tTmJs7kQQ1tW6fkNQ64S5sQyW6PfCdp93ZRsyW8--Q--4t0wJWN1ktTcFTYkVHN1XCQTGVlwpDW7D-0sh9lkSrgW5Pwzr46W9sh3W94wRnj5dxrmsW4h7sgB62WPq7W3-TmLZ3hZdQFW60xgV12brlX0W6f3FND6DLdjlW53Lxld3Yl-FSW7T9brz28s51TW3D3ZVK6sTgLxW70KZXr2g4KT5W2w2p_S424qMpW4pZPSC8jRjcyW52lRZ980VX-gW6WJ8zt8xwQrHW6gl5_l6rVCzKTCP5_7869dnW5cxxt128hNPRf1kvHmg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article content is essentially an empty newsletter shell \u2014 it contains only a one-line headline mention of the Lilly FDA approval and is otherwise filled with job postings, sponsor ads, and boilerplate text, with zero analytical depth or substantive reporting."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "New memo: Shall we repeal the laws of economics (Part III)",
+    "source": "Howard Marks memos (Brookfield / Oaktree)",
+    "url": "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is essentially just a brief teaser/abstract with no substantive content \u2014 it lacks the analytical depth, argumentation, and data that would make a Howard Marks memo valuable, and it does not belong in the Healthcare/Biotech slot regardless of the macro relevance framing."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "[scuttleslops] AAPL, SHOP, Databricks, Lonza",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains only teaser snippets and preview blurbs for multiple upcoming Scuttleblurb posts \u2014 there is no substantive content on Lonza, Databricks, AAPL, or Shopify actually present in the article body, making it impossible to verify the claimed depth on CDMO pricing power or data infrastructure."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Cigna partners with OpenAI, starting with oncology",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/cigna-partners-with-openai-starting-with-oncology/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin press-release summary (~400 words) with no analytical depth, no financial detail, and no meaningful insight beyond what a news wire would publish \u2014 it lacks the substance required for a slot-1 healthcare pick given this reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "FDA panel backs first multi-cancer blood test: What to know",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/pharmacy/fda-panel-backs-first-multi-cancer-blood-test-what-to-know/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The FDA advisory panel 7-2 vote in favor of Grail's Galleri test is a genuine near-term catalyst with category-defining implications for the liquid biopsy and multi-cancer early detection space, fitting Slot 1 criteria well."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "New memo: Shall we repeal the laws of economics (Part III)",
+    "source": "Howard Marks memos (Brookfield / Oaktree)",
+    "url": "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a brief promotional blurb/abstract with no substantive content \u2014 it lacks the actual memo arguments, data, or analysis needed to evaluate depth or confirm the shortlist summary's claims about bond yields, Warsh, or specific economic law arguments."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Hospitals' use of AI coding tools cost BCBSA plans $942M more for similar care: analysis",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/hospitals-use-ai-coding-tools-cost-bcbsa-plans-942m-more-similar-care-analysis",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article presents a substantive, data-rich analysis of a structural payer-provider conflict driven by AI coding tools, with specific dollar figures, DRG-level evidence, and clinical discordance metrics that directly affect managed care margins and hospital revenue cycles."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "source": "Anthropic / Hacker News",
+    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantial depth, reporting a genuine scientific first \u2014 Claude autonomously discovering a novel enzyme system (ART) with CRISPR-like repeat arrays \u2014 backed by a preprint, lab validation, and endorsement from Feng Zhang, directly matching the Tech/AI slot's priority for AI applied to healthcare/biotech."
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "What Anthropic's 25 Gigawatts Can Earn in 2030",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/what-anthropics-25-gigawatts-can?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTY0Mzk3NjEsImlhdCI6MTc4OTgzNjMyOSwiZXhwIjoxNzkyNDI4MzI5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.LkJ6GeQXHZw5BU8vG0N0Q54VdScxXilWSynUpljLrKY",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive unit-economics deep dive on Anthropic's compute fleet with real modeling assumptions, source-linked inputs, and an IPO-timing angle \u2014 it passes the 'would I forward this?' test and aligns with the reader's strong data infrastructure and analytical depth preferences."
   }
 ]

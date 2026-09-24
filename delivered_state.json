@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "ee6cac23add11bc0",
-      "date": "2026-09-09"
-    },
-    {
-      "id": "36b8b0cd882fe45c",
-      "date": "2026-09-09"
-    },
-    {
       "id": "6235cdfae5746a83",
       "date": "2026-09-10"
     },
@@ -99,6 +91,22 @@
     {
       "id": "3738398ce99e3eaa",
       "date": "2026-09-23"
+    },
+    {
+      "id": "292c23d6b234a5d0",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "05349fa6b20b4fd4",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "bdd4ed83cef1db09",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "14259753b2cb233d",
+      "date": "2026-09-24"
     }
   ],
   "reader_pushed": {
@@ -162,6 +170,10 @@
     "https://email.mckinsey.com/T/v71000001a0c96c68328e7058969125ccc4/ea450e00e1b740120000021ef3a0bcc2/ea450e00-e1b7-4012-ab28-7ee213d25ccd": "2026-09-22",
     "https://thetranscript.substack.com/p/09-22-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTY4ODIzNDgsImlhdCI6MTc5MDA3NTc5MSwiZXhwIjoxNzkyNjY3NzkxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.k6XtMlJCfq4mHMA0iPVujGBc5UMr6NKHK2_QgIbGuRM": "2026-09-22",
     "https://aletteraday.substack.com/p/letter-344-ray-sidney-2012?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTQ1NTU0NTIsImlhdCI6MTc5MDAzOTA4OSwiZXhwIjoxNzkyNjMxMDg5LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.CcWTkMOUTS1h2-1eMrtz8R8YqoIU80t1uW9An2b2BE0": "2026-09-22",
-    "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii": "2026-09-23"
+    "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii": "2026-09-23",
+    "https://www.beckershospitalreview.com/pharmacy/fda-panel-backs-first-multi-cancer-blood-test-what-to-know/": "2026-09-24",
+    "https://www.fiercehealthcare.com/finance/hospitals-use-ai-coding-tools-cost-bcbsa-plans-942m-more-similar-care-analysis": "2026-09-24",
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system": "2026-09-24",
+    "https://mbideepdives.substack.com/p/a-portfolio-change?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTcyMzMzNTMsImlhdCI6MTc5MDI2Mjg2NiwiZXhwIjoxNzkyODU0ODY2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.BbHrfgIT3DS7i_yudhLt0Cp-Re6VFppWnYGYV_IlXi4": "2026-09-24"
   }
 }

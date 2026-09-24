@@ -2450,5 +2450,33 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-09-24",
+    "checked_unique": 64,
+    "checked_slots": 68,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Your payment receipt from MBI Deep Dives #A45216C-0004",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxs0Dmu8yAUBeDVmC4WkzEUFH-TbSAM1w5_zCCGSNn9U5ImT3r11T3n03G2w5HrU7exNVdD6SGnSwUHoXTkNVMblk4g0GRVmKhVSoEg2nCaAxJU28Eb27-uknB009yufnFSUgZCWcDAMMU7FXb3al93QEFTTAVWlFFCCF1mNnvHwct1AcGEWhmZQzpuJ0QxcRyPiyfzC9mtu88uRxSa2Su8LbrXAejUt95Lm9i_iV4neo1b8ADFhwe036-5QDK9WncP6TBtlFKhNfAalbEZl2McKfSngWS3E_wnvoztDM6-BjLBa8I5J6tEVf-v-VmgQ205TRwfL9G7po3N52hD0t8U1P8eezSon2AlFi7RQ9OfAAAA__-_9Iyx"
+      }
+    ]
   }
 ]
