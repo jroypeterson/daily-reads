@@ -1,0 +1,54 @@
+{
+  "run_date": "2026-09-25",
+  "generated_at": "2026-09-25T16:22:20Z",
+  "counts": {
+    "gmail_items": 130,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f300d1bae43efe11",
+      "headline": "Grail multicancer detection test wins FDA advisers' backing",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/grail-multicancer-detection-test-wins-fda-advisers-backing/831286/",
+      "slot": 1,
+      "summary": "An FDA advisory panel voted 7-2 that the benefits of Grail's Galleri multicancer early detection blood test outweigh its risks, with unanimous agreement on safety but a narrower 6-4 vote on effectiveness. Panel debate centered on risks of false reassurance leading patients to skip guideline-recommended screenings, and limited data reliability for certain cancer types. Canaccord Genuity analysts called the outcome 'a solid predictor of FDA approval,' though formal PMA approval is still pending.",
+      "why_it_matters": "A full FDA approval for Galleri would legitimize the multicancer liquid biopsy market and trigger cascading payer coverage decisions, creating material catalysts for diagnostics players including EXAS, Guardant Health, and Veracyte while setting precedent for AI-driven cancer detection reimbursement.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "subsector:Diagnostics/AI",
+        "ticker_match:EXAS"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8b3ff8002abc4795",
+      "headline": "Hospitals say they're losing the AI billing war. A new BCBS study suggests otherwise",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/hospitals-say-theyre-losing-the-ai-billing-war-a-new-bcbs-study-suggests-otherwise/",
+      "slot": 2,
+      "summary": "The Blue Cross Blue Shield Association released its second study quantifying the impact of AI-assisted hospital billing tools, estimating $942 million in excess costs to the BCBS system over two years (Q1 2023\u2013Q4 2025). The research shows inpatient complexity coding rising without corresponding increases in actual care intensity \u2014 ICU use, transfusion rates, and length of stay were flat or lower at hospitals with the highest complexity coding growth. Payer executives at UnitedHealthcare and Aetna have separately flagged AI-driven coding inflation as a key cost trend, while hospital CFOs including HCA's acknowledge they are 'behind the payers' on AI-driven claims processing.",
+      "why_it_matters": "Quantified evidence of AI-driven coding inflation eroding payer economics directly pressures medical loss ratios at major managed care companies (UNH, CI, CNC) while signaling a structural, escalating cost dynamic that revenue cycle management vendors and hospital operators must navigate \u2014 with regulatory and legislative responses likely to follow.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "AI_impact",
+        "data_infrastructure",
+        "health_technology_datasets",
+        "ticker_match:UNH",
+        "ticker_match:CNC",
+        "subsector:Mgd Care"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}

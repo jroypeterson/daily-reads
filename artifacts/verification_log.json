@@ -11356,5 +11356,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a substantive unit-economics deep dive on Anthropic's compute fleet with real modeling assumptions, source-linked inputs, and an IPO-timing angle \u2014 it passes the 'would I forward this?' test and aligns with the reader's strong data infrastructure and analytical depth preferences."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "FDA nominee Overton parries vaccine questions at Senate hearing",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/overton-senate-hearing-fda-vaccines-abortion-china/831285/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive and slot-appropriate but reads as political hearing coverage rather than deep regulatory or investment analysis \u2014 it lacks the analytical depth, ticker-level implications, or structural insight that matches the reader's strong preference for investment-relevant depth over event summaries."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Grail multicancer detection test wins FDA advisers' backing",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/grail-multicancer-detection-test-wins-fda-advisers-backing/831286/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive coverage of a landmark FDA adcom outcome for Galleri, including vote breakdowns, key panel concerns, data limitations, and analyst commentary \u2014 directly relevant to Slot 1 with clear near-term investment implications for the diagnostics/liquid biopsy subsector."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Howard Marks new memo: Shall we repeal the laws of economics (Part III)",
+    "source": "Howard Marks memos (Brookfield)",
+    "url": "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text provided is essentially just a blurb/teaser (3 sentences of summary plus a disclosure notice) with no substantive content \u2014 the actual memo analysis, arguments, or frameworks from Marks are entirely absent, making it impossible to verify the depth claimed in the shortlist summary."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Lilly wins FDA approval for once-weekly insulin (Onswik), escalating Novo rivalry",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief announcing the FDA approval of Lilly's Onswik with minimal analytical depth on competitive dynamics, payer implications, or market structure \u2014 it lacks the substantive finance/macro analysis required for Slot 2 and is better categorized as a straightforward regulatory news item."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Scuttleblurb: [scuttleslops] AAPL, SHOP, Databricks, Lonza",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a fragmented preview/teaser page showing excerpts from multiple unrelated Scuttleblurb posts with no substantive content on AAPL, SHOP, Databricks, or Lonza \u2014 the actual deep-dive analysis promised in the headline is behind a paywall and not accessible here."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Cigna Group, OpenAI team up to support patients with complex conditions",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/cigna-group-openai-team-support-patients-complex-conditions",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press release rehash with no financial analysis, deal terms, strategic depth, or investment implications \u2014 it reads as corporate announcement copy and lacks the analytical substance required for Slot 2 or any slot given the reader's strong preference for depth over breadth."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "McKinsey: Inside the AI revolution \u2014 4 trends to watch",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0d4f48669ca67cd369fb45280/ae7450085faf41c80000021ef3a0bcc2/ae745008-5faf-41c8-9a92-f15518974a5a",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This McKinsey briefing belongs to Slot 3 (Tech/AI) not Slot 2 (Finance/Macro), and with only a headline and summary available \u2014 no full article text \u2014 there's insufficient evidence of analytical depth to meet the reader's strong preference for substantive, practitioner-level insight over consulting-style trend listicles."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Hospitals say they're losing the AI billing war. A new BCBS study suggests otherwise",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/hospitals-say-theyre-losing-the-ai-billing-war-a-new-bcbs-study-suggests-otherwise/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive, data-driven content quantifying the AI billing arms race between payers and hospitals with specific dollar figures, case counts, and clinical comparisons \u2014 directly relevant to managed care MLR assumptions and revenue cycle dynamics for tickers like UNH, CI, and CNC."
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "McKinsey: Inside the AI revolution \u2014 4 trends to watch",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0d4f48669ca67cd369fb45280/ae7450085faf41c80000021ef3a0bcc2/ae745008-5faf-41c8-9a92-f15518974a5a",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article is a generic McKinsey trend briefing with a listicle format ('4 trends to watch') that lacks the analytical depth and practitioner specificity the reader strongly prefers \u2014 the summary itself reveals no actual trend content, suggesting thin/surface-level framing rather than substantive structural insight."
   }
 ]
