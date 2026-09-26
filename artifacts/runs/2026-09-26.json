@@ -1,0 +1,73 @@
+{
+  "run_date": "2026-09-26",
+  "generated_at": "2026-09-26T15:36:38Z",
+  "counts": {
+    "gmail_items": 124,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "77f59d05de0157db",
+      "headline": "Lilly wins approval for once-weekly insulin shot (Onswik)",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/",
+      "slot": 1,
+      "summary": "The FDA approved Eli Lilly's Onswik (insulin efsitora alfa), a once-weekly basal insulin for adults with type 2 diabetes, marking a meaningful convenience advancement over daily long-acting insulins like Sanofi's Lantus and Novo Nordisk's Tresiba. The approval deepens Lilly's diabetes franchise and opens a new competitive front against Novo Nordisk, which is already under pressure from investor skepticism around its $23B revenue targets and ongoing workforce reductions. Onswik's launch adds to Lilly's momentum in both the GLP-1 and now insulin segments of the diabetes market.",
+      "why_it_matters": "Onswik reinforces Lilly's structural advantage in the diabetes/obesity space and sharpens the LLY vs. NVO relative value trade at a moment when Novo's pipeline narrative is weakening, making this a near-term catalyst for reassessing position sizing in both names.",
+      "signal_tags": [
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "investment_relevant_insights",
+        "regulatory_affairs"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f00181b55e4db043",
+      "headline": "New memo: Shall We Repeal the Laws of Economics (Part III) \u2014 Howard Marks / Oaktree",
+      "source": "Howard Marks memos (Brookfield/Oaktree)",
+      "url": "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+      "slot": 2,
+      "summary": "Howard Marks argues that 30-year Treasury yields at 19-year highs above 5.3% reflect genuine structural fiscal dysfunction \u2014 a ~6% GDP deficit, persistent inflation, and massive AI-driven capital expenditure crowding out borrowers \u2014 rather than a correctable technical anomaly. He critiques proposed yield-suppression schemes (such as Treasury buybacks or forcing institutions to hold more Treasuries) as cosmetic fixes that treat symptoms rather than the underlying disease of unsustainable spending. His conclusion is that only credible fiscal consolidation \u2014 spending cuts or revenue increases \u2014 can durably reverse the trend, while warning against a disorderly exit from dollar assets.",
+      "why_it_matters": "With the 30-year yield at 2007 levels and structurally higher cost of capital now the baseline, this memo is essential for sizing duration risk in capital-intensive sectors and understanding the macro headwinds facing leveraged healthcare deals, biopharma balance sheets, and any investment thesis reliant on rate normalization.",
+      "signal_tags": [
+        "priority_source:high",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "structural_market_insight",
+        "forward_looking",
+        "elite_fund_practitioner",
+        "novelty"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "2c2fc02d32429208",
+      "headline": "Democratized superintelligence is coming: The world needs to get ready",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1",
+      "slot": 3,
+      "summary": "McKinsey examines the looming gap between rapidly advancing AI capabilities \u2014 framed as 'democratized superintelligence' accessible to individuals and small organizations \u2014 and the readiness of governance frameworks and institutions to manage it. The piece surveys labor market displacement, regulatory preparedness, and sector-specific risk, with healthcare identified as an area of outsized opportunity and danger. The central argument is that society's adaptive capacity is materially behind the pace of AI deployment.",
+      "why_it_matters": "For investors in health-tech and AI infrastructure, McKinsey's governance-gap thesis raises practical questions about which incumbents hold durable moats versus which face sudden disruption from low-cost AI substitutes arriving before regulatory guardrails are in place.",
+      "signal_tags": [
+        "priority_source:mckinsey",
+        "high_priority_source",
+        "ai_impact",
+        "ai_and_biology_intersection",
+        "forward_looking",
+        "investment_relevant_insights",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    }
+  ]
+}

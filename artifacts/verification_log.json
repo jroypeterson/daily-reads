@@ -11437,5 +11437,113 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article is a generic McKinsey trend briefing with a listicle format ('4 trends to watch') that lacks the analytical depth and practitioner specificity the reader strongly prefers \u2014 the summary itself reveals no actual trend content, suggesting thin/surface-level framing rather than substantive structural insight."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest from Stratechery covering Meta vs. Amazon aggregator dynamics, GM/CarPlay, and a Zuckerberg profile \u2014 substantive Tech/AI content but entirely unrelated to Healthcare/Biotech (Slot 1)."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "New memo: Shall We Repeal the Laws of Economics (Part III) \u2014 Howard Marks / Oaktree",
+    "source": "Howard Marks memos (Brookfield/Oaktree)",
+    "url": "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite genuine depth and relevance to macro/cost-of-capital themes, this is a finance/macro memo \u2014 not a healthcare or biopharma article \u2014 and belongs firmly in Slot 2, not Slot 1."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "source": "Hacker News / swarmtraces.org",
+    "url": "https://swarmtraces.org/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a detailed cybersecurity investigation article about AI agents hacking Hugging Face \u2014 substantive and well-reported, but clearly belongs to Tech/AI (Slot 3), not Healthcare/Biotech (Slot 1)."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Democratized superintelligence is coming: The world needs to get ready",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI macro piece from McKinsey, not a Healthcare/Biopharma article \u2014 it belongs in Slot 3 or Slot 4, not Slot 1, which requires FDA decisions, clinical trial data, M&A, or pipeline news."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Lilly wins approval for once-weekly insulin shot (Onswik)",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive FDA approval article from STAT News covering a meaningful clinical and competitive milestone for Eli Lilly in the diabetes space, directly fitting Slot 1 criteria with clear investment implications around the LLY/NVO relative value dynamic."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "New memo: Shall We Repeal the Laws of Economics (Part III) \u2014 Howard Marks / Oaktree",
+    "source": "Howard Marks memos (Brookfield/Oaktree)",
+    "url": "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Howard Marks's memo is substantive, analytical, and macro-relevant \u2014 squarely fitting Slot 2 with depth on fiscal deficits, rate dynamics, and structural capital costs that align with the reader's strong preferences for analytical depth and investment-relevant structural insights."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article is a thin weekly digest/table-of-contents linking to paywalled Stratechery content, with only brief teaser blurbs \u2014 the substantive analysis on Meta vs. Amazon aggregator dynamics lives behind the paywall and is not present in the article text itself."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "source": "Hacker News / swarmtraces.org",
+    "url": "https://swarmtraces.org/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article describes a July 2026 AI agent attack that has not occurred \u2014 this is fabricated future-dated content from a non-credible source (swarmtraces.org via Hacker News), making it unsuitable for any slot regardless of its superficial depth."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Democratized superintelligence is coming: The world needs to get ready",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's framing of democratized superintelligence with sector-by-sector analysis, governance gaps, and explicit healthcare focus aligns well with the reader's strong preferences for AI impact, competitive moat analysis, and investment-relevant insights from a management consulting source."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "Fierce Biotech Weekly: Senator talks US-China biotech dilemma; Trump FDA chief pick Overton walks confirmation tightrope; Novo's new direction underwhelms investors",
+    "source": "Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a navigation menu and headline list from Fierce Biotech's website \u2014 there is no substantive article body, analysis, or depth to evaluate; the actual weekly digest content described in the shortlist summary is not present in the provided text."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "The 10-Year Treasury Yield Is at Its Highest in Nearly Two Decades. How We Got Here",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin, generic macro explainer with little analytical depth \u2014 it recycles familiar yield-move narratives (inflation, Fed expectations, AI capex issuance) without original data, structural insight, or investment-actionable framing, and falls well short of the reader's strong preference for analytical depth and practitioner-level perspective."
+  },
+  {
+    "date": "2026-09-26",
+    "headline": "[scuttleslops] AAPL, SHOP, Databricks, Lonza",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text consists only of stub previews and navigation snippets from Scuttleblurb \u2014 there is no actual substantive content on AAPL, SHOP, Databricks, or Lonza visible in the full text, making it impossible to verify depth or accuracy of the shortlist summary."
   }
 ]

@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "44ea3c36a2e8f528",
-      "date": "2026-09-11"
-    },
-    {
-      "id": "8d9dcedf31147fb1",
-      "date": "2026-09-11"
-    },
-    {
       "id": "8c4abf5c901ad94c",
       "date": "2026-09-12"
     },
@@ -107,6 +99,18 @@
     {
       "id": "8b3ff8002abc4795",
       "date": "2026-09-25"
+    },
+    {
+      "id": "77f59d05de0157db",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "d93755a5fedcd914",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2c2fc02d32429208",
+      "date": "2026-09-26"
     }
   ],
   "reader_pushed": {
@@ -176,6 +180,9 @@
     "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system": "2026-09-24",
     "https://mbideepdives.substack.com/p/a-portfolio-change?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTcyMzMzNTMsImlhdCI6MTc5MDI2Mjg2NiwiZXhwIjoxNzkyODU0ODY2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.BbHrfgIT3DS7i_yudhLt0Cp-Re6VFppWnYGYV_IlXi4": "2026-09-24",
     "https://www.biopharmadive.com/news/grail-multicancer-detection-test-wins-fda-advisers-backing/831286/": "2026-09-25",
-    "https://www.beckerspayer.com/payer/hospitals-say-theyre-losing-the-ai-billing-war-a-new-bcbs-study-suggests-otherwise/": "2026-09-25"
+    "https://www.beckerspayer.com/payer/hospitals-say-theyre-losing-the-ai-billing-war-a-new-bcbs-study-suggests-otherwise/": "2026-09-25",
+    "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/": "2026-09-26",
+    "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e": "2026-09-26",
+    "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1": "2026-09-26"
   }
 }
