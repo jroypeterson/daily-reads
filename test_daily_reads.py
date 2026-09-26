@@ -2072,3 +2072,220 @@ def test_no_delivery_surface_still_writes_to_ticktick():
     import io as _io
     src = _io.open("main.py", encoding="utf-8").read()
     assert "ticktick" not in src.lower(), "main.py must not reference TickTick"
+
+
+# --- #328/#391: a publication verified silent is a recorded fact, not an alarm --
+
+def test_a_paused_source_is_in_none_of_the_alarm_lists():
+    """Biotech Primer drew `:rotating_light: Missing always-read` every week after
+    its own sitemap and RSS had stopped (2026-07-28)."""
+    from weekly_report import classify_missing_sources
+    missing, missing_ar, quiet, quiet_ar = classify_missing_sources(
+        {"Biotech Primer", "MBI"}, set(), {"Biotech Primer", "MBI"},
+        {"Biotech Primer": "weekly", "MBI": "weekly"},
+        paused={"Biotech Primer"})
+    assert missing == ["MBI"] and missing_ar == ["MBI"]
+    assert "Biotech Primer" not in quiet + quiet_ar
+
+
+def _run_audit(monkeypatch, sources, has_mail):
+    """Drive validate_source.audit() offline: Gmail and Slack are stubbed."""
+    import validate_source as vs
+    alerts = []
+    monkeypatch.setattr(vs, "SOURCES", sources)
+    monkeypatch.setattr(vs, "get_gmail_service", lambda: object())
+    monkeypatch.setattr(
+        vs, "gmail_search",
+        lambda service, q, max_results=20: (
+            [{"date": "Fri, 25 Sep 2026 05:08:14 -0600"}]
+            if any(f"from:{a}" in q for a in has_mail) else []))
+    monkeypatch.setattr(vs, "_send_slack_alert", alerts.append)
+    vs.audit(ci_mode=False)
+    return alerts
+
+
+# Dated relative to today so the fixture never ages past PAUSE_REVIEW_DAYS.
+from datetime import date as _date, timedelta as _td
+_VERIFIED = _date.today() - _td(days=1)
+_PAUSE = {"since": "2026-07-28", "verified": _VERIFIED.isoformat(), "evidence": "sitemap"}
+
+
+def test_audit_does_not_alarm_on_a_paused_source(monkeypatch):
+    sources = {
+        "theprimer@biotechprimer.com": {"name": "Biotech Primer", "frequency": "weekly",
+                                        "paused": _PAUSE},
+        "gone@example.com": {"name": "Really Dead", "frequency": "weekly"},
+    }
+    alerts = _run_audit(monkeypatch, sources, has_mail=())
+    assert len(alerts) == 1
+    assert "Really Dead" in alerts[0], "an unpaused dead source must still alarm"
+    assert "Biotech Primer" not in alerts[0]
+
+
+def test_audit_alerts_when_a_paused_source_sends_again(monkeypatch):
+    """A resumed source makes the marker WRONG - it would hide the next silence."""
+    sources = {"theprimer@biotechprimer.com": {"name": "Biotech Primer",
+                                               "frequency": "weekly", "paused": _PAUSE}}
+    alerts = _run_audit(monkeypatch, sources, has_mail=("theprimer@biotechprimer.com",))
+    assert len(alerts) == 1 and "Biotech Primer" in alerts[0]
+    assert "paused" in alerts[0]
+
+
+def test_every_paused_marker_carries_its_evidence():
+    """A pause without a date and evidence is an unexplained mute."""
+    from sources import SOURCES
+    paused = {k: v["paused"] for k, v in SOURCES.items() if v.get("paused")}
+    assert paused, "Biotech Primer is the reference paused source"
+    for key, p in paused.items():
+        for field in ("since", "verified", "evidence"):
+            assert p.get(field), f"{key} paused without `{field}`"
+
+
+def test_apollo_is_registered_at_the_sender_it_actually_uses():
+    """#467: Daily Spark moved to agm@e.apollo.com on 2026-09-10."""
+    from sources import SOURCES
+    assert SOURCES["agm@e.apollo.com"]["name"] == "Apollo Daily Spark (Torsten Slok)"
+    assert "agm@apollo.com" not in SOURCES
+
+
+def test_a_resumption_keeps_alerting_after_it_ages_out_of_the_cadence(monkeypatch):
+    """Codex R1: searching resumption within the cadence window let a resumed
+    issue age out after 16 days and silently re-pause the source. Resumption
+    is searched from the marker's `verified` date instead."""
+    import validate_source as vs
+    queries = []
+    alerts = []
+    sources = {"theprimer@biotechprimer.com": {"name": "Biotech Primer",
+                                               "frequency": "weekly", "paused": _PAUSE}}
+
+    def search(service, q, max_results=20):
+        queries.append(q)
+        # one resumed issue on 2026-10-01; audit runs long after
+        after = q.split("after:")[1].split(" ")[0]
+        resumed_on = (_VERIFIED + _td(days=5)).strftime("%Y/%m/%d")
+        return [{"date": resumed_on}] if after <= resumed_on else []
+
+    class _Later(vs.datetime):
+        @classmethod
+        def now(cls, tz=None):
+            later = _VERIFIED + _td(days=24)
+            return cls(later.year, later.month, later.day, tzinfo=tz)
+
+    monkeypatch.setattr(vs, "datetime", _Later)
+    monkeypatch.setattr(vs, "SOURCES", sources)
+    monkeypatch.setattr(vs, "get_gmail_service", lambda: object())
+    monkeypatch.setattr(vs, "gmail_search", search)
+    monkeypatch.setattr(vs, "_send_slack_alert", alerts.append)
+    vs.audit(ci_mode=False)
+    assert any(f"after:{_VERIFIED.strftime('%Y/%m/%d')}" in q for q in queries)
+    assert len(alerts) == 1 and "Biotech Primer" in alerts[0]
+
+
+def test_a_paused_marker_without_a_verified_date_is_not_honoured(monkeypatch):
+    sources = {"x@example.com": {"name": "Unverified Pause", "frequency": "weekly",
+                                 "paused": {"since": "2026-07-28", "evidence": "?"}}}
+    alerts = _run_audit(monkeypatch, sources, has_mail=())
+    assert len(alerts) == 1 and "Unverified Pause" in alerts[0]
+
+
+# --- Codex R2: one validator for the marker, and a marker cannot outlive its evidence
+
+def test_check_pause_rejects_future_expired_and_malformed_markers():
+    from sources import check_pause, PAUSE_REVIEW_DAYS
+    today = _date(2026, 9, 26)
+    ok = {"paused": {"since": "2026-07-28", "verified": "2026-09-26", "evidence": "e"}}
+    assert check_pause(ok, today)[0] is not None
+    future = {"paused": {"since": "2026-07-28", "verified": "2026-09-27", "evidence": "e"}}
+    assert check_pause(future, today)[0] is None
+    expired_on = today + _td(days=PAUSE_REVIEW_DAYS + 1)
+    assert check_pause(ok, expired_on)[0] is None
+    assert "expired" in check_pause(ok, expired_on)[1]
+    bad_date = {"paused": {"since": "2026-07-28", "verified": "09/26/2026", "evidence": "e"}}
+    assert check_pause(bad_date, today)[0] is None
+    no_evidence = {"paused": {"since": "2026-07-28", "verified": "2026-09-26"}}
+    assert check_pause(no_evidence, today)[0] is None
+    assert check_pause({}, today) == (None, None)
+
+
+def test_weekly_report_does_not_honour_a_marker_the_audit_rejects(monkeypatch):
+    """Codex R2: a malformed marker was graded normally by the audit but still
+    muted the weekly report's alarms - the two consumers disagreed."""
+    import sources
+    monkeypatch.setattr(sources, "SOURCES", {
+        "a@x.com": {"name": "Good Pause", "paused": {"since": "2026-07-28",
+                    "verified": _VERIFIED.isoformat(), "evidence": "e"}},
+        "b@x.com": {"name": "Bad Pause", "paused": {"since": "2026-07-28",
+                    "verified": "09/26/2026", "evidence": "e"}},
+    })
+    assert sources.get_paused_names() == {"Good Pause"}
+
+
+def test_an_expired_marker_alarms_again_in_the_audit(monkeypatch):
+    old = {"since": "2026-01-01", "verified": (_date.today() - _td(days=200)).isoformat(),
+           "evidence": "e"}
+    sources = {"x@example.com": {"name": "Stale Pause", "frequency": "weekly", "paused": old}}
+    alerts = _run_audit(monkeypatch, sources, has_mail=())
+    assert len(alerts) == 1 and "Stale Pause" in alerts[0]
+
+
+def _build_report_with(monkeypatch, tmp_path, registry, artifacts):
+    """Run the real weekly_report.build_report() over a throwaway cwd."""
+    import sources
+    import weekly_report as wr
+    monkeypatch.chdir(tmp_path)
+    cands = tmp_path / "artifacts" / "candidates"
+    cands.mkdir(parents=True)
+    for day, body in artifacts.items():
+        (cands / f"{day}.json").write_text(body, encoding="utf-8")
+    monkeypatch.setattr(sources, "SOURCES", registry)
+    monkeypatch.setattr(wr, "SOURCES", registry)
+    always = {s["name"] for s in registry.values() if s.get("always_read")}
+    monkeypatch.setattr(wr, "get_always_read_names", lambda: always)
+    return wr.build_report()
+
+
+def _src(name, pause=None):
+    s = {"name": name, "frequency": "weekly", "always_read": True}
+    if pause:
+        s["paused"] = pause
+    return s
+
+
+def test_weekly_report_final_lists_for_each_kind_of_marker(monkeypatch, tmp_path):
+    """Codex R3+R4: assert the report's FINAL lists, not a helper. A valid quiet
+    pause is listed once as paused and in NO alarm list; a pause whose source
+    resumed before this week, a malformed one and an expired one all alarm."""
+    ok = {"since": "2026-07-28",
+          "verified": (_date.today() - _td(days=30)).isoformat(), "evidence": "e"}
+    malformed = dict(ok, verified="09/26/2026")
+    expired = dict(ok, verified=(_date.today() - _td(days=200)).isoformat())
+    registry = {
+        "a@x.com": _src("Still Paused", ok),
+        "b@x.com": _src("Resumed", ok),
+        "c@x.com": _src("Malformed", malformed),
+        "d@x.com": _src("Expired", expired),
+    }
+    resumed_on = (_date.today() - _td(days=20)).isoformat()   # before this week
+    report = _build_report_with(monkeypatch, tmp_path, registry, {
+        resumed_on: json.dumps({"gmail_candidates": [{"source_name": "Resumed"}]}),
+    })
+    sh = report["source_health"]
+    alarms = ["Expired", "Malformed", "Resumed"]
+    assert sh["paused"] == ["Still Paused"]
+    assert sh["missing_sources"] == alarms
+    assert sh["missing_always_read"] == alarms
+    assert report["always_read"]["missing"] == alarms
+
+
+def test_an_unreadable_artifact_does_not_crash_the_report_or_mute_alarms(monkeypatch, tmp_path):
+    """Codex R4: a truncated artifact made `_seen_since` raise, killing the
+    weekly report. It must instead refuse to honour the pause."""
+    ok = {"since": "2026-07-28",
+          "verified": (_date.today() - _td(days=30)).isoformat(), "evidence": "e"}
+    day = (_date.today() - _td(days=20)).isoformat()
+    report = _build_report_with(monkeypatch, tmp_path, {"a@x.com": _src("P", ok)}, {
+        day: '{"gmail_candidates": [',          # truncated
+        "junk-aa-bb": "not json",               # not a dated artifact: ignored
+    })
+    assert report["source_health"]["paused"] == []
+    assert report["source_health"]["missing_always_read"] == ["P"]

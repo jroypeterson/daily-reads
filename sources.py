@@ -126,6 +126,14 @@ SOURCES = {
     # messages in the 8 days to 2026-08-04, max gap 1 day, Money Stuff and the rest.
     # So #273's "broken subscription, re-subscribe" reading was wrong in both halves:
     # nothing is broken, and re-subscribing would have changed nothing.
+    #
+    # ⏸ PAUSED 2026-09-26 (board #451): `monthly` only moved the alarm, it did not
+    # remove it — at 45 days it went stale again. Not a sender change: the whole
+    # `message.bloomberg.com` domain has sent exactly one thing since 07-24, a
+    # transactional "Renewal Notification" (2026-08-15, info@t.message.bloomberg.com).
+    # The stream was sign-up marketing and ENDED at the signup: "Thank you for
+    # subscribing" and "Welcome to Bloomberg.com" arrived in the same second on
+    # 2026-07-22. Bloomberg content is fine via `noreply@news.bloomberg.com`.
     "subscriptions@message.bloomberg.com": {
         "name": "Bloomberg (subscription notices)",
         "email": "subscriptions@message.bloomberg.com",
@@ -133,6 +141,11 @@ SOURCES = {
         "category": "finance_macro",
         "frequency": "monthly",
         "priority": "normal",
+        "paused": {
+            "since": "2026-07-24",
+            "verified": "2026-09-26",
+            "evidence": "sign-up marketing stream that ended when JP subscribed on 2026-07-22; content arrives via noreply@news.bloomberg.com",
+        },
     },
     "access@interactive.wsj.com": {
         "name": "WSJ Newsletters",
@@ -287,9 +300,17 @@ SOURCES = {
     # `validate_source.py "Slok"`, not guessed: the From header is
     # `Torsten Slok <agm@apollo.com>`, which no amount of reasoning about
     # apollo.com would have produced.
-    "agm@apollo.com": {
+    #
+    # 🔁 SENDER MOVED 2026-09-10 → `agm@e.apollo.com` (board #467). Observed with
+    # `validate_source.py "Slok"` on 2026-09-26: `agm@e.apollo.com` carries every
+    # issue from 2026-09-10 to 09-25 (daily, 05:08 MT), `agm@apollo.com` sent its
+    # last on 2026-09-15 after a 5-day overlap. Same publication, same display
+    # name "Torsten Slok" — one sender moved, not two publications (contrast the
+    # Oaktree pair below), so the key is REPLACED and the `name` kept, which keeps
+    # the weekly report's per-source history continuous.
+    "agm@e.apollo.com": {
         "name": "Apollo Daily Spark (Torsten Slok)",
-        "email": "agm@apollo.com",
+        "email": "agm@e.apollo.com",
         "tier": 1,
         "category": "finance_macro",
         "frequency": "daily",
@@ -352,6 +373,17 @@ SOURCES = {
         "frequency": "monthly",
         "priority": "normal",
     },
+    # ⏸ PAUSED AT THE PUBLICATION, not a broken address (board #328/#391).
+    # Verified 2026-09-26 against three independent channels, all of which stop
+    # on the SAME day, 2026-07-28 ("Decode Biotech Jargon"):
+    #   - Gmail: `from:biotechprimer.com` — weekly Tuesday issues through 07-28,
+    #     nothing since, and a body search for "biotechprimer" finds no other sender;
+    #   - the public sitemap `biotechprimer.com/post-sitemap.xml` — newest lastmod
+    #     2026-07-28T13:42Z (also what `newsletter_archives` measured 2026-09-25);
+    #   - the public RSS `biotechprimer.com/feed/` — newest pubDate 2026-07-28.
+    # So the sender did not move; the publication stopped. The address stays
+    # registered so a resumed issue flows straight into the digest, and the audit
+    # alerts ("RESUMED — remove the paused marker") the day one arrives.
     "theprimer@biotechprimer.com": {
         "name": "Biotech Primer",
         "email": "theprimer@biotechprimer.com",
@@ -360,6 +392,11 @@ SOURCES = {
         "frequency": "weekly",
         "priority": "high",
         "always_read": True,
+        "paused": {
+            "since": "2026-07-28",
+            "verified": "2026-09-26",
+            "evidence": "Gmail, public sitemap and RSS all end 2026-07-28 — the publication is silent, the sender did not move",
+        },
     },
     "msim.fund@morganstanley.com": {
         "name": "Consilient Observer",
@@ -414,6 +451,64 @@ def get_all_sender_emails() -> list[str]:
 def get_always_read_names() -> set[str]:
     """Return source names marked as always_read."""
     return {s["name"] for s in SOURCES.values() if s.get("always_read")}
+
+
+# A `paused` marker mutes a source's silence alarms, so it must not be able to
+# outlive its evidence. It expires this many days after `verified`; the source
+# then alarms normally until someone re-verifies (re-check the publication's
+# own site AND `validate_source.py "<name>"` — a publication can resume under a
+# NEW sender, which the registered-address resume check cannot see).
+PAUSE_REVIEW_DAYS = 90
+
+
+def check_pause(source: dict, today=None) -> tuple[dict | None, str | None]:
+    """Return `(marker, None)` if the source's `paused` marker is honoured, else
+    `(None, why)` — `why` is None when there is no marker at all.
+
+    The ONE place a marker is validated, so the audit and the weekly report can
+    never disagree about whether a source is paused.
+    """
+    from datetime import date, datetime, timedelta
+
+    pause = source.get("paused")
+    if not pause:
+        return None, None
+    if not isinstance(pause, dict):
+        return None, "`paused` must be a dict with since/verified/evidence"
+    try:
+        verified = datetime.strptime(str(pause.get("verified", "")), "%Y-%m-%d").date()
+        datetime.strptime(str(pause.get("since", "")), "%Y-%m-%d")
+    except ValueError:
+        return None, "`paused` needs `since` and `verified` as YYYY-MM-DD"
+    if not str(pause.get("evidence", "")).strip():
+        return None, "`paused` has no `evidence`"
+    today = today or date.today()
+    if verified > today:
+        return None, f"`paused.verified` {verified} is in the future"
+    if today > verified + timedelta(days=PAUSE_REVIEW_DAYS):
+        return None, (f"`paused` marker expired (verified {verified}, review every "
+                      f"{PAUSE_REVIEW_DAYS}d) — re-verify the publication and sender")
+    return pause, None
+
+
+def get_paused(today=None) -> dict[str, dict]:
+    """Return {source name: marker} for every HONOURED `paused` marker.
+
+    A paused source is still scanned — a resumed issue flows in untouched — but
+    silence from it is a recorded fact, not an alarm. Only markers that pass
+    `check_pause` count; see Biotech Primer for the standard.
+    """
+    out = {}
+    for s in SOURCES.values():
+        marker = check_pause(s, today)[0]
+        if marker:
+            out[s["name"]] = marker
+    return out
+
+
+def get_paused_names(today=None) -> set[str]:
+    """Names of sources with an honoured `paused` marker (see `get_paused`)."""
+    return set(get_paused(today))
 
 
 def get_journal_source_names() -> set[str]:

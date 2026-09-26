@@ -49,7 +49,7 @@ def _p(*parts) -> None:
         print(line.encode("ascii", "replace").decode("ascii"))
 from email.utils import parseaddr
 
-from sources import SOURCES
+from sources import SOURCES, check_pause
 
 
 def get_gmail_service():
@@ -185,6 +185,8 @@ def audit(ci_mode: bool = False):
     ok = []
     stale = []
     dead = []
+    paused = []
+    resumed = []
 
     for email_addr, source in SOURCES.items():
         name = source["name"]
@@ -196,6 +198,32 @@ def audit(ci_mode: bool = False):
         # Check within the stale window first (cadence + grace)
         cutoff_stale = (now - timedelta(days=stale_days)).strftime("%Y/%m/%d")
         msgs_recent = gmail_search(service, f"after:{cutoff_stale} from:{email_addr}", max_results=1)
+
+        # A source whose PUBLICATION is verified silent (`paused` in sources.py,
+        # board #328/#391) is not graded stale/dead: calling Biotech Primer "dead"
+        # every day restated a fact already established against its sitemap and
+        # RSS. It is still checked, in the opposite direction - mail from a
+        # paused source means the marker is now WRONG and would hide the next
+        # silence, so that alerts.
+        #
+        # Resumption is searched from the `verified` date, NOT the cadence
+        # window: a resumed issue must keep alerting until the marker is
+        # removed, and a cadence cutoff would let it age out (16 days on a
+        # weekly) and quietly re-pause the source. An invalid, future-dated or
+        # EXPIRED marker (sources.check_pause - the one validator the weekly
+        # report also uses) is not honoured: the source is graded normally.
+        pause, pause_problem = check_pause(source, now.date())
+        if pause_problem:
+            print(f"  WARNING: {name}: {pause_problem}; grading it normally.")
+        if pause:
+            verified_cutoff = pause["verified"].replace("-", "/")
+            msgs_since = gmail_search(service, f"after:{verified_cutoff} from:{email_addr}", max_results=1)
+            if msgs_since:
+                resumed.append((name, email_addr, pause.get("since", "?"), msgs_since[0]["date"]))
+            else:
+                paused.append((name, email_addr, pause.get("since", "?"), pause.get("verified", "?")))
+            continue
+
         if msgs_recent:
             ok.append((name, email_addr, "recent"))
             continue
@@ -225,9 +253,25 @@ def audit(ci_mode: bool = False):
             print(f"  {name:30s} {addr}  ({freq}, >{dead_days}d)")
         print("\n  These may have wrong addresses or you may not be subscribed.")
 
+    if paused:
+        print(f"\nPAUSED - publication verified silent, not alarmed ({len(paused)}):")
+        for name, addr, since, verified in paused:
+            print(f"  {name:30s} {addr}  (silent since {since}, verified {verified})")
+
+    if resumed:
+        print(f"\nRESUMED - marked paused but sending again ({len(resumed)}):")
+        for name, addr, since, last_date in resumed:
+            print(f"  {name:30s} {addr}  (paused since {since})")
+            print(f"    Last seen: {last_date}")
+        print("\n  Remove the `paused` marker in sources.py so silence alarms again.")
+
     # Slack alert for problems
-    if dead or stale:
+    if dead or stale or resumed:
         lines = []
+        if resumed:
+            lines.append(f"*{len(resumed)} paused source(s) sending again* - remove the `paused` marker in `sources.py`:")
+            for name, addr, since, _ in resumed:
+                lines.append(f"  {name} - `{addr}`  (_paused since {since}_)")
         if dead:
             lines.append(f"*{len(dead)} dead source(s)* (silent well past cadence):")
             for name, addr, freq, dead_days in dead:
@@ -249,7 +293,9 @@ def check_staged():
     try:
         diff = subprocess.check_output(
             ["git", "diff", "--cached", "-U0", "sources.py"],
-            text=True,
+            # utf-8, not the locale codec: sources.py carries emoji and em-dashes,
+            # and cp1252 crashed this hook on them (2026-09-26).
+            text=True, encoding="utf-8", errors="replace",
         )
     except subprocess.CalledProcessError:
         print("No staged changes to sources.py")

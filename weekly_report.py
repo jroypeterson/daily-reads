@@ -14,7 +14,7 @@ from pathlib import Path
 
 import requests
 
-from sources import SOURCES, get_always_read_names
+from sources import SOURCES, get_always_read_names, get_paused
 
 
 ARTIFACTS_RUNS = Path("artifacts/runs")
@@ -39,7 +39,36 @@ def _past_7_days() -> list[str]:
 SLOW_CADENCES = {"monthly", "quarterly"}
 
 
-def classify_missing_sources(all_names, seen, always_read, name_freq):
+def _seen_since(source_name: str, since_iso: str) -> bool:
+    """True if any daily candidates artifact dated on/after `since_iso` carries
+    an item from `source_name`. Artifacts are named YYYY-MM-DD.json.
+
+    An artifact that cannot be read answers True (conservative): an unreadable
+    day cannot prove silence, so the pause is not honoured and the source falls
+    back to the normal alarms - never the reverse, and never a crash that
+    takes the whole weekly report down."""
+    from datetime import date as _date
+    for path in sorted(ARTIFACTS_CANDIDATES.glob("????-??-??.json")):
+        try:
+            _date.fromisoformat(path.stem)
+        except ValueError:
+            continue
+        if path.stem < since_iso:
+            continue
+        try:
+            cands = _load_json(path, {}) or {}
+            items = cands.get("gmail_candidates", []) or []
+            if any(isinstance(c, dict) and c.get("source_name") == source_name
+                   for c in items):
+                return True
+        except (OSError, ValueError, AttributeError, TypeError) as e:
+            print(f"WARNING: cannot read {path} ({e}); not honouring the "
+                  f"`paused` marker on {source_name}")
+            return True
+    return False
+
+
+def classify_missing_sources(all_names, seen, always_read, name_freq, paused=()):
     """Split unseen sources into real alarms and expected quiet.
 
     Returns `(missing_sources, missing_always_read, quiet_slow,
@@ -59,8 +88,14 @@ def classify_missing_sources(all_names, seen, always_read, name_freq):
     A slow source that is genuinely dead is still caught — by the cadence-aware
     audit (`validate_source --audit`, the "dead 21d" lane), which measures
     against the source's own cadence instead of the calendar week.
+
+    `paused` names (publication verified silent — `paused` in sources.py) are
+    in NONE of the four lists: Biotech Primer drew the report's loudest line,
+    `:rotating_light: Missing always-read`, every week for a newsletter whose
+    own sitemap and RSS had stopped (#328/#391). The caller renders them once,
+    as a recorded fact.
     """
-    missing_all = set(all_names) - set(seen)
+    missing_all = set(all_names) - set(seen) - set(paused)
     slow = {n for n in missing_all if name_freq.get(n, "") in SLOW_CADENCES}
     always = set(always_read)
     return (
@@ -136,9 +171,24 @@ def build_report() -> dict:
     # against the total.
     active_configured = sources_seen & all_source_names
     _name_freq = {m["name"]: (m.get("frequency") or "") for m in SOURCES.values()}
+    # A marker is only honoured while the source has sent NOTHING since it was
+    # verified - the same rule the audit applies. Checked against every daily
+    # candidates artifact since `verified`, not just this week's: a resumed
+    # issue that has aged out of the 7-day window must not re-pause the source
+    # here while the audit is still alerting that the marker is wrong.
+    paused_names = set()
+    for _pname, _marker in get_paused().items():
+        if _seen_since(_pname, _marker["verified"]):
+            print(f"WARNING: {_pname} is marked paused but has sent mail since "
+                  f"{_marker['verified']} - remove the `paused` marker in sources.py")
+        else:
+            paused_names.add(_pname)
     missing_sources, missing_always_read, quiet_slow, quiet_slow_always_read = (
         classify_missing_sources(all_source_names, sources_seen,
-                                 always_read_names, _name_freq))
+                                 always_read_names, _name_freq, paused_names))
+    # Seen-and-paused is not listed here: `validate_source --audit` alerts on
+    # it (the marker is stale), and the roster already shows the source active.
+    paused_quiet = sorted(paused_names - sources_seen)
 
     # Build the full source roster, grouped by category, sorted within each
     # group. One entry per unique source name (SOURCES may have multiple
@@ -184,6 +234,7 @@ def build_report() -> dict:
         "quiet_slow": quiet_slow,
         "missing_always_read": missing_always_read,
         "quiet_slow_always_read": quiet_slow_always_read,
+        "paused": paused_quiet,
         "total_gmail_items": total_gmail,
         "total_tier2_items": total_tier2,
         "days_with_runs": days_with_runs,
@@ -276,7 +327,10 @@ def build_report() -> dict:
 
     report["always_read"] = {
         "delivered": {name: len(days) for name, days in always_read_delivered.items()},
-        "missing": sorted(always_read_names - set(always_read_delivered.keys())),
+        # A paused always-read is reported once, under Source Health, as a
+        # recorded fact - not again here as a red "Not delivered".
+        "missing": sorted(always_read_names - set(always_read_delivered.keys())
+                          - paused_names),
     }
 
     # --- URL Validation ---
@@ -370,6 +424,11 @@ def format_report_text(report: dict) -> str:
         lines.append(
             "  Quiet this week (monthly/quarterly cadence — normal): "
             + ", ".join(sh.get("quiet_slow") or sh["quiet_slow_always_read"])
+        )
+    if sh.get("paused"):
+        lines.append(
+            "  Paused at the publication (verified silent — see sources.py): "
+            + ", ".join(sh["paused"])
         )
     # Full source roster grouped by category
     roster = sh.get("roster", [])
@@ -478,6 +537,8 @@ def format_report_html(report: dict) -> str:
         missing_html += f'<p style="color: #e94560; font-weight: bold;">Missing always-read: {", ".join(sh["missing_always_read"])}</p>'
     if sh.get("quiet_slow") or sh.get("quiet_slow_always_read"):
         missing_html += f'<p style="color: #888;">Quiet this week (monthly/quarterly cadence — normal): {", ".join(sh.get("quiet_slow") or sh["quiet_slow_always_read"])}</p>'
+    if sh.get("paused"):
+        missing_html += f'<p style="color: #888;">Paused at the publication (verified silent — see sources.py): {", ".join(sh["paused"])}</p>'
 
     roster_html = ""
     roster = sh.get("roster", [])
@@ -620,6 +681,11 @@ def format_report_slack(report: dict) -> list[dict]:
         source_text += (
             f"\n:zzz: Quiet this week (monthly/quarterly cadence — normal): "
             f"{', '.join(sh.get('quiet_slow') or sh['quiet_slow_always_read'])}"
+        )
+    if sh.get("paused"):
+        source_text += (
+            f"\n:double_vertical_bar: Paused at the publication (verified silent — see sources.py): "
+            f"{', '.join(sh['paused'])}"
         )
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": source_text}})
 
