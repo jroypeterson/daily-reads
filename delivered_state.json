@@ -1,22 +1,6 @@
 {
   "delivered": [
     {
-      "id": "8c4abf5c901ad94c",
-      "date": "2026-09-12"
-    },
-    {
-      "id": "f48ad18e2e271094",
-      "date": "2026-09-12"
-    },
-    {
-      "id": "7150ae7d41ecb934",
-      "date": "2026-09-12"
-    },
-    {
-      "id": "57ef473e524df006",
-      "date": "2026-09-12"
-    },
-    {
       "id": "cf8295b28f5e80be",
       "date": "2026-09-13"
     },
@@ -111,6 +95,14 @@
     {
       "id": "2c2fc02d32429208",
       "date": "2026-09-26"
+    },
+    {
+      "id": "4b4d8aea14cc2ce7",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "4d90634bfe2c493c",
+      "date": "2026-09-27"
     }
   ],
   "reader_pushed": {
@@ -183,6 +175,8 @@
     "https://www.beckerspayer.com/payer/hospitals-say-theyre-losing-the-ai-billing-war-a-new-bcbs-study-suggests-otherwise/": "2026-09-25",
     "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/": "2026-09-26",
     "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e": "2026-09-26",
-    "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1": "2026-09-26"
+    "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1": "2026-09-26",
+    "https://stratechery.com/2026/begun-the-aggregator-wars-have": "2026-09-27",
+    "https://scuttleblurb.substack.com/p/costar-update": "2026-09-27"
   }
 }

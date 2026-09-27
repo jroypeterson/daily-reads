@@ -11545,5 +11545,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article text consists only of stub previews and navigation snippets from Scuttleblurb \u2014 there is no actual substantive content on AAPL, SHOP, Databricks, or Lonza visible in the full text, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Stratechery weekly digest newsletter index \u2014 not a deep article \u2014 and covers Meta vs. Amazon agentic commerce, GM/CarPlay, and Zuckerberg profiling, with no relevance to healthcare or biotech whatsoever."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "OpenAI pauses training of its 'most capable models'",
+    "source": "The Verge (via Hacker News)",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is a thin news brief about an AI safety/containment incident at OpenAI and does not belong in the Healthcare/Biotech slot \u2014 it has no FDA, clinical, biopharma, or healthcare-specific content whatsoever."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Is an Agentic Bank Run Coming?",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ABB7InYiOjEsImQiOjUwMTJ9AAwAAAAAAy4p4yQIWoVB39Scnc6zQsFb96F5XeGIxo8mQDqHnerma9onXGsgbM9BNmyoug2wJzYCphXLtUCgSJlITrDDyGjjRc2VC6mESFev2OcWp_kqycoJhX6lCg",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is entirely a subscription/profile management page with no actual article text \u2014 the substantive Torsten Slok analysis described in the shortlist summary is not present in the provided content."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "[CoStar] Homes are different",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/costar-update",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a deep, substantive analysis of CoStar's data and listings business \u2014 well-matched to the reader's interests in data infrastructure and competitive moat analysis \u2014 but it has no connection to healthcare or biotech and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Recent Rates Volatility: Risks and Opportunities in Credit",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ABB7InYiOjEsImQiOjUwMTF9AAwAAAAAAyrFBopKJA-nw7iRQ2x_bdoE5yFxVH6INOfV27rReY-3dTvabKaiMqvgBx9fjwqWQ6f4nGBkQw2zE-f_CrYcOPsUr26FgV67JQQw-WblsL0mRnP3T5eHus0",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is entirely a subscription/profile management page with no actual article text \u2014 the full text reveals only an email preferences interface, not Slok's credit analysis."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Weekly Rundown: Abridge poised for broader VA expansion; Hims & Hers builds out AI-native care",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-epocrates-scriptsave-partner-real-time-prescription-pricing-clinicians",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly roundup aggregating multiple thin news items \u2014 Hims AI-native care, Abridge VA contract, and an Epocrates/ScriptSave partnership \u2014 without deep analysis on any single topic, making it a surface-level digest rather than the substantive, investment-grade piece the criteria require."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Insurers claim AI is already increasing healthcare costs",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is too thin and surface-level \u2014 it's a brief news item summarizing a BCBSA analysis with only a few quotes, lacking the analytical depth, data granularity, or investment-actionable insight the reader profile requires."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Democratized superintelligence is coming: The world needs to get ready",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI macro strategy piece from McKinsey, not a Healthcare/Biotech article \u2014 it has no FDA decisions, clinical trial data, biopharma M&A, or pipeline news, making it a clear slot mismatch for Slot 1."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive Stratechery weekly digest with deep structural analysis of the Meta vs. Amazon agentic commerce battle \u2014 a high-priority periodic newsletter from a top-tier tech analysis source that aligns strongly with the reader's interest in competitive moat analysis, AI impact, and platform dynamics."
+  },
+  {
+    "date": "2026-09-27",
+    "headline": "[CoStar] Homes are different",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/costar-update",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's CoStar deep-dive is a substantive, analytically rigorous competitive moat analysis of a data infrastructure compounder \u2014 exactly the kind of long-form investment writing this reader prizes, covering data platforms, serial acquirer dynamics, and whether a proven playbook translates to a new market."
   }
 ]

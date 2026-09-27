@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-09-27",
+  "generated_at": "2026-09-27T16:16:43Z",
+  "counts": {
+    "gmail_items": 129,
+    "tier2_items": 78,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "4b4d8aea14cc2ce7",
+      "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+      "slot": 3,
+      "summary": "Ben Thompson's weekly Stratechery digest centers on the emerging platform war between Meta's Muse AI agent and Amazon's marketplace, arguing Amazon blocked Muse because agentic shopping bypasses its ad model while its physical logistics infrastructure constitutes a durable AI-era moat. The analysis posits that Meta needs a Walmart partnership to bridge Amazon's physical-world advantage, framing this as a defining 'aggregator vs. aggregator' battle. Secondary coverage includes GM's forced CarPlay reversal (a cautionary tale on platform myopia) and an interview with Colossus EIC Jeremy Stern on profiling Mark Zuckerberg.",
+      "why_it_matters": "The Meta vs. Amazon agentic commerce conflict is a structural platform battle with cascading implications for digital advertising economics, retail distribution, and any business dependent on AI-mediated consumer discovery \u2014 making META's Muse the key variable to monitor for investors across consumer, retail, and ad-tech.",
+      "signal_tags": [
+        "ticker_match:META",
+        "priority:high",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "AI_impact",
+        "competitive_moat_analysis"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "4d90634bfe2c493c",
+      "headline": "[CoStar] Homes are different",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/costar-update",
+      "slot": 4,
+      "summary": "Scuttleblurb examines CoStar's attempt to replicate its Apartments.com and LoopNet playbook \u2014 buy a distressed listing brand, enrich it with proprietary data, flood it with marketing capital, then harvest via premium tiers \u2014 in the far more competitive single-family residential market via Homes.com. The piece details CoStar's $1B+ investment in Homes.com, its differentiated 'Your Listing, Your Lead' model that routes inquiries to seller's agents rather than buyer's agents (flipping Zillow's model), and the structural question of whether the same data-moat advantages that produced $1.3B in Apartments revenue at 40%+ EBITDA margins can translate to a market where Zillow is deeply entrenched. The analysis interrogates the key asymmetry: CoStar's cash-generative commercial data business subsidizes an aggressive listing land-grab, but residential homes may be different enough in consumer behavior and agent economics to resist the formula.",
+      "why_it_matters": "For a reader focused on data infrastructure compounders and competitive moat analysis, this is a live case study in whether proprietary data assets and capital patience can displace a dominant incumbent \u2014 with real investment implications for both CSGP and Z.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:ISRG",
+        "data_infrastructure",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
