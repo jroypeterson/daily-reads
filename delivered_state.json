@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "cf8295b28f5e80be",
-      "date": "2026-09-13"
-    },
-    {
       "id": "896bb6734500eb31",
       "date": "2026-09-14"
     },
@@ -103,6 +99,10 @@
     {
       "id": "4d90634bfe2c493c",
       "date": "2026-09-27"
+    },
+    {
+      "id": "c0538195ba6d0de9",
+      "date": "2026-09-28"
     }
   ],
   "reader_pushed": {
@@ -177,6 +177,9 @@
     "https://go2.brookfield.com/webmail/911342/1188500966/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e": "2026-09-26",
     "https://email.mckinsey.com/T/v71000001a0d9bac15fa46892369fe94bd8/2aaf3c6008e24d500000021ef3a0bcc2/2aaf3c60-08e2-4d50-ab9e-4a107c31a0a1": "2026-09-26",
     "https://stratechery.com/2026/begun-the-aggregator-wars-have": "2026-09-27",
-    "https://scuttleblurb.substack.com/p/costar-update": "2026-09-27"
+    "https://scuttleblurb.substack.com/p/costar-update": "2026-09-27",
+    "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1": "2026-09-28",
+    "https://mbideepdives.substack.com/p/uber-the-aggregator-on-trial?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTcwOTUxNjQsImlhdCI6MTc5MDYxMDEyNSwiZXhwIjoxNzkzMjAyMTI1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.MV9ZnppdRcZM1GzVQpf16ZOHsH9vlgMfiAtL3mWYiwU": "2026-09-28",
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F09-28-2026-powering-forward": "2026-09-28"
   }
 }

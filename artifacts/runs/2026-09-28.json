@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-09-28",
+  "generated_at": "2026-09-28T19:14:07Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c0538195ba6d0de9",
+      "headline": "Novartis's Christian Diehl on scaling AI beyond the demo",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1",
+      "slot": 3,
+      "summary": "McKinsey interviews Christian Diehl, Novartis's chief AI officer, on the hard organizational and technical challenges of moving AI from proof-of-concept to production at scale within a large pharmaceutical company. Diehl addresses specific friction points including data governance, talent acquisition, and the complexity of aligning AI systems with regulatory workflows. The conversation offers a grounded, practitioner-level view of what enterprise AI deployment actually looks like in biopharma rather than aspirational framing.",
+      "why_it_matters": "For investors and strategists tracking AI's real competitive impact in pharma, this provides a rare inside view of where the moat actually forms \u2014 not in the demo, but in the data infrastructure and organizational capability to operationalize AI at scale, with direct relevance to NVS and how peers will be evaluated.",
+      "signal_tags": [
+        "ticker_match:NVS",
+        "priority:high",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "practitioner_perspective",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}

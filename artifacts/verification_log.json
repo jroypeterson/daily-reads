@@ -11635,5 +11635,104 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "Scuttleblurb's CoStar deep-dive is a substantive, analytically rigorous competitive moat analysis of a data infrastructure compounder \u2014 exactly the kind of long-form investment writing this reader prizes, covering data platforms, serial acquirer dynamics, and whether a proven playbook translates to a new market."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Breaking down Anthropic's big biology 'discovery'",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWg-qd3qhqThN4s9RCVk3mxBW1sXT7r5VtMtHN2F3N303qgz0W7lCdLW6lZ3pjW81h6zg8FSc-hW6HS1sW5LkMsVW6p9Q3r4gZRctW4xdCKr1cl4bxW6dYvtQ5hc1gzW7Xz0VM7XFRMgW3SzVp65yynmJF3PY0SDtJ-gW92jrLP3tBBQxW7cbmD13G5SJvW372PtT7Fm8T6W9dywp91cn_NzVlnNM_6yfnfVW8dK2N64wSswpW8TK08b8bNk15W1wYDsD2hht3LW1Rj39g7pF1tBW6ftd7X7CRZZ5V96KyD6VPLLcN90ZbyVTq01ZW4y-60q8jbJ9YVTkMVz7-hg0bW6N0Mmh79JYF7W3cytFp2Yc5nmf36DYZz04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is entirely a STAT+ paywall/subscription landing page \u2014 there is no actual article text, analysis, or substance accessible to evaluate."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Grail hails adcomm vote as Galleri test nears finish line; Adagio Medical swings the ax amid strategic review",
+    "source": "Fierce Biotech",
+    "url": "https://bpt-pages.eurofins.com/WBN2026-10-20MDSPackageTesting_LP-Registration.html?adposition=x30",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is entirely a promotional webinar registration page about medical device packaging/sterile barrier testing \u2014 it contains none of the Grail FDA adcomm, Adagio Medical, or biopharma substance described in the shortlist summary."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Novartis's Christian Diehl on scaling AI beyond the demo",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a McKinsey interview piece that fits Slot 3 (Tech/AI) or Slot 4 (Wildcard) far better than Slot 1 (Healthcare/Biopharma), which is reserved for FDA decisions, clinical trial data, M&A, and pipeline news \u2014 not AI implementation strategy."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Uber: The Aggregator on Trial",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/uber-the-aggregator-on-trial",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about Uber (a ride-sharing/delivery platform) and clearly belongs to Finance/Markets or Wildcard, not Healthcare/Biotech, and the visible content is largely a teaser with the substantive analysis locked behind a paywall."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "The bond rout has a silver lining",
+    "source": "Bloomberg (Points of Return)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-28/the-bond-rout-has-a-silver-lining-attractive-10-year-treasuries",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro fixed-income article about Treasury yields and bond market dynamics \u2014 it belongs to Slot 2 (Finance/Macro), not Slot 1 (Healthcare/Biotech), and the article text is largely truncated/navigation boilerplate with insufficient substantive content visible to assess depth."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "[scuttleslops] AAPL, SHOP, Databricks, Lonza",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a collection of teaser snippets and 'upcoming posts' previews from Scuttleblurb with no substantive content on Lonza, Databricks, Apple, or Shopify \u2014 the actual deep analysis the shortlist summary promises does not appear in the provided text."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Could A.I. Safety Risks Derail the Sector's I.P.O. Prospects?",
+    "source": "NYT Business / DealBook",
+    "url": "https://www.nytimes.com/2026/09/28/business/dealbook/ai-safety-risks-ipo.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin newsletter brief with minimal substance \u2014 it summarizes a few bullet-point headlines about AI safety incidents without meaningful analysis of liability frameworks, IPO implications, or investment-relevant depth, and it clearly belongs to Tech/AI or Finance rather than Healthcare/Biotech."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "AbbVie's Cerevel-acquired drug wins approval in Parkinson's",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWm6lp10fkgrW57q3q187hTbLW1FPBGm5VvcSHN48YKc45nR3bW7Y9pgv6lZ3pwW7WvhyD8l6lhrN5cd74VTdHqYW565S_p6F85klW2tVXrY6W-ZllW1Ytwyx199-hgW8M2qxW6nqsklVmvFtf3JPG7GW8CRjNZ6GPDJ3W979MnT39hs-bW6nZq_95D7yfrN9dcHLmL_nMkW4cvh_V3Sz8C2W4RqZtJ18QXc5N10d40gMYLH4W7Z5SVj5Gz_klW7bxPMn7hnMzbW61J5Cq1vR28BW3dNddL5sT2z1W4BFjfw59PvCRW7m856p2bwgCXN4YpPn-FRXxNW59_jcw5l7KNnW6fY1GX11mhHbVh-s5T1-8ltDW6WP9y27dSVYxW6T6J598Vs1-SW4cWv_p1n9fbjW4dljmg30TN3vW50Gr-r6V1HqfW8CZ71V50ffBRW2ztZWq4f5_fyN3KYX6Jq0B57W6fhmSK2_P5T_VBpXD91Qn4m3W8hkGyK99L2xrW3Dhz0x5BSlYTW8ks0kr34F5JYW8m8KHf3KHJvyW8Yzy3b2F7sTPW92mjnl5-X15DW39N25R8x8F2DW6_kjjc4kSFgFf1JBvhq04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially a newsletter shell with no substantive content \u2014 just a header image, an ad for DIA courses, a promotional banner, and a contact footer, with no actual reporting on the ABBV/tavapadon approval or the Kodiak Sciences data."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "The bond rout has a silver lining",
+    "source": "Bloomberg (Points of Return)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-28/the-bond-rout-has-a-silver-lining-attractive-10-year-treasuries",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content was truncated and only shows Bloomberg navigation/boilerplate with no substantive article text to evaluate, making it impossible to confirm the depth, accuracy of the shortlist summary, or actionability claimed."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Novartis's Christian Diehl on scaling AI beyond the demo",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "A McKinsey practitioner interview with Novartis's head of AI on scaling AI infrastructure inside a major biopharma directly hits the reader's strongest preference clusters (AI \u00d7 biology, data infrastructure, analytical depth) and goes beyond generic hype to address real organizational bottlenecks."
+  },
+  {
+    "date": "2026-09-28",
+    "headline": "Uber: The Aggregator on Trial",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/uber-the-aggregator-on-trial",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a paywalled teaser \u2014 the full deep dive content is behind a subscription wall, with only an introductory framing paragraph visible, making it too thin to evaluate for substance or pass the depth threshold the reader requires."
   }
 ]
