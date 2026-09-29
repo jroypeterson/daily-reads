@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "896bb6734500eb31",
-      "date": "2026-09-14"
-    },
-    {
-      "id": "6c25b22be2d7d8bc",
-      "date": "2026-09-14"
-    },
-    {
       "id": "b50b6ec22c9c7c98",
       "date": "2026-09-15"
     },
@@ -103,6 +95,10 @@
     {
       "id": "c0538195ba6d0de9",
       "date": "2026-09-28"
+    },
+    {
+      "id": "13e56a19c30cb7c5",
+      "date": "2026-09-29"
     }
   ],
   "reader_pushed": {
@@ -180,6 +176,10 @@
     "https://scuttleblurb.substack.com/p/costar-update": "2026-09-27",
     "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1": "2026-09-28",
     "https://mbideepdives.substack.com/p/uber-the-aggregator-on-trial?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTcwOTUxNjQsImlhdCI6MTc5MDYxMDEyNSwiZXhwIjoxNzkzMjAyMTI1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.MV9ZnppdRcZM1GzVQpf16ZOHsH9vlgMfiAtL3mWYiwU": "2026-09-28",
-    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F09-28-2026-powering-forward": "2026-09-28"
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F09-28-2026-powering-forward": "2026-09-28",
+    "https://www.beckerspayer.com/policy-updates/elevance-moves-to-require-site-of-care-details-on-hospital-claims/": "2026-09-29",
+    "https://mbideepdives.substack.com/p/the-case-for-meta-enterprise-platform?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTgwMDM4MDgsImlhdCI6MTc5MDY5ODU5NSwiZXhwIjoxNzkzMjkwNTk1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.PkOB1RxMuNRzJk5ObzslmF_aF5hiGdKTYhqQ8XMprO4": "2026-09-29",
+    "https://thetranscript.substack.com/p/09-29-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTc5OTAyOTEsImlhdCI6MTc5MDY4Mjc1NSwiZXhwIjoxNzkzMjc0NzU1LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.johhquxm2ywDrViDqapzyxxxSbKkThvsWlyw3sUPhlg": "2026-09-29",
+    "https://aletteraday.substack.com/p/letter-345-peter-thiel-and-mathias?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTc2MjM1ODUsImlhdCI6MTc5MDY0Mzc4NiwiZXhwIjoxNzkzMjM1Nzg2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Ew5Q9dpQA0AIMX0xhVHUEIIm2B4AbLlTZpLn5A3Ou1E": "2026-09-29"
   }
 }

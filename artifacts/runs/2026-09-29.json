@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-09-29",
+  "generated_at": "2026-09-29T17:33:30Z",
+  "counts": {
+    "gmail_items": 144,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "c0538195ba6d0de9",
+      "headline": "Novartis's Christian Diehl on scaling AI beyond the demo",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1",
+      "slot": 1,
+      "summary": "McKinsey interviews Novartis's chief AI officer Christian Diehl on the real-world challenges of moving AI from pilot projects to enterprise-scale deployment within a major pharmaceutical company. The conversation covers data infrastructure bottlenecks, organizational change management, and governance frameworks required to make AI operationally meaningful in drug development. It offers a candid, practitioner perspective on where biopharma AI actually stands versus the prevailing hype.",
+      "why_it_matters": "For investors and strategists tracking AI's tangible impact on drug development productivity, this piece offers rare ground-level visibility into how a top-5 pharma is building durable AI capability \u2014 a key differentiator in long-term pipeline velocity and R&D cost structure.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:NVS",
+        "high_priority_source",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "practitioner_perspective"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "13e56a19c30cb7c5",
+      "headline": "Elevance moves to require site-of-care details on hospital claims",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/policy-updates/elevance-moves-to-require-site-of-care-details-on-hospital-claims/",
+      "slot": 2,
+      "summary": "Elevance Health is requiring hospitals to include physical site-of-care details on billing claims, enabling payment adjustments for off-campus outpatient services across commercial, Medicare Advantage, and Medicaid lines. The policy targets the broader trend of hospitals billing at higher facility rates for services delivered at off-campus locations. This represents a structural reimbursement tightening move with meaningful financial implications for hospital systems and ambulatory surgery center operators.",
+      "why_it_matters": "ELV's policy directly pressures hospital outpatient revenue by closing a billing arbitrage gap, creating near-term headwinds for hospital operators and a potential tailwind for ASC-focused players \u2014 a concrete, investable payer dynamic.",
+      "signal_tags": [
+        "ticker_match:ELV",
+        "novelty",
+        "actionability",
+        "regulatory_affairs",
+        "healthcare_adjacent_finance"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": true
+    }
+  ]
+}

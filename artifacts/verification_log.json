@@ -11734,5 +11734,95 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a paywalled teaser \u2014 the full deep dive content is behind a subscription wall, with only an introductory framing paragraph visible, making it too thin to evaluate for substance or pass the depth threshold the reader requires."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "AstraZeneca invests $2B in Summit, gaining 'seat at the table' for PD-1/VEGF drug push",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/summit-astrazeneca-ivonescimab-deal-pd1-vegf/752865/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a solid deal-news piece with genuine substance, but it falls short of the reader's strong preferences for analytical depth, investment process, and structural market insight \u2014 it reads as a well-reported news summary rather than deep diligence, and the reader's taste profile explicitly avoids niche therapeutics and short-term catalyst chasing without structural insight."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Stratechery weekly digest/table-of-contents newsletter with only brief teasers \u2014 it has no substantive depth on its own \u2014 and it is entirely about tech platform/aggregator dynamics with zero relevance to healthcare or biotech."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Novartis's Christian Diehl on scaling AI beyond the demo",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "A practitioner-level McKinsey interview with Novartis's head of AI on scaling AI infrastructure and governance in biopharma is substantive and directly hits the reader's strongest preferences (AI/biology intersection, data infrastructure, analytical depth)."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Anthropic joins ARPA-H clinical AI moonshot, will hold closed-door health care event",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/29/anthropic-joins-arpa-h-clinical-ai-moonshot-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is essentially a navigation shell with no substantive body text \u2014 the actual reporting on Anthropic's ARPA-H partnership was truncated before any meaningful detail was provided, making it too thin to evaluate on substance and a poor fit for the analytically deep, investment-relevant Slot 2."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "[scuttleslops] AAPL, SHOP, Databricks, Lonza",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a fragment/preview page showing only teaser snippets and 'upcoming posts' notices from Scuttleblurb's slops format \u2014 there is no substantive content on AAPL, Shopify, Databricks, or Lonza actually present in the retrieved text, making depth assessment impossible and the shortlist summary inaccurate."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Elevance moves to require site-of-care details on hospital claims",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/policy-updates/elevance-moves-to-require-site-of-care-details-on-hospital-claims/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "This is a substantive, actionable reimbursement policy move from a major managed care ticker (ELV) with direct implications for hospital and ASC operators across multiple plan types \u2014 a strong fit for Slot 2's healthcare-adjacent finance theme."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter index/digest \u2014 it's a table of contents with brief teasers for paywalled Stratechery content, not a substantive standalone piece with real analytical depth."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Anthropic joins ARPA-H clinical AI moonshot, will hold closed-door health care event",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/29/anthropic-joins-arpa-h-clinical-ai-moonshot-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is essentially a stub \u2014 the full text was truncated and contains no substantive reporting on Anthropic's ARPA-H partnership beyond the headline, offering no analytical depth on the clinical AI initiative, deal terms, strategic implications, or investment relevance."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Tech's Trillion-Dollar Internal Inconsistency",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ABB7InYiOjEsImQiOjUwMTR9AAwAAAAAAzbKG4utZrNX2x31lR-o-hIpoxe3eQTcgMT1nXe-c0Yhk1-mf8vRhxpkluf8W5OFhHK6eJrHT0olgg5patOvdc4bOid1tO-kQ1c6jWTLlWcnC9Bhpu1M2o0",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is entirely a subscription/profile management page with no actual article text \u2014 it contains zero substantive content about tech valuations, factor risk, or any investment thesis."
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Health tech M&A accelerates as firms chase scale and profitable growth",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/health-tech-ma-accelerates-firms-chase-scale-and-profitable-growth",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a broad, survey-style roundup of M&A activity with thin analysis \u2014 it lists deals without meaningful depth on competitive dynamics, valuation frameworks, or strategic logic, failing the analytical depth and investment-relevant insight standards the reader expects, and it fits better as a healthcare/biopharma or finance piece than a Tech/AI slot."
   }
 ]
