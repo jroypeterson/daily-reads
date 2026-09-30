@@ -11824,5 +11824,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a broad, survey-style roundup of M&A activity with thin analysis \u2014 it lists deals without meaningful depth on competitive dynamics, valuation frameworks, or strategic logic, failing the analytical depth and investment-relevant insight standards the reader expects, and it fits better as a healthcare/biopharma or finance piece than a Tech/AI slot."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Lilly's amylin-Zepbound combo posts best-ever weight loss in patients with obesity and diabetes",
+    "source": "BioSpace / STAT News / Endpoints",
+    "url": "https://www.biospace.com/drug-development/superior-weight-loss-blood-sugar-control-propel-lillys-amylin-gip-glp-1-combo-into-phase-3",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive Phase 2b trial data with specific efficacy and safety metrics, competitive landscape context (Novo's CagriSema), mechanistic detail on amylin selectivity, and a clear near-term catalyst (Phase 3 launch Q4), making it a strong fit for Slot 1."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is a newsletter table-of-contents/index with only brief bullet-point teasers for each piece \u2014 there is no substantive analysis present in the full text, making it too thin to justify a slot despite the compelling shortlist summary."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Ex-Genentech, Meta, AWS AI leaders launch health AI lab Ortet with $500M backing",
+    "source": "Fierce Healthcare / Endpoints",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ex-genentech-meta-aws-ai-leaders-launch-health-ai-lab-500m-backing",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin launch announcement with no financial depth, deal terms beyond the headline number, or macro relevance \u2014 it is a press-release-style piece that lacks the analytical substance this reader requires, and belongs to Slot 3 (Tech/AI) or Slot 1 (Healthcare) rather than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "The bond market reckoning has only begun \u2014 effects spreading to Europe",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-30/the-big-bond-market-shift-is-impacting-europe",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article text was truncated and contains essentially no substantive content beyond navigation menus and boilerplate Bloomberg site structure \u2014 there is no actual article body to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "MBI Deep Dives: The Case for Meta Enterprise Platform",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/the-case-for-meta-enterprise-platform",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive, analytically deep investment thesis on Meta's enterprise platform move, examining compute economics, demand forecasting risk, competitive dynamics, and strategic rationale \u2014 directly matching the reader's strong preferences for competitive moat analysis, long-form investment diligence, and practitioner perspective."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Begun, the Aggregator Wars Have (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a newsletter table-of-contents/digest format with only brief teasers for each piece \u2014 the actual analytical depth on Aggregator Wars, Meta vs. Amazon, and agent distribution exists behind paywalls in the linked Stratechery articles, not in this wrapper email itself."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Ex-Genentech, Meta, AWS AI leaders launch health AI lab Ortet with $500M backing",
+    "source": "Fierce Healthcare / Endpoints",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ex-genentech-meta-aws-ai-leaders-launch-health-ai-lab-500m-backing",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press-release-style launch announcement with no analytical depth \u2014 it recites founding team bios and mission statements without data, research previews, or structural insight into how the model will work or differentiate, failing the reader's strong preference for analytical depth and investment-relevant substance."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "STAT+: What health tech leaders are talking about in Washington policy circles (AI Prognosis)",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/09/30/health-tech-policy-conversations-washington-ai-prognosis/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article content is essentially a byline/author bio and a newsletter sign-up prompt \u2014 there is no substantive reporting, analysis, or policy intelligence present; the shortlist summary describes content that does not exist in the provided text."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "WSJ: Wall Street's IPO Boom Stalls",
+    "source": "Wall Street Journal",
+    "url": "https://www.wsj.com/world/chilly-markets-and-ai-safety-debates-derail-wall-streets-blockbuster-ipo-season-f2bf312b?mod=djem10point",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Finance/Macro story about IPO market conditions \u2014 it doesn't fit Slot 3 (Tech/AI), and while it touches on OpenAI/AI safety tangentially, the core thesis is capital markets dynamics, not AI breakthroughs or infrastructure."
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "[scuttleslops] AAPL, SHOP, Databricks, Lonza \u2014 Scuttleblurb",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a collection of truncated 'scuttleslops' preview snippets \u2014 none of which contain the actual Databricks, AAPL, SHOP, or Lonza content promised in the headline \u2014 making it too thin and insubstantial to evaluate on merit."
   }
 ]

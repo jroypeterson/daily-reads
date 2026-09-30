@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-09-30",
+  "generated_at": "2026-09-30T17:31:37Z",
+  "counts": {
+    "gmail_items": 145,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "393562faafb26d9c",
+      "headline": "Lilly's amylin-Zepbound combo posts best-ever weight loss in patients with obesity and diabetes",
+      "source": "BioSpace / STAT News / Endpoints",
+      "url": "https://www.biospace.com/drug-development/superior-weight-loss-blood-sugar-control-propel-lillys-amylin-gip-glp-1-combo-into-phase-3",
+      "slot": 1,
+      "summary": "Eli Lilly's EloraTZP \u2014 combining tirzepatide (Zepbound) with amylin agonist eloralintide \u2014 achieved 23.3% average weight loss at 48 weeks versus 14.8% for tirzepatide alone in a Phase 2b trial of 367 adults with obesity and type 2 diabetes, sweeping all primary and secondary endpoints including A1C reduction. The triple-pathway approach carries a tolerability caveat: discontinuation rates due to adverse events ranged 10.8\u201327% versus 2.9% for Zepbound alone, though Lilly attributes this partly to simultaneous dose escalation of two agents and plans an optimized escalation schedule in Phase 3. Phase 3 is set to launch in Q4 2025, and the data directly benchmarks against Novo's CagriSema, which beat Zepbound in a recent T2D trial but trails EloraTZP's headline weight loss number.",
+      "why_it_matters": "With LLY establishing a new efficacy ceiling in obesity/T2D and Phase 3 imminent, the data reshapes the competitive GLP-1/amylin landscape \u2014 relevant for positioning in LLY, NVO, and smaller amylin-program names like Structure Therapeutics \u2014 while the safety overhang on discontinuation rates is the key risk variable to monitor heading into Phase 3 design disclosures.",
+      "signal_tags": [
+        "ticker_match:LLY",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "07a55565f3221b3c",
+      "headline": "MBI Deep Dives: The Case for Meta Enterprise Platform",
+      "source": "MBI Deep Dives (Substack)",
+      "url": "https://mbideepdives.substack.com/p/the-case-for-meta-enterprise-platform",
+      "slot": 2,
+      "summary": "MBI Deep Dives builds a contrarian investment case for Meta's newly announced Enterprise Platform, arguing the move is strategically rational as a 'second customer' demand sink to absorb surplus compute capacity and reduce the cost of being wrong on a massive capex build. The piece examines how Meta's distribution scale, first-party AI products like Muse, and infrastructure investments position it to compete with entrenched enterprise players like Microsoft and Salesforce. It also draws on OpenAI's rapid enterprise revenue ramp as evidence that B2B is the fastest path to monetizing AI infrastructure at scale.",
+      "why_it_matters": "For investors, this reframes Meta's enterprise push not as a distraction but as a compute-economics hedge that improves the risk/reward of its ~tens-of-gigawatts capex commitment \u2014 with meaningful implications for Meta's margin trajectory and competitive positioning against hyperscalers and AI-native players like OpenAI.",
+      "signal_tags": [
+        "ticker_match:META",
+        "high_priority_source",
+        "analytical_depth",
+        "competitive_moat_analysis",
+        "actionability"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}
