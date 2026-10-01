@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-10-01",
+  "generated_at": "2026-10-01T18:00:57Z",
+  "counts": {
+    "gmail_items": 147,
+    "tier2_items": 87,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "aaa8d8246008f803",
+      "headline": "Sanofi, Regeneron broaden alliance to find their next Dupixent",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/sanofi-regeneron-alliance-expanded-dupixent-immunology-drugs-development/831894/",
+      "slot": 1,
+      "summary": "Sanofi and Regeneron have expanded their longstanding alliance, with Regeneron receiving $1 billion upfront and up to $7 billion in milestone payments to co-develop four next-generation long-acting antibodies targeting IL-4/IL-13 pathways \u2014 the same biology underlying their $10.9B first-half blockbuster Dupixent. The deal is partly a strategic hedge against Dupixent's patent cliff over the next five years, with the most advanced asset (REGN20423) already in early-stage eczema trials and three others expected to enter human testing next year. RBC analyst Brian Abrahams flags the partnership as a positive signal but cautions the drugs are early-stage with no differentiation data yet, against a crowded competitive field that includes Pfizer's tilrekimig advancing into Phase 3.",
+      "why_it_matters": "The $1B upfront and $7B milestone structure represents a major capital allocation bet on immunology durability for both REGN and SNY, with direct implications for how investors should weigh Dupixent's patent risk against a credible next-generation pipeline and competitive dynamics against Pfizer, AstraZeneca, and Lilly.",
+      "signal_tags": [
+        "ticker_match:REGN",
+        "ticker_match:SNY",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "1f46095a203f8d68",
+      "headline": "Medicare Advantage looks stable for 2027. Underneath, it's shifting",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/medicare-advantage/medicare-advantage-looks-stable-for-2027-underneath-its-shifting/",
+      "slot": 2,
+      "summary": "The 2027 Medicare Advantage market appears stable at the national level with flat enrollment projections (~34M beneficiaries) and slightly lower premiums, but beneath the surface, 12 payers are exiting entirely, plan options are shrinking in 28 states, and major insurers including UnitedHealthcare, Aetna, and Centene are pulling back from hundreds of counties. Growth is increasingly concentrated in Special Needs Plans, while health system-owned plans (Providence, Memorial Hermann, Christus) are among the biggest exits. A 2.48% CMS rate increase \u2014 which the industry broadly deemed insufficient \u2014 combined with the end of Part D stabilization subsidies means a second consecutive year of benefit cuts and market upheaval for seniors and payers alike.",
+      "why_it_matters": "The continued structural contraction of Medicare Advantage \u2014 with major carriers shrinking footprints and health systems exiting as operators \u2014 is a key underappreciated risk for hospital systems dependent on MA reimbursement and a meaningful competitive signal for SNP-focused operators like Molina, with direct implications for managed care equity positioning heading into 2027 enrollment season.",
+      "signal_tags": [
+        "ticker_match:MOH",
+        "ticker_match:UNH",
+        "novelty",
+        "actionability",
+        "structural_market_insight",
+        "regulatory_affairs"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "b86aa8d4749bc71e",
+      "headline": "Why Muse May Never Need Ads",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/why-muse-may-never-need-ads",
+      "slot": 3,
+      "summary": "MBI's deep dive examines how Meta's Muse AI agent is pressuring consumer internet companies to either build their own vertical agents or become connectors within a general-purpose agent ecosystem. Using DoorDash (building an iMessage-native ordering agent with 20K pilot users) and Airbnb (launching AI search while committing to a full agent in 2027) as case studies, the piece dissects the emerging tension between platform-level agents and app-layer incumbents. The core thesis explores why Muse's business model \u2014 potentially subscription or transaction-fee based rather than ad-supported \u2014 could structurally disadvantage ad-dependent apps while reshaping how discovery and conversion happen across the consumer internet.",
+      "why_it_matters": "The structural analysis of how agentic AI redistributes consumer intent and transaction flow away from app-layer incumbents has direct portfolio implications for positions in APP, ABNB, DASH, and any ad-supported digital business, making this essential reading for understanding the next phase of platform competition.",
+      "signal_tags": [
+        "ticker_match:APP",
+        "priority:high",
+        "novelty",
+        "actionability",
+        "competitive_moat_analysis",
+        "AI_impact"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    }
+  ]
+}

@@ -11914,5 +11914,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article text is a collection of truncated 'scuttleslops' preview snippets \u2014 none of which contain the actual Databricks, AAPL, SHOP, or Lonza content promised in the headline \u2014 making it too thin and insubstantial to evaluate on merit."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "China's biotech industry is 'blowing everyone's minds'",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article body is almost entirely navigation/boilerplate HTML with the actual content truncated, making it impossible to verify substance or depth beyond the headline and shortlist summary."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Sanofi, Regeneron broaden alliance to find their next Dupixent",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/sanofi-regeneron-alliance-expanded-dupixent-immunology-drugs-development/831894/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has real substance covering a major $1B upfront deal with up to $7B in milestones, clearly matches Slot 1 Healthcare/Biotech with ticker-relevant M&A and pipeline news for REGN and SNY, and the shortlist summary is accurate to the article content."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Why Muse May Never Need Ads",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/why-muse-may-never-need-ads",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantive and analytically deep, but it belongs squarely in Slot 3 (Tech/AI) given its focus on agentic AI platform dynamics, not Slot 2 Finance/Macro \u2014 and the ticker match on APP is incidental rather than a primary driver of the analysis."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Here's Why the Fed Is on Hold\u2014Maybe for a While",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/finance/investing/heres-why-the-fed-is-on-holdmaybe-for-a-while-97456ce8",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The full article text is a thin, two-paragraph news brief with no substantive analysis \u2014 it merely notes that Treasury yields are at multi-decade highs and French bonds are under stress, with no depth on Fed policy mechanics, inflation trajectory, or implications for biotech/healthcare valuations as the shortlist summary falsely claims."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Novartis's Christian Diehl on scaling AI beyond the demo",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article belongs in Slot 3 (Tech/AI) or Slot 1 (Healthcare/Biopharma) due to its focus on AI deployment in drug development \u2014 it has no meaningful Finance/Macro angle and does not fit the target slot."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Begun, the Aggregator Wars Have",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest/table-of-contents from Stratechery with only brief teasers for each article \u2014 it lacks the analytical depth and substantive content required for any slot, and does not fit Slot 2 (Finance/Macro) since it's primarily a Tech/AI platform strategy piece."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Medicare Advantage looks stable for 2027. Underneath, it's shifting",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/medicare-advantage-looks-stable-for-2027-underneath-its-shifting/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, data-rich analysis of structural shifts in the 2027 Medicare Advantage market \u2014 including specific payer county-level pullbacks, enrollment projections, premium changes, and SNP dynamics \u2014 with direct relevance to managed care investment theses for tickers like UNH, MOH, CVS/Aetna, and Humana."
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Why Muse May Never Need Ads",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/why-muse-may-never-need-ads",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a substantive competitive moat analysis of how general-purpose AI agents (Muse) are forcing app-layer companies like DoorDash and Airbnb to adapt their distribution and monetization strategies, directly matching the reader's strong preferences for competitive moat analysis, AI impact, and analytical depth."
   }
 ]

@@ -2622,5 +2622,27 @@
         "url": "https://email.mg-d1.substack.com/c/eJx00DmOtDAQBeDT4KyR8QqBgz_pa1heCnA32JaXX-L2I3qS0UgTl-q9T8-ZBlsql-pxDTHUHfyjdltdCbmFFJFXdLF4dgKBmuSCJWWYcgSnCYfeIEIxDbw27ceVSY52NXErJivJLPBMKKazMZ6yeV05EDoJjIIimAi8UIwJlhMf6egsk3KhYM2KsVvZKON6kRfvA8Pn9vDTeOOace_RpROFqtcCH4tqpQM61N5argP9N5DnQJ4FjB9NL3CEFAtUMMXtn9eUIepWjHuHuOnacy5QK3iFcrfapfPsMbRLQzT2AP8dn7s9gjP3MDp4xQXnTApU1KukK0ODUlMcGN5u0aemduvTaUJUvxWo_bl5r1Du_IktgrMZ_VfkKwAA__9THI_K"
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "checked_unique": 76,
+    "checked_slots": 78,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJx00DmOtDAQBeDT4KyR8QqBgz_pa1heCnA32JaXX-L2I3qS0UgTl-q9T8-ZBlsql-pxDTHUHfyjdltdCbmFFJFXdLF4dgKBmuSCJWWYcgSnCYfeIEIxDbw27ceVSY52NXErJivJLPBMKKazMZ6yeV05EDoJjIIimAi8UIwJlhMf6egsk3KhYM2KsVvZKON6kRfvA8Pn9vDTeOOace_RpROFqtcCH4tqpQM61N5argP9N5DnQJ4FjB9NL3CEFAtUMMXtn9eUIepWjHuHuOnacy5QK3iFcrfapfPsMbRLQzT2AP8dn7s9gjP3MDp4xQXnTApU1KukK0ODUlMcGN5u0aemduvTaUJUvxWo_bl5r1Du_IktgrMZ_VfkKwAA__9THI_K"
+      }
+    ]
   }
 ]
