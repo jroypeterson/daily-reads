@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "9cea38ede6eb7082",
-      "date": "2026-09-17"
-    },
-    {
       "id": "8393fd90c09ec40e",
       "date": "2026-09-19"
     },
@@ -107,6 +103,22 @@
     {
       "id": "b86aa8d4749bc71e",
       "date": "2026-10-01"
+    },
+    {
+      "id": "ac70011608a3b737",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "c67f300abd17136f",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "ac25ef97ae7c0685",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "27ee37020d17ec89",
+      "date": "2026-10-02"
     }
   ],
   "reader_pushed": {
@@ -197,6 +209,9 @@
     "https://www.beckerspayer.com/payer/medicare-advantage/medicare-advantage-looks-stable-for-2027-underneath-its-shifting/": "2026-10-01",
     "https://mbideepdives.substack.com/p/why-muse-may-never-need-ads": "2026-10-01",
     "https://mbideepdives.substack.com/p/why-muse-may-never-need-ads?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTgxODM2ODcsImlhdCI6MTc5MDg3Mjc3OCwiZXhwIjoxNzkzNDY0Nzc4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.tab2rTP2wVSHbN-BqfERKOMm-JmCDgdpCfmwl1RD4w4": "2026-10-01",
-    "https://valueinvestorinsight.com/Content_Premium/investor-insight-thinking-like-an-owner-september-2026.aspx": "2026-10-01"
+    "https://valueinvestorinsight.com/Content_Premium/investor-insight-thinking-like-an-owner-september-2026.aspx": "2026-10-01",
+    "https://www.fiercebiotech.com/biotech/novartis-pays-abogen-575m-vivo-autoimmune-t-cell-engager": "2026-10-02",
+    "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oWlsleKWTuVpKk8J9mC0k9BEavv-kjRcI50nqDQcqX9KSIqxMl-JHmIku-X8Mf0Jg%3D": "2026-10-02",
+    "https://blog.cloudflare.com/clef-decision-models/": "2026-10-02"
   }
 }

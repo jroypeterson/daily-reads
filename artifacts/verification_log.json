@@ -11986,5 +11986,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "MBI Deep Dives delivers a substantive competitive moat analysis of how general-purpose AI agents (Muse) are forcing app-layer companies like DoorDash and Airbnb to adapt their distribution and monetization strategies, directly matching the reader's strong preferences for competitive moat analysis, AI impact, and analytical depth."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Novartis bets up to $7.8B for mRNA T cell engager from China's Abogen",
+    "source": "BioSpace / Fierce Biotech",
+    "url": "https://www.fiercebiotech.com/biotech/novartis-pays-abogen-575m-vivo-autoimmune-t-cell-engager",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine substance covering a major biopharma licensing deal with clear mechanistic detail, strategic context (post-CAR-T pause pivot), and direct investment relevance for NVS and the mRNA platform space."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Chinese Biopharma: The Next Five Years",
+    "source": "Life Sciences VC (Atlas Venture / LifeSciVC)",
+    "url": "https://lifescivc.com/2026/10/chinese-biopharma-the-next-five-years/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive and analytically deep, but it belongs to Slot 1 (Healthcare/Biopharma) as a pipeline/policy/licensing analysis piece, not Slot 2 (Finance/Macro), which requires macro moves, earnings, sector rotation, or payer dynamics."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Cloudflare Clef: Open-Weight Decision Models and New RL Fine-Tuning Platform",
+    "source": "Cloudflare Blog / Hacker News (ac25ef97)",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI infrastructure article about Cloudflare's new decision models \u2014 it has real substance but belongs in Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), as it contains no macro, earnings, sector rotation, or market policy content."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Dots and Question Marks (This Week in Stratechery) \u2014 Meta's Focus, OpenAI, and More",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/dots-and-question-marks?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2RvdHMtYW5kLXF1ZXN0aW9uLW1hcmtzLyJdfSwiZXhwIjoxNzkzNTUyNTYyLCJpYXQiOjE3OTA5NjA1NjIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.XKT4kBOaan8JM-fDLvZqb-JbT3cZZ5stUV6z8-oiAh6-r_D8b5fKZgkyNqofoKziJTvdriXJSCbFFe-2KNAV95AT8nuEq6pYoKUuoKpomlEWpck27axtrxi87Y5yzoE8UJbhkcHc-DvhI6GGA87xt9MpY3p-0HQxEYgwvJrqDsDA-3FzKo6BK3ScCAnCe7H9W2ETcI5hQebrvjdlHckR1qHdH_V8b6Cr72ldw-qAc3UQ9aoXGDe7ygjMayABtJhbm_RW2QZJHsg2thSD4974xwY0c_INpQmyk9_EYmcvApXfitRA1fKUpAp8PC5JAc116KnWczIxxtaX-V9uaBiQig",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a table-of-contents newsletter digest \u2014 a meta-index of articles behind a paywall \u2014 with no substantive analysis or original content in the article itself, making it too thin for any slot regardless of the underlying Stratechery articles it references."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Novartis's Christian Diehl on Scaling AI Beyond the Demo",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0e86813fec040fd369fb45280/095040e7837741730000021ef3a0bcc2/095040e7-8377-4173-aead-194763268fe1?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8oWlsleKWTuVpKk8J9mC0k9BEavv-kjRcI50nqDQcqX9KSIqxMl-JHmIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Practitioner-level McKinsey interview with a Novartis C-suite executive on data infrastructure and AI scaling in biopharma fits the reader's strong preferences for AI-meets-biology, data infrastructure, and analytical depth \u2014 though it fits Slot 3 (Tech/AI) better than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Cloudflare Clef: Open-Weight Decision Models and New RL Fine-Tuning Platform",
+    "source": "Cloudflare Blog / Hacker News (ac25ef97)",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine technical depth on Cloudflare's Clef decision models \u2014 covering architecture, benchmarks, latency comparisons, vision encoding, context window specs, and a new RL fine-tuning platform \u2014 making it a substantive infrastructure-layer piece that fits Slot 3 and aligns with the reader's strong data infrastructure and AI impact preferences."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Soaring Yields Find Europe's Weak Spot in France",
+    "source": "Bloomberg Opinion",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-10-02/soaring-yields-find-europe-s-weak-spot-in-france",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content was not actually retrieved \u2014 the full text is entirely Bloomberg navigation/menu boilerplate with no substantive article body, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Why Weak Payrolls Are No Longer Weak \u2014 Apollo Daily Spark",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ABl7InYiOjEsImQiOjUwMTcsInAiOiJQQyJ9AAwAAAAAA0eiMaGYv2ca6KTi8aQHz1fByJxlZxaLb0Mqiy8IV-Ct1hIao8aURtCaM83djAtD4b8cFAW4nm-p8nRe_st6XyzCLW0hB8LXCAmdEQxKoeSyQywO-VGunA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains no substantive content \u2014 it is an email subscription management/profile page, not the actual Apollo Daily Spark analysis, so there is nothing to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "The Case for Meta Enterprise Platform",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-case-for-meta-enterprise-platform?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTgwMDM4MDgsImlhdCI6MTc5MDY5ODU5NSwiZXhwIjoxNzkzMjkwNTk1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.PkOB1RxMuNRzJk5ObzslmF_aF5hiGdKTYhqQ8XMprO4",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers genuine analytical depth on Meta's enterprise platform launch \u2014 examining capex optionality, compute demand uncertainty, competitive positioning against Microsoft/Google, and the strategic logic of a 'second customer' \u2014 fully consistent with the reader's strong preferences for competitive moat analysis, deep business diligence, and investment-relevant long-form writing."
   }
 ]
