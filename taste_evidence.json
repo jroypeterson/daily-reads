@@ -600,5 +600,27 @@
       "extracted_at": "2026-08-27T21:28:20Z"
     },
     "created_at": "2026-08-27T21:28:20Z"
+  },
+  {
+    "id": "ev_feba090c9dbc0b8f",
+    "kind": "positive_exemplar",
+    "source_channel": "readwise",
+    "title": "L/S Commerciality: Which Ideas Are Worth Your Time",
+    "url": "https://phoenixlearning.substack.com/p/ls-commerciality-which-ideas-are?utm_source=post-email-title&publication_id=1221313&post_id=217408203&utm_campaign=email-post-title&isFreemail=false&r=w2qs&triedRedirect=true&utm_medium=email",
+    "local_path": "",
+    "note": "Margins harder for pods to diligence and probably structurally ignored; Knock on is that if the upside is not clear, easily quantifiable, and \"diligenceable\" in the traditional sense then it might be neglected",
+    "score": null,
+    "content_status": "extracted",
+    "metadata": {
+      "readwise_user_book_id": 64015314,
+      "readwise_category": "articles",
+      "readwise_source": "reader",
+      "author": "Phoenix Learning",
+      "highlight_count": 3,
+      "latest_highlighted_at": "2026-10-02T18:08:02.167Z",
+      "extracted_text_preview": "There are many frameworks you can see PMs and teams use, some quite elaborate like idea ROI \u2248 probability you can answer the research question x probability the answer is differentiated x potential PnL / (time x effort required), and you have to carefully think through each of the variables. [\u2026] More importantly, two of the biggest KPIs around the core debate, opex and margins, are much harder to research and infer an accurate trajectory for versus something like pricing. Even ads require substantial work that is mostly directional like expert-network calls and decomposing leading indicators. So you are probably better off spending your research hours elsewhere. [\u2026] great example of this process is Hims (HIMS), which we walked through in detail in *[The Hidden Art of Finding Variant Views](https://phoenixlearning.substack.com/p/the-hidden-art-of-finding-variant?r=3i2vjn&utm_campaign=post-expanded-share&utm_medium=web).* In that case, the upside was there and there were clear, quantifiable, researchable AND difficult to answer questions:",
+      "extracted_at": "2026-10-03T15:27:04Z"
+    },
+    "created_at": "2026-10-03T15:27:04Z"
   }
 ]

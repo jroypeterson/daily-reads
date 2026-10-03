@@ -12067,5 +12067,95 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "MBI Deep Dives delivers genuine analytical depth on Meta's enterprise platform launch \u2014 examining capex optionality, compute demand uncertainty, competitive positioning against Microsoft/Google, and the strategic logic of a 'second customer' \u2014 fully consistent with the reader's strong preferences for competitive moat analysis, deep business diligence, and investment-relevant long-form writing."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "Chinese Biopharma: The Next Five Years",
+    "source": "Life Sciences VC (LifeSciVC / Atlas Venture)",
+    "url": "https://lifescivc.com/2026/10/chinese-biopharma-the-next-five-years/?utm_source=rss&utm_medium=rss&utm_campaign=chinese-biopharma-the-next-five-years",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive, practitioner-level analysis from an Atlas Venture senior associate that decodes China's 15th Five-Year Plan for biopharma with specific data points, named assets, and a critical lens \u2014 well beyond generic coverage and directly relevant to evaluating Chinese biopharma as an M&A and licensing counterparty."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "Dots and Question Marks (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/dots-and-question-marks?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2RvdHMtYW5kLXF1ZXN0aW9uLW1hcmtzLyJdfSwiZXhwIjoxNzkzNTUyNTYyLCJpYXQiOjE3OTA5NjA1NjIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.XKT4kBOaan8JM-fDLvZqb-JbT3cZZ5stUV6z8-oiAh6-r_D8b5fKZgkyNqofoKziJTvdriXJSCbFFe-2KNAV95AT8nuEq6pYoKUuoKpomlEWpck27axtrxi87Y5yzoE8UJbhkcHc-DvhI6GGA87xt9MpY3p-0HQxEYgwvJrqDsDA-3FzKo6BK3ScCAnCe7H9W2ETcI5hQebrvjdlHckR1qHdH_V8b6Cr72ldw-qAc3UQ9aoXGDe7ygjMayABtJhbm_RW2QZJHsg2thSD4974xwY0c_INpQmyk9_EYmcvApXfitRA1fKUpAp8PC5JAc116KnWczIxxtaX-V9uaBiQig",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly newsletter index/table-of-contents with brief editorial blurbs, not substantive analysis \u2014 it contains no original depth and is essentially a promotional digest of paywalled Stratechery content, failing the substance requirement for any slot."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "The Ever-Widening Overton Window of AI Safety",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-ever-widening-overton-window?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg0MDc4MjQsImlhdCI6MTc5MDk2MTA1OCwiZXhwIjoxNzkzNTUzMDU4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ZISYIY43s3o0INb5VItiSVjlESmGVYzU7Sr7zplm5RU",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and MBI's practitioner-grade style, this article is a philosophical/policy essay on AI safety discourse \u2014 it belongs in Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), and lacks the macro, earnings, or market-structure focus required for that slot."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "Novartis bets up to $7.8B for mRNA T cell engager from China",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVp2Rj8kjwmHW3CLsG67NwZSPW3Dl4Sm5VFQnTN7Y8_385nR3bW7Y9pgv6lZ3l9W8f0lmR53q3hLW6y-hPq3RTL8mN54Q56yYv4yRW3sTPZz3t1JCCW8z1ZzR6Svjb3N1FkG0ccr-ShW2RdBc75KdyVqN6mMr6zLlcmDN36WM6ddm5L2W1_8Ftv20MmyBW7vMgGv3lD-J-W6CpHpB8nvZQ4W6kC1fb12HfzWN3ShSj-14V2tW1LmfC31XC_scW7zLZV05bFlP6W2-HzyN5423hKW8GFK-B3hW4k-W6dKS55817JjSW4z2gT58PhBjpW2_Lw0N2_ZDp0W2TpwWZ489CDPW77H3Sn99WM_vW3h-yQk8GyxfkVSSP4h7DKrc_Mk8y_RBGNzkVtyXFP10n-6pW7Cqk5w110p95W15BGGP74cMykW2bhSTH4YRClRW2TpRS22Y84CbW6BlR6T86hrJjW5P3cL8800G2jW467lgM7Ynw9SW1qKWyZ46DqQMW59x0bM3J7s0xW917G-33V5zBTW2JCDgR6fwR8TW997MgJ2DQTGVW3kFtYg7cWvq9W7NXSXP7lfNlNN6HTmsgyvZB_dlzCSl04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a newsletter digest from BioSpace with thin summaries of multiple stories rather than a single deep-dive article \u2014 the actual content on the Novartis/Abogen deal is only a few sentences, making it too thin for the Finance/Macro slot and better suited to Slot 1 Healthcare if it had depth, but it lacks the analytical substance required for any slot."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "KFF Examines the 2027 Marketplace for Medicare Advantage and Part D Stand-Alone Drug Plans",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VWQ8Xg4n8t9vW1l1hN67HjBPhW65wf3Z5VGdS2N8kT_Cv5nR3bW8wM7ks6lZ3plW8YpH-P712wj1W4cbqGw6Gww8wW6hFVnL7GDk_GN7SDWCds7bGvW3P7RH15zTl-GW6XtDZv5_n7hwW8XXqY56LDqMFW6YB16l8DWmmCW70g6w92fCLJzW3vpyhN51P2P7W5twdB37T-hvbW4nsw_Z1lRNbXVPgVk916YpNpW5DcZD31KlCsmW42m5v-1kxyK5W8pDj-T5bmn-8W8XLbgp7ZqWMZW5ksJGs5wFh-YW33TQ5H44FXNPW3jW8Hf3cS5XBVnL3mf89jj2dW6VvYH98TtrygW8fFGdD5b-pGpW2mR7vD8gD3J9VB_pzh4xKpjSW79X8Jz5fPx-dW6tDVKN78F7kWW93xcNX47fj_9TZCzb8Hptm4W689r-l4z07h9W5mxWSH70lShvW7JWHMX6jlpCFW6J6wyh9k2r-XN6lSNHPh0LH1W1W97nQ3d3j5wW29lCh12YkyrLW4Zvdjx6pY1NxW97ZGHp2X9LYWW7nNdw27KJCl8V-0M_g81HvlFN7_nYsGKLDjWW69tsqs6X6hlCW8cDSbq1SG8Z8N1TXW2RszffZf6znthl04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter summary linking to KFF analyses rather than substantive analysis itself \u2014 it lacks the depth, premium/benefit data specifics, and investment-relevant insight needed for the finance/macro slot, and reads more like a press release than actionable market intelligence."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "McKinsey: Physical AI \u2014 The hidden value pools leaders are missing",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source and the topic \u2014 physical AI value chain analysis centered on data infrastructure and software orchestration layers \u2014 strongly matches the reader's top preferences for data infrastructure, AI impact, and structural market insight, with consulting-grade depth likely present."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "Dots and Question Marks (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/dots-and-question-marks?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2RvdHMtYW5kLXF1ZXN0aW9uLW1hcmtzLyJdfSwiZXhwIjoxNzkzNTUyNTYyLCJpYXQiOjE3OTA5NjA1NjIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.XKT4kBOaan8JM-fDLvZqb-JbT3cZZ5stUV6z8-oiAh6-r_D8b5fKZgkyNqofoKziJTvdriXJSCbFFe-2KNAV95AT8nuEq6pYoKUuoKpomlEWpck27axtrxi87Y5yzoE8UJbhkcHc-DvhI6GGA87xt9MpY3p-0HQxEYgwvJrqDsDA-3FzKo6BK3ScCAnCe7H9W2ETcI5hQebrvjdlHckR1qHdH_V8b6Cr72ldw-qAc3UQ9aoXGDe7ygjMayABtJhbm_RW2QZJHsg2thSD4974xwY0c_INpQmyk9_EYmcvApXfitRA1fKUpAp8PC5JAc116KnWczIxxtaX-V9uaBiQig",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter table-of-contents / meta-digest rather than a substantive article \u2014 it contains only teaser blurbs and hyperlinks to actual Stratechery pieces, with no analytical depth of its own to satisfy the reader's strong preference for deep structural analysis."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "The Ever-Widening Overton Window of AI Safety",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-ever-widening-overton-window?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg0MDc4MjQsImlhdCI6MTc5MDk2MTA1OCwiZXhwIjoxNzkzNTUzMDU4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ZISYIY43s3o0INb5VItiSVjlESmGVYzU7Sr7zplm5RU",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers substantive, analytically grounded coverage of how AI safety has shifted from fringe to mainstream concern, with direct investment implications for frontier AI lab valuations and competitive positioning \u2014 squarely fitting the Tech/AI slot with the reader's strong preference for analytical depth and AI impact."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "'This is an agent doing this': Health insurers deploy AI to make your next medical appointment",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/virtual-care/this-is-an-agent-doing-this-health-insurers-deploy-ai-to-make-your-next-medical-appointment/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin news brief \u2014 it aggregates a few executive quotes from various events but offers no analytical depth, competitive analysis, or structural insight into what AI agent deployment means for incumbents, vendors, or the broader health tech landscape, making it insufficient for a reader who prizes analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-10-03",
+    "headline": "[scuttleslops] Cloudflare wants bots to pay; OpenAI's ad ambitions; Memory chip competition",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a fragments list of unrelated Scuttleblurb post teasers (Rollins, Apple, CoStar, TransDigm, Union Pacific, Amazon, etc.) with no substantive content on the Cloudflare/OpenAI/memory chip topics described in the shortlist summary \u2014 the actual article is a link-dump with no depth."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-08-28T21:36:06Z",
+  "updated_at": "2026-10-03T15:27:05Z",
   "topic_preferences": [
     {
       "name": "self-improvement",
@@ -366,16 +366,16 @@
     }
   ],
   "evidence_summary": {
-    "total": 29,
+    "total": 30,
     "by_kind": {
-      "positive_exemplar": 17,
+      "positive_exemplar": 18,
       "daily_rating_3": 9,
       "daily_rating_1": 3
     },
     "by_channel": {
       "email": 12,
       "daily_scoring": 12,
-      "readwise": 5
+      "readwise": 6
     }
   },
   "score_scale": {
@@ -383,5 +383,5 @@
     "2": "Fine",
     "3": "Strong pick"
   },
-  "last_synthesis": "2026-08-27T21:28:21Z"
+  "last_synthesis": "2026-10-03T15:27:05Z"
 }

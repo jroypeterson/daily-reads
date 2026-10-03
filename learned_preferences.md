@@ -1,14 +1,14 @@
 # Learned Preferences
-> Structured preference model. Last updated: 2026-08-28T21:36:06Z
+> Structured preference model. Last updated: 2026-10-03T15:27:05Z
 
 ## Evidence Snapshot
-- Total evidence records: 29
-- By kind: daily_rating_1=3, daily_rating_3=9, positive_exemplar=17
+- Total evidence records: 30
+- By kind: daily_rating_1=3, daily_rating_3=9, positive_exemplar=18
 
 ### Evidence Channels
 - daily_scoring: 12
 - email: 12
-- readwise: 5
+- readwise: 6
 
 ## Topic Preferences
 - **self-improvement** [weak, positive] (1 evidence points)
