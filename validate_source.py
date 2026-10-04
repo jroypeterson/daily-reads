@@ -100,6 +100,40 @@ def gmail_search(service, query: str, max_results: int = 20) -> list[dict]:
     return messages
 
 
+# How many of a sender's newest messages the audit inspects for one that
+# ingestion would admit. VII sends ~2 promos per issue; 50 covers months of
+# them. Past that the source reads stale - a loud, checkable false alarm,
+# never a silent pass.
+ADMIT_SCAN = 50
+
+
+def latest_admitted(service, query: str, source: dict, scan: int = ADMIT_SCAN):
+    """Newest message matching `query` that the digest would actually ingest.
+
+    Board #538 (Codex R1): the audit counted ANY mail from the sender, while
+    ingestion drops billing mail for every source and non-matching subjects for
+    `subject_allow` sources. So a monthly always-read whose real issues stopped
+    stayed green on its fund promos or receipts - and the weekly report defers
+    slow-cadence silence to exactly this audit. Same predicate as ingestion
+    (`gmail_reader.admits_subject`), so the two cannot disagree.
+    Returns the message dict, or None.
+    """
+    from gmail_reader import admits_subject
+    resp = service.users().messages().list(
+        userId="me", q=query, maxResults=scan
+    ).execute()
+    for stub in resp.get("messages", []):
+        msg = service.users().messages().get(
+            userId="me", id=stub["id"], format="metadata",
+            metadataHeaders=["From", "Subject", "Date"],
+        ).execute()
+        headers = {h["name"].lower(): h["value"] for h in msg["payload"]["headers"]}
+        subject = headers.get("subject", "")
+        if admits_subject(source, subject):
+            return {"subject": subject, "date": headers.get("date", "")}
+    return None
+
+
 def discover(keyword: str):
     """Search Gmail for a keyword and show sender addresses found."""
     service = get_gmail_service()
@@ -197,7 +231,7 @@ def audit(ci_mode: bool = False):
 
         # Check within the stale window first (cadence + grace)
         cutoff_stale = (now - timedelta(days=stale_days)).strftime("%Y/%m/%d")
-        msgs_recent = gmail_search(service, f"after:{cutoff_stale} from:{email_addr}", max_results=1)
+        msgs_recent = latest_admitted(service, f"after:{cutoff_stale} from:{email_addr}", source)
 
         # A source whose PUBLICATION is verified silent (`paused` in sources.py,
         # board #328/#391) is not graded stale/dead: calling Biotech Primer "dead"
@@ -217,9 +251,9 @@ def audit(ci_mode: bool = False):
             print(f"  WARNING: {name}: {pause_problem}; grading it normally.")
         if pause:
             verified_cutoff = pause["verified"].replace("-", "/")
-            msgs_since = gmail_search(service, f"after:{verified_cutoff} from:{email_addr}", max_results=1)
+            msgs_since = latest_admitted(service, f"after:{verified_cutoff} from:{email_addr}", source)
             if msgs_since:
-                resumed.append((name, email_addr, pause.get("since", "?"), msgs_since[0]["date"]))
+                resumed.append((name, email_addr, pause.get("since", "?"), msgs_since["date"]))
             else:
                 paused.append((name, email_addr, pause.get("since", "?"), pause.get("verified", "?")))
             continue
@@ -230,9 +264,9 @@ def audit(ci_mode: bool = False):
 
         # Fall back to the dead window
         cutoff_dead = (now - timedelta(days=dead_days)).strftime("%Y/%m/%d")
-        msgs_dead = gmail_search(service, f"after:{cutoff_dead} from:{email_addr}", max_results=1)
+        msgs_dead = latest_admitted(service, f"after:{cutoff_dead} from:{email_addr}", source)
         if msgs_dead:
-            stale.append((name, email_addr, freq, stale_days, msgs_dead[0]["date"]))
+            stale.append((name, email_addr, freq, stale_days, msgs_dead["date"]))
         else:
             dead.append((name, email_addr, freq, dead_days))
 

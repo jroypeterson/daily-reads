@@ -23,6 +23,7 @@ When adding or troubleshooting a source in `sources.py`:
 - Use `python validate_source.py --audit` to check whether existing sources are actually producing emails
 - The `.githooks/pre-commit` hook auto-validates addresses on commit if `GMAIL_OAUTH_JSON_PATH` is set (enabled per-clone via `git config core.hooksPath .githooks`)
 - Sources can carry an optional `subject_allow` regex list to filter marketing emails from paid newsletters whose real-content subjects follow a known shape (see VII entry for an example)
+- Billing mail (payment receipts, failed-payment and renewal notices) is dropped for EVERY source by `gmail_reader.NON_CONTENT_SUBJECT_PATTERNS` — paid newsletters send it from their content address. `gmail_reader.admits_subject` is the single ingestion rule, and `validate_source --audit` grades liveness with it, so a source cannot look alive on mail the digest throws away (#538)
 
 ## Local OAuth setup
 

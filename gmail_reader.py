@@ -29,6 +29,49 @@ NON_ARTICLE_PATH_PATTERNS = re.compile(
     r"/(unsubscribe|account|profile|preferences|settings|subscribe|login|signup|share|podcast|events?|jobs?|careers?|advertis|privacy|terms)(/|$)",
     re.IGNORECASE,
 )
+# Billing mail that paid newsletters send from their CONTENT address, so the
+# sender match alone admits it as a candidate. Board #538: MBI's monthly
+# "Your payment receipt from MBI Deep Dives #A45216C-0004" (2026-09-23) rode
+# the 168h window into the always-read section on 7 consecutive runs. Every
+# link in it is a Mailgun tracker that lands on the publication homepage or
+# /account/receipts, so the liveness probe dropped it each day and the weekly
+# report counted it as a broken always-read URL (5 of 9 broken slots in the
+# 09-26 -> 10-02 week). The probe was right; the item was never an article.
+# The same shape recurs monthly from The Transcript and Scuttleblurb, so this
+# is cross-source, not a per-source `subject_allow`. Patterns were checked
+# against every stored candidates artifact (170 days): they match only
+# billing mail, never a headline ("Sanofi renews Regeneron pact",
+# "Healthcare is a very complicated invoice", "Instant payments ..." pass).
+NON_CONTENT_SUBJECT_PATTERNS = (
+    re.compile(r"^your\b.*\breceipt\b", re.IGNORECASE),
+    re.compile(r"\bautomatic payment failed\b", re.IGNORECASE),
+    re.compile(r"\bsubscription automatically renews\b", re.IGNORECASE),
+)
+
+
+def is_non_content_subject(subject: str) -> bool:
+    """True for billing/transactional mail that is not something to read."""
+    return any(p.search(subject or "") for p in NON_CONTENT_SUBJECT_PATTERNS)
+
+
+def admits_subject(source: dict | None, subject: str) -> bool:
+    """The one ingestion rule for "is this email something to read".
+
+    Billing mail is rejected for every source; a source with `subject_allow`
+    (VII, Consilient Observer) also rejects any subject outside its list - used
+    to filter marketing/promo emails from paid newsletters whose real-content
+    subjects follow a known shape. `validate_source --audit` grades liveness
+    with this same predicate: an audit that counted the promos ingestion
+    throws away would call a source alive after its real issues stopped.
+    """
+    if is_non_content_subject(subject):
+        return False
+    patterns = (source or {}).get("subject_allow")
+    if patterns and not any(re.search(p, subject or "") for p in patterns):
+        return False
+    return True
+
+
 NON_ARTICLE_HOST_PATTERNS = re.compile(
     r"(mailchi\.mp|substack\.com/api/|lnkd\.in|twitter\.com/share|facebook\.com/sharer)",
     re.IGNORECASE,
@@ -221,14 +264,11 @@ def fetch_newsletters(hours_back: int = 26) -> list[dict]:
             # Match against sources
             source = get_source(sender_email)
 
-            # Per-source subject whitelist: if a source specifies `subject_allow`,
-            # drop any email whose subject doesn't match one of the patterns.
-            # Used to filter marketing/promo emails from paid newsletters whose
-            # real-content subjects follow a known shape (e.g. VII).
-            if source and source.get("subject_allow"):
-                patterns = source["subject_allow"]
-                if not any(re.search(p, subject) for p in patterns):
-                    continue
+            if is_non_content_subject(subject):
+                print(f"  Skipping billing email (not an article): {subject[:70]}")
+                continue
+            if not admits_subject(source, subject):
+                continue
 
             # Extract HTML body for URL parsing
             html_body = _extract_body(msg["payload"])

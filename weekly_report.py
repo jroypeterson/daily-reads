@@ -325,12 +325,20 @@ def build_report() -> dict:
         for name in names_for_day:
             always_read_delivered.setdefault(name, []).append(date)
 
+    # Board #538: a monthly/quarterly always-read that sent nothing this week
+    # is already listed under Source Health as "Quiet this week (... normal)".
+    # This list did not apply the same cadence rule, so the 09-26 -> 10-02
+    # report excused Consilient Observer as normal AND flagged it red as "Not
+    # delivered" - the same twice-rendered contradiction #261 fixed for
+    # `missing_sources`. A genuinely dead slow source is still caught by the
+    # cadence-aware audit (`validate_source --audit`).
+    slow_cadence_names = {n for n, f in _name_freq.items() if f in SLOW_CADENCES}
     report["always_read"] = {
         "delivered": {name: len(days) for name, days in always_read_delivered.items()},
         # A paused always-read is reported once, under Source Health, as a
         # recorded fact - not again here as a red "Not delivered".
         "missing": sorted(always_read_names - set(always_read_delivered.keys())
-                          - paused_names),
+                          - paused_names - slow_cadence_names),
     }
 
     # --- URL Validation ---

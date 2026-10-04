@@ -2088,17 +2088,42 @@ def test_a_paused_source_is_in_none_of_the_alarm_lists():
     assert "Biotech Primer" not in quiet + quiet_ar
 
 
+class _FakeAuditGmail:
+    """Gmail list/get for the audit: messages per sender, newest first."""
+
+    def __init__(self, by_sender):
+        self._by_sender = by_sender
+
+    def users(self):
+        return self
+
+    def messages(self):
+        return self
+
+    def list(self, userId, q, maxResults):
+        ids = [{"id": f"{a}|{i}"} for a, subjects in self._by_sender.items()
+               if f"from:{a}" in q for i in range(len(subjects))][:maxResults]
+        return mock.Mock(execute=lambda: {"messages": ids})
+
+    def get(self, userId, id, format, metadataHeaders):
+        sender, i = id.rsplit("|", 1)
+        msg = {"payload": {"headers": [
+            {"name": "Subject", "value": self._by_sender[sender][int(i)]},
+            {"name": "Date", "value": "Fri, 25 Sep 2026 05:08:14 -0600"}]}}
+        return mock.Mock(execute=lambda: msg)
+
+
 def _run_audit(monkeypatch, sources, has_mail):
     """Drive validate_source.audit() offline: Gmail and Slack are stubbed."""
     import validate_source as vs
     alerts = []
     monkeypatch.setattr(vs, "SOURCES", sources)
-    monkeypatch.setattr(vs, "get_gmail_service", lambda: object())
-    monkeypatch.setattr(
-        vs, "gmail_search",
-        lambda service, q, max_results=20: (
-            [{"date": "Fri, 25 Sep 2026 05:08:14 -0600"}]
-            if any(f"from:{a}" in q for a in has_mail) else []))
+    # `has_mail` is a tuple of senders (each with one ordinary issue) or a
+    # {sender: [subjects]} map, newest first. Gmail itself is faked rather
+    # than `latest_admitted`, so the audit's real subject filter is exercised.
+    if not isinstance(has_mail, dict):
+        has_mail = {a: ["An ordinary issue"] for a in has_mail}
+    monkeypatch.setattr(vs, "get_gmail_service", lambda: _FakeAuditGmail(has_mail))
     monkeypatch.setattr(vs, "_send_slack_alert", alerts.append)
     vs.audit(ci_mode=False)
     return alerts
@@ -2158,12 +2183,12 @@ def test_a_resumption_keeps_alerting_after_it_ages_out_of_the_cadence(monkeypatc
     sources = {"theprimer@biotechprimer.com": {"name": "Biotech Primer",
                                                "frequency": "weekly", "paused": _PAUSE}}
 
-    def search(service, q, max_results=20):
+    def search(service, q, source, scan=20):
         queries.append(q)
         # one resumed issue on 2026-10-01; audit runs long after
         after = q.split("after:")[1].split(" ")[0]
         resumed_on = (_VERIFIED + _td(days=5)).strftime("%Y/%m/%d")
-        return [{"date": resumed_on}] if after <= resumed_on else []
+        return {"date": resumed_on} if after <= resumed_on else None
 
     class _Later(vs.datetime):
         @classmethod
@@ -2174,7 +2199,7 @@ def test_a_resumption_keeps_alerting_after_it_ages_out_of_the_cadence(monkeypatc
     monkeypatch.setattr(vs, "datetime", _Later)
     monkeypatch.setattr(vs, "SOURCES", sources)
     monkeypatch.setattr(vs, "get_gmail_service", lambda: object())
-    monkeypatch.setattr(vs, "gmail_search", search)
+    monkeypatch.setattr(vs, "latest_admitted", search)
     monkeypatch.setattr(vs, "_send_slack_alert", alerts.append)
     vs.audit(ci_mode=False)
     assert any(f"after:{_VERIFIED.strftime('%Y/%m/%d')}" in q for q in queries)
@@ -2289,3 +2314,118 @@ def test_an_unreadable_artifact_does_not_crash_the_report_or_mute_alarms(monkeyp
     })
     assert report["source_health"]["paused"] == []
     assert report["source_health"]["missing_always_read"] == ["P"]
+
+
+# --- #538: billing mail is not an article; a slow always-read is not "Not delivered"
+
+# Every billing subject stored in artifacts/candidates/ (2026-04 -> 2026-10) ...
+_BILLING_SUBJECTS = [
+    "Your payment receipt from MBI Deep Dives #A45216C-0004",
+    "Your payment receipt from The Transcript #JFBETEYM-0012",
+    "Your scuttleblurb renewal order receipt from July 23, 2026",
+    "Automatic payment failed for 57260, we will retry in 12 hours",
+    "[scuttleblurb] Jason, your subscription automatically renews in 1 week!",
+]
+# ... and the real headlines nearest to them, which must still be read.
+_CONTENT_SUBJECTS = [
+    "Sanofi renews Regeneron pact with $1B to find next Dupixent",
+    "[WAY - Waystar] Healthcare is a very complicated invoice",
+    "How instant payments are transforming the financial landscape",
+    "The 10-Point: The Secret Crypto Payment Network Funding Iran's Regime",
+    "Follow the money: Get 60% off your subscription",
+    "FICO FY 3Q'26: Welcome to \"Gaming\"",
+    "Federal Medicaid Spending Through State Directed Payments Nears $100 Billion",
+    "The Case for Meta Enterprise Platform",
+]
+
+
+def test_billing_subjects_are_non_content_and_headlines_are_not():
+    from gmail_reader import is_non_content_subject
+    for s in _BILLING_SUBJECTS:
+        assert is_non_content_subject(s), s
+    for s in _CONTENT_SUBJECTS:
+        assert not is_non_content_subject(s), s
+
+
+class _FakeGmail:
+    """Just enough of the Gmail API surface for fetch_newsletters."""
+
+    def __init__(self, msgs):
+        self._msgs = {m["id"]: m for m in msgs}
+
+    def users(self):
+        return self
+
+    def messages(self):
+        return self
+
+    def list(self, **kw):
+        ids = [{"id": i} for i in self._msgs]
+        return mock.Mock(execute=lambda: {"messages": ids})
+
+    def get(self, userId, id, format):
+        return mock.Mock(execute=lambda: self._msgs[id])
+
+
+def _gmail_msg(mid, sender, subject):
+    return {"id": mid, "snippet": "s", "payload": {"headers": [
+        {"name": "From", "value": sender},
+        {"name": "Subject", "value": subject},
+        {"name": "Date", "value": "Tue, 29 Sep 2026 16:13:54 +0000"},
+    ]}}
+
+
+def test_fetch_newsletters_drops_a_paid_sources_receipt_but_keeps_its_issue():
+    """Board #538: MBI's payment receipt arrives from the same sender as its
+    issues, so it became an always-read candidate, failed the liveness probe
+    (every link lands on the homepage or /account/receipts) on 7 runs, and was
+    counted as a broken always-read URL. Driven through the real reader."""
+    sender = "MBI Deep Dives <mbideepdives@substack.com>"
+    fake = _FakeGmail([
+        _gmail_msg("1", sender, "The Case for Meta Enterprise Platform"),
+        _gmail_msg("2", sender, "Your payment receipt from MBI Deep Dives #A45216C-0004"),
+        # a `subject_allow` source still filters its promos through the same path
+        _gmail_msg("3", "VII <customerservice@valueinvestorinsight.com>", "Partner summit invite"),
+    ])
+    with mock.patch.object(gmail_reader, "get_gmail_service", return_value=fake):
+        items = gmail_reader.fetch_newsletters(hours_back=168)
+    assert [i["subject"] for i in items] == ["The Case for Meta Enterprise Platform"]
+    assert items[0]["source_name"] == "MBI"
+
+
+def test_a_quiet_monthly_always_read_is_not_also_not_delivered(monkeypatch, tmp_path):
+    """Board #538: the 09-26 -> 10-02 report listed Consilient Observer as
+    "Quiet this week (monthly cadence - normal)" AND red "Not delivered". A
+    weekly always-read that went quiet must still alarm in both lists."""
+    monthly = dict(_src("Consilient Observer"), frequency="monthly")
+    registry = {"a@x.com": monthly, "b@x.com": _src("MBI")}
+    report = _build_report_with(monkeypatch, tmp_path, registry, {})
+    sh = report["source_health"]
+    assert sh["quiet_slow_always_read"] == ["Consilient Observer"]
+    assert "Consilient Observer" not in report["always_read"]["missing"]
+    assert report["always_read"]["missing"] == ["MBI"]
+    assert sh["missing_always_read"] == ["MBI"]
+    assert not (set(sh["quiet_slow_always_read"]) & set(report["always_read"]["missing"]))
+
+
+def test_audit_does_not_count_mail_that_ingestion_rejects(monkeypatch):
+    """Codex R1 on #538: the weekly report defers slow-cadence silence to this
+    audit, which counted ANY mail from the sender. A `subject_allow` source
+    whose real issues stopped stayed green on its promos, and a paid source on
+    its monthly receipts."""
+    sources = {
+        "vii@x.com": {"name": "VII-like", "frequency": "monthly",
+                      "subject_allow": [r"^Value Investor Insight New Issue"]},
+        "mbi@x.com": {"name": "Receipts Only", "frequency": "weekly"},
+        "ok@x.com": {"name": "Healthy", "frequency": "monthly",
+                     "subject_allow": [r"^Value Investor Insight New Issue"]},
+    }
+    alerts = _run_audit(monkeypatch, sources, has_mail={
+        "vii@x.com": ["Join us at our partner summit"],
+        "mbi@x.com": ["Your payment receipt from MBI Deep Dives #A45216C-0004"],
+        # a promo on top must not hide the real issue just below it
+        "ok@x.com": ["Partner promo", "Value Investor Insight New Issue"],
+    })
+    assert len(alerts) == 1
+    assert "VII-like" in alerts[0] and "Receipts Only" in alerts[0]
+    assert "Healthy" not in alerts[0]
