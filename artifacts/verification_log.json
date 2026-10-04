@@ -12157,5 +12157,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is a fragments list of unrelated Scuttleblurb post teasers (Rollins, Apple, CoStar, TransDigm, Union Pacific, Amazon, etc.) with no substantive content on the Cloudflare/OpenAI/memory chip topics described in the shortlist summary \u2014 the actual article is a link-dump with no depth."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "China's biotech industry is 'blowing everyone's minds' + Trump's watered-down Medicare drug pricing rule saves 96% less",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VW302V3s3526W4v1ng_6FH9-KW1CR2895VCb5JN7vvr0F3qgz0W7lCdLW6lZ3kDW2RVBmK81N7RKW1BN4qt2MQgS7W5ryCH27jPCvZW4JzfVT6P_45lW29b8X64xy1SNW59rJ0J6B65DTW4mDxDL92RqNyVP0kj97ZcByBN1zv65s360dwW7ZRL-Q849r_pW57V9fY8Gj3qDW8MzKNM2CbmWCW50mZBz2wb4hDW1Q1z842CD5x2VxmY9N8kD9JwW38WdVv3-BwkTN1-Dv9zXcCFjVB-b_p3NvzB2W6VpZWp4-H1VWW7CqXyt6-8PGVN2PDQ6sy2TtHW2khMHK4HLXVpW2CSzkg5P7_jwW5XNFRc36qNQPf3hR03T04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall/subscription page with no actual article content \u2014 it contains only marketing copy about subscription benefits and pricing, not the reported stories about Chinese biotech or the Medicare drug pricing rule."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "Novartis bets up to $7.8B for mRNA T cell engager from China",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVp2Rj8kjwmHW3CLsG67NwZSPW3Dl4Sm5VFQnTN7Y8_385nR3bW7Y9pgv6lZ3l9W8f0lmR53q3hLW6y-hPq3RTL8mN54Q56yYv4yRW3sTPZz3t1JCCW8z1ZzR6Svjb3N1FkG0ccr-ShW2RdBc75KdyVqN6mMr6zLlcmDN36WM6ddm5L2W1_8Ftv20MmyBW7vMgGv3lD-J-W6CpHpB8nvZQ4W6kC1fb12HfzWN3ShSj-14V2tW1LmfC31XC_scW7zLZV05bFlP6W2-HzyN5423hKW8GFK-B3hW4k-W6dKS55817JjSW4z2gT58PhBjpW2_Lw0N2_ZDp0W2TpwWZ489CDPW77H3Sn99WM_vW3h-yQk8GyxfkVSSP4h7DKrc_Mk8y_RBGNzkVtyXFP10n-6pW7Cqk5w110p95W15BGGP74cMykW2bhSTH4YRClRW2TpRS22Y84CbW6BlR6T86hrJjW5P3cL8800G2jW467lgM7Ynw9SW1qKWyZ46DqQMW59x0bM3J7s0xW917G-33V5zBTW2JCDgR6fwR8TW997MgJ2DQTGVW3kFtYg7cWvq9W7NXSXP7lfNlNN6HTmsgyvZB_dlzCSl04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a substantive, high-dollar ($7.8B) licensing deal involving a novel mRNA-encoded T cell engager from Chinese biotech Abogen, with real investment implications for large-cap biopharma competitive moats and the China-to-West biotech deal trend, plus analyst commentary on Merck and BMS patent-cliff strategies that adds actionable depth."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "Dots and Question Marks (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/dots-and-question-marks?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2RvdHMtYW5kLXF1ZXN0aW9uLW1hcmtzLyJdfSwiZXhwIjoxNzkzNTUyNTYyLCJpYXQiOjE3OTA5NjA1NjIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiMWVlMTJhMzQtNThkYi00Y2M2LTg2NTktYmY0Zjc5MDg5ODA3IiwidXNlIjoiYWNjZXNzIn0.XKT4kBOaan8JM-fDLvZqb-JbT3cZZ5stUV6z8-oiAh6-r_D8b5fKZgkyNqofoKziJTvdriXJSCbFFe-2KNAV95AT8nuEq6pYoKUuoKpomlEWpck27axtrxi87Y5yzoE8UJbhkcHc-DvhI6GGA87xt9MpY3p-0HQxEYgwvJrqDsDA-3FzKo6BK3ScCAnCe7H9W2ETcI5hQebrvjdlHckR1qHdH_V8b6Cr72ldw-qAc3UQ9aoXGDe7ygjMayABtJhbm_RW2QZJHsg2thSD4974xwY0c_INpQmyk9_EYmcvApXfitRA1fKUpAp8PC5JAc116KnWczIxxtaX-V9uaBiQig",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a newsletter table-of-contents/weekly roundup with no substantive analysis \u2014 just brief editorial blurbs linking to paywalled Stratechery content, making it too thin and non-actionable for any slot."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "I quit OpenAI because its culture is broken",
+    "source": "The Atlantic / Hacker News",
+    "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive first-person account with real depth, but it belongs in Slot 3 (Tech/AI) or Slot 4 (Wildcard) \u2014 not Slot 2 (Finance/Macro), as it focuses on AI safety culture and governance at OpenAI rather than macro moves, earnings, sector dynamics, or healthcare-adjacent finance."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "The 'Higher Rates, Higher Rent Doom Loop' Is a Big Problem for the Fed",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ABl7InYiOjEsImQiOjUwMTksInAiOiJQQyJ9AAwAAAAAA1A7QX-4n0yZrgT2PLieFSqRiwPeveeUPC3KISE_27KmZPFGEOcpua80-WBpnGrEdylkZSAlUuTyIhYhfRIruP98kPGttCKnAqV0dSqWAZp0u36lGgfS5V0",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is entirely a subscription/profile management page with no actual article content \u2014 the piece on the 'higher rates, higher rent doom loop' was not delivered, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "KFF Examines the 2027 Marketplace for Medicare Advantage and Part D Stand-Alone Drug Plans",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VWQ8Xg4n8t9vW1l1hN67HjBPhW65wf3Z5VGdS2N8kT_Cv5nR3bW8wM7ks6lZ3plW8YpH-P712wj1W4cbqGw6Gww8wW6hFVnL7GDk_GN7SDWCds7bGvW3P7RH15zTl-GW6XtDZv5_n7hwW8XXqY56LDqMFW6YB16l8DWmmCW70g6w92fCLJzW3vpyhN51P2P7W5twdB37T-hvbW4nsw_Z1lRNbXVPgVk916YpNpW5DcZD31KlCsmW42m5v-1kxyK5W8pDj-T5bmn-8W8XLbgp7ZqWMZW5ksJGs5wFh-YW33TQ5H44FXNPW3jW8Hf3cS5XBVnL3mf89jj2dW6VvYH98TtrygW8fFGdD5b-pGpW2mR7vD8gD3J9VB_pzh4xKpjSW79X8Jz5fPx-dW6tDVKN78F7kWW93xcNX47fj_9TZCzb8Hptm4W689r-l4z07h9W5mxWSH70lShvW7JWHMX6jlpCFW6J6wyh9k2r-XN6lSNHPh0LH1W1W97nQ3d3j5wW29lCh12YkyrLW4Zvdjx6pY1NxW97ZGHp2X9LYWW7nNdw27KJCl8V-0M_g81HvlFN7_nYsGKLDjWW69tsqs6X6hlCW8cDSbq1SG8Z8N1TXW2RszffZf6znthl04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter summary of a KFF report with no analytical depth \u2014 it recites plan count statistics and premium trends without examining managed care earnings implications, PBM dynamics, or actionable investment angles that would serve a finance/macro slot."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "McKinsey: Physical AI \u2014 The hidden value pools leaders are missing",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8p6XUs59XJkBG5-AScWpo5e5xmyGqpXsoxsTOIbqYStUxbUXxH76S9gIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "McKinsey's 'physical AI' piece better fits Slot 3 (Tech/AI) than Slot 2 (Finance/Macro), and while the topic is substantive, the summary suggests a broad consulting framework piece rather than actionable finance or macro analysis \u2014 making it a weak fit for the target slot."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "We're going to need default hard budget caps on pretty much everything",
+    "source": "Simon Willison / Hacker News",
+    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a short, thin blog post advocating for a product feature (hard budget caps on cloud APIs) \u2014 it lacks analytical depth, has no Finance/Macro substance, and belongs more to Slot 3 (Tech/AI infrastructure) even then at a surface level that wouldn't satisfy this reader's preference for deep, investment-relevant analysis."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "I quit OpenAI because its culture is broken",
+    "source": "The Atlantic / Hacker News",
+    "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a first-person resignation essay from an OpenAI safety researcher \u2014 substantive and well-written, but it fits Slot 4 (Wildcard/Curiosity) far better than Slot 3 (Tech/AI breakthroughs, infrastructure, enterprise adoption), and the reader profile emphasizes analytical investment depth over advocacy pieces; while corporate governance is a moderate interest, this lacks the data infrastructure, AI capability, or investment-actionable angle that would make it a strong Slot 3 pick."
+  },
+  {
+    "date": "2026-10-04",
+    "headline": "McKinsey: Physical AI \u2014 The hidden value pools leaders are missing",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8p6XUs59XJkBG5-AScWpo5e5xmyGqpXsoxsTOIbqYStUxbUXxH76S9gIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority consulting source with strong reader affinity, and the physical AI framing \u2014 mapping underappreciated value pools across logistics, manufacturing, and healthcare robotics \u2014 offers the structural market insight and analytical depth this reader strongly prefers."
   }
 ]

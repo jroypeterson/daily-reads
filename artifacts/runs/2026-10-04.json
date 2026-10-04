@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-10-04",
+  "generated_at": "2026-10-04T16:26:23Z",
+  "counts": {
+    "gmail_items": 133,
+    "tier2_items": 76,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6d0e5f885b06313c",
+      "headline": "Novartis bets up to $7.8B for mRNA T cell engager from China",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVp2Rj8kjwmHW3CLsG67NwZSPW3Dl4Sm5VFQnTN7Y8_385nR3bW7Y9pgv6lZ3l9W8f0lmR53q3hLW6y-hPq3RTL8mN54Q56yYv4yRW3sTPZz3t1JCCW8z1ZzR6Svjb3N1FkG0ccr-ShW2RdBc75KdyVqN6mMr6zLlcmDN36WM6ddm5L2W1_8Ftv20MmyBW7vMgGv3lD-J-W6CpHpB8nvZQ4W6kC1fb12HfzWN3ShSj-14V2tW1LmfC31XC_scW7zLZV05bFlP6W2-HzyN5423hKW8GFK-B3hW4k-W6dKS55817JjSW4z2gT58PhBjpW2_Lw0N2_ZDp0W2TpwWZ489CDPW77H3Sn99WM_vW3h-yQk8GyxfkVSSP4h7DKrc_Mk8y_RBGNzkVtyXFP10n-6pW7Cqk5w110p95W15BGGP74cMykW2bhSTH4YRClRW2TpRS22Y84CbW6BlR6T86hrJjW5P3cL8800G2jW467lgM7Ynw9SW1qKWyZ46DqQMW59x0bM3J7s0xW917G-33V5zBTW2JCDgR6fwR8TW997MgJ2DQTGVW3kFtYg7cWvq9W7NXSXP7lfNlNN6HTmsgyvZB_dlzCSl04",
+      "slot": 1,
+      "summary": "Novartis is licensing an mRNA-encoded CD3xCD19 T cell engager from China's Abogen Biosciences for up to $7.8B, one of the largest China-originated biotech deals ever, with the in vivo mRNA approach designed to reduce cytokine release syndrome risk compared to conventional bispecific antibodies. The newsletter also includes BMO Capital Markets analyst commentary bullish on Merck's post-Keytruda patent-cliff strategy and skeptical of BMS's plan to offset Opdivo and Eliquis LOE. Additional items cover Sarepta's Elevidys gene therapy data in ambulatory older DMD patients and Kailera/Hengrui's GLP-1/GIP candidate showing menstrual benefits in PCOS.",
+      "why_it_matters": "The Novartis-Abogen deal validates Chinese biotech innovation in novel oncology modalities and signals intensifying competition in the T cell engager space, with direct relevance to competitive moat analysis of Western biopharma pipelines and positioning around MRK, BMS, and SRPT.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:DGX",
+        "novelty",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "be1026339b831c74",
+      "headline": "McKinsey: Physical AI \u2014 The hidden value pools leaders are missing",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8p6XUs59XJkBG5-AScWpo5e5xmyGqpXsoxsTOIbqYStUxbUXxH76S9gIku-X8Mf0Jg%3D",
+      "slot": 3,
+      "summary": "McKinsey argues that 'physical AI' \u2014 AI embedded in physical systems like surgical robotics, manufacturing intelligence, and logistics automation \u2014 represents a set of value pools that corporate leaders are systematically underestimating relative to software-centric AI narratives. The piece maps where economic value from AI will actually accrue in the physical world, moving beyond the humanoid robot hype cycle. Healthcare robotics and diagnostics hardware are highlighted as particularly underappreciated growth vectors.",
+      "why_it_matters": "For investors sizing the medtech AI opportunity \u2014 including positions in ISRG and adjacent diagnostics hardware plays \u2014 this framework offers a structural lens for identifying where durable AI-driven value creation will land in physical industries rather than software.",
+      "signal_tags": [
+        "ticker_match:ARE",
+        "priority:high",
+        "AI_impact",
+        "analytical_depth",
+        "forward_looking"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}
