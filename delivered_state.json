@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "ae893b1ff718e1be",
-      "date": "2026-09-20"
-    },
-    {
       "id": "4a0502700be6feff",
       "date": "2026-09-21"
     },
@@ -127,6 +123,14 @@
     {
       "id": "be1026339b831c74",
       "date": "2026-10-04"
+    },
+    {
+      "id": "08474d937be44f55",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "0bfe2861dde62ef0",
+      "date": "2026-10-05"
     }
   ],
   "reader_pushed": {
@@ -225,6 +229,10 @@
     "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07": "2026-10-03",
     "https://mbideepdives.substack.com/p/the-ever-widening-overton-window?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg0MDc4MjQsImlhdCI6MTc5MDk2MTA1OCwiZXhwIjoxNzkzNTUzMDU4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ZISYIY43s3o0INb5VItiSVjlESmGVYzU7Sr7zplm5RU": "2026-10-03",
     "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVp2Rj8kjwmHW3CLsG67NwZSPW3Dl4Sm5VFQnTN7Y8_385nR3bW7Y9pgv6lZ3l9W8f0lmR53q3hLW6y-hPq3RTL8mN54Q56yYv4yRW3sTPZz3t1JCCW8z1ZzR6Svjb3N1FkG0ccr-ShW2RdBc75KdyVqN6mMr6zLlcmDN36WM6ddm5L2W1_8Ftv20MmyBW7vMgGv3lD-J-W6CpHpB8nvZQ4W6kC1fb12HfzWN3ShSj-14V2tW1LmfC31XC_scW7zLZV05bFlP6W2-HzyN5423hKW8GFK-B3hW4k-W6dKS55817JjSW4z2gT58PhBjpW2_Lw0N2_ZDp0W2TpwWZ489CDPW77H3Sn99WM_vW3h-yQk8GyxfkVSSP4h7DKrc_Mk8y_RBGNzkVtyXFP10n-6pW7Cqk5w110p95W15BGGP74cMykW2bhSTH4YRClRW2TpRS22Y84CbW6BlR6T86hrJjW5P3cL8800G2jW467lgM7Ynw9SW1qKWyZ46DqQMW59x0bM3J7s0xW917G-33V5zBTW2JCDgR6fwR8TW997MgJ2DQTGVW3kFtYg7cWvq9W7NXSXP7lfNlNN6HTmsgyvZB_dlzCSl04": "2026-10-04",
-    "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8p6XUs59XJkBG5-AScWpo5e5xmyGqpXsoxsTOIbqYStUxbUXxH76S9gIku-X8Mf0Jg%3D": "2026-10-04"
+    "https://email.mckinsey.com/T/v71000001a0fde7c58abfa0da369fb45280/6d1560005fe749e60000021ef3a0bcc2/6d156000-5fe7-49e6-b240-8cc3e5289b07?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8p6XUs59XJkBG5-AScWpo5e5xmyGqpXsoxsTOIbqYStUxbUXxH76S9gIku-X8Mf0Jg%3D": "2026-10-04",
+    "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/?utm_campaign=rss": "2026-10-05",
+    "https://email.mckinsey.com/T/v71000001a10d50c8a3ab8aeaf4bbc782e8/30fbdc1fe44e4ae60000021ef3a0bcc2/30fbdc1f-e44e-4ae6-b1e1-ef1a3951ffe0": "2026-10-05",
+    "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg3NzM3NzMsImlhdCI6MTc5MTIyMDc5MiwiZXhwIjoxNzkzODEyNzkyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.tb8PN6cau3RdQPca69FsRq0c0AqQ0MEAXVzDSDR0MV0": "2026-10-05",
+    "https://thetranscript.substack.com/p/10-05-2026-high-rates?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5MTQ5NjgsImlhdCI6MTc5MTIwMDg1NCwiZXhwIjoxNzkzNzkyODU0LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.kUOw_4oPHIujh6D3EYCJhqekebnTg0g95Ws7WWBBoNU": "2026-10-05"
   }
 }

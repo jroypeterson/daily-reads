@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-10-05",
+  "generated_at": "2026-10-05T20:16:35Z",
+  "counts": {
+    "gmail_items": 145,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "08474d937be44f55",
+      "headline": "Vaxcyte claims success in bid to beat Pfizer and Merck in lucrative vaccine market",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/?utm_campaign=rss",
+      "slot": 1,
+      "summary": "Vaxcyte's VAX-24 pneumococcal vaccine met primary endpoints in the Phase 3 OPUS trial, demonstrating immune responses that matched or exceeded Pfizer's Prevnar 20 and Merck's Capvaxive across nearly all bacterial strains tested. Wall Street analysts described the data as 'near best-case,' and PCVX shares surged on the news. The results position Vaxcyte as a credible disruptor in one of pharma's most lucrative vaccine markets, with a regulatory filing pathway now in clearer view.",
+      "why_it_matters": "This Phase 3 readout is a direct negative catalyst for PFE and MRK vaccine revenue and validates PCVX as a potential market-share taker in a multi-billion-dollar franchise, making it actionable across all three tickers.",
+      "signal_tags": [
+        "ticker_match:PCVX",
+        "ticker_match:MRK",
+        "ticker_match:PFE",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0bfe2861dde62ef0",
+      "headline": "What is the state of AI in 2026?",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a10d50c8a3ab8aeaf4bbc782e8/30fbdc1fe44e4ae60000021ef3a0bcc2/30fbdc1f-e44e-4ae6-b1e1-ef1a3951ffe0",
+      "slot": 2,
+      "summary": "McKinsey's 2026 State of AI annual survey benchmarks enterprise AI adoption rates, ROI realization, and organizational readiness across industries. The report captures where companies are genuinely capturing value versus where hype remains unfulfilled, covering use cases including healthcare and biopharma. It serves as the most widely cited data reference for AI investment theses and adoption curve analysis this year.",
+      "why_it_matters": "As the single most referenced AI adoption dataset, this report directly informs investment theses on AI infrastructure, enterprise software, and sector-specific AI deployment timelines \u2014 particularly relevant for healthcare and biopharma positioning.",
+      "signal_tags": [
+        "priority:high",
+        "analytical_depth",
+        "AI_impact",
+        "management_consulting_research",
+        "novelty"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    }
+  ]
+}

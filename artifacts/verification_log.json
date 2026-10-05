@@ -12247,5 +12247,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey is a high-priority consulting source with strong reader affinity, and the physical AI framing \u2014 mapping underappreciated value pools across logistics, manufacturing, and healthcare robotics \u2014 offers the structural market insight and analytical depth this reader strongly prefers."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "Vaxcyte claims success in bid to beat Pfizer and Merck in lucrative vaccine market",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Substantive Phase 3 clinical trial readout with competitive market implications for PCVX, PFE, and MRK in a multi-billion-dollar vaccine category, sourced from a high-priority healthcare domain with clear investment relevance."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "The Thin Margin of Safety in Selling Compute",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling?r=w2qs",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after a brief introduction \u2014 the actual substantive content (financial models, detailed analysis of CoreWeave's economics) is behind a subscription wall, making it impossible to verify depth or accuracy, and matching the reader's 'avoid paywalled content' pattern."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "Tech can't shield stocks from bonds forever",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-10-05/tech-can-t-shield-stocks-from-the-bond-rout-forever",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article text was not actually retrieved \u2014 only Bloomberg's navigation/menu boilerplate was captured, leaving no substantive content to evaluate, making depth and accuracy impossible to confirm."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "What is the state of AI in 2026?",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a10d50c8a3ab8aeaf4bbc782e8/30fbdc1fe44e4ae60000021ef3a0bcc2/30fbdc1f-e44e-4ae6-b1e1-ef1a3951ffe0",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual State of AI survey is a flagship, high-cited data reference with strong analytical depth on enterprise adoption, ROI realization, and emerging use cases \u2014 aligning well with the reader's strong interest in AI impact and data infrastructure, though it fits Slot 3 (Tech/AI) better than Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "CMS finalizes price transparency overhaul for payers",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/policy-updates/cms-finalizes-price-transparency-overhaul-for-payers-6-things-to-know/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This is a regulatory/policy article best suited for Slot 1 (Healthcare) or Slot 2 (Finance/Payer Dynamics), not Slot 3 (Tech/AI), and the article itself is relatively thin \u2014 it lists seven points about the rule but the actual numbered content is truncated/missing, leaving only a brief overview with no analytical depth on investment implications or technology dimensions."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "iRhythm acquires VitalConnect in $237.5M all-cash deal",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/irhythm-acquires-vitalconnect-2375m-all-cash-deal",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a straightforward M&A announcement with no tech/AI substance \u2014 it covers a healthcare acquisition (IRTC buying VitalConnect) with thin deal rationale and no discussion of AI, data infrastructure, or algorithmic innovation that would qualify it for the Tech/AI slot."
+  },
+  {
+    "date": "2026-10-05",
+    "headline": "Dots and Question Marks (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/dots-and-question-marks",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a weekly table-of-contents newsletter digest with only teaser blurbs and no substantive analysis \u2014 the actual depth content (Apps, Agents, and Aggregation; OpenAI Dev Day, etc.) sits behind paywalled individual articles, leaving this wrapper too thin to deliver the analytical depth the reader requires."
   }
 ]
