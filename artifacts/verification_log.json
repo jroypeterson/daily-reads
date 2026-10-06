@@ -12310,5 +12310,50 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a weekly table-of-contents newsletter digest with only teaser blurbs and no substantive analysis \u2014 the actual depth content (Apps, Agents, and Aggregation; OpenAI Dev Day, etc.) sits behind paywalled individual articles, leaving this wrapper too thin to deliver the analytical depth the reader requires."
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "Dual-acting drug from AbbVie, Genmab scores in frontline lymphoma trial",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/abbvie-genmab-epkinly-dlbcl-epcore-study-results/832241/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering a meaningful Phase 3 clinical trial readout with specific efficacy data (51% risk reduction), analyst commentary with concrete peak sales estimates ($3B), competitive context (Roche, AstraZeneca), and direct commercial implications for two tickers (ABBV, GMAB), fitting Slot 1 criteria cleanly."
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "CD&R, McKesson acquiring infusion therapy provider Option Care Health for $5.8B",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/cdr-mckesson-acquiring-infusion-therapy-provider-option-care-health-58b",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a substantive $5.8B M&A deal with direct ticker impact on OPCH and MCK, strategic implications for specialty pharma distribution and home infusion competitive dynamics, and a clear framework for McKesson's long-term consolidation play \u2014 fitting Slot 2's healthcare-adjacent finance theme."
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "The Thin Margin of Safety in Selling Compute",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article's substantive content \u2014 the detailed financial model and margin analysis of CoreWeave \u2014 is locked behind a paywall, leaving only a brief framing section visible; there is insufficient actual substance to evaluate or summarize meaningfully."
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "Beam: Reflection's 501B open-weight model",
+    "source": "Hacker News / Reflection AI",
+    "url": "https://reflection.ai/blog/introducing-beam",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantial technical depth on Beam's architecture, RL training methodology, and inference efficiency gains, directly relevant to the reader's strong interests in data infrastructure, AI impact, and enterprise deployment economics."
+  },
+  {
+    "date": "2026-10-06",
+    "headline": "What is the state of AI in 2026?",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "McKinsey's annual State of AI survey is a substantive, data-rich benchmark report with specific findings on enterprise adoption, ROI gaps, agentic coding disruption to SaaS budgets, and workforce expectations \u2014 directly relevant to the reader's strong interests in AI impact, data infrastructure, and competitive moat analysis."
   }
 ]

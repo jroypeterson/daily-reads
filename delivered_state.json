@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "4a0502700be6feff",
-      "date": "2026-09-21"
-    },
-    {
       "id": "009d9880079615d7",
       "date": "2026-09-22"
     },
@@ -131,6 +127,22 @@
     {
       "id": "0bfe2861dde62ef0",
       "date": "2026-10-05"
+    },
+    {
+      "id": "7d0a38dd03057c91",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "dd07ce65b88e3cd4",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "7a46427afcca6a98",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "a887c1ddf0c33769",
+      "date": "2026-10-06"
     }
   ],
   "reader_pushed": {
@@ -233,6 +245,11 @@
     "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/?utm_campaign=rss": "2026-10-05",
     "https://email.mckinsey.com/T/v71000001a10d50c8a3ab8aeaf4bbc782e8/30fbdc1fe44e4ae60000021ef3a0bcc2/30fbdc1f-e44e-4ae6-b1e1-ef1a3951ffe0": "2026-10-05",
     "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg3NzM3NzMsImlhdCI6MTc5MTIyMDc5MiwiZXhwIjoxNzkzODEyNzkyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.tb8PN6cau3RdQPca69FsRq0c0AqQ0MEAXVzDSDR0MV0": "2026-10-05",
-    "https://thetranscript.substack.com/p/10-05-2026-high-rates?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5MTQ5NjgsImlhdCI6MTc5MTIwMDg1NCwiZXhwIjoxNzkzNzkyODU0LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.kUOw_4oPHIujh6D3EYCJhqekebnTg0g95Ws7WWBBoNU": "2026-10-05"
+    "https://thetranscript.substack.com/p/10-05-2026-high-rates?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5MTQ5NjgsImlhdCI6MTc5MTIwMDg1NCwiZXhwIjoxNzkzNzkyODU0LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.kUOw_4oPHIujh6D3EYCJhqekebnTg0g95Ws7WWBBoNU": "2026-10-05",
+    "https://www.biopharmadive.com/news/abbvie-genmab-epkinly-dlbcl-epcore-study-results/832241/": "2026-10-06",
+    "https://www.fiercehealthcare.com/finance/cdr-mckesson-acquiring-infusion-therapy-provider-option-care-health-58b": "2026-10-06",
+    "https://reflection.ai/blog/introducing-beam": "2026-10-06",
+    "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai": "2026-10-06",
+    "https://mbideepdives.substack.com/p/when-the-ads-come-to-the-data?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5OTYxNDEsImlhdCI6MTc5MTMwNDUzOCwiZXhwIjoxNzkzODk2NTM4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.OSh-LLCpNLqKSDDAemzMLezVJc64ZMicJiZo621kbCg": "2026-10-06"
   }
 }

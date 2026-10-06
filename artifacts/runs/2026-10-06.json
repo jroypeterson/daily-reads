@@ -1,0 +1,88 @@
+{
+  "run_date": "2026-10-06",
+  "generated_at": "2026-10-06T17:50:42Z",
+  "counts": {
+    "gmail_items": 141,
+    "tier2_items": 90,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "7d0a38dd03057c91",
+      "headline": "Dual-acting drug from AbbVie, Genmab scores in frontline lymphoma trial",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/abbvie-genmab-epkinly-dlbcl-epcore-study-results/832241/",
+      "slot": 1,
+      "summary": "AbbVie and Genmab's bispecific antibody Epkinly (epcoritamab) combined with R-CHOP chemotherapy delivered a 51% relative risk reduction in disease progression or death versus R-CHOP alone in the Phase 3 EPCORE DLBCL-2 trial for newly diagnosed high-risk DLBCL patients \u2014 exceeding analyst expectations of ~40% and outperforming Roche's Polivy in cross-trial comparison. The result positions Epkinly as the first bispecific antibody to potentially gain frontline DLBCL approval, a significantly larger market than its current third-line indication. Analysts have raised peak sales estimates, with TD Cowen calling it the future 'undisputed' standard of care and Jefferies suggesting its $1.4B frontline forecast 'could prove conservative,' while the companies plan immediate regulatory engagement.",
+      "why_it_matters": "A frontline DLBCL label expansion would unlock a dramatically larger addressable market for Epkinly, representing a near-term commercial catalyst with direct revenue and valuation implications for both ABBV and GMAB \u2014 particularly notable as GMAB shares jumped 14% intraday on the news.",
+      "signal_tags": [
+        "ticker_match:ABBV",
+        "ticker_match:GMAB",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "dd07ce65b88e3cd4",
+      "headline": "CD&R, McKesson acquiring infusion therapy provider Option Care Health for $5.8B",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/finance/cdr-mckesson-acquiring-infusion-therapy-provider-option-care-health-58b",
+      "slot": 2,
+      "summary": "CD&R and McKesson have agreed to acquire Option Care Health (OPCH), the largest independent home and alternate-site infusion services provider, for $32.05/share \u2014 a 37% premium \u2014 at a ~$5.8B enterprise value. CD&R will hold 51% and McKesson 49% (~$1.4B investment), with the deal structured to allow McKesson to eventually acquire CD&R's stake, signaling a deliberate long-term consolidation path. McKesson frames the acquisition as aligned with its specialty care strategy, citing rising demand for alternate-site infusion driven by growth in specialty, rare, and orphan therapies.",
+      "why_it_matters": "The deal signals accelerating PE-driven consolidation in home infusion services and positions McKesson as the likely eventual sole owner of the country's largest independent infusion platform, with direct implications for OPCH shareholders, MCK's specialty pharma distribution strategy, and competitive dynamics for hospital-based infusion and post-acute care players.",
+      "signal_tags": [
+        "ticker_match:OPCH",
+        "ticker_match:MCK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f781869f0c515085",
+      "headline": "Beam: Reflection's 501B open-weight model",
+      "source": "Hacker News / Reflection AI",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "slot": 3,
+      "summary": "Reflection AI (Nvidia-backed) has released details on Beam, a 501B sparse Mixture-of-Experts open-weight model with only 23B active parameters per token, trained via a massive RL run using 10,500 Nvidia GB300 GPUs over four weeks and 100M+ rollouts. The model targets coding, reasoning, and agentic workloads, achieving comparable benchmark performance to GLM-5.2 while using 3-4x less inference compute, with weights to be released under Apache 2.0 later in October. Novel technical contributions include asynchronous policy gradients at scale, controllable reasoning length via a length penalty, and observed cross-domain generalization (e.g., browsing gains without browsing training data).",
+      "why_it_matters": "Beam's inference efficiency advantage (3-4x less compute vs. comparable open-weight rivals) has direct implications for enterprise AI deployment economics and data infrastructure costs \u2014 core reader interest areas \u2014 while Apache 2.0 licensing positions it as a credible Western open-weight alternative that could shift competitive dynamics in the agentic AI stack.",
+      "signal_tags": [
+        "novelty",
+        "AI_impact",
+        "data_infrastructure",
+        "ticker_match:NVDA",
+        "actionability"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "a887c1ddf0c33769",
+      "headline": "What is the state of AI in 2026?",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "slot": 4,
+      "summary": "McKinsey's 2026 State of AI survey of 1,719 professionals across 97 countries finds enterprise AI scaling accelerating (44% scaling enterprise-wide, up from 38%), with large enterprises leading agentic AI adoption at 40% scaling AI agents. Despite 80% of individuals reporting productivity gains, only 37% of organizations attribute any EBIT impact to AI \u2014 flat versus 2025 \u2014 and just 6% qualify as high performers. A striking structural signal: nearly a third of organizations have already decided against purchasing at least one software product because agentic coding tools now enable in-house builds, posing a direct threat to enterprise SaaS budgets.",
+      "why_it_matters": "The persistent productivity-vs-EBIT gap and the in-house build trend driven by agentic coding are structural signals for investors in enterprise software and AI infrastructure \u2014 suggesting SaaS vendors face real budget displacement risk while AI tooling and infrastructure layers continue to capture value.",
+      "signal_tags": [
+        "priority:high",
+        "novelty",
+        "AI_impact",
+        "analytical_depth",
+        "structural_market_insight",
+        "forward_looking"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
