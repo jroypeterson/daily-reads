@@ -12355,5 +12355,86 @@
     "extraction_tier": "tavily",
     "passed": true,
     "reason": "McKinsey's annual State of AI survey is a substantive, data-rich benchmark report with specific findings on enterprise adoption, ROI gaps, agentic coding disruption to SaaS budgets, and workforce expectations \u2014 directly relevant to the reader's strong interests in AI impact, data infrastructure, and competitive moat analysis."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "Picky biotech investors choose AI for Q3's biggest VC raise",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVQc9S7lC1sdW1n62WG3Ffd7qW1HN78y5VRNWMN7KkK225nR3bW7Y9pgv6lZ3nJW553ksZ6325WTW5fsLQ64n0lK3W6HkrRS5L1gmJW2BgMM223hXCbW9gTTSy49sfhsW3_7q5H15CJkjW3XrW9L8w1t_3W7zYWhn6lrp4TW8rzjDz4Mk0JCW258v5X3vM1CDV8QqxJ7cqv9YW1XnJMk1fcmL6W1LdKJB2thYRyW4v47Sk8SRLF7W2KvGTs18hWXVV_4vW36y3qXrW7DQcBY4HHRj8W58Xs933RGxnQW81lQ9p76Q8MRVSQcP37Q-GMmW8GwTKL56MjCRW6hXY4M3LW1jwW3rJ1cp3Byvc2W6tz2439drSR9W1r5Xy54T64LwW5CbrJp2yzW3PW92rzxH15-mPtW930M787rRLdKV-bCXV1gNrYSN3td_2z9hMNSW26kn1D3tvwL1W5RLVTY7kRZcXVh_7Dd6cy7WqW38FcRB60Kyg5VLMMqV1jCbXxN7-PTgk2cTR4W7F9Y7M7r-yvpW3FSJYT6wwW6bN2t8qnSzYjTDN96H715z3_NrW7Mh6R_414ss5W2p9GDr50PQ_Xf4bL1qW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially an empty newsletter shell \u2014 it contains only a headline, a one-sentence intro about VC selectivity, and then sponsor ads, podcast promos, and job listings, with zero substantive content about the Q3 VC raise, AI biotech companies, Vertex M&A, Caribou, or Forbion that the shortlist summary describes."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "The Thin Margin of Safety in Selling Compute",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg3NzM3NzMsImlhdCI6MTc5MTIyMDc5MiwiZXhwIjoxNzkzODEyNzkyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.tb8PN6cau3RdQPca69FsRq0c0AqQ0MEAXVzDSDR0MV0",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep-dive on CoreWeave's compute economics and AI infrastructure margin analysis \u2014 clearly a Tech/AI or Finance piece, not Healthcare/Biotech."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "Why Health AI Pilots in Utah May Be on a Collision Course with the FDA",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains almost no substantive content about the Utah AI sandbox or FDA regulatory collision \u2014 it is essentially a newsletter shell with author bios, a pop culture aside about 'The Love Hypothesis,' and a sign-up prompt, with zero reporting on the headline topic."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "The AI-Powered Future of Care",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article is from McKinsey and touches on relevant AI-in-healthcare themes, but the full text was not retrievable, and the summary reads as generic consulting framing with no specific data, frameworks, or named companies \u2014 insufficient substance for Slot 1 which requires clinical, pipeline, or investment-actionable depth."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "AbbVie, Genmab's Epkinly Stuns in Ph. 3, Teeing Up Polivy Showdown",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/MXj2pcvyVG-W422jyc3rv5hpW5VG-2S5VQkJ6N6WXH-g5nR3bW8wM7ks6lZ3nlW99GY4W6z--6GW8gNt-l4l4brKW8M4txV2J84GBW2kJpQh4rdmc7W8KNWqT8LqTjrW2ZfCzN6P--TZW8rkcF03SHRKzW72n7TR3H2l0QW93H4yK8CFtTMW2H-JM966jH8KW1QwcN02lQTK_W8WJLxX3cTCYwW2Bmgsq7VXHcvW80ZsvQ8_x2kRW1dsqT67Fsr30W15jJ1N1DWhsPW6Nv6L68Z3D1QW2RfVth2pJjHlW6nCQ4J1VZj74W3g-0y92kjD2XW4J32g34J-n_vW3kr6QD56_WWLW63hKdc3zLQMZVw2Q1R4tyCnhW3yFkYX41_YzgW5mZ5fm2HS4x_W37Y6lc1mCMffW409fw71sG79SW7gXDrc68hBmFW7KkcWW5kh4K6W1r2_f41MDKYkN5-PZ6w4C7g6W22H0-98T4fttN1yxtwGrP7b7W8dsCzb4f49Z1W3FM-y115K9hnN7xhPmXLy_StW5hLNH35TQSWZW3QPLzB80lyJzW5r-g1-8lKgH2W5-C7Hq6hcln3W2RZk0r1c5sNpW879hxZ97LyJCW80wFYH4TMZypf6cFKm604",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a newsletter wrapper with only a one-sentence blurb about the Epkinly Phase 3 results \u2014 there is no substantive analysis, trial data breakdown, competitive context, or investment depth to justify selection."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "PhRMA Sues Over Trump Policy Mandating Lower Drug Prices in Medicare",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a substantive regulatory/legal challenge with direct structural implications for biopharma drug pricing power across Medicare, fitting Slot 1 criteria on regulatory affairs and competitive moat analysis aligned with reader preferences."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "Europe Is Financing the US AI Buildout",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ABl7InYiOjEsImQiOjUwMjIsInAiOiJQQyJ9AAwAAAAAA16aa2SVnSro3neUUoax56E-YEKlriKTScqYcrXF_0HnicFgeE1sGMVBjPSX8Ce2qAKKAkmH10tESHRBdr-3o-EUOEV0icTVyTLrhSQssca6iticzLjfWpQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is entirely a subscriber profile/preferences page \u2014 there is no actual article content, data, or analysis present, making it impossible to verify any substantive claims about European financing of US AI infrastructure."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "Healthcare Is Fighting the Wrong AI War",
+    "source": "The Health Care Blog",
+    "url": "https://thehealthcareblog.com/blog/2026/10/07/healthcare-is-fighting-the-wrong-ai-war/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a commentary-style opinion piece from a health blog \u2014 substantive in argument but too editorial and thin on data to meet the analytical depth this reader demands, and it fits Slot 1 (Healthcare) or Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro), with no macro, earnings, or market-structure content."
+  },
+  {
+    "date": "2026-10-07",
+    "headline": "The Thin Margin of Safety in Selling Compute",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg3NzM3NzMsImlhdCI6MTc5MTIyMDc5MiwiZXhwIjoxNzkzODEyNzkyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.tb8PN6cau3RdQPca69FsRq0c0AqQ0MEAXVzDSDR0MV0",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides genuine analytical depth on CoreWeave's unit economics \u2014 revenue per MW, depreciation as % of revenue, EBITDA vs. EBIT framing, and IRR-based valuation \u2014 matching the reader's strong preference for competitive moat analysis, data infrastructure, and investment-relevant structural insight."
   }
 ]

@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-10-07",
+  "generated_at": "2026-10-07T18:24:42Z",
+  "counts": {
+    "gmail_items": 140,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "8d34500a1a6726e7",
+      "headline": "PhRMA Sues Over Trump Policy Mandating Lower Drug Prices in Medicare",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss",
+      "slot": 1,
+      "summary": "PhRMA has filed a lawsuit against the Trump administration's GLOBE pilot program, which ties Medicare reimbursement for certain drugs to international reference prices from peer countries \u2014 potentially reducing prices by 50-80% for affected drugs. The industry argues the program constitutes unlawful price controls dressed up as a voluntary model, while the administration contends it introduces market-based competition. The legal outcome will determine whether international reference pricing becomes a durable structural feature of Medicare drug payment.",
+      "why_it_matters": "If the courts uphold the GLOBE model, it establishes a legal precedent enabling broad international reference pricing across Medicare, compressing margins for large-cap pharma and biopharma names with significant Medicare revenue exposure.",
+      "signal_tags": [
+        "ticker_match:DRUG",
+        "regulatory_affairs",
+        "healthcare_adjacent_finance",
+        "novelty",
+        "actionability",
+        "forward_looking"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "19812ee79972e5fb",
+      "headline": "The Thin Margin of Safety in Selling Compute",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/the-thin-margin-of-safety-in-selling?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg3NzM3NzMsImlhdCI6MTc5MTIyMDc5MiwiZXhwIjoxNzkzODEyNzkyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.tb8PN6cau3RdQPca69FsRq0c0AqQ0MEAXVzDSDR0MV0",
+      "slot": 3,
+      "summary": "MBI Deep Dives dissects CoreWeave's economics as a 'spread business' \u2014 raising debt, buying Nvidia GPUs, and renting them out \u2014 unpacking why EBITDA is misleading (depreciation is 54% of revenue) and why EBIT multiples also flatter capital-intensive compute sellers. The piece builds a bottoms-up MW-based model to estimate what return on capital CoreWeave needs to justify its current stock price, concluding that the margin of safety for equity holders is thin as demand-supply dynamics in compute eventually normalize. It uses this framework to assess the broader risk of commoditization for pure-play compute sellers as hyperscaler supply comes online.",
+      "why_it_matters": "Provides a rigorous, practitioner-grade valuation framework for AI infrastructure equity \u2014 directly actionable for investors weighing whether to own CoreWeave or other compute sellers as the current demand-supply imbalance in GPUs narrows.",
+      "signal_tags": [
+        "priority:high",
+        "data_infrastructure",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth",
+        "actionability"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}

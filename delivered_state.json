@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "009d9880079615d7",
-      "date": "2026-09-22"
-    },
-    {
-      "id": "d8e3c8d042686625",
-      "date": "2026-09-22"
-    },
-    {
       "id": "3738398ce99e3eaa",
       "date": "2026-09-23"
     },
@@ -143,6 +135,14 @@
     {
       "id": "a887c1ddf0c33769",
       "date": "2026-10-06"
+    },
+    {
+      "id": "8d34500a1a6726e7",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "bdfdfe1df365a533",
+      "date": "2026-10-07"
     }
   ],
   "reader_pushed": {
@@ -250,6 +250,9 @@
     "https://www.fiercehealthcare.com/finance/cdr-mckesson-acquiring-infusion-therapy-provider-option-care-health-58b": "2026-10-06",
     "https://reflection.ai/blog/introducing-beam": "2026-10-06",
     "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai": "2026-10-06",
-    "https://mbideepdives.substack.com/p/when-the-ads-come-to-the-data?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5OTYxNDEsImlhdCI6MTc5MTMwNDUzOCwiZXhwIjoxNzkzODk2NTM4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.OSh-LLCpNLqKSDDAemzMLezVJc64ZMicJiZo621kbCg": "2026-10-06"
+    "https://mbideepdives.substack.com/p/when-the-ads-come-to-the-data?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5OTYxNDEsImlhdCI6MTc5MTMwNDUzOCwiZXhwIjoxNzkzODk2NTM4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.OSh-LLCpNLqKSDDAemzMLezVJc64ZMicJiZo621kbCg": "2026-10-06",
+    "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss": "2026-10-07",
+    "https://mbideepdives.substack.com/p/ezcater-and-the-other-half-of-ubers?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTkxNjg1NTAsImlhdCI6MTc5MTM4ODM4NCwiZXhwIjoxNzkzOTgwMzg0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.-wb6k0kWfQh7HbLCWI9y93rMg8RV-UKjGgi8DDN8ZAk": "2026-10-07",
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-06-2026-catalyst-watch": "2026-10-07"
   }
 }
