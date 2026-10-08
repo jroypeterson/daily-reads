@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-10-08",
+  "generated_at": "2026-10-08T18:24:54Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "afdf7abc8798888d",
+      "headline": "Argenx sees unusual setback with failure of late-stage study of drug for autoimmune disease",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/",
+      "slot": 1,
+      "summary": "Argenx reported that Vyvgart (efgartigimod) failed to beat placebo in a Phase 3 trial for Sj\u00f6gren's disease, an unexpected and significant miss given the drug's prior commercial success across other autoimmune indications. The failure is described as unusual for a drug with Vyvgart's track record and removes a meaningful TAM expansion opportunity that Wall Street had been pricing in. The setback compounds earlier pipeline disappointments and raises questions about the limits of FcRn inhibition as a platform across autoimmune diseases.",
+      "why_it_matters": "The Phase 3 failure narrows Vyvgart's peak sales ceiling and is an actionable negative catalyst for ARGX longs, while also serving as a competitive read-through for other FcRn inhibitor developers such as Johnson & Johnson and UCB.",
+      "signal_tags": [
+        "ticker_match:ARGX",
+        "catalyst_proximity",
+        "clinical_trial_data",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "edf8e3075a68444d",
+      "headline": "McKinsey: The AI-powered future of care",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac",
+      "slot": 3,
+      "summary": "McKinsey examines how AI is transforming clinical workflows, patient engagement, and care delivery across health systems, distinguishing where ROI is materializing from where it remains aspirational. The research synthesizes cross-industry evidence to map which AI applications in healthcare are proving durable versus hype-driven. It offers a framework for evaluating digital health and AI-enabled care companies on their ability to capture lasting value.",
+      "why_it_matters": "For investors evaluating health tech SaaS, diagnostics AI, and AI-enabled care platforms, this McKinsey framework helps separate structurally advantaged adopters from companies riding temporary enthusiasm \u2014 directly relevant to competitive moat and deep business diligence.",
+      "signal_tags": [
+        "priority:high",
+        "source:mckinsey",
+        "ai_healthcare_intersection",
+        "ai_impact",
+        "health_software_saas",
+        "actionability"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}

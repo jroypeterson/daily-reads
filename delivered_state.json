@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "3738398ce99e3eaa",
-      "date": "2026-09-23"
-    },
-    {
       "id": "292c23d6b234a5d0",
       "date": "2026-09-24"
     },
@@ -143,6 +139,14 @@
     {
       "id": "bdfdfe1df365a533",
       "date": "2026-10-07"
+    },
+    {
+      "id": "afdf7abc8798888d",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "edf8e3075a68444d",
+      "date": "2026-10-08"
     }
   ],
   "reader_pushed": {
@@ -253,6 +257,10 @@
     "https://mbideepdives.substack.com/p/when-the-ads-come-to-the-data?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg5OTYxNDEsImlhdCI6MTc5MTMwNDUzOCwiZXhwIjoxNzkzODk2NTM4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.OSh-LLCpNLqKSDDAemzMLezVJc64ZMicJiZo621kbCg": "2026-10-06",
     "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss": "2026-10-07",
     "https://mbideepdives.substack.com/p/ezcater-and-the-other-half-of-ubers?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTkxNjg1NTAsImlhdCI6MTc5MTM4ODM4NCwiZXhwIjoxNzkzOTgwMzg0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.-wb6k0kWfQh7HbLCWI9y93rMg8RV-UKjGgi8DDN8ZAk": "2026-10-07",
-    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-06-2026-catalyst-watch": "2026-10-07"
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-06-2026-catalyst-watch": "2026-10-07",
+    "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/": "2026-10-08",
+    "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac": "2026-10-08",
+    "https://aletteraday.substack.com/p/letter-346-austin-beautner-2016?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNzYzNzg4MDEsImlhdCI6MTc5MTQyMTU0MCwiZXhwIjoxNzk0MDEzNTQwLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.luR5K7gSX6cFuw6FtIddjcVSWw3aov_cNvSkQcJ_m5c": "2026-10-08",
+    "https://www.gmo.com/americas/research-library/25-years-of-benchmark-free-investing_whitepaper": "2026-10-08"
   }
 }

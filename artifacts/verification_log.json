@@ -12436,5 +12436,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article provides genuine analytical depth on CoreWeave's unit economics \u2014 revenue per MW, depreciation as % of revenue, EBITDA vs. EBIT framing, and IRR-based valuation \u2014 matching the reader's strong preference for competitive moat analysis, data infrastructure, and investment-relevant structural insight."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "STAT+: AI for breast cancer risk prediction goes DTC, regulatory cloud over Utah sandbox, and AI psychosis",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text is not accessible and the article body was truncated to navigation/UI chrome with no substantive content to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "McKinsey: The AI-powered future of care",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "McKinsey's AI-in-healthcare content is well-suited to the reader's interests but belongs in Slot 3 (Tech/AI) rather than Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, M&A, or pipeline news \u2014 not consulting frameworks on AI adoption."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "Argenx sees unusual setback with failure of late-stage study of drug for autoimmune disease",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a concrete Phase 3 failure for ARGX's Vyvgart in Sj\u00f6gren's disease \u2014 a direct, high-impact catalyst event with clear investment implications for peak sales estimates and the broader FcRn inhibitor class."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "PhRMA launches new legal challenge as CMS brings 'most favored nation' pricing to Medicare Part B",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/pharma/phrma-launches-new-legal-challenge-cms-brings-most-favored-nation-pricing-medicare-part-b",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive and covers a genuinely important policy development, but it fits better as a healthcare/biopharma regulatory story (Slot 1) than a finance/macro story (Slot 2), and the reader's AVOID patterns include niche therapeutics and generic market coverage \u2014 however the stronger issue is slot fit, as the piece is primarily a legal/regulatory update on PhRMA's lawsuit rather than a finance or macro analysis with investment-actionable depth on earnings, reimbursement modeling, or sector rotation dynamics."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "BCG: The Formula for Five Times More AI Value (Agentic AI)",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGktXHnvRZA4mS-0UDg-Z3MujvlGGYNEeGRW4zdCzavO40nFuoD-hTlkBX8leLvJLJE7ju0JUI=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin BCG marketing email newsletter \u2014 essentially a promotional teaser with image links and no substantive content \u2014 not a deep analytical report with benchmarking data or actionable frameworks."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "[scuttleslops] META, MU, NVDA, LW, open web advertising",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a fragment/preview page showing only teaser snippets of multiple unrelated scuttleslops posts with no substantive content \u2014 the actual analysis of META, MU, NVDA, or open web advertising is paywalled and not present in the provided text."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "France Is Veering Toward a Potential Debt Crisis, a Warning to the World",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/10/08/business/france-bond-yields.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is too thin and generic \u2014 the full text is largely introductory framing with no quantitative depth on spread levels, deficit trajectories, or contagion mechanics, making it insufficient for a reader seeking analytical depth and investment-relevant structural insight."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "Vaxcyte rises as pneumococcal shot beats Pfizer, Merck",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVqfr18F88FvW3-yyXj8MkcFRW3X6sTS5VNdCmN3wqV7M5nR3bW7Y9pgv6lZ3p3W1T6CfB6xM9NHW6ttnTt4Y0Vj-W4nXJKV6PZPW_W5Yz-Dd2X-Xm1W2GTJn96W4zGYW6CCsHx20qSJRW5hcGYJ4s0PQBVgnmQR27bTmkW4TWK-Y9gXcvlW3k2SC037YrClW98tgRd3HTcCVW6q680S2VSnmfW5pNCM383lPgpF5MQXhCSQTLW9gMZh16Lx7pFW5K0sZJ1zcN-pW7RQGpY20pkydW6sHZdJ5dPbrMW3cjcf41vRZCtW1JMDP61yW9pfW3rpDvk2XJ6DlW18j2qJ4G_NtwW49RTCW6gx4NVW6Lp33n1xmS_sW7l5YGf8R6RwlW5hfKgN6GxWGNW1gDCFt7M-TzYW4fw2XD2V_gKBW2Zd_Jh8JwFJqW4rp9Yw5H2hYJN1gRYMxjlp84W3V9rnr5fjpNxW186qqs1CQyf8N8d3G-Qv3NgQW1PVSbN77lv3lN1fGkjbWyw09W1tTMSx2KN1C1N8t-TtXksRGZW8Tn4pD2KRFCjW4YKY8k4N7ZyTV2kW8K4m5BHhW4dFybp5K4pWnf4C-WfF04",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Slot 1 (Healthcare/Biotech) story about clinical trial data and competitive pipeline dynamics, not a Slot 2 Finance/Macro article, and BioSpace is not a preferred finance domain source."
+  },
+  {
+    "date": "2026-10-08",
+    "headline": "McKinsey: The AI-powered future of care",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority consulting source whose AI-in-healthcare research aligns strongly with the reader's documented preferences for AI impact, health tech SaaS, competitive moat analysis, and analytical depth \u2014 and the topic fits Slot 3's AI focus with healthcare application bonus."
   }
 ]
