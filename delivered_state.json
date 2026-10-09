@@ -1,22 +1,6 @@
 {
   "delivered": [
     {
-      "id": "292c23d6b234a5d0",
-      "date": "2026-09-24"
-    },
-    {
-      "id": "05349fa6b20b4fd4",
-      "date": "2026-09-24"
-    },
-    {
-      "id": "bdd4ed83cef1db09",
-      "date": "2026-09-24"
-    },
-    {
-      "id": "14259753b2cb233d",
-      "date": "2026-09-24"
-    },
-    {
       "id": "f300d1bae43efe11",
       "date": "2026-09-25"
     },
@@ -147,6 +131,18 @@
     {
       "id": "edf8e3075a68444d",
       "date": "2026-10-08"
+    },
+    {
+      "id": "44484d9f47214c79",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "9edf1d364ccc624d",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "96f6bcf97bcaf11f",
+      "date": "2026-10-09"
     }
   ],
   "reader_pushed": {
@@ -261,6 +257,11 @@
     "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/": "2026-10-08",
     "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac": "2026-10-08",
     "https://aletteraday.substack.com/p/letter-346-austin-beautner-2016?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoxNzYzNzg4MDEsImlhdCI6MTc5MTQyMTU0MCwiZXhwIjoxNzk0MDEzNTQwLCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.luR5K7gSX6cFuw6FtIddjcVSWw3aov_cNvSkQcJ_m5c": "2026-10-08",
-    "https://www.gmo.com/americas/research-library/25-years-of-benchmark-free-investing_whitepaper": "2026-10-08"
+    "https://www.gmo.com/americas/research-library/25-years-of-benchmark-free-investing_whitepaper": "2026-10-08",
+    "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/": "2026-10-09",
+    "https://www.nytimes.com/2026/10/09/business/medicare-private-health-care-costs.html": "2026-10-09",
+    "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qlH-6f6LeYjsfVArKe4q39-aDj0jrUOGgUGEQl8QH-OKJ4O96NS8XSIku-X8Mf0Jg%3D": "2026-10-09",
+    "https://mbideepdives.substack.com/p/room-at-the-top?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTk1MDM5MDAsImlhdCI6MTc5MTU2MzA1MiwiZXhwIjoxNzk0MTU1MDUyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.nIbSUDsgNJAR_Cw4-o8GQDP7vGJIu1bTvVQ2HxxIeP4": "2026-10-09",
+    "https://mbideepdives.substack.com/p/quantifying-my-aws-vibes?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTkzMjg1MTgsImlhdCI6MTc5MTQ4Mzc0NywiZXhwIjoxNzk0MDc1NzQ3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.LMfamO1A833iXAJQrAZSr_LVo3OisxA1X2SFMp7T5XM": "2026-10-09"
   }
 }

@@ -1,0 +1,70 @@
+{
+  "run_date": "2026-10-09",
+  "generated_at": "2026-10-09T17:57:33Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "44484d9f47214c79",
+      "headline": "Medicare Advantage star ratings trigger new bonuses, and uncertainty",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/",
+      "slot": 1,
+      "summary": "CMS released 2027 Medicare Advantage star ratings showing only 37% of contracts earned four stars or higher, down from ~44% in 2026, tightening the quality bonus pool industrywide. Humana was the standout winner, with 95% of its members now in 4-star-or-higher plans versus just 20% a year ago, a dramatic turnaround that will flow through to 2028 quality bonus payments. The release coincides with the October 15 open enrollment window, making star ratings an immediate driver of member attrition or retention across major managed care players.",
+      "why_it_matters": "Humana's (HUM) star rating reversal is a direct re-rating catalyst with billions in 2028 bonus payments at stake, while weaker performers face enrollment headwinds during the upcoming open enrollment period \u2014 making this a high-priority read for managed care and health insurance investors.",
+      "signal_tags": [
+        "ticker_match:HUM",
+        "ticker_match:STAR",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9edf1d364ccc624d",
+      "headline": "Private Medicare Plans Are Raising Costs And Forcing Millions To Find New Insurance",
+      "source": "NYT Business",
+      "url": "https://www.nytimes.com/2026/10/09/business/medicare-private-health-care-costs.html",
+      "slot": 2,
+      "summary": "As the October 15 Medicare Advantage open enrollment window opens, insurers are pulling back from markets, cutting benefits, and raising premiums amid rising medical costs, rate pressure, and star ratings challenges. Millions of beneficiaries are being forced to shop for new coverage, with the piece examining which insurers are retreating most aggressively. The structural squeeze on MA margins is reshaping competitive dynamics across managed care.",
+      "why_it_matters": "MA market contraction is a direct headwind for HUM, ELV, and UNH \u2014 and with open enrollment and star ratings releases coinciding, this is a near-term catalyst for positioning in managed care names.",
+      "signal_tags": [
+        "ticker_match:HUM",
+        "catalyst_proximity",
+        "regulatory_affairs",
+        "actionability",
+        "payer_dynamics"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "96f6bcf97bcaf11f",
+      "headline": "McKinsey: The AI-powered future of care",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qlH-6f6LeYjsfVArKe4q39-aDj0jrUOGgUGEQl8QH-OKJ4O96NS8XSIku-X8Mf0Jg%3D",
+      "slot": 3,
+      "summary": "McKinsey's research examines AI's role across the care continuum \u2014 clinical decision support, administrative automation, and operational efficiency \u2014 distinguishing where measurable outcomes exist versus where hype dominates. The report likely benchmarks productivity and cost impacts across provider and payer settings, offering a consulting-grade framework for evaluating health AI investments. It positions AI adoption in healthcare as a capital allocation question as much as a clinical one.",
+      "why_it_matters": "McKinsey's framing of AI ROI in healthcare directly shapes board-level spending decisions at health systems and payers, making it a leading indicator for capital flows into health IT vendors and digital health platforms in the coverage universe.",
+      "signal_tags": [
+        "priority:high",
+        "source:mckinsey",
+        "ai_and_biology_intersection",
+        "ai_impact",
+        "health_software_saas",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}

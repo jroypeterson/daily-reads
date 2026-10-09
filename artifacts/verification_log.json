@@ -12517,5 +12517,95 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey is a high-priority consulting source whose AI-in-healthcare research aligns strongly with the reader's documented preferences for AI impact, health tech SaaS, competitive moat analysis, and analytical depth \u2014 and the topic fits Slot 3's AI focus with healthcare application bonus."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+    "source": "Hacker News / dgt.is",
+    "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a subjective developer blog post / Hacker News opinion piece about personal AI coding workflow preferences \u2014 it has no relevance to Healthcare/Biotech (Slot 1) and lacks the analytical depth, data rigor, or investment relevance required for any slot in the digest."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Medicare Advantage star ratings trigger new bonuses, and uncertainty",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, actionable detail on CMS's 2027 Medicare Advantage star ratings \u2014 including specific contract-level winners and losers, the mechanics of quality bonus payments, and near-term enrollment implications \u2014 directly relevant to managed care investors with a clear catalyst (Oct 15 open enrollment window and 2028 bonus payments)."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "BCG: The Formula for Five Times More AI Value (Agentic AI)",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGktXHnvRZA4mS-0UDg-Z3MujvlGGYNEeGRW4zdCzavO40nFuoD-hTlkBX8leLvJLJE7ju0JUI=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is essentially a BCG marketing email shell with no substantive analysis \u2014 it contains only a headline, a one-sentence teaser ('companies combining strategic clarity with applied AI generate five times as much value'), and promotional CTAs, with zero framework detail, data, or actionable insights visible in the actual text."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "AI, Tech Leaders Are Lobbying Trump Health Officials in a Government-Run Chat Room",
+    "source": "KFF Health News",
+    "url": "https://kffhealthnews.org/health-industry/ai-tech-lobbying-medicare-medical-records-apps-trump-cms-slack-fda/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive investigative journalism but fits Slot 1 (Healthcare/regulatory) or Slot 4 (Wildcard) far better than Slot 2 (Finance/Macro), as it lacks meaningful market-moving financial analysis, earnings relevance, or macro investment framing despite touching on health data governance themes."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "McKinsey: The AI-powered future of care",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qlH-6f6LeYjsfVArKe4q39-aDj0jrUOGgUGEQl8QH-OKJ4O96NS8XSIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This McKinsey piece belongs to Slot 3 (Tech/AI applied to healthcare) or Slot 4 (Wildcard/consulting insight) rather than Slot 2 Finance/Macro, and the summary is speculative ('likely quantifies') since the full article couldn't be fetched, making the content too uncertain to verify substantive depth."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Viatris boosts pain drug portfolio with $1.7B buyout of Pacira",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/viatris-pacira-acquire-pain-drug-zilretto-exparel/832481/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a straightforward M&A news brief with moderate depth \u2014 it covers deal terms, patent cliff risks, and analyst commentary \u2014 but it fits Slot 1 (Healthcare/Biopharma M&A) far better than Slot 2 (Finance/Macro), and it lacks the macro, market structure, or payer-dynamics angle that would qualify it for the finance slot."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "MBI Deep Dives: Quantifying My AWS 'Vibes'",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/quantifying-my-aws-vibes",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely a teaser/intro with the substantive AWS analysis locked behind a paywall \u2014 the freely available content is thin, consisting mainly of a meme embed, a note about MBI's AI-assisted modeling workflow, and a promise to share the model and analysis to subscribers only."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Private Medicare Plans Are Raising Costs And Forcing Millions To Find New Insurance",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/10/09/business/medicare-private-health-care-costs.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article covers a structural shift in the Medicare Advantage market \u2014 insurer exits, rising costs, and open enrollment disruption \u2014 with direct investment relevance to managed care names like HUM, ELV, and UNH during a catalyst-rich window."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+    "source": "Hacker News / dgt.is",
+    "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin, first-person developer blog post with anecdotal usage impressions rather than substantive analysis of DeepSeek's technical architecture, competitive dynamics, or investment implications \u2014 it lacks the analytical depth the reader profile strongly demands."
+  },
+  {
+    "date": "2026-10-09",
+    "headline": "McKinsey: The AI-powered future of care",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a116ab5757a488dff4bbe5be50/ecb5c2a0979a465c0000021ef3a0bcc2/ecb5c2a0-979a-465c-acb1-46e2c7fd2dac?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qlH-6f6LeYjsfVArKe4q39-aDj0jrUOGgUGEQl8QH-OKJ4O96NS8XSIku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's AI-in-healthcare research fits the reader's strong interest in AI impact and health technology, and as a consulting source with board-level influence, it meets the depth and actionability bar for Slot 3 even with limited full-text access."
   }
 ]
