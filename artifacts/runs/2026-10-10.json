@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-10-10",
+  "generated_at": "2026-10-10T16:50:28Z",
+  "counts": {
+    "gmail_items": 132,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "16bd3df198f4d058",
+      "headline": "Humana rebounds, Aetna slips: Winners and losers in the 2027 MA star ratings",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/payers/humana-rebounds-aetna-slips-winners-and-losers-2027-ma-star-ratings",
+      "slot": 1,
+      "summary": "CMS released 2027 Medicare Advantage star ratings, with Humana emerging as the dominant winner \u2014 93% of its members are now in 4-star-or-higher plans, up from just 20% in 2026, restoring eligibility for quality bonus payments and triggering a significant share price reaction. CVS Health's Aetna is the notable loser, with 4-star member share falling to 69% from 81%, as three of its four largest contracts declined. UnitedHealthcare also saw modest deterioration (67% from 78%), while Clover Health reversed dramatically from 3% to 100% in 4-star plans amid ongoing litigation that could prompt further legal challenges from disadvantaged insurers.",
+      "why_it_matters": "Star ratings directly determine eligibility for billions in CMS quality bonus payments, making this a high-impact catalyst for managed care earnings in 2027-2028 and reshaping competitive positioning across the Medicare Advantage sector heading into October open enrollment.",
+      "signal_tags": [
+        "ticker_match:HUM",
+        "ticker_match:STAR",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "33bd97fd80d76616",
+      "headline": "Room at the Top (MBI Deep Dives)",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/room-at-the-top",
+      "slot": 2,
+      "summary": "MBI Deep Dives dissects the extraordinary concentration of the S&P 500, showing that the bottom 434 companies by market cap equal the top 5 \u2014 a level exceeding the dot-com peak \u2014 and argues this isn't mere valuation distortion since earnings and capex are equally concentrated (hyperscaler LTM capex of ~$586B matches the bottom ~420 firms combined). The piece explores the churn dynamic within the concentrated group, noting nearly half of the top 15 S&P 500 companies in 2026 weren't on the list in 2022, driven by AI value chain winners displacing non-participants. It closes by asking whether Schumpeterian creative destruction will continue to refresh the top or whether political backlash from entrenched concentration becomes a structural risk.",
+      "why_it_matters": "Practitioner-grade structural analysis of index concentration and AI capex dynamics that directly informs portfolio construction decisions \u2014 particularly factor exposure to mega-cap vs. the rest, and whether today's capex buildout translates into tomorrow's earnings moats or regulatory headwinds.",
+      "signal_tags": [
+        "priority:high",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "structural_market_insight",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

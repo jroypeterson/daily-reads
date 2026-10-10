@@ -12607,5 +12607,95 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's AI-in-healthcare research fits the reader's strong interest in AI impact and health technology, and as a consulting source with board-level influence, it meets the depth and actionability bar for Slot 3 even with limited full-text access."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "Humana rebounds, Aetna slips: Winners and losers in the 2027 MA star ratings",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/humana-rebounds-aetna-slips-winners-and-losers-2027-ma-star-ratings",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive, data-rich coverage of the 2027 MA star ratings with specific percentage breakdowns per carrier, analyst commentary from Capstone and Stephens, and direct earnings implications via quality bonus payment eligibility \u2014 well-suited for Slot 1 with clear investment relevance across HUM, CVS, UNH, ELV, and CNC."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "The Formula for Five Times More AI Value (BCG Applied AI Index 2026)",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGktXHnvRZA4mS-0UDg-Z3MujvlGGYNEeGRW4zdCzavO40nFuoD-hTlkBX8leLvJLJE7ju0JUI=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a BCG marketing newsletter shell \u2014 the full text is almost entirely tracking-link redirects with no substantive analysis, data, or methodology visible, making it impossible to verify the claimed depth of the 2026 Applied AI Index findings."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "It's Not You, It's Me (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/its-not-you-its-me/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest/table of contents from Stratechery, not a substantive article \u2014 it contains only brief teasers for multiple pieces with no analytical depth, and it is a poor fit for Slot 2 (Finance/Macro) as the content is primarily tech platform strategy and geopolitics with no macro, earnings, or market-moving financial analysis."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "Room at the Top (MBI Deep Dives)",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/room-at-the-top",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Substantive, analytically rigorous piece on S&P 500 concentration with original data framing \u2014 earnings, capex, and market cap equally concentrated \u2014 directly relevant to portfolio construction, factor risk, and mega-cap vs. rest long/short frameworks, matching both the slot theme and the reader's strong preferences for structural market insight and analytical depth."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "The Formula for Five Times More AI Value (BCG Applied AI Index 2026)",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGktXHnvRZA4mS-0UDg-Z3MujvlGGYNEeGRW4zdCzavO40nFuoD-hTlkBX8leLvJLJE7ju0JUI=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is essentially a marketing email shell from BCG with tracked redirect links and no substantive body text \u2014 the actual index findings, data, and analysis are behind a click-through, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "It's Not You, It's Me (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/its-not-you-its-me/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter index/digest \u2014 it lists article titles and brief teasers without delivering substantive analysis on any topic, making it too thin to meet the depth standard required for Slot 3."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "AI's Insensitivity to Interest Rates Is a Problem for the Fed",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMjQsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAANppGsXKQuB17CcWjogv_RuseGX_E47bOdWNZhe-zd9hGYpbHG8Jtt1kVgMgOXIFatwDJejBA-l9RVXsGBOrRfGQ9iAD0LIa1fBQft5yjeoArrSjeC0rRca",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is not the actual article \u2014 it is a subscription profile/preferences page with no substantive content, making it impossible to verify the shortlist summary's claims about rate-insensitivity, Dutch disease dynamics, or Fed policy transmission."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "STAT+: Medicare Advantage star ratings trigger new bonuses, and uncertainty",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a paywalled STAT+ article with no substantive content visible beyond navigation chrome \u2014 it contains zero actual reporting on Medicare Advantage star ratings, Humana, or CMS methodology \u2014 and it belongs to Slot 1 (Healthcare/Finance) not Slot 3 (Tech/AI)."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "Smaller biotechs hit hard by Trump's new tariffs",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MWgN0JK-9cQW77ZVHk4RCQ84W5yX2x95VWbxrN4lQrKK3qgz0W7lCdLW6lZ3nXW44VJyW4jpwzkW3NW92z2qYjbbW3VVTYL5ZB5djW1BD34D2HT4NvW9hJ3zd4cqsrBN3kYmgLGYWr2W3mZ8NR84hhBCW38yTkP6pgvD7W97pRwX6qMGtTW1l_qpq3_P7xLW8WSj_b4lqtS9VVqCd86k8Z_6M2Kw01DyCtrW82kBY21CR5DXW4pRrYX9bQJf0V-rtrj2y4qJYN7KvJNsXmN50N1fc71Pc-gbrW8_0pFD66WR-CN1MGMY0tVY1rW38zD0C7ZQxKDW3VBKtw4W7hzPW1QM3hw9chS75W4CqwmK4TbWYFf5qVzpY04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is fully paywalled \u2014 the actual content is inaccessible, leaving only a STAT+ subscription marketing page with no substantive reporting to evaluate."
+  },
+  {
+    "date": "2026-10-10",
+    "headline": "Which health systems have AI chiefs",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/whos-leading-ai-at-top-health-systems/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The actual article content is essentially empty \u2014 it contains no substantive list, no analysis of governance structures, no reporting lines, and no vendor/build-vs-buy insights; it is a stub that prompts readers to email for inclusion and redirects to unrelated 'Most Read' links."
   }
 ]
