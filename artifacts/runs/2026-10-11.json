@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-10-11",
+  "generated_at": "2026-10-11T17:16:13Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 79,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "dd4caab0dfeefd33",
+      "headline": "Vaxcyte rises as pneumococcal shot beats Pfizer, Merck",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVqfr18F88FvW3-yyXj8MkcFRW3X6sTS5VNdCmN3wqV7M5nR3bW7Y9pgv6lZ3p3W1T6CfB6xM9NHW6ttnTt4Y0Vj-W4nXJKV6PZPW_W5Yz-Dd2X-Xm1W2GTJn96W4zGYW6CCsHx20qSJRW5hcGYJ4s0PQBVgnmQR27bTmkW4TWK-Y9gXcvlW3k2SC037YrClW98tgRd3HTcCVW6q680S2VSnmfW5pNCM383lPgpF5MQXhCSQTLW9gMZh16Lx7pFW5K0sZJ1zcN-pW7RQGpY20pkydW6sHZdJ5dPbrMW3cjcf41vRZCtW1JMDP61yW9pfW3rpDvk2XJ6DlW18j2qJ4G_NtwW49RTCW6gx4NVW6Lp33n1xmS_sW7l5YGf8R6RwlW5hfKgN6GxWGNW1gDCFt7M-TzYW4fw2XD2V_gKBW2Zd_Jh8JwFJqW4rp9Yw5H2hYJN1gRYMxjlp84W3V9rnr5fjpNxW186qqs1CQyf8N8d3G-Qv3NgQW1PVSbN77lv3lN1fGkjbWyw09W1tTMSx2KN1C1N8t-TtXksRGZW8Tn4pD2KRFCjW4YKY8k4N7ZyTV2kW8K4m5BHhW4dFybp5K4pWnf4C-WfF04",
+      "slot": 1,
+      "summary": "Vaxcyte's VAX-31 pneumococcal conjugate vaccine exceeded expectations in a Phase 3 trial by outperforming both Pfizer's Prevnar and Merck's competing shot on key immunogenicity endpoints, positioning the company to challenge the existing Big Pharma duopoly in an $8 billion market. The newsletter also covers Genentech's $1.27B deal with Alector for a preclinical blood-brain barrier delivery technology platform, and CSL's up-to-$1.6B partnership with Alentis for an autoimmune drug targeting kidney and liver conditions. Additionally, a CAR T safety debate in autoimmune disease is examined as Kyverna Therapeutics approaches market with the first CAR T for autoimmune indication.",
+      "why_it_matters": "The Vaxcyte Phase 3 beat represents a direct competitive disruption catalyst in a large, established vaccine market \u2014 creating actionable implications for positions in PCVX, PFE, and MRK, while the Genentech/Alector and CSL/Alentis deals signal continued big-pharma appetite for platform and pipeline M&A.",
+      "signal_tags": [
+        "ticker_match:PCVX",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8429ac12a710f4f3",
+      "headline": "It's Not You, It's Me (This Week in Stratechery)",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future",
+      "slot": 3,
+      "summary": "Ben Thompson's Mac Mini was compromised via an actively-exploited macOS screen-sharing vulnerability (CVE-2026-65400), and notably, his Claude Code agent detected the intrusion autonomously\u2014stopping command execution and guiding remediation before Thompson found the public disclosure. He uses this experience to examine Apple's ambivalence toward agentic AI: macOS is uniquely well-suited as an agent host (Unix tooling, scriptability, accessibility APIs), yet Apple is tightening Full Disk Access controls in ways that may undermine that capability. The piece concludes with Thompson\u2014for the first time\u2014seriously contemplating moving away from Apple, framing it as a platform-loyalty inflection point driven by AI.",
+      "why_it_matters": "Apple's tightening grip on Full Disk Access is a structural threat to its developer loyalty moat precisely when openness is becoming the key competitive variable in the agentic AI stack\u2014with direct implications for AAPL's platform durability and the broader enterprise AI infrastructure landscape.",
+      "signal_tags": [
+        "ticker_match:AAPL",
+        "high_priority_source",
+        "ai_impact",
+        "competitive_moat_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    }
+  ]
+}

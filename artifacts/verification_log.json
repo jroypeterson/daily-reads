@@ -12697,5 +12697,86 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "The actual article content is essentially empty \u2014 it contains no substantive list, no analysis of governance structures, no reporting lines, and no vendor/build-vs-buy insights; it is a stub that prompts readers to email for inclusion and redirects to unrelated 'Most Read' links."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "This algorithm wants your mammogram",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article excerpt provided is too thin \u2014 it's essentially a teaser/intro paragraph with no substantive analysis of the regulatory, reimbursement, or clinical AI commercialization dynamics hinted at in the shortlist summary, making it impossible to confirm the depth needed for Slot 1."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "AI's Insensitivity to Interest Rates Is a Problem for the Fed",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMjQsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAANppGsXKQuB17CcWjogv_RuseGX_E47bOdWNZhe-zd9hGYpbHG8Jtt1kVgMgOXIFatwDJejBA-l9RVXsGBOrRfGQ9iAD0LIa1fBQft5yjeoArrSjeC0rRca",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is not accessible \u2014 it resolves to a subscription profile/preferences page with no actual article content, making it impossible to verify substance or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "It's Not You, It's Me (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/apple-and-a-hackers-future",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Stratechery Tech/AI article about Apple's developer ecosystem and AI agents \u2014 it has no healthcare or biopharma content and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "Smaller biotechs hit hard by Trump's new tariffs",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MWgN0JK-9cQW77ZVHk4RCQ84W5yX2x95VWbxrN4lQrKK3qgz0W7lCdLW6lZ3nXW44VJyW4jpwzkW3NW92z2qYjbbW3VVTYL5ZB5djW1BD34D2HT4NvW9hJ3zd4cqsrBN3kYmgLGYWr2W3mZ8NR84hhBCW38yTkP6pgvD7W97pRwX6qMGtTW1l_qpq3_P7xLW8WSj_b4lqtS9VVqCd86k8Z_6M2Kw01DyCtrW82kBY21CR5DXW4pRrYX9bQJf0V-rtrj2y4qJYN7KvJNsXmN50N1fc71Pc-gbrW8_0pFD66WR-CN1MGMY0tVY1rW38zD0C7ZQxKDW3VBKtw4W7hzPW1QM3hw9chS75W4CqwmK4TbWYFf5qVzpY04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is a STAT+ paywall page with no substantive content \u2014 only subscription marketing copy \u2014 so there is nothing to evaluate beyond the headline."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "AbbVie, Genmab's Epkinly stuns in Ph. 3, teeing up Polivy showdown",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/MXj2pcvyVG-W422jyc3rv5hpW5VG-2S5VQkJ6N6WXH-g5nR3bW8wM7ks6lZ3nlW99GY4W6z--6GW8gNt-l4l4brKW8M4txV2J84GBW2kJpQh4rdmc7W8KNWqT8LqTjrW2ZfCzN6P--TZW8rkcF03SHRKzW72n7TR3H2l0QW93H4yK8CFtTMW2H-JM966jH8KW1QwcN02lQTK_W8WJLxX3cTCYwW2Bmgsq7VXHcvW80ZsvQ8_x2kRW1dsqT67Fsr30W15jJ1N1DWhsPW6Nv6L68Z3D1QW2RfVth2pJjHlW6nCQ4J1VZj74W3g-0y92kjD2XW4J32g34J-n_vW3kr6QD56_WWLW63hKdc3zLQMZVw2Q1R4tyCnhW3yFkYX41_YzgW5mZ5fm2HS4x_W37Y6lc1mCMffW409fw71sG79SW7gXDrc68hBmFW7KkcWW5kh4K6W1r2_f41MDKYkN5-PZ6w4C7g6W22H0-98T4fttN1yxtwGrP7b7W8dsCzb4f49Z1W3FM-y115K9hnN7xhPmXLy_StW5hLNH35TQSWZW3QPLzB80lyJzW5r-g1-8lKgH2W5-C7Hq6hcln3W2RZk0r1c5sNpW879hxZ97LyJCW80wFYH4TMZypf6cFKm604",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a newsletter digest with only a brief teaser sentence about Epkinly's Phase 3 results and no substantive analysis, clinical data breakdown, competitive positioning depth, or investment-relevant detail \u2014 it's too thin to meet the depth standard required for Slot 1."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "The Formula for Five Times More AI Value (Agentic AI)",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGktXHnvRZA4mS-0UDg-Z3MujvlGGYNEeGRW4zdCzavO40nFuoD-hTlkBX8leLvJLJE7ju0JUI=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a BCG marketing email with minimal substantive content \u2014 the full article text is essentially a promotional teaser with tracking links, not a deep analytical piece, and it belongs to Slot 3 (Tech/AI) not Slot 1 (Healthcare/Biotech)."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "Vaxcyte rises as pneumococcal shot beats Pfizer, Merck",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVqfr18F88FvW3-yyXj8MkcFRW3X6sTS5VNdCmN3wqV7M5nR3bW7Y9pgv6lZ3p3W1T6CfB6xM9NHW6ttnTt4Y0Vj-W4nXJKV6PZPW_W5Yz-Dd2X-Xm1W2GTJn96W4zGYW6CCsHx20qSJRW5hcGYJ4s0PQBVgnmQR27bTmkW4TWK-Y9gXcvlW3k2SC037YrClW98tgRd3HTcCVW6q680S2VSnmfW5pNCM383lPgpF5MQXhCSQTLW9gMZh16Lx7pFW5K0sZJ1zcN-pW7RQGpY20pkydW6sHZdJ5dPbrMW3cjcf41vRZCtW1JMDP61yW9pfW3rpDvk2XJ6DlW18j2qJ4G_NtwW49RTCW6gx4NVW6Lp33n1xmS_sW7l5YGf8R6RwlW5hfKgN6GxWGNW1gDCFt7M-TzYW4fw2XD2V_gKBW2Zd_Jh8JwFJqW4rp9Yw5H2hYJN1gRYMxjlp84W3V9rnr5fjpNxW186qqs1CQyf8N8d3G-Qv3NgQW1PVSbN77lv3lN1fGkjbWyw09W1tTMSx2KN1C1N8t-TtXksRGZW8Tn4pD2KRFCjW4YKY8k4N7ZyTV2kW8K4m5BHhW4dFybp5K4pWnf4C-WfF04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has real substance \u2014 Vaxcyte's VAX-31 Phase 3 data beating both Pfizer's Prevnar and Merck's competing vaccine on immunogenicity endpoints is a concrete, high-impact clinical catalyst in an $8B market, with direct competitive moat implications for all three companies."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "Oracle Health data breach in 2025 compromised data of 20M people: report",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/oracle-health-data-breach-2025-compromised-data-20m-people-report",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a news summary of an ongoing breach story (originally reported months ago) with no new analytical depth, macro framing, or forward-looking investment insight \u2014 it aggregates already-public facts and does not fit Slot 2's finance/macro mandate, nor does it offer the structural market or competitive moat analysis this reader values."
+  },
+  {
+    "date": "2026-10-11",
+    "headline": "It's Not You, It's Me (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.com/2026/apple-and-a-hackers-future",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Thompson's piece has genuine analytical depth, using a real personal hacking incident as a concrete lens to examine Apple's structural tension with agentic AI development\u2014directly relevant to the reader's strong interest in AI infrastructure and competitive moat analysis."
   }
 ]
