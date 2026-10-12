@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-10-12",
+  "generated_at": "2026-10-12T20:48:03Z",
+  "counts": {
+    "gmail_items": 135,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "817b63c3fd36281a",
+      "headline": "Pharma's $500B Patent Problem Will Come in Waves \u2014 Not as a Cliff",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/pharma-patent-cliff-merck-abbvie-dealmaking/832700/",
+      "slot": 1,
+      "summary": "Evaluate/Norstella data shows over $500B in global prescription drug sales at risk from patent expiry between 2026 and 2032, with exposure peaking at $158B in 2031 rather than in a single 'cliff' year. Merck faces the most acute near-term pressure via Keytruda's 2028 expiry ($99B at risk that year alone), while AbbVie's challenge intensifies in 2032 as Rinvoq and Skyrizi lose protection. The sequencing is already driving aggressive M&A \u2014 Merck has deployed $30.9B across six deals since 2024, with AbbVie, Lilly, J&J, and Sanofi also spending heavily to refill pipelines.",
+      "why_it_matters": "The staggered, wave-like structure of patent losses creates differentiated windows for biosimilar entry, M&A necessity, and pipeline-dependent recovery across large-cap pharma \u2014 essential for calibrating position sizing and deal probability in names like ABBV and MRK.",
+      "signal_tags": [
+        "ticker_match:ABBV",
+        "ticker_match:MRK",
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "deep_business_diligence",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "be773b0deb9ac2d2",
+      "headline": "The Transcript 3Q26 Letter: Key Themes from Q3 2026 Through C-Suite Quotes",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter",
+      "slot": 2,
+      "summary": "The Transcript's Q3 2026 quarterly letter synthesizes dominant themes from the earnings call cycle through direct C-suite quotes: AI capex has grown to rival the US defense budget and is contributing to sticky inflation and higher long-term rates; new Fed Chair Kevin Warsh is deliberately stepping back from yield curve management, creating a tug-of-war between AI growth optimism and rising discount rates; and China's electricity surplus and open-source model strategy are positioning it as a credible long-term AI competitor despite current compute disadvantages. Capital markets deal activity has lagged expectations, though broad equity indexes are up significantly with low volatility, and Anthropic is expected to IPO in 2026 while OpenAI pushed its timeline to 2027.",
+      "why_it_matters": "The Warsh Fed's hands-off posture on long rates \u2014 combined with AI-driven inflation in adjacent industries \u2014 represents a structural regime shift that directly affects discount rates, tech valuations, and healthcare capital costs, making this a high-value macro compass for portfolio positioning heading into Q4.",
+      "signal_tags": [
+        "priority:high",
+        "catalyst_proximity",
+        "structural_market_insight",
+        "forward_looking_perspective",
+        "novelty"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

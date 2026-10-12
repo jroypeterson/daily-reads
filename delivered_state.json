@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "4b4d8aea14cc2ce7",
-      "date": "2026-09-27"
-    },
-    {
-      "id": "4d90634bfe2c493c",
-      "date": "2026-09-27"
-    },
-    {
       "id": "c0538195ba6d0de9",
       "date": "2026-09-28"
     },
@@ -139,6 +131,14 @@
     {
       "id": "8429ac12a710f4f3",
       "date": "2026-10-11"
+    },
+    {
+      "id": "817b63c3fd36281a",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "be773b0deb9ac2d2",
+      "date": "2026-10-12"
     }
   ],
   "reader_pushed": {
@@ -262,6 +262,10 @@
     "https://www.fiercehealthcare.com/payers/humana-rebounds-aetna-slips-winners-and-losers-2027-ma-star-ratings": "2026-10-10",
     "https://mbideepdives.substack.com/p/room-at-the-top": "2026-10-10",
     "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVqfr18F88FvW3-yyXj8MkcFRW3X6sTS5VNdCmN3wqV7M5nR3bW7Y9pgv6lZ3p3W1T6CfB6xM9NHW6ttnTt4Y0Vj-W4nXJKV6PZPW_W5Yz-Dd2X-Xm1W2GTJn96W4zGYW6CCsHx20qSJRW5hcGYJ4s0PQBVgnmQR27bTmkW4TWK-Y9gXcvlW3k2SC037YrClW98tgRd3HTcCVW6q680S2VSnmfW5pNCM383lPgpF5MQXhCSQTLW9gMZh16Lx7pFW5K0sZJ1zcN-pW7RQGpY20pkydW6sHZdJ5dPbrMW3cjcf41vRZCtW1JMDP61yW9pfW3rpDvk2XJ6DlW18j2qJ4G_NtwW49RTCW6gx4NVW6Lp33n1xmS_sW7l5YGf8R6RwlW5hfKgN6GxWGNW1gDCFt7M-TzYW4fw2XD2V_gKBW2Zd_Jh8JwFJqW4rp9Yw5H2hYJN1gRYMxjlp84W3V9rnr5fjpNxW186qqs1CQyf8N8d3G-Qv3NgQW1PVSbN77lv3lN1fGkjbWyw09W1tTMSx2KN1C1N8t-TtXksRGZW8Tn4pD2KRFCjW4YKY8k4N7ZyTV2kW8K4m5BHhW4dFybp5K4pWnf4C-WfF04": "2026-10-11",
-    "https://stratechery.com/2026/apple-and-a-hackers-future": "2026-10-11"
+    "https://stratechery.com/2026/apple-and-a-hackers-future": "2026-10-11",
+    "https://www.biopharmadive.com/news/pharma-patent-cliff-merck-abbvie-dealmaking/832700/": "2026-10-12",
+    "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter": "2026-10-12",
+    "https://mbideepdives.substack.com/p/a-month-with-muse?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg1NjY3MzEsImlhdCI6MTc5MTgyMjM4OSwiZXhwIjoxNzk0NDE0Mzg5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ChmIbNHtWhE-Q2n-O6UYiv-w9zw0pktSSYgEebD_7PU": "2026-10-12",
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-12-2026-the-transcript-3q26-letter": "2026-10-12"
   }
 }

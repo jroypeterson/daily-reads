@@ -12778,5 +12778,86 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "Thompson's piece has genuine analytical depth, using a real personal hacking incident as a concrete lens to examine Apple's structural tension with agentic AI development\u2014directly relevant to the reader's strong interest in AI infrastructure and competitive moat analysis."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "Scuttleblurb: Some Thoughts on FICO",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a paywall teaser with no substantive content on FICO \u2014 only a brief mention that it was written up three years ago and a list of upcoming posts, making it too thin for any slot."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "The Transcript 3Q26 Letter: Key Themes from Q3 2026 Through C-Suite Quotes",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a broad macro/AI/finance quarterly letter with no meaningful healthcare or biopharma content \u2014 it does not fit Slot 1 (Healthcare/Biotech) and belongs more naturally in Slot 2 (Finance/Macro) or Slot 3 (Tech/AI)."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "MBI Deep Dives: A Month with Muse",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/a-month-with-muse",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a personal productivity anecdote about using Meta's Muse AI assistant to improve a newsletter website \u2014 it has no connection to healthcare/biotech and belongs in Slot 3 (Tech/AI), but even there it lacks the analytical depth on AI platform economics promised in the shortlist summary; the actual content is largely a first-person account of fixing a subscribe button and adding dark mode."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "Pharma's $500B Patent Problem Will Come in Waves \u2014 Not as a Cliff",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/pharma-patent-cliff-merck-abbvie-dealmaking/832700/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides a substantive, data-driven framework mapping patent expiration timing across major large-cap pharma names (ABBV, MRK, JNJ, SNY, AZN) with specific dollar figures and year-by-year sequencing that is directly actionable for M&A probability assessment and pipeline valuation."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "The Transcript 3Q26 Letter: Key Themes from Q3 2026 Through C-Suite Quotes",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantive, primary-source-grounded macro synthesis \u2014 AI capex rivaling the US defense budget, a Warsh Fed philosophy shift with real yield curve implications, China's electricity/compute advantage, and IPO pipeline updates \u2014 with enough analytical depth and forward-looking signals to meet the Finance/Macro slot criteria and the reader's taste for structural market insight."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "MBI Deep Dives: A Month with Muse",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/a-month-with-muse",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "While the article has genuine depth and practitioner voice, it is a personal anecdote-driven product review of Meta's Muse AI assistant focused on SMB workflow automation rather than the AI platform economics, data infrastructure, or investment-relevant analysis the reader profile demands \u2014 it reads more as a 'self-improvement via AI tools' piece than the analytical, investment-grade AI content that fits Slot 3."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "Apollo Daily Spark: AI Building vs. AI Buying \u2014 The Transatlantic Split",
+    "source": "Apollo Daily Spark (Torsten Slok / Huw van Steenis)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMjcsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAN39xucYJZMI6nWWCoxllvyhI2ncWNpmxg4THJSqb8-wmUoP5EoG2csm3i6zyzLpZwTzCizuoprQ36aGkTWBOSkqbtbTUzFt5H5SK4Zxepp9e_FaiA",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely a subscription profile/preference management page with no actual article content \u2014 the substantive analysis described in the shortlist summary is inaccessible or was not captured."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "Alignment Healthcare Sues CMS Over Its 2027 Medicare Advantage Star Ratings",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/alignment-healthcare-sues-cms-over-its-2027-medicare-advantage-star-ratings",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare regulatory/legal article about Medicare Advantage star ratings methodology \u2014 it clearly belongs in Slot 1 (Healthcare/Biopharma), not Slot 3 (Tech/AI), and has no AI or technology content whatsoever."
+  },
+  {
+    "date": "2026-10-12",
+    "headline": "BCG: The Formula for Five Times More AI Value (Agentic AI)",
+    "source": "BCG",
+    "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGktXHnvRZA4mS-0UDg-Z3MujvlGGYNEeGRW4zdCzavO40nFuoD-hTlkBX8leLvJLJE7ju0JUI=",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially just a BCG marketing email with a teaser image and a call-to-action button \u2014 there is no substantive analytical content, framework detail, or data from the '2026 Applied AI Index' actually present in the retrieved text."
   }
 ]
