@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "c0538195ba6d0de9",
-      "date": "2026-09-28"
-    },
-    {
       "id": "13e56a19c30cb7c5",
       "date": "2026-09-29"
     },
@@ -139,6 +135,18 @@
     {
       "id": "be773b0deb9ac2d2",
       "date": "2026-10-12"
+    },
+    {
+      "id": "48d66ff854494b4f",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "cde3709a78572beb",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "16508b702029f4b5",
+      "date": "2026-10-13"
     }
   ],
   "reader_pushed": {
@@ -266,6 +274,10 @@
     "https://www.biopharmadive.com/news/pharma-patent-cliff-merck-abbvie-dealmaking/832700/": "2026-10-12",
     "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter": "2026-10-12",
     "https://mbideepdives.substack.com/p/a-month-with-muse?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTg1NjY3MzEsImlhdCI6MTc5MTgyMjM4OSwiZXhwIjoxNzk0NDE0Mzg5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ChmIbNHtWhE-Q2n-O6UYiv-w9zw0pktSSYgEebD_7PU": "2026-10-12",
-    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-12-2026-the-transcript-3q26-letter": "2026-10-12"
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-12-2026-the-transcript-3q26-letter": "2026-10-12",
+    "https://www.beckershospitalreview.com/finance/unitedhealth-reports-4-1b-in-profit-launches-ai-recommendations-for-medicare-advantage-plans/": "2026-10-13",
+    "https://www.fiercehealthcare.com/payers/humana-blackrock-strike-28b-deal-manage-centerwell-clinics": "2026-10-13",
+    "https://email.mckinsey.com/T/v71000001a1267650ddba02d7f4bbe5cfc0/f292f1cbb50546fe0000021ef3a0bcc2/f292f1cb-b505-46fe-b531-56ca24f69abe": "2026-10-13",
+    "https://mbideepdives.substack.com/p/narrowing-the-downside-on-the-labs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTk2NDQ1MTksImlhdCI6MTc5MTkxMDgxOCwiZXhwIjoxNzk0NTAyODE4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.nyXQdcGFtc7S2Kc5d0hKh_fAaXXRdzr7Iwyt_uRvpaU": "2026-10-13"
   }
 }

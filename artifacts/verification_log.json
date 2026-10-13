@@ -12859,5 +12859,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The full article text is essentially just a BCG marketing email with a teaser image and a call-to-action button \u2014 there is no substantive analytical content, framework detail, or data from the '2026 Applied AI Index' actually present in the retrieved text."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "UnitedHealth reports $4.1B in profit, launches AI recommendations for Medicare Advantage plans",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/unitedhealth-reports-4-1b-in-profit-launches-ai-recommendations-for-medicare-advantage-plans/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article contains substantive Q3 2026 earnings detail across UNH's major business segments (UnitedHealthcare, Optum Health, Optum Rx, Optum Insight) with specific margin, revenue, and profitability metrics, plus a meaningful AI-in-Medicare-Advantage announcement \u2014 making it a genuine dual catalyst with sector read-through value."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Narrowing the Downside on the Labs",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/narrowing-the-downside-on-the-labs",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled after the introductory paragraph \u2014 the actual analysis, stress-tests, and investment thesis are entirely behind a subscription wall, leaving no substantive content to evaluate or summarize."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Humana, BlackRock strike $2.8B deal to manage CenterWell clinics",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/humana-blackrock-strike-28b-deal-manage-centerwell-clinics",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has real substance \u2014 a $2.8B JV restructuring with clear deal mechanics, capital structure implications, and a landmark BlackRock entry into value-based care \u2014 directly fitting the Finance/Macro slot with healthcare-adjacent payer dynamics."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "some thoughts on FICO",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a stub/teaser with no actual substantive content \u2014 it only shows a list of upcoming posts and brief scuttleslops link-roundup snippets, not the promised deep dive on FICO's pricing power, moat, or competitive risks."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "STAT+: Takeaways from an evaluation of Google's diagnostic chatbot, AMIE",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/13/google-amie-diagnostic-chatbot-study-lancet-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was not retrievable \u2014 the content shown is entirely navigation chrome and truncated boilerplate, providing no substantive analysis to evaluate."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "The Transcript 3Q26 Letter",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite substantive content, this is a macro/finance-first quarterly letter synthesizing earnings call themes around AI capex, interest rates, and capital markets \u2014 it fits Slot 2 (Finance/Markets) far better than Slot 3 (Tech/AI), and the AI content is high-level geopolitical/macro framing rather than the breakthroughs, infrastructure depth, or healthcare AI application the reader profile and Slot 3 criteria prioritize."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "The technology trends defining 2026",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1267650ddba02d7f4bbe5cfc0/f292f1cbb50546fe0000021ef3a0bcc2/f292f1cb-b505-46fe-b531-56ca24f69abe",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual technology trends report is a high-priority periodic publication covering agentic AI, data infrastructure maturity, and physical-digital convergence \u2014 all strong matches for the reader's top preferences and Slot 3 criteria."
+  },
+  {
+    "date": "2026-10-13",
+    "headline": "Chip Stocks Tumble on A.I. Spending Fears and Rising Chinese Competition",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/10/13/business/technology-stocks-ai-nasdaq.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin news brief \u2014 essentially a bullet-point market recap with no analytical depth, no structural insight into the Chinese chip competitive threat, and no forward-looking investment framework, failing both the wildcard 'would I forward this?' test and the reader's strong preference for analytical depth over generic market coverage."
   }
 ]
