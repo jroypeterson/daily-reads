@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "13e56a19c30cb7c5",
-      "date": "2026-09-29"
-    },
-    {
       "id": "393562faafb26d9c",
       "date": "2026-09-30"
     },
@@ -147,6 +143,10 @@
     {
       "id": "16508b702029f4b5",
       "date": "2026-10-13"
+    },
+    {
+      "id": "371c1c532e479323",
+      "date": "2026-10-14"
     }
   ],
   "reader_pushed": {
@@ -278,6 +278,8 @@
     "https://www.beckershospitalreview.com/finance/unitedhealth-reports-4-1b-in-profit-launches-ai-recommendations-for-medicare-advantage-plans/": "2026-10-13",
     "https://www.fiercehealthcare.com/payers/humana-blackrock-strike-28b-deal-manage-centerwell-clinics": "2026-10-13",
     "https://email.mckinsey.com/T/v71000001a1267650ddba02d7f4bbe5cfc0/f292f1cbb50546fe0000021ef3a0bcc2/f292f1cb-b505-46fe-b531-56ca24f69abe": "2026-10-13",
-    "https://mbideepdives.substack.com/p/narrowing-the-downside-on-the-labs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTk2NDQ1MTksImlhdCI6MTc5MTkxMDgxOCwiZXhwIjoxNzk0NTAyODE4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.nyXQdcGFtc7S2Kc5d0hKh_fAaXXRdzr7Iwyt_uRvpaU": "2026-10-13"
+    "https://mbideepdives.substack.com/p/narrowing-the-downside-on-the-labs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMTk2NDQ1MTksImlhdCI6MTc5MTkxMDgxOCwiZXhwIjoxNzk0NTAyODE4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.nyXQdcGFtc7S2Kc5d0hKh_fAaXXRdzr7Iwyt_uRvpaU": "2026-10-13",
+    "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba": "2026-10-14",
+    "https://mbideepdives.substack.com/p/the-asymmetry-of-selling-compute?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjAyNTM3MTMsImlhdCI6MTc5MTk5MzU3MCwiZXhwIjoxNzk0NTg1NTcwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.oV7rzkbbg57o2v_LwPM-ZFDXhkR-7GduYEhv40ATqWY": "2026-10-14"
   }
 }

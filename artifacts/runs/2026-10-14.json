@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-10-14",
+  "generated_at": "2026-10-14T16:23:00Z",
+  "counts": {
+    "gmail_items": 129,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "371c1c532e479323",
+      "headline": "Medtech needs more than a market rotation to win back investors",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba",
+      "slot": 1,
+      "summary": "McKinsey argues that medtech's underperformance with investors is structural rather than cyclical, meaning a market rotation alone won't restore compressed multiples. The piece examines what companies must change operationally and strategically \u2014 including capital allocation discipline, M&A rigor, and credible innovation pipeline storytelling \u2014 to rebuild investor confidence. It frames the sector's challenges as requiring deliberate management action, not just favorable macro conditions.",
+      "why_it_matters": "For investors weighing whether medtech's depressed valuations represent a buying opportunity or a permanent re-rating, this framework provides a diagnostic lens to distinguish companies executing the right playbook from those relying on sector tailwinds that may not materialize.",
+      "signal_tags": [
+        "priority:high",
+        "source:McKinsey",
+        "analytical_depth",
+        "investment_relevant",
+        "structural_market_insight",
+        "forward_looking"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "be773b0deb9ac2d2",
+      "headline": "The Transcript 3Q26 Letter",
+      "source": "The Transcript",
+      "url": "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter",
+      "slot": 2,
+      "summary": "The Transcript's Q3 2026 quarterly letter synthesizes major macro themes from earnings calls and executive commentary: AI capex now rivals the US defense budget and is contributing to elevated long-term interest rates; new Fed Chair Kevin Warsh is deliberately stepping back from rate guidance, creating a tectonic shift in market architecture; and China's electricity production advantage and open-source AI strategy pose a credible long-term competitive threat to US AI dominance. Capital markets confidence remains high but the anticipated IPO/deal boom has been slower than expected, with Anthropic on deck and OpenAI likely 2027.",
+      "why_it_matters": "For portfolio positioning, the framing of AI capex vs. rising long-term rates as a tug-of-war for equity valuations \u2014 combined with a Fed chair who is explicitly hands-off \u2014 is the single most important macro dynamic to track heading into Q3 earnings season.",
+      "signal_tags": [
+        "priority:high",
+        "source:TheTranscript",
+        "practitioner_perspective",
+        "analytical_depth",
+        "catalyst_proximity",
+        "investment_relevant"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

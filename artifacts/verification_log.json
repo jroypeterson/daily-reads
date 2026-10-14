@@ -12931,5 +12931,77 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "The article is a thin news brief \u2014 essentially a bullet-point market recap with no analytical depth, no structural insight into the Chinese chip competitive threat, and no forward-looking investment framework, failing both the wildcard 'would I forward this?' test and the reader's strong preference for analytical depth over generic market coverage."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "Narrowing the Downside on the Labs",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/narrowing-the-downside-on-the-labs",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled after a brief teaser \u2014 there is no substantive content to evaluate, making it too thin to meet selection criteria regardless of slot."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "some thoughts on FICO",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a teaser/preview snippet with no substantive content about FICO \u2014 the full deep-dive analysis is behind a paywall and not present in the article text, making it impossible to verify depth or substance."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "Medtech needs more than a market rotation to win back investors",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's structural analysis of medtech's investor appeal problem \u2014 covering capital allocation, M&A discipline, and pipeline credibility \u2014 offers the analytical depth and investment-relevant framework this reader values, and fits Slot 1's mandate for sector-level healthcare insight."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "The Asymmetry of Selling Compute",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/the-asymmetry-of-selling-compute",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the introductory paragraph \u2014 the full text contains only a teaser and a subscription prompt, providing no substantive analysis of compute asymmetry, hyperscaler economics, or investment implications."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "The Transcript 3Q26 Letter",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-12-2026-the-transcript-3q26-letter",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive quarterly macro synthesis from C-suite earnings call quotes covering AI capex, Fed leadership transition under Kevin Warsh, China's AI competitive position, and capital markets deal activity \u2014 directly matching Slot 2's macro/finance theme with analytical depth the reader profile rewards."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "STAT+: The startup chasing 'general biological intelligence'",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was not accessible \u2014 the content retrieved is entirely navigation chrome and boilerplate with zero substantive article body, making it impossible to verify depth, accuracy of the shortlist summary, or investment relevance."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "No Surprises Act arbitration awards near 6% of commercial medical spend in some regions: UnitedHealthcare",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/no-surprises-act-arbitration-awards-approach-6-of-commercial-medical-spend-in-some-regions-unitedhealthcare/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is clearly a Finance/Payer Dynamics piece (Slot 2) covering UNH earnings commentary on No Surprises Act arbitration costs \u2014 it has no connection to Tech/AI and does not belong in Slot 3."
+  },
+  {
+    "date": "2026-10-14",
+    "headline": "AI Spending: Waiting on ROI, Watching the Bill",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMjksInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAOBY1PPLBCrYsZWle15rwhhd00StO3nSDQ6LuRnIqWa_cHGGtBb9gBnTbISjaescvBppdg1lBDU_5A_sB-hXwx485oNaVzozqp0EZhZYcfOXD9PLhBYo3c",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content is entirely a subscriber profile/preferences page with no actual article text \u2014 there is no substantive content to evaluate, only email subscription management UI."
   }
 ]
