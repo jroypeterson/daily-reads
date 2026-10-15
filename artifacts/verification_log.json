@@ -13003,5 +13003,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article content is entirely a subscriber profile/preferences page with no actual article text \u2014 there is no substantive content to evaluate, only email subscription management UI."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "ASML 3Q'26: 2030 Arrived Four Years Early",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/asml-3q26-2030-arrived-four-years",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled with only a brief teaser visible, making it too thin to evaluate for substance, and it covers semiconductor equipment (ASML) rather than healthcare or biotech, so it does not match Slot 1."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "FDA Launches the Rare Disease Framework Initiative to Develop a Holistic, Fit-For-Purpose Framework for Rare Disease Drug Development",
+    "source": "FDA Press Releases / BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-rare-disease-framework-initiative-drug-development/833080/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article has moderate substance but lacks analytical depth, actionable investment insight, and ticker-level specificity that match the reader's strong preferences for structural market insight and investment-relevant analysis \u2014 it reads as a policy announcement summary rather than a deep-dive on what this means for specific pipeline assets or capital allocation decisions."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "McKinsey: Medtech needs more than a market rotation to win back investors",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's structural analysis of medtech investor dynamics \u2014 covering growth credibility, reimbursement uncertainty, and margin profiles \u2014 offers the kind of deep, investment-relevant framework that matches the reader's strong preference for analytical depth and competitive moat analysis, and is directly relevant to coverage tickers like ISRG."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "Narrowing the Downside on the Labs",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/narrowing-the-downside-on-the-labs",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled after the introductory paragraph, meaning the full substance is inaccessible \u2014 there is no actual analysis, argument, or data in the visible content to evaluate or summarize meaningfully."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "Why Rates Keep Rising: Expected AI Returns Exceed the Fed Funds Rate",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzAsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAOGyKW9tp37dStdOSWpW0-9y-KyusMZ6xCYADcNz8gXPuTlgAMv2ociJU4IO7LLx57W9uZaU4KDd8hmhrnT-7yDGE23zHiRNpHAeeD4vqT-1sDEyzGma8g",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely a subscriber profile/preference management page with no actual article content \u2014 the substantive AI-rates macro thesis described in the shortlist summary is completely absent from the retrieved text."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "Lobbyists fight to shape how states regulate medical AI / 'AI sandboxes' are all the rage",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a stub \u2014 just an author bio and newsletter header with no substantive content about the lobbying battle or AI sandboxes described in the shortlist summary, making it impossible to verify depth or accuracy."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "From claims to clinical context: Rethinking payer data architecture",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/from-claims-to-clinical-context-rethinking-payer-data-architecture/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a vendor-sponsored Q&A with MedicaSoft's CEO that reads as thinly veiled marketing content for a specific interoperability product, lacking the analytical depth, market-level data, or investment-relevant insight required for Slot 2; it belongs closer to Slot 3 (health data infrastructure/tech) but even there is too promotional and generic to clear the bar."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "Iambic, an AI drug discovery specialist, banks $150M in an IPO",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/iambic-ipo-price-ai-drug-discovery/832771/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a straightforward IPO news report with thin substance \u2014 it covers deal mechanics, pipeline descriptions, and boilerplate AI-biotech context without the analytical depth on valuation, investor sentiment, or market signal that would make it actionable for Slot 2; it also fits Slot 1 (Healthcare/Biotech IPO) better than Slot 2 (Finance/Macro), and the reader profile flags AI drug discovery as a weak preference to avoid."
+  },
+  {
+    "date": "2026-10-15",
+    "headline": "ASML 3Q'26: 2030 Arrived Four Years Early",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/asml-3q26-2030-arrived-four-years",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly visible article content is largely a teaser \u2014 the substantive earnings analysis is paywalled, leaving only a brief paragraph of headline metrics and no analytical depth accessible to evaluate or share."
   }
 ]
