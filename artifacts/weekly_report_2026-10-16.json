@@ -1,0 +1,357 @@
+{
+  "period_start": "2026-10-10",
+  "period_end": "2026-10-16",
+  "generated_at": "2026-10-16T15:59:53.733479+00:00",
+  "source_health": {
+    "active_sources": 19,
+    "total_configured": 25,
+    "missing_sources": [
+      "Fierce Biotech",
+      "Fierce Pharma"
+    ],
+    "quiet_slow": [
+      "Consilient Observer",
+      "Howard Marks memos (Brookfield)",
+      "Oaktree Insights"
+    ],
+    "missing_always_read": [],
+    "quiet_slow_always_read": [
+      "Consilient Observer"
+    ],
+    "paused": [
+      "Biotech Primer"
+    ],
+    "total_gmail_items": 911,
+    "total_tier2_items": 617,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 11
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Consilient Observer",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 10
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 17
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Apollo Daily Spark (Torsten Slok)",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 68
+          },
+          {
+            "name": "Bloomberg (subscription notices)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "Howard Marks memos (Brookfield)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 6
+          },
+          {
+            "name": "Oaktree Insights",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 24
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 1
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 24
+          }
+        ]
+      ],
+      [
+        "journals",
+        [
+          {
+            "name": "NEJM",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "NEJM Weekend Briefing",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 14,
+    "articles_per_day": [
+      2,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2
+    ],
+    "avg_articles_per_day": 2.0,
+    "verified_pass": 14,
+    "verified_fail": 51,
+    "fail_reasons": [
+      "The article is a BCG marketing newsletter shell \u2014 the full text is almost entirely tracking-link redirects with no substantive analysis, data, or methodology visible, making it impossible to verify the claimed depth of the 2026 Applied AI Index findings.",
+      "This is a weekly newsletter digest/table of contents from Stratechery, not a substantive article \u2014 it contains only brief teasers for multiple pieces with no analytical depth, and it is a poor fit for Slot 2 (Finance/Macro) as the content is primarily tech platform strategy and geopolitics with no macro, earnings, or market-moving financial analysis.",
+      "The article content is essentially a marketing email shell from BCG with tracked redirect links and no substantive body text \u2014 the actual index findings, data, and analysis are behind a click-through, making it impossible to verify depth or accuracy of the shortlist summary.",
+      "This is a weekly newsletter index/digest \u2014 it lists article titles and brief teasers without delivering substantive analysis on any topic, making it too thin to meet the depth standard required for Slot 3.",
+      "The full article text is not the actual article \u2014 it is a subscription profile/preferences page with no substantive content, making it impossible to verify the shortlist summary's claims about rate-insensitivity, Dutch disease dynamics, or Fed policy transmission.",
+      "This is a paywalled STAT+ article with no substantive content visible beyond navigation chrome \u2014 it contains zero actual reporting on Medicare Advantage star ratings, Humana, or CMS methodology \u2014 and it belongs to Slot 1 (Healthcare/Finance) not Slot 3 (Tech/AI).",
+      "The article is fully paywalled \u2014 the actual content is inaccessible, leaving only a STAT+ subscription marketing page with no substantive reporting to evaluate.",
+      "The actual article content is essentially empty \u2014 it contains no substantive list, no analysis of governance structures, no reporting lines, and no vendor/build-vs-buy insights; it is a stub that prompts readers to email for inclusion and redirects to unrelated 'Most Read' links.",
+      "The article excerpt provided is too thin \u2014 it's essentially a teaser/intro paragraph with no substantive analysis of the regulatory, reimbursement, or clinical AI commercialization dynamics hinted at in the shortlist summary, making it impossible to confirm the depth needed for Slot 1.",
+      "The full article text is not accessible \u2014 it resolves to a subscription profile/preferences page with no actual article content, making it impossible to verify substance or accuracy of the shortlist summary."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 26,
+      "jina": 26,
+      "tavily": 5,
+      "snippet_fallback": 8
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "Scuttleblurb": 7,
+      "Value Investors Insight": 7,
+      "MBI": 7,
+      "A Letter a Day": 7,
+      "The Transcript": 7
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 7,
+    "checked_slots": 461,
+    "total_broken": 2,
+    "surfaces": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 2
+    },
+    "top_warned_sources": [
+      [
+        "Unknown",
+        2
+      ]
+    ],
+    "dropped_items": [
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxs0MmK4zAUBdCvsXYxmixbCy16k98QGl5sJdaAhob8feM0FFVQ68e793Cd6bDn-lZt2OZqKD3kdKvgIJSOvGLS4s0JBIqskohF4hUjiCaceocE1XTw2vRvV7EydChql5WBB8ntRjeGmePSYyyl2bhwbEFBUUwFwQQTiTnDM5vFw2zb6jF21ngDZBbVPNe49onjuN88mS9kN-41uxxRaPpR4WNRvQ5Apzp6L21ifyZ6n-j9dUA0Nfjj518ukHSvxr1C2nUbpVRoDbxCZVjtcowjhf7WkIw9wf_PLsOewZlrHR28YkywhQpU1bPmd4EOteU0cbxfnE9NG9bnaEJSXw7Uf595NKhXKuFSLHxDfxX9FwAA__9x9Ilw"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskLvSpCAUhJ9GsrHgiKgBwSbzGhSXo7IqUFzW8u23ZjbZ4I-76-uv2uqKW8yPrGt63YjH-bxybMG1RJwUg15HR1CyaWETXzgAwUv7U20YMOuKTun6X0pnRnY5GzCw4Mj5MBsUdF64dRpWNjhwWkzES6AgGGUMKAUO_dDjPK7TAgZQmAms6C3usLbj6ji9tpejfWmmVG2P3saL-KLWjF8XWXNDcsq91lS64VcH7w7e9333dcc1fesxYVA1a3v4sKnSUspYCjpJUjPKxutqwddHYdDmRPcPmZo5vdXVx6C8kyDowCeS5e8cn4QVc4mh43T7SHxXSjMuXtoHaXT2N_pSSP3p2VYwf5CML2LkM_kj4W8AAAD__76xhBo"
+      }
+    ]
+  }
+}

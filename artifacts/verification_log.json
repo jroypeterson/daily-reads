@@ -13084,5 +13084,113 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The publicly visible article content is largely a teaser \u2014 the substantive earnings analysis is paywalled, leaving only a brief paragraph of headline metrics and no analytical depth accessible to evaluate or share."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after a brief intro \u2014 the publicly visible content is too thin to constitute real substance \u2014 and it covers semiconductor/AI infrastructure (TSMC), not healthcare or biotech, making it a mismatch for Slot 1."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Scuttleblurb: [scuttleslops] MRVL, APP, AMZN, Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article covers semiconductor, ad-tech, and cloud infrastructure themes (MRVL, APP, AMZN) with no healthcare or biotech content, making it entirely wrong for Slot 1."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Could an AI Reset Expose a Stagflationary Economy?",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzEsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAONnJ6wk1ENMzYpzVDct0nMQ2ocxbGKQZ9IJnJAq4o4ER2grXVghtIYSa2K9Q0cmVxT8MCOjWqj5y5upoesm4bxYKXdLqgMUot8HnzlSuuMCWxLrko_lHe_",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely a subscriber profile/preference management page with no actual article content \u2014 the shortlist summary describes an article that is not present in the provided text."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Anthropic's Biggest Healthcare Bets: 8 Key Moves",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/anthropics-biggest-healthcare-bets-5-key-moves/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This article belongs to the Tech/AI slot (Slot 3) given it's about Anthropic's strategic AI moves, not a healthcare/biotech catalyst; Becker's Hospital Review is also not a priority domain for Slot 1, and the listicle format ('8 Key Moves') suggests breadth over the analytical depth this reader strongly prefers."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "McKinsey: Pause, Pivot, or Accelerate \u2014 SaaS in the Age of Agentic AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1413dc741af27586e96638918/3b82bea02a694ea70000021ef3a0bcc2/3b82bea0-2a69-4ea7-8ad3-ed125e77f5d8",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI and SaaS strategy article from McKinsey, not a Healthcare/Biotech article \u2014 it has no FDA, clinical, biopharma, or pipeline content and belongs in a different slot."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Where Optum's Financials Stand After Rolling Back 'Rapid Expansion'",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/where-optums-financials-stand-after-rolling-back-rapid-expansion/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Post-earnings deep dive into Optum Health's margin recovery with specific financial figures ($735M operating earnings) offers substantive, actionable analysis of the bellwether managed care/VBC operator with direct read-through to payer-adjacent names."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "FDA 'Reset' Continues With New Plan for Reviewing Rare Disease Drugs",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-rare-disease-framework-initiative-drug-development/833080/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Slot 1 Healthcare/Biopharma article about FDA regulatory policy \u2014 not a Finance/Macro article \u2014 and while it has moderate substance, it lacks the analytical depth, investment framework rigor, or macro/market structure insight that aligns with this reader's strong preferences for practitioner-level financial analysis."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Individual Market Enrollment Fell 18%, Suggesting Continued ACA Marketplace Losses",
+    "source": "KFF Health News",
+    "url": "https://kffhealthnews.org/insurance/trump-aca-affordable-care-act-obamacare-cms-fraud-cancellations-reinstatements/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive but belongs to Slot 1 (Healthcare policy/regulatory) rather than Slot 2 (Finance/Macro), as it focuses on ACA enrollment mechanics, CMS administrative actions, and fraud investigation details rather than payer financial dynamics, market implications, or macro investment themes."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly visible article is a thin teaser \u2014 it contains only a brief intro, a few headline numbers, and a CEO quote before cutting off with a paywall prompt, lacking the analytical depth required for Slot 3."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Scuttleblurb: [scuttleslops] MRVL, APP, AMZN, Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a fragmented collection of teaser snippets and 'upcoming posts' notices rather than substantive analysis \u2014 the actual MRVL/APP/AMZN content is paywalled and not present in the provided text."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "Anthropic's Biggest Healthcare Bets: 8 Key Moves",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/anthropics-biggest-healthcare-bets-5-key-moves/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "Becker's Hospital Review is not a priority Tech/AI source, and a listicle of '8 Key Moves' from a hospital trade publication is likely a thin, aggregated summary rather than the deep analytical content the reader profile demands \u2014 especially given the source's orientation toward hospital administrators rather than investors or technologists."
+  },
+  {
+    "date": "2026-10-16",
+    "headline": "McKinsey: Pause, Pivot, or Accelerate \u2014 SaaS in the Age of Agentic AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1413dc741af27586e96638918/3b82bea02a694ea70000021ef3a0bcc2/3b82bea0-2a69-4ea7-8ad3-ed125e77f5d8",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's structural framework on agentic AI disrupting SaaS business models is substantive, directly relevant to health-tech holdings, and aligns with the reader's strong preferences for competitive moat analysis, AI impact, and investment-relevant structural insights."
   }
 ]
