@@ -13192,5 +13192,104 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey's structural framework on agentic AI disrupting SaaS business models is substantive, directly relevant to health-tech holdings, and aligns with the reader's strong preferences for competitive moat analysis, AI impact, and investment-relevant structural insights."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about TSMC's semiconductor earnings and AI chip supply \u2014 it does not belong in the Healthcare/Biotech slot, and the visible content is largely a teaser gating the substantive analysis behind a paywall."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "ASML 3Q'26: 2030 Arrived Four Years Early",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/asml-3q26-2030-arrived-four-years",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after the opening paragraph, making the visible content too thin to constitute real substance, and it covers semiconductor equipment (ASML) rather than healthcare or biopharma \u2014 it does not belong in Slot 1."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "[scuttleslops] MRVL, APP, AMZN, Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article covers AI infrastructure, semiconductor strategy, and ad-tech (MRVL, APP, AMZN) \u2014 clearly a Tech/AI piece with no meaningful healthcare or biopharma content, making it wholly unsuitable for Slot 1."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "McKinsey: Pause, Pivot, or Accelerate \u2014 SaaS in the Age of Agentic AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a13c176aedc267c96e96c660f0/328b58b83bf1410e0000021ef3a0bcc2/328b58b8-3bf1-410e-952d-4ee0d3a4127a",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI and SaaS strategy article from McKinsey \u2014 it does not belong in the Healthcare/Biotech slot, and while it has potential relevance to health software names, it is a general SaaS framework piece rather than a healthcare/biopharma catalyst."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "McKinsey: Medtech Needs More Than a Market Rotation to Win Back Investors",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority source and the article offers structural analytical depth on medtech underperformance \u2014 reimbursement compression, volume slowdown, product cycle dynamics \u2014 directly relevant to coverage names like BSX and ISRG, matching the reader's strong preference for competitive moat analysis and investment-relevant insights."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "ASML 3Q'26: 2030 Arrived Four Years Early",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/asml-3q26-2030-arrived-four-years",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a teaser \u2014 the substantive analysis is locked behind a paywall, leaving only a brief intro paragraph with headline numbers and no deeper diligence, which directly matches the 'paywalled content' avoid pattern."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "KFF: Nearly 3 in 4 Medicare Advantage Enrollees Could Be Denied Medigap Due to a Pre-Existing Condition",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VXb4d281hKg6W3-w5774v7Wg6W5tZZwQ5WbVmhN6crjp85nR3bW7lCGcx6lZ3mzW1cbnYv16wsCXW20FJsG1GL15vW7_MK6X1tcyD9W2Xgs788THzhMW1Xt2MX69SpFhN6K5FKQttZjfW4mRGR15fp6McN8v3pRmsQVMSW2sF36M52H-WnW95vcnT7sjNrhW4Whd7p86qsHCW1gndjH4hMF68MgjMfH41DL_W6M--yM8mMfJZVGX_4x9hD78DW8NcDmc4ywPPZW4Lzr_z31z1xzW8hqvRR4ksdBTW4xXQ0f2NrcfBVyb29V25JZHLVWJGLG4LxsJ7W4sjjKm2V4hL8W2CNY0L3DJZg_N4gz6h1HHd5cW6cR5kj5fRnlDM2TYqb9lLj6W6jjRxl7P0YhnW1lnblz2vf252W3-_9Fn1R0tYnW21jnzy4lDyJYW89R3KN6XHmLVW3VzDSx1JN2LkW6bB5Nc3NvDf1W2RqShN6yTbKRW9c-Hc38tyyrtW6qg7Vf5nl_QbW6PWHw87lwYxNW5YtZLr487w4DW42ykFC53C8LmW7kvF1j3tXJDmf479s8M04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a newsletter digest/teaser from KFF with truncated content and redirect links rather than substantive analytical depth \u2014 it summarizes findings but doesn't provide the structural market analysis, managed care implications, or investment-relevant depth the reader profile demands for Slot 2."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "NYT: Weak Links Start to Show in A.I. Borrowing",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/10/17/business/weak-links-start-to-show-in-ai-borrowing.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article excerpt is too thin and surface-level \u2014 it identifies the CoreWeave/Oracle/SoftBank credit stress story but provides no analytical depth on the debt structures, covenant details, cascade mechanisms, or credit market technicals that would make it actionable or intellectually substantive for this reader."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "Fierce Healthcare: American Medical Association Rolls Out Governance Framework for Agentic AI Solutions",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin and largely a press release summary \u2014 it describes the AMA framework at a high level but lacks substantive policy detail, specific provisions, or investment/market implications; it does not belong in the Finance/Macro slot and while the governance angle has regulatory relevance, the content is too surface-level to serve Slot 1 or Slot 3 either."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly visible article content is a thin teaser \u2014 it presents a few headline metrics and a memorable quote, but the substantive analysis is locked behind a paywall, making it too shallow to meet the 'depth over breadth' selection standard."
+  },
+  {
+    "date": "2026-10-17",
+    "headline": "[scuttleslops] MRVL, APP, AMZN, Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a truncated teaser/index page showing only fragment snippets and 'upcoming posts' teasers from Scuttleblurb \u2014 there is no substantive content to evaluate on the MRVL/APP/AMZN thesis, making it impossible to confirm the shortlist summary's claims about analytical depth."
   }
 ]

@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-10-17",
+  "generated_at": "2026-10-17T14:54:13Z",
+  "counts": {
+    "gmail_items": 122,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "371c1c532e479323",
+      "headline": "McKinsey: Medtech Needs More Than a Market Rotation to Win Back Investors",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba",
+      "slot": 1,
+      "summary": "McKinsey diagnoses why medtech has lagged despite a supportive macro rotation, pointing to structural headwinds including reimbursement compression, slowing procedure volumes, and product cycle lulls that a simple multiple re-rating cannot overcome. The report outlines what investor-credible value creation actually looks like for medtech management teams navigating these pressures. It serves as a framework for differentiating names with genuine operating levers from those relying on macro tailwinds.",
+      "why_it_matters": "For investors holding medtech names like BSX or ISRG, this framework sharpens the question of whether a thesis rests on structural earnings power or merely sector rotation \u2014 a critical distinction heading into earnings season.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:ISRG",
+        "management_consulting_research",
+        "analytical_depth",
+        "structural_market_insight",
+        "forward_looking_perspective"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}
