@@ -13291,5 +13291,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is a truncated teaser/index page showing only fragment snippets and 'upcoming posts' teasers from Scuttleblurb \u2014 there is no substantive content to evaluate on the MRVL/APP/AMZN thesis, making it impossible to confirm the shortlist summary's claims about analytical depth."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after a brief teaser and lacks substantive depth beyond what's in the summary; it also belongs to the Tech/AI or Finance/Macro slot, not Healthcare/Biotech."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "some thoughts on FICO",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/thoughts-on-fico",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Finance/Markets article analyzing FICO's competitive moat in the mortgage credit scoring space \u2014 it has no healthcare or biopharma content and clearly belongs in Slot 2, not Slot 1."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "Medtech needs more than a market rotation to win back investors",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1370cfb6cbea338369ff04b84/ea57517734f745de0000021ef3a0bcc2/ea575177-34f7-45de-a529-b29db5fbecba",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's structural benchmarking of medtech TSR across seven metrics and nine industries offers analytical depth on capital allocation and M&A dynamics that aligns with the reader's strong preferences for competitive moat analysis, deep business diligence, and investment-relevant insights \u2014 though it fits Slot 4 (Wildcard/Consulting) better than Slot 1 (Healthcare/Biopharma)."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "some thoughts on FICO",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/thoughts-on-fico",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's deep-dive into FICO's competitive moat \u2014 systematically dissecting the mortgage securitization stack and mapping which constituency groups could realistically switch to VantageScore 4.0 \u2014 is exactly the kind of long-form, analytically rigorous, investment-relevant content this reader prizes, and fits Slot 2's finance/markets theme with a healthcare-adjacent data-moat angle."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "DeepSeek-V4.1-Flash-1017",
+    "source": "Hacker News / DeepSeek (Hugging Face)",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a Hugging Face model card consisting almost entirely of installation code snippets and API usage instructions \u2014 it has no analytical depth, market analysis, or substantive prose beyond a brief two-sentence introduction, making it too thin for any digest slot despite the shortlist summary overstating its content."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "Could an AI Reset Expose a Stagflationary Economy?",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzEsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAONnJ6wk1ENMzYpzVDct0nMQ2ocxbGKQZ9IJnJAq4o4ER2grXVghtIYSa2K9Q0cmVxT8MCOjWqj5y5upoesm4bxYKXdLqgMUot8HnzlSuuMCWxLrko_lHe_",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content retrieved is a subscriber profile/preferences page, not the actual article \u2014 there is no substantive content to evaluate, only account management UI text."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "Nearly 3 in 4 Medicare Advantage Enrollees Could Be Denied Medigap Due to a Pre-Existing Condition",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VXb4d281hKg6W3-w5774v7Wg6W5tZZwQ5WbVmhN6crjp85nR3bW7lCGcx6lZ3mzW1cbnYv16wsCXW20FJsG1GL15vW7_MK6X1tcyD9W2Xgs788THzhMW1Xt2MX69SpFhN6K5FKQttZjfW4mRGR15fp6McN8v3pRmsQVMSW2sF36M52H-WnW95vcnT7sjNrhW4Whd7p86qsHCW1gndjH4hMF68MgjMfH41DL_W6M--yM8mMfJZVGX_4x9hD78DW8NcDmc4ywPPZW4Lzr_z31z1xzW8hqvRR4ksdBTW4xXQ0f2NrcfBVyb29V25JZHLVWJGLG4LxsJ7W4sjjKm2V4hL8W2CNY0L3DJZg_N4gz6h1HHd5cW6cR5kj5fRnlDM2TYqb9lLj6W6jjRxl7P0YhnW1lnblz2vf252W3-_9Fn1R0tYnW21jnzy4lDyJYW89R3KN6XHmLVW3VzDSx1JN2LkW6bB5Nc3NvDf1W2RqShN6yTbKRW9c-Hc38tyyrtW6qg7Vf5nl_QbW6PWHw87lwYxNW5YtZLr487w4DW42ykFC53C8LmW7kvF1j3tXJDmf479s8M04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy/regulatory article about Medicare Advantage and Medigap lock-in dynamics \u2014 it has no connection to Tech/AI (Slot 3) and belongs in Slot 1 or Slot 2, not Slot 3."
+  },
+  {
+    "date": "2026-10-18",
+    "headline": "American Medical Association Rolls Out Governance Framework for Agentic AI Solutions",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin and largely a press release summary \u2014 it describes the AMA framework at a high level without detailing its actual structure, specific governance mechanisms, or technical depth that would satisfy the reader's strong preference for analytical depth and investment-relevant insights; it fits better as Slot 1 healthcare regulatory news than Slot 3 Tech/AI."
   }
 ]

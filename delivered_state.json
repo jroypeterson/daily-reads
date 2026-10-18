@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "bb459313c2cf29d0",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "342e187e0228ed3b",
-      "date": "2026-10-03"
-    },
-    {
-      "id": "dd6f973c2d9454bf",
-      "date": "2026-10-03"
-    },
-    {
       "id": "6d0e5f885b06313c",
       "date": "2026-10-04"
     },
@@ -119,6 +107,10 @@
     {
       "id": "699fd381388bd1cb",
       "date": "2026-10-16"
+    },
+    {
+      "id": "6709f2e887801d14",
+      "date": "2026-10-18"
     }
   ],
   "reader_pushed": {
@@ -258,6 +250,7 @@
     "https://www.beckerspayer.com/financial/where-optums-financials-stand-after-rolling-back-rapid-expansion/": "2026-10-16",
     "https://email.mckinsey.com/T/v71000001a1413dc741af27586e96638918/3b82bea02a694ea70000021ef3a0bcc2/3b82bea0-2a69-4ea7-8ad3-ed125e77f5d8": "2026-10-16",
     "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjA1OTg0ODMsImlhdCI6MTc5MjE2Mjc2NiwiZXhwIjoxNzk0NzU0NzY2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.5gZNvqxb4C8M0BqK54con5WlyDfgMWU5gTRc5HUlwRo": "2026-10-16",
-    "https://aletteraday.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Faletteraday.substack.com%2Fp%2Fge-the-escape-room-economy-a-primer": "2026-10-16"
+    "https://aletteraday.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Faletteraday.substack.com%2Fp%2Fge-the-escape-room-economy-a-primer": "2026-10-16",
+    "https://scuttleblurb.substack.com/p/thoughts-on-fico": "2026-10-18"
   }
 }
