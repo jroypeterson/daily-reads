@@ -13363,5 +13363,104 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is thin and largely a press release summary \u2014 it describes the AMA framework at a high level without detailing its actual structure, specific governance mechanisms, or technical depth that would satisfy the reader's strong preference for analytical depth and investment-relevant insights; it fits better as Slot 1 healthcare regulatory news than Slot 3 Tech/AI."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is an official FDA press release \u2014 a primary source announcement with regulatory boilerplate rather than analytical depth \u2014 and while the approval is genuinely significant, the content is thin on competitive context, investment implications, or market dynamics that would meet the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "Disc's once-spurned rare disease drug to get a second chance at approval",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/Disc-bitopertin-apollo-erythropoietic-protoporphyria-study-results/833327/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a solid clinical readout story but skews toward niche therapeutics (EPP is a rare disease with a small patient population) and lacks the analytical depth, structural market insight, or investment-process angle that the reader's taste profile strongly favors \u2014 it reads more like a news brief than a deep-dive catalyst analysis, and the coverage universe ticker match is for DISC (not a priority name) while the MRNA/SMMT ESMO hooks mentioned in the shortlist summary are not actually in the article text."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled with only a brief teaser visible, and its subject matter \u2014 TSMC's Q3 2026 earnings and AI infrastructure capacity \u2014 belongs to the Tech/AI slot, not Healthcare/Biotech."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "Shortage of Capital",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-19-2026-shortage-of-capital",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a macro finance/markets article synthesizing C-suite commentary on capital shortages, AI CapEx, rates, and consumer spending \u2014 it has no meaningful healthcare or biotech content and belongs in Slot 2, not Slot 1."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "[scuttleslops] MRVL, APP, AMZN, Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article content shown is a fragmented feed of Scuttleblurb post teasers and summaries \u2014 not a substantive article about healthcare/biotech \u2014 and the target slot is Healthcare/Biotech, which this content does not address at all."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "Merck KGaA bets on RNAi with $1.3B Silence buyout",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth covering deal terms, competitive dynamics, clinical data comparisons, and analyst commentary, fitting Slot 1's M&A and pipeline criteria well."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "Shortage of Capital",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-19-2026-shortage-of-capital",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article is a substantive synthesis of C-suite commentary from major financial institution earnings calls, building a coherent macro thesis around capital scarcity driven by AI CapEx and government deficits competing for limited capital \u2014 directly actionable for portfolio construction and rate-sensitive sector positioning."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly visible article content is largely a teaser \u2014 it quotes one line from the earnings call, shows a single chart, and immediately gates the substantive analysis behind a paywall, making it too thin to justify a digest slot."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "[scuttleslops] MRVL, APP, AMZN, Chips",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a stub/teaser with no substantive content \u2014 only brief one-sentence blurbs about multiple unrelated Scuttleblurb posts, not a readable piece on Marvell/AppLovin/AWS AI thesis."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "McKinsey: Pause, pivot, or accelerate: SaaS in the age of agentic AI",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a13c176aedc267c96e96c660f0/328b58b83bf1410e0000021ef3a0bcc2/328b58b8-3bf1-410e-952d-4ee0d3a4127a",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority consulting source covering a structurally important AI topic \u2014 agentic AI disruption of SaaS business models \u2014 that aligns with the reader's strong preferences for AI impact, competitive moat analysis, and health software SaaS, and the summary suggests substantive strategic depth rather than thin generic content."
+  },
+  {
+    "date": "2026-10-19",
+    "headline": "China moves to restrict foreign biotech acquisitions",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/19/biotech-news-china-moves-to-restrict-foreign-acquisitons/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article URL returns a 404 'Page not found' error \u2014 there is no actual article content to evaluate, only STAT News site navigation, making it impossible to verify substance, accuracy, or depth."
   }
 ]

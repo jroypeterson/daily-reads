@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "6d0e5f885b06313c",
-      "date": "2026-10-04"
-    },
-    {
-      "id": "be1026339b831c74",
-      "date": "2026-10-04"
-    },
-    {
       "id": "08474d937be44f55",
       "date": "2026-10-05"
     },
@@ -111,6 +103,18 @@
     {
       "id": "6709f2e887801d14",
       "date": "2026-10-18"
+    },
+    {
+      "id": "f17ef3de6f0191ea",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "a96bd4d082cc9d2d",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "54c64a1f710551da",
+      "date": "2026-10-19"
     }
   ],
   "reader_pushed": {
@@ -251,6 +255,11 @@
     "https://email.mckinsey.com/T/v71000001a1413dc741af27586e96638918/3b82bea02a694ea70000021ef3a0bcc2/3b82bea0-2a69-4ea7-8ad3-ed125e77f5d8": "2026-10-16",
     "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjA1OTg0ODMsImlhdCI6MTc5MjE2Mjc2NiwiZXhwIjoxNzk0NzU0NzY2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.5gZNvqxb4C8M0BqK54con5WlyDfgMWU5gTRc5HUlwRo": "2026-10-16",
     "https://aletteraday.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Faletteraday.substack.com%2Fp%2Fge-the-escape-room-economy-a-primer": "2026-10-16",
-    "https://scuttleblurb.substack.com/p/thoughts-on-fico": "2026-10-18"
+    "https://scuttleblurb.substack.com/p/thoughts-on-fico": "2026-10-18",
+    "https://www.biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336/": "2026-10-19",
+    "https://thetranscript.substack.com/p/10-19-2026-shortage-of-capital": "2026-10-19",
+    "https://email.mckinsey.com/T/v71000001a13c176aedc267c96e96c660f0/328b58b83bf1410e0000021ef3a0bcc2/328b58b8-3bf1-410e-952d-4ee0d3a4127a": "2026-10-19",
+    "https://mbideepdives.substack.com/p/metas-gem-part-2-finding-the-scaling?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjExMzk0NDgsImlhdCI6MTc5MjQyNTI2NSwiZXhwIjoxNzk1MDE3MjY1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.FEx_pr74SjPPuAT61g24X9caUrSBNoqNeMIO_9C57gc": "2026-10-19",
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-19-2026-shortage-of-capital": "2026-10-19"
   }
 }
