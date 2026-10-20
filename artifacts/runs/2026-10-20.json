@@ -1,0 +1,44 @@
+{
+  "run_date": "2026-10-20",
+  "generated_at": "2026-10-20T16:13:27Z",
+  "counts": {
+    "gmail_items": 139,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "bccaeccf2ab1a33b",
+      "headline": "Bayer commits $2B, GSK pledges $800M to US manufacturing",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWv-1p4gTmQpW2fQdYy2kHv1HVyCbyQ5W3F8pN48YKcn5nR3bW8wM7ks6lZ3nmW8hc9SQ5tZ4LkW1-RywK6cd4B6W5fcV206ph1_BW27BSS56L7QrwW3HfyHC2jRMNbW6VJxfh2n5Rp-W5TdyrX20vxjvW6rHMq02VmlTDW6J3M_35n5NHSW6zLG7y2JrlpTW7bP4p17F4BSDW81S7vK3nrt87W3CW-KJ6HkjYJVdG4Tg7QYJRVW4564c94YLcVRW7Y6Kys86X5mlN43XlljgVWpjN98n9XN79gPrW10kcG93P8zkbW7rshkp4ZbNcQW7kYXHq4LbljsW17Yx-52CLRVCVLRGk_49Y90xW904dHT36-P6ZW2N5MnM5Xl7mwW9cLj5J2DJV-1W1GY1qR5YQnflW6QSrVv4TqjB5W5RvxBD83m7LTW87gH6Y8kkckCW9j7F4r2SNn-0W48rbBf4FG79mW1GCgJY12_VKTW48c0112NQDc9W7B05Jm7sszX6W46NkgK1C6vCwW2H_lhP2wdV0YVGmmGP8tGlPPW6Vc-dh8V-_CLW6SXJB05JGtkHW8nc6lr8s7bxdW5k9NCH63GtfwW5x4ZHf1prWvVW1_MRw13Cfb0yf2gWS1q04",
+      "slot": 1,
+      "summary": "Plus, Merck&#39;s sub-q Keytruda barred in 8 European countries \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-1 pick (FDA Press Releases) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    },
+    {
+      "article_id": "9a88565b28766944",
+      "headline": "Letter #347: Marc Stad (2026) \u2014 Dragoneer Founder | Be Patient, Then Be Bold",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-347-marc-stad-2026",
+      "slot": 2,
+      "summary": "Marc Stad, founder of Dragoneer Investment Group (a top-tier late-stage growth equity firm), shares his investment philosophy built around patience and concentrated bets in high-quality compounders. The article includes a detailed Dragoneer Investment Checklist covering business quality, valuation, analytical rigor, market dynamics, and team assessment \u2014 reportedly used verbatim by current and former Dragoneer investors in IC meetings. Stad's framework emphasizes sustainable moats, capital efficiency, and the discipline to wait for the right moment before making bold concentrated positions.",
+      "why_it_matters": "For a reader with strong preferences for elite fund PM process, competitive moat analysis, and deep business diligence, Stad's checklist and philosophy offer a reusable mental model for evaluating growth-stage companies across tech and healthcare \u2014 directly applicable to portfolio construction in volatile AI/biotech markets.",
+      "signal_tags": [
+        "high_priority_source",
+        "venture_capital_insights",
+        "hedge_fund_pm_process",
+        "analytical_depth",
+        "practitioner_perspective"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

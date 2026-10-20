@@ -13462,5 +13462,86 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article URL returns a 404 'Page not found' error \u2014 there is no actual article content to evaluate, only STAT News site navigation, making it impossible to verify substance, accuracy, or depth."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive FDA approval article covering a landmark oncology decision for GSK's dostarlimab with clear clinical data, patient eligibility criteria, and near-term investment implications for a coverage universe ticker."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "DeepSeek just open-sourced its inference engine",
+    "source": "Hacker News (via GitHub)",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a GitHub README / technical documentation dump \u2014 it has no analytical depth, no investment insight, and is essentially a spec sheet for a software release, not a finance/macro article; it belongs in Slot 3 at best, but even there it lacks the narrative depth required."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "[scuttleslops] AMZN, MTCH, SPOT, Open vs. closed models",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is only a collection of teaser blurbs and topic previews with no substantive content \u2014 the actual analysis on AMZN, MTCH, SPOT, and open vs. closed models is paywalled and not present in the provided text."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "TSMC 3Q'26: Easing Off the Brake",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/tsmc-3q26-easing-off-the-brake",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The publicly visible article content is largely a teaser \u2014 the substantive analysis is locked behind a paywall, leaving only surface-level earnings figures and a single CEO quote, which does not constitute the analytical depth this reader profile requires."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "Letter #347: Marc Stad (2026) \u2014 Dragoneer Founder | Be Patient, Then Be Bold",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-347-marc-stad-2026",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantial practitioner-level investment content through Marc Stad's full investment philosophy, including a detailed Dragoneer IC checklist and his personal framework for concentrated conviction \u2014 directly matching the reader's exemplar preference for elite fund PM process and analytical depth."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "DeepSeek just open-sourced its inference engine",
+    "source": "Hacker News (via GitHub)",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a GitHub README / technical documentation release note \u2014 it is essentially a feature list and build instructions with no analytical depth, strategic narrative, or investment insight, making it too thin for the digest despite the topic's relevance."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "STAT+: OpenEvidence's JAMA paper leaves open questions",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/20/openevidence-jama-paper-leaves-open-questions-health-tech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the actual article body was not retrieved, only navigation chrome and metadata, leaving no substantive content to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "18 payers exiting Medicare Advantage in 2027",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/10-payers-exiting-medicare-advantage-in-2027/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a factual list of MA market exits with no analytical depth, no AI/Tech relevance, and belongs to Slot 1 (Healthcare) or Slot 2 (Finance/Markets) at best \u2014 not Slot 3 Tech/AI."
+  },
+  {
+    "date": "2026-10-20",
+    "headline": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+    "source": "Hacker News (via Reuters)",
+    "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin news brief reporting a regulatory action without analytical depth on competitive implications, ecosystem bifurcation dynamics, or investment relevance \u2014 matching the reader's AVOID pattern for generic regulatory news lacking structural insight."
   }
 ]

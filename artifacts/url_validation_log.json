@@ -2962,5 +2962,29 @@
         "url": "https://email.mg-d0.substack.com/c/eJxskLuO6yAYhJ_GdLG4GdsFxWnyGojLj0NiA-JyvH77VbLFNlvP6JtPY3WDLZVLNp9vJ8Brv24l9eh6Rk4Kpv3kEEgyr5RNbMEEwaHDrjaIUHQDp3T7TTGdOHpIT7TW2PKJO4fNtArribHM-QUEM8SiICmmgmCyUIwxXUY2wjL5eaWGgjAztWI8QgzP-LUOHB_bzeGxdlObtq_RpgOFqnyBj4tspQPa5aO1XAf2b6D3gd7P8xzbA3z-1FOGqFrR9hXipmrPuUCt4CTK3SibjqPH0C4FUZsd3A8yd7MHq1tIUQUnqcCMz6jIZ0lXhgalpjhwvL0lPiu1G5cOHaI0uoQTQq2o_fVsr1DeSMJXMfEF_Zf0OwAA___Ur4UT"
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "checked_unique": 69,
+    "checked_slots": 72,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 1,
+        "broken_source": "FDA Press Releases",
+        "broken_url": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+        "substitute_source": "BioSpace",
+        "substitute_headline": "Bayer commits $2B, GSK pledges $800M to US manufacturing",
+        "substitute_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWv-1p4gTmQpW2fQdYy2kHv1HVyCbyQ5W3F8pN48YKcn5nR3bW8wM7ks6lZ3nmW8hc9SQ5tZ4LkW1-RywK6cd4B6W5fcV206ph1_BW27BSS56L7QrwW3HfyHC2jRMNbW6VJxfh2n5Rp-W5TdyrX20vxjvW6rHMq02VmlTDW6J3M_35n5NHSW6zLG7y2JrlpTW7bP4p17F4BSDW81S7vK3nrt87W3CW-KJ6HkjYJVdG4Tg7QYJRVW4564c94YLcVRW7Y6Kys86X5mlN43XlljgVWpjN98n9XN79gPrW10kcG93P8zkbW7rshkp4ZbNcQW7kYXHq4LbljsW17Yx-52CLRVCVLRGk_49Y90xW904dHT36-P6ZW2N5MnM5Xl7mwW9cLj5J2DJV-1W1GY1qR5YQnflW6QSrVv4TqjB5W5RvxBD83m7LTW87gH6Y8kkckCW9j7F4r2SNn-0W48rbBf4FG79mW1GCgJY12_VKTW48c0112NQDc9W7B05Jm7sszX6W46NkgK1C6vCwW2H_lhP2wdV0YVGmmGP8tGlPPW6Vc-dh8V-_CLW6SXJB05JGtkHW8nc6lr8s7bxdW5k9NCH63GtfwW5x4ZHf1prWvVW1_MRw13Cfb0yf2gWS1q04"
+      }
+    ],
+    "dropped_items": []
   }
 ]
