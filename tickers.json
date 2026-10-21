@@ -283,7 +283,6 @@
     "CRL",
     "CRMD",
     "CRNO-B",
-    "CRNX",
     "CRSP",
     "CRVO",
     "CRVS",
@@ -838,7 +837,6 @@
     "SYRS",
     "Secare SS",
     "TAK",
-    "TALK",
     "TARA",
     "TARS",
     "TBPH",
@@ -1657,8 +1655,6 @@
     "cormedix": "CRMD",
     "cereno scientific ab (publ)": "CRNO-B.ST",
     "cereno": "CRNO-B.ST",
-    "crinetics pharmaceuticals inc": "CRNX",
-    "crinetics": "CRNX",
     "crocs inc": "CROX",
     "crocs": "CROX",
     "crispr therapeutics ag": "CRSP",
@@ -2875,8 +2871,6 @@
     "sysmex": "6869.T",
     "takeda pharmaceutical co ltd": "TAK",
     "takeda": "TAK",
-    "talkspace inc": "TALK",
-    "talkspace": "TALK",
     "protara therapeutics inc": "TARA",
     "protara": "TARA",
     "tarsus pharmaceuticals inc": "TARS",
@@ -3252,7 +3246,6 @@
       "DH",
       "DOCS",
       "HCAT",
-      "TALK",
       "TDOC",
       "VEEV",
       "WAY"
@@ -5625,13 +5618,6 @@
       "company": "Cereno Scientific AB (publ)",
       "bucket": "healthcare",
       "country": "Sweden"
-    },
-    "CRNX": {
-      "sector": "Biopharma",
-      "subsector": "",
-      "company": "Crinetics Pharmaceuticals Inc",
-      "bucket": "healthcare",
-      "country": "United States"
     },
     "CROX": {
       "sector": "PA",
@@ -10085,13 +10071,6 @@
       "bucket": "healthcare",
       "country": "Japan"
     },
-    "TALK": {
-      "sector": "Healthcare Services",
-      "subsector": "HIT",
-      "company": "Talkspace Inc",
-      "bucket": "healthcare",
-      "country": "United States"
-    },
     "TARA": {
       "sector": "Biopharma",
       "subsector": "",
@@ -11102,5 +11081,5 @@
     }
   },
   "_source": "coverage_universe_tickers.csv",
-  "_ticker_count": 1082
+  "_ticker_count": 1080
 }
