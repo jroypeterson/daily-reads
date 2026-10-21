@@ -1,22 +1,6 @@
 {
   "delivered": [
     {
-      "id": "7d0a38dd03057c91",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "dd07ce65b88e3cd4",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "7a46427afcca6a98",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "a887c1ddf0c33769",
-      "date": "2026-10-06"
-    },
-    {
       "id": "8d34500a1a6726e7",
       "date": "2026-10-07"
     },
@@ -115,6 +99,18 @@
     {
       "id": "9a88565b28766944",
       "date": "2026-10-20"
+    },
+    {
+      "id": "7b60009eaa00e3ec",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "cd74f3a31c79afee",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "39eb92951869b464",
+      "date": "2026-10-21"
     }
   ],
   "reader_pushed": {
@@ -264,6 +260,11 @@
     "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWv-1p4gTmQpW2fQdYy2kHv1HVyCbyQ5W3F8pN48YKcn5nR3bW8wM7ks6lZ3nmW8hc9SQ5tZ4LkW1-RywK6cd4B6W5fcV206ph1_BW27BSS56L7QrwW3HfyHC2jRMNbW6VJxfh2n5Rp-W5TdyrX20vxjvW6rHMq02VmlTDW6J3M_35n5NHSW6zLG7y2JrlpTW7bP4p17F4BSDW81S7vK3nrt87W3CW-KJ6HkjYJVdG4Tg7QYJRVW4564c94YLcVRW7Y6Kys86X5mlN43XlljgVWpjN98n9XN79gPrW10kcG93P8zkbW7rshkp4ZbNcQW7kYXHq4LbljsW17Yx-52CLRVCVLRGk_49Y90xW904dHT36-P6ZW2N5MnM5Xl7mwW9cLj5J2DJV-1W1GY1qR5YQnflW6QSrVv4TqjB5W5RvxBD83m7LTW87gH6Y8kkckCW9j7F4r2SNn-0W48rbBf4FG79mW1GCgJY12_VKTW48c0112NQDc9W7B05Jm7sszX6W46NkgK1C6vCwW2H_lhP2wdV0YVGmmGP8tGlPPW6Vc-dh8V-_CLW6SXJB05JGtkHW8nc6lr8s7bxdW5k9NCH63GtfwW5x4ZHf1prWvVW1_MRw13Cfb0yf2gWS1q04": "2026-10-20",
     "https://aletteraday.substack.com/p/letter-347-marc-stad-2026": "2026-10-20",
     "https://thetranscript.substack.com/p/catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEyOTc3ODMsImlhdCI6MTc5MjQ5NDA0OCwiZXhwIjoxNzk1MDg2MDQ4LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.hIALuWWb9PFPRB7tAxhWNqKNtSUX63EB8XFi7FMMpJQ": "2026-10-20",
-    "https://aletteraday.substack.com/p/letter-347-marc-stad-2026?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjA4NTI1MjcsImlhdCI6MTc5MjQ1ODE1NSwiZXhwIjoxNzk1MDUwMTU1LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.pM-VsP8qOmBSYrZ7d-McTMnLalwtYnwKK1Bm-2St7KY": "2026-10-20"
+    "https://aletteraday.substack.com/p/letter-347-marc-stad-2026?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjA4NTI1MjcsImlhdCI6MTc5MjQ1ODE1NSwiZXhwIjoxNzk1MDUwMTU1LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.pM-VsP8qOmBSYrZ7d-McTMnLalwtYnwKK1Bm-2St7KY": "2026-10-20",
+    "https://www.biopharmadive.com/news/gsk-ionis-fda-approve-hibsago-chronic-hepatitis-b-bepirovirsen/833541/": "2026-10-21",
+    "https://www.fiercehealthcare.com/finance/cencora-acquire-majority-stake-24b-american-oncology-network": "2026-10-21",
+    "https://openai.com/index/scaling-ai-research-for-complex-biological-data/": "2026-10-21",
+    "https://mbideepdives.substack.com/p/the-strongest-argument-against-spacexs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEzODI4MzAsImlhdCI6MTc5MjU5NTczMCwiZXhwIjoxNzk1MTg3NzMwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.HQeRjH1sU1mTwJZT3ejZ8IeLKx25U3CsUBXtgbIYPsg": "2026-10-21",
+    "https://mbideepdives.substack.com/p/is-microsoft-over-earning-on-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEyMTUyODQsImlhdCI6MTc5MjUxNDI2OCwiZXhwIjoxNzk1MTA2MjY4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.sMwAAzznOTvan1rwLNzxY6eabfV1v0dN2Umjsa2KQ5w": "2026-10-21"
   }
 }

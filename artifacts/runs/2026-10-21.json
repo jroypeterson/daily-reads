@@ -1,0 +1,66 @@
+{
+  "run_date": "2026-10-21",
+  "generated_at": "2026-10-21T16:30:11Z",
+  "counts": {
+    "gmail_items": 138,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "7b60009eaa00e3ec",
+      "headline": "GSK, Ionis win US approval for first-of-its-kind hepatitis B drug",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/gsk-ionis-fda-approve-hibsago-chronic-hepatitis-b-bepirovirsen/833541/",
+      "slot": 1,
+      "summary": "The FDA approved Hibsago (bepirovirsen), a GSK/Ionis collaboration, as the first treatment capable of achieving a functional cure for chronic hepatitis B \u2014 a disease affecting ~300 million people globally. In two Phase 3 trials, roughly 20% of patients on Hibsago plus antivirals achieved functional cure vs. 0% on placebo plus antivirals, with results published in NEJM. Jefferies projects ~$3B in peak annual sales, though mandatory weekly lab monitoring for liver inflammation and low platelets may slow broad commercial uptake.",
+      "why_it_matters": "A landmark FDA approval for GSK and IONS with $3B peak sales potential, but the safety monitoring burden creates a real commercial overhang worth tracking as pricing and payer dynamics unfold.",
+      "signal_tags": [
+        "ticker_match:GSK",
+        "ticker_match:IONS",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "cd74f3a31c79afee",
+      "headline": "Cencora to acquire majority stake in $2.4B American Oncology Network",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/finance/cencora-acquire-majority-stake-24b-american-oncology-network",
+      "slot": 2,
+      "summary": "Cencora is acquiring a 75% majority stake in American Oncology Network, a 21-state oncology MSO with 350+ providers, in a deal valuing AON at $2.4 billion \u2014 its second major oncology network acquisition following the $5 billion OneOncology deal closed late 2025. Evercore analysts highlight AON's complementary positioning (focused on smaller community oncology practices vs. OneOncology's larger practices), limited integration risk given Cencora's existing 4% stake and distribution partnership since 2020, and project EPS accretion of $0.10 and $0.22 in FY2028 and FY2029 respectively. The deal extends a broader specialty practice network arms race among drug distributors, with Cardinal Health and McKesson also making billion-dollar moves in oncology, GI, and ophthalmology networks.",
+      "why_it_matters": "Cencora's vertical integration into oncology MSOs is reshaping drug distribution economics and GPO dynamics in specialty pharma, with compounding EPS accretion implications and a clear competitive moat being built against Cardinal Health and McKesson.",
+      "signal_tags": [
+        "ticker_match:COR",
+        "novelty",
+        "actionability",
+        "serial_acquirer_analysis"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "b0748c8dcd62f3d2",
+      "headline": "Using thousands of AI agents to uncover new leads in biological data",
+      "source": "OpenAI (via Hacker News)",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "slot": 3,
+      "summary": "OpenAI, PerturbAI, and Scripps Research deployed thousands of GPT-Rosalind-powered AI agents in parallel to analyze a whole-brain CRISPR atlas spanning millions of mouse brain cells, completing in 32 minutes what would have taken human researchers months. Each agent investigated a specific gene disruption, searched scientific literature, and proposed biological mechanisms; outputs were aggregated into a 'reasoning atlas' linking genes, cellular effects, and disease hypotheses. The distributed approach dramatically outperformed a single-agent baseline \u2014 citing 700+ references versus 11 \u2014 and surfaced novel leads including cerebellar-specific TSC2 effects and a potential cholesterol-neurodegeneration connection relevant to Alzheimer's and Parkinson's research.",
+      "why_it_matters": "This case study concretely illustrates how agentic AI scaling and distributed biological reasoning are compressing the drug discovery hypothesis-generation cycle from months to minutes \u2014 a structural shift with direct implications for biotech R&D productivity and competitive moat analysis in AI-enabled research platforms.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "ai_biology_intersection"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}

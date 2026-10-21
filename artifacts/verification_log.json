@@ -13543,5 +13543,77 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "The article is a thin news brief reporting a regulatory action without analytical depth on competitive implications, ecosystem bifurcation dynamics, or investment relevance \u2014 matching the reader's AVOID pattern for generic regulatory news lacking structural insight."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "GSK, Ionis win US approval for first-of-its-kind hepatitis B drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/gsk-ionis-fda-approve-hibsago-chronic-hepatitis-b-bepirovirsen/833541/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive FDA approval article with ticker matches (GSK, IONS), peak sales estimates ($3B from Jefferies), mechanism detail, clinical trial data, and commercial nuance around safety labeling risks to adoption \u2014 exactly what Slot 1 requires."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "Elevance Health posts $1.4B in profit in Q3 earnings beat",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/elevance-health-posts-14b-profit-q3-earnings-beat",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin earnings recap with standard quarterly metrics and a leadership announcement, lacking the analytical depth on managed care dynamics, MA star rating headwinds, or Medicaid policy impacts that would make it actionable for the reader's investment process."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "Using thousands of AI agents to uncover new leads in biological data",
+    "source": "OpenAI (via Hacker News)",
+    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive and directly matches the reader's strongest interest in AI-biology intersection, but it belongs in Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), as it contains no macro, earnings, sector rotation, drug pricing, or market-relevant financial content."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "The Strongest Argument Against SpaceX's Compute Pricing Is SpaceX",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/the-strongest-argument-against-spacexs?r=w2qs",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full analytical content is behind a subscriber wall, leaving only a thin teaser that introduces the topic without delivering the depth, financial modeling, or argument that would justify selection."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "White House defers $1.2B more in California Medicaid payments",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/legal-regulatory-issues/white-house-defers-1-2b-more-in-california-medicaid-payments/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief lacking analytical depth on investment implications \u2014 it reports the deferral announcement but offers no analysis of managed care MLR impact, provider financial stress, or ticker-level consequences that would make it actionable for a finance-oriented reader."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "Cencora to acquire majority stake in $2.4B American Oncology Network",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/cencora-acquire-majority-stake-24b-american-oncology-network",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on Cencora's $2.4B AON acquisition, including deal structure, strategic rationale, Evercore analyst commentary with specific EPS estimates, and competitive context across McKesson and Cardinal Health \u2014 directly relevant to Slot 2 finance/M&A themes with a ticker match on COR."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "Using thousands of AI agents to uncover new leads in biological data",
+    "source": "OpenAI (via Hacker News)",
+    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has genuine technical depth \u2014 detailing the distributed agentic architecture, comparing single-agent vs. multi-agent performance (11 vs. 700+ references cited), and providing concrete biological findings (TSC1/TSC2 cerebellar differences, cholesterol-neurodegeneration link) \u2014 directly hitting this reader's strongest preference for AI-biology intersection and data infrastructure."
+  },
+  {
+    "date": "2026-10-21",
+    "headline": "Medicine Gave Itself a Code for Diabetes Remission. A Year Later, the Payment System Still Can't See It.",
+    "source": "The Health Care Blog",
+    "url": "https://thehealthcareblog.com/blog/2026/10/21/medicine-gave-itself-a-code-for-diabetes-remission-a-year-later-the-payment-system-still-cant-see-it/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article has genuine depth and structural insight on reimbursement misalignment, but it reads as policy advocacy rather than investment-relevant analysis, and the wildcard slot requires a 'would I forward this?' quality that this piece \u2014 while solid \u2014 doesn't quite achieve for a reader whose preferences skew toward hedge fund process, data infrastructure, and competitive moat analysis rather than healthcare payment reform specifics."
   }
 ]
