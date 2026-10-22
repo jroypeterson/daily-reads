@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "8d34500a1a6726e7",
-      "date": "2026-10-07"
-    },
-    {
-      "id": "bdfdfe1df365a533",
-      "date": "2026-10-07"
-    },
-    {
       "id": "afdf7abc8798888d",
       "date": "2026-10-08"
     },
@@ -111,6 +103,14 @@
     {
       "id": "39eb92951869b464",
       "date": "2026-10-21"
+    },
+    {
+      "id": "63b23420649e4f0a",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "b9dc182e9e42a420",
+      "date": "2026-10-22"
     }
   ],
   "reader_pushed": {
@@ -265,6 +265,9 @@
     "https://www.fiercehealthcare.com/finance/cencora-acquire-majority-stake-24b-american-oncology-network": "2026-10-21",
     "https://openai.com/index/scaling-ai-research-for-complex-biological-data/": "2026-10-21",
     "https://mbideepdives.substack.com/p/the-strongest-argument-against-spacexs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEzODI4MzAsImlhdCI6MTc5MjU5NTczMCwiZXhwIjoxNzk1MTg3NzMwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.HQeRjH1sU1mTwJZT3ejZ8IeLKx25U3CsUBXtgbIYPsg": "2026-10-21",
-    "https://mbideepdives.substack.com/p/is-microsoft-over-earning-on-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEyMTUyODQsImlhdCI6MTc5MjUxNDI2OCwiZXhwIjoxNzk1MTA2MjY4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.sMwAAzznOTvan1rwLNzxY6eabfV1v0dN2Umjsa2KQ5w": "2026-10-21"
+    "https://mbideepdives.substack.com/p/is-microsoft-over-earning-on-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEyMTUyODQsImlhdCI6MTc5MjUxNDI2OCwiZXhwIjoxNzk1MTA2MjY4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.sMwAAzznOTvan1rwLNzxY6eabfV1v0dN2Umjsa2KQ5w": "2026-10-21",
+    "https://www.fiercehealthcare.com/payers/elevance-health-posts-14b-profit-q3-earnings-beat": "2026-10-22",
+    "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors": "2026-10-22",
+    "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE1MzgwOTcsImlhdCI6MTc5MjY4MzQ1MSwiZXhwIjoxNzk1Mjc1NDUxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.4HCJylGZJvPbTZV_d1T9NuqIptvGzEE4x7TEDWxONiM": "2026-10-22"
   }
 }

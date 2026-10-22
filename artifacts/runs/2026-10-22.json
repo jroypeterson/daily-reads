@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-10-22",
+  "generated_at": "2026-10-22T16:30:51Z",
+  "counts": {
+    "gmail_items": 138,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "63b23420649e4f0a",
+      "headline": "Elevance Health poised for Medicaid improvements in 2027 / BCBS antitrust settlement benefiting market",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/payers/elevance-health-posts-14b-profit-q3-earnings-beat",
+      "slot": 1,
+      "summary": "Elevance Health beat Q3 2026 consensus on both profit ($1.4B) and revenue ($50.4B), raising full-year EPS guidance to at least $29 and reaffirming 12%+ EPS growth for 2027. MLR improved to 90.6% from 91.7% a year ago, driven by better performance in Medicare Advantage and the individual market, while Medicaid \u2014 still the sector's pressure point \u2014 showed cost stability and is now tracking slightly ahead of prior margin guidance. Management confirmed 2026 as the Medicaid trough, with rate realignment and clinical program improvements expected to drive margin recovery in 2027.",
+      "why_it_matters": "ELV's Medicaid trough narrative and improving MLR trajectory are direct read-throughs for Centene, Molina, and the managed care payer universe heading into 2027 state rate cycles and the implementation of HR1 work requirements.",
+      "signal_tags": [
+        "ticker_match:ELV",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "regulatory_affairs"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "b9dc182e9e42a420",
+      "headline": "Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+      "slot": 2,
+      "summary": "Meta posted $64.6B in revenue (+26% YoY) with healthy ad metrics \u2014 impressions up 10%, price per ad up 14%, partnership ads at a $15B run rate \u2014 but GAAP operating income fell 37% due to a $9.9B legal charge and surging infrastructure capex that pushed FCF to -$2.1B. The analysis highlights a striking regional divergence where North America is the only accelerating geography, incremental FOA margins running at just 15%, and Reality Labs losses now guided lower ($15B in 2027 vs. $19.2B in 2025) with a clearer path to profitability. A new share class introduction and Zuckerberg's Muse monetization roadmap are flagged as key investor concerns alongside the $49-59B Q4 capex guide.",
+      "why_it_matters": "Meta's capex-versus-monetization tension is the central debate for mega-cap AI investing \u2014 this deep-dive quantifies the incremental margin compression and Reality Labs trajectory that will drive whether the AI infrastructure bet is value-creating or value-destructive at scale.",
+      "signal_tags": [
+        "ticker_match:META",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "AI_impact"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "9a88565b28766944",
+      "headline": "Letter #347: Marc Stad (2026) \u2014 Dragoneer Founder: Be Patient, Then Be Bold",
+      "source": "A Letter a Day",
+      "url": "https://aletteraday.substack.com/p/letter-347-marc-stad-2026",
+      "slot": 4,
+      "summary": "Marc Stad, founder of Dragoneer Investment Group, shares his investment philosophy of building deep conviction slowly before making concentrated bets \u2014 the 'be patient, then be bold' framework. The article includes a full Dragoneer Investment Checklist covering business quality, valuation, analytical conviction, market dynamics, and team assessment, which the newsletter author reports is actively used by current and former Dragoneer investors in IC meetings. Stad also recounts his career path through IGSB and TPG, emphasizing the importance of pursuing difficult opportunities and developing independent judgment.",
+      "why_it_matters": "For a reader with strong preferences for elite fund PM process and competitive moat analysis, Dragoneer's structured framework for evaluating long-duration compounders offers directly applicable diligence scaffolding across growth and healthcare positions.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "venture_capital_insights",
+        "hedge_fund_PM_process",
+        "analytical_depth",
+        "practitioner_perspective"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}

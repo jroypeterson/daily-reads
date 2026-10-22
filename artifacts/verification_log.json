@@ -13615,5 +13615,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article has genuine depth and structural insight on reimbursement misalignment, but it reads as policy advocacy rather than investment-relevant analysis, and the wildcard slot requires a 'would I forward this?' quality that this piece \u2014 while solid \u2014 doesn't quite achieve for a reader whose preferences skew toward hedge fund process, data infrastructure, and competitive moat analysis rather than healthcare payment reform specifics."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is essentially a paywall/teaser fragment \u2014 only a brief founding anecdote is visible, with the rest of the content inaccessible \u2014 so there is insufficient substance to evaluate depth or confirm the moat analysis described in the shortlist summary."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "STAT+: What to expect from the Moderna-Merck cancer vaccine data reveal",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was truncated before any substantive content \u2014 no analyst expectations, success thresholds, or pipeline implications are actually present in the retrieved text, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive earnings analysis of Meta \u2014 well-suited to the reader's preferences for analytical depth and investment-relevant insights \u2014 but it is a Tech/Finance article about Meta's advertising and AI infrastructure spend, not Healthcare/Biotech content, making it a clear mismatch for Slot 1."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "GSK, Ionis snag FDA nod for hep B functional cure",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/MX0ZdkTSWXmN90FqZQVfP5lW33LWhB5Wprg9N9k7Mbb5nR3bW7Y9pgv6lZ3pRW4kZqgG8dwd1SW5_-zVc1rYhyxW1-wM0L2Mtgs3W2Q20HB5yMwgpW8TF-K0397rlRW5cHW9L3pVY0kW5GrnKp8Dzgp-W3spqsF14wZMvW1Vfkd11HxC6xW2WGCs01bgcxJW8H8kDH3M-6nMW4QgzCM5FGTxYW9cM-s-2dD2_rW8zV8Gh897gLRW7DT1bq5Xz1P3W2d4qYD2PbcjsW1yjWd07MXPd2W265DNp8NVkp3Vq1nK_3XxVWzW6_5Bdb14B_JqW4Pc0Ws5qFGbMW2czb7J4Kg_blW5dg2vR5f0jjJW2BMqP35ttL_PW7pTZc-5yQ9tHV3ph2Z4sMr8TW9bW_VP3dlLL_W1zLDpG2xzxSlW7-K1dX2z7TqlW3Z4CfM2G7SCMW2l-2FC8Qy5qWW440kG17f59XRW8zDVkN5mB9nZW8Bp9rR1qfbVSW9871c71K22snW7n-t9S77__NCW3h4Mp75s8vYyW47CpWs5rZP7wW1b05ZG6_HG11W3LSd7Y92bLHWW3-S6DX3h91TWW8S3JLY56qn5Zf1drL7204",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter digest \u2014 the actual content is essentially one sentence about Hibsago's approval validating Ionis's antisense platform, surrounded by advertisements and promotional content, with no analytical depth, commercial analysis, or investment-relevant detail."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Bloomberg: Investors want more from AI / 'Buy everything AI' is over",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/investors-become-more-insistent-on-ai-returns",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is a Bloomberg newsletter briefing about AI investment sentiment \u2014 it belongs to Finance/Markets or Tech/AI, not Healthcare/Biotech, and the truncated content reveals it is a thin market commentary piece rather than deep analysis."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "STAT+: Will the Treasury restrict U.S. investment in the Chinese biotech sector?",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text is not accessible, leaving only navigation chrome and metadata \u2014 there is no substantive content to evaluate beyond what the headline and shortlist already convey."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Letter #347: Marc Stad (2026) \u2014 Dragoneer Founder: Be Patient, Then Be Bold",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-347-marc-stad-2026",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a general long-duration growth investing philosophy piece from a tech/growth fund manager with no healthcare or biotech relevance \u2014 it belongs in a finance/wildcard slot, not Healthcare/Biotech."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Elevance Health poised for Medicaid improvements in 2027 / BCBS antitrust settlement benefiting market",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/elevance-health-posts-14b-profit-q3-earnings-beat",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive earnings detail on Elevance Health including MLR trends, Medicaid margin trajectory, Carelon growth, and forward guidance, with clear read-through for the broader managed care sector."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives provides genuine analytical depth on Meta's 3Q26 earnings \u2014 dissecting regional ad growth divergence, incremental margins, Reality Labs loss trajectory, capex-driven negative FCF, and the new share class \u2014 fully matching the Finance/Macro slot and the reader's strong preference for long-form investment writing with analytical depth."
+  },
+  {
+    "date": "2026-10-22",
+    "headline": "Letter #347: Marc Stad (2026) \u2014 Dragoneer Founder: Be Patient, Then Be Bold",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/letter-347-marc-stad-2026",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantive practitioner content from Dragoneer's founder on long-duration growth investing philosophy, including a detailed IC checklist that maps directly to the reader's strong preferences for elite fund PM process, competitive moat analysis, and deep business diligence."
   }
 ]
