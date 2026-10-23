@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "afdf7abc8798888d",
-      "date": "2026-10-08"
-    },
-    {
-      "id": "edf8e3075a68444d",
-      "date": "2026-10-08"
-    },
-    {
       "id": "44484d9f47214c79",
       "date": "2026-10-09"
     },
@@ -111,6 +103,10 @@
     {
       "id": "b9dc182e9e42a420",
       "date": "2026-10-22"
+    },
+    {
+      "id": "74421534327c3d0b",
+      "date": "2026-10-23"
     }
   ],
   "reader_pushed": {
@@ -268,6 +264,8 @@
     "https://mbideepdives.substack.com/p/is-microsoft-over-earning-on-openai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjEyMTUyODQsImlhdCI6MTc5MjUxNDI2OCwiZXhwIjoxNzk1MTA2MjY4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.sMwAAzznOTvan1rwLNzxY6eabfV1v0dN2Umjsa2KQ5w": "2026-10-21",
     "https://www.fiercehealthcare.com/payers/elevance-health-posts-14b-profit-q3-earnings-beat": "2026-10-22",
     "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors": "2026-10-22",
-    "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE1MzgwOTcsImlhdCI6MTc5MjY4MzQ1MSwiZXhwIjoxNzk1Mjc1NDUxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.4HCJylGZJvPbTZV_d1T9NuqIptvGzEE4x7TEDWxONiM": "2026-10-22"
+    "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE1MzgwOTcsImlhdCI6MTc5MjY4MzQ1MSwiZXhwIjoxNzk1Mjc1NDUxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.4HCJylGZJvPbTZV_d1T9NuqIptvGzEE4x7TEDWxONiM": "2026-10-22",
+    "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/": "2026-10-23",
+    "https://mbideepdives.substack.com/p/spotify-3q26-built-for-the-background?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE3MDEwMzUsImlhdCI6MTc5Mjc3MDY4NSwiZXhwIjoxNzk1MzYyNjg1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ttZxsGHx2e61YH_rgHx0xgCVrR6gZMWcE2v8r4GTQAA": "2026-10-23"
   }
 }

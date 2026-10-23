@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-10-23",
+  "generated_at": "2026-10-23T16:19:32Z",
+  "counts": {
+    "gmail_items": 137,
+    "tier2_items": 88,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "74421534327c3d0b",
+      "headline": "BioPharma Dive: Moderna, Merck shares fall on eagerly anticipated cancer vaccine results",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/",
+      "slot": 1,
+      "summary": "Moderna and Merck's personalized mRNA cancer vaccine intismeran combined with Keytruda cut melanoma relapse/death risk by 42% vs. Keytruda alone in a Phase 3 trial \u2014 meeting but not exceeding Wall Street's 40-50% expectation range and slightly trailing the 44% seen in Phase 2. The data triggered a sharp sell-the-news reaction (MRNA -25%, MRK -1%), with analyst opinion split between those calling it practice-changing and those flagging the slight efficacy deterioration as a commercial uncertainty. Additional readouts in lung, bladder, kidney, and kidney tumors are upcoming, with interim kidney data potentially arriving in late 2026 or H1 2027.",
+      "why_it_matters": "The sell-the-news dip on landmark efficacy data \u2014 with approval looking likely but commercial trajectory uncertain \u2014 sets up a binary re-rating question for MRNA ahead of label expansion readouts, directly relevant to portfolio positioning in oncology.",
+      "signal_tags": [
+        "ticker_match:MRNA",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "b9dc182e9e42a420",
+      "headline": "MBI Deep Dives: Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+      "slot": 2,
+      "summary": "MBI's quarterly teardown of Meta's 3Q'26 earnings finds a still-healthy core advertising business (26% YoY revenue growth, DAP at 3.64B) offset by surging AI infrastructure capex that pushed FCF to -$2.1B, with 4Q guidance implying $49-59B in capex alone. The piece digs into incrementally softening margins (15% adjusted incremental margin in FOA for the second straight quarter), a new share class introduction that has spooked investors, and a more concrete Reality Labs loss glide path toward profitability. It wrestles seriously with whether Meta's AGI-scale compute ambitions represent value destruction or a necessary strategic bet.",
+      "why_it_matters": "Meta's capex trajectory and negative FCF inflection are directly investable signals with read-throughs for GPU demand, hyperscaler supply chains, and whether the 'AI infrastructure premium' in Big Tech valuations is sustainable \u2014 making this essential reading for any portfolio with meaningful tech exposure.",
+      "signal_tags": [
+        "ticker_match:META",
+        "priority:high",
+        "AI_impact",
+        "data_infrastructure",
+        "analytical_depth",
+        "catalyst_proximity"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}

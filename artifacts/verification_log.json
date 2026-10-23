@@ -13705,5 +13705,86 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "The article delivers substantive practitioner content from Dragoneer's founder on long-duration growth investing philosophy, including a detailed IC checklist that maps directly to the reader's strong preferences for elite fund PM process, competitive moat analysis, and deep business diligence."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "Scuttleblurb: [ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a teaser/excerpt listing upcoming posts with no substantive content about ISRG's moat, data network effects, surgeon training lock-in, or consumables flywheel \u2014 the actual deep-dive has not been included, making it impossible to verify depth or accuracy."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "STAT+: AI drug firm Pathos raises $237 million, pushing valuation to $3 billion",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text was truncated before any substantive content loaded, leaving only navigation chrome and no actual reporting on the Pathos deal terms, structure, or investor implications."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "MBI Deep Dives: Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive earnings teardown of Meta (a tech/ad company), not a healthcare or biopharma article, so it fails the Slot 1 theme requirement entirely."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "BioPharma Dive: Moderna, Merck shares fall on eagerly anticipated cancer vaccine results",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantial depth \u2014 covering clinical trial mechanics, analyst divergence, competitive landscape, mechanism of action, and near-term pipeline catalysts \u2014 and is a direct fit for Slot 1 as a major oncology data readout with ticker-matched companies MRNA and MRK."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "MBI Deep Dives: Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment analysis source that delivers exactly the analytical depth and practitioner perspective this reader values, with granular segment-level breakdown of Meta's earnings, FCF trajectory, and capex implications that go well beyond generic market coverage."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "Apollo Daily Spark: Circularity in AI Shows Up in Token Spending Too",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzcsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAOq5KH1wqzwHx0dPQKm4UOED5YeOKZxilaThW6kB6JKydsmSRYNjRRkUp3cElsLwOzQNpTIhirslX95H2N0WEGNGacsQ0immc3QQr1j1ppiKWX4INsbk6g",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains no actual content \u2014 it is a subscription/profile management page, not the article itself, so depth and substance cannot be verified."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "Fierce Healthcare: Redesign Health, ARC Global merge in $2B deal to accelerate health system innovation",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/redesign-health-arc-global-merge-2b-deal-accelerate-health-system-innovation",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a corporate M&A announcement about a health system innovation intermediary \u2014 it belongs in Slot 1 (Healthcare) at best, not Slot 3 (Tech/AI), and while it references AI it lacks the technical depth, infrastructure insight, or foundational AI analysis the reader expects in that slot."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "Becker's Payer Issues: 'Stabilization to improvement': Elevance, Molina see Medicaid margins turning in 2027",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicaid/stabilization-to-improvement-elevance-molina-see-medicaid-margins-turning-in-2027/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Finance/Payer article about MCO Medicaid margin recovery \u2014 substantive for Slot 2, but clearly misassigned to Slot 3 (Tech/AI) with no technology or AI angle."
+  },
+  {
+    "date": "2026-10-23",
+    "headline": "STAT News: STAT+: Treasury proposes major restrictions to U.S. investment in Chinese biotech sector",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/biotech regulatory policy article (Slot 1), not a Tech/AI article \u2014 it covers Treasury Department investment restrictions on Chinese biotech under the COINS Act, with no meaningful AI or technology angle."
   }
 ]

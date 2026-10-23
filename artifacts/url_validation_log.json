@@ -3016,5 +3016,39 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-10-23",
+    "checked_unique": 81,
+    "checked_slots": 83,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 2
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://www.thedependentvariable.com/p/from-pressurevolume-state-to-venous?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjA4NDEyMjksImlhdCI6MTc5MjczOTQwNSwiZXhwIjoxNzk1MzMxNDA1LCJpc3MiOiJwdWItOTQ0MTUwNCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.LoRysWIEv1aVJIt5Whbk1KiQaO0DqVAZ3VDQXvBQxcE"
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskbuu4yAURb8mdFi8jE1BMc39DesAB4dJDAjwRPn70Tga6Ra3Po-9tDacoxwwUskbHpCeWwpWKyMkN4Z65JEqLjQ1OnIqIkiJ0sUwK_LtMAXLvTAzk5oCLgtVAhUF5gV1RqEKLroYJfEwcC_tbUNLlXo4KqQ90yuXBKslxDkQtHwxQhul-Uw-TDtmbDAwbDC-Tfk6k7uNnHFc-awMLDLAKqIOq3dKrFKuq0GSrGBCcyYEX5WUapKTlmHx3nvto9KSw-TZW2pX5E2xY6eBTf10fYB_TL4cJPUtNrxY7Ggnkqe9j1H7Tf66ia-b-Hq9XtO4Y6zXei4jxeQ_csa7oj2gPXCkvJNSMW-jgX-kvG_9rLVh7xgsqafbfDmOM6fx3jCDe2L4xNXTPf__S8EKzaRaSLO_W3lXHNh6yTfF9n-AF0E_XSgHpGwdtPTC1DsZP2o_O7arQGX0rFbyx4q_AQAA__9HMK_2"
+      }
+    ]
   }
 ]
