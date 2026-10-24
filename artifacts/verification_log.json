@@ -13786,5 +13786,95 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is a healthcare/biotech regulatory policy article (Slot 1), not a Tech/AI article \u2014 it covers Treasury Department investment restrictions on Chinese biotech under the COINS Act, with no meaningful AI or technology angle."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a stub \u2014 it contains only a teaser sentence and an upcoming posts list, with no actual substantive content about Intuitive Surgical's moat, competitive dynamics, or business analysis; the depth promised in the shortlist summary cannot be verified from what was provided."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Patient dies in Bristol Myers Squibb autoimmune CAR-T trial",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is too thin \u2014 it's essentially a brief press release summary with minimal analytical depth on regulatory precedent, competitive implications, or safety framework discussion that would make it actionable for the reader."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "No Signs of AI Payoff Outside the Tech Sector",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzksInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAO1ymqclrC4RO0LkkHnllSixl92DUF_ocrVM3BqEfbVZ-W4_I7dUQeWK_i2cErtdC-W6sMY5_GV1DX9xGMiT9e7CTMbDM9G27iDJxUqNFnc_6CKysHo9h4",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is entirely a subscription/profile management page with no actual article content \u2014 the piece cannot be evaluated for substance, depth, or slot fit."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "Despite strong analytical depth and practitioner quality, this article is a Meta earnings deep dive covering advertising, AI capex, and corporate governance \u2014 it belongs to Finance/Markets or Tech/AI, not Healthcare/Biotech, as it contains no healthcare or biopharma content whatsoever."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Moderna-Merck melanoma cancer vaccine data arrived early after embargo leak",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is essentially a newsletter teaser/intro with no substantive clinical data, analysis, or depth \u2014 the actual ESMO readout content is not present in the text, making it too thin to justify selection despite the strong ticker match and catalyst relevance."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "'Stabilization to improvement': Elevance, Molina see Medicaid margins turning in 2027",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicaid/stabilization-to-improvement-elevance-molina-see-medicaid-margins-turning-in-2027/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin synthesis of earnings call soundbites from ELV and MOH with no analytical depth, no financial modeling context, and no substantive discussion of the underlying drivers beyond brief executive quotes \u2014 it reads as a news brief rather than the deep investment-relevant analysis the reader profile demands."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Jefferson Health's ambient AI users closed charts up to 39% faster",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/jefferson-healths-ambient-ai-users-closed-charts-up-to-39-faster/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "While the study findings are substantive and investment-relevant, Becker's Hospital Review is not a priority domain for Slot 1 (which favors endpoints.com, statnews.com, fiercepharma.com, fiercebiotech.com), and this topic \u2014 ambient AI clinical productivity \u2014 fits more naturally in Slot 3 (Tech/AI) than Slot 1 (Healthcare/Biopharma, which prioritizes FDA decisions, clinical trials, M&A, and pipeline news)."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Congress to probe PBMs over retaliation claims with pharmacy audits",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/house-oversight-committee-chair-probes-pbms-independent-pharmacy-audits",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a straightforward congressional letter-writing story with limited depth \u2014 it describes a regulatory probe at an early, document-request stage with no new data, financials, or substantive analysis that would make it actionable for an investor tracking PBM/managed care names."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a practitioner-grade, data-rich earnings teardown of Meta that directly addresses the FCF inflection, capex trajectory, incremental margin compression, and new share class \u2014 all with strong investment relevance and analytical depth that matches the reader's demonstrated taste profile."
+  },
+  {
+    "date": "2026-10-24",
+    "headline": "Jefferson Health's ambient AI users closed charts up to 39% faster",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/jefferson-healths-ambient-ai-users-closed-charts-up-to-39-faster/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Peer-reviewed NEJM Catalyst study with hard quantitative outcomes across 5,000+ clinicians provides substantive, investment-relevant evidence for the ambient AI thesis in clinical settings."
   }
 ]

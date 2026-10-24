@@ -1,0 +1,50 @@
+{
+  "run_date": "2026-10-24",
+  "generated_at": "2026-10-24T15:15:34Z",
+  "counts": {
+    "gmail_items": 129,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b9dc182e9e42a420",
+      "headline": "Meta 3Q'26: Healthy Core, But Investors Spooked by Potential Funding Ambitions",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors",
+      "slot": 2,
+      "summary": "Meta reported 3Q'26 revenue of $64.6B (+26% YoY) with strong ad growth driven by impression volume and pricing, but the quarter was overshadowed by negative FCF of -$2.1B and a 4Q capex guide of $49-59B that signals accelerating AI infrastructure spend. The author dissects the tension between a healthy core ad business (including a $15B+ partnership ads run rate) and mounting cost pressure \u2014 incremental FOA margins of only 15% despite strong top-line growth \u2014 alongside Reality Labs losses guided toward $15B in 2027 and a new share class introduction that appears to have spooked investors. The piece frames the key investor question as whether Meta's Muse AI model investments and GEM ad scaling justify the FCF trough, and when a credible inflection back to positive FCF becomes visible.",
+      "why_it_matters": "For investors holding or evaluating META, this analysis quantifies the capex-driven multiple compression risk while identifying the specific margin and FCF milestones that would signal a re-rating opportunity \u2014 directly actionable for portfolio positioning.",
+      "signal_tags": [
+        "ticker_match:META",
+        "high_priority_source",
+        "catalyst_proximity",
+        "deep_business_diligence",
+        "analytical_depth"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "725e209032997256",
+      "headline": "Jefferson Health's ambient AI users closed charts up to 39% faster",
+      "source": "Becker's Hospital Review",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/jefferson-healths-ambient-ai-users-closed-charts-up-to-39-faster/",
+      "slot": 3,
+      "summary": "A peer-reviewed study published in NEJM Catalyst examined Jefferson Health's ambient AI deployment across 5,234 clinicians, finding the most active users closed charts up to 39.3% faster and spent 16.6% less time on after-hours documentation. The scale and rigor of the dataset make this one of the strongest real-world validations of ambient AI productivity gains in healthcare to date. The findings support the commercial case for ambient AI platforms like Nuance/Microsoft DAX and emerging pure-plays in the space.",
+      "why_it_matters": "Hard outcome data from a large-scale, peer-reviewed deployment significantly de-risks the ambient AI investment thesis and provides diligenceable evidence for evaluating Nuance/Microsoft and ambient AI competitors.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "health_technology_datasets",
+        "novel_dataset_coverage",
+        "analytical_depth"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": true
+    }
+  ]
+}

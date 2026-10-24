@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "44484d9f47214c79",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "9edf1d364ccc624d",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "96f6bcf97bcaf11f",
-      "date": "2026-10-09"
-    },
-    {
       "id": "16bd3df198f4d058",
       "date": "2026-10-10"
     },
@@ -107,6 +95,10 @@
     {
       "id": "74421534327c3d0b",
       "date": "2026-10-23"
+    },
+    {
+      "id": "725e209032997256",
+      "date": "2026-10-24"
     }
   ],
   "reader_pushed": {
@@ -266,6 +258,7 @@
     "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors": "2026-10-22",
     "https://mbideepdives.substack.com/p/meta-3q26-healthy-core-but-investors?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE1MzgwOTcsImlhdCI6MTc5MjY4MzQ1MSwiZXhwIjoxNzk1Mjc1NDUxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.4HCJylGZJvPbTZV_d1T9NuqIptvGzEE4x7TEDWxONiM": "2026-10-22",
     "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/": "2026-10-23",
-    "https://mbideepdives.substack.com/p/spotify-3q26-built-for-the-background?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE3MDEwMzUsImlhdCI6MTc5Mjc3MDY4NSwiZXhwIjoxNzk1MzYyNjg1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ttZxsGHx2e61YH_rgHx0xgCVrR6gZMWcE2v8r4GTQAA": "2026-10-23"
+    "https://mbideepdives.substack.com/p/spotify-3q26-built-for-the-background?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjE3MDEwMzUsImlhdCI6MTc5Mjc3MDY4NSwiZXhwIjoxNzk1MzYyNjg1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.ttZxsGHx2e61YH_rgHx0xgCVrR6gZMWcE2v8r4GTQAA": "2026-10-23",
+    "https://www.beckershospitalreview.com/healthcare-information-technology/ai/jefferson-healths-ambient-ai-users-closed-charts-up-to-39-faster/": "2026-10-24"
   }
 }
