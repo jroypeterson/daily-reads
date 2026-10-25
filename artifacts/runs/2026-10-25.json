@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-10-25",
+  "generated_at": "2026-10-25T15:28:41Z",
+  "counts": {
+    "gmail_items": 128,
+    "tier2_items": 82,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "89aa4ace492ddffd",
+      "headline": "After a cancer vaccine's first success, the race is on to expand the impact",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/",
+      "slot": 1,
+      "summary": "Merck and Moderna's personalized mRNA cancer vaccine intismeran demonstrated a 42% reduction in recurrence risk versus Keytruda alone in the Phase 3 INTerpath-001 trial for high-risk melanoma, presented at ESMO 2026 \u2014 marking the first successful Phase 3 cancer vaccine result after a century of failed attempts. STAT goes beyond the headline data to examine what the result means for the mRNA platform's expansion into other tumor types, the manufacturing and neoantigen selection challenges that remain, and how the adjuvant immunotherapy paradigm may compete or coexist with neoadjuvant approaches. The piece contextualizes the competitive landscape and the scientific hurdles still separating melanoma success from broader oncology application.",
+      "why_it_matters": "With $6B+ peak sales estimates split between MRK and MRNA and a potential platform-defining moment for personalized oncology, this result is a high-conviction catalyst that warrants portfolio review for both names and attention to expansion trial readouts as the next investment signposts.",
+      "signal_tags": [
+        "ticker_match:MRK",
+        "ticker_match:MRNA",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "cafe0f8978bc526a",
+      "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+      "source": "Scuttleblurb",
+      "url": "https://scuttleblurb.substack.com/p/isrg",
+      "slot": 2,
+      "summary": "Scuttleblurb traces Intuitive Surgical's origin from a DARPA-era battlefield telesurgery concept to its accidental product-procedure fit in prostatectomy, explaining how the business model evolved into a razor-razorblade annuity stream in which each installed robot generates ~7 years of instrument and service recurring revenue. The piece details how procedure volume \u2014 not hardware sales \u2014 drives all three revenue lines (systems, instruments, services), and how early dominance in prostatectomy (~67% share by 2010) and cancer hysterectomy (~80% by 2014) created the installed base and surgeon training lock-in that underpins ISRG's durable competitive moat. The excerpt sets up what is clearly a longer analysis of competitive threats from MDT, SYK, and J&J, and TAM expansion from da Vinci 5's new cardiac clearances.",
+      "why_it_matters": "With an ISRG earnings report imminent and new robotic surgical entrants threatening the moat narrative, this practitioner-level decomposition of the razor-razorblade economics and procedure-penetration history is essential for stress-testing the bull case on a core MedTech compounder \u2014 though it belongs in Slot 1 (Healthcare/Biopharma) rather than Slot 2 (Finance/Macro).",
+      "signal_tags": [
+        "ticker_match:ISRG",
+        "priority:high",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "long_form_investment_writing",
+        "actionability"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "76fa84c9d3438636",
+      "headline": "Meta's GEM, Part 2: Finding the Scaling Law",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/metas-gem-part-2-finding-the-scaling?r=w2qs",
+      "slot": 3,
+      "summary": "MBI Deep Dives' second installment on Meta's Generative Ads Recommendation Model (GEM) walks through the full architecture of Meta's AI-powered ad stack \u2014 from Andromeda's retrieval layer to Lattice's model consolidation to GEM's role as an offline 'teacher' model \u2014 and explains how Meta's new Kunlun architecture applies LLM-style scaling laws to advertising. The piece shows that GEM is too expensive for live inference but drives compounding gains by distilling knowledge into faster downstream models, with concrete metrics like a 3% conversion lift and 5% CTR improvement from the Adaptive Ranking Model. The analysis anchors AI infrastructure investment to directly observable business output, illustrating how model scale translates into durable revenue-per-user gains.",
+      "why_it_matters": "For investors evaluating AI ROI claims \u2014 whether from Meta, healthcare IT vendors, or other platform businesses \u2014 this piece offers a rare, mechanistic benchmark showing exactly how scaling laws close the loop from compute investment to measurable advertising yield.",
+      "signal_tags": [
+        "ticker_match:META",
+        "priority:high",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "analytical_depth",
+        "long_form_investment_writing"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": false
+    }
+  ]
+}

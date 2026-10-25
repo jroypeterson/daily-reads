@@ -13876,5 +13876,68 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "Peer-reviewed NEJM Catalyst study with hard quantitative outcomes across 5,000+ clinicians provides substantive, investment-relevant evidence for the ambient AI thesis in clinical settings."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "After a cancer vaccine's first success, the race is on to expand the impact",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive depth on the INTerpath-001 Phase 3 results for intismeran, exploring platform expansion strategy, competitive dynamics versus neoadjuvant approaches, and the broader implications for personalized mRNA oncology \u2014 directly matching Slot 1 criteria with clear investment relevance for MRK and MRNA."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.substack.com/p/isrg",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Scuttleblurb's deep-dive on ISRG is a substantive, analytically rich competitive moat analysis covering razor-razorblade economics, hospital purchasing dynamics, procedure penetration history, and recurring revenue compounding \u2014 squarely matching the reader's strong preferences for deep business diligence, competitive moat analysis, and investment-relevant practitioner content."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "No Signs of AI Payoff Outside the Tech Sector",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzksInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAO1ymqclrC4RO0LkkHnllSixl92DUF_ocrVM3BqEfbVZ-W4_I7dUQeWK_i2cErtdC-W6sMY5_GV1DX9xGMiT9e7CTMbDM9G27iDJxUqNFnc_6CKysHo9h4",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is actually a subscriber profile/preferences page with zero substantive content \u2014 the article body was not retrieved, only a Torsten Slok email subscription management page."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "Is Microsoft Over-Earning on OpenAI?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/is-microsoft-over-earning-on-openai?r=w2qs",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after a brief teaser \u2014 the actual substance and analysis are entirely behind a subscription wall, leaving no readable content to evaluate or summarize beyond the setup paragraph."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "Centene sues CMS over its 2027 Medicare Advantage star ratings",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/alignment-healthcare-sues-cms-over-its-2027-medicare-advantage-star-ratings",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory/healthcare litigation article about Medicare Advantage star ratings \u2014 substantive and relevant, but clearly belongs to Slot 1 (Healthcare/Biopharma) or Slot 2 (Finance/Macro), not Slot 3 (Tech/AI), which requires AI breakthroughs, infrastructure, or enterprise adoption content."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "Meta's GEM, Part 2: Finding the Scaling Law",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/metas-gem-part-2-finding-the-scaling?r=w2qs",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides genuine analytical depth on Meta's AI advertising infrastructure, tracing how GEM's scaling law discoveries compound into measurable revenue gains \u2014 directly matching the reader's strong preferences for data infrastructure, AI impact, competitive moat analysis, and investment-relevant analytical depth."
+  },
+  {
+    "date": "2026-10-25",
+    "headline": "Circularity in AI Shows Up in Token Spending Too",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzcsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAOq5KH1wqzwHx0dPQKm4UOED5YeOKZxilaThW6kB6JKydsmSRYNjRRkUp3cElsLwOzQNpTIhirslX95H2N0WEGNGacsQ0immc3QQr1j1ppiKWX4INsbk6g",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is actually just a subscriber profile/preference management page \u2014 there is no substantive article content to evaluate, only account settings UI, making it impossible to verify the shortlist summary's claims."
   }
 ]
