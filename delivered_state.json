@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "dd4caab0dfeefd33",
-      "date": "2026-10-11"
-    },
-    {
-      "id": "8429ac12a710f4f3",
-      "date": "2026-10-11"
-    },
-    {
       "id": "817b63c3fd36281a",
       "date": "2026-10-12"
     },
@@ -103,6 +95,14 @@
     {
       "id": "76fa84c9d3438636",
       "date": "2026-10-25"
+    },
+    {
+      "id": "809f508efa5cf323",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "3a30b225011317b3",
+      "date": "2026-10-26"
     }
   ],
   "reader_pushed": {
@@ -266,6 +266,10 @@
     "https://www.beckershospitalreview.com/healthcare-information-technology/ai/jefferson-healths-ambient-ai-users-closed-charts-up-to-39-faster/": "2026-10-24",
     "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-25",
     "https://scuttleblurb.substack.com/p/isrg": "2026-10-25",
-    "https://mbideepdives.substack.com/p/metas-gem-part-2-finding-the-scaling?r=w2qs": "2026-10-25"
+    "https://mbideepdives.substack.com/p/metas-gem-part-2-finding-the-scaling?r=w2qs": "2026-10-25",
+    "https://www.biopharmadive.com/news/esmo-2026-intismeran-melanoma-imdelltra-divarasib-kras-g12c/833921/": "2026-10-26",
+    "https://www.fiercehealthcare.com/providers/bon-secours-mercy-health-acquire-majority-stake-surgery-partners": "2026-10-26",
+    "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIwNDEzNzcsImlhdCI6MTc5MzAzMTUyOCwiZXhwIjoxNzk1NjIzNTI4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.DEi7WrQDvi1_pw1lD6trr9sgdrFXBoqxnAQAwEqEjUQ": "2026-10-26",
+    "https://thetranscript.substack.com/p/10-26-2026-tighter-capital?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIxNjA3NjQsImlhdCI6MTc5MzAxMzM1MiwiZXhwIjoxNzk1NjA1MzUyLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Mq-uApq09pVKrS5vC96m78BzTlpeNHxjlMrJ8mKo5w8": "2026-10-26"
   }
 }

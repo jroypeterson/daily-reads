@@ -13939,5 +13939,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is actually just a subscriber profile/preference management page \u2014 there is no substantive article content to evaluate, only account settings UI, making it impossible to verify the shortlist summary's claims."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+    "source": "DealBook (NYT)",
+    "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin, breaking-news stub about Anthropic's IPO filing with no analytical depth \u2014 it does not belong in the Healthcare/Biotech slot, and while it has some relevance to Tech/AI (Slot 3), the actual content is too superficial and generic to meet the digest's depth standard for any slot."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "ESMO '26: A cancer vaccine debate, Roche's KRAS progress and Amgen's 'unprecedented' data",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/esmo-2026-intismeran-melanoma-imdelltra-divarasib-kras-g12c/833921/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Substantive ESMO wrap with specific clinical data, analyst commentary, commercial implications, and ticker-relevant coverage of AMGN and MRK pipeline catalysts."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "Bon Secours Mercy Health to acquire majority stake in Surgery Partners in $5.7B deal",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/providers/bon-secours-mercy-health-acquire-majority-stake-surgery-partners",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article is substantive M&A coverage with deal structure details, valuation multiples, strategic rationale, and sector-level implications that are directly actionable for SGRY and comparable ASC platforms."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a paywall/teaser fragment \u2014 only a table of contents and preview snippets are visible, with no substantive content about ISRG's moat, data flywheel, or switching costs actually present in the text."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "The Transcript: Tighter Capital",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-26-2026-tighter-capital",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a macro earnings-call digest that fits Slot 2 (Finance/Macro) far better than Slot 3 (Tech/AI), and the full text is paywalled after the macro section, making the AI-specific content inaccessible and the depth unverifiable."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "MBI Deep Dives: Intuitive Surgical \u2014 The Long Road to Everyday Surgery",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep-dive on Intuitive Surgical's business history and surgical robotics \u2014 it belongs in Slot 1 (Healthcare/Biopharma) or Slot 4 (Wildcard), not Slot 3 (Tech/AI), as it is fundamentally a company analysis piece about a medical device/surgical robotics firm with no meaningful AI content."
+  },
+  {
+    "date": "2026-10-26",
+    "headline": "No Signs of AI Payoff Outside the Tech Sector",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwMzksInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAO1ymqclrC4RO0LkkHnllSixl92DUF_ocrVM3BqEfbVZ-W4_I7dUQeWK_i2cErtdC-W6sMY5_GV1DX9xGMiT9e7CTMbDM9G27iDJxUqNFnc_6CKysHo9h4",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is entirely a subscription/profile management page with no actual content \u2014 the analysis described in the shortlist summary is not present in the provided text."
   }
 ]

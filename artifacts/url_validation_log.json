@@ -3100,5 +3100,33 @@
         "url": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "checked_unique": 58,
+    "checked_slots": 60,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskMuynSAURL9GZsfCjaAMGGRyf4PisVVyFCgeMf596p4MMsm4u1avamca7qk8qm35dSO-z-dVUo--Z-KVYGbjnqCaFgmSr5IvBC8TTr1jxGIaem3av5RP00IO5ThjzM1Mgt2kA2kRZyG9oesiHVslCQooiIkCB0opiJGNuPJtkWABhV3AifFIKebf9hlmeu0vT8fabW3GvUeXLhKq3gp-XFQrHcmpjtZyHdiPAb4G-Lrve2wHbvlTTxmjbsW4d4i7rj3ngrWiVyR3q126rh5DezRGY0_0f5G52zM400KKOngFgrJ5IUX9LOnJ2LDUFIeZ7t8Sn5XarU-XCVFZU8KNoVbS_vdsr1i-kdMsBZ9X8kvBnwAAAP__KFCEgw"
+      }
+    ]
   }
 ]

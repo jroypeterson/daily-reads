@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-10-26",
+  "generated_at": "2026-10-26T18:10:22Z",
+  "counts": {
+    "gmail_items": 141,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "809f508efa5cf323",
+      "headline": "ESMO '26: A cancer vaccine debate, Roche's KRAS progress and Amgen's 'unprecedented' data",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/esmo-2026-intismeran-melanoma-imdelltra-divarasib-kras-g12c/833921/",
+      "slot": 1,
+      "summary": "BioPharma Dive's ESMO 2026 roundup covers three major oncology data stories: Moderna/Merck's intismeran melanoma vaccine showed a 42% reduction in recurrence risk in Phase 3 but triggered a double-digit sell-off in Moderna shares amid skepticism about scalability and cross-tumor applicability; Roche's divarasib set a new bar in KRAS G12C lung cancer by cutting death/progression risk 42% versus first-gen rivals Lumakras and Krazati, prompting Roche to raise peak sales guidance to ~$3.6B; and Amgen's Imdelltra combination data in small cell lung cancer, published simultaneously in NEJM, earned a standing ovation and could meaningfully expand the drug's already fast-growing ~$1B+ revenue trajectory.",
+      "why_it_matters": "Covered tickers AMGN and MRK face near-term catalyst decisions \u2014 Imdelltra's label expansion potential and intismeran's path to a 2027 FDA submission \u2014 making this data highly actionable for portfolio positioning in large-cap biopharma.",
+      "signal_tags": [
+        "ticker_match:AMGN",
+        "ticker_match:MRK",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "3a30b225011317b3",
+      "headline": "Bon Secours Mercy Health to acquire majority stake in Surgery Partners in $5.7B deal",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/providers/bon-secours-mercy-health-acquire-majority-stake-surgery-partners",
+      "slot": 2,
+      "summary": "Bon Secours Mercy Health is acquiring a majority stake in Surgery Partners (SGRY) in a $5.7B take-private deal at $23.50/share, with Bain Capital rolling over its ~39% stake. The deal creates one of the largest U.S. outpatient surgical platforms and follows a similar Ascension/AmSurg transaction, reflecting a broad health system push into ambulatory care networks. The transaction is expected to close in Q1 next year pending regulatory approval.",
+      "why_it_matters": "The deal is a direct M&A catalyst for SGRY and sets a valuation comp for the ASC sector, while the health-system-as-acquirer dynamic signals accelerating consolidation in outpatient surgery \u2014 a structural shift with pricing implications for independent ASC operators and adjacent platforms.",
+      "signal_tags": [
+        "ticker_match:SGRY",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "subsector:Outpatient"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    }
+  ]
+}
