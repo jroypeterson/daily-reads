@@ -14002,5 +14002,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article text is entirely a subscription/profile management page with no actual content \u2014 the analysis described in the shortlist summary is not present in the provided text."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "Intuitive Surgical: The Long Road to Everyday Surgery",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, long-form fundamental deep dive into Intuitive Surgical (ISRG) covering its full corporate history, competitive moat, procedure penetration dynamics, and long-term growth runway \u2014 exactly the kind of deep business diligence the reader's taste profile prizes most highly."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "Novartis takes $1.9B hit from Avidity ADC fail; Artiva lays off most staff after 2 deaths in lead program",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVRb4-6h2-MNW5z_rpF6GMLXSVyCbyQ5WFplrN1HNy-b5nR3bW7lCGcx6lZ3lFW3Q1Vsg4G7gtdW4c-x_-3cPkc5W8lp3QQ7HbP8WW6T5PtL6pw2mzW7l5Kf16vxsrFW5GZbCC3mczz3W5V-V2h1xRtncW8JHfhK18_Q4wW8hmhBp7QBXk6W75r6Hs12m00VN8ztDSfCFWbtN2G6FjsQZ9xVW730-tW47sZ4pW5VJHxL1pX-mQW55cl2F2QCxTQW6sVkK_1YBmS8W1KQvZw3RLWtvW4qLLpP8M3Y_cW7dLbkR4QbNw8W8wDDcx8hxW2FW6nN7326VkxWPW99wcZP8KGXvlW5tTjx97gc1FkW3Fpn5v1yWhXLW4BhJYh16wyT7W16lH0x49pXHvW2J8qz04DLbcGVLmzr66nLJnWW1ds-l55h8Jh7W7J9hxt4FM09FW1bs1QP26k2n5W89MLZr8jwJSVW6WyyJR8VRgHzW3Q2rsC5JsFV1W33xpqD1cqk5kW4pD7Bv5lfH3lW2g2syg1v-smNW81fB6b30YQjKW5Ytykv36fTlYW9hcsq44g_f8sf3prvQT04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a BioSpace newsletter digest with thin summaries of multiple stories \u2014 it lacks the analytical depth required for Slot 2 (Finance/Macro), and the source (BioSpace) is not a priority finance domain; the core story is a clinical/pipeline failure better suited to Slot 1, but even there the article content is too shallow and newsletter-format to meet the depth standard."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO / What's Riding on Anthropic Going Public? Nearly Everything.",
+    "source": "Bloomberg (Markets Daily: Anthropic's IPO)",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-gives-traders-a-pure-play-bet-on-frontier-ai",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article text is truncated and reveals only a thin Bloomberg newsletter wrapper with no substantive analysis \u2014 the actual content about Anthropic's S-1, revenue figures, infrastructure spend, or IPO mechanics is not present in the scraped text, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "ESMO data could shake up cancer care: Merck, Amgen, more; BMS reveals death in autoimmune CAR T trial",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWm-XN8lCPC4W1nqLkS4pQhGXW8hW1h35WCghjM9V8kW5nR3bW7Y9pgv6lZ3ljW5FTSl51lmypxN7gV_J3cf7qkW5VN5l82vycN5W6Y7_Nt34sv7WW83B2C86s-dHdW5QG5zV8gT0hnN7BF6ccr4tTrW66Drl86Zcz1RN2nLklzmFqJrW1QtqZv6FGc8hN8Dfz1J4Mxr6VQChD-9dsTQFW7lZRHS8C-n9wW57X6Zf6plsCjW7jf7-F8yN5FrN3yyk_B2VT3gW1zzwbL7vYD6VW5rPSKw94GQNFW69MYs_382WxyW7hJL2b972pSmW7cFV-g4mLdwrW1qltt35xLtVJW5w_PWr4343pVW1QFH2q2cG_S9W6_wMVB2b_qFTW6GM8XS7kWBQwW5prLxY5n59KRW6Jb4Tz6Zlj0sN56Hp2tcLTr2N6VmQgR2dYCRW7Rs3QL5LVzlBW3YQZ9L95THVhW7Qz46x5h0rgHV9t09c7PFCw9W561l9d1T_CG2W4QgPqd5Gp_P2W3X0L1w2rnGSkN1s3B92NGbJWW30Vy1k2hYn7kW1jzdBn9g-9VxW6XHZfD9jqHg7W35wHrb4162PndS3SFM04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is essentially a marketing email shell from BioSpace with almost no substantive content \u2014 it contains a single sentence of actual data (Imdelltra + Imfinzi survival benefit), surrounded by job ads, event listings, and sponsor banners, making it far too thin for any digest slot regardless of how compelling the headline sounds."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is not the actual Intuitive Surgical deep-dive content \u2014 it is a collection of teaser snippets and 'upcoming posts' blurbs from Scuttleblurb's newsletter index, indicating the ISRG piece has not yet been published or was not successfully retrieved, so there is no substantive content to evaluate."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "Anthropic lays out drug R&D ambitions, risks in mammoth IPO filing",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is substantive and relevant, but it fits Slot 1 (Healthcare/Biopharma) or Slot 3 (Tech/AI) far better than Slot 2 (Finance/Macro), as its focus is on Anthropic's drug discovery strategy, molecular biology buildout, and life sciences risk disclosures rather than macro, earnings, or market dynamics."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "Tighter Capital (The Transcript \u2013 10/26/2026)",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/10-26-2026-tighter-capital",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after the macro summary section, leaving only thin executive quote snippets that are too surface-level to deliver the analytical depth this reader requires, despite the structural capital-tightening theme being genuinely relevant."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "UnitedHealthcare expands AI companion Avery to 21M members",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/unitedhealthcare-expands-ai-companion-avery-21m-members",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin product announcement with limited financial or strategic depth \u2014 it lacks pricing, cost impact, competitive analysis, or investment implications that would make it substantive for a Finance/Macro slot, and even for Slot 3 (Tech/AI) it reads more like a press release than an analytical piece."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "Anthropic lays out drug R&D ambitions, risks in mammoth IPO filing",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a solid news summary of Anthropic's S-1 healthcare disclosures but lacks the analytical depth, investment framework, or structural insight the reader profile demands \u2014 it reads as a thin press-release recap rather than a deep-dive on competitive moat, valuation implications, or the AI-biology intersection with genuine analytical substance."
+  },
+  {
+    "date": "2026-10-27",
+    "headline": "UnitedHealthcare expands AI companion Avery to 21M members",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/payers/unitedhealthcare-expands-ai-companion-avery-21m-members",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is too thin and PR-driven \u2014 it lacks technical depth on Avery's architecture, model choices, or measurable outcomes beyond a vague '90% resolution rate,' and reads more like a product announcement than an analytical piece on enterprise AI deployment."
   }
 ]

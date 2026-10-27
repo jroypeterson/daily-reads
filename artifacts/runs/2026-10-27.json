@@ -1,0 +1,34 @@
+{
+  "run_date": "2026-10-27",
+  "generated_at": "2026-10-27T17:17:12Z",
+  "counts": {
+    "gmail_items": 144,
+    "tier2_items": 90,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "5006fc296591fb0d",
+      "headline": "Intuitive Surgical: The Long Road to Everyday Surgery",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road",
+      "slot": 1,
+      "summary": "MBI Deep Dives publishes an extensive fundamental analysis of Intuitive Surgical, tracing its origins from a government-funded SRI International lab through its IPO, the pivotal elimination of rival Computer Motion, and the prostatectomy decade that built its dominance. The piece examines the da Vinci system's competitive moat \u2014 including the consolidated foundational patent estate, the razor-and-blade capital model, and the durable switching costs embedded in surgeon training and hospital workflows. It then turns to the central investment debate: whether robotic surgery can expand beyond premium specialty procedures into high-volume, cost-sensitive everyday surgeries like cholecystectomy.",
+      "why_it_matters": "ISRG is a canonical large-cap MedTech compounder, and this analysis directly addresses the key bull/bear debate on procedure TAM expansion and capital cycle durability that determines whether the stock can continue compounding at above-market rates over the next decade.",
+      "signal_tags": [
+        "ticker_match:ISRG",
+        "high_priority_source",
+        "deep_business_diligence",
+        "competitive_moat_analysis",
+        "long_form_investment_writing",
+        "analytical_depth"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    }
+  ]
+}
