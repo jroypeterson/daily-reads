@@ -14092,5 +14092,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is too thin and PR-driven \u2014 it lacks technical depth on Avery's architecture, model choices, or measurable outcomes beyond a vague '90% resolution rate,' and reads more like a product announcement than an analytical piece on enterprise AI deployment."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive analysis of Anthropic's S-1 filing with real financial modeling, but it belongs to Slot 3 (Tech/AI) or Slot 2 (Finance/Markets), not Slot 1 (Healthcare/Biotech), as it has no healthcare or biopharma content."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "Intuitive Surgical: The Long Road to Everyday Surgery",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a substantive, analytically deep long-form piece on ISRG covering competitive moat, procedure adoption curves, installed-base dynamics, and the hardware-vs-software debate \u2014 all core to position sizing and compounder durability assessment for a healthcare medtech holding."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "STAT+: Why every health care AI company must face Epic",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/28/health-care-ai-innovation-challenge-epic-ai-prognosis/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially just a newsletter byline, advertisement blurb, and apple-tasting anecdote \u2014 there is no substantive content about Epic's market position or health tech AI dynamics actually present in the provided text, making it impossible to verify the shortlist summary's claims."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "Lilly's 'triple-G' drug beats Ozempic in head-to-head study",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/28/retatrutide-vs-ozempic-lilly-diabetes-study/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a clear Slot 1 (Healthcare/Biopharma) clinical trial data readout, not a Finance/Macro article \u2014 and the full article text is truncated/paywalled, making depth assessment unreliable, but the topic itself belongs to the biopharma pipeline slot rather than macro/markets."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "5 payers suing over 2027 Medicare Advantage star ratings",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/5-payers-suing-over-2027-medicare-advantage-star-ratings/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, specific details on five separate lawsuits\u2014naming plaintiffs, dollar amounts at stake ($3B+ combined), specific measure counts challenged, star rating differentials, and jurisdictions\u2014making it a credible, actionable payer-sector story with direct earnings implications for CVS/Aetna, Centene, and Alignment Healthcare."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "FDA unveils guidance for 'plug and play' gene therapies",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/fda-personalized-gene-therapy-rare-disease-guidance/873004/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a regulatory/biopharma news story best suited for Slot 1 (Healthcare/Biotech), not Slot 3 (Tech/AI) \u2014 it covers FDA guidance on gene therapy approval frameworks, not AI breakthroughs, infrastructure, or enterprise tech adoption."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "Big Tech earnings: Microsoft and Alphabet have a lot to prove to AI skeptics",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-10-28/microsoft-alphabet-have-a-lot-to-prove-to-ai-skeptics",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is almost entirely navigation/boilerplate chrome from Bloomberg's website \u2014 the actual article body was truncated before any substantive analysis appeared, making it impossible to verify depth, and what little framing exists is a generic earnings-preview teaser rather than deep AI infrastructure analysis aligned with the reader's preference for analytical depth over thin summaries."
+  },
+  {
+    "date": "2026-10-28",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a paywalled stub showing only teaser snippets and upcoming post lists \u2014 there is no substantive content about ISRG's competitive moat, surgeon training lock-in, or any of the analytical claims described in the shortlist summary."
   }
 ]

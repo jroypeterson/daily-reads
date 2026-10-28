@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "48d66ff854494b4f",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "cde3709a78572beb",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "16508b702029f4b5",
-      "date": "2026-10-13"
-    },
-    {
       "id": "371c1c532e479323",
       "date": "2026-10-14"
     },
@@ -99,6 +87,10 @@
     {
       "id": "5006fc296591fb0d",
       "date": "2026-10-27"
+    },
+    {
+      "id": "0fda405b25b32bf6",
+      "date": "2026-10-28"
     }
   ],
   "reader_pushed": {
@@ -268,6 +260,8 @@
     "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIwNDEzNzcsImlhdCI6MTc5MzAzMTUyOCwiZXhwIjoxNzk1NjIzNTI4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.DEi7WrQDvi1_pw1lD6trr9sgdrFXBoqxnAQAwEqEjUQ": "2026-10-26",
     "https://thetranscript.substack.com/p/10-26-2026-tighter-capital?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIxNjA3NjQsImlhdCI6MTc5MzAxMzM1MiwiZXhwIjoxNzk1NjA1MzUyLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Mq-uApq09pVKrS5vC96m78BzTlpeNHxjlMrJ8mKo5w8": "2026-10-26",
     "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road": "2026-10-27",
-    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-27-2026-catalyst-watch": "2026-10-27"
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-27-2026-catalyst-watch": "2026-10-27",
+    "https://www.beckerspayer.com/payer/medicare-advantage/5-payers-suing-over-2027-medicare-advantage-star-ratings/": "2026-10-28",
+    "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIzOTAyMTMsImlhdCI6MTc5MzIwNTA3NCwiZXhwIjoxNzk1Nzk3MDc0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CT2IAyHaSzNiswQbCQF2tE4fpdWb6o_QBIi74j6DrO4": "2026-10-28"
   }
 }

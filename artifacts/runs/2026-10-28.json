@@ -1,0 +1,54 @@
+{
+  "run_date": "2026-10-28",
+  "generated_at": "2026-10-28T17:53:31Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "5006fc296591fb0d",
+      "headline": "Intuitive Surgical: The Long Road to Everyday Surgery",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road",
+      "slot": 1,
+      "summary": "MBI Deep Dives traces Intuitive Surgical's 30-year arc from a DoD-funded telepresence prototype to a 10,000-procedures-per-day platform, examining how the absorption of rival Computer Motion consolidated the foundational patent estate and enabled profitability. The piece dissects the prostatectomy adoption wave that unexpectedly anchored the installed base, then interrogates whether ISRG's durable moat resides in the da Vinci hardware itself or in the accumulated procedural data, software ecosystem, and surgeon training lock-in that surrounds it. Competitive dynamics from emerging entrants (Medtronic Hugo, J&J Ottava, CMR Surgical) and the contested economics of extending robotic surgery into high-volume, cost-sensitive procedures like cholecystectomy are central to the investment debate.",
+      "why_it_matters": "For any long-duration MedTech portfolio, this analysis directly informs whether ISRG's ~23% 26-year CAGR can persist as the procedure TAM broadens and hardware competitors arrive, making it essential reading for moat durability and position sizing decisions.",
+      "signal_tags": [
+        "ticker_match:ISRG",
+        "priority:high",
+        "analytical_depth",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "long-form_investment_writing"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "0fda405b25b32bf6",
+      "headline": "5 payers suing over 2027 Medicare Advantage star ratings",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/medicare-advantage/5-payers-suing-over-2027-medicare-advantage-star-ratings/",
+      "slot": 2,
+      "summary": "At least five health insurers\u2014CVS/Aetna, SCAN, Centene, Healthfirst, and Alignment Healthcare\u2014have sued CMS over their 2027 Medicare Advantage star ratings, alleging the agency applied quality measures never formally adopted through notice-and-comment rulemaking. The combined financial exposure exceeds $3 billion in foregone bonus payments and rebate retention, with CVS alone claiming over $2 billion in 2028 impact. The litigation follows a multi-year pattern of payer-CMS disputes over MA rating methodology, including a 2026 Georgia federal court ruling that found CMS lacked authority for 20 measures in Clover Health's rating.",
+      "why_it_matters": "With CVS/Aetna, Centene, and Alignment Healthcare all facing material bonus payment shortfalls\u2014quantified in the billions\u2014this litigation wave represents a concrete, near-term earnings risk event for managed care investors heading into 2027 plan year budgeting cycles.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:ALHC",
+        "ticker_match:STAR",
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "actionability",
+        "healthcare_adjacent_finance"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    }
+  ]
+}
