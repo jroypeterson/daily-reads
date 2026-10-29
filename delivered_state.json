@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "371c1c532e479323",
-      "date": "2026-10-14"
-    },
-    {
       "id": "34378e656cbfd5e3",
       "date": "2026-10-16"
     },
@@ -91,6 +87,18 @@
     {
       "id": "0fda405b25b32bf6",
       "date": "2026-10-28"
+    },
+    {
+      "id": "e1e911377a9a3918",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "25ee1f9cc1d50529",
+      "date": "2026-10-29"
+    },
+    {
+      "id": "3f43c285dc138921",
+      "date": "2026-10-29"
     }
   ],
   "reader_pushed": {
@@ -262,6 +270,9 @@
     "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road": "2026-10-27",
     "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F10-27-2026-catalyst-watch": "2026-10-27",
     "https://www.beckerspayer.com/payer/medicare-advantage/5-payers-suing-over-2027-medicare-advantage-star-ratings/": "2026-10-28",
-    "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIzOTAyMTMsImlhdCI6MTc5MzIwNTA3NCwiZXhwIjoxNzk1Nzk3MDc0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CT2IAyHaSzNiswQbCQF2tE4fpdWb6o_QBIi74j6DrO4": "2026-10-28"
+    "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIzOTAyMTMsImlhdCI6MTc5MzIwNTA3NCwiZXhwIjoxNzk1Nzk3MDc0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CT2IAyHaSzNiswQbCQF2tE4fpdWb6o_QBIi74j6DrO4": "2026-10-28",
+    "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/": "2026-10-29",
+    "https://mbideepdives.substack.com/p/alphabet-3q26-search-worries-weighing?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjI1Nzg5NTEsImlhdCI6MTc5MzI5MDUwOCwiZXhwIjoxNzk1ODgyNTA4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Wz44m5NydsEJaWpU9xg2KEnTbpXFohMlG3tMIlVyru8": "2026-10-29",
+    "https://aswathdamodaran.blogspot.com/2026/10/the-anthropic-prospectus-arrives-ipo.html": "2026-10-29"
   }
 }

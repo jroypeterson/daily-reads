@@ -14164,5 +14164,95 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is a paywalled stub showing only teaser snippets and upcoming post lists \u2014 there is no substantive content about ISRG's competitive moat, surgeon training lock-in, or any of the analytical claims described in the shortlist summary."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIzOTAyMTMsImlhdCI6MTc5MzIwNTA3NCwiZXhwIjoxNzk1Nzk3MDc0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CT2IAyHaSzNiswQbCQF2tE4fpdWb6o_QBIi74j6DrO4",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive, analytically deep article on Anthropic's S-1 and AI competitive dynamics, but it belongs to Tech/AI (Slot 3) or Finance/Markets (Slot 2), not Healthcare/Biotech (Slot 1) \u2014 it has no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "The Anthropic Prospectus Arrives: My (but not the) IPO valuation!",
+    "source": "Musings on Markets (Aswath Damodaran)",
+    "url": "https://aswathdamodaran.blogspot.com/2026/10/the-anthropic-prospectus-arrives-ipo.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite being substantive and analytically deep, this article is a valuation analysis of Anthropic's IPO \u2014 firmly a Tech/AI or Finance/Macro topic, not Healthcare/Biotech."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Exclusive: How Epic chokes off competition to stay on top",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWY5RQ7Mn0R4W18yVt-5tXpBFW8cYYgJ5WJ0MFN3V8l9j3qgz0W7lCdLW6lZ3mFW4mDDsJ5w0qXMW3kXSRY192T7QW7tTqZ83VKm32W7kxVlR8QSy8dW8zkZ9266zT2-W53-nll99jmfsW7ShkDT302PrpW6-Pbtz3zlFcqW2rhDFb2dw1NLN18P01t693f-W8N83bd8n8dv3W1KTBD75_NjHBW2ZfQnr8MWzpNN2hv8c1Qt5nSW7fpfGx4d4rqnW5jckjp1jqpPsW8dNRJK6z83khW6Lrwhg34gnk7W1QxpXw7jH5cKW5qy1Lg8mfXPqW4sBKxw7T-6VZW7h3Q1p8xQ-YJN2H85Q5pFsrXMP-f8Px5qBcf5TNMHW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is entirely a paywalled subscription page with no substantive content \u2014 only pricing tiers and marketing copy \u2014 making it impossible to verify depth, accuracy, or investment relevance."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Alphabet 3Q'26: Search Worries Weighing In",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-3q26-search-worries-weighing?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjI1Nzg5NTEsImlhdCI6MTc5MzI5MDUwOCwiZXhwIjoxNzk1ODgyNTA4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Wz44m5NydsEJaWpU9xg2KEnTbpXFohMlG3tMIlVyru8",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep-dive earnings analysis of Alphabet (GOOG) \u2014 a megacap tech company \u2014 with no healthcare or biopharma content, making it entirely mismatched for Slot 1."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Vertex kidney disease drug scrutinized for infection risk \u2014 FDA decision Nov 30",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/29/biotech-news-vertex-kidney-disease-drug-scrutinized-for-infection-risk/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is paywalled (STAT+) \u2014 the content is almost entirely navigation chrome with no substantive article body visible, making it impossible to verify depth, accuracy of the shortlist summary, or whether the safety signal details are meaningfully reported."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "New federal rule will require prescription drug middlemen to share secret payments data",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth on a structural regulatory shift \u2014 PBM fee disclosure rules finalized by the Labor Department \u2014 with clear investment implications for CVS, Cigna/Express Scripts, and UnitedHealth/Optum, and covers the legal challenge landscape, making it actionable and analytically relevant for healthcare investors."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Alphabet 3Q'26: Search Worries Weighing In",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/alphabet-3q26-search-worries-weighing?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjI1Nzg5NTEsImlhdCI6MTc5MzI5MDUwOCwiZXhwIjoxNzk1ODgyNTA4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Wz44m5NydsEJaWpU9xg2KEnTbpXFohMlG3tMIlVyru8",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers genuine analytical depth on Alphabet's 3Q26 earnings \u2014 quantifying the Search deceleration, comparing incremental ad revenue dollar-for-dollar against Meta, stress-testing management's explanations, and flagging a buried TPU buy-back clause \u2014 all directly relevant to GOOG positioning and the AI cannibalization thesis."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "The Anthropic Prospectus Arrives: My (but not the) IPO valuation!",
+    "source": "Musings on Markets (Aswath Damodaran)",
+    "url": "https://aswathdamodaran.blogspot.com/2026/10/the-anthropic-prospectus-arrives-ipo.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Damodaran's bottoms-up intrinsic valuation of Anthropic's S-1 is analytically deep, highly actionable for investors sizing AI exposure, and directly matches the Tech/AI slot with strong alignment to the reader's preferences for analytical depth, competitive moat analysis, and investment-relevant insights."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Lilly's retatrutide doubles Ozempic weight loss in diabetes study",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVt6DC3xkHZ5W4GRnH35nBtKcW1sXT7r5WHv5sN99fz9M5nR3bW8wM7ks6lZ3kLW6ThfH14cdWwSN8Sm_hJlkMjpW7bfK3716J4LGW36SSgT4SW2J5W5pHnGh7036M0W3pMKQp6hsFw8W7-dGWP3ZpC9LW4YvYJm5QsTh0W7f0xpk5dkFm3N43J__vY22xPN2dK2Wcz22x5W2Fby6M4CyrVMW6sgT3H9k2kFnW8YdwRS8MmBRcW9fs4V54bKwCnW8myNbM6xnlGWW6z5bxs7yf-hQW60V3yd8xvtl9W5m-40m8r8qlgW8dnbHR7DvFbtW1QVp8V1Q_1TPW3DVlbl62GwYHW4gtTk-56bv7RN5kS48HT2NR5VjLL_Q8z4PzMW2TNCnM1gf2hNN8Q2crKPSZwWW51CSxJ6DTlClW2FVC_41y2W8_N3z6mB7Z2-KNW4Z5qbn4HPYfrW42d5Cx4K49p4W4GRW-K4CzWqhW7pcF2h1NrY1YVQF47p606xx4N6FbGBxBRX0PW2Xm17D7l3DjPW67g4qB5grYk9VvG1Sq92lvzRN7__jHwgWqLdV7MlKN5rGP6wVNZn0F6-w8g3N7tmrfXplf9lW1hDx_p5-h_9Kf3qNC0M04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin newsletter teaser with almost no substantive content \u2014 it consists of a single sentence about retatrutide beating Ozempic, surrounded by job ads and event listings, with no clinical data, trial details, methodology, or analytical depth to justify inclusion in any slot."
+  },
+  {
+    "date": "2026-10-29",
+    "headline": "Flagship blends three biotech startups to form Etcelera \u2014 AI-aided drugmaker predicting human outcomes",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/flagship-etcelera-etiome-empress-cellarity-launch/872947/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin press-release-style announcement with limited analytical depth \u2014 no funding disclosed, no clinical data, no differentiated insight beyond standard AI-biotech hype, making it insufficiently substantive for the wildcard slot given the reader's strong preference for analytical depth and investment-relevant insights."
   }
 ]

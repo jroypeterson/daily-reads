@@ -1,0 +1,75 @@
+{
+  "run_date": "2026-10-29",
+  "generated_at": "2026-10-29T18:02:40Z",
+  "counts": {
+    "gmail_items": 145,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e1e911377a9a3918",
+      "headline": "New federal rule will require prescription drug middlemen to share secret payments data",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/",
+      "slot": 1,
+      "summary": "The Trump administration has finalized a Labor Department rule requiring pharmacy benefit managers to disclose fees, spread pricing, and other compensation to self-insured employers \u2014 data that has historically been kept entirely secret. The rule is already facing legal challenges from PBM industry groups who argue it overreaches ERISA authority. This represents a meaningful structural shift in drug pricing transparency that could erode the opaque revenue streams underpinning the major integrated managed care/PBM models.",
+      "why_it_matters": "Forced PBM fee transparency threatens the spread pricing and rebate retention practices that are core profit drivers for CVS Caremark, Express Scripts (Cigna), and OptumRx \u2014 a structural headwind for integrated managed care incumbents and a potential catalyst for employer-driven benefit redesign.",
+      "signal_tags": [
+        "ticker_match:DRUG",
+        "regulatory_affairs",
+        "source:STAT_news",
+        "healthcare_adjacent_finance",
+        "investment_relevant_insights",
+        "novelty",
+        "catalyst_proximity"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "b6809fb1fb2b3f42",
+      "headline": "Alphabet 3Q'26: Search Worries Weighing In",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/alphabet-3q26-search-worries-weighing?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjI1Nzg5NTEsImlhdCI6MTc5MzI5MDUwOCwiZXhwIjoxNzk1ODgyNTA4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Wz44m5NydsEJaWpU9xg2KEnTbpXFohMlG3tMIlVyru8",
+      "slot": 2,
+      "summary": "Alphabet posted negative FCF for the second consecutive quarter while reporting 25% revenue growth to $127.6B, driven by Google Cloud more than doubling YoY but offset by Search decelerating sharply from 16.8% to 12% growth. MBI stress-tests management's explanations (FX, de minimis, World Cup, AI Mode monetization lag) against Meta's simultaneous results, where Meta's Family of Apps ads added nearly twice the incremental dollars as Google Search. The piece also flags a TPU buy-back clause buried in the 10-Q and examines the ROIC math behind Alphabet's massive capex buildout.",
+      "why_it_matters": "The milestone of Google Search falling below 50% of Alphabet's total revenue \u2014 combined with Meta consistently adding more incremental ad dollars \u2014 is the clearest quantitative signal yet that AI Mode is structurally dilutive to Search monetization, making this essential diligence for any GOOG long or short thesis.",
+      "signal_tags": [
+        "ticker_match:GOOG",
+        "priority:high",
+        "source:MBI_high_priority",
+        "AI_impact",
+        "catalyst_proximity",
+        "deep_business_diligence",
+        "analytical_depth"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "d5906be7863e690d",
+      "headline": "The Anthropic Prospectus Arrives: My (but not the) IPO valuation!",
+      "source": "Musings on Markets (Aswath Damodaran)",
+      "url": "https://aswathdamodaran.blogspot.com/2026/10/the-anthropic-prospectus-arrives-ipo.html",
+      "slot": 3,
+      "summary": "Aswath Damodaran dissects Anthropic's 416-page S-1 filing, breaking down the key valuation inputs across revenue growth (14x YoY but slowing), profitability (operating losses of $8B adjusted, but trending toward quarterly profitability), reinvestment (hundreds of billions in future compute commitments), and risk (concentrated revenues, BB+ bond rating). He constructs an independent bottoms-up intrinsic value estimate to serve as a rigorous counterpoint to the $1.5\u20132T IPO pricing range. The analysis highlights both bull and bear cases embedded in the prospectus disclosures, offering a structured framework for evaluating the company rather than relying on buzzy metrics like annualized run rates.",
+      "why_it_matters": "For any investor assessing AI sector valuations or considering Anthropic IPO participation, Damodaran's independently-derived valuation anchor \u2014 from the most credible public voice on intrinsic value \u2014 is an essential analytical reference that cuts through hype with disciplined fundamentals.",
+      "signal_tags": [
+        "priority:high",
+        "AI_impact",
+        "deep_business_diligence",
+        "investment_relevant_insights",
+        "analytical_depth",
+        "long_form_investment_writing",
+        "novelty"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
