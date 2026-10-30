@@ -14254,5 +14254,68 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a thin press-release-style announcement with limited analytical depth \u2014 no funding disclosed, no clinical data, no differentiated insight beyond standard AI-biotech hype, making it insufficiently substantive for the wildcard slot given the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive, analytically deep article, but it is firmly a Tech/AI piece (Anthropic S-1 analysis) with no meaningful healthcare or biopharma content, making it entirely mismatched for Slot 1."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "Exclusive: How Epic chokes off competition to stay on top",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWY5RQ7Mn0R4W18yVt-5tXpBFW8cYYgJ5WJ0MFN3V8l9j3qgz0W7lCdLW6lZ3mFW4mDDsJ5w0qXMW3kXSRY192T7QW7tTqZ83VKm32W7kxVlR8QSy8dW8zkZ9266zT2-W53-nll99jmfsW7ShkDT302PrpW6-Pbtz3zlFcqW2rhDFb2dw1NLN18P01t693f-W8N83bd8n8dv3W1KTBD75_NjHBW2ZfQnr8MWzpNN2hv8c1Qt5nSW7fpfGx4d4rqnW5jckjp1jqpPsW8dNRJK6z83khW6Lrwhg34gnk7W1QxpXw7jH5cKW5qy1Lg8mfXPqW4sBKxw7T-6VZW7h3Q1p8xQ-YJN2H85Q5pFsrXMP-f8Px5qBcf5TNMHW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is entirely a STAT+ paywall/subscription page with no substantive content \u2014 the actual investigative reporting on Epic is inaccessible, making it impossible to verify depth, accuracy, or relevance."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "The Fruits of AI Drug Abundance: Indigestion In The Near Term",
+    "source": "Life Sciences VC",
+    "url": "https://lifescivc.com/2026/10/the-fruits-of-ai-drug-abundance-indigestion-in-the-near-term/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive, analytically deep piece from a credible VC practitioner (LifeSciVC) that draws on historical analogies (Genomics Bubble), cites specific data (100+ programs against top 8 targets), and makes a counter-consensus argument about AI drug discovery \u2014 directly hitting the reader's highest-rated AI \u00d7 biology intersection with structural market insight."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "[scuttleslops] GOOGL, AMZN, BRO, KNSL, ODFL, MCO, SPGI",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Scuttleblurb's weekly slops is substantive long-form investment writing with hedge-fund-depth competitive moat analysis across multiple high-conviction names (GOOGL, AMZN, MCO, SPGI, KNSL, ODFL), directly matching the reader's strongest preferences for analytical depth, competitive moat analysis, and practitioner-level business diligence."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers a genuinely rigorous, model-driven S-1 dissection \u2014 reverse-engineering Anthropic's 10% IRR path, surfacing the critical Note 8 compute-allocation revelation, and stress-testing fleet economics with real numbers \u2014 exactly the analytical depth this reader consistently rewards."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "Labor Department finalizes sweeping PBM disclosure rule",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/pbm-transparency-final-rule-labor-department-employer/873254/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive and accurate on PBM regulation, but it fits Slot 1 (Healthcare/Biopharma regulatory news) or Slot 2 (policy impact on markets) far better than Slot 4 Wildcard, and it lacks the cross-domain curiosity, consulting insight, or 'would I forward this?' quality the Wildcard slot demands \u2014 it reads as straightforward regulatory trade reporting rather than a surprising or deeply analytical piece."
+  },
+  {
+    "date": "2026-10-30",
+    "headline": "Medicare's AI-enabled prior authorization pilot linked to nearly 20% drop in some services",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/research-analysis/medicares-ai-enabled-prior-authorization-pilot-linked-to-nearly-20-drop-in-some-services/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "First real-world outcomes data on AI-driven prior authorization at scale is substantive, novel, and highly actionable for managed care, hospital, and health AI positioning \u2014 fitting the Wildcard slot's cross-domain, 'would I forward this?' test."
   }
 ]

@@ -3194,5 +3194,29 @@
         "url": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "checked_unique": 85,
+    "checked_slots": 87,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 2,
+        "broken_source": "Scuttleblurb",
+        "broken_url": "https://scuttleblurb.com",
+        "substitute_source": "BioSpace",
+        "substitute_headline": "AstraZeneca vows to reinvest $1.5B from cost cutting",
+        "substitute_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX5Lkf90RBSWW2BvCDB19t7FmW4-ljtc5WMT7DN7gG7_R5nR3bW7Y9pgv6lZ3p_W3gxSlx7mPzJvW8L_4mx6wSMRhN80-48TlpdrfW549Qs48b67kjW8MyHKC362V_dW2TxWWp65YMjcW9bYR0w3qfYxzW7wHYsl48YM6xW3GCzrc4KDPXGW1xd9418S8NnMW3b7rsS8j36CcT8Zlk5_NzNRW9g7Bly8jBFTPW9gbls28zjDF2V3DqdR6Z9kGcW4rtlm48Ph7qCW1-yfN22FYb3dW4js57k7wmmPqW79LCM13bgBStW6MV6l-8Vv8mBW35FlPq81PKQKW8MmkRM3-slNtW5GdMS53d29XlW5ttH745vNnqcW7TWTkH4xQ3YPW59shB29hlhQBW1dF7W03-MrV4N4D1cmf9hWY9W4qR9dp11d2YDW5npvMj2bhCW3W7Gtwxc2PFb8DW4zp6l34P8Dy0W2SSHJ58tcJbGW7ZkjB92wRJTQW5Sywt-5fJH_DW5LXY0Y8sjQrfVrdH1c2ZJC2MW86kVp-85_5X-W46P6CS7kgZ2XW5D004h3KdVy1W1glV769j6JMKW81DcD823KzTpf3f_N-x04"
+      }
+    ],
+    "dropped_items": []
   }
 ]

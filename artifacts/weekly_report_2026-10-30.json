@@ -1,0 +1,402 @@
+{
+  "period_start": "2026-10-24",
+  "period_end": "2026-10-30",
+  "generated_at": "2026-10-30T17:42:25.689802+00:00",
+  "source_health": {
+    "active_sources": 18,
+    "total_configured": 25,
+    "missing_sources": [
+      "Fierce Biotech",
+      "Fierce Pharma"
+    ],
+    "quiet_slow": [
+      "Consilient Observer",
+      "Howard Marks memos (Brookfield)",
+      "Oaktree Insights",
+      "Value Investors Insight"
+    ],
+    "missing_always_read": [],
+    "quiet_slow_always_read": [
+      "Consilient Observer",
+      "Value Investors Insight"
+    ],
+    "paused": [
+      "Biotech Primer"
+    ],
+    "total_gmail_items": 975,
+    "total_tier2_items": 621,
+    "days_with_runs": 7,
+    "roster": [
+      [
+        "healthcare_daily",
+        [
+          {
+            "name": "BioSpace",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 18
+          },
+          {
+            "name": "Fierce Biotech",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Fierce Pharma",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "STAT News",
+            "category": "healthcare_daily",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 21
+          }
+        ]
+      ],
+      [
+        "healthcare_weekly",
+        [
+          {
+            "name": "Biotech Primer",
+            "category": "healthcare_weekly",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          }
+        ]
+      ],
+      [
+        "healthcare_policy",
+        [
+          {
+            "name": "KFF Health News",
+            "category": "healthcare_policy",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 11
+          }
+        ]
+      ],
+      [
+        "finance_macro",
+        [
+          {
+            "name": "A Letter a Day",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": true,
+            "active": true,
+            "email_count": 1
+          },
+          {
+            "name": "Consilient Observer",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "MBI",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 9
+          },
+          {
+            "name": "Scuttleblurb",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 22
+          },
+          {
+            "name": "The Transcript",
+            "category": "finance_macro",
+            "frequency": "weekly",
+            "always_read": true,
+            "active": true,
+            "email_count": 4
+          },
+          {
+            "name": "Value Investors Insight",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": true,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Apollo Daily Spark (Torsten Slok)",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 14
+          },
+          {
+            "name": "Bloomberg",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 72
+          },
+          {
+            "name": "Bloomberg (subscription notices)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": true,
+            "email_count": 3
+          },
+          {
+            "name": "Howard Marks memos (Brookfield)",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "Morning Brew",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 8
+          },
+          {
+            "name": "Oaktree Insights",
+            "category": "finance_macro",
+            "frequency": "monthly",
+            "always_read": false,
+            "active": false,
+            "email_count": 0
+          },
+          {
+            "name": "WSJ Newsletters",
+            "category": "finance_macro",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 24
+          }
+        ]
+      ],
+      [
+        "finance_weekly",
+        [
+          {
+            "name": "Stratechery",
+            "category": "finance_weekly",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 4
+          }
+        ]
+      ],
+      [
+        "consulting",
+        [
+          {
+            "name": "BCG",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 5
+          },
+          {
+            "name": "McKinsey",
+            "category": "consulting",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 20
+          }
+        ]
+      ],
+      [
+        "broad_curious",
+        [
+          {
+            "name": "The Atlantic",
+            "category": "broad_curious",
+            "frequency": "daily",
+            "always_read": false,
+            "active": true,
+            "email_count": 24
+          }
+        ]
+      ],
+      [
+        "journals",
+        [
+          {
+            "name": "NEJM",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          },
+          {
+            "name": "NEJM Weekend Briefing",
+            "category": "journals",
+            "frequency": "weekly",
+            "always_read": false,
+            "active": true,
+            "email_count": 2
+          }
+        ]
+      ]
+    ]
+  },
+  "selection_quality": {
+    "total_selected": 17,
+    "articles_per_day": [
+      4,
+      3,
+      2,
+      1,
+      2,
+      3,
+      2
+    ],
+    "avg_articles_per_day": 2.4,
+    "verified_pass": 17,
+    "verified_fail": 42,
+    "fail_reasons": [
+      "The full article text is essentially a stub \u2014 it contains only a teaser sentence and an upcoming posts list, with no actual substantive content about Intuitive Surgical's moat, competitive dynamics, or business analysis; the depth promised in the shortlist summary cannot be verified from what was provided.",
+      "The article is too thin \u2014 it's essentially a brief press release summary with minimal analytical depth on regulatory precedent, competitive implications, or safety framework discussion that would make it actionable for the reader.",
+      "The full article text is entirely a subscription/profile management page with no actual article content \u2014 the piece cannot be evaluated for substance, depth, or slot fit.",
+      "Despite strong analytical depth and practitioner quality, this article is a Meta earnings deep dive covering advertising, AI capex, and corporate governance \u2014 it belongs to Finance/Markets or Tech/AI, not Healthcare/Biotech, as it contains no healthcare or biopharma content whatsoever.",
+      "The article is essentially a newsletter teaser/intro with no substantive clinical data, analysis, or depth \u2014 the actual ESMO readout content is not present in the text, making it too thin to justify selection despite the strong ticker match and catalyst relevance.",
+      "The article is a thin synthesis of earnings call soundbites from ELV and MOH with no analytical depth, no financial modeling context, and no substantive discussion of the underlying drivers beyond brief executive quotes \u2014 it reads as a news brief rather than the deep investment-relevant analysis the reader profile demands.",
+      "While the study findings are substantive and investment-relevant, Becker's Hospital Review is not a priority domain for Slot 1 (which favors endpoints.com, statnews.com, fiercepharma.com, fiercebiotech.com), and this topic \u2014 ambient AI clinical productivity \u2014 fits more naturally in Slot 3 (Tech/AI) than Slot 1 (Healthcare/Biopharma, which prioritizes FDA decisions, clinical trials, M&A, and pipeline news).",
+      "The article is a straightforward congressional letter-writing story with limited depth \u2014 it describes a regulatory probe at an early, document-request stage with no new data, financials, or substantive analysis that would make it actionable for an investor tracking PBM/managed care names.",
+      "The full article text is actually a subscriber profile/preferences page with zero substantive content \u2014 the article body was not retrieved, only a Torsten Slok email subscription management page.",
+      "The article is paywalled after a brief teaser \u2014 the actual substance and analysis are entirely behind a subscription wall, leaving no readable content to evaluate or summarize beyond the setup paragraph."
+    ],
+    "extraction_tiers": {
+      "trafilatura": 26,
+      "jina": 29,
+      "tavily": 1,
+      "snippet_fallback": 3
+    }
+  },
+  "feedback": {
+    "total_ratings": 0,
+    "score_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "avg_score": null,
+    "prior_week_avg": null,
+    "score_trend": "no data",
+    "new_taste_exemplars": 0
+  },
+  "always_read": {
+    "delivered": {
+      "The Transcript": 7,
+      "Scuttleblurb": 7,
+      "MBI": 7,
+      "A Letter a Day": 4
+    },
+    "missing": []
+  },
+  "url_validation": {
+    "days_logged": 7,
+    "checked_slots": 473,
+    "total_broken": 9,
+    "surfaces": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 6,
+      "always_read_dropped": 0,
+      "substack_dropped": 2
+    },
+    "top_warned_sources": [
+      [
+        "Stratechery",
+        6
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "Scuttleblurb",
+        1
+      ]
+    ],
+    "dropped_items": [
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d1.substack.com/c/eJxs0Dmu8jAUBeDVxB2RpyR24eJv2Ibl4RIM8fB7QGL3T0DDk159dc_5dJzpsOf6VG3Y5mooPeR0quAglI68YtJi4VYEimySbkKKjSCIJhx6hwTVdPDa9K8rWxZ0VRj4KiRZ5IVS7haCrSQEOxCWXSQVKwqKYroSTBklhGA5s9k7Dl5sC6xslRsj8-0mSPzv5MRx3E-ezC9kN-4-uxxRaPpS4W1RvQ5Ah7r2XtrE_k30PNFztMEDFB8e0H6_5gJJ92rcPaRdt1FKhdbAK1SG1S7HOFLoTw3J2AP8J74MewRnXgPp4BXhnJNNoKpuNT8LdKgtp4nj_SV617RhfY4mJPVNQf3vsUeD-gmW68IFeij6EwAA__8ATIsq"
+      },
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskMuynSAURL9GZsfCjaAMGGRyf4PisVVyFCgeMf596p4MMsm4u1avamca7qk8qm35dSO-z-dVUo--Z-KVYGbjnqCaFgmSr5IvBC8TTr1jxGIaem3av5RP00IO5ThjzM1Mgt2kA2kRZyG9oesiHVslCQooiIkCB0opiJGNuPJtkWABhV3AifFIKebf9hlmeu0vT8fabW3GvUeXLhKq3gp-XFQrHcmpjtZyHdiPAb4G-Lrve2wHbvlTTxmjbsW4d4i7rj3ngrWiVyR3q126rh5DezRGY0_0f5G52zM400KKOngFgrJ5IUX9LOnJ2LDUFIeZ7t8Sn5XarU-XCVFZU8KNoVbS_vdsr1i-kdMsBZ9X8kvBnwAAAP__KFCEgw"
+      },
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      },
+      {
+        "surface": "triage",
+        "source": "Stratechery",
+        "headline": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta\u2019s VR Glasses",
+        "url": ""
+      }
+    ]
+  }
+}
