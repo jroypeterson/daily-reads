@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-10-31",
+  "generated_at": "2026-10-31T16:46:00Z",
+  "counts": {
+    "gmail_items": 140,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "fd64ca6e63eb6837",
+      "headline": "Intuitive Surgical: The Long Road to Everyday Surgery",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIwNDEzNzcsImlhdCI6MTc5MzAzMTUyOCwiZXhwIjoxNzk1NjIzNTI4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.DEi7WrQDvi1_pw1lD6trr9sgdrFXBoqxnAQAwEqEjUQ",
+      "slot": 1,
+      "summary": "MBI Deep Dives offers a comprehensive long-form analysis of Intuitive Surgical (ISRG), tracing its origin from a government-funded robotics lab through its IPO, the elimination of rival Computer Motion, the prostatectomy adoption decade, and the 2013 gynecology controversy. The piece examines how the da Vinci installed base generates three distinct recurring revenue streams and what the company's push toward routine 'everyday surgery' \u2014 including high-volume, cost-sensitive procedures like cholecystectomy \u2014 means for long-term procedure penetration and revenue inflection. Competitive dynamics from Medtronic Hugo and J&J Ottava are addressed alongside Intuitive's ~40% non-GAAP operating margins and 84% recurring revenue at ~$12B in 2025 revenue.",
+      "why_it_matters": "For investors sizing a long-term position in surgical robotics, this piece provides the durable moat analysis \u2014 patent estate consolidation, installed base lock-in, and procedure penetration curves \u2014 needed to assess ISRG's compounding runway against emerging competitors.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:ISRG",
+        "ticker_match:SGRY",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "long_form_investment_writing",
+        "subsector:LC MedTech"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "5a1b282c0f004534",
+      "headline": "Three Sales Priorities That Will Decide 2027 Revenues",
+      "source": "BCG",
+      "url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGlMQctP0b2GWVgQ61235UuwZazcuoZfiBBFkvC0ooVI6CVWvmyFAE5AB17-ivyfAtowbMz6YE=",
+      "slot": 2,
+      "summary": "AI Maturity Index, critical minerals risk, and global payments trends Click to view email as web page BCG Featured Insights October 2026 The 2027 Revenue Agenda: How CROs Are Turning AI into Sales",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-2 pick (Scuttleblurb) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    }
+  ]
+}

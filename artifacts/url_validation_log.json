@@ -3218,5 +3218,29 @@
       }
     ],
     "dropped_items": []
+  },
+  {
+    "date": "2026-10-31",
+    "checked_unique": 57,
+    "checked_slots": 58,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 2,
+        "broken_source": "Scuttleblurb",
+        "broken_url": "https://scuttleblurb.com",
+        "substitute_source": "BCG",
+        "substitute_headline": "Three Sales Priorities That Will Decide 2027 Revenues",
+        "substitute_url": "https://e.bcg.com/v/Nzk5LUlPQi04ODMAAAGlMQctP0b2GWVgQ61235UuwZazcuoZfiBBFkvC0ooVI6CVWvmyFAE5AB17-ivyfAtowbMz6YE="
+      }
+    ],
+    "dropped_items": []
   }
 ]

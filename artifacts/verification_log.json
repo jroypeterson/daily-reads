@@ -14317,5 +14317,59 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "First real-world outcomes data on AI-driven prior authorization at scale is substantive, novel, and highly actionable for managed care, hospital, and health AI positioning \u2014 fitting the Wildcard slot's cross-domain, 'would I forward this?' test."
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIzOTAyMTMsImlhdCI6MTc5MzIwNTA3NCwiZXhwIjoxNzk1Nzk3MDc0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.CT2IAyHaSzNiswQbCQF2tE4fpdWb6o_QBIi74j6DrO4",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a deep, substantive analysis of Anthropic's S-1 financials and AI infrastructure economics, but it belongs in the Tech/AI slot (Slot 3), not Healthcare/Biotech (Slot 1) \u2014 it has no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "Intuitive Surgical: The Long Road to Everyday Surgery",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/intuitive-surgical-the-long-road?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjIwNDEzNzcsImlhdCI6MTc5MzAzMTUyOCwiZXhwIjoxNzk1NjIzNTI4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.DEi7WrQDvi1_pw1lD6trr9sgdrFXBoqxnAQAwEqEjUQ",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive, analytically deep long-form deep dive on ISRG from MBI Deep Dives, covering competitive moat, installed base flywheel, revenue mix, margin profile, and procedure penetration curves \u2014 squarely matching Slot 1 healthcare criteria and the reader's strong preferences for competitive moat analysis and analytical depth."
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "At Long Last\u2026 (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaGNw0X7dTy5-R-QqSBvUt4LGLOt4NPpfIW9ZLI2Usw.gzzjLtGPrcu45U3Kp9jkaw",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a newsletter digest/table of contents for Stratechery's weekly bundle \u2014 it contains only brief teasers and summaries of articles behind a paywall, with no substantive analysis actually present in the text, making it too thin to evaluate as a standalone article for any slot."
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "[scuttleslops] GOOGL, AMZN, BRO, KNSL, ODFL, MCO, SPGI",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Scuttleblurb's 'slops' format delivers characteristically dense, practitioner-style analytical snippets across multiple high-relevance tickers (GOOGL, AMZN, KNSL, MCO, SPGI, ODFL) with contrarian framing on AI's impact on ad economics, AWS infrastructure dependency, specialty insurance competitive dynamics, and credit ratings \u2014 matching the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant insights."
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "Exclusive: How Epic chokes off competition to stay on top",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWY5RQ7Mn0R4W18yVt-5tXpBFW8cYYgJ5WJ0MFN3V8l9j3qgz0W7lCdLW6lZ3mFW4mDDsJ5w0qXMW3kXSRY192T7QW7tTqZ83VKm32W7kxVlR8QSy8dW8zkZ9266zT2-W53-nll99jmfsW7ShkDT302PrpW6-Pbtz3zlFcqW2rhDFb2dw1NLN18P01t693f-W8N83bd8n8dv3W1KTBD75_NjHBW2ZfQnr8MWzpNN2hv8c1Qt5nSW7fpfGx4d4rqnW5jckjp1jqpPsW8dNRJK6z83khW6Lrwhg34gnk7W1QxpXw7jH5cKW5qy1Lg8mfXPqW4sBKxw7T-6VZW7h3Q1p8xQ-YJN2H85Q5pFsrXMP-f8Px5qBcf5TNMHW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is just a STAT+ subscription paywall page with no actual article content accessible, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-10-31",
+    "headline": "The Average Monthly Premium for Medicare Part D Stand-Alone Drug Plans Is Projected to Increase by 50% in 2027",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/MVDzP6FG8kGW1_-zs51fsV-hW6L2xF55WMC-sN5d8yR25nR3bW95jVnq6lZ3lqW2D4HxG5zJbW4W4wgsyD7GZQTTW5ZKrgb2N1lZXW8rXTlC5nzdgyW6Ywdxt4By7pNW1fwTR44pZF40W8VNlRQ57syxYN2mdQk67GlsnW3m0jFt4cQxrXVbYFwS2HH8tBW3hB5QB69_RlbN20NynD3Nh5FW1XY5t03kCHDcN1Z0RX1T5WdTW8NxSkr2DCzWFW4m8SbZ3GXM6qMMSfw_V5mfdW6C6GFM6LgFLFW3bhbhK8HPWC5W6sZ4S_1w5ppdV_cNNJ4lJRYxW3___Ck49vccmW6Fx4ql8By3BtW3qRsqt3j16xxW44hbyZ1XDxN6W7Cyz1h3_s-QcW4L9BJ97Cjgx2W1J5gVQ8khv7JW5WMCfj7kb9tfN6f-y8cnGY6tVGDGlf5Rg8S6W7R3WNM2DcspXW4KnhMy3QMt8RW8RkcnP7dmmLGW6yFQ4T75c3vjW4j2ynq7p0CxbW8qZgxz6JTglFW49Pfx67frQTbW7jtB3562lp2JW4VsKB07YBGJdVYchqP7Jt04DW8sNJ-H1DmQTMW4c5_tJ834dQWW8y4H9X3lt7kgW5-J9yp3CVTdvW50L54B2sh1TFf7LzT5v04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy/finance article about Medicare Part D premium projections \u2014 it has no connection to Tech/AI and belongs in a different slot."
   }
 ]
