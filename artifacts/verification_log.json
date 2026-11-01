@@ -14371,5 +14371,86 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is a healthcare policy/finance article about Medicare Part D premium projections \u2014 it has no connection to Tech/AI and belongs in a different slot."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive analysis of Anthropic's S-1 filing, but it belongs in Slot 3 (Tech/AI) or Slot 2 (Finance/Macro) \u2014 not Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trial data, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Exclusive: How Epic chokes off competition to stay on top",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is truncated mid-sentence after the introductory paragraph, leaving no substantive content to evaluate for depth, accuracy of the shortlist summary, or actionable insight."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Value Investor Insight New Issue \u2014 Pat Dorsey on Competitive Moats",
+    "source": "Value Investors Insight",
+    "url": "https://valueinvestorinsight.com/Content_Premium/investor-insight-protecting-the-castle-october-2026.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a brief preview visible \u2014 there is no substantive content to evaluate, and it does not belong in the Healthcare/Biotech slot as its focus is on competitive moat frameworks across Veeva, Tyler Technologies, Meta, and Royalty Pharma, making it a Finance/Markets or Wildcard piece at best."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "[ISRG \u2013 Intuitive Surgical] the robot is the easy part",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a paywalled Scuttleblurb page showing only teaser snippets and upcoming post lists \u2014 the actual ISRG deep-dive content is not present, making it impossible to verify substance, and the reader profile explicitly flags paywalled content as an AVOID pattern."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "At Long Last\u2026 (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaGNw0X7dTy5-R-QqSBvUt4LGLOt4NPpfIW9ZLI2Usw.gzzjLtGPrcu45U3Kp9jkaw",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter digest/table of contents from Stratechery, not a substantive article \u2014 it contains only brief teasers for paywalled content and does not belong in the Healthcare/Biotech slot."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Inflation Stopped Falling, Now It's Rising",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://click.e.apollo.com/profile_center.aspx?qs=ACN7ImQiOjUwNDcsInQiOjM5MzIsInAiOiJQQyIsInMiOjEyfQAMAAAAAAPdQxxL26mY1NcYdtqsj53ctdcuGYhhiz6pUvukNHIT6DZlVSwHYMcD_cT5H35VfFtKN3x7fQyMRE_XZ68gxtg1k7bZQ2_BK0tMHCgw3O4tXQUnkCP6L26E",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains no actual content \u2014 it is a subscription profile/preferences management page, not the Torsten Slok macro note described in the shortlist summary, so there is nothing to evaluate for substance or slot fit."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Amazon 3Q'26: Trillion Dollar Talks",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/amazon-3q26-trillion-dollar-talks",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive Amazon earnings deep dive, but it belongs to Tech/AI (Slot 3) or Finance/Macro (Slot 2) \u2014 it has no meaningful healthcare or biopharma content and does not meet Slot 1 criteria."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Fierce Healthcare Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-doximity-launches-dosecheck-ai-recommends-costlier-care-doctors-study",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article is a substantive weekly roundup with real depth on two high-signal items \u2014 Doximity's DoseCheck launch (ticker DOCS, clinical workflow expansion) and the NEJM AI study on AI recommending costlier care \u2014 both directly relevant to healthcare/biotech investors and the reader's strong interest in AI-biology intersection and health technology."
+  },
+  {
+    "date": "2026-11-01",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers exceptional analytical depth \u2014 a fully modeled, bottoms-up S-1 deconstruction with proprietary compute allocation math, revenue-per-serving-watt calculations, and IRR framing \u2014 squarely matching Slot 3 and the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant AI infrastructure insights."
   }
 ]

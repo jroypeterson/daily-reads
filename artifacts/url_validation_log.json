@@ -3242,5 +3242,20 @@
       }
     ],
     "dropped_items": []
+  },
+  {
+    "date": "2026-11-01",
+    "checked_unique": 47,
+    "checked_slots": 47,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": []
   }
 ]

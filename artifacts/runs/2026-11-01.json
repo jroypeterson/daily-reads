@@ -1,0 +1,54 @@
+{
+  "run_date": "2026-11-01",
+  "generated_at": "2026-11-01T17:39:04Z",
+  "counts": {
+    "gmail_items": 137,
+    "tier2_items": 79,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "62a1934d9f9b1db9",
+      "headline": "Fierce Healthcare Weekly Rundown: Doximity launches DoseCheck; AI recommends costlier care than doctors, study finds",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-doximity-launches-dosecheck-ai-recommends-costlier-care-doctors-study",
+      "slot": 1,
+      "summary": "Doximity launched DoseCheck, a deterministic rule-based verification layer within its Doximity Ask clinical AI tool that checks AI-generated medication dosing recommendations against FDA labeling and professional guidelines, achieving >99% accuracy claims \u2014 addressing a finding that 2.3% of AI dosing claims were wrong and 43.8% of errors were serious or potentially lethal. A new NEJM AI study found that LLMs recommend more tests, referrals, and treatments than physicians at over 3x the cost, raising significant concerns for value-based care and managed care AI adoption. The roundup also covers Hims & Hers (HIMS) preparing a peptides specialty following an HHS enforcement discretion policy, and Google's new AI certificate program for healthcare professionals.",
+      "why_it_matters": "Doximity's DoseCheck extends DOCS' TAM from physician communication into clinical decision support with a defensible technical architecture, while the NEJM AI cost-escalation finding is a direct headwind for managed care organizations deploying AI under value-based contracts \u2014 both are actionable for healthcare investors.",
+      "signal_tags": [
+        "ticker_match:DOCS",
+        "ticker_match:HIMS",
+        "AI_biology_intersection",
+        "health_technology_datasets",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "be2f59fbdb453115",
+      "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+      "slot": 3,
+      "summary": "MBI Deep Dives dissects Anthropic's S-1, highlighting the startling revelation that customer-serving compute fell from 44% to 27% of the total fleet over 18 months even as revenue per serving-watt exploded from $0.51 to $6.84 \u2014 meaning inference margins are dramatically better than consensus assumed while training/R&D consumes the bulk of the $800B compute commitment. The piece builds a full financial model asking what must be true for a buyer at $1.5\u20132T valuation to earn 10% IRR by 2030, anchored to a 25x EBIT exit multiple benchmarked against hyperscalers. It frames the central investment question as whether Anthropic's enterprise coding wedge and 'closing the loop' flywheel (each Claude model trained partly on outputs from prior Claude deployments) constitute a durable moat or a commoditizing race.",
+      "why_it_matters": "As Anthropic lists as 'ANT' on Nasdaq, this is the most rigorous public framework available for assessing whether frontier AI model companies have defensible economics \u2014 the compute allocation math and serving-watt revenue trajectory directly inform how to value AI infrastructure bets across the portfolio.",
+      "signal_tags": [
+        "priority:high",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "AI_impact",
+        "venture_capital_insights",
+        "competitive_moat_analysis"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    }
+  ]
+}
