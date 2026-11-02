@@ -1,0 +1,85 @@
+{
+  "run_date": "2026-11-02",
+  "generated_at": "2026-11-02T21:23:46Z",
+  "counts": {
+    "gmail_items": 151,
+    "tier2_items": 88,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "8dbf7b7478509c17",
+      "headline": "Earnings roundup: AstraZeneca's cost cuts, Alnylam's slump and Regeneron's resilience",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/astrazeneca-alnylam-regeneron-3q26-earnings-analysis/873410/",
+      "slot": 1,
+      "summary": "AstraZeneca revealed a $1.5B annual cost-savings restructuring program alongside strong pipeline confidence, sending shares up 7%; Alnylam tumbled over 20% as UnitedHealth's more restrictive Amvuttra coverage policy and proposed 340B reimbursement cuts cast doubt on the drug's growth trajectory despite in-line Q3 revenue of $1.13B; Regeneron surged 13% on record results led by Dupixent's 35% revenue growth to $6.5B and beats across Eylea HD and Libtayo. The piece weaves in analyst perspectives from William Blair, Stifel, RBC, and TD Cowen to contextualize each company's near-term outlook.",
+      "why_it_matters": "Three simultaneous large-cap earnings prints \u2014 with AZN's AI-driven restructuring thesis, ALNY's payer headwind risk crystallizing, and REGN's biosimilar resilience \u2014 create distinct portfolio review triggers across bullish, bearish, and monitoring positions in the biopharma sector.",
+      "signal_tags": [
+        "ticker_match:AZN",
+        "ticker_match:ALNY",
+        "catalyst_proximity",
+        "investment-relevant_insights",
+        "actionability",
+        "forward-looking_perspective"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "3b2b4cf14e80d2cc",
+      "headline": "Amazon 3Q'26: Trillion Dollar Talks",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/amazon-3q26-trillion-dollar-talks",
+      "slot": 2,
+      "summary": "MBI's detailed 3Q26 Amazon earnings analysis centers on management's unprecedented multi-year AWS guidance \u2014 40%+ growth in both 2027 and 2028 \u2014 alongside $220B in capex this year, -$42.4B LTM FCF, debt nearly tripling to $173B, and a new ~$80B loan facility for data center equipment. The piece methodically breaks down retail segments (adjusting for Prime Day timing shift), advertising share trends vs. Google, and AWS's accelerating revenue and margin trajectory, framing the capex commitment as Amazon seeking investor permission to sustain a historic infrastructure buildout. It interrogates whether the trillion-dollar revenue pathway for AWS is credible and what the return profile looks like given the debt-heavy funding mix.",
+      "why_it_matters": "AWS's 40%+ growth guidance through 2028 and the associated capex escalation are leading indicators for AI infrastructure spending across data center REITs, semiconductor supply chains, and hyperscaler-adjacent portfolios, making this essential reading for anyone sizing cloud or AI infrastructure exposure.",
+      "signal_tags": [
+        "ticker_match:AMZN",
+        "priority:high",
+        "data_infrastructure",
+        "AI_impact",
+        "analytical_depth",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c6225af1e6c0380d",
+      "headline": "Overcoming the R&D Bottleneck: Building a Causal Decision System",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a19dcf4970867a15369ff0b384/b480616a5c1b4f500000021ef3a0bcc2/b480616a-5c1b-4f50-901e-2bf2da4e4a2d",
+      "slot": 3,
+      "summary": "McKinsey outlines a framework for deploying causal AI and decision-science systems to address the persistent R&D productivity crisis in biopharma, where high attrition rates and rising spend have failed to improve outcomes. The approach moves beyond correlation-based predictive models toward causal inference applied to trial design, portfolio prioritization, and go/no-go decision gates. The piece argues this structural shift in how R&D decisions are made \u2014 not just predicted \u2014 is the key lever for improving returns on biopharma R&D investment.",
+      "why_it_matters": "Causal decision systems in pharma R&D represent a durable investment theme with direct implications for CRO valuations, AI drug discovery platform companies, and how large biopharma allocates capital across its pipeline.",
+      "signal_tags": [
+        "priority:high",
+        "high-priority_source",
+        "ai_and_biology_intersection",
+        "AI_drug_discovery",
+        "analytical_depth",
+        "forward-looking_perspective",
+        "management_consulting_research"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "ac26a01966d91597",
+      "headline": "Billions at stake as Roche presses Germany on reforms",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/MVFL5X_sxTkW5wm-B87M9Fb3W2dmkKk5WDG0pN2K0T3-5nR3bW8wM7ks6lZ3npW9ll8P7673NRbW6C9lM63QNMJMN3b5vHDsQqG-N8GhzQH8qzfnW6clhr_9h3SW5W8tTTYn4vGFYzW1vpl8892trsFW65tKHJ5Qpx9_N2f-D30H81xwW5Krcl79lkvXpW4jTlh681q_RgW5GpPX57nlKz-W3z3Nx-6r2W4KW1x_cJ973cNcyN3XGSc17lvLHVkPMWC6c429zW4Ryxym1q9jXtN50bxxhZWFtxW6zJjFD8PGN6gV6--sx1h_qXzN8sG9RNbG5V1N1mH3zbcP3dcN1zcDk-r6vZCVZGY8k8MK5SnN3MYBjzkr0XcN3dDB2lq8TcvW128GQP3-ksc1W6xZgFZ7Gs2LnW4SkMFM7GlvC7W7k4V35470CkqW5ryXSX4HK5x9N2Z9jzM2jTWxW5DNrrs1Q_R_6W4S718J91TGd4W8hgHRV8TjkVMN7v2Gj8qsPf0W5734yl1VdV0BW6vsn558kPCP4W45qdcV5hp2ndVCCQ7v4LZJ4bW2hv69x1MPRFMW94KdMH5K7BKVN5d29HVq1y8_W2j5C5w8ZxFGRf71D72j04",
+      "slot": 4,
+      "summary": "Plus, Pfizer trims manufacturing team \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-4 pick (Scuttleblurb) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    }
+  ]
+}

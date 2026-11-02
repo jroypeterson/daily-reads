@@ -14452,5 +14452,77 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "MBI Deep Dives delivers exceptional analytical depth \u2014 a fully modeled, bottoms-up S-1 deconstruction with proprietary compute allocation math, revenue-per-serving-watt calculations, and IRR framing \u2014 squarely matching Slot 3 and the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant AI infrastructure insights."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive analysis but belongs squarely in the Tech/AI slot (Slot 3), not Healthcare/Biotech \u2014 it covers Anthropic's S-1 financials, compute economics, and AI valuation frameworks with no healthcare/biopharma content."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Exclusive: How Epic chokes off competition to stay on top",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWY5RQ7Mn0R4W18yVt-5tXpBFW8cYYgJ5WJ0MFN3V8l9j3qgz0W7lCdLW6lZ3mFW4mDDsJ5w0qXMW3kXSRY192T7QW7tTqZ83VKm32W7kxVlR8QSy8dW8zkZ9266zT2-W53-nll99jmfsW7ShkDT302PrpW6-Pbtz3zlFcqW2rhDFb2dw1NLN18P01t693f-W8N83bd8n8dv3W1KTBD75_NjHBW2ZfQnr8MWzpNN2hv8c1Qt5nSW7fpfGx4d4rqnW5jckjp1jqpPsW8dNRJK6z83khW6Lrwhg34gnk7W1QxpXw7jH5cKW5qy1Lg8mfXPqW4sBKxw7T-6VZW7h3Q1p8xQ-YJN2H85Q5pFsrXMP-f8Px5qBcf5TNMHW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is entirely a STAT+ paywall/subscription page \u2014 no actual article text is accessible, making it impossible to verify substance, depth, or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Earnings roundup: AstraZeneca's cost cuts, Alnylam's slump and Regeneron's resilience",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/astrazeneca-alnylam-regeneron-3q26-earnings-analysis/873410/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive, multi-company earnings analysis with specific revenue figures, analyst commentary, and actionable investment signals across three major coverage-universe tickers (AZN, ALNY, REGN), meeting both the depth and healthcare/biopharma slot criteria."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Amazon 3Q'26: Trillion Dollar Talks",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/amazon-3q26-trillion-dollar-talks",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-quality long-form investment research source that matches the reader's strong preferences for analytical depth, investment-relevant insights, and competitive moat analysis, and the article delivers substantive earnings dissection with direct implications for AI infrastructure capex cycles."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Athenahealth launches tool to bring patient health records into Anthropic's Claude",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/athenahealth-launches-tool-bring-patient-health-records-anthropics-claude",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a product launch announcement with adequate detail on the MCP integration but lacks the analytical depth, competitive moat analysis, or structural market insight the reader profile demands \u2014 it reads as a press-release-style piece from a trade publication rather than a deep-dive on AI infrastructure or health software SaaS dynamics."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "Overcoming the R&D Bottleneck: Building a Causal Decision System",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a19dcf4970867a15369ff0b384/b480616a5c1b4f500000021ef3a0bcc2/b480616a-5c1b-4f50-901e-2bf2da4e4a2d",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's causal AI framework applied to pharma R&D sits squarely at the AI-meets-biology intersection the reader strongly prefers, with analytical depth on a structural productivity problem relevant to biopharma capital allocation and AI drug discovery theses."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "UnitedHealthcare to drop prior auth for 2,000+ pediatric codes",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/policy-updates/unitedhealthcare-to-drop-prior-auth-for-2000-pediatric-codes/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief with minimal analytical depth \u2014 it reports a UnitedHealthcare policy change but offers no investment analysis, utilization modeling, or strategic framing that would satisfy the reader's strong preference for analytical depth and investment-relevant insights; it belongs more naturally in Slot 1 (Healthcare) but even there lacks the substance to clear the bar."
+  },
+  {
+    "date": "2026-11-02",
+    "headline": "[scuttleslops] RDDT, AI and cybersecurity, AMZN, MU, META, BLDR, RYAN",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Scuttleblurb's slops edition delivers practitioner-level, multi-name analytical depth across AMZN, META, MU, RDDT, and others with structural insight on AI-cybersecurity convergence, AI agent economics, and memory differentiation \u2014 strong alignment with the reader's preference for elite fund-style deep business diligence and competitive moat analysis."
   }
 ]
