@@ -14524,5 +14524,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "Scuttleblurb's slops edition delivers practitioner-level, multi-name analytical depth across AMZN, META, MU, RDDT, and others with structural insight on AI-cybersecurity convergence, AI agent economics, and memory differentiation \u2014 strong alignment with the reader's preference for elite fund-style deep business diligence and competitive moat analysis."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Exclusive: How Epic chokes off competition to stay on top",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VWY5RQ7Mn0R4W18yVt-5tXpBFW8cYYgJ5WJ0MFN3V8l9j3qgz0W7lCdLW6lZ3mFW4mDDsJ5w0qXMW3kXSRY192T7QW7tTqZ83VKm32W7kxVlR8QSy8dW8zkZ9266zT2-W53-nll99jmfsW7ShkDT302PrpW6-Pbtz3zlFcqW2rhDFb2dw1NLN18P01t693f-W8N83bd8n8dv3W1KTBD75_NjHBW2ZfQnr8MWzpNN2hv8c1Qt5nSW7fpfGx4d4rqnW5jckjp1jqpPsW8dNRJK6z83khW6Lrwhg34gnk7W1QxpXw7jH5cKW5qy1Lg8mfXPqW4sBKxw7T-6VZW7h3Q1p8xQ-YJN2H85Q5pFsrXMP-f8Px5qBcf5TNMHW04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is inaccessible and the retrieved content is nothing more than a STAT+ subscription sales page, so there is no substantive content to evaluate or summarize."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive, analytically deep article but it belongs to Slot 3 (Tech/AI) or Slot 2 (Finance/Macro) \u2014 it is a Microsoft/Azure earnings deep-dive with no healthcare or biopharma content whatsoever."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive, analytically deep article on Anthropic's S-1 and IPO valuation mechanics, but it belongs to Tech/AI (Slot 3) \u2014 it has no meaningful connection to healthcare or biopharma and does not fit Slot 1."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "FDA, CMS look to collaborate with states on health AI",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/03/fda-cms-collaborate-with-states-on-ai-heath-tech/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is effectively empty \u2014 it contains only the author bio, newsletter sign-up boilerplate, and no actual article content \u2014 making it impossible to verify the substantive claims in the shortlist summary."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Overcoming the R&D bottleneck: Building a causal decision system",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a19dcf4970867a15369ff0b384/b480616a5c1b4f500000021ef3a0bcc2/b480616a-5c1b-4f50-901e-2bf2da4e4a2d",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey piece on causal inference frameworks for biopharma R&D decisions has substantive depth on a topic squarely relevant to healthcare/biotech capital allocation, and aligns with the reader's strong interest in AI impact, analytical depth, and investment-relevant insights."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Vertex, ahead of FDA decision, calms fears surrounding kidney drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/vertex-earnings-q3-2026-povetacicept-iga-nephropathy-kidney/873600/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a solid healthcare/biopharma earnings recap with a near-term FDA catalyst angle, making it a natural fit for Slot 1 \u2014 not Slot 2 Finance/Macro, which requires macro moves, earnings with market-wide implications, or payer/pricing dynamics."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Value Investor Insight New Issue \u2014 Pat Dorsey on Competitive Moats",
+    "source": "Value Investors Insight",
+    "url": "https://valueinvestorinsight.com/Content_Premium/investor-insight-protecting-the-castle-october-2026.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is inaccessible, containing only a teaser preview \u2014 so there is no substantive content to evaluate or surface to the reader."
+  },
+  {
+    "date": "2026-11-03",
+    "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers genuine analytical depth by reverse-engineering OpenAI's contribution to Azure growth from SEC filings and receivables data, revealing that OpenAI accounts for 45\u201355% of Azure's quarterly growth\u2014directly contradicting Nadella's enterprise-breadth narrative and raising material questions about Azure's organic momentum."
   }
 ]

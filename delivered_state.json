@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "f17ef3de6f0191ea",
-      "date": "2026-10-19"
-    },
-    {
-      "id": "a96bd4d082cc9d2d",
-      "date": "2026-10-19"
-    },
-    {
-      "id": "54c64a1f710551da",
-      "date": "2026-10-19"
-    },
-    {
       "id": "bccaeccf2ab1a33b",
       "date": "2026-10-20"
     },
@@ -131,6 +119,10 @@
     {
       "id": "ac26a01966d91597",
       "date": "2026-11-02"
+    },
+    {
+      "id": "f25712d0c1f5c280",
+      "date": "2026-11-03"
     }
   ],
   "reader_pushed": {
@@ -319,6 +311,9 @@
     "https://email.mckinsey.com/T/v71000001a19dcf4970867a15369ff0b384/b480616a5c1b4f500000021ef3a0bcc2/b480616a-5c1b-4f50-901e-2bf2da4e4a2d": "2026-11-02",
     "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/MVFL5X_sxTkW5wm-B87M9Fb3W2dmkKk5WDG0pN2K0T3-5nR3bW8wM7ks6lZ3npW9ll8P7673NRbW6C9lM63QNMJMN3b5vHDsQqG-N8GhzQH8qzfnW6clhr_9h3SW5W8tTTYn4vGFYzW1vpl8892trsFW65tKHJ5Qpx9_N2f-D30H81xwW5Krcl79lkvXpW4jTlh681q_RgW5GpPX57nlKz-W3z3Nx-6r2W4KW1x_cJ973cNcyN3XGSc17lvLHVkPMWC6c429zW4Ryxym1q9jXtN50bxxhZWFtxW6zJjFD8PGN6gV6--sx1h_qXzN8sG9RNbG5V1N1mH3zbcP3dcN1zcDk-r6vZCVZGY8k8MK5SnN3MYBjzkr0XcN3dDB2lq8TcvW128GQP3-ksc1W6xZgFZ7Gs2LnW4SkMFM7GlvC7W7k4V35470CkqW5ryXSX4HK5x9N2Z9jzM2jTWxW5DNrrs1Q_R_6W4S718J91TGd4W8hgHRV8TjkVMN7v2Gj8qsPf0W5734yl1VdV0BW6vsn558kPCP4W45qdcV5hp2ndVCCQ7v4LZJ4bW2hv69x1MPRFMW94KdMH5K7BKVN5d29HVq1y8_W2j5C5w8ZxFGRf71D72j04": "2026-11-02",
     "https://mbideepdives.substack.com/p/doordash-3q26-buying-the-big-basket?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMwMzcwODQsImlhdCI6MTc5MzYzMjQ0OCwiZXhwIjoxNzk2MjI0NDQ4LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.er6KWtCMyi4SoD_07OezqlmyWnnhtnHZpsqL5UUnoDY": "2026-11-02",
-    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F11-02-2026-looking-out-the-window": "2026-11-02"
+    "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F11-02-2026-looking-out-the-window": "2026-11-02",
+    "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs": "2026-11-03",
+    "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMyMzQwMzcsImlhdCI6MTc5MzcyMjM4NywiZXhwIjoxNzk2MzE0Mzg3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.dS5-Xqj3fOvnFSFJnzNhE6bCjfgWgHeDFXzuLy5pTvw": "2026-11-03",
+    "https://thetranscript.substack.com/p/11-03-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMzMzU5MjksImlhdCI6MTc5MzcxOTk5MSwiZXhwIjoxNzk2MzExOTkxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.V0lOWBI6Yzt6QrwMwhNUFC5RDIOYJWUM8PjFAAJbSVs": "2026-11-03"
   }
 }
