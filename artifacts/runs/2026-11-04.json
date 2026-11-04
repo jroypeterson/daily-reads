@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-11-04",
+  "generated_at": "2026-11-04T19:19:17Z",
+  "counts": {
+    "gmail_items": 147,
+    "tier2_items": 88,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "1ac2466d1d155287",
+      "headline": "CVS to Split Into Two Companies in Stunning Strategic About-Face",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/cvs-split-two-companies-strategic-about-face/873742/",
+      "slot": 1,
+      "summary": "CVS Health announced plans to split into two independent companies: one combining Aetna (insurance) and Caremark (PBM), and another housing its ~9,000 retail pharmacies. The move is a dramatic reversal of CVS's decade-long vertical integration strategy, which included the $69B Aetna acquisition in 2018 and the Oak Street Health deal. Analysts characterize the split as an acknowledgment that the 'bigger is better' consolidation thesis in managed care has failed to deliver synergies while drawing regulatory scrutiny.",
+      "why_it_matters": "This breakup reshapes the competitive moat calculus for payers, PBMs, and pharmacy retail simultaneously \u2014 forcing a reassessment of vertical integration premiums across UnitedHealth, Cigna/Evernorth, and Humana, while unlocking potential sum-of-the-parts value in CVS itself.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:PSG",
+        "subsector:Mgd_Care",
+        "novelty",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f25712d0c1f5c280",
+      "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs",
+      "slot": 2,
+      "summary": "MBI Deep Dives stress-tests Microsoft's FY Q1 FY27 results by estimating OpenAI's revenue contribution to Azure using SEC receivables data and OpenAI's disclosed revenue trajectory, finding that OpenAI now represents roughly 24-30% of Azure and drove ~45-55% of its Q1 growth. This contradicts Satya Nadella's earnings-call narrative emphasizing broad enterprise adoption over dependence on a handful of large AI-native customers. The piece frames Microsoft's current growth as fragile concentration risk dressed up as secular demand, creating meaningful valuation ambiguity despite the headline 48% Azure growth and ~50% operating margins.",
+      "why_it_matters": "For any investor long MSFT on the AI infrastructure thesis, the OpenAI concentration analysis reframes the bull case \u2014 'breadth' Azure growth ex-OpenAI is closer to 31%, which materially changes the multiple justification if the OpenAI relationship evolves or if OpenAI builds more of its own infrastructure.",
+      "signal_tags": [
+        "ticker_match:MSFT",
+        "priority:high",
+        "analytical_depth",
+        "AI_impact",
+        "forward_looking",
+        "novelty"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    }
+  ]
+}

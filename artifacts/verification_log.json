@@ -14596,5 +14596,50 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "MBI Deep Dives delivers genuine analytical depth by reverse-engineering OpenAI's contribution to Azure growth from SEC filings and receivables data, revealing that OpenAI accounts for 45\u201355% of Azure's quarterly growth\u2014directly contradicting Nadella's enterprise-breadth narrative and raising material questions about Azure's organic momentum."
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "CVS to Split Into Two Companies in Stunning Strategic About-Face",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/cvs-split-two-companies-strategic-about-face/873742/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The CVS breakup is a substantive, high-signal strategic event with direct implications for managed care, PBM competitive dynamics, and vertical integration thesis across the healthcare sector \u2014 fitting Slot 1 cleanly."
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Anthropic S-1: Race, Choice or Flywheel?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-s-1-race-choice-or-flywheel",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantive and deeply analytical, but it belongs in Slot 3 (Tech/AI) given its focus on Anthropic's AI foundation model business, compute infrastructure, and IPO valuation framework \u2014 not Slot 2 Finance/Macro, which requires macro moves, earnings, sector rotation, or payer/reimbursement dynamics."
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Top Health Takeaways from the Midterms",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VVYpX31r_s-HW6xCZpr5lNmXTW22vCbp5WZ829N5bb0h-3qgz0W7lCdLW6lZ3p8N5lcpqlK-DkKW5gTFZh41kBGsW8SQfLH2kgbJCVj-5Xg839fP3N5P8xYBZTJrDN1Nnj9l-7Ph3W1JZpb2278WZSW6p7bPF82p_tFW5JLF0Z3JFrQkW48rmYn5-ql6xW70DY8X17Vl_8W67V9D88D_9Q5W5sr4gs6LcJfZW62JLPz6CHSlqVFjwfn1mNwpxVJ1zwl7d6Wn5W4hvRGl923CyYN6mvc_6Yx3z4VFWmnq92Rs7sW3FCHt58wRvNQW1-bXKS3_YB4kW4dC8wS2WQ9shVWlV7r59YDRbW4rSK9S5w3dnJf2S3qd804",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is entirely a paywall/subscription page with no actual article content \u2014 there is nothing substantive to evaluate beyond a STAT+ upsell screen."
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers genuine analytical depth by reverse-engineering OpenAI's contribution to Azure revenue from SEC filings and earnings data, exposing a material tension between Nadella's enterprise-breadth narrative and the reality that one customer (OpenAI) accounts for ~24-30% of Azure and ~45-55% of its recent growth \u2014 exactly the kind of differentiated, practitioner-grade skepticism the reader profile prizes."
+  },
+  {
+    "date": "2026-11-04",
+    "headline": "Waystar Touts Bigger Health System Wins and Growing AI Pipeline",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/finance/waystar-touts-expansion-across-client-base-ai-capabilities-q3-2026",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite AI mentions, this is fundamentally an earnings recap article best suited for Slot 1 (Healthcare/Biopharma) or Slot 2 (Finance/Markets) \u2014 the AI content is surface-level product marketing rather than the substantive tech/AI analysis required for Slot 3, and the reader profile explicitly avoids short-term trading focus and thin summaries."
   }
 ]

@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "bccaeccf2ab1a33b",
-      "date": "2026-10-20"
-    },
-    {
-      "id": "9a88565b28766944",
-      "date": "2026-10-20"
-    },
-    {
       "id": "7b60009eaa00e3ec",
       "date": "2026-10-21"
     },
@@ -123,6 +115,10 @@
     {
       "id": "f25712d0c1f5c280",
       "date": "2026-11-03"
+    },
+    {
+      "id": "1ac2466d1d155287",
+      "date": "2026-11-04"
     }
   ],
   "reader_pushed": {
@@ -314,6 +310,8 @@
     "https://thetranscript.substack.com/subscribe?r=w2qs&next=https%3A%2F%2Fthetranscript.substack.com%2Fp%2F11-02-2026-looking-out-the-window": "2026-11-02",
     "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs": "2026-11-03",
     "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMyMzQwMzcsImlhdCI6MTc5MzcyMjM4NywiZXhwIjoxNzk2MzE0Mzg3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.dS5-Xqj3fOvnFSFJnzNhE6bCjfgWgHeDFXzuLy5pTvw": "2026-11-03",
-    "https://thetranscript.substack.com/p/11-03-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMzMzU5MjksImlhdCI6MTc5MzcxOTk5MSwiZXhwIjoxNzk2MzExOTkxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.V0lOWBI6Yzt6QrwMwhNUFC5RDIOYJWUM8PjFAAJbSVs": "2026-11-03"
+    "https://thetranscript.substack.com/p/11-03-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMzMzU5MjksImlhdCI6MTc5MzcxOTk5MSwiZXhwIjoxNzk2MzExOTkxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.V0lOWBI6Yzt6QrwMwhNUFC5RDIOYJWUM8PjFAAJbSVs": "2026-11-03",
+    "https://www.biopharmadive.com/news/cvs-split-two-companies-strategic-about-face/873742/": "2026-11-04",
+    "https://mbideepdives.substack.com/p/shopify-3q26-closing-in-on-half-of?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMzOTE4MzIsImlhdCI6MTc5MzgwODI3MywiZXhwIjoxNzk2NDAwMjczLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.3zCze5Q44eIqOnIg5YIInZVTy62ZUxo4VtkdguFARvw": "2026-11-04"
   }
 }
