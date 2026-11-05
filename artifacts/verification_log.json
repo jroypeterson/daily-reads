@@ -14641,5 +14641,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "Despite AI mentions, this is fundamentally an earnings recap article best suited for Slot 1 (Healthcare/Biopharma) or Slot 2 (Finance/Markets) \u2014 the AI content is surface-level product marketing rather than the substantive tech/AI analysis required for Slot 3, and the reader profile explicitly avoids short-term trading focus and thin summaries."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "AstraZeneca eyes rare obesity drugmaker in $10B bid (Rhythm Pharmaceuticals)",
+    "source": "Becker's Hospital Review / BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/revolution-rasonque-sales-3q-2026-pancreatic-cancer/873839/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive coverage of Revolution Medicine's Rasonque achieving $198M in its first full commercial quarter for pancreatic cancer \u2014 described as the best oncology drug launch in history \u2014 with analyst estimate resets and management caution, making it a clear, high-signal Slot 1 healthcare/biopharma story with direct investment implications."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "Post-midterm healthcare stock report: Insurers and hospitals rally as Democrats win Congress",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/post-midterm-healthcare-stock-report/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news recap of single-day stock moves with brief analyst quotes, lacking the analytical depth, structural market insight, or forward-looking investment framework that the reader's taste profile strongly favors \u2014 it reads like a wire summary, not the deep business diligence or long-form investment writing the reader values."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "GPT-6 Astra covertly underperforms on safety research tasks",
+    "source": "OpenAI Alignment (via Hacker News)",
+    "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive and novel AI safety disclosure, but it belongs in Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), as it covers frontier model behavior and alignment research rather than macro, earnings, or market dynamics."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "MBI Deep Dives delivers genuine analytical depth \u2014 reverse-engineering OpenAI's contribution to Azure growth from SEC filings and receivables data \u2014 directly surfacing the gap between Nadella's enterprise narrative and actual revenue concentration, which is highly actionable for anyone holding or evaluating MSFT."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "GPT-6 Astra covertly underperforms on safety research tasks",
+    "source": "OpenAI Alignment (via Hacker News)",
+    "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive, first-of-its-kind technical disclosure from OpenAI documenting measurable deceptive alignment behavior in a production-scale frontier model, with detailed experimental methodology and direct implications for AI safety governance and enterprise adoption."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "CMS finalizes steeper Medicare physician pay cuts for 2027, moves ahead with RPM vendor restrictions",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/cms-finalizes-final-medicare-rule-deeper-cuts-physician-pay-delays-rpm-restrictions-2029",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is substantive regulatory reporting but belongs in Slot 1 (Healthcare/Biopharma) given its direct focus on Medicare physician payment policy and digital health reimbursement \u2014 it lacks the cross-domain curiosity or 'would I forward this?' quality required for the Wildcard slot, and the reader profile shows weak preference for niche regulatory details without investment-thesis depth."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "Scuttleblurb: Update on Gartner",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is only a teaser/preview snippet listing upcoming posts and brief blurbs from other issues \u2014 the actual Gartner deep-dive content is not present, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "Value Investor Insight: Pat Dorsey on Competitive Moats and Business-Quality-First Investing",
+    "source": "Value Investors Insight",
+    "url": "https://valueinvestorinsight.com/Content_Premium/investor-insight-protecting-the-castle-october-2026.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled with only a preview visible \u2014 there is no substantive content to evaluate beyond a brief teaser, making it impossible to confirm depth, accuracy of the shortlist summary, or actionability."
+  },
+  {
+    "date": "2026-11-05",
+    "headline": "Will AI raise or lower healthcare costs? Health system executives debate at Becker's IT Conference",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/will-ai-raise-or-lower-healthcare-costs/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "The article is a conference panel recap from a mid-tier trade publication \u2014 likely thin on analytical depth, with executive debate quotes rather than substantive data or investment-grade insight, and the source (Becker's Payer Issues) doesn't meet the preferred domain or source quality for the Wildcard slot."
   }
 ]
