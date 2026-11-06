@@ -14722,5 +14722,86 @@
     "extraction_tier": "snippet_fallback",
     "passed": false,
     "reason": "The article is a conference panel recap from a mid-tier trade publication \u2014 likely thin on analytical depth, with executive debate quotes rather than substantive data or investment-grade insight, and the source (Becker's Payer Issues) doesn't meet the preferred domain or source quality for the Wildcard slot."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "AstraZeneca offers $10B for metabolic gem Rhythm: report",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWmPQX5RSnSvW4NYwJC3hxD1nW8LzBkh5W_TB_N2K0T3H5nR3bW7Y9pgv6lZ3ptVTWrq42jR2n7W5GWLB-3GCCz4VBjl9K78rJNTN9hzWXPYcw2pW4jwQ6T7ZFS2rW6RRjzp3jNM4RW1w2N353QPdwvW6bnfZh347xRxW9fQ85V1FwHdFW1CM3Sv4RFM4SW3KYjw-3Czt9VW8j6lc96bnnVzW1CTJFT6r3CT0W4VWV4x1866SPN2gx9Pt6GRfsW88BJcs2FbnTsW7Cj9t64_WxT8W46s3JB32j0FYW8jv_6H4PkTMsW3wN4Pl8MB6qpW5JwsGj8vsw5BW8FTQYr5KVCNGW7RwKzG1gNxQWW3V7CV07qQvZPW48-Xgy8ZrZ0gW4cD2rp2f7LTGW3kMDgP1BhRLNW12Sxm47XYrWRV6BMfW4dXkPRW2-LJpG5WNJvMW8-t6qk8GTTd9W15NLfp4F067NW1mmkf81kcX2cW13TK693mKP-LW5f707H3kwGTtW1kXR6Y7n94W2W6RytMC73hF0GW7gDFkf513KJwW1Gg09Y1339LBW348cgS7j_tVGW8z254C242FD1N5mJnwFwVqY-f3PK40C04",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a substantive $10B M&A bid by AstraZeneca for Rhythm Pharmaceuticals (RYTM) with analyst commentary suggesting the offer may not be the last, plus a secondary hook on RevMed's blowout $198M commercial launch \u2014 both are actionable, ticker-specific catalysts squarely in the healthcare/biopharma slot."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "STAT+: Democrats' midterm landslide spells relief for hospitals",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) with no substantive content visible beyond the headline and navigation elements, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google's Response to AI",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaGwhaECecmgln5XA2YoLGvI82Vq5iXKBhTgCLR_1BA.mGcn2D8l8ZYfa5tlaOq9gQ",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a paywalled video content page from Stratechery with no substantive text \u2014 the full article body is entirely navigation chrome and subscription prompts, containing zero actual analysis to evaluate."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is speculative political noise \u2014 a hypothetical scenario based on a fictional 'midterm sweep' that doesn't reflect current reality \u2014 and lacks the analytical depth or actionable macro/market framework the reader profile demands, reading more like a thin news brief than substantive finance coverage."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Medicare will cut billions from 340B, expand site-neutral payments in 2027",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/medicare-will-cut-billions-from-340b-expand-site-neutral-payments-in-2027/873909/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article covers a finalized CMS rule with concrete reimbursement implications for hospital systems and drug pricing dynamics, fitting squarely in the finance/macro slot as a structural policy catalyst with direct margin impact on investable healthcare names."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is based on a fictional midterm election scenario (Democrats winning a sweep, Sanders calling for a moratorium) that doesn't reflect real events, and while the political risk angle is interesting, the piece is thin on analytical depth \u2014 it's essentially a collection of political quotes without substantive infrastructure, regulatory, or investment analysis to satisfy the reader's strong preference for analytical depth and investment-relevant insights."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMyMzQwMzcsImlhdCI6MTc5MzcyMjM4NywiZXhwIjoxNzk2MzE0Mzg3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.dS5-Xqj3fOvnFSFJnzNhE6bCjfgWgHeDFXzuLy5pTvw",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deeply analytical, data-driven deconstruction of Microsoft's Q1 FY27 earnings that quantifies OpenAI's outsized contribution to Azure growth (24-30% of Azure revenue, 45-55% of growth), directly challenging Nadella's enterprise breadth narrative \u2014 exactly the kind of contrarian, investment-relevant depth the reader profile prizes."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "FDA Grants Accelerated Approval to a New Treatment for Head and Neck Squamous Cell Carcinoma",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a thin FDA press release with no analytical depth, no investment framing, and no cross-domain insight \u2014 it fails the Wildcard 'would I forward this?' test and mismatches the reader's strong preference for analytical depth over news summaries."
+  },
+  {
+    "date": "2026-11-06",
+    "headline": "Value Investor Insight New Issue \u2014 Pat Dorsey on Competitive Moats",
+    "source": "Value Investors Insight",
+    "url": "https://valueinvestorinsight.com/Content_Premium/investor-insight-protecting-the-castle-october-2026.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is not accessible, containing only a brief preview teaser with no substantive content to evaluate for depth or accuracy."
   }
 ]

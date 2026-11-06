@@ -3347,5 +3347,20 @@
         "url": "https://email.mg-d1.substack.com/c/eJxs0L2u4yAQBeCnMV0swPzEBcU2eQ2EYeyQ2IBg2FXefuWkuZFuPZoz3xzvELZcX6b1pfkaC8acLhU8xIIkmGle6NUrAobpedJSKMUJHC7udoME1SEE6_DHlPGZ3E2gYl6lpFrzlVIpA4Sggbp1DkyHqyLRcMoVY1RQxhil4zQ6plch_SK0UoErNhZ3lP4Q_wZBj-0S2Hgi0fnn6PNBYrNrhbfFYO1AdnNHLG2Y_gz8NvAb3gGrS5-3vndzgWSxOv-MabOtl1KhNQiGlL5Yn4-jp4gvC8ktO4RPfunLHr07G7IxmIkLyUg1j5pfBRBqy2kQdDtB7yOtLyEfLibzJSH4e9m9QT1zmZiVFFfy1_D_AQAA__-JK40J"
       }
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "checked_unique": 84,
+    "checked_slots": 87,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": []
   }
 ]

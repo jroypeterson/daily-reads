@@ -1,0 +1,68 @@
+{
+  "run_date": "2026-11-06",
+  "generated_at": "2026-11-06T18:54:29Z",
+  "counts": {
+    "gmail_items": 149,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "e3ad219cdf6af8be",
+      "headline": "AstraZeneca offers $10B for metabolic gem Rhythm: report",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWmPQX5RSnSvW4NYwJC3hxD1nW8LzBkh5W_TB_N2K0T3H5nR3bW7Y9pgv6lZ3ptVTWrq42jR2n7W5GWLB-3GCCz4VBjl9K78rJNTN9hzWXPYcw2pW4jwQ6T7ZFS2rW6RRjzp3jNM4RW1w2N353QPdwvW6bnfZh347xRxW9fQ85V1FwHdFW1CM3Sv4RFM4SW3KYjw-3Czt9VW8j6lc96bnnVzW1CTJFT6r3CT0W4VWV4x1866SPN2gx9Pt6GRfsW88BJcs2FbnTsW7Cj9t64_WxT8W46s3JB32j0FYW8jv_6H4PkTMsW3wN4Pl8MB6qpW5JwsGj8vsw5BW8FTQYr5KVCNGW7RwKzG1gNxQWW3V7CV07qQvZPW48-Xgy8ZrZ0gW4cD2rp2f7LTGW3kMDgP1BhRLNW12Sxm47XYrWRV6BMfW4dXkPRW2-LJpG5WNJvMW8-t6qk8GTTd9W15NLfp4F067NW1mmkf81kcX2cW13TK693mKP-LW5f707H3kwGTtW1kXR6Y7n94W2W6RytMC73hF0GW7gDFkf513KJwW1Gg09Y1339LBW348cgS7j_tVGW8z254C242FD1N5mJnwFwVqY-f3PK40C04",
+      "slot": 1,
+      "summary": "AstraZeneca has reportedly made a $10 billion bid to acquire Rhythm Pharmaceuticals, a metabolic disease biotech, with William Blair analysts suggesting the offer is unlikely to be the final one given competitive interest in the space. The newsletter also highlights that Revolution Medicines' Rasonque delivered a $198M quarter in its commercial debut, significantly beating analyst estimates. Both stories signal strong deal and launch activity in the metabolic/oncology segment.",
+      "why_it_matters": "The AZN/RYTM M&A report is an immediate catalyst for RYTM positioning and signals continued large-cap appetite for metabolic disease assets, while RevMed's blowout launch validates pipeline premium valuations in the sector.",
+      "signal_tags": [
+        "ticker_match:AZN",
+        "ticker_match:RYTM",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "011315b1cc10b753",
+      "headline": "Medicare will cut billions from 340B, expand site-neutral payments in 2027",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/medicare-will-cut-billions-from-340b-expand-site-neutral-payments-in-2027/873909/",
+      "slot": 2,
+      "summary": "CMS finalized its 2027 hospital outpatient prospective payment rule, cutting reimbursement rates for drugs acquired under the 340B discount program and expanding site-neutral payment policies that equalize rates between hospital outpatient departments and physician offices. Hospitals fiercely opposed the rule, arguing it undermines their ability to cross-subsidize care for underserved populations. Together, the 340B cuts and site-neutral expansion represent a meaningful, multi-billion-dollar structural headwind to hospital system revenues beginning in 2027.",
+      "why_it_matters": "This finalized rule is an actionable reimbursement catalyst \u2014 directly pressuring margins for hospital operators (HCA, THC, UHS) and creating downstream effects on specialty pharma and drug distributors that rely on 340B economics, while potentially benefiting managed care payers through lower site-of-care costs.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "c3df21769c13cfe0",
+      "headline": "Microsoft FY 1Q'27: My Confusion vs. the Market's Certainty",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/microsoft-fy-1q27-my-confusion-vs?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjMyMzQwMzcsImlhdCI6MTc5MzcyMjM4NywiZXhwIjoxNzk2MzE0Mzg3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.dS5-Xqj3fOvnFSFJnzNhE6bCjfgWgHeDFXzuLy5pTvw",
+      "slot": 3,
+      "summary": "MBI Deep Dives reverse-engineers Microsoft's opaque disclosures to show that OpenAI alone accounts for ~24-30% of Azure revenue and 45-55% of Azure's quarterly growth, undermining management's enterprise breadth narrative. The author uses SEC filings, receivables data, and revenue share math to construct estimates Microsoft itself won't publish. The piece frames the core investor tension: Azure's headline 48% growth looks very different when stripped of a single hyperconcentrated customer relationship.",
+      "why_it_matters": "For anyone sizing AI infrastructure positions, this analysis reframes the Azure growth story from broad enterprise adoption to heavy OpenAI dependency \u2014 a material concentration risk that changes how to interpret the AI capex-to-revenue conversion thesis at current valuations.",
+      "signal_tags": [
+        "ticker_match:MSFT",
+        "priority:high",
+        "analytical_depth",
+        "AI_impact",
+        "deep_business_diligence"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": false
+    }
+  ]
+}
