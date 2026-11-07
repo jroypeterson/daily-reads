@@ -14803,5 +14803,104 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is paywalled \u2014 the full text is not accessible, containing only a brief preview teaser with no substantive content to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Stratechery: Falling Leaves (and Stocks) \u2014 AI on the Ballot, Data Centers, Google State of the Union",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaGyFjAdex6tGWj7eHhSwZ2XF0jg7O5JOtSY8wdqcNo.c1C_vMiqwiQXC7lSvq3JBQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly Stratechery newsletter digest/table-of-contents, not a substantive standalone article \u2014 it contains only brief paragraph-length teasers for multiple pieces behind a paywall, with no actual analytical depth on any single topic."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "The AI 'credit card' is getting costlier as CoreWeave bond yield tops 16%",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is substantive and relevant to AI infrastructure credit markets, but belongs to Finance/Macro (Slot 2) or Tech/AI (Slot 3) \u2014 not Healthcare/Biotech (Slot 1), as it contains no healthcare or biopharma content whatsoever."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Scuttleblurb: Update on Gartner",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is a Scuttleblurb deep-dive on Gartner (NYSE: IT), a technology research and advisory firm \u2014 it has no connection to healthcare or biotech and does not belong in Slot 1."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Hims & Hers inks deal with Eli Lilly to offer branded weight loss drugs",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/hims-hers-inks-deal-eli-lilly-offer-branded-weight-loss-drugs",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on HIMS's strategic pivot from compounded to branded GLP-1s, includes specific financial data (margin compression, quarterly losses), analyst commentary, and clear investment implications for a covered ticker."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "The AI 'credit card' is getting costlier as CoreWeave bond yield tops 16%",
+    "source": "CNBC Finance",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive credit market analysis with specific data points (CDS spreads, bond yields, BofA and Goldman projections) and a clear macro thesis about AI capex financing risk \u2014 directly relevant to Slot 2's finance/macro theme and the reader's strong interest in data infrastructure and structural market insight."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Stratechery: Falling Leaves (and Stocks) \u2014 AI on the Ballot, Data Centers, Google State of the Union",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaGyFjAdex6tGWj7eHhSwZ2XF0jg7O5JOtSY8wdqcNo.c1C_vMiqwiQXC7lSvq3JBQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article text is a thin weekly newsletter digest (table of contents with one-paragraph teasers) rather than substantive analytical content \u2014 the deep analysis on data center regulatory risk, Google monetization, and China policy lives behind paywalled links, not in this email itself."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Failure of Novartis Lp(a) drug pelacarsen raises questions about cardiovascular strategy",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Slot 1 Healthcare/Biopharma article about a clinical trial failure, not a Tech/AI article \u2014 it has no relevance to the Tech/AI slot theme."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Scuttleblurb Scuttleslops: INTC, AMD, Anthropic, BKNG, NEE, PLTR",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a stub \u2014 only teaser headlines and brief one-liners are visible, with no substantive analysis or depth accessible, making it impossible to verify the rich content claimed in the shortlist summary."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Value Investor Insight: Pat Dorsey of Dorsey Asset Management on Competitive Moats (October 2026)",
+    "source": "Value Investors Insight",
+    "url": "https://valueinvestorinsight.com/Content_Premium/investor-insight-protecting-the-castle-october-2026.aspx",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full text is inaccessible, containing only a preview blurb \u2014 so there is no substantive content to evaluate or deliver to the reader."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Democrats' midterm landslide spells relief for hospitals \u2014 and reshapes healthcare sector outlook",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare policy and sector rotation article that clearly belongs to Slot 1 (Healthcare) or Slot 2 (Finance/Markets), not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-11-07",
+    "headline": "Scuttleblurb: Update on Gartner",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a paywall/teaser fragment showing only brief snippet summaries of multiple Scuttleblurb posts \u2014 the actual Gartner deep-dive content is not accessible, making it impossible to verify the depth and substance claimed in the shortlist summary."
   }
 ]

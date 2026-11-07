@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-11-07",
+  "generated_at": "2026-11-07T17:24:42Z",
+  "counts": {
+    "gmail_items": 140,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "52a33526e5b57b1d",
+      "headline": "Hims & Hers inks deal with Eli Lilly to offer branded weight loss drugs",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/hims-hers-inks-deal-eli-lilly-offer-branded-weight-loss-drugs",
+      "slot": 1,
+      "summary": "Hims & Hers has partnered with Eli Lilly to offer branded GLP-1 medications Zepbound ($299/mo) and Foundayo ($149/mo) directly on its platform, mirroring its March deal with Novo Nordisk and completing its pivot away from compounded medications. The agreement gives Hims pharmacies direct access to Lilly's FDA-approved obesity drugs at LillyDirect self-pay prices, eliminating the previous friction of patients having to leave the platform. The transition has come at a financial cost \u2014 gross margins have compressed to ~63% and the company posted an $86 million loss in Q2 \u2014 with Q3 earnings now a key readout for branded-drug margin trajectory.",
+      "why_it_matters": "The dual Lilly/Novo branded GLP-1 partnerships resolve HIMS's major strategic overhang and set up Q3 as a critical catalyst for assessing whether lower-margin branded distribution can offset the loss of high-margin compounding revenue, with direct competitive implications vs. Ro and direct pharma-to-consumer channels.",
+      "signal_tags": [
+        "ticker_match:HIMS",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "investment_relevant_insight"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "30010b59f137b571",
+      "headline": "The AI 'credit card' is getting costlier as CoreWeave bond yield tops 16%",
+      "source": "CNBC Finance",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "slot": 2,
+      "summary": "CoreWeave's 2032 bond now yields above 16% and its five-year CDS spiked to a record 1,289 basis points, while CDS on Nvidia (+76%), Broadcom (+49%), and Amazon (+44%) have also risen sharply over the past month. The trigger is political: incoming Democratic governors in Texas, Ohio, and Georgia could impose moratoriums affecting up to 45% of planned U.S. data center capacity, per Goldman Sachs. BofA projects AI-related debt issuance peaks at $685B in 2027 before declining, with the 'Blue Wave' regulatory risk cited as the primary downside.",
+      "why_it_matters": "CoreWeave's credit stress is a leading indicator for the entire AI infrastructure capital cycle \u2014 if neocloud debt financing deteriorates, it flows upstream into GPU demand assumptions, hyperscaler capex sustainability, and ultimately Nvidia's revenue outlook.",
+      "signal_tags": [
+        "data_infrastructure",
+        "AI_impact",
+        "novelty",
+        "actionability",
+        "structural_market_insight"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    }
+  ]
+}
