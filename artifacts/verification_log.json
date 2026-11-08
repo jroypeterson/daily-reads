@@ -14902,5 +14902,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The full article text is a paywall/teaser fragment showing only brief snippet summaries of multiple Scuttleblurb posts \u2014 the actual Gartner deep-dive content is not accessible, making it impossible to verify the depth and substance claimed in the shortlist summary."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "CVS Health to split, reversing years of deal-making to combine pharmacies and insurance",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article covers a landmark corporate restructuring with direct implications for managed care, PBM, and retail pharmacy competitive dynamics, fitting Slot 1's healthcare M&A and pipeline news criteria with genuine substance."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "update on Gartner",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a collection of teaser excerpts and 'upcoming posts' listings from Scuttleblurb \u2014 the actual Gartner deep-dive has not yet been published, so there is no substantive content to evaluate."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "AI's true reckoning \u2014 Anthropic IPO seen as AI's reckoning",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-11-06/anthropic-ipo-seen-as-ai-s-reckoning-evening-briefing-americas",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is an evening briefing newsletter wrapper with navigation/boilerplate content \u2014 the actual substantive analysis of the Anthropic IPO is truncated and not present, making this too thin to verify depth or select with confidence."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "OpenAI raises $11B at a $1.25T valuation",
+    "source": "Hacker News / 247wallst.com",
+    "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin financial reporting from a low-quality source (247wallst.com) that rehashes press reports without analytical depth, offers no structural insight into private AI market dynamics, and reads more like a news brief than the long-form investment analysis this reader strongly prefers."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "[scuttleslops] INTC, AMD, Anthropic, BKNG, NEE, PLTR",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a collection of brief teaser blurbs and 'upcoming posts' notices rather than substantive analysis \u2014 the actual depth promised by the shortlist summary is not present in the provided content."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "Falling Leaves (and Stocks) \u2014 This Week in Stratechery",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaGyFjAdex6tGWj7eHhSwZ2XF0jg7O5JOtSY8wdqcNo.c1C_vMiqwiQXC7lSvq3JBQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a table-of-contents newsletter digest \u2014 a thin index of articles rather than substantive analysis \u2014 lacking the analytical depth the reader profile strongly prioritizes, and it fits Slot 3 (Tech/AI) better than Slot 2 (Finance/Macro) given its dominant focus on AI policy, Google strategy, and China tech dynamics rather than markets or macro."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "CMS makes it official, codifying Medicare drug price negotiations established under IRA",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/pharma/cms-makes-it-official-codifying-medicare-drug-price-negotiations-rolled-out-under-ira",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a straightforward regulatory news summary with limited analytical depth \u2014 it recaps CMS rule mechanics and industry reactions without providing the structural market insight, earnings impact modeling, or competitive positioning analysis that would make it actionable for the reader's investment process."
+  },
+  {
+    "date": "2026-11-08",
+    "headline": "OpenAI raises $11B at a $1.25T valuation",
+    "source": "Hacker News / 247wallst.com",
+    "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin, forward-looking news brief from a low-tier source (247wallst.com) that largely rehashes publicly reported fundraising figures with minimal analytical depth, no proprietary insight into AI infrastructure dynamics, and reads more like a financial news summary than the deep structural or investment-process content this reader strongly prefers."
   }
 ]

@@ -1,0 +1,35 @@
+{
+  "run_date": "2026-11-08",
+  "generated_at": "2026-11-08T17:35:05Z",
+  "counts": {
+    "gmail_items": 133,
+    "tier2_items": 81,
+    "selected_articles": 1
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "31c30fb781a30d75",
+      "headline": "CVS Health to split, reversing years of deal-making to combine pharmacies and insurance",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/",
+      "slot": 1,
+      "summary": "CVS Health announced a plan to split into two independent publicly traded companies by H1 2028, reversing decades of vertical integration strategy. CVS Health will retain Aetna, Caremark PBM, specialty pharmacy, Oak Street Health, and Signify Health, while CVS Pharmacy will hold the 9,000 retail locations, MinuteClinic, and mail pharmacy operations. Shares fell ~12.5% on the announcement despite a Q3 EPS beat, erasing nearly $15B in market cap, as the move comes amid intensifying federal and state regulatory scrutiny of vertically integrated healthcare giants.",
+      "why_it_matters": "This is one of the largest healthcare corporate breakups in history and directly reshapes the managed care, PBM, and retail pharmacy competitive landscape \u2014 with material implications for Aetna's Medicare Advantage positioning, Caremark's PBM business, and the broader regulatory trajectory for vertical integration in U.S. healthcare.",
+      "signal_tags": [
+        "ticker_match:CVS",
+        "ticker_match:PSG",
+        "subsector:Mgd_Care",
+        "catalyst_proximity",
+        "actionability",
+        "novelty",
+        "regulatory_affairs"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    }
+  ]
+}

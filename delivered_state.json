@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "725e209032997256",
-      "date": "2026-10-24"
-    },
-    {
       "id": "89aa4ace492ddffd",
       "date": "2026-10-25"
     },
@@ -127,6 +123,10 @@
     {
       "id": "30010b59f137b571",
       "date": "2026-11-07"
+    },
+    {
+      "id": "31c30fb781a30d75",
+      "date": "2026-11-08"
     }
   ],
   "reader_pushed": {
@@ -329,6 +329,7 @@
     "https://www.biopharmadive.com/news/medicare-will-cut-billions-from-340b-expand-site-neutral-payments-in-2027/873909/": "2026-11-06",
     "https://mbideepdives.substack.com/p/airbnb-3q26-back-in-growth-mode-but?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjM2ODg5NTAsImlhdCI6MTc5Mzk4MjM4OSwiZXhwIjoxNzk2NTc0Mzg5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.bSc7OExziSAg5WRpdm9sTUjz_rLc6jKlp3pWfvYK9to": "2026-11-06",
     "https://www.fiercehealthcare.com/health-tech/hims-hers-inks-deal-eli-lilly-offer-branded-weight-loss-drugs": "2026-11-07",
-    "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html": "2026-11-07"
+    "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html": "2026-11-07",
+    "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/": "2026-11-08"
   }
 }
