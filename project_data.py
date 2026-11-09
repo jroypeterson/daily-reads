@@ -37,6 +37,11 @@ def load_json(path, default=None):
     return data
 
 
+def mark_state_file_unreadable(path) -> None:
+    """For a loader that finds parseable JSON of the wrong shape."""
+    _UNREADABLE_PATHS.add(os.path.abspath(path))
+
+
 def state_file_unreadable(path) -> bool:
     """Whether the last load of `path` in this process found it unparseable."""
     return os.path.abspath(path) in _UNREADABLE_PATHS

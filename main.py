@@ -29,6 +29,7 @@ from project_data import (
     run_artifact_path,
     save_delivered_state,
     save_json,
+    mark_state_file_unreadable,
     state_file_unreadable,
     triage_artifact_path,
     UnreadableStateFile,
@@ -111,6 +112,8 @@ def _deliver_reader_if_ledger_readable(articles, always_read, state, today) -> b
 def load_criteria_state() -> dict:
     state = load_json(CRITERIA_STATE_PATH, None)
     if not isinstance(state, dict):
+        if os.path.exists(CRITERIA_STATE_PATH):
+            mark_state_file_unreadable(CRITERIA_STATE_PATH)
         return {"pending": None, "history": []}
     state.setdefault("pending", None)
     state.setdefault("history", [])

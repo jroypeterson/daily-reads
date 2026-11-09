@@ -18,6 +18,7 @@ INGEST_STEPS = [
 ]
 EXIT_EVIDENCE_LOSS = 3
 EXIT_UNRELATED_COMMITS = 4
+EXIT_DIRTY_START = 5
 COMMIT_MESSAGE = "Local Dropbox taste ingestion"
 
 
@@ -91,6 +92,10 @@ def main() -> int:
     if unrelated_commits_ahead():
         print("REFUSING TO SYNC: unrelated local commits are ahead of origin/main.")
         return EXIT_UNRELATED_COMMITS
+    # Anything uncommitted in these files is not ours, and would otherwise go out under our name.
+    if _git_output("status", "--porcelain", "--", *TRACKED_PATHS):
+        print("REFUSING TO SYNC: taste files have uncommitted changes.")
+        return EXIT_DIRTY_START
     # No automatic conflict winner: during a rebase "ours" is the remote side, so a conflict
     # would silently drop local evidence whose source file is already archived.
     r = subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"])
@@ -104,7 +109,6 @@ def main() -> int:
         if r.returncode != 0:
             return r.returncode
 
-    # Against HEAD, so a change left staged by a failed commit is retried.
     r = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", *TRACKED_PATHS])
     if r.returncode != 0:
         reason = evidence_loss(head_evidence(), working_evidence())

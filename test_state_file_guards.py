@@ -254,9 +254,15 @@ def test_a_corrupt_evidence_store_closes_no_feedback_issue(monkeypatch):
     assert Path("feedback_log.json").read_text(encoding="utf-8") == "[]"
 
 
-def test_a_corrupt_criteria_state_leaves_the_proposal_file_alone(monkeypatch):
+def test_an_absent_criteria_state_is_a_first_run():
+    assert daily_main.load_criteria_state() == {"pending": None, "history": []}
+    assert not project_data.state_file_unreadable(daily_main.CRITERIA_STATE_PATH)
+
+
+@pytest.mark.parametrize("content", [b"{broken", b"[]"])
+def test_a_corrupt_criteria_state_leaves_the_proposal_file_alone(monkeypatch, content):
     monkeypatch.setitem(daily_main._RUN_STATE, "partial_reasons", [])
-    Path(daily_main.CRITERIA_STATE_PATH).write_bytes(b"{broken")
+    Path(daily_main.CRITERIA_STATE_PATH).write_bytes(content)
     proposal = Path(daily_main.PROPOSED_CRITERIA_PATH)
     proposal.write_text("the earlier proposal", encoding="utf-8")
     daily_main.rewrite_criteria([])
@@ -378,7 +384,15 @@ def test_a_failed_git_step_fails_the_job_and_stops_the_steps_after_it(monkeypatc
 @pytest.fixture
 def git_clone(tmp_path, monkeypatch):
     """A real clone of a throwaway bare origin, with HEAD holding two evidence records."""
-    monkeypatch.setattr(taste_sync, "INGEST_STEPS", [])
+    pending = tmp_path / "pending_evidence.json"
+    step = tmp_path / "ingest_step.py"
+    step.write_text(
+        "import pathlib\n"
+        f"p = pathlib.Path({str(pending)!r})\n"
+        f"if p.exists(): pathlib.Path({taste_sync.EVIDENCE_PATH!r}).write_text(p.read_text())\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(taste_sync, "INGEST_STEPS", [str(step)])
     origin, clone = tmp_path / "origin.git", tmp_path / "clone"
 
     def git(*args, cwd=clone):
@@ -396,22 +410,31 @@ def git_clone(tmp_path, monkeypatch):
     git("commit", "-qm", "seed")
     git("push", "-q", "origin", "main")
     monkeypatch.chdir(clone)
-    return SimpleNamespace(git=git, origin=origin, clone=clone)
+    return SimpleNamespace(git=git, origin=origin, clone=clone, ingests=pending)
 
 
 def _origin_evidence(repo):
     return json.loads(repo.git("show", f"main:{taste_sync.EVIDENCE_PATH}", cwd=repo.origin))
 
 
-def test_real_git_a_change_left_staged_is_committed_and_pushed(git_clone):
-    Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
-    git_clone.git("add", taste_sync.EVIDENCE_PATH)
+def test_real_git_new_evidence_is_committed_and_pushed(git_clone):
+    git_clone.ingests.write_text(GROWN, encoding="utf-8")
     assert taste_sync.main() == 0
     assert len(_origin_evidence(git_clone)) == 3
 
 
-def test_real_git_a_failed_push_fails_the_job_and_the_next_run_delivers_it(git_clone):
+@pytest.mark.parametrize("stage", [False, True])
+def test_real_git_uncommitted_edits_to_taste_files_are_left_alone(git_clone, stage):
     Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
+    if stage:
+        git_clone.git("add", taste_sync.EVIDENCE_PATH)
+    assert taste_sync.main() == taste_sync.EXIT_DIRTY_START
+    assert len(_origin_evidence(git_clone)) == 2
+    assert json.loads(Path(taste_sync.EVIDENCE_PATH).read_text(encoding="utf-8")) == json.loads(GROWN)
+
+
+def test_real_git_a_failed_push_fails_the_job_and_the_next_run_delivers_it(git_clone):
+    git_clone.ingests.write_text(GROWN, encoding="utf-8")
     good_url = git_clone.git("remote", "get-url", "origin")
     git_clone.git("remote", "set-url", "--push", "origin", str(git_clone.clone.parent / "missing.git"))
     assert taste_sync.main() != 0
@@ -468,7 +491,7 @@ def test_real_git_another_authors_edit_to_a_taste_file_is_not_pushed(git_clone):
 def test_real_git_something_else_staged_stays_out_of_the_commit(git_clone):
     Path("other.txt").write_text("x", encoding="utf-8")
     git_clone.git("add", "other.txt")
-    Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
+    git_clone.ingests.write_text(GROWN, encoding="utf-8")
     assert taste_sync.main() == 0
     assert len(_origin_evidence(git_clone)) == 3
     assert "other.txt" not in git_clone.git("ls-tree", "--name-only", "main", cwd=git_clone.origin)
@@ -523,7 +546,7 @@ def test_real_git_a_conflict_with_ci_stops_the_job_and_keeps_both_sides(git_clon
 
 
 def test_real_git_a_shrink_is_refused_and_origin_is_untouched(git_clone):
-    Path(taste_sync.EVIDENCE_PATH).write_text("[]", encoding="utf-8")
+    git_clone.ingests.write_text("[]", encoding="utf-8")
     assert taste_sync.main() == taste_sync.EXIT_EVIDENCE_LOSS
     assert len(_origin_evidence(git_clone)) == 2
 
