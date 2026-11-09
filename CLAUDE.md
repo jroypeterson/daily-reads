@@ -13,6 +13,15 @@ Note: the local Windows scheduled task (daily Dropbox taste ingestion) commits t
 
 **Timestamp-churn conflicts were fixed at the source on 2026-07-25** — `preference_learning.apply_evidence()` now stamps `updated_at`/`last_updated` only when a strength or evidence-id set actually changes, so a no-op learning run produces a no-op diff and the two writers stop colliding over nothing. Before that fix the file was rewritten with a fresh clock every run; six local commits had accumulated that were byte-identical to the remote once timestamps were stripped (all 18 topics), and the standing advice here was to resolve by keeping `HEAD`. If you *do* still hit a conflict in these files, it now means a **real** preference divergence — look at the strengths and evidence ids, don't just take one side. Invariant guarded by `test_unchanged_preferences_do_not_restamp_timestamps`.
 
+## Writers to main and state-file safety (2026-11-09, board #685)
+
+Three things push to `main`: the daily workflow, `taste_sync.py`, and interactive sessions. The cron says 07:00 ET, but runs have actually started between about 11:30 AM and 5 PM ET, so **the schedule says nothing about when a run is live**.
+
+- **`publish_state.py` is the workflow's final push.** It rebases and retries a rejected push (max 3), never forces, and on conflict saves the commit to `rescue/daily-<date>-<run_id>` and alerts `#status-reports`. Merge a rescue branch before the next run or that day's Reader duplicate protection is missing. `process_criteria_feedback.py` uses the same helper. Never rewind `main`: `git pull --rebase` then silently drops local commits.
+- **`taste_sync.py` is what the scheduled task runs.** It exits non-zero and does nothing further when a taste file has uncommitted changes (5), unrelated commits are ahead of origin (4), or evidence records would be lost (3). A red task usually means one of those, so read its output before re-running. Re-register with `register_daily_dropbox_taste_task.ps1`; a plain `Enable-ScheduledTask` would keep whatever action is installed.
+- **`save_json` refuses a file that failed to parse in this process**, so a corrupt file is never replaced by a default. Steps with side effects before the save (closing issues, archiving Dropbox samples) use `load_json_strict` so they stop first. `main.py` turns a refusal into a `partial` heartbeat so the digest still ships; a corrupt state file read by an earlier workflow step stops that day's run instead.
+- **A corrupt `delivered_state.json` skips the Reader push and marks the run `partial`.** Slack can still repeat articles until the file is repaired. Known limit: `save_json` is not an atomic write.
+
 ## Newsletter sources
 
 When adding or troubleshooting a source in `sources.py`:
