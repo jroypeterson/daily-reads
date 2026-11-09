@@ -7,7 +7,7 @@ import sys
 
 import requests
 from datetime import datetime, timezone
-from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json, save_json
+from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json_strict, save_json
 
 REPO = "jroypeterson/daily-reads"
 API = "https://api.github.com"
@@ -39,7 +39,8 @@ def main():
         print("No feedback issues to process.")
         return
 
-    feedback = load_json("feedback_log.json", [])
+    # Strict: the loop below closes each issue before the save.
+    feedback = load_json_strict("feedback_log.json", [])
     existing = {(e["date"], e["slot"], e.get("source", "")) for e in feedback}
     processed = 0
 

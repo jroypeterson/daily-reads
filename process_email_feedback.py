@@ -15,7 +15,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 from gmail_reader import get_gmail_service
-from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json, save_json
+from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json_strict, save_json
 
 FEEDBACK_RE = re.compile(
     r"^\s*(?:slot\s*)?(\d{1,2})[ \t]*[:\-]?[ \t]*(strong|great|good|fine|okay|ok|miss|bad|not useful|irrelevant|boring|1|2|3)(?:[ \t]*[,\-]?[ \t]*([^\n]+))?\s*$",
@@ -102,7 +102,7 @@ def main():
         print("No email feedback replies found.")
         return
 
-    feedback = load_json("feedback_log.json", [])
+    feedback = load_json_strict("feedback_log.json", [])
     existing = {(e["date"], e["slot"], e.get("source", "")) for e in feedback}
     processed = 0
 

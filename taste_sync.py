@@ -17,6 +17,7 @@ INGEST_STEPS = [
     "preference_learning.py",
 ]
 EXIT_EVIDENCE_LOSS = 3
+COMMIT_MESSAGE = "Local Dropbox taste ingestion"
 
 
 def _records(text: str):
@@ -65,6 +66,17 @@ def working_evidence() -> str:
         return f.read().decode("utf-8", "replace")
 
 
+def _git_output(*args: str) -> str:
+    return subprocess.run(["git", *args], capture_output=True).stdout.decode("utf-8", "replace").strip()
+
+
+def own_commit_is_unpushed() -> bool:
+    """True when HEAD is this job's commit and origin does not have it yet. A
+    commit by anyone else is never pushed from here."""
+    ahead = _git_output("rev-list", "--count", "origin/main..HEAD")
+    return ahead not in ("", "0") and _git_output("log", "-1", "--format=%s") == COMMIT_MESSAGE
+
+
 def main() -> int:
     # Sync with remote first so local taste ingestion stacks on top of the latest
     # GitHub Actions workflow output instead of forking history. Without this the
@@ -82,18 +94,25 @@ def main() -> int:
         if r.returncode != 0:
             return r.returncode
 
-    r = subprocess.run(["git", "diff", "--quiet", *TRACKED_PATHS])
-    if r.returncode == 0:
-        return 0
+    # Against HEAD, so a change left staged by a failed commit is retried.
+    r = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", *TRACKED_PATHS])
+    if r.returncode != 0:
+        reason = evidence_loss(head_evidence(), working_evidence())
+        if reason:
+            print(f"REFUSING TO COMMIT: {reason}. Nothing was staged or pushed.")
+            return EXIT_EVIDENCE_LOSS
+        for command in (["add", *TRACKED_PATHS], ["commit", "-m", COMMIT_MESSAGE]):
+            r = subprocess.run(["git", *command])
+            if r.returncode != 0:
+                print(f"git {command[0]} failed with exit {r.returncode}; nothing was pushed.")
+                return r.returncode
 
-    reason = evidence_loss(head_evidence(), working_evidence())
-    if reason:
-        print(f"REFUSING TO COMMIT: {reason}. Nothing was staged or pushed.")
-        return EXIT_EVIDENCE_LOSS
-
-    subprocess.run(["git", "add", *TRACKED_PATHS])
-    subprocess.run(["git", "commit", "-m", "Local Dropbox taste ingestion"])
-    subprocess.run(["git", "push"])
+    # Also retries a commit whose push failed on an earlier run.
+    if own_commit_is_unpushed():
+        r = subprocess.run(["git", "push", "origin", "HEAD:main"])
+        if r.returncode != 0:
+            print(f"git push failed with exit {r.returncode}; it will be retried next run.")
+            return r.returncode
     return 0
 
 

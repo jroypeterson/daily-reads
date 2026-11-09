@@ -37,6 +37,11 @@ def load_json(path, default=None):
     return data
 
 
+def state_file_unreadable(path) -> bool:
+    """Whether the last load of `path` in this process found it unparseable."""
+    return os.path.abspath(path) in _UNREADABLE_PATHS
+
+
 def load_json_strict(path, default=None):
     """Like load_json, but raise on an unreadable file. For callers that do
     something irreversible or expensive between the load and the save."""

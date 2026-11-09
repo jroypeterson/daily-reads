@@ -29,8 +29,10 @@ from project_data import (
     run_artifact_path,
     save_delivered_state,
     save_json,
+    state_file_unreadable,
     triage_artifact_path,
     UnreadableStateFile,
+    DELIVERED_STATE_PATH,
 )
 from sources import SOURCES, get_always_read_names, get_journal_source_names
 from health_report import Heartbeat, post_health_to_slack
@@ -88,6 +90,21 @@ def _persist_or_flag(save, *args) -> bool:
         print(f"WARNING: {exc}")
         _RUN_STATE["partial_reasons"].append(f"State not saved: {exc}")
         return False
+    return True
+
+
+def _deliver_reader_if_ledger_readable(articles, always_read, state, today) -> bool:
+    """Push to Reader only if the ledger that prevents duplicates was readable.
+
+    Reader does not dedupe by URL, and an unreadable ledger stays unreadable
+    until someone repairs it, so pushing against its empty fallback would
+    duplicate the same items every day."""
+    if state_file_unreadable(DELIVERED_STATE_PATH):
+        message = f"Reader push skipped: {DELIVERED_STATE_PATH} is unreadable"
+        print(f"WARNING: {message}")
+        _RUN_STATE["partial_reasons"].append(message)
+        return False
+    deliver_reader(articles, always_read, state=state, today=today)
     return True
 
 
@@ -2993,7 +3010,7 @@ def main():
         deliver_pages(articles, triage_queue, always_read, substack_items, journal_watch)
         # `delivered_state` is loaded above and saved below, so the permanent
         # reader_pushed record this fills in is persisted by the same write.
-        deliver_reader(articles, always_read, state=delivered_state, today=today)
+        _deliver_reader_if_ledger_readable(articles, always_read, delivered_state, today)
         deliver_log(articles)
         deliver_triage_log(triage_queue)
         artifacts_produced.append(f"docs/{today}.html")
