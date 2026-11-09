@@ -9,11 +9,18 @@ permissions:
   contents: write
   issues: write
 
+# One run at a time, so a manual dispatch cannot overlap the schedule and deliver twice.
+concurrency:
+  group: daily-reads
+  cancel-in-progress: false
+
 jobs:
   daily-reads:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0  # publish_state.py may have to rebase onto newer commits
 
       - uses: actions/setup-python@v6
         with:
@@ -132,6 +139,8 @@ jobs:
           SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
 
       - name: Commit and push Pages update
+        env:
+          SLACK_WEBHOOK_STATUS_REPORTS: ${{ secrets.SLACK_WEBHOOK_STATUS_REPORTS }}
         run: |
           git config user.name "daily-reads-bot"
           git config user.email "bot@daily-reads"
@@ -141,4 +150,4 @@ jobs:
           # not exist yet on a first/no-articles run.
           [ -f delivered_state.json ] && git add delivered_state.json || true
           git diff --staged --quiet || git commit -m "Daily reads $(date -u +%Y-%m-%d)"
-          git push
+          python publish_state.py

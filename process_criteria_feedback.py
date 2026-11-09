@@ -14,8 +14,9 @@ from main import (
     load_criteria_state,
     save_criteria_state,
 )
+from publish_state import push_with_retry
 
-API = "https://api.github.com"
+API ="https://api.github.com"
 TITLE_RE = re.compile(r"Criteria Update:\s*(accept|reject|modify)\s+(.+)", re.IGNORECASE)
 
 # Durable state touched by a criteria decision. Committed to git BEFORE the
@@ -45,7 +46,9 @@ def commit_durable_state(paths, message: str) -> bool:
         if subprocess.run(["git", "diff", "--staged", "--quiet"]).returncode == 0:
             return True
         subprocess.run(["git", "commit", "-m", message], check=True)
-        subprocess.run(["git", "push"], check=True)
+        if not push_with_retry():
+            print("  criteria: push failed after retries — leaving issue open to retry")
+            return False
         return True
     except Exception as exc:
         print(f"  criteria: durable-state commit failed ({exc}) — leaving issue open to retry")
