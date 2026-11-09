@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "89aa4ace492ddffd",
-      "date": "2026-10-25"
-    },
-    {
-      "id": "cafe0f8978bc526a",
-      "date": "2026-10-25"
-    },
-    {
-      "id": "76fa84c9d3438636",
-      "date": "2026-10-25"
-    },
-    {
       "id": "809f508efa5cf323",
       "date": "2026-10-26"
     },
@@ -127,6 +115,22 @@
     {
       "id": "31c30fb781a30d75",
       "date": "2026-11-08"
+    },
+    {
+      "id": "bd51d09e6e8bb8e1",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "752b668df741bf30",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "67a8dee83273d79f",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "c8d9eb5c723dc0c3",
+      "date": "2026-11-09"
     }
   ],
   "reader_pushed": {
@@ -330,6 +334,12 @@
     "https://mbideepdives.substack.com/p/airbnb-3q26-back-in-growth-mode-but?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjM2ODg5NTAsImlhdCI6MTc5Mzk4MjM4OSwiZXhwIjoxNzk2NTc0Mzg5LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.bSc7OExziSAg5WRpdm9sTUjz_rLc6jKlp3pWfvYK9to": "2026-11-06",
     "https://www.fiercehealthcare.com/health-tech/hims-hers-inks-deal-eli-lilly-offer-branded-weight-loss-drugs": "2026-11-07",
     "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html": "2026-11-07",
-    "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/": "2026-11-08"
+    "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/": "2026-11-08",
+    "https://www.beckershospitalreview.com/finance/surgery-partners-rejected-unitedhealths-28-a-share-bid-bloomberg/": "2026-11-09",
+    "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong": "2026-11-09",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2": "2026-11-09",
+    "https://www.bloomberg.com/opinion/newsletters/2026-11-09/is-the-nvidia-affair-securities-fraud": "2026-11-09",
+    "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQxNTA4NTUsImlhdCI6MTc5NDI0ODUwMiwiZXhwIjoxNzk2ODQwNTAyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.4BPx1xhad6SFwTOipw9wrYV_oI95Bui7jMlYSTFq84E": "2026-11-09",
+    "https://thetranscript.substack.com/p/11-09-2026-blue-wave?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQxMzkxODYsImlhdCI6MTc5NDIyOTgwMCwiZXhwIjoxNzk2ODIxODAwLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.CBUoCYXXl9EyxlobN0tN-eS0THOXNtscO8uAGUFk8kk": "2026-11-09"
   }
 }

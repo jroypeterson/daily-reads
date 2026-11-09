@@ -3392,5 +3392,33 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-11-09",
+    "checked_unique": 66,
+    "checked_slots": 68,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 1
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "triage",
+        "source": "Hacker News",
+        "headline": "Fold Epic Paper Airplanes",
+        "url": ""
+      },
+      {
+        "surface": "substack",
+        "source": "",
+        "headline": "",
+        "url": "https://email.mg-d0.substack.com/c/eJxskLuypCAYhJ9GsrHwFxEDgk3mNSguv8qOAstlXd9-a-YEJzlxd339VVtdcYv5lnVNjwvxddyPHFtwLREn-ajXyRGUw7ywgQvOFoKn9ofaMGDWFZ3S9TsVfAKyy5WP1M1ggVPqkAo-2UFQgbOGEXAwxEugwIeBCqCUjqwfexTTOi9gALmZwfI-t7Trf39sx-i5PRztSzOlavvqbTyJL2rN-HGRNTckh9xrTaUbf3Xw7OB5XVdfd1zTpx4TBlWzti8fNlVaShlLQSdJakbZeJ4t-HorDNoc6L6QqZnDW119DMo7CZyObCZZ_s7xTlgxlxg6Rre3xGelNOPiqX2QRmd_oS-F1J-ebQXzGzmwhU9MkL8S_gcAAP__sMeEGw"
+      }
+    ]
   }
 ]

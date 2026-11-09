@@ -14974,5 +14974,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a thin, forward-looking news brief from a low-tier source (247wallst.com) that largely rehashes publicly reported fundraising figures with minimal analytical depth, no proprietary insight into AI infrastructure dynamics, and reads more like a financial news summary than the deep structural or investment-process content this reader strongly prefers."
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "Surgery Partners Rejected UnitedHealth's $28-a-Share Bid",
+    "source": "Becker's Hospital Review",
+    "url": "https://www.beckershospitalreview.com/finance/surgery-partners-rejected-unitedhealths-28-a-share-bid-bloomberg/",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Live M&A catalyst with direct ticker matches (SGRY, UNH), substantive competing-bid dynamics, and clear valuation implications for payer-ASC consolidation thesis."
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deeply analytical, original valuation framework piece comparing Meta and Anthropic at similar enterprise values, with proprietary capex decomposition, compute utilization data from Anthropic's S-1, and METR's external AI acceleration assessment \u2014 exactly the kind of structural market insight and investment-relevant depth the reader profile rewards."
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "Claude Fable 5.2 and Mythos 5.2",
+    "source": "Anthropic (via Hacker News / Anthropic.com)",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article is a substantive technical release announcement with deep capability demonstrations, safety/alignment disclosures, benchmark data, and competitive pricing details that have direct implications for AI infrastructure investment theses and Anthropic's contested IPO valuation."
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "update on Gartner",
+    "source": "Scuttleblurb",
+    "url": "https://www.scuttleblurb.com/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a collection of teaser snippets and 'upcoming posts' lists from Scuttleblurb's newsletter index \u2014 the actual Gartner deep-dive content is not present in the provided text, making it impossible to verify substance or depth."
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "STAT+: Hospitals win the midterms, and Chopping Very Strategically (CVS breakup explained)",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/09/midterm-elections-good-news-for-hospitals-cvs-breakup-explained/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is essentially a stub \u2014 it contains only the author bio, newsletter sign-up boilerplate, and a brief one-paragraph tease about hospitals benefiting from Democratic midterm wins, with no actual substance on the CVS breakup or any analytical depth to justify inclusion in any slot."
+  },
+  {
+    "date": "2026-11-09",
+    "headline": "Money Stuff: Is the Nvidia Affair Securities Fraud?",
+    "source": "Bloomberg (Matt Levine)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-09/is-the-nvidia-affair-securities-fraud",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Matt Levine's Money Stuff applies rigorous securities-law and corporate-governance analysis to the Nvidia/Jensen Huang affair, delivering exactly the analytical depth, ticker relevance (NVDA), and cross-domain thinking (governance + AI infrastructure risk) that the reader's taste profile rewards."
   }
 ]
