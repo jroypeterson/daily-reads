@@ -43,9 +43,12 @@ def state_file_unreadable(path) -> bool:
 
 
 def load_json_strict(path, default=None):
-    """Like load_json, but raise on an unreadable file. For callers that do
-    something irreversible or expensive between the load and the save."""
+    """Like load_json, but raise on an unreadable file, or on one whose top-level
+    type differs from `default`. For callers that do something irreversible or
+    expensive between the load and the save."""
     data = load_json(path, default)
+    if default is not None and not isinstance(data, type(default)):
+        _UNREADABLE_PATHS.add(os.path.abspath(path))
     if os.path.abspath(path) in _UNREADABLE_PATHS:
         raise UnreadableStateFile(f"{path} exists but is unreadable; refusing to continue.")
     return data

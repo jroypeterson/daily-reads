@@ -35,7 +35,8 @@ import requests
 from project_data import (
     append_taste_evidence,
     evidence_id_for,
-    load_json,
+    load_json_strict,
+    UnreadableStateFile,
     load_taste_evidence,
     save_json,
 )
@@ -65,7 +66,7 @@ def _iso(dt: datetime) -> str:
 
 
 def load_state() -> dict:
-    state = load_json(STATE_PATH, {})
+    state = load_json_strict(STATE_PATH, {})
     return state if isinstance(state, dict) else {}
 
 
@@ -240,6 +241,9 @@ def main():
         )
     except ReadwiseError as exc:
         alarm(f"Readwise export failed — taste ingest skipped this run. {exc}")
+    except UnreadableStateFile as exc:
+        # Same contract as the failures above: alarm, change nothing, let the digest run.
+        alarm(f"Readwise taste ingest skipped, state file needs repair. {exc}")
 
 
 if __name__ == "__main__":

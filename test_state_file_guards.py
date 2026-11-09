@@ -15,6 +15,7 @@ import preference_learning
 import process_dropbox_exemplars
 import process_email_feedback
 import process_feedback
+import process_readwise_exemplars
 import process_taste
 import project_data
 import taste_sync
@@ -68,6 +69,53 @@ def test_strict_load_raises_on_unreadable_but_not_on_absent():
     Path("bad.json").write_bytes(b"{broken")
     with pytest.raises(UnreadableStateFile):
         load_json_strict("bad.json", [])
+
+
+@pytest.mark.parametrize("content, default", [("{}", []), ("[]", {})])
+def test_strict_load_refuses_the_wrong_top_level_type_and_blocks_the_save(content, default):
+    Path("state.json").write_text(content, encoding="utf-8")
+    with pytest.raises(UnreadableStateFile):
+        load_json_strict("state.json", default)
+    with pytest.raises(UnreadableStateFile):
+        save_json("state.json", default)
+
+
+def test_strict_load_accepts_the_right_type():
+    Path("state.json").write_text("[1]", encoding="utf-8")
+    assert load_json_strict("state.json", []) == [1]
+
+
+def test_preferences_are_not_rebuilt_from_evidence_of_the_wrong_shape():
+    Path(project_data.taste_evidence_path()).write_text("{}", encoding="utf-8")
+    prefs = Path(preference_learning.LEARNED_PREFERENCES_JSON_PATH)
+    prefs.write_text('{"topic_preferences": []}', encoding="utf-8")
+    before = prefs.read_bytes()
+    with pytest.raises(UnreadableStateFile):
+        preference_learning.update_learned_preferences()
+    assert prefs.read_bytes() == before
+
+
+@pytest.mark.parametrize("corrupt", ["readwise_state.json", "taste_evidence.json"])
+def test_a_corrupt_readwise_input_alarms_and_does_not_stop_the_digest(monkeypatch, corrupt):
+    path = Path(corrupt)
+    path.write_bytes(b"{broken")
+    alarms = []
+    monkeypatch.setattr(process_readwise_exemplars, "get_token", lambda: "t")
+    monkeypatch.setattr(process_readwise_exemplars, "fetch_export", lambda *a, **k: [])
+    monkeypatch.setattr(process_readwise_exemplars, "alarm", alarms.append)
+    process_readwise_exemplars.main()
+    assert len(alarms) == 1 and corrupt in alarms[0]
+    assert path.read_bytes() == b"{broken"
+
+
+def test_a_corrupt_readwise_cursor_stops_before_calling_readwise(monkeypatch):
+    Path("readwise_state.json").write_bytes(b"{broken")
+    fetched = []
+    monkeypatch.setattr(process_readwise_exemplars, "get_token", lambda: "t")
+    monkeypatch.setattr(process_readwise_exemplars, "fetch_export", lambda *a, **k: fetched.append(a) or [])
+    monkeypatch.setattr(process_readwise_exemplars, "alarm", lambda message: None)
+    process_readwise_exemplars.main()
+    assert fetched == []
 
 
 def test_append_taste_evidence_keeps_a_corrupt_store():
@@ -377,8 +425,71 @@ def test_real_git_a_commit_by_someone_else_is_never_pushed(git_clone):
     Path("other.txt").write_text("x", encoding="utf-8")
     git_clone.git("add", "other.txt")
     git_clone.git("commit", "-qm", "another session's work")
-    assert taste_sync.main() == 0
+    assert taste_sync.main() == taste_sync.EXIT_UNRELATED_COMMITS
     assert git_clone.git("rev-parse", "main", cwd=git_clone.origin) != git_clone.git("rev-parse", "HEAD")
+
+
+def _push_from_another_clone(repo, tmp_path, filename, content):
+    other = tmp_path / "ci"
+    subprocess.run(["git", "clone", "-q", str(repo.origin), str(other)], check=True, capture_output=True)
+    (other / filename).write_text(content, encoding="utf-8")
+    repo.git("add", filename, cwd=other)
+    repo.git("-c", "user.name=c", "-c", "user.email=c@c", "commit", "-qm", "Daily reads", cwd=other)
+    repo.git("push", "-q", "origin", "HEAD:main", cwd=other)
+
+
+def test_real_git_an_unrelated_commit_is_not_rebased(git_clone, tmp_path):
+    Path("other.txt").write_text("x", encoding="utf-8")
+    git_clone.git("add", "other.txt")
+    git_clone.git("commit", "-qm", "another session's work")
+    before = git_clone.git("rev-parse", "HEAD")
+    _push_from_another_clone(git_clone, tmp_path, "ci.txt", "y")
+    assert taste_sync.main() == taste_sync.EXIT_UNRELATED_COMMITS
+    assert git_clone.git("rev-parse", "HEAD") == before
+
+
+def test_real_git_our_subject_on_another_file_is_not_trusted(git_clone):
+    Path("secret.txt").write_text("x", encoding="utf-8")
+    git_clone.git("add", "secret.txt")
+    git_clone.git("commit", "-qm", taste_sync.COMMIT_MESSAGE)
+    assert taste_sync.main() == taste_sync.EXIT_UNRELATED_COMMITS
+    assert "secret.txt" not in git_clone.git("ls-tree", "--name-only", "main", cwd=git_clone.origin)
+
+
+def test_real_git_another_authors_edit_to_a_taste_file_is_not_pushed(git_clone):
+    Path("learned_preferences.md").write_text("edited by hand", encoding="utf-8")
+    git_clone.git("add", "learned_preferences.md")
+    git_clone.git("commit", "-qm", "manual preference edit")
+    before = git_clone.git("rev-parse", "main", cwd=git_clone.origin)
+    assert taste_sync.main() == taste_sync.EXIT_UNRELATED_COMMITS
+    assert git_clone.git("rev-parse", "main", cwd=git_clone.origin) == before
+
+
+def test_real_git_something_else_staged_stays_out_of_the_commit(git_clone):
+    Path("other.txt").write_text("x", encoding="utf-8")
+    git_clone.git("add", "other.txt")
+    Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
+    assert taste_sync.main() == 0
+    assert len(_origin_evidence(git_clone)) == 3
+    assert "other.txt" not in git_clone.git("ls-tree", "--name-only", "main", cwd=git_clone.origin)
+
+
+def test_real_git_our_unpushed_commit_survives_ci_touching_another_file(git_clone, tmp_path):
+    Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
+    git_clone.git("add", taste_sync.EVIDENCE_PATH)
+    git_clone.git("commit", "-qm", taste_sync.COMMIT_MESSAGE)
+    _push_from_another_clone(git_clone, tmp_path, "ci.txt", "y")
+    assert taste_sync.main() == 0
+    assert len(_origin_evidence(git_clone)) == 3
+
+
+def test_a_commit_made_during_ingestion_blocks_the_push(monkeypatch):
+    Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
+    calls = _fake_git(monkeypatch, HEAD)
+    answers = iter([False, True])
+    monkeypatch.setattr(taste_sync, "unrelated_commits_ahead", lambda: next(answers))
+    assert taste_sync.main() == taste_sync.EXIT_UNRELATED_COMMITS
+    assert "push" not in _verbs(calls)
 
 
 def test_real_git_an_unrelated_commit_below_our_own_blocks_the_push(git_clone):

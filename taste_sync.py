@@ -71,12 +71,26 @@ def _git_output(*args: str) -> str:
     return subprocess.run(["git", *args], capture_output=True).stdout.decode("utf-8", "replace").strip()
 
 
+def unrelated_commits_ahead() -> bool:
+    """Whether anything ahead of origin is not this job's own work. Both a rebase and a push
+    act on that whole range, so neither may run unless every commit in it is ours."""
+    subjects = _git_output("log", "--format=%s", "origin/main..HEAD").splitlines()
+    if not subjects:
+        return False
+    # Three dots: only what this side changed, not what CI has pushed since.
+    changed = _git_output("diff", "--name-only", "origin/main...HEAD").splitlines()
+    return set(subjects) != {COMMIT_MESSAGE} or not set(changed) <= set(TRACKED_PATHS)
+
+
 def main() -> int:
     # Sync with remote first so local taste ingestion stacks on top of the latest
     # GitHub Actions workflow output instead of forking history. Without this the
     # local 'taste ingestion' commits and the remote 'Daily reads' commits diverge
     # every day because they touch the same learned_preferences files.
     subprocess.run(["git", "fetch", "origin"], check=False)
+    if unrelated_commits_ahead():
+        print("REFUSING TO SYNC: unrelated local commits are ahead of origin/main.")
+        return EXIT_UNRELATED_COMMITS
     # No automatic conflict winner: during a rebase "ours" is the remote side, so a conflict
     # would silently drop local evidence whose source file is already archived.
     r = subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"])
@@ -97,20 +111,20 @@ def main() -> int:
         if reason:
             print(f"REFUSING TO COMMIT: {reason}. Nothing was staged or pushed.")
             return EXIT_EVIDENCE_LOSS
-        for command in (["add", *TRACKED_PATHS], ["commit", "-m", COMMIT_MESSAGE]):
+        # The commit names its paths so it cannot take anything else that happens to be staged.
+        for command in (["add", *TRACKED_PATHS], ["commit", "-m", COMMIT_MESSAGE, "--", *TRACKED_PATHS]):
             r = subprocess.run(["git", *command])
             if r.returncode != 0:
                 print(f"git {command[0]} failed with exit {r.returncode}; nothing was pushed.")
                 return r.returncode
 
-    # Also retries a commit whose push failed on an earlier run. A push publishes everything
-    # ahead of origin, so it runs only when every commit in that range is this job's own.
-    subjects = _git_output("log", "--format=%s", "origin/main..HEAD").splitlines()
-    if COMMIT_MESSAGE not in subjects:
-        return 0
-    if set(subjects) != {COMMIT_MESSAGE}:
+    # Also retries a commit whose push failed on an earlier run. Checked again because another
+    # session can commit while the ingestion steps run.
+    if unrelated_commits_ahead():
         print("REFUSING TO PUSH: unrelated local commits are ahead of origin/main.")
         return EXIT_UNRELATED_COMMITS
+    if not _git_output("log", "--format=%s", "origin/main..HEAD"):
+        return 0
     r = subprocess.run(["git", "push", "origin", "HEAD:main"])
     if r.returncode != 0:
         print(f"git push failed with exit {r.returncode}; it will be retried next run.")
