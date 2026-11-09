@@ -17,6 +17,7 @@ INGEST_STEPS = [
     "preference_learning.py",
 ]
 EXIT_EVIDENCE_LOSS = 3
+EXIT_UNRELATED_COMMITS = 4
 COMMIT_MESSAGE = "Local Dropbox taste ingestion"
 
 
@@ -70,20 +71,15 @@ def _git_output(*args: str) -> str:
     return subprocess.run(["git", *args], capture_output=True).stdout.decode("utf-8", "replace").strip()
 
 
-def own_commit_is_unpushed() -> bool:
-    """True when HEAD is this job's commit and origin does not have it yet. A
-    commit by anyone else is never pushed from here."""
-    ahead = _git_output("rev-list", "--count", "origin/main..HEAD")
-    return ahead not in ("", "0") and _git_output("log", "-1", "--format=%s") == COMMIT_MESSAGE
-
-
 def main() -> int:
     # Sync with remote first so local taste ingestion stacks on top of the latest
     # GitHub Actions workflow output instead of forking history. Without this the
     # local 'taste ingestion' commits and the remote 'Daily reads' commits diverge
     # every day because they touch the same learned_preferences files.
     subprocess.run(["git", "fetch", "origin"], check=False)
-    r = subprocess.run(["git", "pull", "--rebase", "--autostash", "-X", "ours", "origin", "main"])
+    # No automatic conflict winner: during a rebase "ours" is the remote side, so a conflict
+    # would silently drop local evidence whose source file is already archived.
+    r = subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"])
     if r.returncode != 0:
         print("git pull --rebase failed; aborting taste ingestion to avoid divergence")
         subprocess.run(["git", "rebase", "--abort"], check=False)
@@ -107,12 +103,18 @@ def main() -> int:
                 print(f"git {command[0]} failed with exit {r.returncode}; nothing was pushed.")
                 return r.returncode
 
-    # Also retries a commit whose push failed on an earlier run.
-    if own_commit_is_unpushed():
-        r = subprocess.run(["git", "push", "origin", "HEAD:main"])
-        if r.returncode != 0:
-            print(f"git push failed with exit {r.returncode}; it will be retried next run.")
-            return r.returncode
+    # Also retries a commit whose push failed on an earlier run. A push publishes everything
+    # ahead of origin, so it runs only when every commit in that range is this job's own.
+    subjects = _git_output("log", "--format=%s", "origin/main..HEAD").splitlines()
+    if COMMIT_MESSAGE not in subjects:
+        return 0
+    if set(subjects) != {COMMIT_MESSAGE}:
+        print("REFUSING TO PUSH: unrelated local commits are ahead of origin/main.")
+        return EXIT_UNRELATED_COMMITS
+    r = subprocess.run(["git", "push", "origin", "HEAD:main"])
+    if r.returncode != 0:
+        print(f"git push failed with exit {r.returncode}; it will be retried next run.")
+        return r.returncode
     return 0
 
 

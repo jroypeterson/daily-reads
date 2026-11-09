@@ -15,6 +15,7 @@ import preference_learning
 import process_dropbox_exemplars
 import process_email_feedback
 import process_feedback
+import process_taste
 import project_data
 import taste_sync
 from project_data import UnreadableStateFile, load_json, load_json_strict, save_json
@@ -145,6 +146,76 @@ def test_an_unreadable_ledger_skips_the_reader_push_and_marks_the_run_partial(mo
     assert "Reader push skipped" in daily_main._RUN_STATE["partial_reasons"][0]
 
 
+@pytest.mark.parametrize(
+    "content",
+    ["[]", '{"delivered": [], "reader_pushed": []}', '{"delivered": {}, "reader_pushed": {}}'],
+)
+def test_a_wrong_shaped_ledger_blocks_reader_and_is_not_replaced(monkeypatch, content):
+    monkeypatch.setitem(daily_main._RUN_STATE, "partial_reasons", [])
+    pushed = []
+    monkeypatch.setattr(daily_main, "deliver_reader", lambda *a, **k: pushed.append(a))
+    path = Path(project_data.DELIVERED_STATE_PATH)
+    path.write_text(content, encoding="utf-8")
+    state = project_data.load_delivered_state()
+    assert daily_main._deliver_reader_if_ledger_readable([], [], state, "2026-11-09") is False
+    assert pushed == []
+    with pytest.raises(UnreadableStateFile):
+        project_data.save_delivered_state(state)
+    assert path.read_text(encoding="utf-8") == content
+
+
+@pytest.mark.parametrize("content", [None, '{"delivered": []}', '{"delivered": [], "reader_pushed": {}}'])
+def test_an_absent_or_legacy_ledger_is_usable(content):
+    if content is not None:
+        Path(project_data.DELIVERED_STATE_PATH).write_text(content, encoding="utf-8")
+    state = project_data.load_delivered_state()
+    assert not project_data.state_file_unreadable(project_data.DELIVERED_STATE_PATH)
+    project_data.save_delivered_state(state)
+
+
+def test_a_corrupt_evidence_store_closes_no_taste_issue(monkeypatch):
+    Path(project_data.taste_evidence_path()).write_bytes(b"{broken")
+    issue = {"number": 8, "title": "Taste: x", "body": "https://example.com/a"}
+    closed = []
+    monkeypatch.setattr(
+        process_taste.requests,
+        "get",
+        lambda *a, **k: SimpleNamespace(raise_for_status=lambda: None, json=lambda: [issue]),
+    )
+    monkeypatch.setattr(process_taste.requests, "patch", lambda *a, **k: closed.append(a))
+    with pytest.raises(UnreadableStateFile):
+        process_taste.harvest_issues({})
+    assert closed == []
+
+
+def test_a_corrupt_evidence_store_closes_no_feedback_issue(monkeypatch):
+    Path("feedback_log.json").write_text("[]", encoding="utf-8")
+    Path(project_data.taste_evidence_path()).write_bytes(b"{broken")
+    issue = {"number": 7, "title": "Feedback: 2026-11-01 slot1 score3", "body": ""}
+    closed = []
+    monkeypatch.setenv("GITHUB_TOKEN", "x")
+    monkeypatch.setattr(
+        process_feedback.requests,
+        "get",
+        lambda *a, **k: SimpleNamespace(raise_for_status=lambda: None, json=lambda: [issue]),
+    )
+    monkeypatch.setattr(process_feedback.requests, "patch", lambda *a, **k: closed.append(a))
+    with pytest.raises(UnreadableStateFile):
+        process_feedback.main()
+    assert closed == []
+    assert Path("feedback_log.json").read_text(encoding="utf-8") == "[]"
+
+
+def test_a_corrupt_criteria_state_leaves_the_proposal_file_alone(monkeypatch):
+    monkeypatch.setitem(daily_main._RUN_STATE, "partial_reasons", [])
+    Path(daily_main.CRITERIA_STATE_PATH).write_bytes(b"{broken")
+    proposal = Path(daily_main.PROPOSED_CRITERIA_PATH)
+    proposal.write_text("the earlier proposal", encoding="utf-8")
+    daily_main.rewrite_criteria([])
+    assert proposal.read_text(encoding="utf-8") == "the earlier proposal"
+    assert "Criteria rewrite skipped" in daily_main._RUN_STATE["partial_reasons"][0]
+
+
 def test_a_readable_ledger_pushes_to_reader(monkeypatch):
     monkeypatch.setitem(daily_main._RUN_STATE, "partial_reasons", [])
     pushed = []
@@ -215,8 +286,6 @@ def _fake_git(monkeypatch, head_text, failing=()):
             return SimpleNamespace(returncode=0, stdout=head_text.encode())
         if cmd[:2] == ["git", "diff"]:
             return SimpleNamespace(returncode=1, stdout=b"")
-        if cmd[:2] == ["git", "rev-list"]:
-            return SimpleNamespace(returncode=0, stdout=b"1\n")
         if cmd[:2] == ["git", "log"]:
             return SimpleNamespace(returncode=0, stdout=taste_sync.COMMIT_MESSAGE.encode())
         if cmd[0] == "git" and cmd[1] in failing:
@@ -310,6 +379,36 @@ def test_real_git_a_commit_by_someone_else_is_never_pushed(git_clone):
     git_clone.git("commit", "-qm", "another session's work")
     assert taste_sync.main() == 0
     assert git_clone.git("rev-parse", "main", cwd=git_clone.origin) != git_clone.git("rev-parse", "HEAD")
+
+
+def test_real_git_an_unrelated_commit_below_our_own_blocks_the_push(git_clone):
+    Path("other.txt").write_text("x", encoding="utf-8")
+    git_clone.git("add", "other.txt")
+    git_clone.git("commit", "-qm", "another session's work")
+    Path(taste_sync.EVIDENCE_PATH).write_text(GROWN, encoding="utf-8")
+    before = git_clone.git("rev-parse", "main", cwd=git_clone.origin)
+    assert taste_sync.main() == taste_sync.EXIT_UNRELATED_COMMITS
+    assert git_clone.git("rev-parse", "main", cwd=git_clone.origin) == before
+
+
+def test_real_git_a_conflict_with_ci_stops_the_job_and_keeps_both_sides(git_clone, tmp_path):
+    local = json.dumps([{"id": "a"}, {"id": "b"}, {"id": "local"}])
+    ci = json.dumps([{"id": "a"}, {"id": "b"}, {"id": "ci"}])
+    Path(taste_sync.EVIDENCE_PATH).write_text(local, encoding="utf-8")
+    git_clone.git("add", taste_sync.EVIDENCE_PATH)
+    git_clone.git("commit", "-qm", taste_sync.COMMIT_MESSAGE)
+
+    other = tmp_path / "ci"
+    subprocess.run(["git", "clone", "-q", str(git_clone.origin), str(other)], check=True, capture_output=True)
+    (other / taste_sync.EVIDENCE_PATH).write_text(ci, encoding="utf-8")
+    git_clone.git("add", taste_sync.EVIDENCE_PATH, cwd=other)
+    git_clone.git("-c", "user.name=c", "-c", "user.email=c@c", "commit", "-qm", "Daily reads", cwd=other)
+    git_clone.git("push", "-q", "origin", "HEAD:main", cwd=other)
+
+    assert taste_sync.main() != 0
+    ids = {r["id"] for r in json.loads(git_clone.git("show", f"HEAD:{taste_sync.EVIDENCE_PATH}"))}
+    assert "local" in ids
+    assert {r["id"] for r in _origin_evidence(git_clone)} == {"a", "b", "ci"}
 
 
 def test_real_git_a_shrink_is_refused_and_origin_is_untouched(git_clone):

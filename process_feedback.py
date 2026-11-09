@@ -7,7 +7,7 @@ import sys
 
 import requests
 from datetime import datetime, timezone
-from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json_strict, save_json
+from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json_strict, load_taste_evidence, save_json
 
 REPO = "jroypeterson/daily-reads"
 API = "https://api.github.com"
@@ -41,6 +41,7 @@ def main():
 
     # Strict: the loop below closes each issue before the save.
     feedback = load_json_strict("feedback_log.json", [])
+    load_taste_evidence(strict=True)  # the taste bridge after the loop must not be able to refuse
     existing = {(e["date"], e["slot"], e.get("source", "")) for e in feedback}
     processed = 0
 

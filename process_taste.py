@@ -32,6 +32,7 @@ def harvest_issues(headers):
         print("No taste issues to process.")
         return 0
 
+    load_taste_evidence(strict=True)  # the loop closes issues before the append can refuse
     new_records = []
 
     for issue in issues:

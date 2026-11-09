@@ -2607,6 +2607,12 @@ def rewrite_criteria(feedback: list[dict]):
     """Generate a proposed criteria update and notify for review."""
     section("CRITERIA REWRITE")
     state = load_criteria_state()
+    if state_file_unreadable(CRITERIA_STATE_PATH):
+        # Stop here: the proposal file is written before the state save could refuse.
+        message = f"Criteria rewrite skipped: {CRITERIA_STATE_PATH} is unreadable"
+        print(f"WARNING: {message}")
+        _RUN_STATE["partial_reasons"].append(message)
+        return
     pending = state.get("pending")
     if pending and pending.get("status") == "pending":
         print(f"Pending criteria proposal already exists: {pending.get('proposal_id')}")

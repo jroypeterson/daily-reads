@@ -108,6 +108,14 @@ def load_delivered_state(path: str = DELIVERED_STATE_PATH) -> dict:
     lost had it been added to the writer alone.
     """
     data = load_json(path, {})
+    wrong_shape = not isinstance(data, dict) or (
+        not isinstance(data.get("delivered", []), list)
+        or not isinstance(data.get("reader_pushed", {}), dict)
+    )
+    if wrong_shape:
+        # Parseable but not a ledger: as unusable for dedupe, and as unsafe to replace.
+        print(f"WARNING: {path} is not a delivery ledger; it will not be overwritten this run.")
+        _UNREADABLE_PATHS.add(os.path.abspath(path))
     if not isinstance(data, dict):
         return {"delivered": [], "reader_pushed": {}}
     entries = data.get("delivered")
