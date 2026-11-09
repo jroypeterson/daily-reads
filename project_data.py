@@ -7,15 +7,48 @@ from datetime import date, timedelta
 from urllib.parse import urlsplit, urlunsplit
 
 
+class UnreadableStateFile(RuntimeError):
+    """A state file exists but cannot be parsed, so it must not be rewritten."""
+
+
+# ABSENT and UNREADABLE are different facts. An absent file is a first run and
+# the default is right. An unreadable one still holds whatever it held, and a
+# caller that took the default and saved would replace it with nothing: that is
+# how taste_evidence.json went from 34 KB to `[]` on 2026-10-19 (#685). Readers
+# may keep degrading to the default; save_json refuses the path for the rest of
+# this process, so every writer is covered without having to opt in.
+_UNREADABLE_PATHS: set[str] = set()
+
+
 def load_json(path, default=None):
+    key = os.path.abspath(path)
+    fallback = default if default is not None else []
     try:
         with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default if default is not None else []
+            data = json.load(f)
+    except FileNotFoundError:
+        _UNREADABLE_PATHS.discard(key)
+        return fallback
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        _UNREADABLE_PATHS.add(key)
+        print(f"WARNING: {path} exists but is unreadable ({exc}); it will not be overwritten this run.")
+        return fallback
+    _UNREADABLE_PATHS.discard(key)
+    return data
+
+
+def load_json_strict(path, default=None):
+    """Like load_json, but raise on an unreadable file. For callers that do
+    something irreversible or expensive between the load and the save."""
+    data = load_json(path, default)
+    if os.path.abspath(path) in _UNREADABLE_PATHS:
+        raise UnreadableStateFile(f"{path} exists but is unreadable; refusing to continue.")
+    return data
 
 
 def save_json(path, data):
+    if os.path.abspath(path) in _UNREADABLE_PATHS:
+        raise UnreadableStateFile(f"{path} was unreadable when loaded; refusing to overwrite it.")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
@@ -210,13 +243,14 @@ def evidence_id_for(seed: str) -> str:
     return "ev_" + hashlib.sha1(seed.encode("utf-8")).hexdigest()[:16]
 
 
-def load_taste_evidence() -> list[dict]:
-    return load_json(taste_evidence_path(), [])
+def load_taste_evidence(strict: bool = False) -> list[dict]:
+    loader = load_json_strict if strict else load_json
+    return loader(taste_evidence_path(), [])
 
 
 def append_taste_evidence(records: list[dict]) -> int:
     """Append new evidence records, deduplicating by id. Returns count of new records added."""
-    evidence = load_taste_evidence()
+    evidence = load_taste_evidence(strict=True)
     existing_ids = {entry.get("id") for entry in evidence if isinstance(entry, dict)}
     added = 0
     for record in records:

@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from project_data import load_json, load_taste_evidence, save_json, taste_evidence_path
+from project_data import load_json, load_json_strict, load_taste_evidence, save_json, taste_evidence_path
 
 LEARNED_PREFERENCES_JSON_PATH = "learned_preferences.json"
 LEARNED_PREFERENCES_MD_PATH = "learned_preferences.md"
@@ -417,8 +417,10 @@ def _notify_synthesis(changes: list[str], preferences: dict):
 
 def update_learned_preferences():
     """Main entry point: decide between fast update and full synthesis, then write artifacts."""
-    evidence = load_taste_evidence()
-    current = load_json(LEARNED_PREFERENCES_JSON_PATH, {})
+    # Strict: preferences derived from an evidence list that failed to load would
+    # overwrite good ones, and that write is not to the file that was unreadable.
+    evidence = load_taste_evidence(strict=True)
+    current = load_json_strict(LEARNED_PREFERENCES_JSON_PATH, {})
     did_synthesize = False
 
     if _needs_synthesis(evidence, current) and os.environ.get("ANTHROPIC_API_KEY"):

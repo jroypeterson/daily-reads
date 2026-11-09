@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from gmail_reader import clean_url, is_probable_article_url
-from project_data import evidence_id_for, load_json, save_json, taste_evidence_path
+from project_data import evidence_id_for, load_json_strict, save_json, taste_evidence_path
 
 EXEMPLAR_PATH = taste_evidence_path()
 DEFAULT_DROPBOX_TASTE_DIR = Path(r"C:\Users\jroyp\Dropbox\Claude Folder\daily-reads-taste-samples")
@@ -149,7 +149,8 @@ def main():
         print(f"Configured Dropbox exemplar directory does not exist: {root}")
         return
 
-    exemplars = load_json(EXEMPLAR_PATH, [])
+    # Strict: the loop below moves source files into the archive before the save.
+    exemplars = load_json_strict(EXEMPLAR_PATH, [])
     existing_ids = {entry.get("id") for entry in exemplars if isinstance(entry, dict)}
     processed = 0
 

@@ -15,7 +15,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 from gmail_reader import get_gmail_service
-from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for
+from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json, save_json
 
 FEEDBACK_RE = re.compile(
     r"^\s*(?:slot\s*)?(\d{1,2})[ \t]*[:\-]?[ \t]*(strong|great|good|fine|okay|ok|miss|bad|not useful|irrelevant|boring|1|2|3)(?:[ \t]*[,\-]?[ \t]*([^\n]+))?\s*$",
@@ -38,19 +38,6 @@ SCORE_MAP = {
     "boring": 1,
     "1": 1,
 }
-
-
-def load_json(path, default=None):
-    try:
-        with open(path, "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default if default is not None else []
-
-
-def save_json(path, data):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
 
 
 def extract_reply_text(payload):

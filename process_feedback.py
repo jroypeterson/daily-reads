@@ -7,24 +7,11 @@ import sys
 
 import requests
 from datetime import datetime, timezone
-from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for
+from project_data import append_taste_evidence, enrich_feedback_entry, evidence_id_for, load_json, save_json
 
 REPO = "jroypeterson/daily-reads"
 API = "https://api.github.com"
 TITLE_RE = re.compile(r"Feedback:\s*(\d{4}-\d{2}-\d{2})\s+slot(\d+)\s+score(\d+)", re.IGNORECASE)
-
-
-def load_json(path, default=None):
-    try:
-        with open(path, "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default if default is not None else []
-
-
-def save_json(path, data):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
 
 
 def main():

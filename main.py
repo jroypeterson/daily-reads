@@ -30,6 +30,7 @@ from project_data import (
     save_delivered_state,
     save_json,
     triage_artifact_path,
+    UnreadableStateFile,
 )
 from sources import SOURCES, get_always_read_names, get_journal_source_names
 from health_report import Heartbeat, post_health_to_slack
@@ -76,6 +77,18 @@ def slack_mailto_feedback_url(date: str, slot: int, score: int) -> str:
         }
     )
     return f"mailto:jroypeterson@gmail.com?{params}"
+
+
+def _persist_or_flag(save, *args) -> bool:
+    """Run a state save. A refused save must not cost the day's digest, so it
+    marks the run partial instead of raising. Returns whether the save ran."""
+    try:
+        save(*args)
+    except UnreadableStateFile as exc:
+        print(f"WARNING: {exc}")
+        _RUN_STATE["partial_reasons"].append(f"State not saved: {exc}")
+        return False
+    return True
 
 
 def load_criteria_state() -> dict:
@@ -966,8 +979,8 @@ def validate_delivery_urls(
         # A count you cannot act on is not an observation.
         "dropped_items": dropped_detail,
     })
-    save_json(log_path, log)
-    print(f"Logged validation stats to {log_path}")
+    if _persist_or_flag(save_json, log_path, log):
+        print(f"Logged validation stats to {log_path}")
 
     return articles, triage_queue, always_read, substack_items
 
@@ -2683,7 +2696,8 @@ The summary should be concise and describe the highest-impact changes."""
         "diff_lines": diff_lines,
         "modification_note": "",
     }
-    save_criteria_state(state)
+    if not _persist_or_flag(save_criteria_state, state):
+        return
     print(f"Proposed criteria update saved to {PROPOSED_CRITERIA_PATH}")
     notify_criteria_update(state["pending"])
 
@@ -2990,7 +3004,7 @@ def main():
         # exclusion key exactly even if Claude rewrote the url/source.
         delivered_ids = delivered_candidate_ids(articles, structured_gmail + structured_tier2)
         record_delivered(delivered_state, delivered_ids, today)
-        save_delivered_state(delivered_state)
+        _persist_or_flag(save_delivered_state, delivered_state)
 
         print(f"\n{'='*60}")
         print(f"  ✅ Daily Reads complete — {len(articles)} articles delivered")
