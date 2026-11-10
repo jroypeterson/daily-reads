@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "809f508efa5cf323",
-      "date": "2026-10-26"
-    },
-    {
-      "id": "3a30b225011317b3",
-      "date": "2026-10-26"
-    },
-    {
       "id": "5006fc296591fb0d",
       "date": "2026-10-27"
     },
@@ -131,6 +123,18 @@
     {
       "id": "c8d9eb5c723dc0c3",
       "date": "2026-11-09"
+    },
+    {
+      "id": "045a15a0ff4b14c3",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ee712542d9dca0ff",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "f128fedefed3e1f0",
+      "date": "2026-11-10"
     }
   ],
   "reader_pushed": {
@@ -340,6 +344,10 @@
     "https://www.anthropic.com/claude-fable-and-mythos-5-2": "2026-11-09",
     "https://www.bloomberg.com/opinion/newsletters/2026-11-09/is-the-nvidia-affair-securities-fraud": "2026-11-09",
     "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQxNTA4NTUsImlhdCI6MTc5NDI0ODUwMiwiZXhwIjoxNzk2ODQwNTAyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.4BPx1xhad6SFwTOipw9wrYV_oI95Bui7jMlYSTFq84E": "2026-11-09",
-    "https://thetranscript.substack.com/p/11-09-2026-blue-wave?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQxMzkxODYsImlhdCI6MTc5NDIyOTgwMCwiZXhwIjoxNzk2ODIxODAwLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.CBUoCYXXl9EyxlobN0tN-eS0THOXNtscO8uAGUFk8kk": "2026-11-09"
+    "https://thetranscript.substack.com/p/11-09-2026-blue-wave?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQxMzkxODYsImlhdCI6MTc5NDIyOTgwMCwiZXhwIjoxNzk2ODIxODAwLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.CBUoCYXXl9EyxlobN0tN-eS0THOXNtscO8uAGUFk8kk": "2026-11-09",
+    "https://www.biopharmadive.com/news/beam-sickle-cell-base-editing-risto-cel-results/874242/": "2026-11-10",
+    "https://deepmind.google/blog/introducing-alphaproof-code/": "2026-11-10",
+    "https://thetranscript.substack.com/p/catalyst-watch-893?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQyODI5NjYsImlhdCI6MTc5NDMzNjM0OCwiZXhwIjoxNzk2OTI4MzQ4LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.RjJwWJay6R-ZhCuS5jH59hS2OsbMLqb20wG1Qcyj6hw": "2026-11-10",
+    "https://mbideepdives.substack.com/p/constellation-software-3q26-organic?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQyMTc3MzUsImlhdCI6MTc5NDMyOTk1NSwiZXhwIjoxNzk2OTIxOTU1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.DOqX5N8CSW34DLB8vBMgxAU0OY1-nRgCr4VekGaWi5U": "2026-11-10"
   }
 }

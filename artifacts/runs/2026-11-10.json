@@ -1,0 +1,67 @@
+{
+  "run_date": "2026-11-10",
+  "generated_at": "2026-11-10T19:16:55Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "02e24676ebcccd07",
+      "headline": "Beam Therapeutics Announces Positive Topline Pivotal Data from BEACON Phase 1/2 Trial of Risto-cel in Patients with Sickle Cell Disease",
+      "source": "BioPharma Dive / Beam Therapeutics (via BioSpace)",
+      "url": "https://www.biopharmadive.com/news/beam-sickle-cell-base-editing-risto-cel-results/874242/",
+      "slot": 1,
+      "summary": "Beam Therapeutics announced that risto-cel met its primary efficacy endpoint in the BEACON Phase 1/2 pivotal trial, eliminating severe vaso-occlusive crises for at least 12 consecutive months in sickle cell disease patients, while also meeting all primary safety endpoints. The result marks the first pivotal success for a base-editing therapy and positions Beam to submit a BLA to the FDA as early as year-end 2026. Additional trial data are expected to be presented at the ASH Annual Meeting in December 2026, creating a near-term catalyst sequence.",
+      "why_it_matters": "BEAM sits at a historic regulatory inflection point \u2014 a successful BLA submission would be the first ever for base-editing technology, with the December ASH presentation and potential 2027 FDA approval acting as sequential re-rating catalysts for both the stock and the broader gene-editing sector.",
+      "signal_tags": [
+        "ticker_match:BEAM",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ee712542d9dca0ff",
+      "headline": "Anthropic vs Meta: Room to Be Wrong",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+      "slot": 2,
+      "summary": "MBI Deep Dives frames the Anthropic IPO (expected at ~$1\u20131.5 trillion) against Meta's comparable enterprise value by decomposing what each company's 'core' business is worth versus how much valuation rides on speculative bets \u2014 MSL/Muse for Meta, first-party products for Anthropic. The piece quantifies that ~60% of Meta's 2026 capex and two-thirds of 2027 consensus capex flows to unproven AI products, while Anthropic's compute share serving paying customers fell from 44% to ~25% as it bet research investment would compound faster than near-term revenue. A key data point is METR's independent assessment finding a 1.9x acceleration in Anthropic's capability progress, ~80% attributable to AI-driven R&D, alongside a ~60% drop in benchmark progress per R&D dollar \u2014 raising real questions about the margin for error at current IPO pricing.",
+      "why_it_matters": "With the Anthropic IPO roadshow live, this practitioner-level framework for stress-testing both bulls and bears on a $1\u20131.5 trillion valuation \u2014 grounded in actual S-1 data, compute economics, and competitive positioning against open-source Meta LLaMA \u2014 gives readers the analytical scaffolding to size, avoid, or short the deal intelligently.",
+      "signal_tags": [
+        "ticker_match:META",
+        "high_priority_source",
+        "analytical_depth",
+        "actionability",
+        "novelty"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "f2d6d99ba252bf98",
+      "headline": "AlphaProof Code",
+      "source": "Hacker News / Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "slot": 3,
+      "summary": "Google DeepMind's AlphaProof Code is a multi-LLM agentic framework that formally verified the security properties of Signal's cryptographic protocol at the machine-code level \u2014 generating over 6 million lines of Lean proof in four weeks, a task historically requiring years of expert effort. The system used Gemini Carbon agents to prove forward secrecy properties hold in the actual compiled implementation, not just the protocol design, with human review focused only on the 1% of code the agents flagged. DeepMind open-sourced the verification artifacts and suggests the approach is extensible to medical device firmware, financial systems, and critical infrastructure.",
+      "why_it_matters": "AlphaProof Code demonstrates that AI agents can now perform high-assurance software verification at production scale \u2014 a capability with direct implications for data infrastructure security, healthcare software compliance, and financial systems, all areas of strong reader interest and potential competitive moat for enterprises that adopt it early.",
+      "signal_tags": [
+        "novelty",
+        "actionability",
+        "high_hn_score:485",
+        "ai_impact"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
