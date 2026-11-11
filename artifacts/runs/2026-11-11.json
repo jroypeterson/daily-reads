@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-11-11",
+  "generated_at": "2026-11-11T19:14:26Z",
+  "counts": {
+    "gmail_items": 143,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "cd5888576a9c7ec9",
+      "headline": "Hospital Stocks Are Feeling Chipper",
+      "source": "WSJ Newsletters (Markets AM)",
+      "url": "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=djemMarketsAM",
+      "slot": 2,
+      "summary": "Hospital and managed care stocks rallied sharply following a Democratic blue wave result, as investors repriced the risk of Medicaid cuts and factored in higher probability of ACA subsidy extensions. The piece frames the sector rotation in the context of the new political backdrop and what 2027 policy expectations now look like for coverage-sensitive names. It offers a market-level read on how healthcare policy outcomes are being translated into near-term equity moves.",
+      "why_it_matters": "For investors holding hospital, managed care, or benefits names, understanding the market's post-election policy repricing is essential for gauging whether the rally is fully priced or if further upside exists as 2027 legislative timelines come into focus.",
+      "signal_tags": [
+        "healthcare_policy",
+        "catalyst_proximity",
+        "sector_rotation",
+        "regulatory_affairs",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "ee712542d9dca0ff",
+      "headline": "Anthropic vs Meta: Room to Be Wrong",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+      "slot": 3,
+      "summary": "MBI Deep Dives stress-tests the bull and bear cases for Anthropic's ~$1\u20131.5T IPO valuation against Meta's comparable enterprise value, decomposing each company into a core business and an AI bet, and quantifying how much of each company's capex/opex is riding on products that haven't yet nailed their economics. The piece incorporates original estimates on Anthropic's compute allocation (share serving paying customers fell from 44% to ~25% despite demand exceeding supply), the METR external assessment showing a 1.9x acceleration in AI R&D productivity at Anthropic, and a framework for where investors have 'room to be wrong' on both sides. It concludes with a nuanced take on the open-source vs. closed model strategic divergence and what each path implies for long-run moat durability.",
+      "why_it_matters": "With Anthropic's IPO roadshow live and valuation anchoring happening in real time, this practitioner-grade comparative framework gives readers the analytical scaffolding to form a differentiated view on whether the AI frontier lab model or Meta's open-source infrastructure play offers better risk-adjusted upside at comparable valuations.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:META",
+        "catalyst_proximity",
+        "ai_impact",
+        "competitive_moat_analysis",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}

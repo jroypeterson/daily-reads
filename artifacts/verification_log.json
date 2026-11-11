@@ -15109,5 +15109,113 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a thin aggregation of brief executive quotes with minimal analytical depth \u2014 the substantive sections are paywalled, leaving only a surface-level bullet-point summary that doesn't meet the 'analytical depth' and 'investment-relevant insights' standards central to this reader's taste profile."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "New memo: A layman thinks about AI",
+    "source": "Howard Marks memos (Brookfield)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin promotional teaser for a Howard Marks memo with virtually no substantive content \u2014 it lists 11 questions he addresses but answers none of them, making it impossible to evaluate depth or investment insight."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is substantive and analytically deep but belongs squarely in the Tech/AI slot (Slot 3), not Healthcare/Biotech \u2014 it is a valuation and capital allocation comparison of Anthropic vs. Meta with no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "PepGen shares rise 93% on 'best-in-class' DM1 results",
+    "source": "BioSpace / BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/pepgen-myotonic-dystrophy-dm1-drug-results-freedom/874249/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief reporting a single-day stock move on early Phase 1/2 data with minimal analytical depth \u2014 it lacks the competitive landscape detail, data specifics, and clinical context needed to clear the reader's bar for investment-relevant insight, and the truncated full text confirms the article is largely a summary with no deeper diligence."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Hospital Stocks Are Feeling Chipper",
+    "source": "WSJ Newsletters (Markets AM)",
+    "url": "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a thin markets newsletter item covering a sector rally driven by political news \u2014 it lacks the analytical depth, ticker-specific diligence, or structural insight the reader profile demands, and reads as a generic price-movement recap rather than substantive healthcare investment analysis."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "[scuttleslops] FICO, PAYC, ABNB, TREX, Anthropic",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Scuttleblurb 'slops' digest covering FICO, Paycom, Airbnb, Trex, and Anthropic \u2014 none of which are healthcare/biotech topics, so it does not fit Slot 1."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "MDCalc launches a 'rumble strip' for doctors using generative AI tools",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is about a health tech AI safety product (CrossCover by MDCalc), which is more of a Tech/AI story than a traditional Healthcare/Biotech slot article \u2014 it lacks FDA decisions, clinical trial data, M&A, or pipeline news \u2014 and the full article text is truncated/unavailable beyond navigation boilerplate, making it impossible to verify substantive depth."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Constellation Software 3Q'26: Organic Growth Recovers, but Still Below Its Old Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-3q26-organic",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a deep, substantive analysis of Constellation Software's quarterly results, but it belongs in Slot 2 (Finance/Markets) or Slot 4 (Wildcard) as a serial acquirer / compounding business thesis \u2014 it has no meaningful connection to Slot 1's healthcare/biopharma scope (FDA decisions, clinical trials, biopharma M&A, pipeline news), despite CSU having a US healthcare software segment."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+    "source": "Hacker News / Pietro Miotti",
+    "url": "https://pietromiotti.com/latest/maya-site/?maya",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This article is a personal blog-style narrative about AI agents finding an archaeological site \u2014 it has no relevance to healthcare/biotech (Slot 1), and while it has some tech/AI appeal, it is a lightweight anecdote rather than the analytical depth the reader profile demands, and it was later revealed to be a 'rediscovery' of an already-mapped site."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Hospital Stocks Are Feeling Chipper",
+    "source": "WSJ Newsletters (Markets AM)",
+    "url": "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=djemMarketsAM",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The article covers a clear, actionable sector rotation catalyst \u2014 post-midterm Medicaid/ACA policy repricing \u2014 with direct implications for hospital and managed care positioning, fitting Slot 2's healthcare-adjacent finance priority."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "New memo: A layman thinks about AI",
+    "source": "Howard Marks memos (Brookfield)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is essentially a promotional blurb with no substantive content \u2014 it describes Marks's memo in vague terms without conveying any of the 11 questions, frameworks, or actual arguments, making it too thin to evaluate or summarize meaningfully."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, analytically rigorous deep dive from MBI Deep Dives that dissects the valuation frameworks for both Anthropic and Meta's AI bets with original estimates, proprietary data parsing, and clear investment-relevant takeaways \u2014 perfectly matching the Tech/AI slot and the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant insights."
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+    "source": "Hacker News / Pietro Miotti",
+    "url": "https://pietromiotti.com/latest/maya-site/?maya",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a compelling personal narrative and a good proof-of-concept for agentic AI on scientific data, but the update reveals the site had already been mapped (a significant credibility deflation), and the piece ultimately lacks the analytical depth, investment framing, or cross-domain insight the reader expects \u2014 it reads more as a viral hobby project diary than a substantive wildcard with strategic implications."
   }
 ]
