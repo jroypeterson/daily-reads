@@ -15217,5 +15217,77 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a compelling personal narrative and a good proof-of-concept for agentic AI on scientific data, but the update reveals the site had already been mapped (a significant credibility deflation), and the piece ultimately lacks the analytical depth, investment framing, or cross-domain insight the reader expects \u2014 it reads more as a viral hobby project diary than a substantive wildcard with strategic implications."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Money Stuff: Nvidia's Board Had to Do Something",
+    "source": "Bloomberg (Matt Levine)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This article is about Nvidia corporate governance and Jensen Huang's ouster \u2014 it belongs to Finance/Markets or Tech/AI, not Healthcare/Biotech, and has zero healthcare relevance."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "STAT+: New documents raise more questions about Medicare's AI prior-authorization experiment",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled (STAT+) and the full text is not available \u2014 the content truncates after navigation menus with no substantive article body, making depth and accuracy impossible to confirm."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "New memo: A layman thinks about AI",
+    "source": "Howard Marks / Oaktree (via Brookfield)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is essentially a marketing teaser/blurb for the Howard Marks memo with no actual substantive content \u2014 it describes the memo's existence and lists vague topics but contains no analysis, frameworks, or insights from the memo itself, making it too thin to evaluate or select."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Blackstone bets $1.5B on Pfizer's obesity drug (berobenatide)",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has real substance covering a structurally novel $1.5B royalty/milestone financing deal between Blackstone and Pfizer for berobenatide's Phase 3 program, with clear investment implications for GLP-1 competitive dynamics and private capital's role in late-stage biopharma funding."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Money Stuff: Nvidia's Board Had to Do Something",
+    "source": "Bloomberg (Matt Levine)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Matt Levine's Money Stuff provides analytically deep coverage of NVDA corporate governance mechanics \u2014 board liability, fiduciary duty in founder-led companies, and the dual-scandal context \u2014 which aligns precisely with the reader's strong preferences for corporate governance, analytical depth, and investment-relevant insights on a core AI infrastructure ticker."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deeply analytical, original valuation framework piece from MBI Deep Dives that stress-tests bull/bear cases for Anthropic vs Meta at comparable ~$1.5T valuations, with granular data on compute allocation, R&D efficiency trends, and AI self-acceleration metrics \u2014 exactly the kind of investment-relevant, analytical-depth content the reader profile rewards."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Payers regain footing in Q3 as for-profit health system margins slip",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/payers-regain-footing-in-q3-as-for-profit-health-system-margins-slip/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is a thin summary scorecard with almost no analytical depth \u2014 it lists directional results (margins up/down, guidance raised/cut) without providing actual margin figures, root-cause analysis, or forward-looking insight into the 2027 rate negotiation dynamics promised by the shortlist summary."
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "Bon Secours Mercy Health bumps up offer for majority stake in Surgery Partners to $6B valuation",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/providers/bon-secours-mercy-health-acquire-majority-stake-surgery-partners",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a solid M&A news article that belongs in Slot 1 (Healthcare/Biopharma) given the SGRY ticker catalyst, but it lacks the analytical depth, cross-domain thinking, or 'would I forward this?' quality required for the Wildcard slot, and the reader profile explicitly avoids short-term trading focus while preferring deep structural insight over deal news summaries."
   }
 ]

@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "0fda405b25b32bf6",
-      "date": "2026-10-28"
-    },
-    {
       "id": "e1e911377a9a3918",
       "date": "2026-10-29"
     },
@@ -135,6 +131,14 @@
     {
       "id": "41bd68d449aa4167",
       "date": "2026-11-11"
+    },
+    {
+      "id": "5fccd8bd2ebb8b74",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "e702ba0dc0041d22",
+      "date": "2026-11-12"
     }
   ],
   "reader_pushed": {
@@ -351,6 +355,9 @@
     "https://mbideepdives.substack.com/p/constellation-software-3q26-organic?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQyMTc3MzUsImlhdCI6MTc5NDMyOTk1NSwiZXhwIjoxNzk2OTIxOTU1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.DOqX5N8CSW34DLB8vBMgxAU0OY1-nRgCr4VekGaWi5U": "2026-11-10",
     "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=djemMarketsAM": "2026-11-11",
     "https://mbideepdives.substack.com/p/doordashs-fba-moment?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQzNjQwMDYsImlhdCI6MTc5NDQxNjY2MSwiZXhwIjoxNzk3MDA4NjYxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.-P93cPuwQysIXZ_yU3J9uNfO1Cl4Uk4xZvcd5L81vEs": "2026-11-11",
-    "https://oakmark.com/wp-content/uploads/sites/3/2026/10/A-conversation-with-shareholders_U.S.-equity-market-commentary_3Q26_vF.pdf": "2026-11-11"
+    "https://oakmark.com/wp-content/uploads/sites/3/2026/10/A-conversation-with-shareholders_U.S.-equity-market-commentary_3Q26_vF.pdf": "2026-11-11",
+    "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/": "2026-11-12",
+    "https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something": "2026-11-12",
+    "https://mbideepdives.substack.com/p/floor-and-decor-3q26-deja-vu-but?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQ1MTMxNjMsImlhdCI6MTc5NDUwMzMzNywiZXhwIjoxNzk3MDk1MzM3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JBgXfESs3l5T3GJxISE3wqIY_Q0aeVGMuNSwhXcAYLI": "2026-11-12"
   }
 }

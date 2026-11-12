@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-11-12",
+  "generated_at": "2026-11-12T19:32:57Z",
+  "counts": {
+    "gmail_items": 139,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "5fccd8bd2ebb8b74",
+      "headline": "Blackstone bets $1.5B on Pfizer's obesity drug (berobenatide)",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/",
+      "slot": 1,
+      "summary": "Blackstone is committing $1.5 billion to co-fund Pfizer's Phase 3 program for berobenatide, a monthly GLP-1 receptor agonist Pfizer acquired through its up-to-$10 billion purchase of Metsera. The deal is structured as royalty and milestone financing, representing a significant private capital bet on the obesity drug race and a de-risking mechanism for Pfizer's heavy pipeline investment. This arrangement signals growing appetite among alternative asset managers to participate in late-stage obesity drug development without taking on full equity risk.",
+      "why_it_matters": "The Blackstone-Pfizer royalty structure sets a precedent for how big pharma can finance expensive GLP-1 Phase 3 programs with private capital, with direct read-through implications for Novo Nordisk, Eli Lilly, and smaller biotechs seeking non-dilutive funding for obesity pipeline assets.",
+      "signal_tags": [
+        "ticker_match:PFE",
+        "catalyst_proximity",
+        "private_markets_risks",
+        "biopharma_MA",
+        "analytical_depth"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "6ffdb017379c5a38",
+      "headline": "Money Stuff: Nvidia's Board Had to Do Something",
+      "source": "Bloomberg (Matt Levine)",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something",
+      "slot": 2,
+      "summary": "Matt Levine dissects the corporate governance dynamics behind Nvidia's board decision to remove Jensen Huang as CEO following overlapping scandals \u2014 a relationship with a direct report and alleged ties to a Chinese intelligence-linked individual \u2014 framing the board's action through the lens of fiduciary duty and legal liability rather than mere moral judgment. Levine's central analytical thread is what 'had to do something' actually means: once a board becomes aware of material governance risk in a founder-led company, inaction itself becomes a liability. Secondary items touch on Anthropic's anchor investor structure and a macro hiring note.",
+      "why_it_matters": "NVDA is a core AI infrastructure holding and Jensen Huang has been inseparable from the company's identity and strategic execution, making this succession and governance crisis a direct input for any portfolio with meaningful AI or semiconductor exposure.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "corporate_governance",
+        "analytical_depth",
+        "AI_impact",
+        "high_priority_source"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "752b668df741bf30",
+      "headline": "Anthropic vs Meta: Room to Be Wrong",
+      "source": "MBI Deep Dives (Substack)",
+      "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+      "slot": 3,
+      "summary": "MBI Deep Dives dissects the Anthropic IPO (rumored ~$1\u20131.5T valuation) against Meta's comparable enterprise value, decomposing each company's spending into 'core business' and 'speculative bet' buckets. The analysis reveals that ~60% of Meta's capex and a growing share of Anthropic's compute are funding products with unproven economics, while METR's independent assessment found Anthropic's AI capability progress nearly doubled in rate (~1.9x acceleration), with ~80% attributable to AI-driven R&D rather than raw compute growth. The piece frames the core investment question as how much valuation room for error each structure allows, using revenue-per-serving-dollar trends and R&D efficiency data to anchor the comparison.",
+      "why_it_matters": "For investors sizing exposure across the AI ecosystem \u2014 particularly ahead of Anthropic's IPO and amid post-NVDA selloff sentiment shifts \u2014 this comparative framework offers a rare, data-grounded basis for evaluating relative risk/reward between a frontier lab at IPO and an incumbent big-tech AI infrastructure play.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:META",
+        "AI_impact",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "long_form_investment_writing",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
