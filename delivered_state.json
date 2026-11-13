@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "e1e911377a9a3918",
-      "date": "2026-10-29"
-    },
-    {
-      "id": "25ee1f9cc1d50529",
-      "date": "2026-10-29"
-    },
-    {
-      "id": "3f43c285dc138921",
-      "date": "2026-10-29"
-    },
-    {
       "id": "944120c9ebe10e69",
       "date": "2026-10-30"
     },
@@ -139,6 +127,18 @@
     {
       "id": "e702ba0dc0041d22",
       "date": "2026-11-12"
+    },
+    {
+      "id": "f77995868d892fb7",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "e38439f3ed22e72e",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "db7e90ff0a98c730",
+      "date": "2026-11-13"
     }
   ],
   "reader_pushed": {
@@ -358,6 +358,10 @@
     "https://oakmark.com/wp-content/uploads/sites/3/2026/10/A-conversation-with-shareholders_U.S.-equity-market-commentary_3Q26_vF.pdf": "2026-11-11",
     "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/": "2026-11-12",
     "https://www.bloomberg.com/opinion/newsletters/2026-11-12/nvidia-s-board-had-to-do-something": "2026-11-12",
-    "https://mbideepdives.substack.com/p/floor-and-decor-3q26-deja-vu-but?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQ1MTMxNjMsImlhdCI6MTc5NDUwMzMzNywiZXhwIjoxNzk3MDk1MzM3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JBgXfESs3l5T3GJxISE3wqIY_Q0aeVGMuNSwhXcAYLI": "2026-11-12"
+    "https://mbideepdives.substack.com/p/floor-and-decor-3q26-deja-vu-but?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQ1MTMxNjMsImlhdCI6MTc5NDUwMzMzNywiZXhwIjoxNzk3MDk1MzM3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JBgXfESs3l5T3GJxISE3wqIY_Q0aeVGMuNSwhXcAYLI": "2026-11-12",
+    "https://www.beckerspayer.com/policy-updates/from-aca-subsidies-to-insurer-oversight-democrats-healthcare-agenda-takes-shape/": "2026-11-13",
+    "https://mbideepdives.substack.com/p/constellation-software-3q26-organic": "2026-11-13",
+    "https://www.fiercehealthcare.com/ai-and-machine-learning/dyania-health-nvidia-cleveland-clinic": "2026-11-13",
+    "https://mbideepdives.substack.com/p/how-i-am-using-ai?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjQ3NDY3MjQsImlhdCI6MTc5NDU4NDg0MSwiZXhwIjoxNzk3MTc2ODQxLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.9PTUVgfBe0oTuE9NuXUubMbIla2RG-XSYR1sCxzFb-U": "2026-11-13"
   }
 }

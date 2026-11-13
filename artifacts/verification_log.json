@@ -15289,5 +15289,104 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "This is a solid M&A news article that belongs in Slot 1 (Healthcare/Biopharma) given the SGRY ticker catalyst, but it lacks the analytical depth, cross-domain thinking, or 'would I forward this?' quality required for the Wildcard slot, and the reader profile explicitly avoids short-term trading focus while preferring deep structural insight over deal news summaries."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Biotech earnings: Arrowhead's Ionis problem, Kyverna's next-gen exit",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWpY_J7M3cY1W6vFLT13D4p1CW4gSXWJ5XjWLFN54gmQ05nR3bW8wM7ks6lZ3nMW3NMlYj1Qyf_YW4X0stk7XkCVRW6mvJnz1l7T1vW3x_QQQ2WBdRSVzW4hd6vWrlzW1gnsl_6Qf76vW21QzHM30T4RgW31TJJh2YhYj-W47CW938R6fHsVmcP8Y6MybB7W4WRl982dd_DbW1wNYbt3_4lsLW7vHdKY7nZslLV3-Dw83F3y2QN7YK7XSGCdKvVyBKS02kh7XpW7wrSnZ8WgzFJN65j05g4ypXVW3YmwGb3R-k9HW3TWccs1nqyzDMgrH7FCb5jvW7Vs2f71Wwf-2W2TXrlV7B-FyLMkmmZFGkh-FW5fTN7z8J0cclW28g8fp3WV-MrV8dh8G6DpNq2W7KGFC76PMYz3W4zqCTN5RZ0B0W1y9N_j7l8zv2W2G-Nrd6PhrCCW33CYNK4vFZBqW5kHYBG4fHHnHV1smzJ4hwH_lW3H3kCb95z9RQW7dNVZR6djdJCW43n-2z93Tn3pW19GX3D5_w7VRW4HDQH17Wcb95W8FwP1s6qZZLwW6ByPHq2P8pnjW723DFp3Q6RyFW6lf4VM2ryp4DW2YgsJL3GRPXwf2Tk_gC04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article content is essentially an empty newsletter shell \u2014 it contains only a brief teaser sentence about Ionis/Arrowhead, two advertisement blocks, and boilerplate footer text, with no substantive analysis, earnings data, or discussion of Kyverna or ObesityWeek as described in the shortlist summary."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive, analytically deep article, but it covers AI company competitive dynamics (Anthropic vs Meta IPO/strategy) and belongs in Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech), with no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaHTCdIKfFuhdKEWwoOVdJPfA1UJhqTTylxS8Iyxga0.8ETakZd73n0Jay9oXMcaNQ",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Stratechery Tech/AI article about Nvidia and AI geopolitics \u2014 it is substantive and depth-rich, but it belongs to Slot 3 (Tech/AI), not Slot 1 (Healthcare/Biotech), which requires FDA decisions, clinical trials, biopharma M&A, or pipeline news."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/zus-health-secures-33m-build-infrastructure-ai-powered-clinical-workflows",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a standard funding announcement press release with moderate depth \u2014 it covers Zus Health's product layers and market positioning, but lacks the investment-grade analysis, competitive moat scrutiny, or structural market insight the reader profile demands; it reads more like a company narrative than actionable intelligence."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "From ACA subsidies to insurer oversight, Democrats' healthcare agenda takes shape",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/policy-updates/from-aca-subsidies-to-insurer-oversight-democrats-healthcare-agenda-takes-shape/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has real legislative specificity \u2014 committee leadership, named bills, timeline anchors, and policy mechanisms \u2014 making it substantive and directly actionable for managed care and payer-exposed names, fitting Slot 1's healthcare policy/reimbursement mandate."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/dyania-health-nvidia-cleveland-clinic",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a product announcement / partnership press release with no finance or macro substance \u2014 it belongs in Slot 3 (Tech/AI) at best, and even there it reads as thin promotional content about a startup without meaningful analytical depth, investment-relevant data, or structural insight."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Constellation Software 3Q'26: Organic Growth Recovers, but Still Below Its Old Pace",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/constellation-software-3q26-organic",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, analytically rigorous deep-dive into Constellation Software's Q3 results that directly matches the reader's strong preferences for serial acquirer analysis, competitive moat analysis, and deep business diligence, with genuine investment-relevant insights on organic growth deceleration, acquisition pacing, and capital deployment dynamics."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaHTCdIKfFuhdKEWwoOVdJPfA1UJhqTTylxS8Iyxga0.8ETakZd73n0Jay9oXMcaNQ",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article's full text is not actually present \u2014 only navigation boilerplate and header/footer HTML rendered, with no substantive body content visible to evaluate depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/zus-health-secures-33m-build-infrastructure-ai-powered-clinical-workflows",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a standard funding announcement with product marketing language and lacks the analytical depth, structural market insight, or investment thesis that the reader profile demands \u2014 it reads as a press release rehash rather than a substantive examination of data infrastructure dynamics in clinical AI."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/dyania-health-nvidia-cleveland-clinic",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article has substantive depth on on-premises clinical AI architecture, a real enterprise deployment at Cleveland Clinic with specific patient cohort data, and directly addresses the data infrastructure + AI-biology intersection that scores highest in the reader taste profile."
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "Howard Marks memo: A layman thinks about AI",
+    "source": "Howard Marks / Oaktree (via Brookfield)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is a promotional blurb/teaser of roughly 100 words with no substantive content \u2014 it describes Marks's memo in vague terms but includes none of his actual analysis, arguments, or the 11 questions addressed, making it impossible to verify depth or substance."
   }
 ]

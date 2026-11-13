@@ -1,0 +1,73 @@
+{
+  "run_date": "2026-11-13",
+  "generated_at": "2026-11-13T19:10:42Z",
+  "counts": {
+    "gmail_items": 139,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "f77995868d892fb7",
+      "headline": "From ACA subsidies to insurer oversight, Democrats' healthcare agenda takes shape",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/policy-updates/from-aca-subsidies-to-insurer-oversight-democrats-healthcare-agenda-takes-shape/",
+      "slot": 1,
+      "summary": "Following Democrats' midterm sweep of both chambers, incoming House Ways and Means Chair Richard Neal has signaled rapid action on restoring expired ACA enhanced subsidies and reversing HR 1's Medicaid cuts, while Senate Finance Committee-expected chair Ron Wyden is targeting insurer oversight on prior authorization and vertical integration. The agenda also includes Medicare eligibility expansion to age 50 (via Sen. Baldwin's bill), potential Medicaid work requirement delays, and scrutiny of large integrated health systems. With Trump retaining veto power, Democrats' near-term leverage will come through committee oversight and must-pass spending bill negotiations.",
+      "why_it_matters": "Democratic control reshapes the reimbursement and regulatory overhang for managed care names (UNH, CNC, CVS Health) and ACA marketplace insurers, with specific committee leadership and near-term legislative vehicles providing catalyst clarity for portfolio positioning.",
+      "signal_tags": [
+        "ticker_match:UNH",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "regulatory_affairs",
+        "healthcare_policy"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "e38439f3ed22e72e",
+      "headline": "Constellation Software 3Q'26: Organic Growth Recovers, but Still Below Its Old Pace",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/constellation-software-3q26-organic",
+      "slot": 2,
+      "summary": "MBI Deep Dives dissects CSU's Q3 2026 results, finding organic growth recovered to +4% FXN from Q2's +2% trough but remains below the historical 5-6% pace, with US healthcare (Altera and Epic consolidation headwinds) as the primary drag. The piece rigorously disaggregates the organic growth slowdown across segments and scrutinizes whether CSU's acquisition machine \u2014 now deploying $2.3B in nine months versus $1.6B for all of 2025 \u2014 can sustain IRR hurdles as deal competition from private equity keeps private-market prices elevated. Management commentary on underwriting larger, non-core VMS transactions with wider scenario dispersion adds nuance to the long-term compounding thesis.",
+      "why_it_matters": "For investors tracking serial acquirer compounders, this analysis directly stress-tests whether CSU's decentralized VMS flywheel is maturing \u2014 a valuation-critical question given the stock's premium multiple depends on sustained capital deployment at high returns.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:CSU",
+        "novelty",
+        "actionability",
+        "serial_acquirer_analysis",
+        "competitive_moat_analysis",
+        "deep_business_diligence"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "db7e90ff0a98c730",
+      "headline": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/dyania-health-nvidia-cleveland-clinic",
+      "slot": 3,
+      "summary": "Dyania Health is partnering with Nvidia to deploy its Synapsis AI clinical reasoning platform entirely within hospital IT infrastructure, using Nvidia's NeMo, TensorRT, and accelerated computing stack to analyze unstructured patient records at population scale without data leaving the health system firewall. The platform, trained on 25,000+ physician-annotated hours, performed longitudinal analysis of 7,812 aortic valve replacement patients across 16 years of records at Cleveland Clinic. The on-premises architecture directly addresses the data privacy and cost barriers (avoiding frontier model tokenomics) that have stalled clinical AI adoption at major health systems.",
+      "why_it_matters": "The on-prem inference model \u2014 small enough to run on local GPU clusters with no cloud dependency \u2014 represents a structurally differentiated deployment moat in clinical AI, with direct implications for Nvidia's healthcare vertical strategy and the competitive landscape for health data infrastructure plays.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "novelty",
+        "actionability",
+        "AI_biology_intersection",
+        "data_infrastructure",
+        "health_software_SaaS"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    }
+  ]
+}
