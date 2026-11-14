@@ -1,0 +1,64 @@
+{
+  "run_date": "2026-11-14",
+  "generated_at": "2026-11-14T17:40:36Z",
+  "counts": {
+    "gmail_items": 129,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "64608404cdb3e019",
+      "headline": "Stringent new Medicaid work requirements delayed for six months",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/",
+      "slot": 1,
+      "summary": "The Trump administration has delayed enforcement of its stringent Medicaid work requirements by six months, pushing the effective date to July 1, 2027, while offering states an optional grace period to test eligibility systems without denying coverage to otherwise eligible beneficiaries. The delay comes amid post-midterm Democratic gains in Congress, with opposition coalescing around 'Medicare for More' and 'Medikids' expansion proposals, setting up a major 2027 policy battleground. The enforcement timeline shift meaningfully alters near-term revenue visibility for Medicaid MCOs and downstream hospital systems entering budget season.",
+      "why_it_matters": "The six-month delay reshapes the risk calendar for Medicaid-heavy managed care payers (Centene, Molina) and downstream hospital systems, deferring but not eliminating enrollment attrition risk and creating a prolonged period of policy uncertainty that complicates 2027 guidance and valuation for the sector.",
+      "signal_tags": [
+        "regulatory_affairs",
+        "healthcare_policy",
+        "ticker_match:CNC",
+        "catalyst_proximity",
+        "investment-relevant_insights"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "780221d33a639576",
+      "headline": "BIO lays out plan to protect US biotech from China's rise",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW_kVv3ytmk5W2ht5bj2jb3RJW9ccHTJ5XbtF_N48YKc45nR3bW7Y9pgv6lZ3m5VZzt218_TdMnW23fyXK82d41KW4_6jGZ128wnQW4TklwX96yNg6W8Vr5X14tJkq5V5BdDc70jncdMt9Fynyl7CLVcvDrm3mSTNXVd36ph7w0VKnW7c7YbG2f-QNXW8DTTW79hlB9SW9dbFnK7tMNltW4fM8m12H-SMTN37Y3sDcvBTtW9hjSjF63bPKkW7gZ9vx6nVpHmVVdB_09bjCsKW4w6Zlp7f35q6W9cxnw92v__GzW13J5-n2X2vy8W4XQW2h5HWHbtW3vTflW2WxgSgW2vQmhG8zyJGpW4WvWq255PlsXW8wLB288YfRM5W8M88Nr4F-syCW2Qd3SF2GYnX5V4yFh11jYDHTW6_84Hp4JFtCLW4xcsTb6v8G0cW72X4Qj7P-MG1W2lW4x36mrxJlVNLRBk1-WwclW3Q02nF7GHlLTW2bgsg13bvLHfW56tRKF8Z2lhwW63tVqY1sswxnW7_kYJP6XXzL_VpYDq-2FytgdW4cKZ9y590bZvW8hqQKC6crq7hW17hwXz83zqTLf64HPYR04",
+      "slot": 2,
+      "summary": "Plus, Beam&#39;s sickle cell therapy heads to FDA as first base editor \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-2 pick (Scuttleblurb) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    },
+    {
+      "article_id": "752b668df741bf30",
+      "headline": "Anthropic vs Meta: Room to Be Wrong",
+      "source": "MBI Deep Dives (Substack)",
+      "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+      "slot": 3,
+      "summary": "MBI Deep Dives conducts a rigorous side-by-side valuation of Meta (~$1.5T EV) and Anthropic (targeting ~$1.0\u20131.5T IPO) by decomposing each company into its core earnings engine and its speculative AI bet. The piece finds that ~60% of Meta's capex this year flows to unproven products (MSL/Muse), while Anthropic's API revenue faces structural risks from customer insourcing, rapid price compression, and model switching \u2014 compounded by $900B in compute commitments against a fraction of that in current revenue. Three post-IPO metrics are flagged: compute-serving paying customers, revenue per R&D dollar, and subscription vs. metered revenue mix, with new METR data showing AI R&D acceleration at Anthropic accelerating at 1.9x but benchmark progress per R&D dollar falling ~60%.",
+      "why_it_matters": "With Anthropic's IPO imminent, this is the sharpest publicly available framework for stress-testing its revenue quality and sizing participation relative to a comparably valued incumbent whose core business provides a durable earnings floor if AI bets disappoint.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:META",
+        "AI_impact",
+        "venture_capital_insights",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "analytical_depth"
+      ],
+      "reading_time": "10 min",
+      "snippet_only": false
+    }
+  ]
+}

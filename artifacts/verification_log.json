@@ -15388,5 +15388,86 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article text provided is a promotional blurb/teaser of roughly 100 words with no substantive content \u2014 it describes Marks's memo in vague terms but includes none of his actual analysis, arguments, or the 11 questions addressed, making it impossible to verify depth or substance."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Howard Marks: A Layman Thinks About AI",
+    "source": "Howard Marks memos (Brookfield/Oaktree)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is thin promotional content \u2014 essentially a one-paragraph teaser with no substantive detail \u2014 and belongs to Slot 2 (Finance/Macro) or Slot 3 (Tech/AI), not Slot 1 Healthcare/Biotech, which it has no connection to whatsoever."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a substantive, analytically deep article, but it belongs to Tech/AI or Finance \u2014 not Healthcare/Biotech \u2014 as it covers Anthropic's IPO valuation and AI compute economics with no meaningful healthcare or biopharma content."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "This Week in Stratechery: The End of Jensen",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaHWE0wUfz2vKYr_6ZefYoCCw75NSsw2bsbggmn69V0.vhMnJE2WlQAskw4LWh8yYQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter index/roundup from Stratechery covering tech and AI topics (Jensen Huang/Nvidia, Intel/AMD, NBA), with no healthcare or biopharma content whatsoever \u2014 it does not fit Slot 1."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Stringent new Medicaid work requirements delayed for six months",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth on Medicaid work requirement enforcement delay, with direct investment implications for Medicaid-heavy managed care organizations like Centene and Molina, fitting the healthcare policy/regulatory theme of Slot 1."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Howard Marks: A Layman Thinks About AI",
+    "source": "Howard Marks memos (Brookfield/Oaktree)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The actual article text is a thin promotional stub \u2014 just a brief teaser with no substantive content, no Claude-scored AI stack analysis, no $600B debt issuance data, and no actionable framework \u2014 making the richly detailed shortlist summary entirely unverifiable and likely fabricated or drawn from a paywalled/gated version the reader cannot access."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Apollo Daily Spark: Strong Growth, Rising Prices and a Fed Behind the Curve",
+    "source": "Apollo Daily Spark (Torsten Slok)",
+    "url": "https://www.apollo.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text contains no actual content from Torsten Slok's Daily Spark analysis \u2014 it is entirely Apollo's corporate marketing and product promotion copy, with zero macro analysis, data, or investment thesis present."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+    "source": "Hacker News / TechPowerUp",
+    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief from TechPowerUp that merely summarizes a WSJ report in ~200 words with no original analysis, financial depth, or structural insight \u2014 the actual substance lives in the WSJ piece, not here."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Scuttleblurb: FICO, PAYC, ABNB, TREX, Anthropic",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Scuttleblurb's slops edition offers practitioner-level, analytical deep dives into high-quality compounders (FICO, PAYC, ABNB, TREX, Anthropic) with explicit investment-relevant insights on pricing risk, AI self-disruption, and business-model evolution \u2014 exactly the long-form investment writing the reader's taste profile prizes."
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a deeply analytical, investment-grade comparison of Meta vs. Anthropic at equivalent valuations, with original financial modeling, specific metrics to watch post-IPO, and a framework for evaluating AI lab revenue quality \u2014 squarely matching Slot 3 and the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant structural insight."
   }
 ]

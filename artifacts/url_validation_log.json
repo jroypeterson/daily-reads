@@ -3494,5 +3494,29 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-11-14",
+    "checked_unique": 60,
+    "checked_slots": 61,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 2,
+        "broken_source": "Scuttleblurb",
+        "broken_url": "https://scuttleblurb.com",
+        "substitute_source": "BioSpace",
+        "substitute_headline": "BIO lays out plan to protect US biotech from China's rise",
+        "substitute_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW_kVv3ytmk5W2ht5bj2jb3RJW9ccHTJ5XbtF_N48YKc45nR3bW7Y9pgv6lZ3m5VZzt218_TdMnW23fyXK82d41KW4_6jGZ128wnQW4TklwX96yNg6W8Vr5X14tJkq5V5BdDc70jncdMt9Fynyl7CLVcvDrm3mSTNXVd36ph7w0VKnW7c7YbG2f-QNXW8DTTW79hlB9SW9dbFnK7tMNltW4fM8m12H-SMTN37Y3sDcvBTtW9hjSjF63bPKkW7gZ9vx6nVpHmVVdB_09bjCsKW4w6Zlp7f35q6W9cxnw92v__GzW13J5-n2X2vy8W4XQW2h5HWHbtW3vTflW2WxgSgW2vQmhG8zyJGpW4WvWq255PlsXW8wLB288YfRM5W8M88Nr4F-syCW2Qd3SF2GYnX5V4yFh11jYDHTW6_84Hp4JFtCLW4xcsTb6v8G0cW72X4Qj7P-MG1W2lW4x36mrxJlVNLRBk1-WwclW3Q02nF7GHlLTW2bgsg13bvLHfW56tRKF8Z2lhwW63tVqY1sswxnW7_kYJP6XXzL_VpYDq-2FytgdW4cKZ9y590bZvW8hqQKC6crq7hW17hwXz83zqTLf64HPYR04"
+      }
+    ],
+    "dropped_items": []
   }
 ]
