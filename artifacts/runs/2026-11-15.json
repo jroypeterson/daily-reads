@@ -1,0 +1,69 @@
+{
+  "run_date": "2026-11-15",
+  "generated_at": "2026-11-15T18:25:01Z",
+  "counts": {
+    "gmail_items": 127,
+    "tier2_items": 77,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2f8dd83201de0c50",
+      "headline": "FDA rejects Summit, Akeso's ivonescimab in narrow lung cancer setting",
+      "source": "Endpoints News",
+      "url": "https://endpoints.news/fda-rejects-summit-akesos-ivonescimab-in-narrow-lung-cancer-setting/",
+      "slot": 1,
+      "summary": "The FDA issued a complete response letter rejecting Summit Therapeutics and Akeso's ivonescimab for EGFR-mutated NSCLC, citing insufficient overall survival benefit from the HARMONi trial despite a 48% reduction in disease progression risk. The rejection blocks what would have been the first U.S. approval of a PD-1xVEGF bispecific antibody \u2014 a class with potential to rival checkpoint inhibitors like Keytruda \u2014 and leaves Summit without a resubmission timeline. The class story is not over, however, as the broader HARMONi-3 first-line data readout remains a future catalyst.",
+      "why_it_matters": "SMMT is a direct ticker match with an immediate binary catalyst resolved negatively today, with ripple effects across the PD-1xVEGF bispecific competitive landscape and indirect relief for ADC rivals competing in the NSCLC space.",
+      "signal_tags": [
+        "ticker_match:SMMT",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "25914c57ac4c1e74",
+      "headline": "A Layman Thinks About AI (Howard Marks memo)",
+      "source": "Oaktree Capital / Brookfield",
+      "url": "https://www.brookfield.com/views-news/insights/layman-thinks-about-ai",
+      "slot": 2,
+      "summary": "Howard Marks structures AI investing around 11 key questions \u2014 covering what AI can actually do, who profits, data-center demand, credit market concentration risk, and whether we're in a bubble \u2014 while using Claude to score the predictability of AI sub-sectors (frontier labs score 2/10). He highlights Goldman Sachs data showing global AI-related debt issuance approaching $600 billion in 2026 and warns that tech equities, data-center loans, and IG bonds may all share correlated compute-demand risk. His conclusion is 'calibrated humility' on position sizing, arguing that compounding uncertainty across technology, demand, competition, and timing dramatically lowers the probability that any single AI investment thesis holds.",
+      "why_it_matters": "Marks' predictability-scoring framework and credit-concentration risk analysis provide a directly actionable lens for portfolio sizing across tech and healthcare-tech holdings where AI exposure is increasingly embedded and often underappreciated.",
+      "signal_tags": [
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "ai_impact",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "18 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "ee712542d9dca0ff",
+      "headline": "Anthropic vs Meta: Room to Be Wrong",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+      "slot": 3,
+      "summary": "MBI Deep Dives compares Anthropic (expected IPO at ~$1\u20131.5T) and Meta (~$1.5T EV) by decomposing each company's core business value versus its speculative AI bet, finding that ~60-67% of Meta's capex and a rising share of Anthropic's R&D are funding unproven products. The piece introduces a 'room to be wrong' margin-of-safety framework, tracking metrics like revenue per R&D dollar (which peaked at $1.91 for Anthropic in 2Q'26 before slipping), compute allocation between paying customers vs. research, and METR's finding that Anthropic's capability gains accelerated 1.9x with ~80% attributable to AI-assisted research. It also explores whether Meta's open-source strategy and ads-funded compute moat structurally compresses the addressable revenue pool for closed-model labs like Anthropic.",
+      "why_it_matters": "For a reader evaluating Anthropic IPO participation and META as a structural hedge, this provides the most financially rigorous pre-IPO comparative framework available, with actionable metrics to monitor whether frontier-lab economics justify generational valuations.",
+      "signal_tags": [
+        "high_priority_source",
+        "ticker_match:META",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "ai_impact"
+      ],
+      "reading_time": "14 min",
+      "snippet_only": false
+    }
+  ]
+}

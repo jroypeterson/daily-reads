@@ -15469,5 +15469,68 @@
     "extraction_tier": "jina",
     "passed": true,
     "reason": "This is a deeply analytical, investment-grade comparison of Meta vs. Anthropic at equivalent valuations, with original financial modeling, specific metrics to watch post-IPO, and a framework for evaluating AI lab revenue quality \u2014 squarely matching Slot 3 and the reader's strong preferences for analytical depth, competitive moat analysis, and investment-relevant structural insight."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "FDA rejects Summit, Akeso's ivonescimab in narrow lung cancer setting",
+    "source": "Endpoints News",
+    "url": "https://endpoints.news/fda-rejects-summit-akesos-ivonescimab-in-narrow-lung-cancer-setting/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive FDA rejection story from Endpoints News covering a direct binary catalyst outcome for SMMT with clear sector-wide implications for the PD-1xVEGF bispecific class and competitive dynamics in NSCLC."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "A Layman Thinks About AI (Howard Marks memo)",
+    "source": "Oaktree Capital / Brookfield",
+    "url": "https://www.brookfield.com/views-news/insights/layman-thinks-about-ai",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Howard Marks' memo is a substantive, analytically rigorous framework memo that directly addresses AI investing risk, credit market concentration, and position sizing \u2014 squarely matching Slot 2's finance/macro mandate and the reader's strong preferences for analytical depth, investment-relevant insights, and elite-fund practitioner content."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaHTCdIKfFuhdKEWwoOVdJPfA1UJhqTTylxS8Iyxga0.8ETakZd73n0Jay9oXMcaNQ",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a video/podcast episode from Stratechery with virtually no readable text content \u2014 the full article text is just navigation chrome and a paywall/access token wrapper with no substantive written analysis to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "Stringent new Medicaid work requirements delayed for six months",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/VVScHT5L7QcWW1Z-T5t1l0dZGW2lg-cV5XksF_MBB8TF3qgz0W7lCdLW6lZ3m8W21H8nf3c8sdyW6Z6-qH37GWpNW63CgCJ5hmYJ-N3cbCphdJkdMW1q7-lM328cK-W6WWN155TZGdpW7-J5Gn8nJpHSW26YVLJ4ly2bvW7ZVDLL2jDMYTW9l1r8b2X-m61W7-S1T86nTT89W6cxGMH8myxB_W2-FD9Y24HsSvW8szQl26z1Gz9W4s-QlG57vp6yW13DbSs2q8hdYN16S6Pw_-BNmN6b4X62bMLFQW1QHrwv71tsNTW7hDsMD3sN3t4N1RVprJnpnPCN16pkCb6z6rcN3r5sJKVGX0mW7jtvjV12_jKWf1h2jFn04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article resolves to a STAT+ paywall subscription page with no substantive content accessible \u2014 there is no article text to evaluate, only a pricing/marketing page."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "Anthropic vs Meta: Room to Be Wrong",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropic-vs-meta-room-to-be-wrong",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a rigorous, analytically deep comparative framework that dissects Anthropic vs. Meta's AI spending economics using actual financial metrics \u2014 revenue per R&D dollar, compute allocation ratios, capability acceleration data from METR \u2014 perfectly matching the reader's strong preferences for analytical depth, investment-relevant insights, and AI impact analysis."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "[scuttleslops] FICO, PAYC, ABNB, TREX, Anthropic",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The full article text is a stub \u2014 a brief teaser/index of upcoming Scuttleblurb posts with no substantive analysis on any of the named companies (FICO, PAYC, ABNB, TREX, Anthropic), making it too thin to meet the depth standard required for any slot."
+  },
+  {
+    "date": "2026-11-15",
+    "headline": "How Wealth Inequality Emerged in This Prehistoric Culture",
+    "source": "Nautilus",
+    "url": "https://nautil.us/how-wealth-inequality-emerged-in-this-prehistoric-culture-1286642/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin science news summary (~500 words) of an archaeology study with no analytical depth, no actionable investment insight, and only a superficial connection to competitive moat analysis \u2014 the cross-domain leap is too strained to pass the 'would I forward this?' test for a sophisticated investor reader."
   }
 ]
