@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "62a1934d9f9b1db9",
-      "date": "2026-11-01"
-    },
-    {
       "id": "8dbf7b7478509c17",
       "date": "2026-11-02"
     },
@@ -131,6 +127,14 @@
     {
       "id": "25914c57ac4c1e74",
       "date": "2026-11-15"
+    },
+    {
+      "id": "6d4464ffc9538be0",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "65e4d27b7d90a81c",
+      "date": "2026-11-16"
     }
   ],
   "reader_pushed": {
@@ -358,6 +362,10 @@
     "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/": "2026-11-14",
     "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW_kVv3ytmk5W2ht5bj2jb3RJW9ccHTJ5XbtF_N48YKc45nR3bW7Y9pgv6lZ3m5VZzt218_TdMnW23fyXK82d41KW4_6jGZ128wnQW4TklwX96yNg6W8Vr5X14tJkq5V5BdDc70jncdMt9Fynyl7CLVcvDrm3mSTNXVd36ph7w0VKnW7c7YbG2f-QNXW8DTTW79hlB9SW9dbFnK7tMNltW4fM8m12H-SMTN37Y3sDcvBTtW9hjSjF63bPKkW7gZ9vx6nVpHmVVdB_09bjCsKW4w6Zlp7f35q6W9cxnw92v__GzW13J5-n2X2vy8W4XQW2h5HWHbtW3vTflW2WxgSgW2vQmhG8zyJGpW4WvWq255PlsXW8wLB288YfRM5W8M88Nr4F-syCW2Qd3SF2GYnX5V4yFh11jYDHTW6_84Hp4JFtCLW4xcsTb6v8G0cW72X4Qj7P-MG1W2lW4x36mrxJlVNLRBk1-WwclW3Q02nF7GHlLTW2bgsg13bvLHfW56tRKF8Z2lhwW63tVqY1sswxnW7_kYJP6XXzL_VpYDq-2FytgdW4cKZ9y590bZvW8hqQKC6crq7hW17hwXz83zqTLf64HPYR04": "2026-11-14",
     "https://endpoints.news/fda-rejects-summit-akesos-ivonescimab-in-narrow-lung-cancer-setting/": "2026-11-15",
-    "https://www.brookfield.com/views-news/insights/layman-thinks-about-ai": "2026-11-15"
+    "https://www.brookfield.com/views-news/insights/layman-thinks-about-ai": "2026-11-15",
+    "https://www.biopharmadive.com/news/summit-akeso-fda-ivonescimab-reject-egfr-lung-cancer/874745/": "2026-11-16",
+    "https://mbideepdives.substack.com/p/modeling-alphabet-part-1-search-gemini?r=w2qs": "2026-11-16",
+    "https://mbideepdives.substack.com/p/modeling-alphabet-part-1-search-gemini?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUxOTE1MzcsImlhdCI6MTc5NDg1MjUzMiwiZXhwIjoxNzk3NDQ0NTMyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Ck7-SSksmepO5t37zWoCeKO_FyfzHINMQZITti7gsaw": "2026-11-16",
+    "https://thetranscript.substack.com/p/11-16-2026-international-intrigue?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUxNjg4NzYsImlhdCI6MTc5NDgzMDc1MSwiZXhwIjoxNzk3NDIyNzUxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.XHcx8L-DQlutVd9tLt6rEE8o5z9T84BeK6NteEvI1cI": "2026-11-16"
   }
 }

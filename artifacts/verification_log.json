@@ -15532,5 +15532,59 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is a thin science news summary (~500 words) of an archaeology study with no analytical depth, no actionable investment insight, and only a superficial connection to competitive moat analysis \u2014 the cross-domain leap is too strained to pass the 'would I forward this?' test for a sophisticated investor reader."
+  },
+  {
+    "date": "2026-11-16",
+    "headline": "Summit shares fall as FDA rejects closely watched PD-1/VEGF drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/summit-akeso-fda-ivonescimab-reject-egfr-lung-cancer/874745/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article delivers substantive FDA regulatory analysis with direct investment implications for a coverage ticker (SMMT) and meaningful read-across to the entire PD-1xVEGF bispecific class, meeting Slot 1 criteria for depth and actionability."
+  },
+  {
+    "date": "2026-11-16",
+    "headline": "Atlas Venture 2026 Year In Review",
+    "source": "Life Sciences VC (LifeSciVC)",
+    "url": "https://lifescivc.com/2026/11/atlas-venture-2026-year-in-review/?utm_source=rss&utm_medium=rss&utm_campaign=atlas-venture-2026-year-in-review",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is essentially a promotional wrapper for a video presentation \u2014 it contains almost no substantive written content, just an announcement that the year-in-review video exists, a few high-level bullet points (M&A records, 30-35 IPOs, AI/China themes), and a list of acknowledgements, making it too thin to deliver the analytical depth the reader requires."
+  },
+  {
+    "date": "2026-11-16",
+    "headline": "Modeling Alphabet, Part 1: Search, Gemini, and YouTube",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/modeling-alphabet-part-1-search-gemini?r=w2qs",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "This is a substantive, first-principles bottom-up financial model of Alphabet's core Search and YouTube businesses with explicit quantitative assumptions, forward estimates through 2035, and rigorous analysis of how AI assistants are reshaping query share and monetization \u2014 directly matching Slot 2's focus on earnings, competitive dynamics, and investment-relevant analysis."
+  },
+  {
+    "date": "2026-11-16",
+    "headline": "New memo: A layman thinks about AI",
+    "source": "Howard Marks / Oaktree (Brookfield)",
+    "url": "https://go2.brookfield.com/webmail/911342/1204748513/40fc6274fa3c91c97223a5f65074e5a0ff2959b9fc5d7e5994fde57b666ad26e",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text provided is essentially a teaser/abstract with no substantive content \u2014 it describes Marks addressing 11 questions but provides none of the actual analysis, arguments, or insights, making it impossible to verify depth or substance."
+  },
+  {
+    "date": "2026-11-16",
+    "headline": "Medicaid Roundup: Navigating Major Medicaid Policy Changes; Issues to Watch in 2027",
+    "source": "KFF Health News",
+    "url": "https://connect.kff.org/e3t/Ctc/RB+113/c1ThL04/VWlSps6mbS1yV9g3Yy7hTJVwW7Wb0M15Xrp_-N8tN9C25nR3bW69t95C6lZ3pHV4z1By47rwTRW475s9v6Wm0zTW4pZ50m27hn2mW89R3y64C6-_9W4CJ6j64M5GBwW5-_nwH4-fNxdW8c9qCb2d6Zf4W5-99rZ8DNdwyW5G5n4d7SnDk0W2_J6Rs8pJZXqW8qL_gx9m2Pv1W1lMp087Y2MCDV9y4vZ3XrZxVW3jlC547YD8WQW7JZ9rz8zk3fhVX5Ynm93LXDCW2fzjGD4gYCRNVZwbtM1Mv8SVW84K5h92KWGmQW2lhcMF2bW6_DN3N9C7rg3mLqW5dQkJl55sy3LN6dMdC5ClSHXW8WJBqK8N3gJnW4KtGqR7YbvFWW2v46Nv69k5jfW31JCZ92JX4ZQW8ZmkCP26-ln4W6CDDfD6Jl4m_W2Xc9Ml2v23NPW5zJ1MF736PwWN4SWLKjNsqLGW8RF4hh83CW0_W3Zvcl216FlQBW5LftSN5QP7C8V_DkJX8dQdCQdGTq4j04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a Medicaid policy roundup from KFF Health News \u2014 it belongs to Slot 1 (Healthcare/Regulatory) or possibly Slot 2, not Slot 3 (Tech/AI), and contains no AI or technology content whatsoever."
+  },
+  {
+    "date": "2026-11-16",
+    "headline": "14 payers suing over 2027 Medicare Advantage star ratings",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/medicare-advantage/5-payers-suing-over-2027-medicare-advantage-star-ratings/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is clearly a healthcare regulatory/payer story and belongs to Slot 1 or Slot 2, not Slot 3 (Tech/AI), and the actual article content is quite thin \u2014 it lists lawsuits without depth, with the full text cut off before even showing the 11 plaintiffs."
   }
 ]

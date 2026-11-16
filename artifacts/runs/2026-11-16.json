@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-11-16",
+  "generated_at": "2026-11-16T21:36:29Z",
+  "counts": {
+    "gmail_items": 141,
+    "tier2_items": 89,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6d4464ffc9538be0",
+      "headline": "Summit shares fall as FDA rejects closely watched PD-1/VEGF drug",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/summit-akeso-fda-ivonescimab-reject-egfr-lung-cancer/874745/",
+      "slot": 1,
+      "summary": "The FDA issued a Complete Response Letter refusing to approve Summit Therapeutics' ivonescimab for EGFR-mutant NSCLC, citing the drug's failure to demonstrate overall survival benefit in the HARMONi-A trial \u2014 a PFS-only readout the agency deemed insufficient. The rejection is Summit's first failed U.S. approval attempt and signals that the FDA will require OS data, not just progression-free survival, as the evidentiary bar for this drug class. The decision creates immediate read-across uncertainty for rival PD-1xVEGF bispecific programs from Akeso, BioNTech, and others that are still in earlier-stage trials.",
+      "why_it_matters": "The FDA's explicit OS requirement resets the competitive and regulatory timeline for the entire PD-1xVEGF bispecific class, directly affecting Summit's valuation and creating a framework investors must apply to all downstream programs in this space.",
+      "signal_tags": [
+        "ticker_match:SMMT",
+        "ticker_match:DRUG",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "65e4d27b7d90a81c",
+      "headline": "Modeling Alphabet, Part 1: Search, Gemini, and YouTube",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/modeling-alphabet-part-1-search-gemini?r=w2qs",
+      "slot": 2,
+      "summary": "MBI Deep Dives builds a granular financial model of Alphabet's Google Services segment, projecting Google's search query share falling from ~76% today to ~52% by 2035 as AI assistants capture a growing slice of the query pie. Despite that share loss, the author argues Search revenue can still grow meaningfully because total search-like queries are expanding ~16-19% annually \u2014 people ask AI things they'd never have typed into a search box. The piece dissects paid clicks per query (declining ~4%/yr), cost per click (~3-3.5% growth), and the role of Gemini app ad monetization as the key swing factor.",
+      "why_it_matters": "For an investor weighing Alphabet's AI-disruption risk versus its structural ad moat, this model quantifies the range of outcomes in Search revenue through 2035 and identifies the specific variables \u2014 assistant query share ceiling and paid clicks per query recovery \u2014 that will determine whether GOOG compounds or stagnates.",
+      "signal_tags": [
+        "ticker_match:GOOG",
+        "high_priority_source",
+        "novelty",
+        "actionability",
+        "analytical_depth",
+        "competitive_moat_analysis"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": false
+    }
+  ]
+}
