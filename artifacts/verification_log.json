@@ -15586,5 +15586,59 @@
     "extraction_tier": "tavily",
     "passed": false,
     "reason": "This article is clearly a healthcare regulatory/payer story and belongs to Slot 1 or Slot 2, not Slot 3 (Tech/AI), and the actual article content is quite thin \u2014 it lists lawsuits without depth, with the full text cut off before even showing the 11 plaintiffs."
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "AI drugmaker Isomorphic restocks with $5B fundraise",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "The article covers a landmark $5B Series C raise by Isomorphic Labs with named co-leads (Greenoaks, Sequoia), notable syndicate members (a16z, Alphabet, Thrive, UK Sovereign AI Fund), and a clear strategic narrative around AI-native drug discovery transitioning toward clinical-stage execution \u2014 substantive enough for Slot 1 with strong AI-biology intersection appeal matching reader taste."
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "New memo: A Layman Thinks About AI",
+    "source": "Howard Marks / Oaktree (via Brookfield)",
+    "url": "https://www.oaktreecapital.com/docs/default-source/memos/a-layman-thinks-about-ai.pdf",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "Howard Marks' AI investing memo is substantive, analytically deep, and directly relevant to macro/credit portfolio positioning \u2014 perfectly matching Slot 2 and the reader's strong preferences for elite practitioner perspective and AI impact analysis."
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "GPT-6.2 Astra and Sol",
+    "source": "OpenAI (via Hacker News)",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "The article has substantive depth covering benchmark performance, pricing, safety classification, and competitive positioning of two new OpenAI models, with the first-ever 'High' AI self-improvement safety rating being a structurally significant milestone relevant to the reader's AI impact and data infrastructure interests."
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "STAT+: What to know about the new AI roadmap from CMS, and news from HLTH",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/17/cms-ai-roadmap-and-news-from-hlth-health-tech/",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is paywalled \u2014 the full content is not accessible, leaving only a brief intro and subscription prompt, which provides no substantive depth to evaluate or include in the digest."
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "Money Stuff: The Agents Will Trade the Bonds",
+    "source": "Bloomberg (Matt Levine)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-17/the-agents-will-trade-the-bonds",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The full article text is essentially empty \u2014 the body contains only a placeholder fragment ('Here is one way to do a trade: I could keep doing this all day...') with no actual substance, making it impossible to verify the shortlist summary's claims about MEV-style extraction, insider trading doctrine applied to AI agents, or market microstructure analysis."
+  },
+  {
+    "date": "2026-11-17",
+    "headline": "McKinsey: Future of healthcare: Extinction or accelerated evolution?",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/healthcare/our-insights/future-of-healthcare",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority consulting source and the summary describes substantive structural analysis \u2014 AI-native care delivery, care-at-home shifts, payer-provider dynamics, and data platform moats \u2014 directly aligned with the reader's strong preferences for competitive moat analysis, data infrastructure, and AI impact in healthcare."
   }
 ]

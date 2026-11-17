@@ -1,0 +1,89 @@
+{
+  "run_date": "2026-11-17",
+  "generated_at": "2026-11-17T20:27:53Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 89,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "a096ea98e97e9acf",
+      "headline": "AI drugmaker Isomorphic restocks with $5B fundraise",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/",
+      "slot": 1,
+      "summary": "Isomorphic Labs, the Alphabet/DeepMind-backed AI drug discovery company led by Demis Hassabis, closed a record $5B Series C co-led by Greenoaks and Sequoia Capital \u2014 the largest single biotech VC raise on record. The oversubscribed round also includes Andreessen Horowitz, Thrive Capital, and the UK Sovereign AI Fund, with proceeds earmarked for its proprietary AI drug-design engine (IsoDDE) and buildout of clinical infrastructure as the company moves toward its first human trials. The raise comes despite broader AI sector turbulence and signals institutional conviction that AI-native drug discovery is graduating from model-building to full clinical-stage biotech.",
+      "why_it_matters": "The scale and syndicate composition of this raise resets the valuation benchmark for AI-biology intersection companies and signals that top-tier VC and sovereign capital are now treating AI drug discovery as a clinical-stage bet, with direct implications for how investors should underwrite comparable platforms in the coverage universe.",
+      "signal_tags": [
+        "ai_biology_intersection",
+        "venture_capital_insights",
+        "novelty",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "d541fd964063e92a",
+      "headline": "New memo: A Layman Thinks About AI",
+      "source": "Howard Marks / Oaktree (via Brookfield)",
+      "url": "https://www.oaktreecapital.com/docs/default-source/memos/a-layman-thinks-about-ai.pdf",
+      "slot": 2,
+      "summary": "Howard Marks issues his third systematic memo on AI investing, posing 11 core questions around competitive moats, data-center credit risk, and bubble dynamics. He notably used Claude to assess AI predictability, arriving at a 3/10 overall score (frontier labs just 2/10), and flags that global AI-related debt issuance has approached $600B \u2014 raising serious credit risk questions. His conclusion: deep uncertainty doesn't justify inaction, but identifying durable winners remains extremely difficult.",
+      "why_it_matters": "Marks' credit-lens framing of AI infrastructure risk and value accrual is directly actionable for investors allocating across tech, data center REITs, and biopharma AI names \u2014 from arguably the most credible voice in alternative credit.",
+      "signal_tags": [
+        "elite_fund_practitioner_content",
+        "ai_impact",
+        "competitive_moat_analysis",
+        "analytical_depth",
+        "investment_relevant_insights",
+        "priority:high"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "f9eae196e0f9acc7",
+      "headline": "GPT-6.2 Astra and Sol",
+      "source": "OpenAI (via Hacker News)",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "slot": 3,
+      "summary": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol \u2014 Astra is OpenAI's new frontier model scoring 5.5 points ahead of Claude Fable 5.2 on Agents' Last Exam at 5% of the cost, and sets new highs on scientific benchmarks including Terminal-Bench-Science and Vals Science Index. Critically, Astra is the first externally released model rated 'High' for AI self-improvement capability under OpenAI's safety framework, representing a structural threshold in capability progression. API pricing drops 20% from GPT-6 Astra, while Sol maintains prior pricing with improved performance, both delivering better task completion per token.",
+      "why_it_matters": "The 'High' AI self-improvement safety rating on a released model is a structural inflection point that signals accelerating capability curves \u2014 with direct cost/performance implications for health AI workflow adoption and enterprise AI infrastructure buildout relevant across the coverage universe.",
+      "signal_tags": [
+        "ai_impact",
+        "data_infrastructure",
+        "novelty",
+        "actionability",
+        "catalyst_proximity"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "a92de4d0cd553357",
+      "headline": "McKinsey: Future of healthcare: Extinction or accelerated evolution?",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/healthcare/our-insights/future-of-healthcare",
+      "slot": 4,
+      "summary": "McKinsey maps five structural bifurcation points for healthcare incumbents, including AI-native care delivery, displacement of acute settings by home-based care, and evolving payer-provider dynamics. The report frames these as existential choices rather than incremental shifts, with data platforms emerging as a key source of competitive advantage. It synthesizes macro forces across digital health, traditional provider economics, and health software that could reshape the sector's competitive landscape.",
+      "why_it_matters": "For investors with exposure to managed care, digital health, and provider-facing software, this McKinsey framework offers a structured lens for identifying which incumbents are positioned to compound versus face disruption.",
+      "signal_tags": [
+        "priority:high",
+        "competitive_moat_analysis",
+        "deep_business_diligence",
+        "forward_looking_perspective",
+        "investment_relevant_insights",
+        "ticker_match:HCAT"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    }
+  ]
+}

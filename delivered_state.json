@@ -1,22 +1,6 @@
 {
   "delivered": [
     {
-      "id": "8dbf7b7478509c17",
-      "date": "2026-11-02"
-    },
-    {
-      "id": "3b2b4cf14e80d2cc",
-      "date": "2026-11-02"
-    },
-    {
-      "id": "c6225af1e6c0380d",
-      "date": "2026-11-02"
-    },
-    {
-      "id": "ac26a01966d91597",
-      "date": "2026-11-02"
-    },
-    {
       "id": "f25712d0c1f5c280",
       "date": "2026-11-03"
     },
@@ -135,6 +119,22 @@
     {
       "id": "65e4d27b7d90a81c",
       "date": "2026-11-16"
+    },
+    {
+      "id": "a096ea98e97e9acf",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "d541fd964063e92a",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "aaab75f2a6043ea1",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "a92de4d0cd553357",
+      "date": "2026-11-17"
     }
   ],
   "reader_pushed": {
@@ -366,6 +366,12 @@
     "https://www.biopharmadive.com/news/summit-akeso-fda-ivonescimab-reject-egfr-lung-cancer/874745/": "2026-11-16",
     "https://mbideepdives.substack.com/p/modeling-alphabet-part-1-search-gemini?r=w2qs": "2026-11-16",
     "https://mbideepdives.substack.com/p/modeling-alphabet-part-1-search-gemini?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUxOTE1MzcsImlhdCI6MTc5NDg1MjUzMiwiZXhwIjoxNzk3NDQ0NTMyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.Ck7-SSksmepO5t37zWoCeKO_FyfzHINMQZITti7gsaw": "2026-11-16",
-    "https://thetranscript.substack.com/p/11-16-2026-international-intrigue?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUxNjg4NzYsImlhdCI6MTc5NDgzMDc1MSwiZXhwIjoxNzk3NDIyNzUxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.XHcx8L-DQlutVd9tLt6rEE8o5z9T84BeK6NteEvI1cI": "2026-11-16"
+    "https://thetranscript.substack.com/p/11-16-2026-international-intrigue?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUxNjg4NzYsImlhdCI6MTc5NDgzMDc1MSwiZXhwIjoxNzk3NDIyNzUxLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.XHcx8L-DQlutVd9tLt6rEE8o5z9T84BeK6NteEvI1cI": "2026-11-16",
+    "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/": "2026-11-17",
+    "https://www.oaktreecapital.com/docs/default-source/memos/a-layman-thinks-about-ai.pdf": "2026-11-17",
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol/": "2026-11-17",
+    "https://www.mckinsey.com/industries/healthcare/our-insights/future-of-healthcare": "2026-11-17",
+    "https://mbideepdives.substack.com/p/modeling-alphabet-part-2-cloud-capex?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUzNDY0NTUsImlhdCI6MTc5NDkzNTI0NywiZXhwIjoxNzk3NTI3MjQ3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.l6qzMRi6Ty47LnUKFExKKSc264JXBkzCRXONC0m-wDo": "2026-11-17",
+    "https://thetranscript.substack.com/p/11-17-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUxNzU5MjMsImlhdCI6MTc5NDkxNjk5MiwiZXhwIjoxNzk3NTA4OTkyLCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.-0AiCj81u2ZfcSHwklWczCON5yVKeBavnYPwL44NMYA": "2026-11-17"
   }
 }
