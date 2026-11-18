@@ -3563,5 +3563,29 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-11-18",
+    "checked_unique": 69,
+    "checked_slots": 72,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 4,
+        "broken_source": "Scuttleblurb",
+        "broken_url": "https://scuttleblurb.com",
+        "substitute_source": "BioSpace",
+        "substitute_headline": "Biotech earnings: Arrowhead's Ionis problem, Kyverna's next-gen exit",
+        "substitute_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWpY_J7M3cY1W6vFLT13D4p1CW4gSXWJ5XjWLFN54gmQ05nR3bW8wM7ks6lZ3nMW3NMlYj1Qyf_YW4X0stk7XkCVRW6mvJnz1l7T1vW3x_QQQ2WBdRSVzW4hd6vWrlzW1gnsl_6Qf76vW21QzHM30T4RgW31TJJh2YhYj-W47CW938R6fHsVmcP8Y6MybB7W4WRl982dd_DbW1wNYbt3_4lsLW7vHdKY7nZslLV3-Dw83F3y2QN7YK7XSGCdKvVyBKS02kh7XpW7wrSnZ8WgzFJN65j05g4ypXVW3YmwGb3R-k9HW3TWccs1nqyzDMgrH7FCb5jvW7Vs2f71Wwf-2W2TXrlV7B-FyLMkmmZFGkh-FW5fTN7z8J0cclW28g8fp3WV-MrV8dh8G6DpNq2W7KGFC76PMYz3W4zqCTN5RZ0B0W1y9N_j7l8zv2W2G-Nrd6PhrCCW33CYNK4vFZBqW5kHYBG4fHHnHV1smzJ4hwH_lW3H3kCb95z9RQW7dNVZR6djdJCW43n-2z93Tn3pW19GX3D5_w7VRW4HDQH17Wcb95W8FwP1s6qZZLwW6ByPHq2P8pnjW723DFp3Q6RyFW6lf4VM2ryp4DW2YgsJL3GRPXwf2Tk_gC04"
+      }
+    ],
+    "dropped_items": []
   }
 ]

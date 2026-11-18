@@ -15640,5 +15640,86 @@
     "extraction_tier": "snippet_fallback",
     "passed": true,
     "reason": "McKinsey is a high-priority consulting source and the summary describes substantive structural analysis \u2014 AI-native care delivery, care-at-home shifts, payer-provider dynamics, and data platform moats \u2014 directly aligned with the reader's strong preferences for competitive moat analysis, data infrastructure, and AI impact in healthcare."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "STAT+: The emerging winners and losers in the AI scribe market",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text is entirely truncated with no substantive analysis visible, making it impossible to verify depth or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "STAT+: 7 burning questions about the FDA's post-Overton future",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/18/fda-after-heidi-overton-burning-questions-agency-future/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled STAT+ content \u2014 the full text was not retrievable, leaving only navigation chrome and no substantive article body to evaluate for depth or accuracy."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "A Layman Thinks About AI (Howard Marks / Oaktree memo)",
+    "source": "Howard Marks memos (Oaktree / Brookfield)",
+    "url": "https://www.oaktreecapital.com/insights/memo/a-layman-thinks-about-ai",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a substantive Howard Marks memo on AI investing \u2014 but it belongs to Slot 3 (Tech/AI) or Slot 4 (Wildcard), not Slot 1 (Healthcare/Biotech), as it contains no healthcare, biopharma, FDA, or clinical content whatsoever."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "Modeling Alphabet, Part 2: Cloud, Capex, and Valuation",
+    "source": "MBI Deep Dives (Substack)",
+    "url": "https://mbideepdives.substack.com/p/modeling-alphabet-part-2-cloud-capex",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is about Alphabet/Google Cloud valuation and capex \u2014 a Tech/AI topic \u2014 and has no relevance to Healthcare/Biotech (Slot 1)."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "Pfizer leaps into 'in vivo' CAR-T with latest China deal",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/pfizer-starna-in-vivo-cell-therapy-autoimmune-disease-deal/875018/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive content covering Pfizer's $2.6B in vivo CAR-T deal with Starna Therapeutics, situating it within the competitive landscape of cell therapy for autoimmune diseases and fitting squarely within the Healthcare/Biotech slot on a meaningful M&A/pipeline development."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "Money Stuff: The Agents Will Trade the Bonds",
+    "source": "Bloomberg (Matt Levine)",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-17/the-agents-will-trade-the-bonds",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "Matt Levine's Money Stuff delivers substantive analytical depth on AI agents in capital markets, connecting DeFi/MEV concepts to fixed-income market microstructure, liability, and regulation \u2014 directly matching the reader's strong preferences for AI impact, structural market insight, and analytical depth."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "A Layman Thinks About AI (Howard Marks / Oaktree memo)",
+    "source": "Howard Marks memos (Oaktree / Brookfield)",
+    "url": "https://www.oaktreecapital.com/insights/memo/a-layman-thinks-about-ai",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Howard Marks's memo delivers genuine analytical depth on AI investment uncertainty \u2014 structured around specific epistemic questions about technology evolution, competitive dynamics, and capital allocation \u2014 matching both the Tech/AI slot and this reader's strong preference for practitioner-level, long-form investment thinking."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "Only 1 in 10 payers ready for electronic prior authorization in 2027: Survey",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/only-1-in-10-payers-ready-for-electronic-prior-authorization-in-2027-survey/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a data-rich survey recap with genuine substance and regulatory relevance, but it reads as a compliance status update rather than deep analytical or investment-grade content \u2014 it lacks the structural market insight, competitive moat analysis, or forward-looking strategic framing that would satisfy the Wildcard slot's 'would I forward this?' test for this reader profile."
+  },
+  {
+    "date": "2026-11-18",
+    "headline": "[scuttleslops] FICO, PAYC, ABNB, TREX, Anthropic",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article is a multi-company Scuttleblurb 'slops' digest covering FICO pricing dynamics, Paycom's AI self-disruption thesis, Airbnb's platform ambition, Trex's volume/pricing tradeoff, and Anthropic's IPO positioning \u2014 exactly the kind of practitioner-grade competitive moat analysis that matches the reader's strong preferences for analytical depth, structural insight, and investment-relevant content across multiple names."
   }
 ]

@@ -1,0 +1,81 @@
+{
+  "run_date": "2026-11-18",
+  "generated_at": "2026-11-18T19:58:11Z",
+  "counts": {
+    "gmail_items": 145,
+    "tier2_items": 88,
+    "selected_articles": 4
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "89f77efa9c4f07ba",
+      "headline": "Pfizer leaps into 'in vivo' CAR-T with latest China deal",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/pfizer-starna-in-vivo-cell-therapy-autoimmune-disease-deal/875018/",
+      "slot": 1,
+      "summary": "Pfizer has signed a potentially $2.6 billion collaboration with China-based Starna Therapeutics to develop in vivo CAR-T cell therapies targeting autoimmune diseases, joining a competitive race to reprogram immune cells inside the body rather than through costly ex vivo manufacturing. The deal reflects Pfizer's strategic push to build a next-generation cell therapy platform as a growth engine beyond crowded GLP-1 and oncology spaces. It also continues Pfizer's pattern of China-sourced licensing deals as it seeks pipeline replenishment amid post-COVID revenue normalization.",
+      "why_it_matters": "This deal signals where Big Pharma is placing long-term bets on durable autoimmune moats, with direct read-throughs for competing in vivo cell therapy platforms and potential M&A targets in the space.",
+      "signal_tags": [
+        "ticker_match:PFE",
+        "investment_relevant_insights",
+        "catalyst_proximity",
+        "forward_looking_perspective",
+        "gene_therapy_development"
+      ],
+      "reading_time": "3 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "459ccfedfe417588",
+      "headline": "Money Stuff: The Agents Will Trade the Bonds",
+      "source": "Bloomberg (Matt Levine)",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-17/the-agents-will-trade-the-bonds",
+      "slot": 2,
+      "summary": "Matt Levine explores the emerging reality of autonomous AI agents trading bonds and other financial instruments, using the concept of MEV (maximal extractable value) from DeFi as a lens to examine how agentic systems will reshape market microstructure, liquidity dynamics, and regulatory accountability in traditional fixed-income markets. He interrogates who bears liability when an AI agent executes a trade gone wrong, and how existing compliance and risk frameworks struggle to accommodate non-human decision-makers operating at machine speed. The piece is characteristically Levine: a specific emerging-tech development used to illuminate deep structural questions about how markets actually work.",
+      "why_it_matters": "AI agents entering bond markets is a structural shift with direct implications for liquidity provision, compliance infrastructure, and risk management \u2014 and understanding this dynamic early is relevant for anyone positioning around market-structure winners or assessing operational risk in financial services.",
+      "signal_tags": [
+        "ai_impact",
+        "structural_market_insight",
+        "analytical_depth",
+        "data_infrastructure",
+        "investment_relevant_insights"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "74331fb5dfb79be7",
+      "headline": "A Layman Thinks About AI (Howard Marks / Oaktree memo)",
+      "source": "Howard Marks memos (Oaktree / Brookfield)",
+      "url": "https://www.oaktreecapital.com/insights/memo/a-layman-thinks-about-ai",
+      "slot": 3,
+      "summary": "Howard Marks applies his signature risk-first, second-level thinking to AI investing, organizing the memo around a series of hard questions: how AI actually works (citing Claude on interpretability gaps), what it will be able to do, who will capture value, and whether current valuations reflect realistic probability-weighted outcomes. He is characteristically skeptical of consensus bullishness, emphasizing the multiplicative uncertainty across technology evolution, competitive structure, demand forecasting, and timing. Rather than offering a buy/sell verdict, he frames AI as a domain where the incompleteness of investor knowledge is unusually high \u2014 and argues that acknowledging this is itself a form of edge.",
+      "why_it_matters": "For a reader who prizes analytical depth and structural market insight, this memo is a rare document: a credible long-term capital allocator stress-testing the AI consensus narrative with a probabilistic framework, directly relevant to portfolio positioning in AI-adjacent equities.",
+      "signal_tags": [
+        "priority:high",
+        "elite_fund_practitioner_content",
+        "ai_impact",
+        "long_form_investment_writing",
+        "analytical_depth",
+        "venture_capital_insights"
+      ],
+      "reading_time": "14 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "899b8775ea8394f8",
+      "headline": "Biotech earnings: Arrowhead's Ionis problem, Kyverna's next-gen exit",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWpY_J7M3cY1W6vFLT13D4p1CW4gSXWJ5XjWLFN54gmQ05nR3bW8wM7ks6lZ3nMW3NMlYj1Qyf_YW4X0stk7XkCVRW6mvJnz1l7T1vW3x_QQQ2WBdRSVzW4hd6vWrlzW1gnsl_6Qf76vW21QzHM30T4RgW31TJJh2YhYj-W47CW938R6fHsVmcP8Y6MybB7W4WRl982dd_DbW1wNYbt3_4lsLW7vHdKY7nZslLV3-Dw83F3y2QN7YK7XSGCdKvVyBKS02kh7XpW7wrSnZ8WgzFJN65j05g4ypXVW3YmwGb3R-k9HW3TWccs1nqyzDMgrH7FCb5jvW7Vs2f71Wwf-2W2TXrlV7B-FyLMkmmZFGkh-FW5fTN7z8J0cclW28g8fp3WV-MrV8dh8G6DpNq2W7KGFC76PMYz3W4zqCTN5RZ0B0W1y9N_j7l8zv2W2G-Nrd6PhrCCW33CYNK4vFZBqW5kHYBG4fHHnHV1smzJ4hwH_lW3H3kCb95z9RQW7dNVZR6djdJCW43n-2z93Tn3pW19GX3D5_w7VRW4HDQH17Wcb95W8FwP1s6qZZLwW6ByPHq2P8pnjW723DFp3Q6RyFW6lf4VM2ryp4DW2YgsJL3GRPXwf2Tk_gC04",
+      "slot": 4,
+      "summary": "Plus, ObesityWeek 2026 pushes beyond GLP-1s \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-4 pick (Scuttleblurb) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    }
+  ]
+}
