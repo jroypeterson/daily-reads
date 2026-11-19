@@ -15721,5 +15721,68 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The article is a multi-company Scuttleblurb 'slops' digest covering FICO pricing dynamics, Paycom's AI self-disruption thesis, Airbnb's platform ambition, Trex's volume/pricing tradeoff, and Anthropic's IPO positioning \u2014 exactly the kind of practitioner-grade competitive moat analysis that matches the reader's strong preferences for analytical depth, structural insight, and investment-relevant content across multiple names."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "Anthropic's Kill Shot?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Tech/AI article about Anthropic's IPO and competitive AI dynamics \u2014 it has no meaningful connection to Healthcare/Biotech (Slot 1)."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "Epic defends competitive practices, promises to give more access to AI agents",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article has substantive depth covering Epic's public defense of its data practices, the MCP announcement with a concrete Q1 2027 timeline, the Texas lawsuit, multi-AG investigation, and the structural implications for health AI deployment \u2014 directly relevant to health data infrastructure, a strong reader preference."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "This Week in Stratechery: The End of Jensen",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaHWE0wUfz2vKYr_6ZefYoCCw75NSsw2bsbggmn69V0.vhMnJE2WlQAskw4LWh8yYQ",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a weekly newsletter table-of-contents digest from Stratechery, not a substantive analytical article \u2014 it contains only brief teasers and links to the actual coverage, with no real analytical depth on the Jensen Huang story or its investment implications."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "Wall Street's $500 Billion Pledge to Nvidia Hasn't Materialized",
+    "source": "WSJ Newsletters",
+    "url": "https://www.wsj.com/world/wall-street-pledged-500-billion-for-nvidia-not-a-dollar-has-been-deployed-6bee9560?mod=djem10point",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "This WSJ investigation into the gap between AI capex pledges and actual Nvidia purchase orders is substantive, timely (coinciding with Nvidia earnings and Anthropic IPO), and directly challenges a core investment thesis driving semiconductor and infrastructure valuations."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "Anthropic's Kill Shot?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source that matches the reader's strong preferences for analytical depth, AI impact, and investment-relevant insights, and the Anthropic S-1 analysis offers substantive competitive and valuation framing across the AI value chain."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "Sanofi gains FDA clearance for Gaucher disease pill (Infilbray/venglustat)",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/sanofi-fda-infilbray-venglustat-approve-gaucher/875167/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a standard FDA approval news item \u2014 thin on analytical depth, niche therapeutic area (rare disease), and belongs in Slot 1 (Healthcare/Biopharma), not the Wildcard slot; it also matches the reader's 'niche therapeutics' avoid pattern."
+  },
+  {
+    "date": "2026-11-19",
+    "headline": "China could 'corner' biopharma sector with new plan, US panel warns",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/us-china-biotech-report-commission-supply-chain-2026/875170/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief reporting on a congressional commission warning about China biopharma supply chain risk \u2014 it lacks the analytical depth, structural insight, or cross-domain novelty required for the Wildcard slot, and the full text is largely obscured by newsletter signup walls with no substantive policy detail, CDMO names, or investment framework visible."
   }
 ]

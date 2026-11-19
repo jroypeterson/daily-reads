@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-11-19",
+  "generated_at": "2026-11-19T19:57:18Z",
+  "counts": {
+    "gmail_items": 148,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "af7fdbf49fed104b",
+      "headline": "Epic defends competitive practices, promises to give more access to AI agents",
+      "source": "STAT News",
+      "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/",
+      "slot": 1,
+      "summary": "At HLTH 2026, Epic executives publicly defended their data-sharing practices for the first time following a STAT investigation alleging anticompetitive withholding, while announcing plans to support AI agent access to EHR data via Model Context Protocol (MCP) by Q1 2027. Epic \u2014 which holds records on 280+ million Americans and fielded 75,000 integration requests last year \u2014 faces a Texas antitrust lawsuit and scrutiny from multiple state attorneys general. The MCP commitment would allow AI agents to pull patient data at the point of care, but critics question whether Epic will follow through given its history of blocking third-party access.",
+      "why_it_matters": "Epic's data monopoly is the central chokepoint for health AI deployment, and its MCP commitment combined with mounting antitrust pressure will determine whether health AI startups and enterprise platforms can access the patient records needed to build competitive products.",
+      "signal_tags": [
+        "health_data_infrastructure",
+        "corporate_governance",
+        "competitive_moat_analysis",
+        "ai_impact",
+        "regulatory_affairs",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "3c7bd53c0cbae1e5",
+      "headline": "Wall Street's $500 Billion Pledge to Nvidia Hasn't Materialized",
+      "source": "WSJ Newsletters",
+      "url": "https://www.wsj.com/world/wall-street-pledged-500-billion-for-nvidia-not-a-dollar-has-been-deployed-6bee9560?mod=djem10point",
+      "slot": 2,
+      "summary": "WSJ investigates the significant disconnect between the $500B in AI infrastructure commitments announced by major companies and the actual capital deployed in real purchase orders with Nvidia. The piece arrives at a critical moment alongside Nvidia Q3 earnings and Anthropic's IPO, casting scrutiny on whether the AI capex supercycle narrative is overblown. The gap between pledged and executed spending has material implications for semiconductors, cloud hyperscalers, and power infrastructure investors.",
+      "why_it_matters": "If the AI infrastructure buildout is more hype than hard orders, the capex-driven bull thesis for Nvidia, data center REITs, and power infrastructure names faces a serious stress test at exactly the wrong moment.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "structural_market_insight",
+        "actionability",
+        "analytical_depth",
+        "ai_impact"
+      ],
+      "reading_time": "5 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "8cef60007d473f96",
+      "headline": "Anthropic's Kill Shot?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+      "slot": 3,
+      "summary": "MBI Deep Dives conducts a deep dive into Anthropic's S-1 filing \u2014 the largest IPO in history at $81.3B raised \u2014 examining its revenue model (79% usage-based, ~900% NRR) and competitive positioning. The piece argues the S-1 is the most clarifying document yet for the AI trade thesis and that it materially raises competitive risk for OpenAI. It draws out implications for the broader AI value chain that most investors have yet to fully internalize.",
+      "why_it_matters": "For any investor with AI exposure, the Anthropic S-1 is now a primary source document, and this analysis distills the key competitive dynamics, unit economics, and strategic signals that should inform portfolio positioning across the AI ecosystem.",
+      "signal_tags": [
+        "priority:high",
+        "novelty",
+        "actionability",
+        "ai_impact",
+        "venture_capital_insights",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    }
+  ]
+}

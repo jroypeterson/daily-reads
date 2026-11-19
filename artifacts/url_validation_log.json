@@ -3587,5 +3587,27 @@
       }
     ],
     "dropped_items": []
+  },
+  {
+    "date": "2026-11-19",
+    "checked_unique": 72,
+    "checked_slots": 74,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 1,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "triage",
+        "source": "Hacker News",
+        "headline": "Show HN: Cornhole News \u2013 A Hacker News inspired site for news across the Midwest",
+        "url": ""
+      }
+    ]
   }
 ]

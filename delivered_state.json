@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "1ac2466d1d155287",
-      "date": "2026-11-04"
-    },
-    {
       "id": "b81ea4eef355105f",
       "date": "2026-11-05"
     },
@@ -147,6 +143,18 @@
     {
       "id": "899b8775ea8394f8",
       "date": "2026-11-18"
+    },
+    {
+      "id": "af7fdbf49fed104b",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "3c7bd53c0cbae1e5",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "8cef60007d473f96",
+      "date": "2026-11-19"
     }
   ],
   "reader_pushed": {
@@ -389,6 +397,10 @@
     "https://www.bloomberg.com/opinion/newsletters/2026-11-17/the-agents-will-trade-the-bonds": "2026-11-18",
     "https://www.oaktreecapital.com/insights/memo/a-layman-thinks-about-ai": "2026-11-18",
     "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VWpY_J7M3cY1W6vFLT13D4p1CW4gSXWJ5XjWLFN54gmQ05nR3bW8wM7ks6lZ3nMW3NMlYj1Qyf_YW4X0stk7XkCVRW6mvJnz1l7T1vW3x_QQQ2WBdRSVzW4hd6vWrlzW1gnsl_6Qf76vW21QzHM30T4RgW31TJJh2YhYj-W47CW938R6fHsVmcP8Y6MybB7W4WRl982dd_DbW1wNYbt3_4lsLW7vHdKY7nZslLV3-Dw83F3y2QN7YK7XSGCdKvVyBKS02kh7XpW7wrSnZ8WgzFJN65j05g4ypXVW3YmwGb3R-k9HW3TWccs1nqyzDMgrH7FCb5jvW7Vs2f71Wwf-2W2TXrlV7B-FyLMkmmZFGkh-FW5fTN7z8J0cclW28g8fp3WV-MrV8dh8G6DpNq2W7KGFC76PMYz3W4zqCTN5RZ0B0W1y9N_j7l8zv2W2G-Nrd6PhrCCW33CYNK4vFZBqW5kHYBG4fHHnHV1smzJ4hwH_lW3H3kCb95z9RQW7dNVZR6djdJCW43n-2z93Tn3pW19GX3D5_w7VRW4HDQH17Wcb95W8FwP1s6qZZLwW6ByPHq2P8pnjW723DFp3Q6RyFW6lf4VM2ryp4DW2YgsJL3GRPXwf2Tk_gC04": "2026-11-18",
-    "https://mbideepdives.substack.com/p/digital-advertising-industry-snapshot-afe?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU0OTY0MjUsImlhdCI6MTc5NTAxMjg2MiwiZXhwIjoxNzk3NjA0ODYyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.2DDbWZeED4mPp0B5FuZ2v2PBbx_SxWqgE52aG3x_ByI": "2026-11-18"
+    "https://mbideepdives.substack.com/p/digital-advertising-industry-snapshot-afe?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU0OTY0MjUsImlhdCI6MTc5NTAxMjg2MiwiZXhwIjoxNzk3NjA0ODYyLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.2DDbWZeED4mPp0B5FuZ2v2PBbx_SxWqgE52aG3x_ByI": "2026-11-18",
+    "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/": "2026-11-19",
+    "https://www.wsj.com/world/wall-street-pledged-500-billion-for-nvidia-not-a-dollar-has-been-deployed-6bee9560?mod=djem10point": "2026-11-19",
+    "https://mbideepdives.substack.com/p/anthropics-kill-shot": "2026-11-19",
+    "https://mbideepdives.substack.com/p/anthropics-kill-shot?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU1NzEzNDMsImlhdCI6MTc5NTEwNzY3NywiZXhwIjoxNzk3Njk5Njc3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.jNRuWNW5--OyrDUDIKDBcrx41Yv8lH3Djw06Z5CVaGY": "2026-11-19"
   }
 }
