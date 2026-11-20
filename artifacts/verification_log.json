@@ -15784,5 +15784,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article is a thin news brief reporting on a congressional commission warning about China biopharma supply chain risk \u2014 it lacks the analytical depth, structural insight, or cross-domain novelty required for the Wildcard slot, and the full text is largely obscured by newsletter signup walls with no substantive policy detail, CDMO names, or investment framework visible."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "What to expect in US healthcare in 2027 and beyond",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's forward-looking healthcare analysis is a high-priority consulting source covering structural shifts in payers, providers, and health tech that aligns well with the reader's interest in competitive moat analysis, deep business diligence, and strategic frameworks for portfolio construction."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "Anthropic's Kill Shot?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-priority long-form investment writing source well-matched to the reader's strong preferences for analytical depth and investment-relevant insights, and the Anthropic IPO framing as a structural market catalyst fits Slot 2's finance/macro theme substantively."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "The Cost of Human Frailty: Nvidia's Jensen Huang Test!",
+    "source": "Musings on Markets (Damodaran)",
+    "url": "https://aswathdamodaran.blogspot.com/2026/11/the-cost-of-human-frailty-nvidias.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "Despite strong analytical depth and Damodaran's rigorous valuation framework, this article is fundamentally about corporate governance and CEO key-man risk at Nvidia \u2014 it fits Slot 2 (Finance/Markets) or Slot 4 (Wildcard) far better than Slot 3 (Tech/AI), which requires AI breakthroughs, infrastructure, or enterprise adoption content."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "Language Models Can Rewrite Their Own Weights",
+    "source": "arXiv (via Hacker News)",
+    "url": "https://arxiv.org/abs/2611.21885",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a genuine research paper with substantive technical claims, but it is dated November 2026 \u2014 a future date that does not exist \u2014 making it either a fabricated or misdated submission that cannot be verified or acted upon as real current news."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+    "source": "Architect Labs (via Hacker News)",
+    "url": "https://architectlabs.com/blog/frostbite",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides deep technical substance on a genuinely novel AI achievement \u2014 end-to-end autonomous CPU architecture design with formal verification and measurable performance gains \u2014 directly fitting Slot 3's AI infrastructure and foundational advances theme."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "Insurer stocks tumble as Democrats eye expanded Medicare",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/financial/insurer-stocks-tumble-as-democrats-eye-expanded-medicare/",
+    "extraction_tier": "snippet_fallback",
+    "passed": false,
+    "reason": "This is a Finance/Markets story about managed care policy impact on payer stocks \u2014 it fits Slot 2, not Slot 4 Wildcard, and Becker's Payer Issues is not a priority source for any slot."
+  },
+  {
+    "date": "2026-11-20",
+    "headline": "Erasca data add to pressure facing Revolution's breakthrough cancer drug",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/erasca-kras-pancreatic-cancer-drug-results-revolution-rasonque/875314/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article returned a 403 error and no actual content was retrieved, making it impossible to verify substance, depth, or accuracy of the shortlist summary."
   }
 ]

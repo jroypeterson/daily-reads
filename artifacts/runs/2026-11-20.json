@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-11-20",
+  "generated_at": "2026-11-20T19:40:14Z",
+  "counts": {
+    "gmail_items": 154,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "329e3665f4d1890d",
+      "headline": "What to expect in US healthcare in 2027 and beyond",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+      "slot": 1,
+      "summary": "McKinsey examines the structural forces reshaping US healthcare through 2027 and beyond, covering payer dynamics including Medicare Advantage pressures, provider consolidation trends, and technology adoption curves across the sector. The analysis addresses policy transition impacts, cost pressures, and where value is migrating across the healthcare value chain. It provides a consulting-grade framework for understanding which subsectors face headwinds versus tailwinds in the medium term.",
+      "why_it_matters": "For investors building positions across the healthcare coverage universe, this provides a thematic roadmap for sector rotation between payers, providers, and health tech as structural pressures converge heading into 2027.",
+      "signal_tags": [
+        "priority:high",
+        "ticker_match:HCAT",
+        "ticker_match:HR",
+        "consulting_source",
+        "forward_looking",
+        "healthcare_policy"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "8cef60007d473f96",
+      "headline": "Anthropic's Kill Shot?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+      "slot": 2,
+      "summary": "MBI Deep Dives examines Anthropic's IPO as a potential inflection point for the AI investment landscape, analyzing whether Anthropic's business model and public debut pose a structural threat to incumbent AI players or serve as a broader market catalyst. The piece applies the deep diligence lens MBI is known for, assessing competitive moat, monetization dynamics, and valuation framing. It goes beyond news coverage to offer an investment thesis around the event.",
+      "why_it_matters": "For a reader tracking AI impact and competitive moat analysis, this piece offers the rare combination of practitioner-grade analytical depth on one of the most consequential AI market events of the year \u2014 making it actionable for portfolio positioning rather than just informational.",
+      "signal_tags": [
+        "priority:high",
+        "novelty",
+        "AI_impact",
+        "actionability",
+        "long_form_investment_writing",
+        "catalyst_proximity"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "5f56953296751eeb",
+      "headline": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "source": "Architect Labs (via Hacker News)",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "slot": 3,
+      "summary": "Architect Labs introduces Frostbite, a general-purpose CPU architecture fully discovered, designed, and formally verified by AI agents without human architectural priors. The system exploits interaction nets \u2014 a programming model where all dependencies are explicit and local \u2014 achieving a 4.59x performance-per-watt improvement over a modern silicon-proven superscalar CPU core across 25 workloads. The AI autonomously iterated across the full stack: compiler, ISA, microarchitecture, RTL, verification, and final GDS layout.",
+      "why_it_matters": "Autonomous AI-driven chip design compresses the hardware development cycle and challenges the deep moat of incumbent semiconductor design teams, with direct implications for AI infrastructure buildout and the competitive dynamics of the chip industry.",
+      "signal_tags": [
+        "novelty",
+        "AI_impact",
+        "data_infrastructure",
+        "forward_looking",
+        "hn_score:532"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    }
+  ]
+}

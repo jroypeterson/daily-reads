@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "b81ea4eef355105f",
-      "date": "2026-11-05"
-    },
-    {
-      "id": "b7479a3e6183edbc",
-      "date": "2026-11-05"
-    },
-    {
-      "id": "d3955f062b481570",
-      "date": "2026-11-05"
-    },
-    {
       "id": "e3ad219cdf6af8be",
       "date": "2026-11-06"
     },
@@ -155,6 +143,14 @@
     {
       "id": "8cef60007d473f96",
       "date": "2026-11-19"
+    },
+    {
+      "id": "329e3665f4d1890d",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "a6e96601ab739a82",
+      "date": "2026-11-20"
     }
   ],
   "reader_pushed": {
@@ -401,6 +397,9 @@
     "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/": "2026-11-19",
     "https://www.wsj.com/world/wall-street-pledged-500-billion-for-nvidia-not-a-dollar-has-been-deployed-6bee9560?mod=djem10point": "2026-11-19",
     "https://mbideepdives.substack.com/p/anthropics-kill-shot": "2026-11-19",
-    "https://mbideepdives.substack.com/p/anthropics-kill-shot?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU1NzEzNDMsImlhdCI6MTc5NTEwNzY3NywiZXhwIjoxNzk3Njk5Njc3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.jNRuWNW5--OyrDUDIKDBcrx41Yv8lH3Djw06Z5CVaGY": "2026-11-19"
+    "https://mbideepdives.substack.com/p/anthropics-kill-shot?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU1NzEzNDMsImlhdCI6MTc5NTEwNzY3NywiZXhwIjoxNzk3Njk5Njc3LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.jNRuWNW5--OyrDUDIKDBcrx41Yv8lH3Djw06Z5CVaGY": "2026-11-19",
+    "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f": "2026-11-20",
+    "https://architectlabs.com/blog/frostbite": "2026-11-20",
+    "https://mbideepdives.substack.com/p/key-man-risk?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU3OTQzMTIsImlhdCI6MTc5NTE5NTA5MCwiZXhwIjoxNzk3Nzg3MDkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uBHenVhB1Ay6C9zb1yayBORKg6H6aJk2OyLEXorc9z8": "2026-11-20"
   }
 }
