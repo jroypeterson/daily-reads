@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-11-21",
+  "generated_at": "2026-11-21T18:41:53Z",
+  "counts": {
+    "gmail_items": 147,
+    "tier2_items": 89,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "329e3665f4d1890d",
+      "headline": "What to expect in US healthcare in 2027 and beyond",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+      "slot": 1,
+      "summary": "McKinsey projects major structural shifts in the US healthcare system through 2027 and beyond, spanning policy evolution, technology adoption curves, and payer/provider dynamics. The report synthesizes trends across managed care, employer benefits, and health IT, offering a cross-sector strategic lens. As an annual consulting synthesis, it functions as a macro positioning guide for investors across the healthcare coverage universe.",
+      "why_it_matters": "Identifies where structural tailwinds and headwinds are building across managed care, health IT, and benefits \u2014 directly relevant for portfolio positioning in healthcare equities heading into 2027.",
+      "signal_tags": [
+        "priority:high",
+        "source:mckinsey",
+        "ticker_match:HCAT",
+        "ticker_match:HR",
+        "forward_looking",
+        "structural_market_insight"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "8cef60007d473f96",
+      "headline": "Anthropic's Kill Shot?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+      "slot": 2,
+      "summary": "MBI Deep Dives provides a deep analytical examination of Anthropic's IPO, assessing its competitive positioning within the AI landscape, its revenue model, and the broader implications for the AI trade thesis. The piece was written ahead of the post-IPO selloff, making it a forward-looking analytical framework for evaluating whether the AI sector's structural growth narrative remains intact. A companion piece on Nvidia's 'Key Man Risk' adds further context on leadership vulnerability at another AI bellwether.",
+      "why_it_matters": "With Anthropic's debut triggering an AI-sector selloff that erased Nasdaq's 2026 gains, this piece offers the analytical depth needed to assess whether the AI investment thesis has structurally changed or whether this is a tactical dislocation \u2014 directly actionable for portfolio positioning.",
+      "signal_tags": [
+        "priority:high",
+        "source:mbi",
+        "catalyst_proximity",
+        "ai_impact",
+        "structural_market_insight",
+        "analytical_depth"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "8ce0e482717086c9",
+      "headline": "Language Models Can Rewrite Their Own Weights",
+      "source": "arXiv (via Hacker News)",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "slot": 3,
+      "summary": "Researchers demonstrate 'self-rewriting,' in which a 27B language model uses its own reasoning (no gradients, no retraining) to directly modify its own weight matrices after diagnosing its failures on graded answers. Over eight consecutive sessions, the model's accuracy improves monotonically, and it can even restore a damaged copy of itself to over 80% of original accuracy on unseen tasks \u2014 without ever reading the original weights. The capability scales with model size: smaller models in the same family fail or break themselves, while only the largest successfully self-improves.",
+      "why_it_matters": "If self-rewriting scales, it dissolves the training/inference boundary and suggests a path to recursive self-improvement that could dramatically compress AI capability timelines \u2014 with downstream implications for AI-driven drug discovery, biology modeling, and the infrastructure stack built around fixed-weight deployment assumptions.",
+      "signal_tags": [
+        "hn_score:464",
+        "ai_biology_intersection",
+        "foundational_model_advance",
+        "novelty",
+        "ai_impact"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": false
+    }
+  ]
+}

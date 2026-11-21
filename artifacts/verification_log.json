@@ -15847,5 +15847,59 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article returned a 403 error and no actual content was retrieved, making it impossible to verify substance, depth, or accuracy of the shortlist summary."
+  },
+  {
+    "date": "2026-11-21",
+    "headline": "What to expect in US healthcare in 2027 and beyond",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual healthcare outlook is a high-priority consulting source delivering a rare macro-structural synthesis across payer, provider, and health IT dynamics \u2014 well-matched to Slot 1 and the reader's appetite for deep, forward-looking investment frameworks."
+  },
+  {
+    "date": "2026-11-21",
+    "headline": "Anthropic's Kill Shot?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a high-priority long-form practitioner source that matches the reader's strong preferences for analytical depth and investment-relevant insights, and the Anthropic IPO/AI trade thesis is a substantive Finance/Macro catalyst this week."
+  },
+  {
+    "date": "2026-11-21",
+    "headline": "FDA rejects Capricor Therapeutics' Duchenne therapy, a decision that was a long time coming",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/20/fda-rejects-capricor-duchenne-therapy/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a healthcare/biotech regulatory story (FDA CRL for Capricor's DMD cell therapy) with no Tech/AI content \u2014 it belongs in Slot 1, not Slot 3."
+  },
+  {
+    "date": "2026-11-21",
+    "headline": "CMS issues Medicare Advantage proposals aimed at boosting competition",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/regulatory/cms-issues-medicare-advantage-proposals-aimed-boosting-competition",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a healthcare regulatory article that clearly belongs to Slot 1, not Slot 3 (Tech/AI) \u2014 it contains no AI, technology, or infrastructure content whatsoever."
+  },
+  {
+    "date": "2026-11-21",
+    "headline": "[scuttleslops] RELY, WISE, TDG, AI, NVDA",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article text is a collection of teaser blurbs and upcoming post lists from Scuttleblurb's 'slops' format \u2014 the actual substantive content on NVDA, AI, and the other tickers is behind a paywall and not present in the provided text, making it too thin to evaluate for real depth or slot fit."
+  },
+  {
+    "date": "2026-11-21",
+    "headline": "Language Models Can Rewrite Their Own Weights",
+    "source": "arXiv (via Hacker News)",
+    "url": "https://arxiv.org/abs/2611.21885",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The paper presents substantive, novel research demonstrating that a 27B open model can rewrite its own weights through forward-pass reasoning alone \u2014 achieving 6.6-point accuracy gains and self-repair without gradient updates \u2014 which is a genuine foundational advance directly matching Slot 3's 'foundational model advances' criterion and the reader's strong AI-impact interest."
   }
 ]
