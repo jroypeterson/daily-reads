@@ -1,0 +1,64 @@
+{
+  "run_date": "2026-11-22",
+  "generated_at": "2026-11-22T19:04:35Z",
+  "counts": {
+    "gmail_items": 142,
+    "tier2_items": 77,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "329e3665f4d1890d",
+      "headline": "What to expect in US healthcare in 2027 and beyond",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+      "slot": 1,
+      "summary": "McKinsey projects US healthcare industry EBITDA growth decelerating to ~1% annually through 2027, driven by ACA subsidy expirations and Medicaid disenrollment of 7\u20139 million lives by 2028, creating significant margin pressure on payers and providers. Healthcare services and technology (HST) is identified as the fastest-growing segment, while AI and automation are estimated to unlock 9\u201315% of national health expenditure. Specific quantified upside is cited for providers (11\u201317% gross revenue lift) and payers (5\u201311% medical cost reduction) via AI-enhanced care management.",
+      "why_it_matters": "Offers a data-grounded 2027 profitability roadmap across healthcare sub-sectors \u2014 identifying which segments face structural compression vs. AI-driven opportunity \u2014 directly useful for portfolio positioning across payers, providers, and HST names.",
+      "signal_tags": [
+        "priority:high",
+        "source_match:mckinsey",
+        "analytical_depth",
+        "investment_relevant",
+        "forward_looking",
+        "regulatory_affairs"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "a51e18c97eba5c55",
+      "headline": "Capricor ramps up manufacturing before FDA decision",
+      "source": "BioSpace",
+      "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX6zj24mVNDWN1W5DzkcC_wfVmLt1V5XsL-ZN3JhCG-5nR3bW8wM7ks6lZ3mxW36d9Gd7-cglCW2Y0kpG8b2yZtW7hgDPR8CSRCtW4mVkfc59ZP-jW3HmMsd927rWLW8cJLp45gNCC_W12vsvm70qzNrW3N2snL1XFhxdW2p7g4y4jT0bFW6t1ChG69Tg_TW8p71yJ8k0ls7W4tcq6Q69JQZnVjm6--8szx_qW3ZH23G6vW1TzW6QRyW08nZ6lKW2Mc4yN13fg9qVP3W_s99f3ZWF5QDhNczdsdW4g0Sf01nQqY2N2Xvg3ByRjLHW1fDf6s7H-nLBW6NsyLX9b1XxMW2l_3mc96mkmdW2KsWnk3jHCJhVHFngQ726TlnW19dTXX8mxQdlW26ByCd3rHwbJW17ctXn5_4lhRW6YPGFL58BjdMW1g4Z1s5PjjK9W1QlV_q95Zy49M9TMRYS9knGW9ktWH41qGynlW5T9q_332Yt-3W3l5Y2c7g-tjFW63rG396VT7GDW6kfPyq3Wf7TFW9147k834Kx_8VpWVWW3XWT__V3s5Xq2WV4YQW2s5Ylk501jscW4vxW5_7Ys-xtW50x__65JL-2nVkRYPP3rpFLhd-ypfq04",
+      "slot": 2,
+      "summary": "Plus, BIO seeks alternatives to China CDMOs in new plan \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f \u034f",
+      "why_it_matters": "Promoted from 'also considered' because the original slot-2 pick (Scuttleblurb) shipped a dead link.",
+      "signal_tags": [],
+      "reading_time": "N/A"
+    },
+    {
+      "article_id": "8cef60007d473f96",
+      "headline": "Anthropic's Kill Shot?",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+      "slot": 3,
+      "summary": "MBI Deep Dives provides a pre-IPO fundamental analysis of Anthropic, modeling its revenue trajectory and assessing whether its AI safety positioning constitutes a durable competitive moat against OpenAI and others. The piece examines Anthropic's cloud revenue-share arrangements with Amazon and Google as structural advantages, and scrutinizes whether the IPO valuation is supportable by underlying economics. The 'kill shot' framing explores whether going public could accelerate enterprise lock-in and competitively disadvantage rivals.",
+      "why_it_matters": "For investors building a framework around AI platform economics \u2014 including healthcare AI infrastructure \u2014 MBI's bottom-up valuation methodology on Anthropic offers a practitioner-grade lens on how foundation model companies convert safety branding and hyperscaler partnerships into durable enterprise revenue.",
+      "signal_tags": [
+        "priority:high",
+        "AI_impact",
+        "venture_capital_insights",
+        "analytical_depth",
+        "investment_relevant",
+        "forward_looking"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    }
+  ]
+}

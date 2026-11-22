@@ -3639,5 +3639,29 @@
     "warned_articles": [],
     "substituted_articles": [],
     "dropped_items": []
+  },
+  {
+    "date": "2026-11-22",
+    "checked_unique": 48,
+    "checked_slots": 48,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 1,
+      "triage_dropped": 0,
+      "always_read_dropped": 0,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [
+      {
+        "slot": 2,
+        "broken_source": "Scuttleblurb",
+        "broken_url": "https://scuttleblurb.com",
+        "substitute_source": "BioSpace",
+        "substitute_headline": "Capricor ramps up manufacturing before FDA decision",
+        "substitute_url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX6zj24mVNDWN1W5DzkcC_wfVmLt1V5XsL-ZN3JhCG-5nR3bW8wM7ks6lZ3mxW36d9Gd7-cglCW2Y0kpG8b2yZtW7hgDPR8CSRCtW4mVkfc59ZP-jW3HmMsd927rWLW8cJLp45gNCC_W12vsvm70qzNrW3N2snL1XFhxdW2p7g4y4jT0bFW6t1ChG69Tg_TW8p71yJ8k0ls7W4tcq6Q69JQZnVjm6--8szx_qW3ZH23G6vW1TzW6QRyW08nZ6lKW2Mc4yN13fg9qVP3W_s99f3ZWF5QDhNczdsdW4g0Sf01nQqY2N2Xvg3ByRjLHW1fDf6s7H-nLBW6NsyLX9b1XxMW2l_3mc96mkmdW2KsWnk3jHCJhVHFngQ726TlnW19dTXX8mxQdlW26ByCd3rHwbJW17ctXn5_4lhRW6YPGFL58BjdMW1g4Z1s5PjjK9W1QlV_q95Zy49M9TMRYS9knGW9ktWH41qGynlW5T9q_332Yt-3W3l5Y2c7g-tjFW63rG396VT7GDW6kfPyq3Wf7TFW9147k834Kx_8VpWVWW3XWT__V3s5Xq2WV4YQW2s5Ylk501jscW4vxW5_7Ys-xtW50x__65JL-2nVkRYPP3rpFLhd-ypfq04"
+      }
+    ],
+    "dropped_items": []
   }
 ]

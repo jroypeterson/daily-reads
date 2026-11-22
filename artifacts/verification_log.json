@@ -15901,5 +15901,77 @@
     "extraction_tier": "trafilatura",
     "passed": true,
     "reason": "The paper presents substantive, novel research demonstrating that a 27B open model can rewrite its own weights through forward-pass reasoning alone \u2014 achieving 6.6-point accuracy gains and self-repair without gradient updates \u2014 which is a genuine foundational advance directly matching Slot 3's 'foundational model advances' criterion and the reader's strong AI-impact interest."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+    "source": "The Guardian (via Hacker News)",
+    "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin, general-audience news piece from The Guardian that lacks investment depth \u2014 no revenue figures, pricing, competitive positioning, or forward catalysts \u2014 and the shortlist summary significantly overstates the article's content by referencing FDA approval, 5,000 commercial patients, EU CHMP opinion, and NSCLC pipeline details that do not appear anywhere in the actual text."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "Key Man Risk",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/key-man-risk",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a substantive corporate governance and key-man risk analysis (centered on Nvidia/NVDA and Meta/Zuckerberg), but it has no meaningful connection to healthcare or biotech \u2014 it belongs to a different slot entirely."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "What to expect in US healthcare in 2027 and beyond",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey's annual healthcare outlook provides substantive sector-wide profitability projections with specific quantified estimates across payers, providers, and HST \u2014 directly actionable for portfolio positioning and aligns with the reader's strong preferences for analytical depth, management consulting research, and investment-relevant insights."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "[scuttleslops] RELY, WISE, TDG, AI, NVDA",
+    "source": "Scuttleblurb",
+    "url": "https://scuttleblurb.com",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "Scuttleblurb's 'slops' format delivers characteristically dense, practitioner-level competitive moat and unit-economics analysis across RELY, Wise, TDG, C3.ai, and NVDA \u2014 directly matching the reader's strong preferences for serial acquirer analysis, competitive moat diligence, and long-form investment writing."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "Down in DC (This Week in Stratechery)",
+    "source": "Stratechery",
+    "url": "https://stratechery.passport.online/c/AWGXFVDcfCRLGYaJYN8GubOwAaH6YjpOdP6qtD92g-R_APlA68jOElSvpch0msG9IBo.HiiNjq7OqxR_8O319kluPg",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a table-of-contents newsletter digest listing article summaries and podcast episodes rather than substantive analysis \u2014 the actual article text contains no depth on AI agents, the Anthropic IPO, or any other topic, just teaser blurbs and promotional copy."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "Anthropic's Kill Shot?",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/anthropics-kill-shot",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source that matches the reader's demonstrated preferences for analytical depth, competitive moat analysis, and AI platform economics, and the Anthropic pre-IPO deep dive offers substantive bottom-up valuation work rather than thin news coverage."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "You Likely Have Genes That Affect How Well Your Medications Work \u2014 Testing for Them Could Improve Treatment",
+    "source": "Nautilus",
+    "url": "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin, general-audience science explainer republished from The Conversation \u2014 it lacks the analytical depth, investment relevance, or 'would I forward this?' quality required for Slot 4, and touches only superficially on pharmacogenomics without addressing competitive dynamics, diagnostics moats, or actionable insights."
+  },
+  {
+    "date": "2026-11-22",
+    "headline": "RevMed raises pancreatic cancer bar with 1L survival data",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VW30zW8bH4dWVG0yXb1-mFNLW3yn_R_5XBXw0N4Mwsg25nR3bW7Y9pgv6lZ3ngW3R8cGK2gx8fJW25_qkf6-z7dhW64nyKr6yJvshW7cYsw7791P3LV7Jg928CQ-KJW8NLZHF3pYngzW5RC1fW1t7F7JW6lRP_583nQbRW4HjzYZ5_85SdN5SpMRBLZww2N6hFXr8WxCv9W8YSSlN6jxMcnW2-jWjR3pNtrXW5p9qrV2xb27kW1nkqD-1m7pcqW62jP7V448gPkW58VF7W6GR7WcW4yY8HN7bhgGMW3M1H1H1YnWPtW7_qsjH4SvNrQW8P-x305rHwg5W1xTMp-5YS6tbV2g28l46CCT_W6bYHbK1hJfQ-W8lVp0W3ccSnQW5F819p4Mr60BW7dn39f8nrBMFW3qMjsw4wv16pW68qZ-p1YGpJzVv9DYS8R5h_wW5zftZY6Y7kbVW6bnCW714p20CW2WPmlH5bH_8MW81MFVy6QsQ0sW8vyvRX2RWZdqW2pDNGB7zVPg_VXsqPr8jg672N5y5fLwYjwwmW1SwRnm1mNtgrW6bpFpb94QSmrW4Y1r7S4DY8WdW2kxbj87dMCfQdDZpC-04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "This is a BioSpace newsletter digest with thin summaries of multiple biopharma stories (RVMD 1L data, Merck-Kelun ADC, Savara FDA delay, Sanofi/Insmed M&A) \u2014 it lacks the analytical depth, structural insight, or cross-domain curiosity required for the Wildcard slot, and is better suited to Slot 1 as a healthcare catalyst piece, though even there the content is too shallow and newsletter-format rather than deep analysis."
   }
 ]

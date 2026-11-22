@@ -1,14 +1,6 @@
 {
   "delivered": [
     {
-      "id": "52a33526e5b57b1d",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "30010b59f137b571",
-      "date": "2026-11-07"
-    },
-    {
       "id": "31c30fb781a30d75",
       "date": "2026-11-08"
     },
@@ -143,6 +135,10 @@
     {
       "id": "cdc71b0e63571d75",
       "date": "2026-11-21"
+    },
+    {
+      "id": "a51e18c97eba5c55",
+      "date": "2026-11-22"
     }
   ],
   "reader_pushed": {
@@ -393,6 +389,7 @@
     "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f": "2026-11-20",
     "https://architectlabs.com/blog/frostbite": "2026-11-20",
     "https://mbideepdives.substack.com/p/key-man-risk?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU3OTQzMTIsImlhdCI6MTc5NTE5NTA5MCwiZXhwIjoxNzk3Nzg3MDkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uBHenVhB1Ay6C9zb1yayBORKg6H6aJk2OyLEXorc9z8": "2026-11-20",
-    "https://arxiv.org/abs/2611.21885": "2026-11-21"
+    "https://arxiv.org/abs/2611.21885": "2026-11-21",
+    "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX6zj24mVNDWN1W5DzkcC_wfVmLt1V5XsL-ZN3JhCG-5nR3bW8wM7ks6lZ3mxW36d9Gd7-cglCW2Y0kpG8b2yZtW7hgDPR8CSRCtW4mVkfc59ZP-jW3HmMsd927rWLW8cJLp45gNCC_W12vsvm70qzNrW3N2snL1XFhxdW2p7g4y4jT0bFW6t1ChG69Tg_TW8p71yJ8k0ls7W4tcq6Q69JQZnVjm6--8szx_qW3ZH23G6vW1TzW6QRyW08nZ6lKW2Mc4yN13fg9qVP3W_s99f3ZWF5QDhNczdsdW4g0Sf01nQqY2N2Xvg3ByRjLHW1fDf6s7H-nLBW6NsyLX9b1XxMW2l_3mc96mkmdW2KsWnk3jHCJhVHFngQ726TlnW19dTXX8mxQdlW26ByCd3rHwbJW17ctXn5_4lhRW6YPGFL58BjdMW1g4Z1s5PjjK9W1QlV_q95Zy49M9TMRYS9knGW9ktWH41qGynlW5T9q_332Yt-3W3l5Y2c7g-tjFW63rG396VT7GDW6kfPyq3Wf7TFW9147k834Kx_8VpWVWW3XWT__V3s5Xq2WV4YQW2s5Ylk501jscW4vxW5_7Ys-xtW50x__65JL-2nVkRYPP3rpFLhd-ypfq04": "2026-11-22"
   }
 }
