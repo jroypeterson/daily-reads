@@ -15973,5 +15973,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This is a BioSpace newsletter digest with thin summaries of multiple biopharma stories (RVMD 1L data, Merck-Kelun ADC, Savara FDA delay, Sanofi/Insmed M&A) \u2014 it lacks the analytical depth, structural insight, or cross-domain curiosity required for the Wildcard slot, and is better suited to Slot 1 as a healthcare catalyst piece, though even there the content is too shallow and newsletter-format rather than deep analysis."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "Jensen Huang Returns to Nvidia, Showing What Trump Will Do for AI",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/11/23/business/trump-jensen-huang-nvidia.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is a brief news analysis piece (~400 words of actual content) that is too thin and generic for Slot 1, which requires healthcare/biopharma substance \u2014 Nvidia and AI infrastructure have no meaningful connection to healthcare/biotech in this article."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin FDA press release with no analytical depth, no investment context, and no forward-looking insight \u2014 it reads as a regulatory announcement rather than substantive coverage, and the reader profile strongly favors analytical depth and investment-relevant insights over press release summaries."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "CMS' Star Ratings Changes Could Cut MA Payments by $107B: 8 Things to Know",
+    "source": "Becker's Payer Issues",
+    "url": "https://www.beckerspayer.com/payer/cms-targets-medicare-advantage-star-ratings-networks-in-2028-proposal-6-things-to-know/",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "The article provides substantive, specific detail on CMS's proposed 2028 MA rule \u2014 including the $107B payment reduction estimate, the 15-measure star ratings overhaul, the ADVaNCE MA model, network adequacy changes, and prior authorization API mandates \u2014 making it actionable and directly relevant to managed care investors."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "Modeling Meta, Part 1: Advertising",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/modeling-meta-part-1-advertising",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after a brief introduction \u2014 the substantive modeling content is locked behind a subscription, leaving only a thin setup paragraph visible, which is insufficient depth to justify selection."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "With Jensen Huang's Return as C.E.O., Trump Effectively Overrode Nvidia's Board",
+    "source": "NYT Business",
+    "url": "https://www.nytimes.com/2026/11/23/technology/jensen-huang-nvidia-board-trump.html",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "The governance deep-dive angle on executive branch pressure overriding a public company's board is substantive, novel, and directly relevant to the reader's stated interest in corporate governance and AI infrastructure portfolio construction."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "High Alert",
+    "source": "The Transcript",
+    "url": "https://thetranscript.substack.com/p/11-23-2026-high-alert",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is largely paywalled after the macro section, leaving only a thin collection of executive quote snippets without the analytical depth the reader profile demands \u2014 it fails the 'depth over breadth' rule and the actual substance visible is too thin to meet the standard set by exemplars like the Balyasny PM deep dive."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years",
+    "source": "FDA Press Releases",
+    "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is an FDA approval press release for a breast cancer drug \u2014 it belongs squarely in Slot 1 (Healthcare/Biopharma), not Slot 3 (Tech/AI), and contains no AI, machine learning, or technology content whatsoever."
+  },
+  {
+    "date": "2026-11-23",
+    "headline": "CVS Health's Planned Breakup Hasn't Quieted Antitrust Critics",
+    "source": "DealBook / NYT",
+    "url": "https://www.nytimes.com/2026/11/23/business/cvs-pharmacy-health-federal-investigations-antitrust.html",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "This article is about healthcare antitrust and regulatory policy \u2014 it belongs in Slot 1 (Healthcare) or possibly Slot 2 (Finance/Markets), not Slot 3 (Tech/AI), and the article itself is relatively thin, covering only the political reaction to CVS's announced breakup without deep structural or investment analysis."
   }
 ]

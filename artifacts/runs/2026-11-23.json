@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-11-23",
+  "generated_at": "2026-11-23T23:19:15Z",
+  "counts": {
+    "gmail_items": 156,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "b5b776202e688310",
+      "headline": "CMS' Star Ratings Changes Could Cut MA Payments by $107B: 8 Things to Know",
+      "source": "Becker's Payer Issues",
+      "url": "https://www.beckerspayer.com/payer/cms-targets-medicare-advantage-star-ratings-networks-in-2028-proposal-6-things-to-know/",
+      "slot": 1,
+      "summary": "CMS proposed a sweeping overhaul of Medicare Advantage for contract year 2028, shrinking star ratings to 15 measures with tougher methodology that would reduce federal MA payments by an estimated $107 billion over 2028\u20132037. The proposal also introduces a mandatory 10-year state-based payment model (ADVaNCE MA) launching in 2029, tightens network adequacy standards, restricts supplemental food benefits to nutrient-dense options, and requires FHIR-based prior authorization APIs from in-network providers. Insurer stocks reacted negatively, and the rule arrives amid ongoing litigation from at least 16 payers already contesting their 2027 star ratings.",
+      "why_it_matters": "The $107B headline reduction in MA bonus payments represents a structural reimbursement headwind for the largest managed care names (UNH, HUM, CVS/Aetna), and the phased implementation timeline (star ratings effective 2030, payments 2031) gives investors a concrete catalyst window to assess earnings exposure and competitive repositioning.",
+      "signal_tags": [
+        "ticker_match:MA",
+        "ticker_match:UNH",
+        "catalyst_proximity",
+        "novelty",
+        "actionability",
+        "regulatory_affairs"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "28895338672e1c18",
+      "headline": "With Jensen Huang's Return as C.E.O., Trump Effectively Overrode Nvidia's Board",
+      "source": "NYT Business",
+      "url": "https://www.nytimes.com/2026/11/23/technology/jensen-huang-nvidia-board-trump.html",
+      "slot": 2,
+      "summary": "Governance experts are calling Trump's successful pressure to retain Jensen Huang as Nvidia CEO an unprecedented case of executive branch interference with a public company's board authority. The piece examines the legal and precedent-setting implications for board independence, shareholder rights, and fiduciary duty when political relationships with the White House become a material factor in corporate decision-making. It frames this as a new category of political key-man risk embedded in large-cap AI and tech companies.",
+      "why_it_matters": "Establishes a concrete governance risk framework for AI infrastructure holdings where political proximity to the White House now functions as a material variable in CEO tenure and board authority \u2014 a structural insight relevant to portfolio construction across the entire AI complex.",
+      "signal_tags": [
+        "ticker_match:NVDA",
+        "corporate_governance",
+        "novelty",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "6 min",
+      "snippet_only": true
+    }
+  ]
+}

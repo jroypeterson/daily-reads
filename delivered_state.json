@@ -1,10 +1,6 @@
 {
   "delivered": [
     {
-      "id": "31c30fb781a30d75",
-      "date": "2026-11-08"
-    },
-    {
       "id": "bd51d09e6e8bb8e1",
       "date": "2026-11-09"
     },
@@ -139,6 +135,14 @@
     {
       "id": "a51e18c97eba5c55",
       "date": "2026-11-22"
+    },
+    {
+      "id": "b5b776202e688310",
+      "date": "2026-11-23"
+    },
+    {
+      "id": "28895338672e1c18",
+      "date": "2026-11-23"
     }
   ],
   "reader_pushed": {
@@ -390,6 +394,10 @@
     "https://architectlabs.com/blog/frostbite": "2026-11-20",
     "https://mbideepdives.substack.com/p/key-man-risk?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjU3OTQzMTIsImlhdCI6MTc5NTE5NTA5MCwiZXhwIjoxNzk3Nzg3MDkwLCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.uBHenVhB1Ay6C9zb1yayBORKg6H6aJk2OyLEXorc9z8": "2026-11-20",
     "https://arxiv.org/abs/2611.21885": "2026-11-21",
-    "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX6zj24mVNDWN1W5DzkcC_wfVmLt1V5XsL-ZN3JhCG-5nR3bW8wM7ks6lZ3mxW36d9Gd7-cglCW2Y0kpG8b2yZtW7hgDPR8CSRCtW4mVkfc59ZP-jW3HmMsd927rWLW8cJLp45gNCC_W12vsvm70qzNrW3N2snL1XFhxdW2p7g4y4jT0bFW6t1ChG69Tg_TW8p71yJ8k0ls7W4tcq6Q69JQZnVjm6--8szx_qW3ZH23G6vW1TzW6QRyW08nZ6lKW2Mc4yN13fg9qVP3W_s99f3ZWF5QDhNczdsdW4g0Sf01nQqY2N2Xvg3ByRjLHW1fDf6s7H-nLBW6NsyLX9b1XxMW2l_3mc96mkmdW2KsWnk3jHCJhVHFngQ726TlnW19dTXX8mxQdlW26ByCd3rHwbJW17ctXn5_4lhRW6YPGFL58BjdMW1g4Z1s5PjjK9W1QlV_q95Zy49M9TMRYS9knGW9ktWH41qGynlW5T9q_332Yt-3W3l5Y2c7g-tjFW63rG396VT7GDW6kfPyq3Wf7TFW9147k834Kx_8VpWVWW3XWT__V3s5Xq2WV4YQW2s5Ylk501jscW4vxW5_7Ys-xtW50x__65JL-2nVkRYPP3rpFLhd-ypfq04": "2026-11-22"
+    "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VX6zj24mVNDWN1W5DzkcC_wfVmLt1V5XsL-ZN3JhCG-5nR3bW8wM7ks6lZ3mxW36d9Gd7-cglCW2Y0kpG8b2yZtW7hgDPR8CSRCtW4mVkfc59ZP-jW3HmMsd927rWLW8cJLp45gNCC_W12vsvm70qzNrW3N2snL1XFhxdW2p7g4y4jT0bFW6t1ChG69Tg_TW8p71yJ8k0ls7W4tcq6Q69JQZnVjm6--8szx_qW3ZH23G6vW1TzW6QRyW08nZ6lKW2Mc4yN13fg9qVP3W_s99f3ZWF5QDhNczdsdW4g0Sf01nQqY2N2Xvg3ByRjLHW1fDf6s7H-nLBW6NsyLX9b1XxMW2l_3mc96mkmdW2KsWnk3jHCJhVHFngQ726TlnW19dTXX8mxQdlW26ByCd3rHwbJW17ctXn5_4lhRW6YPGFL58BjdMW1g4Z1s5PjjK9W1QlV_q95Zy49M9TMRYS9knGW9ktWH41qGynlW5T9q_332Yt-3W3l5Y2c7g-tjFW63rG396VT7GDW6kfPyq3Wf7TFW9147k834Kx_8VpWVWW3XWT__V3s5Xq2WV4YQW2s5Ylk501jscW4vxW5_7Ys-xtW50x__65JL-2nVkRYPP3rpFLhd-ypfq04": "2026-11-22",
+    "https://www.beckerspayer.com/payer/cms-targets-medicare-advantage-star-ratings-networks-in-2028-proposal-6-things-to-know/": "2026-11-23",
+    "https://www.nytimes.com/2026/11/23/technology/jensen-huang-nvidia-board-trump.html": "2026-11-23",
+    "https://mbideepdives.substack.com/p/modeling-meta-part-1-advertising?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjYxODg2ODMsImlhdCI6MTc5NTQ0ODgyNiwiZXhwIjoxNzk4MDQwODI2LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.kCkcq3kbT5bNpnv0BcduvkwNTGn4Wd8EBzODJr0z5t8": "2026-11-23",
+    "https://thetranscript.substack.com/p/11-23-2026-high-alert?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjYxNjgyMzQsImlhdCI6MTc5NTQzNTY1OSwiZXhwIjoxNzk4MDI3NjU5LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.HeVzyyvOQhIQclhW0tRwW6o7z5gEc0PBvp-XWXScYew": "2026-11-23"
   }
 }
