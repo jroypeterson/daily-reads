@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-11-24",
+  "generated_at": "2026-11-24T21:59:45Z",
+  "counts": {
+    "gmail_items": 156,
+    "tier2_items": 88,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "6465354aeb225c98",
+      "headline": "Sanofi's $41B Insmed buy biggest since Pfizer/Seagen",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/sanofi-insmed-acquisition-deal-immunology-rare-disease/875627/",
+      "slot": 1,
+      "summary": "Sanofi is acquiring Insmed for approximately $41 billion, marking the largest biopharma deal since Pfizer's acquisition of Seagen. The deal gives Sanofi access to Insmed's two commercial products \u2014 including treprostinil for nontuberculous mycobacterial lung disease (NTMBC) \u2014 and a broader pipeline in immunology and rare disease, areas Sanofi is prioritizing as it looks to diversify away from its legacy portfolio. Sanofi characterized the deal as 'transformative,' signaling continued big-pharma appetite for durable rare-disease franchises with strong pricing power.",
+      "why_it_matters": "This landmark deal reshapes the rare-disease competitive landscape and sets a valuation benchmark for similar pipeline assets, with immediate implications for INSM shareholders and sector positioning in immunology and orphan drug M&A.",
+      "signal_tags": [
+        "ticker_match:INSM",
+        "ticker_match:SNY",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "329e3665f4d1890d",
+      "headline": "What to expect in US healthcare in 2027 and beyond",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f",
+      "slot": 2,
+      "summary": "McKinsey's annual US healthcare outlook maps the structural forces reshaping the sector through 2027, including Medicaid work requirements rollout, Medicare Advantage star-rating overhaul, payer margin pressure, and AI adoption curves across provider and payer segments. It synthesizes regulatory, demographic, and technology trends into a single forward-looking framework. The piece is particularly useful for calibrating healthcare sector exposure ahead of significant policy inflection points.",
+      "why_it_matters": "With Medicaid and Medicare Advantage policy shifts creating meaningful earnings risk for managed care and provider companies, this framework helps investors size exposure and anticipate which sub-sectors face headwinds versus tailwinds into 2027.",
+      "signal_tags": [
+        "priority:high",
+        "regulatory_affairs",
+        "forward_looking_perspective",
+        "structural_market_insight",
+        "actionability"
+      ],
+      "reading_time": "8 min",
+      "snippet_only": true
+    }
+  ]
+}
