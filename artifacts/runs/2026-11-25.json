@@ -1,0 +1,70 @@
+{
+  "run_date": "2026-11-25",
+  "generated_at": "2026-11-25T21:06:22Z",
+  "counts": {
+    "gmail_items": 146,
+    "tier2_items": 90,
+    "selected_articles": 3
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2c9550a89ff2f710",
+      "headline": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers",
+      "source": "FiercePharma",
+      "url": "https://www.fiercepharma.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+      "slot": 1,
+      "summary": "Sanofi is acquiring Insmed for $41 billion ($175/share, a 46% premium over Monday's close), its largest deal since the 2004 Aventis merger, to diversify revenue ahead of Dupixent's 2031 patent expiration. The deal adds Brinsupri (on track for $1.35\u20131.4B in year-one sales), Arikayce (potential first-line FDA approval catalyst in January), and Phase 3 asset TPIP across pulmonary hypertension and fibrotic lung disease \u2014 with Guggenheim estimating combined peak sales exceeding $15B. Sanofi expects >$500M in annual cost synergies and EPS accretion by end of 2028, despite the deal exceeding the CFO's previously stated $25B ceiling by ~$14B.",
+      "why_it_matters": "The deal sets a new M&A price floor for commercial-stage respiratory and rare disease biotechs, signals that large-cap pharma is aggressively pursuing de-risked revenue ahead of LOE cliffs, and raises re-rating potential for comparable assets like BBIO, VERA, and RVMD.",
+      "signal_tags": [
+        "ticker_match:SNY",
+        "ticker_match:INSM",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "8794234ff45a15a8",
+      "headline": "Modeling Meta, Part 3: The Compute Bill, and Valuation",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/modeling-meta-part-3-the-compute",
+      "slot": 2,
+      "summary": "The third and final part of MBI's Meta deep dive models the company's compute requirements, the cost per gigawatt of owned versus rented infrastructure, and how these flow into capex, depreciation, margins, and valuation. A key finding is that Meta's owned-fleet strategy delivers nearly twice the compute per capex dollar compared to renting (as Anthropic does), though it concentrates capital risk on Meta's balance sheet. The piece concludes with return-on-capital estimates and a fair value framework for META shares.",
+      "why_it_matters": "For investors with META exposure or a view on the AI infrastructure capex cycle, this is the most granular publicly available model for stress-testing Meta's margin trajectory, capex ROI, and long-term valuation under different compute-spend scenarios.",
+      "signal_tags": [
+        "ticker_match:META",
+        "priority:high",
+        "analytical_depth",
+        "data_infrastructure",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "12 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "4e3e24b6b8ff2536",
+      "headline": "Building pharma's laboratory of the future",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future",
+      "slot": 3,
+      "summary": "McKinsey argues pharma R&D has reached an inflection point where agentic AI and physical robotics can break the decades-long productivity decline by creating closed-loop experimental systems that compound institutional knowledge with every run. The piece outlines three architectural stages \u2014 isolated automation islands, orchestrated labs, and fully autonomous labs \u2014 and five structural design choices leaders must navigate, including build-vs-buy decisions and selective integration of tight feedback loops. Real-world examples (Novartis 42-hour purification compression, Genentech's 54-fold molecule selection improvement, AstraZeneca's 900-reaction automated platform) ground the framework in demonstrated results.",
+      "why_it_matters": "This framework helps investors and strategists identify which pharma enablers \u2014 lab automation vendors, CROs, AI foundation model providers, and data infrastructure players \u2014 are positioned to capture value as the autonomous lab architecture scales over the next 5\u201310 years.",
+      "signal_tags": [
+        "priority:high",
+        "AI_biology_intersection",
+        "analytical_depth",
+        "forward_looking",
+        "novelty"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}

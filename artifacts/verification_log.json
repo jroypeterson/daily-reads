@@ -16108,5 +16108,68 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "This article is a thin news brief about managed care stock reactions to a CMS regulatory proposal \u2014 it has no tech/AI content whatsoever and belongs in Slot 2 (Finance/Macro) or Slot 1 (Healthcare), not Slot 3 (Tech/AI)."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers",
+    "source": "FiercePharma",
+    "url": "https://www.fiercepharma.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive coverage of the largest biopharma M&A deal of 2026, with specific financial details, strategic rationale, analyst commentary, and near-term catalysts that directly fit Slot 1's criteria for M&A and pipeline news."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Medicare sets 2028 prices for 13 new drugs under Biden-era law",
+    "source": "BioPharma Dive",
+    "url": "https://www.biopharmadive.com/news/inflation-reduction-act-2028-final-medicare-drug-price/875717/",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is a thin news brief reporting finalized IRA negotiation prices with limited analytical depth \u2014 it summarizes CMS outcomes without examining investment implications, company-level revenue impact modeling, or strategic context around the IRA's trajectory, falling short of the analytical depth this reader requires."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Modeling Meta, Part 3: The Compute Bill, and Valuation",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/modeling-meta-part-3-the-compute",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "MBI Deep Dives is a strong long-form investment writing source that matches the reader's demonstrated preferences for analytical depth, competitive moat analysis, and deep business diligence, and this bottoms-up compute cost model for Meta is exactly the kind of granular, investment-relevant framework the reader values."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Building pharma's laboratory of the future",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "The article delivers a substantive, practitioner-grade framework with concrete examples (Novartis, Roche, AstraZeneca, Genentech, BioNTech) and a clear architectural roadmap for AI-driven lab automation, directly matching the reader's strong interest in AI-biology intersection and analytical depth."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Market swings strain fast money as tech rout deepens",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/market-swings-strain-fast-money-as-tech-rout-deepens",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is essentially inaccessible \u2014 only Bloomberg's navigation/boilerplate HTML rendered, with no substantive article body present \u2014 making it impossible to verify depth, accuracy of the shortlist summary, or fitness for any slot."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Weekly Rundown: Waystar integrates into Google Cloud's Gemini for healthcare; Oracle debuts AI agents for clinical trials",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-waystar-integrates-google-clouds-gemini-healthcare-oracle-debuts-ai",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin weekly news roundup of brief corporate press-release summaries with no analytical depth, no investment-relevant insight, and no substance beyond surface-level product announcements \u2014 failing the reader's strong preference for analytical depth and the 'would I forward this?' test."
+  },
+  {
+    "date": "2026-11-25",
+    "headline": "Google's AI Strategy: What the market is missing",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/googles-ai-strategy-what-the-market",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the core 2,400-word analysis of Google's current AI positioning is locked behind a subscription, leaving only a ~2,200-word memo framed around a speculative future scenario (Jensen Huang resigning, Anthropic IPO, GPT-6.2) dated August 2026, which renders the content fictional/hypothetical and not grounded in real, actionable analysis."
   }
 ]

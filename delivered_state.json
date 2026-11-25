@@ -1,18 +1,6 @@
 {
   "delivered": [
     {
-      "id": "045a15a0ff4b14c3",
-      "date": "2026-11-10"
-    },
-    {
-      "id": "ee712542d9dca0ff",
-      "date": "2026-11-10"
-    },
-    {
-      "id": "f128fedefed3e1f0",
-      "date": "2026-11-10"
-    },
-    {
       "id": "41bd68d449aa4167",
       "date": "2026-11-11"
     },
@@ -131,6 +119,18 @@
     {
       "id": "6465354aeb225c98",
       "date": "2026-11-24"
+    },
+    {
+      "id": "2c9550a89ff2f710",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "8794234ff45a15a8",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "4e3e24b6b8ff2536",
+      "date": "2026-11-25"
     }
   ],
   "reader_pushed": {
@@ -390,6 +390,10 @@
     "https://www.biopharmadive.com/news/sanofi-insmed-acquisition-deal-immunology-rare-disease/875627/": "2026-11-24",
     "https://mbideepdives.substack.com/p/modeling-meta-part-2-muse-whatsapp?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjYyOTE4MzIsImlhdCI6MTc5NTU0NjczNCwiZXhwIjoxNzk4MTM4NzM0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.mUou0gDznGXE9Nc1LJ5SiYKqk9yN9dECWbUxTPX7ZZc": "2026-11-24",
     "https://thetranscript.substack.com/p/11-24-2026-catalyst-watch?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjYzMjQ0OTYsImlhdCI6MTc5NTUyMjI2OCwiZXhwIjoxNzk4MTE0MjY4LCJpc3MiOiJwdWItMzI0NTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.IUbdCIQumaUpJD1H1be0FSgevnH-uIuI7WrNji8a4F4": "2026-11-24",
-    "https://aletteraday.substack.com/p/googles-ai-strategy-what-the-market?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUzNzA2MzQsImlhdCI6MTc5NTQ4NTgxNiwiZXhwIjoxNzk4MDc3ODE2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.v7CalAV9-BPI06l5QLLvo8uqeTMfSVYYbVlYH22MNlI": "2026-11-24"
+    "https://aletteraday.substack.com/p/googles-ai-strategy-what-the-market?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUzNzA2MzQsImlhdCI6MTc5NTQ4NTgxNiwiZXhwIjoxNzk4MDc3ODE2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.v7CalAV9-BPI06l5QLLvo8uqeTMfSVYYbVlYH22MNlI": "2026-11-24",
+    "https://www.fiercepharma.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers": "2026-11-25",
+    "https://mbideepdives.substack.com/p/modeling-meta-part-3-the-compute": "2026-11-25",
+    "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future": "2026-11-25",
+    "https://mbideepdives.substack.com/p/modeling-meta-part-3-the-compute?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjY0MTkwODIsImlhdCI6MTc5NTYyODUwNSwiZXhwIjoxNzk4MjIwNTA1LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.RJlQXNMV3pFkwWJpE7_vj-wbxqir1-QSQyQX-41uZP8": "2026-11-25"
   }
 }
