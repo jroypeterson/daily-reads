@@ -3763,5 +3763,27 @@
         "url": ""
       }
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "checked_unique": 69,
+    "checked_slots": 69,
+    "broken": {
+      "article_warnings": 0,
+      "article_substituted": 0,
+      "triage_dropped": 0,
+      "always_read_dropped": 1,
+      "substack_dropped": 0
+    },
+    "warned_articles": [],
+    "substituted_articles": [],
+    "dropped_items": [
+      {
+        "surface": "always_read",
+        "source": "MBI",
+        "headline": "Thank you for 6 months of supporting MBI Deep Dives",
+        "url": ""
+      }
+    ]
   }
 ]

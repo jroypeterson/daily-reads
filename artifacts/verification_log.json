@@ -16225,5 +16225,77 @@
     "extraction_tier": "jina",
     "passed": false,
     "reason": "The article resolves to a STAT+ paywall subscription page with no substantive content accessible \u2014 there is no article text to evaluate, only a pricing/marketing page."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "Sanofi's $41B megadeal lands as pharma enjoys macro boost in turbid markets",
+    "source": "BioSpace",
+    "url": "https://marketing.biospace.com/e3t/Ctc/GC+113/cx1qw04/VVXG4W1ZGLn0W44kNmx5fjxBvW7zr5cm5XNW4lN52hRhx5nR3bW7Y9pgv6lZ3lHW7wpGGT4HznBzN5yhsV8PkbGZW7CrvnX6q9bDBW4yHqkf7sq3xvW4xQPS64n_p0KV9RvyQ2SmDpjVYVS-L3Y6z6mW5jd9G32sLXS6W7rTcpf9gL0yhW2HWhjK9kZyCLW693rD92sqbMTW5-d4Bq26ZCHKW5TvdFC3Rc9T1Vhqdw_8wfDdcW7Ct-kr1NS6gbN4qMB7Tj1vx7W18G98h3q52gwW1B8D4n5Db4dkN7X6VfY7VBXvW6N327d5LvgZ5W7mrlYT7YwcKhW7zX0vt6shqDwW6W2M2-2GcT84N4XYLjtD5F__W3fL8tP5sK_QtW7dFtGY4SyGbwW4g5FZ15t5mKFW1sQwRP5gdsPgW6M47FN129jKyW850w9X9bHKlGW6MQ6n97_1yMQN3N5ZR4C9yKXW8SYN6y8MPVyHW995pY_3hWd6jW2Hr4Kv3PLV7kW35Xqql7_cStrW2W9xmg9fTDjmW7GVdPS22Dw0JW5hzBvm1VXWDFN3Jlf6T_kp9mVLR4KQ2kXK43W45BTBz4WR6fbf3N-4CC04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The actual article content is a thin newsletter shell \u2014 it contains almost no substantive text about the Sanofi/Insmed deal beyond a one-line teaser, and is dominated by ads, job listings, and unrelated links, making the shortlist summary far more informative than the article itself."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "Building pharma's laboratory of the future",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is substantive and well-matched to the reader's AI\u00d7biology and competitive moat interests, but it belongs in Slot 3 (Tech/AI) rather than Slot 1 (Healthcare/Biotech), as its focus is on AI/robotics infrastructure and lab automation architecture rather than FDA decisions, clinical trial data, M&A, or pipeline news."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "Biomedical enrollment plunges after Trump visa restrictions",
+    "source": "STAT News",
+    "url": "https://marketing.statnews.com/e3t/Ctc/LV+113/cp47z04/MVWFJyG2BC4W5-PLjg1cD-xZW824bMN5XQ6B8N1-yX_H3qgz0W7lCdLW6lZ3nrW7lb8Rc1MCBk1N8s5mpFrW9xZW4sgGdC7Vv_TcW368P2x87GNphW99f-q88jG9dVW8-tgJL83-XqKW1k0zDL7gqrvHV7RC-m1VSN93W1GjRp129Jd5tW2-f3Vn34GYRRW5l6W2v2Lf5vCVGvH-b1chpRcW3gdzcJ4-l-DmW4_hf856DG_kgW2zrhDs5LV1SxW8kXttF58KLT0W46D-WQ6rN4t6W7X8_2J92rmJyW1156fn707fW2W2zwrKK6B9W1hW4MlGSt7hkhMLW6XkK9N7lvL8xW1DyNCg59bxYVW5YhtQc7W-Rmhf8LQPQg04",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The full article text is entirely a STAT+ paywall/subscription page with no accessible article content \u2014 there is no substantive reporting to evaluate, only pricing tiers and benefit descriptions."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "What to expect in US healthcare in 2027 and beyond",
+    "source": "McKinsey",
+    "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qVV0ordyB5GZ854o7fc4WPLVDa7wsU1pscydFXXx6kwWl0c3egCMi0Iku-X8Mf0Jg%3D",
+    "extraction_tier": "snippet_fallback",
+    "passed": true,
+    "reason": "McKinsey is a high-priority consulting source delivering a structured, forward-looking macro healthcare outlook covering payer dynamics, drug pricing, provider consolidation, and digital health \u2014 substantive enough for Slot 1 given the reader's strong interest in regulatory affairs, health policy, and investment-relevant structural insights."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "Modeling Meta, Part 2: Muse, WhatsApp, and the Enterprise Platform",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/modeling-meta-part-2-muse-whatsapp?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjYyOTE4MzIsImlhdCI6MTc5NTU0NjczNCwiZXhwIjoxNzk4MTM4NzM0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.mUou0gDznGXE9Nc1LJ5SiYKqk9yN9dECWbUxTPX7ZZc",
+    "extraction_tier": "jina",
+    "passed": true,
+    "reason": "This is a substantive, bottom-up financial model of Meta's non-advertising revenue streams with specific numeric projections, competitive benchmarking (LINE vs. WhatsApp), and deep business diligence \u2014 precisely matching the reader's strong preferences for analytical depth, competitive moat analysis, and long-form investment writing."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "Weekly Rundown: Waystar integrates into Google Cloud's Gemini for healthcare; Oracle debuts AI agents for clinical trials",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-waystar-integrates-google-clouds-gemini-healthcare-oracle-debuts-ai",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin roundup of press-release-level product announcements with no analytical depth, no investment thesis, and no structural insight into competitive dynamics or market implications \u2014 it reads as a corporate news aggregator, not substantive tech/AI analysis."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "Google's AI Strategy: What the market is missing",
+    "source": "A Letter a Day",
+    "url": "https://aletteraday.substack.com/p/googles-ai-strategy-what-the-market?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjUzNzA2MzQsImlhdCI6MTc5NTQ4NTgxNiwiZXhwIjoxNzk4MDc3ODE2LCJpc3MiOiJwdWItNjE4MDYiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.v7CalAV9-BPI06l5QLLvo8uqeTMfSVYYbVlYH22MNlI",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the visible portion is ~2,200 words of a memo setup/framing, with the core analytical content (Gemini 4 launch, compute financing, convergence thesis) explicitly locked behind a paywall, making it too thin for meaningful reader value and matching the AVOID pattern for paywalled content."
+  },
+  {
+    "date": "2026-11-27",
+    "headline": "FDA extends assessment of experimental Vertex kidney drug",
+    "source": "STAT News",
+    "url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is essentially a stub \u2014 it contains almost no substantive content beyond a one-sentence description of the FDA extension, with the bulk of the text being author bio, newsletter sign-up prompts, and boilerplate; it clearly belongs in Slot 1 (Healthcare/Biotech), not Slot 3 (Tech/AI), and is too thin for any slot."
   }
 ]

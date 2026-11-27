@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-11-27",
+  "generated_at": "2026-11-27T20:43:45Z",
+  "counts": {
+    "gmail_items": 121,
+    "tier2_items": 90,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2e330f958ebef0bd",
+      "headline": "What to expect in US healthcare in 2027 and beyond",
+      "source": "McKinsey",
+      "url": "https://email.mckinsey.com/T/v71000001a1fa0369cfa967656e96638858/f20dd9a81c874ba10000021ef3a0bcc2/f20dd9a8-1c87-4ba1-95c9-6ad1c277131f?__dU__=v0G4RBKTXg2GsTlMa8YbE0npiPHb7Gzq29ujr-mrJsl6bcn0E30HNSquNCCrd1XNAz&__F__=v0fUYvjHMDjRPMSh3tviDHXIoXcPxvDgUUCCPvXMWoX_0JoZLAZABQFzGdi2cn1iU7KJEa5whIrwYFLmjwNbDvNYUFCfX81-jKKF7Og39FLdhpZM4ZNQ2HqfoOEskA3iTTt0Dz3knnLqKPt2sG63kYxlvCv-NgS3QXFQGK1UO87aF99j3deYRHE2HxNYHJukKMGvG24tAmpNLozjW6pgpl7yy4dpqOnHn6lELmwtC-_8qVV0ordyB5GZ854o7fc4WPLVDa7wsU1pscydFXXx6kwWl0c3egCMi0Iku-X8Mf0Jg%3D",
+      "slot": 1,
+      "summary": "McKinsey's 2027 US healthcare outlook examines anticipated structural shifts across managed care, drug pricing policy under the current administration, provider consolidation trends, and digital health adoption. The report is framed to help investors and operators anticipate reimbursement changes under Medicaid/Medicare and position across sub-sectors. It offers a consulting-grade macro lens rather than a specific biopharma catalyst or FDA event.",
+      "why_it_matters": "Provides a structured framework for repositioning across managed care, hospital systems, biopharma, and digital health heading into 2027 \u2014 particularly useful for understanding policy-driven reimbursement risk.",
+      "signal_tags": [
+        "high_priority_source",
+        "forward_looking_perspective",
+        "regulatory_affairs",
+        "actionability",
+        "analytical_depth"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": true
+    },
+    {
+      "article_id": "867ffb00ce902ba0",
+      "headline": "Modeling Meta, Part 2: Muse, WhatsApp, and the Enterprise Platform",
+      "source": "MBI Deep Dives",
+      "url": "https://mbideepdives.substack.com/p/modeling-meta-part-2-muse-whatsapp?r=w2qs&token=eyJ1c2VyX2lkIjoxNDk2NTQ4LCJwb3N0X2lkIjoyMjYyOTE4MzIsImlhdCI6MTc5NTU0NjczNCwiZXhwIjoxNzk4MTM4NzM0LCJpc3MiOiJwdWItMTQ0NDE3OCIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.mUou0gDznGXE9Nc1LJ5SiYKqk9yN9dECWbUxTPX7ZZc",
+      "slot": 2,
+      "summary": "MBI Deep Dives' Part 2 of a Meta financial model breaks down the 'other revenue' segment \u2014 currently growing at a ~47% CAGR \u2014 across four components: WhatsApp paid messaging (estimated ~$2.6B this year), subscriptions (Meta One/Verified/ad-free), Muse AI creative platform, and the newly launched Meta Enterprise Platform. The piece uses LINE's monetization of Japanese users as a benchmark to frame WhatsApp's long-term paid messaging ceiling, projecting ~3 promotions/week per user by 2035 versus LINE's ~1+/day today. Specific revenue forecasts and model assumptions are provided for each segment, with the full model behind a paywall.",
+      "why_it_matters": "For investors, this provides rare model-level granularity on the revenue vectors most likely to drive META multiple expansion beyond core advertising \u2014 particularly as AI infrastructure spending reshapes WhatsApp and enterprise monetization timelines.",
+      "signal_tags": [
+        "ticker_match:META",
+        "high_priority_source",
+        "analytical_depth",
+        "competitive_moat_analysis",
+        "deep_business_diligence"
+      ],
+      "reading_time": "9 min",
+      "snippet_only": false
+    }
+  ]
+}
