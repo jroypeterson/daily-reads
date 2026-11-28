@@ -16297,5 +16297,104 @@
     "extraction_tier": "trafilatura",
     "passed": false,
     "reason": "The article is essentially a stub \u2014 it contains almost no substantive content beyond a one-sentence description of the FDA extension, with the bulk of the text being author bio, newsletter sign-up prompts, and boilerplate; it clearly belongs in Slot 1 (Healthcare/Biotech), not Slot 3 (Tech/AI), and is too thin for any slot."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers",
+    "source": "FiercePharma",
+    "url": "https://www.fiercepharma.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+    "extraction_tier": "trafilatura",
+    "passed": true,
+    "reason": "The article provides substantive coverage of a landmark $41B biopharma M&A deal with specific financial details, analyst commentary, strategic rationale, and near-term catalysts (Arikayce FDA decision, TPIP phase 3 readouts), making it directly actionable for healthcare/biotech investors."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Weekly Rundown: Waystar integrates into Google Cloud's Gemini for healthcare; Oracle debuts AI agents for clinical trials",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-waystar-integrates-google-clouds-gemini-healthcare-oracle-debuts-ai",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin weekly roundup of press release-style announcements with no analytical depth, financial data, or investment implications \u2014 it reads as a news aggregation brief rather than substantive coverage, and belongs to Slot 3 (Tech/AI) at best, not Slot 2 (Finance/Macro)."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Building pharma's laboratory of the future",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future",
+    "extraction_tier": "tavily",
+    "passed": false,
+    "reason": "The article is substantive and relevant but belongs to Slot 3 (Tech/AI) or Slot 1 (Healthcare/Biopharma) given its focus on AI-robotics lab automation in drug discovery \u2014 it has no meaningful Finance/Macro content and does not address markets, earnings, pricing, reimbursement, or macro dynamics."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Claude Code sabotage: preliminary benchmarking",
+    "source": "Hacker News / xinyadu.github.io",
+    "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a Tech/AI article about Claude Code benchmarking and AI safety \u2014 it has real substance and depth, but it belongs in Slot 3 (Tech/AI), not Slot 2 (Finance/Macro), as it contains no macro, earnings, sector rotation, or market policy content."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Modeling Meta, Part 1: Advertising",
+    "source": "MBI Deep Dives",
+    "url": "https://mbideepdives.substack.com/p/modeling-meta-part-1-advertising",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is paywalled after a brief introduction \u2014 the substantive modeling content (pricing dynamics, impression growth, AI-driven monetization) is locked behind a subscription, so the actual article text contains almost no analytical depth beyond a setup paragraph explaining the author's capex rethink, making it too thin to deliver value to the reader."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Google's AI Strategy: What the market is missing",
+    "source": "A Letter a Day (Substack)",
+    "url": "https://aletteraday.substack.com/p/googles-ai-strategy-what-the-market",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article is substantially paywalled \u2014 the core 2,400-word analytical update on Google's AI strategy is behind a paywall, leaving only a ~2,200-word memo framed around speculative future events (Jensen Huang resignation, Anthropic IPO, GPT-6.2) with a publication date of November 2026, suggesting either fabricated/fictional context or a dating error that undermines credibility and actionability."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Is this Thanksgiving or Groundhog Day in markets? (AI volatility deep dive)",
+    "source": "Bloomberg Opinion",
+    "url": "https://www.bloomberg.com/opinion/newsletters/2026-11-26/markets-is-this-thanksgiving-or-groundhog-day",
+    "extraction_tier": "jina",
+    "passed": false,
+    "reason": "The article content is almost entirely navigation/boilerplate HTML from Bloomberg's website \u2014 the actual article body was truncated before any substantive analysis appeared, leaving nothing to evaluate beyond the headline and metadata."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Heat Can Kill. It Can Also Heal",
+    "source": "Nautilus",
+    "url": "https://nautil.us/heat-can-kill-it-can-also-heal-1287047/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "This is a science/wellness feature on therapeutic hyperthermia that fits Slot 4 (Wildcard/Curiosity), not Slot 2 (Finance/Macro), and even for the wildcard slot it lacks investment or strategic relevance \u2014 it reads as general-interest health science with no actionable market angle."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Weekly Rundown: Waystar integrates into Google Cloud's Gemini for healthcare; Oracle debuts AI agents for clinical trials",
+    "source": "Fierce Healthcare",
+    "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-waystar-integrates-google-clouds-gemini-healthcare-oracle-debuts-ai",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is a thin weekly roundup of press release summaries \u2014 five separate company announcements stitched together with no analytical depth, no investment framing, and no original reporting beyond vendor quotes."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Building pharma's laboratory of the future",
+    "source": "McKinsey",
+    "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future",
+    "extraction_tier": "tavily",
+    "passed": true,
+    "reason": "Substantive McKinsey piece with concrete examples (Novartis, Roche, AstraZeneca, Genentech, BioNTech) and a structured architectural framework for AI-driven lab automation that directly intersects the reader's strong preferences for AI/biology intersection, data infrastructure, and competitive moat analysis."
+  },
+  {
+    "date": "2026-11-28",
+    "headline": "Heat Can Kill. It Can Also Heal",
+    "source": "Nautilus",
+    "url": "https://nautil.us/heat-can-kill-it-can-also-heal-1287047/",
+    "extraction_tier": "trafilatura",
+    "passed": false,
+    "reason": "The article is substantive and accurate to the shortlist summary, but it reads as general science journalism on sauna/heat therapy physiology rather than the kind of cross-domain, investment-relevant, or structurally surprising content the reader profile demands \u2014 it lacks the analytical depth, practitioner edge, or forward-looking investment angle that earns a Wildcard slot for this reader."
   }
 ]

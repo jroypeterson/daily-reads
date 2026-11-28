@@ -1,0 +1,51 @@
+{
+  "run_date": "2026-11-28",
+  "generated_at": "2026-11-28T19:32:56Z",
+  "counts": {
+    "gmail_items": 105,
+    "tier2_items": 71,
+    "selected_articles": 2
+  },
+  "feedback_summary": {
+    "low_score_count": 0,
+    "should_rewrite": true
+  },
+  "articles": [
+    {
+      "article_id": "2c9550a89ff2f710",
+      "headline": "Sanofi inks massive $41B Insmed buyout for post-Dupixent growth drivers",
+      "source": "FiercePharma",
+      "url": "https://www.fiercepharma.com/pharma/sanofi-inks-41b-insmed-buyout-post-dupixent-growth-drivers",
+      "slot": 1,
+      "summary": "Sanofi is acquiring Insmed for $41 billion ($175/share, ~46% premium over Monday's close), its largest deal since the 2004 Aventis merger, to diversify revenue ahead of Dupixent's 2031 patent expiration. The deal brings two commercial respiratory assets \u2014 Brinsupri (on pace for ~$1.4B in its first full year) and Arikayce (~$470M, with an FDA first-line approval decision expected in January) \u2014 plus late-stage pipeline asset TPIP across pulmonary hypertension and fibrotic lung disease. Guggenheim analysts peg combined peak sales potential above $15B, while Sanofi's CFO expects the deal to be EPS-accretive by end of 2028.",
+      "why_it_matters": "The deal sets a high-water valuation benchmark for commercial-stage respiratory and rare disease assets, signals resurgent large-cap pharma M&A appetite, and creates immediate positioning implications for INSM/SNY holders and investors in adjacent respiratory/rare disease names.",
+      "signal_tags": [
+        "ticker_match:INSM",
+        "ticker_match:SNY",
+        "catalyst_proximity",
+        "novelty",
+        "actionability"
+      ],
+      "reading_time": "4 min",
+      "snippet_only": false
+    },
+    {
+      "article_id": "4e3e24b6b8ff2536",
+      "headline": "Building pharma's laboratory of the future",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future",
+      "slot": 3,
+      "summary": "McKinsey argues biopharma has hit an inflection point where agentic AI and physical robotics can break the decades-long R&D productivity decline by creating closed-loop experimental systems where every run \u2014 including failures \u2014 becomes proprietary training data that improves the next experiment. The piece outlines a three-stage architectural progression from isolated automation islands to fully autonomous labs within 5\u201310 years, and details five structural design choices leaders must make, including what to build vs. procure and where to integrate tightly vs. modularly. Real-world examples include Genentech's 54-fold improvement in molecule selection via closed-loop AI and Novartis compressing a purification workflow from over a week to 42 hours.",
+      "why_it_matters": "For investors evaluating pharma and biotech competitive moats, this framework helps distinguish which companies are building durable, compounding R&D data advantages versus those making superficial automation investments \u2014 a key differentiator as AI lab automation accelerates.",
+      "signal_tags": [
+        "priority:high",
+        "ai_biology_intersection",
+        "data_infrastructure",
+        "analytical_depth",
+        "novelty"
+      ],
+      "reading_time": "7 min",
+      "snippet_only": false
+    }
+  ]
+}
